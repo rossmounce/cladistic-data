@@ -1,0 +1,19 @@
+#NEXUS
+
+[!Bloch, J. I., Secord, R. and Gingerich, P. D. (2004) Systematics and Phylogeny of Late Paleocene and Early Eocene Palaeoryctinae (Mammalia, Insectivora) from the Clarks Fork and Bighorn Basins, Wyoming. Contributions from the Museum of Paleontology, University of Michigan, 31(5), 119-154.
+ALL FOSSIL TAXA]
+
+begin data;
+dimensions ntax=8 nchar=33;
+format missing=? symbols="0123456";
+matrix
+Asioryctes 			00000 00000 00000 00000 00000 00000 000
+Aaptoryctes			11111 11211 11001 1?111 00111 11111 003
+Eoryctes			11111 01120 00??2 1???? 01012 11001 015
+Ottoryctes			11111 00020 00112 11101 01012 11000 006
+Palaeoryctes_puercensis		?1111 00220 00001 01110 11100 11011 011
+Palaeoryctes_punctatus		11111 00??0 00??1 0???? ????2 11??1 114
+Palaeoryctes_cruoris		????1 10011 1110? ??101 00012 11111 112
+Palaeoryctes_jepseni		?1111 00120 00101 0???? 0{01}01{12} 11101 113
+;
+end;

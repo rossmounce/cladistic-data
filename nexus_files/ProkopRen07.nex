@@ -1,0 +1,28 @@
+#NEXUS 
+
+[!Prokop, J. and Ren, D. 2007. New significant fossil insects from the upper carboniferous of ningxia in northern china (palaeodictyoptera, archaeorthoptera). European Journal of Entomology 104:267-275.]
+
+Begin data;
+	Dimensions ntax=17 nchar=15;
+	Format datatype=standard symbols="0123" missing=? gap=-;
+	Matrix
+Eugereonidae		{0,1} 0 0 1 0 0 0 0 1 {0,1} 0	0011
+Archaemegaptilidae	1 0 0 1 0 0 0 0 1 1 0	0101
+Graphiptilidae		? 1 0 1 ? 0 1 0 2 1 0	11?1
+Jongmansiidae		1 0 0 1 ? 1 ? 1 0 1 0	0101
+Lithomanteidae		0 0 0 1 ? 1 0 0 1 0 0	0{0,1}01
+Lycocercidae		1 {0,1} 0 1 1 0 1 0 1 1 0	0{0,1}01
+Megaptilidae		? {0,1} 0 1 ? 0 ? 0 ? ? 0	0??1
+Polycreagridae		? 1 2 1 ? 0 1 0 1 1 0	0101
+Protagriidae		1 0 2 0 0 1 1 0 2 0 0	0101
+Synarmogidae		0 1 {0,1}	1 1 1 1 0 1 {0,1} 0	1{0,1}11
+Tchirkovaeidae		1 0 2 1 ? 1 0 0 1 1 0	1110
+Namuroningxiidae	1 0 2 0 0 0 0 0 0 0 0	0000
+Breyeriidae		0 0 1 1 0 1 0 0 0 1 0 		{0,1}{0,1}10		
+Cryptoveniidae		1 1 1 1 ? 0 ? 0 ? ? 1 		1?11
+Stobbsiidae		? 1 2 1 ? 1 ? 0 0 {0,1} 0 	1?11
+Namurodiaphidae		1 0 1 1 ? 1 0 0 0 0 0		0011
+Syntonopteridae		1 0 1 0 ? 0 0 0 0 0 1		1011
+;
+end;
+

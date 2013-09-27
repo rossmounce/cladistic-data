@@ -1,0 +1,77 @@
+#NEXUS
+[File created by TreeBASE: 2/5/04 16:11:23]
+[Matrix accession#: M1750]
+BEGIN DATA;
+DIMENSIONS NTAX=16 NCHAR=55;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-2004.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=1750 on June 20, 2010, 11:14 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Banks, J. C., and A. M. Paterson. 2004. A penguin-chewing louse (Insecta: Phthiraptera) phylogeny derived from morphology. Invertebrate Systematics, in press.
+
+Study accession number = S1031
+Matrix accession number = M1750
+]
+FORMAT SYMBOLS = " 0 1 2 3 4 5 " MISSING = ? GAP = - ;
+MATRIX
+
+'Nesiotinus_demersus' 00000000000000000000000000000000000000000000000000?0000
+'Austrogoniodes_waterstoni' 000110111110101001000101100011110050110113111{01}{01}00101020
+'Austrogoniodes_vanalphenae' 1001001111111010010001001000111110200101121111{01}02101021
+'Austrogoniodes_metoecus' 1001000000011111000000101000111010500101040011100000000
+'Austrogoniodes_mawsoni' 0101100110001100020010011000111100401101111210012011110
+'Austrogoniodes_macquariensis' 000110100100002111110000100001110031010101011{01}{01}02111020
+'Austrogoniodes_keleri' 000?1???0?02?02?11?100?10?1?0?0?0???00?0010?1{01}?0???1020
+'Austrogoniodes_hamiltoni' 0001101101020021111200010010010100310000010110002111020
+'Austrogoniodes_gressitti' 100100000001101001101000100011111010010113021{01}002101020
+'Austrogoniodes_demersus' 1001001111111010010011001000111110201101121111{01}02111020
+'Austrogoniodes_cristati' 1001001101110010010011001000111110201101121111{01}02101021
+'Austrogoniodes_concii' 0001101101020021111000110010010100300000010100001111020
+'Austrogoniodes_brevipes' ?1?1?00010??1?10??0???0??0?0?1?1?0501?0???12??0??01111?
+'Austrogoniodes_bifasciatus' 1001001011111010010011001000111110201101121111{01}02111020
+'Austrogoniodes_bicornutus' 0001101101020021111200010010010100210000010100002111020
+'Austrogoniodes_antarcticus' 100100001001101001101000100011111010010113121{01}{01}10001020
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 6 trees. TreeBASE accession#: Tree2984 Tree2985 Tree2986 Tree2987 Tree2988 Tree2989 ]
+TRANSLATE
+1	'Austrogoniodes_macquariensis',
+2	'Austrogoniodes_antarcticus',
+3	'Austrogoniodes_bifasciatus',
+4	'Austrogoniodes_vanalphenae',
+5	'Austrogoniodes_bicornutus',
+6	'Austrogoniodes_waterstoni',
+7	'Austrogoniodes_gressitti',
+8	'Austrogoniodes_hamiltoni',
+9	'Austrogoniodes_brevipes',
+10	'Austrogoniodes_cristati',
+11	'Austrogoniodes_demersus',
+12	'Austrogoniodes_metoecus',
+13	'Austrogoniodes_mawsoni',
+14	'Austrogoniodes_concii',
+15	'Austrogoniodes_keleri',
+16	'Nesiotinus_demersus',
+;
+TREE 'Fig._9' = [&R] (((2,(((((((5,14),8),15),1),(9,13)),6),((3,11),(10,4))),7),12),16);
+TREE 'PAUP_5' = [&R] (((2,((((((((((5,14),8),15),1),(9,13)),6),4),(3,11)),10),7)),12),16);
+TREE 'PAUP_4' = [&R] ((((2,7),(((((((5,14),8),15),1),(9,13)),6),(((3,11),10),4))),12),16);
+TREE 'PAUP_3' = [&R] ((((2,(((((((5,14),8),15),1),(9,13)),6),((3,11),(10,4)))),7),12),16);
+TREE 'PAUP_2' = [&R] ((((2,7),(((((((5,14),8),15),1),(9,13)),6),((3,11),(10,4)))),12),16);
+TREE 'PAUP_1' = [&R] (((2,((((((((5,14),8),15),1),(9,13)),6),((3,11),(10,4))),7)),12),16);
+
+
+END;

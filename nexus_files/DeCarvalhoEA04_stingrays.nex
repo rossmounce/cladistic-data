@@ -1,0 +1,31 @@
+#NEXUS
+
+[De Carvalho, M. R., Maisey, J. G. & Grande, L. Freshwater stingrays of the green river formation of wyoming (early eocene), with the description of a new genus and species and an analysis of its phylogenetic relationships (chondrichthyes: Myliobatiformes). Bulletin of the American Museum of Natural History 1-136 (2004). URL http://dx.doi.org/10.1206/0003-0090(2004)284\%3C0001:FSOTGR\%3E2.0.CO;2. TABLE 7 matrix]
+
+BEGIN DATA;
+	DIMENSIONS NTAX=19 NCHAR=30;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="012";
+	
+	MATRIX
+Outgroup     	0000000 00000 000000000 000000 000 
+tHeliobans 	?????00 ?1000 ????00000 0101?? ??? 
+tAsteronygon   	?????00 ?1101 ??1?00000 0001?? ??? 
+Hexatrygon 	0000010 00000 ?01000000 0100?0 000 
+Plesiobatis 	0001010 11000 110200000 010000 001 
+Urolophus 	0001100 11010 111000001 0?0000 001 
+Trygonoptera 	0001100 11000 111010001 0000?0 001 
+Urobatis 	1001000 11001 111?10000 010000 011 
+Urotrygmt 	1001000 11002 111010000 010000 011 
+Paranygon 	0021000 11001 111000000 111201 101 
+Potamotrygon 	0011000 11101 111101000 111121 101 
+Plesionygon 	0011000 11101 111101000 111121 101 
+Himantura 	0001000 11101 111010000 011220 001 
+Taeniura 	0001000 11001 111010000 011110 001 
+Hiniantura 	01?1000 11001 111010000 011200 001 
+Pteroplalynygon 0101010 11001 111010000 011100 001 
+Dasyatis 	0101000 11001 111010000 011100 001 
+Gymnuridae 	0101001 10000 111000110 000200 001 
+Myliobatidae 	0201001 10012 110010010 001200 001
+;
+end; 
+

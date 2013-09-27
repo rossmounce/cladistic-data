@@ -1,0 +1,23 @@
+#NEXUS 
+
+[!Mayr, G. 2003. Phylogeny of early tertiary swifts and hummingbirds (aves: Apodiformes). The Auk 120:145-151]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=10 NCHAR=27;
+	FORMAT SYMBOLS= " 0 1 2" MISSING=? GAP=-;
+MATRIX
+Podargidae     0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  1 0 0 0 0 0
+Aegothelidae   0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0 0 0 0 0 0
+Aegialornis    0 0 ? 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 ? 0  0 ? 0 0 ? ?
+Argornis       0 0 0 ? ? ? 1 0 0 1 ? 0 0 0 0 0 0 1 1 0 0  0 ? ? ? ? ?
+Jungornis      1 0 0 0 1 0 1 1 1 2 1 0 1 1 1 0 0 ? 1 ? ?  ? ? ? ? ? ?
+Trochilidae    1 0 1 0 1 1 0 1 1 2 1 0 1 1 1 0 1 1 1 0 0  0 0 1 0 0 0
+Hemiprocnidae  0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 1 1 0 0 1 0  0 1 1 1 1 1
+Scaniacypselus ? 1 ? ? ? ? 0 1 1 2 0 1 0 0 0 1 1 0 0 ? 1  1 ? ? ? ? 1
+Apodidae       1 1 1 0 1 1 1 1 1 2 1 1 0 0 0 1 1 {01} 0 1 1 1 1 1 1 1 1
+Eocypselus     0 0 ? ? ? ? 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ?  ? ? ? ? ? ?
+;
+end;
+begin paup;
+ctype ord: 10;
+end;

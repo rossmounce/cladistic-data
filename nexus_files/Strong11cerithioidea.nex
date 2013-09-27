@@ -1,0 +1,64 @@
+#NEXUS
+
+[Strong E E (2011) More than a gut feeling: utility of midgut anatomy in phylogeny of the Cerithioidea (Mollusca: Caenogastropoda) Zoological Journal of the Linnean Society]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=44 NCHAR=28;
+	FORMAT SYMBOLS= " 0 1 2 3 4 5 6" MISSING=? GAP=- ;
+MATRIX
+
+Neocyclotus_dysoni_ambiguum	------- 0 -- 0 -- 3 1 0 ----- 0 - 0 0 0 0 0
+ Marisa_cornuarietis	------- 0 -- 0 -- 2 1 0 ----- 0 - 0 0 0 0 0
+ Viviparus_viviparus	------- 0 -- 0 -- 2 1 0 ----- 0 - 0 0 0 0 0
+ Littorina_littorea	1 ------ 0 0 - 0 -- 2 1 0 ----- 0 - 0 0 0 0 0
+ Strombus_mutabilis	1 -- 0 1 0 0 0 0 - 1 0 - 1 2 1 0 0 1 2 0 0 - 1 ? 2 1 1
+ Petaloconchus_varians	0 1 2 0 1 0 0 0 0 - 1 0 - 0 0 0 ---- 0 0 - 1 0 0 0 1
+ Serpulorbis_decussatus	0 1 ? 0 ? 0 0 0 0 - 1 0 - 1 2 0 ---- 0 0 - 1 0 0 0 1
+ Campanile_symbolicum	0 1 ----- 0 0 - 5 0 - 1 2 0 ---- 0 0 - 1 0 0 0 0
+ Plesiotrochus_unicinctus	------- 0 -- 0 -- 1 2 0 ----- 0 - 0 0 0 0 0 
+  Pyrazus_ebeninus	0 0 3 1 0 1 0 0 1 1 5 0 - 0 0 1 1 1 0 0 0 0 - 0 1 0 0 1
+  Velacumantus_australis	0 0 3 1 0 1 0 0 1 1 5 0 - 0 0 1 1 1 0 0 0 0 - 0 1 0 0 1	 
+  Alabina_sp.	? ? ? ? ? 0 0 0 ? ? 2 0 - 0 0 1 0 0 2 2 0 ? ? 0 ? 0 0 1
+  Bittium_reticulatum	0 1 2 1 1 0 0 0 0 - 2 0 - 0 0 1 0 0 2 2 0 0 - 0 0 0 0 1
+  Cacozeliana_granaria	0 1 2 1 1 0 0 0 0 - 6 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1
+  Cerithidium_fuscum	0 1 2 1 1 0 0 0 0 - 2 0 - 0 0 0 ---- 0 0 - 0 1 0 0 1
+  Cerithium_atratum	0 0 0 1 1 0 0 0 0 - 6 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1
+  Cerithium_nodulosum	0 0 0 1 1 0 0 0 0 - 6 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1
+  Ittibittium_parcum	0 1 2 1 1 0 0 0 0 - 2 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1	 
+  Diala_sulcifera_scobina	0 1 2 1 1 0 0 0 0 - 2 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1 
+  Diastoma_melanioides	0 0 2 1 0 0 0 0 0 - 6 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1	 
+  Alaba_opiniosa	0 1 2 1 1 0 0 0 0 - 2 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1	 
+  Modulus_modulus	0 0 1 1 0 0 0 0 1 0 2 0 - 1 0 1 0 1 1 0 0 0 - 0 1 1 0 1	 
+  Fossarus_ambiguus	0 1 2 0 0 0 0 0 1 0 2 0 - 0 0 1 0 0 2 2 0 0 - 0 1 0 0 1
+  Planaxis_sulcatus	0 0 2 1 0 0 0 0 1 0 4 0 - 0 0 0 ---- 0 0 - 0 0 0 0 1	 
+  Cerithidea_scalariformis	0 0 1 1 0 0 1 0 1 0 4 0 - 1 0 1 0 1 1 0 1 1 2 0 1 1 1 1
+  Telescopium_telescopium	0 0 0 0 0 0 0 0 1 0 4 1 0 1 0 1 0 1 1 0 1 1 2 0 1 2 1 1
+  Terebralia_semistriata	0 0 0 1 0 0 1 0 1 0 4 1 0 1 0 1 0 1 1 0 1 1 2 0 1 2 1 1
+  Tympanotonus_fuscatus	0 0 0 1 0 1 1 0 1 4 3 0 - 1 0 1 0 1 1 0 1 1 0 0 1 1 1 1	 
+  Finella_pupoides	? ? 2 1 ? ? 0 0 ? ? 2 0 - 0 0 ? ? ? ? ? 0 ? ? 0 ? 0 0 1
+  Scaliola_sp.	? ? 2 1 ? ? 0 0 ? ? 2 0 - 0 0 ? ? ? ? ? 0 ? ? 0 ? 0 0 1	 
+  Tenagodus_squamatus	1 - 2 0 1 0 0 0 0 - 5 0 - 0 0 1 1 2 0 0 0 0 - 0 0 0 0 1	 
+  Turritella_communis	0 0 2 1 1 0 0 0 0 - 5 0 - 0 0 1 1 2 0 0 0 0 - 0 1 0 0 1
+  Turritella_terebra	? ? ? ? ? ? ? 0 0 - 5 0 - 0 0 1 1 2 1 0 0 ? ? 0 ? 0 0 1	 
+  Holandriana_holandri	0 0 3 0 0 1 0 0 1 4 3 0 - 0 0 1 0 1 0 1 1 1 0 0 1 0 0 1
+  Melanopsis_praemorsa	0 0 3 0 0 1 0 0 1 4 3 1 0 0 0 1 0 1 0 1 1 1 0 0 1 0 0 1 
+  Brotia_pagodula	0 0 4 0 0 0 0 1 1 0 5 0 - 0 0 1 0 2 0 2 0 0 - 0 1 2 0 1
+  Doryssa_atra	? ? 4 0 0 0 0 1 1 0 5 0 - 0 0 1 0 2 0 2 0 0 - 0 ? 0 0 1
+  Faunus_ater	0 0 4 0 0 0 0 1 1 0 5 0 - 0 0 1 0 2 0 2 0 0 - 0 1 0 0 1
+  Pachychilus_indiorum	0 0 4 0 0 0 0 1 1 0 5 0 - 0 0 1 0 2 0 2 0 0 - 0 1 0 0 1	 
+  Cleopatra_johnstoni	0 0 0 1 0 1 0 0 1 3 3 1 0 1 0 1 0 1 1 0 1 1 1 0 1 1 0 1
+  Lavigeria_sp.	0 0 2 0 0 0 0 0 1 2 3 1 0 1 0 1 0 1 1 0 1 1 1 0 1 1 0 1
+  Paludomus_siamensis	0 0 1 1 0 1 0 0 1 3 3 1 0 1 0 1 0 1 1 0 1 1 1 0 1 1 0 1
+  Tanganyicia_rufofilosa	0 0 2 0 0 1 0 0 1 3 3 1 0 1 0 1 0 1 1 0 1 1 ? 0 1 1 0 1
+  Tiphobia_horei	0 0 0 0 0 1 0 0 1 3 3 1 0 1 0 1 0 1 1 0 1 1 1 0 1 1 0 1	 
+  Elimia_livescens	0 0 3 0 0 1 0 0 1 4 3 1 0 1 0 1 0 1 1 0 1 1 0 0 1 0 0 1
+  Pleurocera_acuta	0 0 3 0 0 1 0 0 1 2 3 0 - 1 0 1 0 1 1 0 1 1 0 0 1 0 0 1	 
+  Hua_jacqueti	0 0 3 0 0 1 0 0 1 2 3 0 - 1 0 1 0 1 1 0 1 1 0 0 1 0 0 1
+  Juga_silicula	0 0 3 0 0 1 0 0 1 4 3 0 - 0 0 1 0 2 0 0 1 1 0 0 1 0 0 1
+  Semisulcospira_libertina	0 0 3 0 0 1 0 0 1 0 3 0 - 1 0 1 0 1 1 0 1 1 0 0 1 0 0 1	 
+  Melanoides_tuberculata	0 0 0 1 0 1 0 0 1 4 3 1 1 1 0 1 0 1 1 0 1 1 1 0 1 2 0 1
+  Stenomelania_denisoniensis	0 0 0 1 0 1 0 0 1 4 3 1 1 1 0 1 0 1 1 0 1 1 1 0 1 2 0 1
+  Tarebia_granifera	0 0 0 1 0 1 0 0 1 4 3 1 1 1 0 1 0 1 1 1 1 1 1 0 1 2 0 1
+  Thiara_cancellata	0 0 0 1 0 1 0 0 1 4 3 1 1 1 0 1 0 1 1 1 1 1 1 0 1 2 0 1
+;
+end;

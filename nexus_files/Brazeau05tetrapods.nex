@@ -1,0 +1,24 @@
+#NEXUS
+[Brazeau, M. D. 2005. A new genus of rhizodontid (Sarcopterygii, Tetrapodomorpha) from the Lower Carboniferous Horton Bluff Formation of Nova Scotia, and the evolution of the lower jaws in this group. Canadian Journal of Earth Sciences 42:1481-1499.]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=15 NCHAR=24;
+	FORMAT SYMBOLS= " 0 1 2 3" MISSING=? GAP=-;
+MATRIX
+Gooloogongia 1110? ?0110 1???0 ????1 ???1
+Barameda ?111? 000?0 1???1 ??1?1 ??0?
+S._sauroides ?1122 211?1 00??1 03111 0111
+S._anculonamensis 2111? 211?? 0???1 ??1?1 ????
+Rhizodus 21122 00202 01111 03111 0111
+Screbinodus ?11?2 0020? 01?11 ??1?? ???1
+Letognathus 21111 10110 1011? 00111 011?
+Medoevia 10000 00000 0?1?0 10001 0000
+Eusthenopteron 20100 00000 000?0 10001 1000
+Kenichthys 10000 00000 ???10 01001 0000
+Panderichthys 21100 ?0000 00010 10001 1000
+Ventastega 31100 ?0000 01010 12001 1010
+Cladarosymblema 11000 10000 01110 10001 00?0
+Gogonasus 10000 10000 011?0 01001 0000
+Glyptolepis 00130 00000 00000 00000 0000
+;
+end;

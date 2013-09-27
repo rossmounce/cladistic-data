@@ -1,0 +1,24 @@
+#NEXUS
+
+[Woodburne, M. O. 2007. Phyletic diversification of the cormohipparion occidentale complex (mammalia; perissodactyla, equidae), late miocene, north america, and the origin of the old world hippotherium datum. Bulletin of the American Museum of Natural History pp. 1-138.]
+
+begin data;
+dimensions ntax=13 nchar=38;
+format symbols="0123456" missing=? gap=-;
+Matrix
+Parahippus_leonensis		00010000010000110040000000000000000000
+Merychippus_primus		00010000011000002110001100001000000000
+Merychippus_insignis		00111111021002121144001111001100110001
+Cormohipparion_goorisi		1032142201111??32223002211001011010011
+C.quinni		1032122201111?032414002222002112111011
+C.fricki		1032122101121??54505113322002110011112
+C.skinneri		10321222011212154??5103323002120011111
+C.johnsoni		103212220122131434050023230021??011012
+C.merriami		103212220112221535053033220031??011011
+C.matthewi		103212220112101543051043330021??011011
+C.occidentale		10321222011210154605324433112210011012
+LACM150080		?????????1???????5021055231142??011011
+H.primigenium		10321222000211251505234534113210011011
+;
+end;
+

@@ -1,0 +1,29 @@
+#NEXUS
+
+[Lieberman, B. S. Phylogenetic analysis of some basal early cambrian trilobites, the biogeographic origins of the eutrilobita, and the timing of the cambrian radiation. Journal of Paleontology 76 (2002). URL http://dx.doi.org/10.2307/1307101.]
+
+
+begin data;
+dimensions ntax=17 nchar=29;
+format missing=? symbols="0123" gap=-;
+matrix
+
+Olenellina  0000000000 00(012)00(02)0000 0000(02)0000
+Repinella_sibirica  00001(13)0100 ?001?110?0 010001???
+Profallataspis_jakurensiv  0000131100 1110111011 2200?????
+Pelmanaspis_jurii  0000131100 1110111011 2100?????
+Eofallotaspis_tioutensis  0010131100 1102?01101 1100?????
+Daguinaspi_ambroggii  0010131110 01(01)2200001 221000000
+Choubertella_spinosa  0110121110 1102200011 221001011
+Fallotaspis_typica  2100001100 0110201111 1000(12)1???
+F._bondoni  1100(01)(01)1101 1000121111 100021000
+Parafalloraspis_grata  1001121100 2102021101 1000??001
+Archaespis_hupei  2001111010 0100100111 1100?????
+A._nelsoni  1101131000 100020??11 100001???
+A._macropleuron  1101111001 000020??01 100010???
+Fallotaspidella_musatovi  1001111110 0110110100 0000?????
+Bigorina_bivallata  11011(13)1(01)10 11(12)2021000 0101??111
+Lemdadella_antarcticae  1001111(01)00 1120100000 0(01)01??111
+L._linaresiae  1101111100 (01)112120000 010101111
+;
+end;

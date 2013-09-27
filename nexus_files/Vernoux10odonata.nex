@@ -1,0 +1,20 @@
+#NEXUS 
+
+[!Vernoux odonata Cretaceous Research]
+
+Begin data;
+	Dimensions ntax=10 nchar=31;
+	Format datatype=standard symbols="012" missing=? gap=-;
+	Matrix
+Liassogomphus	2	2	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0
+Petalura	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+Araripegomphus	1	0/1	0	0/1	1/2	0	0/1	0/1	0/1	1	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	?
+Aphylla	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	1	0	1
+Progomphus	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	1	1	0	0
+Gomphus	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1	?
+Proterogomphus	1/2	1/2	0	1	1	0	1	1	0	1	0	0/1	0	1	1	1	0	0	1	0	1	1	0	0	0	1	1	1	1	1	?
+Cordulagomphus	2	2	0	0/1	2	0	1	1	1	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	?
+Procordulagomphus	2	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	0/1	0/1	1	1	1	1	1	1	1	1	1	1	1	?
+Lingomphus	0	1	1	0	0	0	0	0	0	0	0	1	0	?	?	1	0	0	1	0	1	1	0	0	0	0	1	1	1	1	?
+;
+end;

@@ -1,0 +1,36 @@
+#NEXUS
+
+[Candela, Y., 2010. Phylogenetic relationships of leptellinid brachiopods. Alcheringa: An Australasian Journal of Palaeontology.
+URL http://dx.doi.org/10.1080/03115518.2011.527165]
+
+
+Begin data;
+	Dimensions ntax=24 nchar=20;
+	Format datatype=standard symbols="0123" missing=? gap=-;
+	Matrix
+Taffia 1 2 0 1 2 1 0 2 1 1 0 0 0 0 2 0 1 1 0 0
+Leptellina 1 0 0 1 2 0 1 2 0 1 0 1 1 1 0 1 3 1 1 1
+Merciella 1 0 0 1 1 0 1 2 0 1 0 1 1 1 0 1 2 1 0 0
+Acculina 1 1 0 1 2 0 1 2 1 1 2 1 1 1 0 1 2 0 1 3
+Dulankarella 1 0 1 1 3 0 1 2 2 1 1 1 1 1 1 1 3 0 1 0
+Kajnaria 1 0 0 1 3 0 1 2 1 0 1 1 1 1 1 1 2 1 1 1
+Leptelloidea 0 0 0 0 2 0 0 1 1 1 1 1 1 1 1 1 2 1 1 0
+Mabella 1 0 0 0 1 0 0 2 0 1 0 3 1 1 1 1 2 1 2 0
+Reversella 1 1 0 1 3 0 0 ? ? 1 0 3 1 1 1 1 2 0 3 3
+Shlyginia 1 0 0 1 1 1 0 2 2 0 0 2 1 1 0 1 3 1 0 0
+Kilbuchomena 1 0 0 0 3 0 0 0 1 1 0 0 1 1 1 1 2 1 1 2
+Palaeostrophomena 1 1 0 1 3 0 1 2 1 1 0 1 0 1 0 0 0 0 2 3
+Apatomorpha 0 0 0 1 1 0 0 2 1 1 0 2 0 1 0 0 0 0 1 1
+Glyptambonites 1 0 0 1 1 0 1 2 1 1 0 1 0 1 0 0 0 0 2 3
+Ishimia 0 0 0 1 3 0 1 2 1 1 1 2 0 0 0 1 3 1 2 0
+Onegia 1 0 0 1 0 0 0 2 ? 0 0 1 0 0 0 1 2 1 0 0
+Titanambonites 1 0 0 1 3 0 2 2 1 0 2 2 0 1 0 0 0 0 2 3
+Toquimia 0 0 0 1 3 0 0 2 1 1 0 2 0 0 1 1 1 1 2 3
+Ujukites 1 1 0 1 1 0 0 2 1 1 1 2 0 0 0 0 0 0 0 0
+Tesikella 1 1 0 0 1 0 1 2 2 0 0 1 0 1 0 1 1 1 1 1
+Lepidomena 0 0 0 1 2 0 0 2 1 0 0 1 0 1 1 1 1 1 1 1
+Anchoramena 1 1 0 1 2 0 2 2 0 0 1 1 0 0 1 0 0 0 1 0
+Sowerbyites 1 0 0 1 2 0 2 2 2 0 0 1 1 0 0 0 0 1 1 1
+Goniotrema 1 0 0 3 ? ? 0 1 1 0 0 1 0 1 0 0 0 1 0 0
+;
+end;

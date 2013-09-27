@@ -1,0 +1,150 @@
+#NEXUS
+[File created by TreeBASE: 8/20/98 21:34:44]
+[Matrix accession#: M318]
+BEGIN DATA;
+DIMENSIONS NTAX=29 NCHAR=28;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-1998.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=318 on June 20, 2010, 11:21 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Ball, G.E., and D.R. Maddison, 1987. Classification and evolutionary aspects of the species of the New World genus Amblygnathus Dejean, with description of Platymetopsis, new genus, and notes about selected species of Selenophorus Dejean (Coleoptera: Carabidae: Harpalini). Transactions of the American Entomological Society, 113: 189-307.
+
+Study accession number = S282
+Matrix accession number = M318
+]
+FORMAT SYMBOLS = " 0 1 2 3 4 5 6 " MISSING = ? GAP = - ;
+CHARLABELS
+[1]	'median_lobe_ventral_flange'	[2]	'elytral_microsculpture'	[3]	'body_length'	[4]	'pronotal_hind_angle'
+[5]	'#_int_sac_spines'	[6]	'spine_size'	[7]	'spine_location'	[8]	'prostern._process'	[9]	'head_micros.'
+[10]	'elytral_intervals_with_vestitur'	[11]	'head_and_pronotum_color'	[12]	'clypeal_margin'	[13]	'left_mandible_apex'	[14]	'spermatheca'
+[15]	'male_lamina_width'	[16]	'lamina_length'	[17]	'lamina_apex_direction'	[18]	'apex_shape'	[19]	'median_lobe_apex_form'
+[20]	'median_lobe_dorsal_flange'	[21]	'dorsal_flange'	[22]	'female_tergum_8_setae'	[23]	'sac_microtrichia'	[24]	'leg_color'
+[25]	'median_lobe_venter_sculpture'	[26]	'elytral_color'	[27]	'median_lobe_venter_form'	[28]	'pronotal_base'
+;
+STATELABELS
+1 'absent' 'present',
+2 'isodiametric' 'transverse',
+3 '4.5-6.2mm' '6.3-7.0mm' '7.7-11.0mm' '>12.0mm',
+4 'rounded' 'subangulate' 'angulate',
+5 'none' 'one' 'two' 'numerous',
+6 'absent' 'small' 'medium' 'large',
+7 'absent' 'scattered' 'ventro-med' 'ventro-bas',
+8 'not' 'ridged',
+9 'isodiam' 'iso-transverse' 'transverse',
+10 '7-9_+_apex_1-6' '8-9_+_apex_1-7' '9_+_apex_1-8' '8-9' 'nine' 'ap_1-8' 'zero',
+11 'black' 'rufous' 'metal' 'black_and_flavous',
+12 '±_straight' 'concave',
+13 'normal' 'broad',
+14 'short_curve' 'long_coil',
+15 'broad' 'narrow',
+16 'long' 'moderate' 'short' 'absent',
+17 'straight' 'right' 'dorsal',
+18 'pointed' 'blunt',
+19 'very_short' 'mod_straight' 'long' 'sinuate',
+20 'not' 'bilobed',
+21 'absent' 'very_small' 'small' 'large',
+22 'absent' 'present',
+23 'normal' 'enlarged',
+24 'flavous' 'black',
+25 'smooth' 'serrate',
+26 'black' 'metallic' 'bicolored',
+27 'tapered' 'spatulate',
+28 'constricted' 'moderate' 'broadened',
+
+;
+
+MATRIX
+
+'Amblygnathus_janthinus' 1121000026210110012021000100
+'Amblygnathus_lucidus' 1121000024210110012021010101
+'Amblygnathus_reichardti' 1121000024210110012021010101
+'Amblygnathus_gigas' 1131000010010110013021010001
+'Amblygnathus_cephalotes' 1121000010010110013021010001
+'Amblygnathus_corvinus' 0121112014010110012020011002
+'Amblygnathus_bicolor' 01022120101111120?0011100011
+'Amblygnathus_darlingtoni' 01011120100111120?0011100011
+'Amblygnathus_geminatus' 0101112010011112011021100001
+'Amblygnathus_suturalis' 1111112021311112011020101201
+'Amblygnathus_braziliensis' 1101113016011112011020101001
+'Amblygnathus_xingu' 110111201601111201012?100001
+'Amblygnathus_gilvipes_peruanus' 01011120100111?3??1021100001
+'Amblygnathus_gilvipes_gilvipes' 01011120100111?3??1021100001
+'Amblygnathus_whiteheadi' 01022120120111?3??1?01000001
+'Amblygnathus_subtinctus' 0102222010011102011011000001
+'Amblygnathus_tikal' 0102212012011102011021000001
+'Amblygnathus_puncticollis' 0100222020011101101011000001
+'Amblygnathus_woodruffi' 0101222020011101101011000001
+'Amblygnathus_fricki' 010122201001110020101?000001
+'Amblygnathus_panamensis' 0101222010011100001011000001
+'Amblygnathus_evansi' 0100222013011101101011000001
+'Amblygnathus_interior' 0100222010011100102011000001
+'Amblygnathus_mexicanus' 0100222010011100102030000001
+'Amblygnathus_iripennis' 0101132010011100101020000001
+'Selenophorus_ruficollis' 0102311006100000101020000001
+'Selenophorus_amaroides' 1101000115000000101020000001
+'Selenophorus_ellipticus' 1001000102000000101020000001
+'Selenophorus_seriatoporus' 1010331003000001101020000001
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+TYPESET * UNTITLED = unord: 7 11 26 , ord: 1 - 6 8 - 10 12 - 25 27 - 28 ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 3 trees. TreeBASE accession#: Tree885 Tree886 Tree887 ]
+TRANSLATE
+1	'Amblygnathus_puncticollis_subgroup',
+2	'Amblygnathus_darlingtoni_subgroup',
+3	'Amblygnathus_cephalotes_subgroup',
+4	'Amblygnathus_subtinctus_subgroup',
+5	'Amblygnathus_suturalis_subgroup',
+6	'Amblygnathus_gilvipes_gilvipes',
+7	'Amblygnathus_gilvipes_peruanus',
+8	'Amblygnathus_cephalotes_group',
+9	'Amblygnathus_suturalis_group',
+10	'Selenophorus_seriatoporus',
+11	'Amblygnathus_puncticollis',
+12	'Amblygnathus_braziliensis',
+13	'Amblygnathus_darlingtoni',
+14	'Selenophorus_ellipticus',
+15	'Selenophorus_ruficollis',
+16	'Amblygnathus_panamensis',
+17	'Amblygnathus_subtinctus',
+18	'Amblygnathus_whiteheadi',
+19	'Amblygnathus_cephalotes',
+20	'Amblygnathus_reichardti',
+21	'Selenophorus_amaroides',
+22	'Amblygnathus_iripennis',
+23	'Amblygnathus_mexicanus',
+24	'Amblygnathus_woodruffi',
+25	'Amblygnathus_suturalis',
+26	'Amblygnathus_geminatus',
+27	'Amblygnathus_janthinus',
+28	'Amblygnathus_gilvipes',
+29	'Amblygnathus_interior',
+30	'Amblygnathus_corvinus',
+31	'Amblygnathus_bicolor',
+32	'Amblygnathus_lucidus',
+33	'Amblygnathus_evansi',
+34	'Amblygnathus_fricki',
+35	'Amblygnathus_tikal',
+36	'Amblygnathus_xingu',
+37	'Amblygnathus_gigas',
+38	'Amblygnathus',
+;
+TREE 'Fig._72' = [&R] (10,(15,((14,21),((22,(23,(((29,(33,(24,11))),34),(16,((35,18),17))))),(((36,(12,25)),((6,7),(26,(13,31)))),(30,((19,37),(20,(32,27)))))))));
+TREE 'Fig._71' = [&R] (10,(15,((14,21),((((((((22,23,29,(33,(24,11)),34),16),(35,18),17),13,31),(6,7),26),25),(36,12)),(30,((19,37),(20,32,27)))))));
+TREE 'Fig._70' = [&R] ((10,(14,21)),(15,(22,(23,((((29,33),(16,34,(24,11))),(35,(17,18))),(((6,7),(36,(12,25)),(26,(13,31))),(30,((19,37),(20,(32,27))))))))));
+
+
+END;

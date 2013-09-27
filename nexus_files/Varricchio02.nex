@@ -1,0 +1,47 @@
+#NEXUS 
+[Varricchio, D. J. 2002. A new bird from the Upper Cretaceous Two Medicine Formation of Montana. Canadian Journal of Earth Sciences pp. 19-26.]
+
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=35 NCHAR=26;
+	FORMAT SYMBOLS= " 0 1 2" MISSING=? GAP=- ;
+MATRIX
+Troodon_formosus		10110	10001 00010	00100 01000 1
+Deinonychus_antirrhopus		?0010	?1000 00010	00100 01000 1
+Neuquenornis_volans		00110	00000 01101	100?? ?11?1 0
+Struthio_camelus		10110	01000 10010	00110 01111 1
+Cryptureilus_soui		11110	11101 01111	10110 01111 1
+Diomedea_irrorata		11100	01100 00111	10110 00111 1
+Gavia_arctica			11100	01100 00000	10110 00111 1
+Podiceps_cristatus		11110	01001 00111	10110 10111 1
+Sula_basana			11110	01100 00011	10110 00111 1
+Scopus_umbretta			11110	01101 00011	10110 00111 1
+Phoenicopterussp		11100	01101 00011	10110 01111 1
+Buteo_jamaicensis		11110	01101 01011	10110 00111 1
+Aythya_affinis			11110	11100 00111	10110 00111 1
+Ortalis_motmot			11110	11111 11111	10110 00111 1
+Dendragapus_obscurus		11110	11111 11111	10110 00111 1
+Turnix_varia			01110	01100 01111	10110 00111 1
+Aramus_guarauna			11110	01101 00111	10110 00111 1
+Himantopus_mexicanus		11100	01101 00011	10110 00111 1
+Pterocles_quadricinctus		11110	11101 00111	10110 00111 1
+Columba_palumba			11110	01100 00011	10110 00111 1
+Goura_cristata			11110	01101 11111	10110 00111 1
+Nestor_notabilis		11110	01101 00011	10110 00111 1
+Tauraco_hartlaubi		01110	01101 00101	11110 00111 1
+Coccyzus_erythro		11100	01100 00101	10110 00111 1
+Opisthocomus_hoazin		11110	01100 00111	10110 00111 1
+Tyto_alba			11110	01101 00111	10110 00111 1
+Lithornis_sp			?0110	01100 00111	10110 00111 1
+Telmatornis_priscus		?1110	01001 00111	10110 0???? ?
+Presbyornis_sp			?1110	01101 00111	10??? ????? ?
+Telmabates_antiquus		?1110	0110? 0111?	??110 00111 1
+Torotix_clemensi		11110	01101 00111	10??? ????? ?
+Icthyornis			11110	01100 00111	11110 00111 1
+Sandcoleus_copiosus		?1100	01100 00011	00110 01111 1
+Palaeortyx_gallica		?1110	11101 01111	10110 0?1?? ?
+Piksi barbaruna			11111	11111 11111	11111 11111 1
+;
+end;
+
+

@@ -1,0 +1,206 @@
+#NEXUS
+
+[ File saved by NDE version 0.5.0, Mon May 10 09:02:00 2010 ]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=17;
+	TAXLABELS
+		'Cercyon lateralis'
+		'C. incantatus'
+		'C. goliathus'
+		'C. traipela'
+		'C. hanseni'
+		'C. papuensis'
+		'C. loksai'
+		'C. riedeli'
+		'C. hebaueri'
+		'C. cribripunctatus'
+		'Platycyon wauensis'
+		'Pelosoma eremita'
+		'Ercycodes fossus'
+		'Cercyodes laevigatus'
+		'Pseudosternum maculatum'
+		'Australocyon variegatus'
+		'Oosternum simplex'
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=32;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Head punctures'
+		[2] 'Anterolateral lobes of mentum'
+		[3] 'First club antennomere'
+		[4] Pedicel
+		[5] 'Ultimate antennomere'
+		[6] 'Median portion of prosternum'
+		[7] 'Prosternal process'
+		[8] 'Antennal grooves'
+		[9] 'Size of antennal grooves'
+		[10] 'Antennal grooves'
+		[11] 'Pronotal punctures'
+		[12] 'Posterior corners of pronotum'
+		[13] 'Mesal elytral series'
+		[14] 'Punctures of elytral intervals'
+		[15] 'Preepisternal elevation'
+		[16] 'Preepisternal elevation'
+		[17] 'Postcoxal ridge'
+		[18] 'Anterolateral ridge of metaventrite'
+		[19] 'Tuft of hairs on male protrochanter'
+		[20] 'Tuft of hair on male mesothochanter'
+		[21] 'Tuft of hair on male metatrochanter'
+		[22] 'Proximal portion of trochanters'
+		[23] 'Proximal portion of trochanters pubescent'
+		[24] 'Tibial grooves on femora'
+		[25] 'Median process of sternite 8'
+		[26] 'Median portion of male sternite 9'
+		[27] 'Lateral sturts of male sternite 9'
+		[28] 'Median lobe'
+		[29] 'Apex of median lobe'
+		[30] 'Lateral projections of median lobe'
+		[31] 'Anteriad-directed lobes of lateral projections of median lobe'
+		[32] 'Asymmetrical manubrium'
+		;
+	STATELABELS
+		1
+			'surrounded with porose area'
+			'not surrounded with porose area',
+		2
+			absent
+			present,
+		3
+			'as long as wide '
+			'elongate ',
+		4
+			'as long as antennomere 3'
+			'much longer than antennomere 3',
+		5
+			elongate
+			'not elongate',
+		6
+			'with median keel'
+			'lacking median keel',
+		7
+			emarginate
+			'not emarginate',
+		8
+			absent
+			present,
+		9
+			'extremelly small '
+			'moderately large ',
+		10
+			'rounded '
+			'angular ',
+		11
+			'surrounded by porose area'
+			'not surrounded by porose area',
+		12
+			rounded
+			angulate,
+		13
+			'not impressed'
+			'impressed ',
+		14
+			'not surrounded by porose area'
+			'surrounded by porose area',
+		15
+			'narow posteriorly'
+			'wide posteriorly',
+		16
+			'overlapping over metaventrite margin '
+			'not overlapping over metaventrite margin ',
+		17
+			'reaching mesally '
+			'not reaching mesally ',
+		18
+			absent
+			present,
+		19
+			absent
+			present,
+		20
+			absent
+			present,
+		21
+			absent
+			present,
+		22
+			smooth
+			'with microsculpture',
+		23
+			'yes '
+			'not ',
+		24
+			absent
+			present,
+		25
+			'wide '
+			'narrow ',
+		26
+			'V-shaped'
+			'U-shaped'
+			'tongue-shaped',
+		27
+			arcuate
+			sinuate,
+		28
+			'nearly parallel-sided'
+			'wide, narrowing apicad',
+		29
+			entire
+			bilobate,
+		30
+			absent
+			present,
+		31
+			absent
+			present,
+		32
+			absent
+			present,
+	;
+	MATRIX
+		'Cercyon lateralis'          1001100110 1110000000 0011-20000 -1
+		'C. incantatus'              11010110-- 1010000000 0000110000 -0
+		'C. goliathus'               01101110-- 01110000?? ?011?????? ??
+		'C. traipela'                11101110-- 1110000011 1011100111 01
+		'C. hanseni'                 11011110-- 1110000000 0011100000 -0
+		'C. papuensis'               11011110-- 1110000001 0011100100 -1
+		'C. loksai'                  11101110-- 1110000011 0011100111 01
+		'C. riedeli'                 01101110-- 1100000001 1011101111 11
+		'C. hebaueri'                01101110-- 0100000001 0011101111 11
+		'C. cribripunctatus'         01101110-- 0100000001 0011101101 11
+		'Platycyon wauensis'         1101101111 1110000100 0011110100 -1
+		'Pelosoma eremita'           1101100111 1110101000 0111111100 -1
+		'Ercycodes fossus'           10001000-- 1100011000 0101000000 -1
+		'Cercyodes laevigatus'       1000100100 11-0011000 0101000000 -1
+		'Pseudosternum maculatum'    1101100100 1110000100 0011110000 -1
+		'Australocyon variegatus'    1001100110 1110000000 0101010100 -0
+		'Oosternum simplex'          1011100110 1110000100 0111100000 -0
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+
+	[Character comments]
+
+	[Character state comments]
+
+	[Attribute comments]
+
+	[Taxon pictures]
+
+	[Character pictures]
+
+	[Character state pictures]
+
+	[Attribute pictures]
+ENDBLOCK;
+

@@ -1,0 +1,30 @@
+#NEXUS
+
+[Müller, J., Li, J.-L., and Reisz, R. 2008. A new bolosaurid parareptile, Belebey chengi sp. nov., from the Middle Permian of China and its paleogeographic significance. Naturwissenschaften 95:1169-1174.]
+
+Begin data;
+	Dimensions ntax=10 nchar=21;
+	Format datatype=standard symbols="01" gap=-;
+	Matrix
+Mesosauridae           00000       00000       00000       ??0000
+
+Millerettidae            00000       00000       00000       000000
+
+Owenettidae            00000       00000       00000       001101
+
+Acleistorhinus          00000       00001       ?0000       1?100?
+
+Bolosaurus_striatus   11010       11110       10100       111?1?
+
+Bolosaurus_grandis    11010       1????       101??       11????
+
+Eudibamus_cursoris    10000       11000       ?00?0       10?111
+
+Belebey_vegrandis      11111       01111       01111       111111
+
+Belebey_maximi          1?1?1       ?????       ?11??       ??????
+
+Belebey_chengi           10101       01???       01111       01????
+
+;
+end;

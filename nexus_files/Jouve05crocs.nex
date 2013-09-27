@@ -1,0 +1,25 @@
+#NEXUS
+
+[Jouve, S. 2005. A new description of the skull of Dyrosaurus phosphaticus (Thomas, 1893) (Mesoeucrocodylia: Dyrosauridae) from the Lower Eocene of North Africa. Canadian Journal of Earth Sciences 42:323-337.]
+
+Begin data;
+	Dimensions ntax=7 nchar=12;
+	Format datatype=standard symbols="012" gap=-;
+	Matrix
+Sarcosuchus	00001 00010 00
+Terminonaris	0?001 00110 10
+Hyposaurus	2?110 11001 11
+Rhabdognathus	21?11 11111 1?
+Dyrosaurus	21111 00001 11
+Sokotosuchus	1??00 00?11 01
+Phosphatosaurus ????0 ?0?01 01
+;
+end;
+
+
+
+
+
+
+
+

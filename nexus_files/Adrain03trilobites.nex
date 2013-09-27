@@ -1,0 +1,21 @@
+#NEXUS 
+[Adrain, J. M. 2003. Validity and composition of the Silurian trilobite genera Borealarges and Dicranogmus, with new species from the Canadian Arctic. Canadian Journal of Earth Sciences pp. 749-763.]
+
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=9 NCHAR=17;
+	FORMAT SYMBOLS= " 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Outgroup 	00000 00000 00000 00
+B.calei		0{01}000 01000 02100 00
+B.mikulicorum   00001 01000 00110 00 
+B.morrisoni     00001 01000 01100 00
+B.nicoae        11111 10111 11001 11
+B.reedi         00001 01000 01110 00
+B.tuckerae      11111 00111 01001 10
+B.warholi       11101 00111 01001 01
+B.yulei         11111 10111 11001 21
+;
+end;
+

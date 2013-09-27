@@ -1,0 +1,18 @@
+#NEXUS
+
+[!Müller, J., Renesto, S., and Evans, S. E. 2005. The marine diapsid reptile Endennasaurus from the upper triassic of italy. Palaeontology 48:15-30.]
+begin data;
+dimensions ntax=7 nchar=26;
+format missing=? symbols="012";
+matrix
+Araeoscelidia               00000 00000 00000 00000 00000 0
+Younginiformes               00000 00000 00001 10000 00000 0
+Askeptosaurus              20000 01111 11100 00101 11011 1
+Anshunsaurus               200?? ????1 10021 0120? 111?? ?
+Thalattosaurus               21111 11001 01112 11210 10??1 0
+Clarazia               11011 11001 01?12 01211 1010? 1
+Endennasaurus               201?? ?1111 0?01? 01??1 ??110 0
+;
+end;
+
+

@@ -1,0 +1,315 @@
+#NEXUS
+[File created by TreeBASE: 7/14/05 23:12:08]
+[Matrix accession#: M2332]
+BEGIN DATA;
+DIMENSIONS NTAX=13 NCHAR=89;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of 
+phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard 
+University, and UC Davis. Please do not remove this acknowledgment from the 
+Nexus file. 
+TreeBASE © 1994-2005.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at 
+http://www.brianomeara.info/treebasematrix.php?id=2332 on November 19, 2009, 
+4:20 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF 
+#EF-0423641, though this TreeBASE mirror is not approved or necessarily 
+supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. 
+Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Vieira, G. H. C., G. R. Colli, and S. N. Báo. 2005. Phylogenetic relationships 
+of corytophanid lizards (Iguania, Squamata, Reptilia) based on partitioned and 
+total evidence analyses of sperm morphology, gross morphology, and DNA data. 
+Zoologica Scripta, in press.
+
+Study accession number = S1329
+Matrix accession number = M2332
+]
+FORMAT SYMBOLS = " 0 1 2 3 " MISSING = ? GAP = - ;
+CHARLABELS
+[1] 'Lacrimal_5' [2] 'Skull_rugosity_7' [3] 'Jugal,_squamosal_contact_8' [4] 
+'Postfrontal_9'
+[5] 'Parietal_roof_shape_10' [6] 'Parietal_foramen_11' [7] 'Supratemporal_12' 
+[8] 'Osseous_labyrinth_13' [9] 'Endolymphatic_sacs_14'
+[10] 'Splenial,_anterior_extent_21' [11] 'Splenial,_posterior_extent_22' [12] 
+'Angular,_condition_of_contact_with_splenial_23' [13] 
+'Posterior_mylohyoid_foramen_24' [14] 'Ceratobranchials_29'
+[15] 'Clavicle_30' [16] 'Insertion_of_clavicle_31' [17] 'Interclavicle_32' [18] 
+'Sternum,_anterior_extent_33' [19] 'Caudal_vertebral_type_34'
+[20] 'Scapular_fenestra_35' [21] 'Posterior_coracoid_fenestra_36' [22] 
+'Median_enlarged_sternal_fontanelles_37' [23] 'Cervical_ribs_38' [24] 
+'Number_of_sternal_ribs_39'
+[25] 'Postxiphisternal_inscriptional_ribs_40' [26] 
+'Tail_autotomy_fracture_planes_41' [27] 'Interparietal_scale_42' [28] 
+'Subocular_scale_45' [29] 'Mid-dorsal_scale_row_46'
+[30] 'Gular_fold_47' [31] 'Femoral_pores_48' [32] 
+'Nasal_chamber,_S-condition_54' [33] 
+'Nasal_chamber,_fusion_of_nasal_concha_to_roof_of_nasal_chamber_55' [34] 
+'Nasal_chamber,_anole_condition_56'
+[35] 'Dorsal_shank_muscle_innervation_59' [36] 
+'Hemipenis,_capitation_and_sulci_61' [37] 
+'Hemipenis,_m._retractor_lateralis_posterior_62' [38] 
+'Hemipenis,_dorsal_accessory_sheath_64' [39] 'Colic_septa_65'
+[40] 'Roof_of_nasal_chamber_1' [41] 'Septomaxillae_2' [42] 
+'Nasal_median_contact_3' [43] 'Posterior_margin_of_nasals_4' [44] 
+'Prefrontal-nasal_relationship_5'
+[45] 'Anterolateral_spine_of_prefrontal_6' [46] 
+'Groove_at_prefrontal-lacrimal_junction_7' [47] 
+'Palatine-ectopterygoid_relationship_8' [48] 'Palatine_process_of_pterygoid_9' 
+[49] 'Quadrate_process_of_pterygoid_10'
+[50] 'Shape_of_mid-sagittal_section_of_frontal_11' [51] 
+'Squamosal_process_of_julgal_13' [52] 'Posterior_angle_of_jugal_15' [53] 
+'Supraorbital_process_16' [54] 'Lateral_shelves_of_adductor_crest_18'
+[55] 'Development_of_the_parietal_blade_20' [56] 
+'Parietal_blade_sexual_dimorphism_21' [57] 'Expansion_of_parietal_blade_22' [58] 
+'Dorsal_process_of_squamosal_23' [59] 'Squamosal_24'
+[60] 'Medial_concha_of_quadrate_25' [61] 'Quadrate_26' [62] 'Epipterygoids_27' 
+[63] 'Crista_ventrolateralis_28' [64] 'Outlines_of_bony_labyrinth_29'
+[65] 'Posttemporal_fenestra_30' [66] 'Coronoid_lateral_process_33' [67] 
+'Size_of_posterior_aspect_of_angular_(labial_view)_34' [68] 
+'Angular_process_size_35' [69] 'Angular_process_position_36'
+[70] 'Hyoid_apparatus_pattern_37' [71] 'Rostral_position_of_skull_38' [72] 
+'Crowns_of_posterior_marginal_teeth_39' [73] 'Number_of_presacral_vertebrae_40' 
+[74] 'Lumbar_ribs_41'
+[75] 
+'Ratio_of_number_of_neural_spines_to_number_of_transverse_process_in_caudal_verte' 
+[76] 'Neural_spine_height_44' [77] 'Rib_articulation_patterns_45' [78] 
+'Suprascapular_cartilages_46' [79] 'Dorsal_extent_of_clavicle_47'
+[80] 'Clavicular_lateral_margin_48' [81] 'Clavicular_fenestrae_49' [82] 
+'Preacetabular_process_50' [83] 'Anterior_extension_of_symphysis_pubis_51' [84] 
+'Infratemporal_fascia_52'
+[85] 'Insertion_of_M._adductor_mandibulae_externus_53' [86] 
+'M._levator_anguli_oris_54' [87] 
+'M._adductor_mandibulae_externus_superficialis_55' [88] 
+'M._adductor_mandibulae_externus_profundus_56' [89] 'Superciliary_scales_57'
+;
+STATELABELS
+1 'present' 'absent',
+2 'absent_or_restricted_to_frontal_bone' 'extensive',
+3 'not_or_barely_in_contact' 'broadly_juxtaposed',
+4 'present' 'extremely_small_or_absent',
+5 'trapezoidal' 'V_or_Y-shaped' 
+'Y-shaped_with_posteriorly_directed_median_crest_developed_postembryonically' 
+'Y-shaped_with_median_crest_developed_embrionically',
+6 'at_frontoparietal_suture_or_in_parietal' 'entirely_within_the_frontal',
+7 
+'mostly_on_the_lateral_or_ventral_surface_of_the_supratemporal_process_of_the_parietal' 
+'mostly_on_the_medial_surface_of_the_supratemporal_process_of_the_parietal' 
+'mostly_in_a_groove_in_the_ventral_margin_supratemporal_process_of_the_parietal',
+8 
+'low_to_moderate_elevation_of_the_osseous_labyrinth_above_the_general_level_of_the_opisthotics' 
+'high_elevation_above_the_general_level_of_opisthotics',
+9 'do_not_extend_outside_of_otic_capsule_into_nuchal_musculature' 
+'extend_in_nuchal_musculature',
+10 'extends_anteriorly_to_or_beyond_0.5_length_of_tooth_row' 
+'does_not_extend_anteriorly_more_than_0.5_length_of_tooth_row' 
+'does_not_extend_anteriorly_more_than_0.17_length_of_tooth_row',
+11 'terminates_posteriorly_anterior_to_anterior_edge_of_mandibular_fossa' 
+'terminates_posterior_to,_or_at_anterior_edge_of_mandibular_fossa',
+12 'angular_large;_suture_with_splenial_on_lingual_face' 
+'angular_small;_suture_with_splenial_on_ventral_or_labial_face',
+13 'anterior_to_or_approximately_at_the_level_of_superior_apex_of_coronoid' 
+'between_level_of_superior_apex_of_coronoid_and_anterior_end_of_adductor_fossa' 
+'posterior_to_anterior_end_of_adductor_fossa',
+14 'second_not_reaching_clavicles' 'reaching',
+15 'flat,_with_wide_lateral_flange' 'flange_small_or_absent',
+16 'on_suprascapula' 'on_scapula',
+17 'anterior_process_absent' 'anterior_process_well_developed',
+18 
+'sternum_does_not_approach_junction_of_posterior_and_lateral_processes_of_interclavicle_closely' 
+'approaches',
+19 'Sceloporus_condition' 'Iguana_condition' 'Basiliscus_condition' 
+'anole_condition',
+20 'present' 'absent',
+21 'present' 'absent',
+22 'absent_or_small,_often_hiden_by_interclavicle' 
+'present,_large,_and_not_paired' 'present,_large,_and_paired',
+23 'first_pair_on_vertebra_number_3' 'on_number_4' 'on_number_5',
+24 '4.' '3.' '2_or_fewer',
+25 'all_attached_proximally_to_dorsal_ribs_and_none_are_confluent_midventrally' 
+'one_or_more_pairs_attached_to_dorsal_ribs_and_are_confluent_midventrally' 
+'none_attached_to_dorsal_ribs_or_continuous_midventrally',
+26 'present' 'absent',
+27 'small_or_absent' 'large;_as_wide_as_interorbital_space',
+28 'at_least_one_scale_below_the_eye_conspicuously_enlarged' 
+'scales_below_the_eye_subequal',
+29 'present' 'absent',
+30 'complete_medially' 'incomplete_or_absent',
+31 'present' 'absent',
+32 'primitive_condition' 'S-condition,_septomaxilla_plow-share_shaped',
+33 'primitive_condition' 'fusion_of_concha_to_roof_of_nasal_chamber',
+34 'primitive_condition' 'nasal_concha_lost',
+35 'A-condition_(peroneus)' 'B-condition_(interosseus)',
+36 'unicapitate_or_weakly_bilobate_without_distinctly_divided_sulci' 
+'bilobate_with_distinctly_divided_sulci' 'strongly_bicapitate',
+37 'not_substantially_situated_within_the_hemipenial_sheath' 'substantially',
+38 'absent' 'present',
+39 'absent' 'present',
+40 'nasal_capsule_entirely_covered_by_frontal_and_nasals' 
+'nasal_capsule_uncovered_at_junction_of_frontal_and_nasals',
+41 
+'present,_contacting_each_other_at_midline,_the_maxillae_anteriorly_and_lying_on_the_top_of_the_vomers' 
+'present_as_small_slivers_of_bone_lying_within_the_nasal_cavity_that_do_not_contact_each_other_at_midline' 
+'absent',
+42 'separated_by_less_than_50%_of_their_length' 
+'separated_for_more_than_50%_of_their_length_by_nasal_process_of_premaxilla' 
+'completely_separated',
+43 
+'posterior_aspect_of_nasals_form_a_smooth_curve,_with_apex_in_the_middle_of_the_bone' 
+'posterior_aspect_of_nasals_pointed' 'posterior_aspect_of_nasals_squared',
+44 'broad_contact_between_prefrontals_and_nasals' 
+'small_area_of_contact_between_prefrontals_and_nasals,_with_nasals_separated_anteriorly_from_prefrontals_by_prefrontal_process_of_maxilla' 
+'prefrontals_completely_separated_from_nasals_by_prefrontal_process_of_maxilla_and_antero-lateral_process_of_frontal_bone',
+45 'absent' 
+'present,_projecting_anteriorly_over_the_premaxillary_process_of_maxilla',
+46 'absent' 'present',
+47 'no_contact_between_ectopterygoids_and_palatines' 
+'ectopterygoids_contact_palatines;_excluding_maxillae_from_infraorbital_foramen',
+48 'does_not_project_past_the_anteromost_border_of_infraorbital_foramen' 
+'extends_anteriorly_beyond_the_infraorbital_foramen',
+49 
+'tapering_posterioly,_of_with_parallel_ventral_and_dorsal_edges,_but_not_expanded' 
+'quadrate_process_of_pterygoid_expanded_terminally',
+50 'anterior_and_posterior_aspects_of_frontal_bone_curve_ventrally' 
+'frontal_bone_is_flat_in_mid-sagittal_section_view,_or_anterior_and_posterior_aspects_of_frontal_bones_curve_dorsally',
+51 'thin_squamosal_process' 'broad_squamosal_process',
+52 'not_expanded_postero-ventrally,_rounded' 
+'expanded_postero-ventrally,_with_postero-ventral_aspect_of_jugal_approaching_the_posterodorsal_aspect',
+53 'absent;_postorbital_and_prefrontals_lack_processes' 
+'intermediate_condition;_prefrontals_have_posteriorly_directed_process_and_postorbital_have_anteriorly_directed_processes' 
+'postorbitals_in_contact_with_prefrontals_via_a_supraorbital_arch',
+54 
+'absent_or_when_present_is_small_and_restricted_to_the_anterolateral_aspect_of_the_adductor_ridge' 
+'present_along_the_lateral_aspect_of_the_parietal_crest' 
+'large,_expanded_laterally_to_partially_overlie_the_supratemporal_opening',
+55 'post-embryonic_development_of_median_parietal_blade' 
+'embryonic_development_of_parietal_blade',
+56 'parietal_blade_well-developed_in_males_only' 
+'parietal_blade_well-developed_in_both_sexes',
+57 'absence_of_a_parietal_blade' 'dorsal_expansion' 'ventral_expansion',
+58 'prominent_dorsal_"hook"_contacting_the_supratemporal' 
+'no_dorsal_"hook",_i.e._ventral_projection_equals_dorsal_projection',
+59 
+'curves_dorsally,_not_contacting_or_overlapping_the_anterodorsal_aspect_of_the_quadrate_(single_articulation)' 
+'straight,_overlapping_the_anterodorsal_border_of_lateral_concha_of_quadrate,_with_sharp_laterally_pointed_spine_(double_articulation)',
+60 
+'expanded_medially_past_the_cephalic_condyle;_the_medial_concha_may_or_may_not_contact_the_antero-lateral_process_of_the_paraoccipital_process' 
+'not_expanded,_past_the_condyles_(constricted)',
+61 'posterior_crest_arches_anteriorly' 
+'posterior_crest_is_vertical_with_no_anterior_curvature',
+62 'contacting_the_ventral_portion_of_parietal' 
+'free_or_contacting_the_alar_process_of_prootic',
+63 'broad,_expanded_laterally_obscuring_the_vidian_canal' 
+'narrow,_not_expanded_laterally',
+64 
+'superficial_outlines_of_bony_labyrinth_obscure,_not_raised_above_the_surface_of_the_occiptal_bones' 
+'intermediate_condition' 
+'superficial_outlines_of_bony_labyrinth_very_distinct,__raised_well_above_the_surface_of_the_occiptal_bones',
+65 'open,_with_the_squamosal_process_at_an_angle_of_more_than_90_degrees' 
+'partially_closed' 
+'closed,_owing_to_the_limiting_angle_of_the_squamosal_process_of_parietal_(less_than_90_degree)',
+66 
+'coronoid_bone_with_a_small,_irregular_process_overlapping_the_posterolateral_surface_of_dentary' 
+'a_posteriorly_directed_curving_process_descends_over_the_posterodorsal_surface_of_the_dentary' 
+'coronoid_bone_without_a_process_overlapping_the_postero-lateral_surface_of_the_dentary',
+67 'extends_between_coronoid_process_and_articular_fossa' 
+'lateral_aspect_reduced,_does_not_extend_between_the_coronoid_process_and_the_articular_fossa',
+68 'well_defined,_in_juveniles_and_adults_(non-transforming_ontogeny)' 
+'small_in_juveniles_and_well-defined_only_in_large_specimens',
+69 'angular_process_positioned_in_a_horizontal_plane' 
+'positioned_in_a_oblique_plane',
+70 
+'z-pattern_in_wich_the_second_ceratobranchial_is_the_shortest_posterior_element,_the_first_ceratobranchial_and_the_ceratohyal_being_of_equal_length' 
+'x-pattern;_the_second_ceratobranchial_is_the_longest_element,_the_first_ceratobranchial_and_the_ceratohyal_may_or_may_not_be_equal_in_length',
+71 'arched_dorsally' 
+'rostral_position_of_skull_is_pointed_or_keel-shaped_(spatulate)',
+72 'tricuspid,_with_more_or_less_paralell_sides' 
+'tricuspid,_with_distinctly_expanded_crowns' 
+'tricuspid,_with_distinctly_tapered_crowns_and_very_small_secondary_cusps',
+73 '24.' '23.' '22.',
+74 'all_with_free_articulating_ribs' 'one_or_more_with_ribs_absent',
+75 '1$1_ratio' '2$1_ratio',
+76 'neural_spines_same_size_as_vertebral_body' 
+'neural_spines_enlarged_in_thoracic,_lumbar_and_caudal_regions_in_males' 
+'neural_spines_reduced,_shorter_than_height_of_vertebral_body',
+77 '6(4+2)' '7(4+3)' '5(3+2)' '6(3+3)',
+78 
+'project_dorsally_to_the_level_of_the_vertebrae,_sopmetimes_meet_above_neural_spines' 
+'suprascapular_cartilages_do_not_reach_the_level_of_the_vertebral_column',
+79 
+'clavicle_reaches_the_suprascapular_cartilages,_with_the_acromion_process_located_on_suprascapular_cartilage_or_at_the_scapulo-suprascapular_junction' 
+'clavicle_does_not_reache_the_suprascapular_cartilages,_with_acromion_process_located_on_anterior_aspect_of_scapula',
+80 'lateral_margin_of_clavicle_irregular,_or_forming_a_smooth_curve' 
+'lateral_margin_of_clavicle_distinctly_angular,_with_an_acute_projection_at_the_apex_of_the_angle',
+81 'absent' 'present',
+82 'prominent' 'reduced',
+83 'symphysis_pubis_does_not_extend_anteriorly_past_the_pubic_tubercles' 
+'symphysis_pubis_extends_anteriorly_past_the_pubic_tubercles_with_pubic_rami_join_together_forming_an_acute_angle',
+84 
+'fascia_present,_variably_covering_the_posterodorsal_aspect_of_the_infratemporal_fossa_to_the_entire_M._adductor_mandibulae_externus' 
+'little_fascia_present_at_posterodorsal_corner_of_infratemporal_fossa',
+85 'mandibular_insertion_projects_past_the_surangular' 
+'mandibular_insertion_restricted_to_surangular',
+86 'origin_includes_the_tympanic_crest_of_the_quadrate' 
+'does_not_originate_from_the_tympanic_crets_of_the_quadrate',
+87 'single_dorsal_head' 'two_separate_dorsal_heads',
+88 'dorsal_head_well_developed' 'dorsal_head_reduced' 'dorsal_head_is_absent',
+89 'elongate_and_strongly_overlapping' 'intermediate' 
+'quadrangular,_nonoverlapping',
+
+;
+
+MATRIX
+
+'Corytophanes_hernandezi' 
+00113101011000010021101001010010001010011111100101111211211111021111101001002001000011021
+'Corytophanes_percarinatus' 
+0011310101000001002110100101001000101001(12)1111001011122112111110220111110(01)1000011000011021
+'Corytophanes_cristatus' 
+0011310101?000010021101001010010001010011212101101112211210111022011111001000111000011021
+'Laemanctus_serratus' 
+01103?00000000000021101001010010001010001020010011010111210110020101101001023000100100112
+'Laemanctus_longipes' 
+01103?00000000000021101001010010001010001000010011010111210110020101101001021000100100112
+'Basiliscus_plumifrons' 
+00012100000000000021101000000010001010100000010010000000100000110000010100110000111000000
+'Basiliscus_galeritus' 
+000121000000000000211010000000100010101000000100100000001000001100000?0100100000111000000
+'Basiliscus_vittatus' 
+00012100000000000021101000000010001010000000010010000000100000110000000100100000111000000
+'Basiliscus_basiliscus' 
+00012100000000000021101000000010001010000000010010000000100000110000000100110000111000000
+'Polychrus_acutirostris' 
+110000011100111101??10221101?1000112000010000000000000000101000201101110000010100(01)(01)(01)00002
+'Tropidurus_etheridgei' 
+0000000002112000010001110010011010020100(01)01000000000000001000000021(01)10010000100(01)0(01)0010(01)00
+'Sauromalus_obesus' 
+000010100100000000100020?00100010000001000(012)00000000000000000000(01)020(01)1(01)010000000101001000(01)
+'Elgaria_panamintina' 
+000000000?0?00?010???0?0000?1000000?000??????????????????????????????????????????????????
+;
+END;
+
+BEGIN ASSUMPTIONS;
+CHARSET FrostEtheridge = 1 - 39 ; 
+CHARSET Lang = 40 - 89 ; 
+CHARSET TotalGrossMorphology = 1 - 89 ; 
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+TYPESET * UNTITLED = unord: 1 - 6 8 - 9 11 - 12 14 - 21 26 - 35 37 - 40 43 45 - 
+53 55 - 63 67 - 72 74 - 75 77 - 87 , ord: 7 10 13 22 - 25 36 41 - 42 44 54 64 - 
+66 73 76 88 - 89 ; 
+END;
+BEGIN TREEBASE;
+END;
+Begin Paup;
+set autoclose=yes warntree=no warnreset=no;
+exclude uninf;
+charset cra= 1-13 40-72;
+charset non= 14-39 73-89;
+charpartition crantest= 1:cra, 2:non;
+set maxtrees=5000 increase =no autoclose=yes;
+default hsearch addseq=random nreps=10 hold=500 nchuck=500 chuckscore=1;
+end;

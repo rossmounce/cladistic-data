@@ -1,0 +1,93 @@
+xread
+'Blagoderov, V., Hippa, H. & Nel, A. Parisognoriste, a new genus of lygistorrhinidae (diptera: Sciaroidea) from the oise amber with redescription of palaeognoriste meunier. ZooKeys 50, 79-90 (2010). URL http://dx.doi.org/10.3897/zookeys.50.506.'
+60 19
+Diadocidia_ferruginosa          020?00000000100102010000100000000000000000100001000000000201
+Archaeognoriste_primitiva       020000?0100000000000-010000000001000000000?0000110??0?100-?0
+Lebanognoriste_prima            021000???0000000??00-021001000000000000?11?0000?0?000?1100?1
+Plesiognoriste_zherikhini       02200000100000000100-010011011000000001111?0001?00000?111-?0
+Protognoriste_amplicauda        021000001000000001010011011010001000001111?00011?0??0?011-?0
+Leptognoriste_davisi            020000000000000001011000001010??1000001100?00001?0000?1001?0
+Parisognoriste_eocenica         02011101100000000100-0001010000110000011210100000000-?1----1
+Palaeognoriste_sciariforme      10300001000000000100-000101000001000001101100011?1111?100201
+Palaeognoriste_afine            10300201000000000100-000100000001000001101100010?1101?100??1
+Asiorrhina_asiatica             1031000100000110020100002011-1011000000000210000?00002100211
+Asiorrhina_paraasiatica         1031000100100110020100002011-10110000001002100????0002100211
+Lygistorrhina_sanctaecatherinae 2130100110000111111110102011-1001000011100?00110000101100131
+Lygistorrhina_fijiensis         2130000110001111111110112011-1???101111111?00010?0??11100131
+Labellorrhina_quantula          103001010001000101110011201111011110001101000011001111110120
+Blagorrhina_blagoderovi         1030011--1110001011110112011-10011200011?0001110101001110121
+Gracillorhina_gracilis          0031001--0211000011[01]00112010111110100011?0001110100001110121
+Loyugesa_khuati                 1030101--20111100200-1112011-1111120001100001110?1??111100?1
+Matileola_yangi                 2030101--00111110100-0102011-1001000001110001110011101110121
+Seguyola_vicina                 0030111--20101110100-110200011111121100?1000001001??0?110101
+;
+cc - 0.59;
+proc /;
+optcode f 0.59;
+
+#
+$
+;
+cn {0 Lenght_of_proboscis short_shorter_than_width_of_fore_femur long_shorter_or_equal_to_length_of_fore_femur very_long_loger_than_length_of_fore_femur;
+{1 Length_of_maxillary_palp much_shorter_than_labellum as_long_as_labellum longer_than_mouthparts;
+{2 Number_of_palpomeres four three two one;
+{3 Paraglossae_of_labellum two_separate_sclerites fused_together_except_distally;
+{4 Male_eyes dichoptic holoptic;
+{5 Vertical_difference_in_ommatidia_size ommatidia_equal dorsal_ommatidia_larger dorsal_ommatidia_smaller;
+{6 Median_ocellus present absent;
+{7 Median_ocellus same_size_as_lateral smaller_than_lateral;
+{8 Position_of_ocelli in_triangle almost_in_line;
+{9 Number_of_antennal_flagellomeres 14 12 11 10;
+{10 Shape_of_flagellomeres not_flattened_laterally laterally_flattened_ventrally_expanded laterally_flattened_ventrally_strongly_expanded;
+{11 Shape_of_scutum slightly_convex dome-shaped;
+{12 Setosity_of_scutum setose_all_over a_non-setose_stripe_between_dorsocentral_and_lateral_setosity;
+{13 Long_lateral_setae_on_scutum present absent;
+{14 Long_acrostichal_setae_on_scutum present absent;
+{15 Position_of_anterior_edge_of_notum just_above_fore_coxa_or_barely_anteriad well_anteriad_of_fore_coxa;
+{16 Position_of_anterior_edge_of_episternum_3_in_relation_to_anterior_margin_of_laterotergite approximately_at_the_same_level_or_posteriad_ much_anteriad_to_laterotergite;
+{17 Anterodorsal_angle_of_metepisternum higher_than_posterodorsal lower_than_posterodorsal same_level;
+{18 Form_of_laterotergite slightly_produced_ produced_strongly_lobe-like_posteroventrally;
+{19 Setae_on_laterotergite absent irregular;
+{20 Stae_on_laterotergite irregular one_row;
+{21 Shape_of_wing_apex normal unusually_broadly_rounded;
+{22 Sc joining_C ending_free ending_on_R;
+{23 Length_of_R1_in_relation_to_wing_length long_and_ending_at_middle_of_costal_margin_or_more_apically short_and_ending_in_basal_half_of_costal_margin;
+{24 Position_of_RS_relative_to_Sc beyond_or_at_the_level_of_Sc_apex in_the_middle_of_Sc at_the_level_of_h_crossvein;
+{25 vein_M2 present reduced;
+{26 Fork_of_M complete incomplete;
+{27 m-cu_crossvein present reduced;
+{28 m-cu_position proximal_alignged_with_r-m distal_making_cubital_fork;
+{29 R-s present_ absent_or_unsclerotized;
+{30 Setosity_of_R1 setose non-setose;
+{31 Setosity_of_R5 setose non-setose;
+{32 Medial_and_cubital_veins setose bare;
+{33 Colour_of_apical_part_of_wing_membrane without_a_dark_patch with_a_dark_patch;
+{34 Dark_basal_patch_on_cell_r1 absent a_restricted_patch_present_at_tip an_extensive_patch_present_extending_to_apical_half_of_the_cell;
+{35 Colour_of_the_area_around_bases_of_M1_and_M2 without_a_dark_patch with_a_dark_patch;
+{36 Colour_of_the_area_around_apex_of_CuA without_a_dark_patch with_a_dark_patch;
+{37 Concavity_on_proximal_half_of_lateral_surface_of_hind_coxa absent present;
+{38 Coxae same_length fore_longer;
+{39 Hind_coxa_setosity all_over base_bare;
+{40 Foretibia_length longer_than_fore_femur shorter_than_fore_femur same_length;
+{41 Tibial_and_tarsal_setae irregular in_rows;
+{42 Tibial_organ_(antero-apical_depression) absent fine_setae stout_setae;
+{43 Flap-like_lobe_distally_of_tibial_organ absent present;
+{44 Spur_on_T1 present absent;
+{45 Number_of_spurs_on_T2 two one;
+{46 Shape_of_T3 normal club-shaped;
+{47 Row_of_thick_setae_at_apex_of_T3 absent present;
+{48 Microtrichia_on_T3 absent present;
+{49 Shape_of_basitarsomere_3 slender_at_most_slightly_broader_than_basitarsomere_1 inflated_conspicuously_broader_than_basitarsomere_1;
+{50 Shape_of_claws_of_tarsus_1 pointed blunt;
+{51 Shape_of_claws_of_tarsus_2 pointed blunt;
+{52 Aggregation_of_thickened_setae_at_apex_of_male_tergite_9 absent present;
+{53 Tergite_9_apodeme absent long_and_directed_anteriorly short_and_directed_dorsally;
+{54 Abdomen_insertion wide narrow;
+{55 Shape_of_gonostylus slender stout;
+{56 Gonostyli bacilliform complicated_shape;
+{57 Gonostyli_armature no_teeth one_tooth two_teeth;
+{58 Flagellate_setae_on_medial_edge_of_gonostylus absent in_the_middle basally both_basally_and_in_the_middle;
+{59 Size wing_length_1mm wing_length_1_4_mm_or_more;
+;
+tread 'wha' (0(1(5((6(((((17(16 18))(13(14 15)))(11 12))(9 10))(7 8)))(2(3 4)))))) * (0(1(5((6(((((17(16 18))(15(13 14)))(11 12))(9 10))(7 8)))(2(3 4)))))) * (0((6(((((17(16 18))(13(14 15)))(11 12))(9 10))(7 8)))(5(1(2(3 4)))))) * (0((6(((((17(16 18))(15(13 14)))(11 12))(9 10))(7 8)))(5(1(2(3 4)))))) * (0(1 5(6(((((17(16 18))(13 14 15))(11 12))(9 10))(7 8)))(2(3 4))))
+;

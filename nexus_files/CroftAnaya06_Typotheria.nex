@@ -1,0 +1,20 @@
+#NEXUS
+
+[Croft, D. A. & Anaya, F. A new middle miocene hegetotheriid (notoungulata: Typotheria) and a phylogeny of the hegetotheriidae. Journal of Vertebrate Paleontology 26, 387-399 (2006). URL http://dx.doi.org/10.2307/4524578.]
+
+begin data;
+dimensions ntax=10 nchar=21;
+format missing=? gap=- symbols="0123";
+MATRIX
+Archaeohyrax		00000 00000 00000 0000? ?
+Prohegetotherium   	00000 00011 (01)0000 00101 0	     
+Prosotherium		01001 01001 01111 01210 0
+Propachyrucos 		00001 01001 0111? 01210 0
+Hegetotherium        	00001 101(01)1 10100 00101 0
+Hemihegetotherium	10011 10112 0110? 0??01 0
+Pachyrukhos		01101 00112 01111 01212 0
+Paedotherium 		01101 (01)0(12)0(12) 01110 01212 1
+Tremacyllus		01101 (01)0212 01111 11212 1
+H.trilobus		10011 001(01)2 0(01)110 00101 ?
+;
+end;

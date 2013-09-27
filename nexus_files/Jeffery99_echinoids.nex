@@ -1,0 +1,29 @@
+#NEXUS
+[Jeffery, C. H., 1999. A reappraisal of the phylogenetic relationships of somaliasterid echinoids. Palaeontology 42 (6), 1027-1041.
+URL http://dx.doi.org/10.1111/1475-4983.00109]
+
+begin data;
+dimensions ntax=19 nchar=24;
+format missing=? gap=- symbols="012";
+matrix
+Pygomalus_analis		0000010000	1000000000	0000
+Cardiaster_granulosus 		0000001000	0010001100	1100
+Echinocorys_scutata		0000000000	0010001000	0000
+Galeaster_bertrandi		00000?0010	0?10101000	0000
+Guettaria_rocardi		0100001000	0010101100	1100
+Labrotaxis_faxensis		0000000000	0010011100	1100
+Brightonia_macfadyeni		2010000100	0100010211	2212
+Iraniaster_douvillei		0011000100	0010001211	2212
+Iraniaster_morgani		0011000100	0?10001211	2212
+Iraniaster_omanensis		0011100100	0100010211	2212
+Leviechinus_gregoryi		2011100100	0100010211	2212
+Coraster_vilanovae		0010000100	1001010000	0000
+Cyclaster_pfenderae		1010000110	1001010211	2221
+Hemiaster_bufo		0010000100	1001010212	2221
+Linthia_sudanensis		0011100101	1001010212	2211
+Mauritanaster_gentili		0011100100	1001010211	2212
+Mecaster_fourneli		0011?0010?	?00?010212	2212
+Micraster_schroederi		0010000010	1001010211	2221
+Opissaster_elongatus		2011100100	1001010212	2221
+;
+end;

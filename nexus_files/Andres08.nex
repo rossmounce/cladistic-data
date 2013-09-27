@@ -1,0 +1,767 @@
+#NEXUS
+
+[ File output by Morphobank v2 (http://www.morphobank.org); 2009-11-2 14.27.21 ]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=61;
+	TAXLABELS
+		'Dimorphodon_macronyx'
+		'Campylognathoides_liasicus'
+		'Rhamphorhynchus_muensteri'
+		'Anurognathus_ammoni'
+		'Gnathosaurus_macrurus'
+		'Gnathosaurus_subulatus'
+		'Plataleorhynchus_streptophorodon'
+		'Huanhepterus_quingyangensis'
+		'Elanodactylus_prolatus'
+		'Kepodactylus_insperatus'
+		'Mesadactylus_ornithosphysos'
+		'Beipiaopterus_chenianus'
+		'Boreopterus_cuiae'
+		'Feilongus_youngi'
+		'Eosipterus_yangi'
+		'Pterodaustro_guinazui'
+		'Ctenochasma_elegans'
+		'Ctenochasma_porocristata'
+		'Gegepterus_changi'
+		'Cycnorhamphus_suevicus'
+		'Gallodactylus_canjuersensis'
+		'"Pterodactylus"_longicollum'
+		'Pterodactylus_kochi'
+		'Pterodactylus_antiquus'
+		'Germanodactylus_cristatus'
+		'Germanodactylus_rhamphastinus'
+		'Haopterus_gracilis'
+		'Anhanguera_piscator'
+		'Anhanguera_santanae'
+		'Anhanguera_blittersdorffi'
+		'Liaoningopterus_gui'
+		'Tropeognathus_mesembrinus'
+		'Lonchodectes_compressirostris'
+		'Liaoxipterus_brachyognathus'
+		'Nurhachius_ignaciobritoi'
+		'Istiodactylus_latidens'
+		'Istiodactylus_sinensis'
+		'Pteranodon_longiceps'
+		'Pteranodon_sternbergi'
+		'Nyctosaurus_gracilis'
+		'Nyctosaurus_bonneri'
+		'Tupuxuara_longicristatus'
+		'Tupuxuara_leonardii'
+		'Thalassodromeus_sethi'
+		'Tapejara_imperator'
+		'Tapejara_navigans'
+		'Tapejara_wellnhoferi'
+		'Huaxiapterus_jii'
+		'Sinopterus_dongi'
+		'Sinopterus_gui'
+		'Eopteranodon_lii'
+		'Noripterus_complicidens'
+		'"Phobetor"_parvus'
+		'Dsungaripterus_weii'
+		'Eoazhdarcho_liaoxiensis'
+		'Jidapterus_edentus'
+		'Chaoyangopterus_zhangi'
+		'Bakonydraco_galaczi'
+		'Azhdarcho_lancicollis'
+		'Zhejiangopterus_linhaiensis'
+		'Quetzalcoatlus_sp.'
+	;
+ENDBLOCK;
+
+
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=111;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="0123456";
+
+	CHARLABELS
+		 [1] 'Skull_length_exclusive_of_cranial_crests_'
+		 [2] 'Dorsal_margin_of_skull_shape_'
+		 [3] 'Rostrum_shape_'
+		 [4] 'Rostrum_length_anterior_to_external_nares_'
+		 [5] 'Anterior_end_of_premaxillae_maxillae_shape_'
+		 [6] 'Anterior_tip_of_the_rostrum_with_a_dorsally_reflected_palatal_surface_'
+		 [7] 'Nasoantorbital_fenestra_length_'
+		 [8] 'Posterior_margin_of_the_nasoantorbital_fenestra_shape_'
+		 [9] 'Orbit_shape_'
+		 [10] 'Orbit_position_'
+		 [11] 'Angle_between_lacrimal_and_postorbital_and_lacrimal_processes_of_the_jugal_'
+		 [12] 'Posteriorly-directed_process_on_the_jugal_process_of_the_lacrimal_'
+		 [13] 'Anteriorly-directed_process_on_the_postorbital_process_of_the_jugal_'
+		 [14] 'Suborbital_vacuity_'
+		 [15] 'Premaxillary_sagittal_crest_'
+		 [16] 'Premaxillary_sagittal_crest_shape_'
+		 [17] 'Elongate_dorsal_spine_extending_above_premaxillary_crest_'
+		 [18] 'Premaxillary_sagittal_crest_position_'
+		 [19] 'Lateral_expansion_of_the_anterior_tip_of_jaws_'
+		 [20] 'Posterior_ventral_expansion_of_the_maxilla_'
+		 [21] 'Nasal_process_'
+		 [22] 'Nasal_process_position_'
+		 [23] 'Free_nasal_process_length_'
+		 [24] 'Nasal_process_orientation_'
+		 [25] 'Foramen_on_nasal_process_'
+		 [26] 'Bony_frontal_crest_'
+		 [27] 'Bony_frontal_crest_shape_'
+		 [28] 'Lacrimal_process_of_jugal_thickness_'
+		 [29] 'Lacrimal_process_of_the_jugal_inclination_'
+		 [30] 'Bony_parietal_crest_'
+		 [31] 'Bony_parietal_crest_shape_'
+		 [32] 'Posterior_region_of_skull_rounded_with_squamosal_displaced_ventrally_'
+		 [33] 'Squamosal_position_'
+		 [34] 'Orientation_of_quadrate_relative_to_the_ventral_margin_of_skull_'
+		 [35] 'Position_of_articulation_between_skull_and_mandible_'
+		 [36] 'Helical_jaw_joint_'
+		 [37] 'Supraoccipital_shape_'
+		 [38] 'Distal_ends_of_paroccipital_processes_'
+		 [39] 'Palate_with_ridge_and_mandible_with_sulcus_'
+		 [40] 'Palatal_ridge_length_'
+		 [41] 'Palatal_ridge_shape_'
+		 [42] 'Interpterygoid_opening_size_'
+		 [43] 'Mandibular_symphysis_position_'
+		 [44] 'Bony_mandibular_symphysis_length_'
+		 [45] 'Anterior_tip_of_dentary_shape_'
+		 [46] 'Dentary_bony_sagittal_crest_'
+		 [47] 'Teeth_'
+		 [48] 'Tip_of_rostrum_'
+		 [49] 'Tip_of_mandible'
+		 [50] 'Posterior_margin_of_the_maxillary_toothrow_'
+		 [51] 'Toothrow_length_'
+		 [52] 'All_teeth_set_sub-horizontally_in_jaws_'
+		 [53] 'Distance_between_successive_teeth_'
+		 [54] 'Position_of_largest_maxillary_teeth_'
+		 [55] 'Variation_in_the_size_of_anterior_teeth_with_5th_and_6th_smaller_than_4th_and_7th_'
+		 [56] 'Tooth_shape_'
+		 [57] 'Tooth_height_'
+		 [58] 'Strongly_recurved_teeth_present_'
+		 [59] 'Inclination_of_teeth_'
+		 [60] 'Tooth_number_'
+		 [61] 'Notarium_'
+		 [62] 'Atlas_and_axis_'
+		 [63] 'Postexapophyses_on_cervical_vertebrae_'
+		 [64] 'Lateral_pneumatic_foramen_on_centrum_of_cervical_vertebrae_'
+		 [65] 'Mid-cervical_vertebrae_length_'
+		 [66] 'Neural_spines_of_mid-cervical_vertebrae_shape_'
+		 [67] 'Neural_spines_of_mid-cervical_vertebrae_height_'
+		 [68] 'Number_of_posterior-cervical_vertebrae_'
+		 [69] 'Neural_spines_of_posterior-cervical_vertebrae_height_'
+		 [70] 'Length_of_the_scapula_relative_to_coracoid_length_'
+		 [71] 'Proximal_surface_of_scapula_shape_'
+		 [72] 'Scapula_shape_'
+		 [73] 'Scapula_rotated_outwards_'
+		 [74] 'Scapula_articulates_with_notarium_'
+		 [75] 'Sternum_shape_'
+		 [76] 'Coracoid_contact_surface_with_sternum_'
+		 [77] 'Coracoidal_flange_'
+		 [78] 'Broad_tubercle_on_ventroposterior_margin_of_coracoid_'
+		 [79] 'Cristospine_constricted_behind_coracoid_facets_'
+		 [80] 'Cristopine_shape_'
+		 [81] 'Length_of_humerus_relative_to_metacarpal_IV_length_'
+		 [82] 'Length_of_humerus_relative_to_femur_length_'
+		 [83] 'Length_of_the_ulna_relative_to_the_femur_length_'
+		 [84] 'Ventral_surface_of_proximal_end_of_humerus_'
+		 [85] 'Dorsal_surface_of_proximal_end_of_humerus_'
+		 [86] 'Position_of_deltopectoral_crest_on_humerus_'
+		 [87] 'Deltopectoral_crest_of_humerus_shape_'
+		 [88] 'Medial_(ulnar)_crest_of_humerus_'
+		 [89] 'Medial_(ulnar)_crest_of_humerus_shape_'
+		 [90] 'Humerus_shaft_shape_'
+		 [91] 'Midshaft_of_humerus_tapered_'
+		 [92] 'Distal_end_of_humerus_'
+		 [93] 'Distal_end_of_humerus_1'
+		 [94] 'Length_of_ulna_relative_to_humerus_length_'
+		 [95] 'Length_of_ulna_relative_to_tibia_length_'
+		 [96] 'Diameter_of_the_radius_relative_to_the_ulna_diameter_'
+		 [97] 'Distal_syncarpal_shape_'
+		 [98] 'Medial_carpal_shape_'
+		 [99] 'Pteroid_length_'
+		 [100] 'Metacarpals_I-III_'
+		 [101] 'Length_of_first_wing_phalanx_relative_to_metacarpal_IV_length_'
+		 [102] 'Length_of_first_wing_phalanx_relative_to_tibia_length_'
+		 [103] 'Length_of_the_second_wing_phalanx_relative_to_the_first_phalanx_length_'
+		 [104] 'Length_of_second_wing_phalanx_relative_to_the_ulna_length_'
+		 [105] 'Length_of_the_third_wing_phalanx_relative_to_the_first_phalanx_length_'
+		 [106] 'Cross-section_of_second_and_third_wing_phalanges_'
+		 [107] 'Ischiopubic_plate_'
+		 [108] 'Strongly_bowed_femur_'
+		 [109] 'Angle_of_femur_caput_to_shaft_'
+		 [110] 'Length_of_the_femur_relative_to_metacarpal_IV_length_'
+		 [111] 'Length_of_metatarsal_III_relative_to_tibia_length_'
+	;
+	
+	STATELABELS
+		1
+		'between_three_and_five_times_the_height_(3.00_skull_length_height_5.00)'
+		'more_than_five_times_the_height_(skull_length_height_5.00)'
+		'less_than_three_times_the_height_(skull_length_height_3.00)'
+		,
+		2
+		'nearly_straight'
+		'convex'
+		'concave'
+		,
+		3
+		'compressed_laterally'
+		'compressed_antero-posteriorly'
+		'depressed_dorso-ventrally'
+		,
+		4
+		'less_than_50%_of_the_skull_length_exclusive_of_sagittal_crests'
+		'extremely_reduced'
+		'at_least_50%_of_the_skull_length_exclusive_of_sagittal_crests'
+		,
+		5
+		'straight'
+		'upturned'
+		'downturned'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'less_than_40%_of_the_skull_length'
+		'at_least_40%_of_the_skull_length'
+		,
+		8
+		'nearly_a_straight_angle'
+		'rounded_and_concave_outline'
+		,
+		9
+		'subcircular'
+		'small_and_circular'
+		'piriform'
+		'at_least_one_and_a_half_times_higher_than_wide'
+		,
+		10
+		'middle_of_the_skull_with_the_ventral_margin_of_the_orbit_below_the_middle_of_the_antorbital_nasoantorbital_fenestra_and_the_dorsal_margin_of_the_orbit_above_the_dorsal_margin_of_the_antorbital_nasoantorbital_fenestra'
+		'high_in_the_skull_with_the_ventral_margin_of_the_orbit_the_same_level_or_above_the_middle_of_the_antorbital_nasoantorbital_fenestra'
+		'low_in_the_skull_with_the_entire_orbit_lower_than_the_dorsal_margin_of_the_antorbital_nasoantorbital_fenestra'
+		,
+		11
+		'distinct_angle'
+		'infilled'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'striated_with_a_nearly_straight_dorsal_margin'
+		'round_and_blade-shaped'
+		'tall_anteriorly,_decreasing_in_height_posteriorly'
+		'low_anteriorly,_increasing_in_height_posteriorly'
+		'low_with_a_humped_antero-dorsal_margin'
+		'low_ridge'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'entire_crest_anterior_to_the_nasoantorbital_fenestra'
+		'crest_starting_anterior_to_and_extending_posterior_to_the_anterior_margin_of_the_nasoantorbital_fenestra'
+		'crest_starting_at_the_anterior_margin_of_the_nasoantorbital_fenestra_and_extending_backwards'
+		'crest_starting_near_the_anterior_margin_of_the_skull_and_extending_over_the_occipital_region'
+		'crest_starting_at_the_posterior_half_of_the_nasoantorbital_fenestra'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'placed_laterally'
+		'placed_medially'
+		,
+		23
+		'long'
+		'short'
+		,
+		24
+		'directed_antero-ventrally'
+		'directed_ventrally'
+		'directed_postero-ventrally'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'low_and_blunt'
+		'low_and_elongated'
+		'high_and_expanded'
+		,
+		28
+		'broad'
+		'thin'
+		,
+		29
+		'inclined_anteriorly'
+		'subvertical'
+		'strongly_inclined_posteriorly'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'blunt'
+		'laterally_compressed_and_posteriorly_expanded,_with_a_rounded_posterior_margin'
+		'constituting_the_base_of_the_posterior_portion_of_the_cranial_crest'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'above_the_base_of_the_lacrimal_process_of_the_jugal'
+		'below_or_level_with_the_base_of_the_lacrimal_process_of_the_jugal'
+		,
+		34
+		'subvertical'
+		'inclined_about_120_posteriorly'
+		'inclined_about_150_posteriorly'
+		,
+		35
+		'posterior_to_the_middle_of_the_orbit'
+		'anterior_to_the_middle_of_the_orbit'
+		'under_the_middle_of_the_orbit'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'does_not_extend_backwards'
+		'extends_backwards'
+		,
+		38
+		'not_expanded'
+		'expanded'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'tapering_anteriorly'
+		'confined_posteriorly'
+		,
+		41
+		'discrete'
+		'strong'
+		,
+		42
+		'larger_than_subtemporal_fenestra'
+		'smaller_than_subtemporal_fenestra'
+		,
+		43
+		'at_same_level_as_rami'
+		'located_well_below_rami'
+		'on_a_symphyseal_shelf_dorsal_to_ventral_margin'
+		,
+		44
+		'less_than_30%_of_the_mandible_length'
+		'at_least_30%_of_the_mandible_length'
+		,
+		45
+		'straight'
+		'projected_anteriorly'
+		'downturned'
+		'upturned'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'present'
+		'absent'
+		,
+		48
+		'teeth_present'
+		'teeth_absent'
+		,
+		49
+		'teeth_present'
+		'teeth_absent'
+		,
+		50
+		'extends_posterior_to_the_anterior_margin_of_naris_nasoantorbital_fenestra'
+		'at_or_anterior_to_the_anterior_margin_of_the_naris_nasoantorbital_fenestra'
+		,
+		51
+		'more_than_or_equal_to_one_third_of_the_skull_length'
+		'less_than_one_third_of_the_skull_length'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'most_less_than_the_diameters_of_the_teeth'
+		'most_more_than_the_diameters_of_the_teeth'
+		'most_constant_and_subequal_to_the_diameters_of_the_teeth'
+		,
+		54
+		'middle_of_maxilla'
+		'located_mesially'
+		'located_distally'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'recurved_and_labio-lingually_compressed'
+		'slender'
+		'sharp_and_conical'
+		'broad_with_oval_base'
+		'lancet-shaped_and_labiolingually_compressed'
+		'spike-shaped_with_wide,_subcircular_base'
+		,
+		57
+		'elongate_teeth_absent'
+		'elongate_teeth_present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'all_teeth_upright'
+		'anterior_teeth_procumbent'
+		'all_teeth_procumbent'
+		,
+		60
+		'less_than_100'
+		'at_least_100'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'unfused'
+		'fused'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'short_(length_mid-width_2.5)'
+		'elongate_(2.5_length_mid-width_5)'
+		'extremely_elongated_(length_mid-width_5)'
+		,
+		66
+		'blade-shaped'
+		'spike-shaped'
+		'ridge'
+		,
+		67
+		'tall'
+		'low'
+		'extremely_reduced_or_absent'
+		,
+		68
+		'one'
+		'two'
+		,
+		69
+		'tall'
+		'low'
+		,
+		70
+		'scapula_at_least_one_and_a_half_the_coracoid_length_(sca_cor_1.50)'
+		'scapula_between_one_and_one_and_a_half_times_the_coracoid_length_(1.00_sca_cor_1.50)'
+		'scapula_at_least_80%_but_less_than_the_coracoid_length_(0.8_sca_cor_1.00)'
+		'scapula_at_most_80%_of_the_coracoid_length_(sca_cor_0.8)'
+		,
+		71
+		'elongated'
+		'sub-oval'
+		,
+		72
+		'elongated'
+		'stout_with_constricted_shaft'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'semi-circular'
+		'rectangular'
+		'triangular'
+		,
+		76
+		'articulation_surface_flattened,_lacking_posterior_expansion'
+		'articulation_surface_oval,_with_posterior_expansion'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'shallow_and_elongated'
+		'deep_and_short'
+		,
+		81
+		'humerus_at_least_two_and_a_half_times_the_metacarpal_IV_length_(hu_McIV_2.50)'
+		'humerus_between_one_and_a_half_and_two_and_a_half_times_the_metacarpal_IV_length_(1.50_hu_McIV_2.50)'
+		'humerus_between_55%_and_up_to_one_and_a_half_times_the_metacarpal_IV_length_(0.55_hu_McIV_1.50)'
+		'humerus_at_most_55%_of_the_metacarpal_IV_length_(hu_McIV_0.55)'
+		,
+		82
+		'humerus_at_most_82%_of_the_femur_length_(hu_fe_0.82)'
+		'humerus_between_82%_and_140%_of_the_femur_length_(1.40_hu_fe_0.82)'
+		'humerus_at_least_140%_of_the_femur_length_(hu_fe_1.40)'
+		,
+		83
+		'ulna_at_most_160%_the_femur_length_(ul_fe_1.60)'
+		'ulna_more_160%_the_femur_length_(ul_fe_1.60)'
+		,
+		84
+		'pneumatic_foramen_absent'
+		'pneumatic_foramen_present'
+		,
+		85
+		'pneumatic_foramen_absent'
+		'pneumatic_foramen_present'
+		,
+		86
+		'proximally_placed'
+		'positioned_farther_down_on_humerus'
+		,
+		87
+		'broad_with_almost_straight_anterior_margin'
+		'subrectangular,_extending_down_the_humerus_shaft_for_greater_than_or_equal_to_30%_of_the_humerus_length'
+		'distally_expanded_and_rounded'
+		'warped'
+		'elongate_and_rounded'
+		'elongate_with_straight_proximal_and_distal_margins'
+		'enlarged_and_hatchet-shaped'
+		,
+		88
+		'reduced'
+		'distinct'
+		,
+		89
+		'directed_posteriorly'
+		'massive_with_a_developed_proximal_ridge'
+		,
+		90
+		'straight'
+		'bowed'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'oval_or_D-shaped'
+		'subtriangular'
+		,
+		93
+		'pneumatic_foramen_absent'
+		'pneumatic_foramen_present'
+		,
+		94
+		'ulna_less_than_one_and_a_half_times_humerus_length_(ul_hu_1.50)'
+		'ulna_at_least_one_and_a_half_times_humerus_length_(ul_hu_1.50)'
+		,
+		95
+		'ulna_at_most_the_tibia_length_(ul_ti_1.00)'
+		'ulna_longer_than_the_tibia_length_(ul_ti_1.00)'
+		,
+		96
+		'radius_more_than_half_of_the_ulna_diameter'
+		'radius_at_most_half_of_the_ulna_diameter'
+		,
+		97
+		'fused_in_a_rectangular_unit'
+		'fused_in_a_triangular_unit'
+		,
+		98
+		'longer_than_wide'
+		'wider_than_long'
+		,
+		99
+		'shorter_than_half_the_length_of_the_ulna'
+		'longer_than_half_the_length_of_the_ulna'
+		,
+		100
+		'articulate_with_carpus'
+		'metacarpal_III_articulates_with_carpus,_metacarpals_I_and_II_reduced'
+		'do_not_articulate_with_carpus'
+		,
+		101
+		'first_phalanx_at_least_twice_the_metacarpal_IV_length_(f1dIV_McIV_2.00)'
+		'first_phalanx_up_to_twice_the_metacarpal_IV_length_(1.00_f1dIV_McIV_2.00)'
+		'first_phalanx_at_most_the_metacarpal_IV_length_(f1dIV_McIV_1.00)'
+		,
+		102
+		'first_phalanx_less_than_one_and_a_third_the_of_the_tibia_length_(f1dIV_ti_1.33)'
+		'first_phalanx_at_least_one_and_a_third_the_tibia_length_(f1dIV_ti_1.33)'
+		,
+		103
+		'second_phalanx_at_least_the_first_phalanx_length_(f2dIV_f1dIV_1.00)'
+		'second_phalanx_between_70%_and_the_first_phalanx_length_(_0.70_f2dIV_f1dIV_1.00)'
+		'second_phalanx_at_most_70%_of_the_first_phalanx_length_(f2dIV_f1dIV_0.70)'
+		,
+		104
+		'second_phalanx_less_than_the_ulna_length_(f2dIV_ul_1.00)'
+		'second_phalanx_at_least_the_ulna_length_(f2dIV_ul_1.00)'
+		,
+		105
+		'third_phalanx_at_least_the_first_phalanx_length_(f3dIV_f1dIV_1.00)'
+		'third_phalanx_less_than_the_first_phalanx_length_(f3dIV_f1dIV_1.00)'
+		,
+		106
+		'round_to_subtriangular'
+		'inverted_T-shaped_cross_section'
+		,
+		107
+		'unexpanded'
+		'present'
+		'absent'
+		,
+		108
+		'absent'
+		'present'
+		,
+		109
+		'at_most_145_'
+		'greater_than_145_'
+		,
+		110
+		'femur_at_least_twice_the_metacarpal_IV_length_(fe_mcIV_2.00)'
+		'femur_between_one_and_a_quarter_and_twice_the_metacarpal_IV_length_(1.25_fe_mcIV_2.00)'
+		'femur_between_one_half_and_up_to_one_and_a_quarter_the_metacarpal_IV_length_(0.50_fe_mcIV_1.25)'
+		'femur_at_most_one_half_the_metacarpal_IV_length_(fe_mcIV_0.50)'
+		,
+		111
+		'metatarsal_III_between_one_third_and_one_half_of_the_tibia_length_(mtIII_ti_0.33)'
+		'metatarsal_III_at_most_one_third_the_tibia_length_(mtIII_ti_0.33)'
+		,
+	;
+	
+	MATRIX
+	'Dimorphodon_macronyx'		                      010000?03000000???0000?000?000?0?00?00????0?00000000100000000?00000??1000??00???11000000?1000000000000000?00010
+	'Campylognathoides_liasicus'		                000000?00000000???0000?000?000?00000000??00?20001000100000000000000??100??10000011100010???00010?00001011?10010
+	'Rhamphorhynchus_muensteri'		                 000000?00000000???0000?000?000?00120000??00110011000110110200000000001000?10000011100020?1000110??0001111010010
+	'Anurognathus_ammoni'		                       011100?0??000?0???0000?100?01?????????????0?00000000110200000???0????1??????????011??000?1000010??000100???0?00
+	'Gnathosaurus_macrurus'		                     ??????????????????1???????????????????100?0?000?0??11?01??11??11222????????????????????????????????????????????
+	'Gnathosaurus_subulatus'		                    10220000000000100110000000?010?1122?0010000?0000?10111011121???????????????????????????????????????????????????
+	'Plataleorhynchus_streptophorodon'		          ?02?00????????????1???????????????????0?????0?000??10101??11???????????????????????????????????????????????????
+	'Huanhepterus_quingyangensis'		               ?02?00????????10011???????????????????????0?000001?0110111110???22201??0??0??????10??04??1?0?1?????0???????01??
+	'Elanodactylus_prolatus'		                    ????????????????????????????????????????????????????????????0?1?122011000??000??2???1040?100?0?0?0101?0100?????
+	'Kepodactylus_insperatus'		                   ??????????????????????????????????????????????????????????????01121??????????????1?01040?1000????????????0?0???
+	'Mesadactylus_ornithosphysos'		               ??????????????????????????????????????????????????????????????01121??????????????{1,2}?00040?10?????????1?0????012?
+	'Beipiaopterus_chenianus'		                   ????????????????????????????????????????????????????????????0???10101100???010??2210?04??100?000??0?01201??0?20
+	'Boreopterus_cuiae'		                         1002000?000??00???00?????0???0???22?0?????0100000000110110110?00100?????????????210???????0??010??0?11111??0?21
+	'Feilongus_youngi'		                          12020000?00000100000000000?01111?2?0000???0100000110110111{0,1}0???????????????????????????????????????????????????
+	'Eosipterus_yangi'		                          ??????????????????????????????????????????????????????????????????????0???????????1????????0??00???0101110?0?20
+	'Pterodaustro_guinazui'		                     120210000000000???00000200?000?1122?000???013000010001011001??1110101?000?0000012110004???00?0100???101110?0?20
+	'Ctenochasma_elegans'		                       120200000000000???00{0,1}00200?010?1122?00????0100000101210110210?00101011000?0000??21000040?100?000??0?10111?10120
+	'Ctenochasma_porocristata'		                  ?20?00?????00?100100??????????????????0?????0?00010121?11021???????????????????????????????????????????????????
+	'Gegepterus_changi'		                         120210000001001000?0000200?000?1?22?0?0???0?300??10011?11021?011101???????0?10?????????????????????{0,1}1?1??0?0???
+	'Cycnorhamphus_suevicus'		                    120000000000000???00001?00??1111122??00???010000?110???111?0?0001010?1000?00000121000040?100?000???010111010121
+	'Gallodactylus_canjuersensis'		               120000000000000???00001000??111?1?2??0????0?00???????????????????????100???000???????????????????????0111?101?1
+	'"Pterodactylus"_longicollum'		               120000000000000???00000?00?010?1122?0?0????1000001001102001000001010?1000???00??20000040?000?000???010{1,2}11?10121
+	'Pterodactylus_kochi'		                       100000000000000???00000100?010?1122?000???0100000100110200000000101011000??000?021000040?10000{0,1}00?0010101010120
+	'Pterodactylus_antiquus'		                    100000000000000???00000100?010?1122?000???0100000100110200000000101011000?00000021000040?100?000000010101010120
+	'Germanodactylus_cristatus'		                 00000000000000100200000100?010?1022?00????0100011000100200000?0?1??011000??000??2100004??100?000????10111??0121
+	'Germanodactylus_rhamphastinus'		             00000000000000100200000000?010?1022?0?????0?00000000100200000?0?101???000??0????210??????100?000????10101?10121
+	'Haopterus_gracilis'		                        0000000?00?00?0???0001110??????0?1??0??????100000000110200000?0?0??0?200??0000002???0040?000?010????1?1110?????
+	'Anhanguera_piscator'		                       10000101201100110010010011001100011100???1010100000011150110011101010311??01001121101031001111111??1??1??020121
+	'Anhanguera_santanae'		                       1000010120110011?0100100110011000111001001010?0000001115?1100111010103111??100??211010310011???110?1111??02???1
+	'Anhanguera_blittersdorffi'		                 100001012011001100101????10011000111001001010100000011150110???????????????????????????????????????????????????
+	'Liaoningopterus_gui'		                       100?01?12{0,2}11001100?0???????01??00111??100?0?0?000?0011050110??110??????????????????????????????????????????????
+	'Tropeognathus_mesembrinus'		                 100001012011001100101????10011000111001011010100000011050110???????????????????????????????????????????????????
+	'Lonchodectes_compressirostris'		             ?00?0?????????0???0???????????????????100???000000?01105??{0,1}??????????????????????????????01????????????????????
+	'Liaoxipterus_brachyognathus'		               ??2?0?????????????0???????????????????????000?000?100?0400?0???????????????????????????????????????????????????
+	'Nurhachius_ignaciobritoi'		                  10000110?101?00???00???????11????11???????01000?0?10110400101?11010??2?1??0?0???2100?031001??111??011111???0?21
+	'Istiodactylus_latidens'		                    102001101101110???001??????120??0210??0???0000000110010400001?1?0?01?31111?00011?110?031001111?11?1???11??201??
+	'Istiodactylus_sinensis'		                    102001101101110???001????0?120?002100?????000000001001040000?1???10??3?1????00??2???003??01??11??0?111111020?2?
+	'Pteranodon_longiceps'		                      120210012010000???000111012011200111000??111001?????????????111101010210111000103101003100110000101211111010131
+	'Pteranodon_sternbergi'		                     12021?012010000???00?????1201120011?0?????110?1??????????????????????2??????????310??????0???00?????111110?013?
+	'Nyctosaurus_gracilis'		                      12020001?000000???001????12010?00121000??121001?????????????11100001020010000000310101610000?1101?1211111010031
+	'Nyctosaurus_bonneri'		                       1?0?0001?0???00???00?????????0?0??2?00????21001?????????????1?1?000??????0??????31???1610000?1?????2211?1?1??3?
+	'Tupuxuara_longicristatus'		                  ??0??0?0??0???130?0???????????????????111?????1????????????????????????????????????????????????????2???????????
+	'Tupuxuara_leonardii'		                       000000102200001303001????1111120011111111101001?????????????1111000??100?1?001?1200100511??0?0000???1021?0?0021
+	'Thalassodromeus_sethi'		                     00000010220000130300011101111120011111111?01001????????????????????????????????????????????????????????????????
+	'Tapejara_imperator'		                        2100201?2200001211001????1111120011?1???????2?1????????????????????????????????????????????????????????????????
+	'Tapejara_navigans'		                         2100201022000012110001010??11??0011?????????2?1????????????????????????????????????????????????????????????????
+	'Tapejara_wellnhoferi'		                      210020102200001201001????11111200110110??101211?????????????0?11000??100???001??200110511??0?0000?1?10???0?002?
+	'Huaxiapterus_jii'		                          01002010??0???1101001??????11????2????0???01211?????????????0???0?????????1001??2001?0511000?000?111101110?0021
+	'Sinopterus_dongi'		                          01002010220???110100010101111120?21?1?????01211???????????????1?000??1?01???0?012101?0511000?1000102101110?0?21
+	'Sinopterus_gui'		                            01002010??0???110100???????11????21???????01211???????????????1?000??1?01??00?0??10??0511000?100??0??0????10??1
+	'Eopteranodon_lii'		                          01002010??0???110?00???????11??????1??0???012?1???????????????1?100??{1,2}?0??0?1???210??051?000?100??1?1?11101002?
+	'Noripterus_complicidens'		                   ??0??0????????????????????????????????????0?000????01?030000??11000?????????0???3000105110000?000??0101??011021
+	'"Phobetor"_parvus'		                         000000001100011001011????1101120011?11????010001100012030000??????????????????????????5?????????01?????????????
+	'Dsungaripterus_weii'		                       000010001100011001011????11011200111110??101300110001203000011110001000011100?01300??05110?0?00001?0101110?1021
+	'Eoazhdarcho_liaoxiensis'		                   ??0???????????????0???????????????????0???11001????????????????0121??1?0????1???210??05??00??00???12101110?0?2?
+	'Jidapterus_edentus'		                        020000????????0???00??????????????????0???11001???????????????10121??1?0??10???1210??????00??000??1110211??0?21
+	'Chaoyangopterus_zhangi'		                    020?00????????0???00??????????????????????11001???????????????10121??100?????001300?00???000?000??1{1,2}10211010021
+	'Bakonydraco_galaczi'		                       ??0???????????????0????????????????1??0???01011???????????????10221????????????????????????????????????????????
+	'Azhdarcho_lancicollis'		                     ??0?0?????????????0????????????????1??0???????1?????????????11102221?????1?????????1015??0?0?????????????1?????
+	'Zhejiangopterus_linhaiensis'		               100000002210000???001????0?010?0111?1?????11001?????????????11??222?0100??1?10?1300??15??000?{0,1}00??122020?110021
+	'Quetzalcoatlus_sp.'		                        100?00002210001404001??????01????111??0???01001?????????????1110222101001100100130?101511000100001?2202011?00??
+	;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+	
+	[Character comments]
+
+	[Attribute comments]
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 86 ; LastModified -1001349200 ; FileSettings editor 0 0 67 1 ; Singles 000 ; Editor 00011001111111100100010010 0 24 Geneva 9 168 1 all ; EditorPosition 138 4 403 1007 ; TreeWindowPosition 46 6 699 974 ; ListWindow Characters closed Geneva 9 50 25 273 621 000 ; ListWindow Taxa closed Geneva 9 50 25 481 331 1000000 ; ListWindow Trees closed Geneva 9 50 10 129 379 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 686 964 ; StateNamesSymbols closed Geneva 9 7 584 109 144 718 ; WindowOrder ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; EditorToolsPosition 646 851 115 165 ; TreeToolsPosition 584 9 126 138 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 9 (normal) ; TreeShape 1.0 1.0 1110 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 3 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 8 8 2 2 2 2 2 2 2 2 2 Geneva 9 (normal) Times_New_Roman 10 (italic ) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 83 115 13 45 116 148 13 45 149 181 13 45 182 214 13 45 178 65 0 0 -3122 614 492 35 534 35 534 367 24 35 1 1 1 1 0 2 -39 4 -40 0 3 2 3 4 10 20 0 2 0100110000000001010000000110000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111100110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN TREES;
+TRANSLATE 1 Dimorphodon_macronyx , 2 Campylognathoides_liasicus , 3 Rhamphorhynchus_muensteri , 4 Anurognathus_ammoni , 5 Gnathosaurus_macrurus , 6 Gnathosaurus_subulatus , 7 Plataleorhynchus_streptophorodon , 8 Huanhepterus_quingyangensis , 9 Elanodactylus_prolatus , 10 Kepodactylus_insperatus , 11 Mesadactylus_ornithosphysos , 12 Beipiaopterus_chenianus , 13 Boreopterus_cuiae , 14 Feilongus_youngi , 15 Eosipterus_yangi , 16 Pterodaustro_guinazui , 17 Ctenochasma_elegans , 18 Ctenochasma_porocristata , 19 Gegepterus_changi , 20 Cycnorhamphus_suevicus , 21 Gallodactylus_canjuersensis , 22 "Pterodactylus" longicollum , 23 Pterodactylus_kochi , 24 Pterodactylus_antiquus , 25 Germanodactylus_cristatus , 26 Germanodactylus_rhamphastinus , 27 Haopterus_gracilis , 28 Anhanguera_piscator , 29 Anhanguera_santanae , 30 Anhanguera_blittersdorffi , 31 Liaoningopterus_gui , 32 Tropeognathus_mesembrinus , 33 Lonchodectes_compressirostris , 34 Liaoxipterus_brachyognathus , 35 Nurhachius_ignaciobritoi , 36 Istiodactylus_latidens , 37 Istiodactylus_sinensis , 38 Pteranodon_longiceps , 39 Pteranodon_sternbergi , 40 Nyctosaurus_gracilis , 41 Nyctosaurus_bonneri , 42 Tupuxuara_longicristatus , 43 Tupuxuara_leonardii , 44 Thalassodromeus_sethi , 45 Tapejara_imperator , 46 Tapejara_navigans , 47 Tapejara_wellnhoferi , 48 Huaxiapterus_jii , 49 Sinopterus_dongi , 50 Sinopterus_gui , 51 Eopteranodon_lii , 52 Noripterus_complicidens , 53 "Phobetor" parvus , 54 Dsungaripterus_weii , 55 Eoazhdarcho_liaoxiensis , 56 Jidapterus_edentus , 57 Chaoyangopterus_zhangi , 58 Bakonydraco_galaczi , 59 Azhdarcho_lancicollis , 60 Zhejiangopterus_linhaiensis , 61 Quetzalcoatlus_sp. ; TREE * stored_1 = (4 , (((1 , 2) , 3) , (((((((((((((5 , 6) , 7) , 8) , 9) , 10) , 11) , 13) , ((18 , 17) , (16 , 15 , (19 , 12)))) , (14 , (20 , 21))) , 22) , (24 , 23)) , (25 , 26)) , (27 , ((((((((29 , 28) , 30) , 31 , 32) , 33) , ((34 , 36 , 37) , 35)) , (38 , 39)) , (40 , 41)) , ((((42 , 43 , 44) , ((((49 , 50) , 51) , 48) , (47 , (45 , 46)))) , (52 , 53 , 54)) , (((55 , 56) , 57) , (58 , (59 , 60 , 61))))))))) ; TREE stored_2 = (4 , (((1 , 2) , 3) , (((((((((((((5 , 6) , 7) , 8) , 9) , 10) , 11) , 13) , ((18 , 17) , (16 , (19 , 15 , 12)))) , (14 , (20 , 21))) , 22) , (24 , 23)) , (25 , 26)) , (27 , ((((((((29 , 28) , 30) , 31 , 32) , 33) , ((34 , 36 , 37) , 35)) , (38 , 39)) , (40 , 41)) , ((((42 , 43 , 44) , ((((49 , 50) , 51) , 48) , (47 , (45 , 46)))) , (52 , 53 , 54)) , (((55 , 56) , 57) , (58 , (59 , 60 , 61))))))))) ;
+ENDBLOCK;

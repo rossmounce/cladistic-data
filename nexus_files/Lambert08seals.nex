@@ -1,0 +1,46 @@
+#NEXUS
+
+[!Lambert, O. A new porpoise (cetacea, odontoceti, phocoenidae) from the pliocene of the north sea. Journal of Vertebrate Paleontology 28:863-872.]
+
+begin data;
+dimensions ntax=16 nchar=27;
+format missing=? gap=- symbols="0123";
+MATRIX
+Kentriodon_pernix
+00000?0000 0000000000 00?????
+Delphinodon_dividum
+10000?0000 ?00?20?00? 0000???
+Salumiphocaena
+1102100020 10??11?0?? ???????
+Piscolithax_tedfordi
+1012101112 011?1?00?? ?0?????
+Piscolithax_boreios
+0002100122 010?00???? ???????
+Piscolithax_longirostris
+0002100112 001{01}001010 00?????
+Lomacetus
+0102100120 00000??0?? ??00???
+Australithax
+?102100120 0011?????? ???????
+Haborophocoena
+?011101?20 11?0?0???? ???????
+Septemtriocetus
+?011101?20 0111?????? ???????
+Phocoena_sinus
+2002110121 011?311110 0110001
+Phocoena_dioptrica
+200211012{12} 1111311{23}2{01} 0011110
+Phocoena_phocoena
+20{01}2110{01}2{01} 1111211{23}{12}1 1001101
+Phocoenoides_dalli
+20021{01}01{12}{12} 11112{01}1321 1100010
+Neophocaena_phocaenoides
+2112110{01}2{12} 11{01}1311111 00{01}0000
+Phocoena_spinipinnis
+2{01}02110121 0111311110 0100000
+;
+end;
+begin sets;
+taxset fossil = Kentriodon_pernix Delphinodon_dividum Lomacetus Salumiphocaena Australithax Septemtriocetus Haborophocoena Piscolithax_longirostris Piscolithax_boreios Piscolithax_tedfordi;
+taxset extant = Phocoena_spinipinnis Neophocaena_phocaenoides Phocoenoides_dalli Phocoena_phocoena Phocoena_dioptrica Phocoena_sinus;
+end;

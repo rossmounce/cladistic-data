@@ -1,0 +1,22 @@
+#NEXUS
+
+[Rücklin, M. 2011. First selenosteid placoderms from the eastern Anti-Atlas of Morocco; osteology, phylogeny and palaeogeographical implications. Palaeontology 54:25-62.]
+
+Begin data;
+ Dimensions ntax=12 nchar=23;
+ Format datatype=standard symbols="01" missing=? gap=- ;
+ Matrix
+Parabelosteus		0101100000	0000100000	000
+Brachydeirus		1010010100	?001010000	000
+Draconichthys		1010?????0	1?1?11?001	???
+Enseosteus		1010?????0	1?1?1111?1	111
+Gymnotrachelus		0110000101	0100111110	010
+Melanosteus		10?1?????1	1110111100	11?
+Microsteus		0011111001	1?111111?1	11?
+Pachyosteus		00101010?0	?0111111?0	???
+Rhinosteus_parvulus	1011101011	??11111110	110
+Stenosteus		0111101001	?110111110	011
+Selenosteus		00?0?????1	???0?11110	???
+Walterosteus		001010101?	??1111???1	???
+;
+end;

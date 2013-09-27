@@ -1,0 +1,120 @@
+#NEXUS
+
+[Sanchez, S., Dettaï, A., Bonillo, C., Ozouf-Costaz, C., Detrich, H., and Lecointre, G. 2007. Molecular and morphological phylogenies of the antarctic teleostean family nototheniidae, with emphasis on the trematominae. Polar Biology 30:155-166.]
+
+begin data;
+dimensions ntax=17 nchar=106;
+format missing=? gap=- symbols="0123" INTERLEAVE;
+matrix
+Eleginops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Dissostichus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Aethotaxis 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Pleuragramma 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Gvozdarus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Patagonotothen 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+Lepidonotothen 1 0 0 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 1
+Nototheniops 1 0 0 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 1
+Gobionotothen 1 0 0 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 1 1 0
+Lindbergichthys 1 0 0 1 1 1 1 0 0 1 1 0 0 0 0 0 0 0 1 1 0
+Notothenia 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0
+Paranotothenia 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0
+Indononothenia 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0
+Pagothenia 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Cryothenia 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Trematomus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Pseudotrematomus 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Eleginops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Dissostichus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Aethotaxis 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Pleuragramma 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Gvozdarus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Patagonotothen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ? ? 0
+Lepidonotothen 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0
+Nototheniops 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0
+Gobionotothen 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0
+Lindbergichthys 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+Notothenia 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+Paranotothenia 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1
+Indononothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+Pagothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Cryothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Trematomus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Pseudotrematomus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Eleginops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Dissostichus 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+Aethotaxis 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0
+Pleuragramma 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
+Gvozdarus 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0
+Patagonotothen 1 1 0 1 ? 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Lepidonotothen 1 1 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+Nototheniops 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+Gobionotothen 1 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+Lindbergichthys 1 1 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+Notothenia 0 0 1 ? 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+Paranotothenia 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Indononothenia 1 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+Pagothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+Cryothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Trematomus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Pseudotrematomus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Eleginops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Dissostichus 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 1 0 0 0 0 0
+Aethotaxis 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1
+Pleuragramma 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 1 1 1 1
+Gvozdarus 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 1 1
+Patagonotothen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Lepidonotothen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Nototheniops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Gobionotothen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Lindbergichthys 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Notothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Paranotothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Indononothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Pagothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+Cryothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+Trematomus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+Pseudotrematomus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+
+Eleginops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Dissostichus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Aethotaxis 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Pleuragramma 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Gvozdarus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Patagonotothen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Lepidonotothen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Nototheniops 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Gobionotothen 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Lindbergichthys 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Notothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Paranotothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Indononothenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Pagothenia 1 1 0 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 0 1 1 
+Cryothenia 1 1 0 1 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 0 1 
+Trematomus 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 1 
+Pseudotrematomus 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 ? ? ? ? ? 1 
+
+Eleginops 0
+Dissostichus 0
+Aethotaxis 0
+Pleuragramma 0
+Gvozdarus 0
+Patagonotothen 1
+Lepidonotothen 1
+Nototheniops 1
+Gobionotothen 1
+Lindbergichthys 1
+Notothenia 1
+Paranotothenia 1
+Indononothenia 1
+Pagothenia 1
+Cryothenia 1
+Trematomus 1
+Pseudotrematomus 1
+;
+end;
+
+
+

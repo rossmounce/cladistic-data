@@ -1,0 +1,21 @@
+#NEXUS
+
+[Germain, D. 2010. The moroccan diplocaulid: the last lepospondyl, the single one on gondwana. Historical Biology: An International Journal of Paleobiology 22:4-39.]
+
+begin data;
+dimensions ntax=11 nchar=49;
+format missing=? symbols="01" gap=-;
+matrix
+Ptyonius	10101	00001	11110	01111	00011	0?110	11100	10111	01110	1000
+Sauropleura	10111	00101	11110	01111	00011	0?011	10101	10?11	11110	1000
+Urocordylus	1010?	?0?01	11110	01111	010?1	0??11	00101	10111	01110	??00
+Scincosaurus	00001	00001	10010	01100	10001	0??00	01001	10001	10010	0010
+Keraterpeton	00001	00001	10010	01101	00100	1001?	?????	?????	?????	0001
+Diceratosaurus	00111	10001	10010	01101	?0100	10010	01000	10001	11010	1011
+Batrachiderpeton	00111	10001	10000	01101	00100	10110	01101	0?101	00010	00??
+Diplocaulus	01100	?1111	00001	11001	11100	11010	01111	11000	10000	010?
+D. minimus	01100	?011?	????1	11001	??10?	1101?	??1??	1????	????1	10??
+Diploceraspis	01100	?0110	???11	11001	11100	11010	01111	11000	10001	100?
+Peronedon	00110	?0110	???01	10?0?	01100	10010	01?01	1100?	1000?	????
+;
+end;

@@ -1,0 +1,15 @@
+#NEXUS
+
+[!Santini, F. and Tyler, J. C. 2002. Phylogeny of the ocean sunfishes (molidae, tetraodontiformes), a highly derived group of teleost fishes. Italian Journal of Zoology 69:37-43.]
+
+begin data;
+dimensions ntax=5 nchar=48;
+format missing=? symbols="012";
+matrix
+Triodon      000000000000000000000000000000000000000000000000
+Lagocephalus 100000000010110000000001001010000000000100000000
+Ranzania     211110111120101111011111112111000110010201111000
+Mola         211111111121011111111110112101111111111211111111
+Masturus     211111111121011111111110112101111111111211111111
+;
+end;

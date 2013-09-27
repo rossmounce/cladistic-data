@@ -1,0 +1,35 @@
+#NEXUS 
+
+[! Damiani, R. J. and Yates, A. M. 2003. The triassic amphibian thoosuchus yakovlevi and the relationships of the trematosauroidea (temnospondyli: Stereospondyli). Records of the Australian Museum 55:331-342.]
+
+Begin data;
+	Dimensions ntax=20 nchar=40;
+	Format datatype=standard symbols="0123" gap=-;
+	Matrix   
+ Almasaurus   01100 00011    11010   31210   00110 12022    1100?    0201?
+    Angusaurus   11111 00010    01111   31200   10101 10012    10010    01010
+ Aphaneramma     11112 00010    01011   31100   10111 ?2010    10110    0001?
+  Benthosuchus   10011 00111    01111   31100   11000 00012    11010    01000
+     Cosgriffius 11112 100??    ?10-?   00??0   1???? ??0?0    10???    ?????
+  Luzocephalus   00000 00110    00000   21100   00000 00011    11110    1????
+ Lydekkerinidae  00000 00110    00100   20100   01000 00011    11010    10000
+Lyrocephaliscus  11100 00010    01011   31200   10101 ?1011    10120    0????
+Metoposauridae   01100 00012    111-0   30211   01110 12021    11001    ?0011
+ Microposaurus   01101 00010    010 ? ? 3 ?200  10101 ?0000    10???    0????
+   Parotosuchus  00010 01212    00200   20100   02000 00121    11020    01101
+     Platystega  01111 00010    0????   30200   10111 ?1010    10???    ?????
+ Rhytidosteidae  01000 10010    000-0   20-00   00000 00000    10100    00001
+      Tertrema   11111 00010    01010   30200   10111 ?00?0    00???    ?????
+    Thoosuchus   11111 00011    01111   31200   11100 00012    10010    01010
+ Trematosaurus   11101 00010    01011   31200   10111 ?1010    10110    01010
+ Watsonisuchus   00010 01212    00200   20100   02000 00121    11020    01101
+ Wetlugasaurus   00010 00112    00200   21100   02000 00112    11020    01100
+Archegosauridae  {01}0011 0 0 0 0{01} 00000   30000   01000 0 0 0 0{01} 01010    00000
+  Rhinesuchidae  00010 00101    00000   10{01}0 0  01000 00001    01010    00010
+;
+end;
+
+begin paup;
+ctype ord: 5 8 13 18 27;
+end;
+

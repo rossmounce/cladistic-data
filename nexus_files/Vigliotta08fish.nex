@@ -1,0 +1,198 @@
+#NEXUS
+
+[!Vigliotta, T. R. 2008. A phylogenetic study of the african catfish family mochokidae (osteichthyes, ostariophysi, siluriformes), with a key to genera. Proceedings of the Academy of Natural Sciences of Philadelphia  157:73-136.
+ALL TAXA EXTANT]
+
+begin data;
+dimensions ntax=60 nchar=93;
+format missing=? gap=- symbols="012345" INTERLEAVE;
+matrix
+Diplomystidae		0 0 0 0 0 0 - 0 0  0  0  ?  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+Ameiurus_nebulosus      0 0 0 0 0 0 - 0 0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+Ictalurus_punctatus     0 0 0 0 0 0 - 0 0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+Pangasius_sutchi        0 0 0 0 0 0 - 0 0  1  0  0  0  0  0  0  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0
+Chrysichthys_mabusi     0 0 0 0 0 2 1 0 0  1  0  0  0  0  0  0  1  0  0  0  0  0  1  0  0  0  0  0  0  0  0
+Parauchenoglanis_punctatus  0 0 0 1 0 2 1 0 0  1  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0
+Schilbe_laticeps        0 0 0 0 0 2 1 0 0  1  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0
+Malapterurus_beninensis     0 0 1 0 0 2 1 0 0  1  0  0  0  0  0  0  -  -  -  -  -  -  1  1  0  1  0  0  0  0  0
+Amphilius_cryptobullatus    0 0 1 1 0 0 - 0 0  1  0  0  0  1  1  0  0  0  0  0  0  0  1  1  1  0  0  0  0  0  0
+Doumea_alula                0 1 1 1 0 0 - 0 0  1  0  0  0  1  1  0  0  0  0  0  0  0  1  1  1  0  0  0  0  0  0
+Phractura_lindica           0 1 1 1 0 0 - 0 0  1  0  0  0  1  1  0  0  0  0  0  0  0 {01} 1  1  0  0  0  0  0  1
+Tetracamphilius_notatus     0 0 1 1 0 2 1 0 0  1  0  1  0  1  1  0  0  0  0  0  0  0  2  0  1  0  0  0  0  0  0
+Zaireichthys_sp._tanzania 0 2 1 1 0 2 1 0 0  1  0  1  1  1  1  0  0  0  0  0  0  0  2  0  1  0  0  0  0  0  0
+Sciades_felis               0 0 0 0 0 2 1 0 0  1  0  1  1  0  1  0  1  0  0  0  1  0  2  0  0  0  0  0  0  0  0
+Bagre_marinus               0 0 0 0 0 2 1 0 0  1  0  1  1  0  1  0  1  0  0  0  1  1  2  0  0  0  0  0  0  0  0
+Trachelyopterus_sp.       0   0   0    0   0   2    1    0   0    1  0   1    1    1   1  0    2  0   0   1   0    0  2    0   0  0 0 0 0 0 0
+Agamyxis_albomaculatus          0   1   0    0   0   2    1    0   0    1  0   1    1    1   1  0    2  1   0   1   0    0  2    0   0  0 0 0 0 0 0
+Centrodoras_sp.                 0   1   0    1   0   2    1    0   0    1  0   1    1    1   1  0    2  1   0   1   1    0  3    0   0  0 0 0 0 0 0
+Platydoras_costatus             0   1   0    0   0   2    1    0   0    1  0   1    1    1   1  0    2  1   0   1   1    0  2    0   0  0 0 0 0 0 0
+Acanthocleithron_chapini        0   1   0    0   0   1    0    0   ?    1  1   1    1    1   1  0    2  0   0   0   1    0  2    ?   1  ? 1 0 1 1 2
+Atopochilus_savorgnani          1   2   1    1   1   2    1    1   -    0  0   1    1    1   1  0    2  0   0   0   0    0  1    1   1  1 1 1 1 1 2
+Atopodontus_adriaensi           1   2   1    1   1   2    1    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1 2
+Chiloglanis_batesii             0   2   1    1   0   0    -    1   -    0  0   1    1    1   1  0    1  0   1    -  0    0  1    1   1  1 1 1 1 1 2
+Chiloglanis_carnosus            0   2   1    1   0   2    1    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1 2
+Chiloglanis_congicus            0   2   1    1   0   2    0    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1 2
+Chiloglanis_disneyi             0   2   1    1   0   2    1    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1 2
+Chiloglanis_macropterus         0   2   1    1   0   2    0    1   -    0  1   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Chiloglanis_occidentalis        0   2   1    1   0   2    0    1   -    0  0   1    1    1   1  0    1  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Chiloglanis_polypogon           0   2   1    1   0   2    0    1   -    0  0   1    1    1   1  0    1  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Chiloglanis_sp._burundi       0   2   1    1   0   2    1    1   -    0  1   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Chiloglanis_sp._chambeshi     0   2   1    1   0   2    1    1   -    0  0   1    1    1   1  0    1  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Chiloglanis_sp._igamba        0   2   1    1   0   2    1    1   -    0  0   1    1    1   1  0    1  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Chiloglanis_sp._kalungwishi   0   2   1    1   0   2    1    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Chiloglanis_sp._ntumbachushi  0   2   1    1   0   2    1    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Euchilichthys_dybowskii         1   2   1    1   1   2    1    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Euchilichthys_geuntheri         1   2   1    1   1   2    1    1   -    0  0   1    1    1   1  0    2  0   1    -  0    0  1    1   1  1 1 1 1 1   2
+Euchilichthys_royauxi	12111211-0011110201-00111111112
+Microsynodontis_emarginata	0101020000111110200000211111111
+Microsynodontis_vigilis	0101020000111110200000211111111
+Microsynodontis_sp._odzala	0101020000111111200000211111111
+Mochokiella_paynei	0010021000111110220011211110100
+Mochokus_brevis		0010021001011110220110211110000
+Mochokus_niloticus	0010010001011110220010211110000
+Synodontis_acanthomias	0101021010111111200111211111111
+Synodontis_acanthoperca	0101010000111110200010211111111
+Synodontis_batensoda	0101021010111111200111211111111
+Synodontis_batensii 	0101021010111111201-11211111111
+Synodontis_clarias	0101021010111111200111211111112
+Synodontis_congica	0101021010111111200111211111112
+Synodontis_contracta	0101021010111110201-11211111112
+Synodontis_gambiensis	0101021010111111200111211111111
+Synodontis_katangae	0101021010111111200111211111112
+Synodontis_longirostris	0101021010111111200111211111112
+Synodontis_membranacea	0101021010111111200111211110111
+Synodontis_nigrita 	010102101011111120{01}111211111111
+Synodontis_nigriventris	0101021010111110201-11211111111
+Synodontis_njassae	0101021010111111200111211111111
+Synodontis_pleurops	0101021010111111200111211111112
+Synodontis_schall	0101021010111111200111211111111
+Synodontis_sorex	0101021010111111200111211111112
+
+Diplomystidae 		000000000?000000000000000?00000
+Ameiurus_nebulosus	0000000000000000000000000000100
+Ictalurus_punctatus	0000000000000000000000000000100
+Pangasius_sutchi	0000000000000000000000000001000
+Chrysichthys_mabusi	0000000000000000000000000011000
+Parauchenoglanis_punctatus	0000000100000000000000000010000
+Schilbe_laticeps	0000000000000000000000000011000
+Malapterurus_beninensis	0000000101000000000002-00?0021-
+Amphilius_cryptobullatus	0000000101000001000002-01100200
+Doumea_alula		0000000100000000110022-01100200
+Phractura_lindica	00000001010000011100{12}2-01100200
+Tetracamphilius_notatus 0000002101000001010010001100210
+Zaireichthys_sp._tanzania 0100000101000000000011001100020
+Sciades_felis 		000000000000000000003001-121000
+Bagre_marinus		000000010000000000002001-121000
+Trachelyopterus_sp.	000000000000001000000101-101021
+Agamyxis_albomaculatus	000000000000001000001101-101031
+Centrodoras_sp.		000000000000001000001101-1010{12}1
+Platydoras_costatus	000000000000001000001101-101021
+Acanthocleithron_chapini	400000110?1000100100111????1010
+Atopochilus_savorgnani	21021111210220101110{01}0001120010
+Atopodontus_adriaensi	3102111121022011110000001100110
+Chiloglanis_batesii	1113111111021011110030201100210
+Chiloglanis_carnosus	1102111111021011110020001120200
+Chiloglanis_congicus	1102111111022011110020001120200
+Chiloglanis_disneyi	111211111102101{01}110030001120200
+Chiloglanis_macropterus	1102110111021011110010001020120
+Chiloglanis_occidentalis	11131101110220111100?0201100210
+Chiloglanis_polypogon	111311011102101{01}110030201100210
+Chiloglanis_sp._burundi	1102110111021011110010001120110
+Chiloglanis_sp._chambeshi	1113110111021011110030001120210
+Chiloglanis_sp._igamba	11131101110220111100{23}0001100210
+Chiloglanis_sp._kalungwishi	1102110111021011110020001120210
+Chiloglanis_sp._ntumbachushi	1113110111021011110020001100210
+Euchilichthys_dybowskii	2102111121022010111010001120010
+Euchilichthys_geuntheri	31021111210220101110100011201{01}0
+Euchilichthys_royauxi	3102111121022010111000001120100
+Microsynodontis_emarginata	1001110100111010010011000011030
+Microsynodontis_vigilis	1001110100111010010011000011030
+Microsynodontis_sp._odzala	1001110100111010010011000011030
+Mochokiella_paynei	0000000100110110010021000011020
+Mochokus_brevis		0000000000000010010011001001040
+Mochokus_niloticus	0000000100000010010031001001031
+Synodontis_acanthomias	1001110100121010010011000011000
+Synodontis_acanthoperca	1001110100111110010021000011020
+Synodontis_batensoda	1001110100111010010111000011000
+Synodontis_batensii	1001110100111010010021000011021
+Synodontis_clarias	1001110100121010010021000011011
+Synodontis_congica	1001110100111010010011100011010
+Synodontis_contracta	1001110100111010010011000000120
+Synodontis_gambiensis	1001110100111010010011000011000
+Synodontis_katangae	1001110100111010010021000011000
+Synodontis_longirostris	10011101001110100100{01}1000011000
+Synodontis_membranacea	1001110100111010010111000011000
+Synodontis_nigrita	1001110100111010010011000011020
+Synodontis_nigriventris	1001110100111010010021000011010
+Synodontis_njassae	1001110100111010010011000011010
+Synodontis_pleurops	1001110100121010010021100010010
+Synodontis_schall	1001110100111010010011000011000
+Synodontis_sorex	1001110100121010010011000011000
+
+Diplomystidae 		000000000000000000000000?000000
+Ameiurus_nebulosus	0120000000011000000100000110000
+Ictalurus_punctatus	0{01}20000000010000000100000110000
+Pangasius_sutchi	0020000000010000000100000??0000
+Chrysichthys_mabusi	0101000000010000000100010110000
+Parauchenoglanis_punctatus	000?000000011000000100110110000
+Schilbe_laticeps	0100000000010000000100010110000
+Malapterurus_beninensis	-301100021121011100100000110110
+Amphilius_cryptobullatus	0001210010010000010103000110102
+Doumea_alula		00013-00211100000001?3004110102
+Phractura_lindica	00013-00221200000101?3004110102
+Tetracamphilius_notatus	00012100220400000201?3003110102
+Zaireichthys_sp._tanzania	01012100220110000201?3003110102
+Sciades_felis		1001000011020100010200010110000
+Bagre_marinus		1001000011020100010200010??0000
+Trachelyopterus_sp.	01010000210?1110200302100110110
+Agamyxis_albomaculatus	0101000011020110220101100110110
+Centrodoras_sp.		1111000011010110220301101110010
+Platydoras_costatus	1111000021010110220301101110110
+Acanthocleithronchapini	00110?0022010111110200002230000
+Atopochilus_savorgnani	00102110{12}1010111101300-0344-011
+Atopodontus_adriaensi	0111211022010020101200-0344-012
+Chiloglanis_batesii	0111210022010020011220-0544-112
+Chiloglanis_carnosus	0110211022011020001210-0544-112
+Chiloglanis_congicus	0110211022010020001300-0544-112
+Chiloglanis_disneyi	0211211022011020011210-0544-112
+Chiloglanis_macropterus	1{12}10211022011000101200-0544-110
+Chiloglanis_occidentalis	1111211022010020011220-0544-112
+Chiloglanis_polypogon	1211211022020020011220-0544-112
+Chiloglanis_sp._burundi	1110211022010000101300-0544-111
+Chiloglanis_sp._chambeshi	0210211022010020011200-0544-11?
+Chiloglanis_sp._igamba	0111211021011020011200-0544-112
+Chiloglanis_sp._kalungwishi	0210211022011000001210-0544-111
+Chiloglanis_sp._ntumbachushi	0221211021010020011210-0544-112
+Euchilichthys_dybowskii	0010211021010111101300-0344-011
+Euchilichthys_geuntheri	0110211011010111101300-1344-011
+Euchilichthys_royauxi	0{01}10211011010111101300-1344-011
+Microsynodontis_emarginata	1011000022031111100200102230110
+Microsynodontis_vigilis	0011000022031111100200102230110
+Microsynodontis_sp._odzala	11110000220{35}1110100200102230110
+Mochokiella_paynei	1011000022020110100200102220110
+Mochokus_brevis		0111000122120111100200003120110
+Mochokus_niloticus	0011000122140111100200003220110
+Synodontis_acanthomias	1011000022010112100200102230010
+Synodontis_acanthoperca	1011000022010112100200102230010
+Synodontis_batensoda	1010000022010112100200102231010
+Synodontis_batensii	1011000022010111100200102230010
+Synodontis_clarias	1010000022010112100200102331010
+Synodontis_congica	1011000022010112100200103331010
+Synodontis_contracta	1011000022040111100300102330010
+Synodontis_gambiensis	1010000022010112100200102230010
+Synodontis_katangae	1011000022010112100200102230010
+Synodontis_longirostris	1010000022010112100200102331010
+Synodontis_membranacea	1010000022010112100200102231000
+Synodontis_nigrita	1011000022010112100200102331010
+Synodontis_nigriventris	1011000022010110100200102230010
+Synodontis_njassae	1011000022010112100200102230010
+Synodontis_pleurops	1011000022010112100200102331010
+Synodontis_schall	1010000022010112100200102231010
+Synodontis_sorex	1010000022010112100200102331010
+;
+end;
+begin assumptions;
+ctype ord: 2 6 17 23 40 43 52 61 64 65 71 72 74 82 93;
+end;
+
+

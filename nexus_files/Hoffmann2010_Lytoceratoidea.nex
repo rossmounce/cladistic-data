@@ -1,0 +1,47 @@
+#NEXUS
+
+[New insights on the phylogeny of the Lytoceratoidea (Ammonitina) from the
+septal lobe and its functional interpretation
+Revue de Paléobiologie, Genève (juin 2010) 29 (1) :1-156]
+
+begin data;
+dimensions ntax=31 nchar=6;
+format missing=? symbols="0123456789" gap=-;
+matrix
+
+
+
+
+Adnethiceras 1 0 0 0 0 ?
+Alocolytoceras 2 0 0 1 0 ?
+Anagaudryceras 2 0 0 1 1 1
+Analytoceras 1 1 1 0 0 ?
+Argonauticeras 2 0 0 1 1 ?
+Ectocentrites 1 0 0 0 0 ?
+Eogaudryceras 2 0 0 1 1 ?
+Eolytoceras ? 1 0 0 0 ?
+Gabbioceras 2 0 0 1 1 ?
+Galaticeras 1 0 0 0 0 ?
+Gaudryceras 2 0 0 1 1 1
+Holcolytoceras 1 0 0 0 0 ?
+Jauberticeras 2 0 0 1 1 ?
+Kossmatella 2 0 0 1 1 ?
+Lobolytoceras 2 0 1 1 0 0
+Lytoceras 2 0 1 1 0 0
+Megalytoceras 2 0 0 1 0 ?
+Nannolytoceras 2 0 0 1 0 ?
+Parajaubertella 2 0 0 1 1 ?
+Peltolytoceras ? 0 0 0 0 ?
+Perilytoceras 2 0 0 1 0 ?
+Pleuroacanthites 1 1 0 0 0 ?
+Pleurolytoceras 2 0 0 1 0 ?
+Protetragonites 2 0 0 1 0 ?
+Pseudophyllites 2 0 0 1 1 ?
+Psiloceras 0 0 0 0 0 0
+Ptycholytoceras 2 0 0 1 0 ?
+Saghalinites 2 0 0 1 1 ?
+Takahashia ? 0 0 ? ? ?
+Tetragonites 2 0 0 1 1 1
+Zaghouanites 2 0 1 1 0 ?
+;
+end;

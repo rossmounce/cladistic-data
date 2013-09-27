@@ -1,0 +1,53 @@
+#NEXUS
+
+[!Liao, T. Y., Kullander, S. O., and Fang, F. 2010. Phylogenetic analysis of the genus Rasbora (teleostei: Cyprinidae). Zoologica Scripta 39:155-176.]
+
+
+begin data;
+
+dimensions ntax=35 nchar=41;
+
+format missing=? gap=- symbols="0123";
+
+matrix
+
+Daniodangila 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Microrasborarubescens 0 0 0 0 0 1 - 1 - 0 0 0 1 0 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 
+Borarasbrigittae 1 1 1 0 0 1 - 1 - 1 1 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 2 1 0 0 1 0 1 0 1 0 0 1 1 1 
+Breviboradorsiocellata 0 0 1 0 0 1 1 1 1 1 2 0 1 0 0 0 2 2 1 1 1 0 0 0 0 0 0 0 1 0 1 1 0 1 0 1 1 0 0 0 1 
+Horadandiaatukorali 0 0 1 0 0 1 - 1 - 1 1 1 1 1 1 0 1 3 1 0 1 0 0 0 1 1 0 1 1 1 0 0 0 1 0 1 1 0 0 1 1 
+Kottelatiabrittani 0 1 1 0 0 1 1 1 1 1 1 0 1 0 2 0 1 2 0 1 1 0 0 0 0 1 0 0 1 0 1 1 1 1 1 0 1 1 0 0 1 
+Rasboroidesvaterifloris 0 0 1 0 0 1 - 1 - 1 1 0 1 1 1 0 1 3 1 0 1 0 0 0 1 0 0 2 1 1 0 0 0 1 0 0 0 0 0 0 1 
+Rasbosomaspilocerca 1 1 1 1 0 1 1 1 0 1 1 1 1 0 1 0 2 3 1 0 1 0 0 0 0 1 1 2 1 1 1 1 2 1 0 1 1 0 0 1 1 
+Trigonopomaracile 2 0 1 0 0 1 1 1 0 1 1 1 1 0 1 0 1 1 1 1 1 0 0 1 1 0 1 2 1 1 0 1 0 1 0 1 1 2 1 0 1 
+Trigonopomapauciperforatum 1 0 0 0 0 1 1 1 0 1 1 1 1 0 2 0 2 1 1 1 1 0 0 1 0 0 1 2 1 1 0 1 0 1 0 1 1 2 1 0 1 
+Trigonostigmaheteromorpha 1 0 1 0 0 1 1 1 0 1 2 1 1 1 1 0 1 3 1 0 1 0 0 0 0 0 0 0 1 0 0 1 3 1 0 1 1 0 0 0 1 
+Rasboraargyrotaenia 1 0 1 2 0 0 1 0 0 1 1 0 1 0 0 1 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 0 0 0 1 
+Rasboracf.beauforti 1 0 1 0 0 1 1 1 0 1 1 0 1 0 0 0 2 3 0 0 1 0 1 0 0 0 1 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasboraborapetensis 1 0 1 0 1 1 1 1 0 1 1 0 1 0 0 0 2 3 1 0 1 0 1 0 0 0 1 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasboracaudimaculata 1 0 1 3 0 1 1 0 0 1 1 0 1 0 2 1 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 2 1 0 1 
+Rasboracaverii 1 0 0 0 0 0 0 0 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 0 1 1 1 0 0 0 0 1 
+Rasboracephalotaenia 2 0 1 0 0 1 0 0 0 1 1 0 1 0 0 1 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 1 1 1 0 0 0 1 
+Rasboradaniconius 2 0 0 0 0 0 0 0 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasboracf.daniconius 2 0 0 0 0 0 0 0 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasboraeinthovenii 2 0 0 0 0 1 1 0 0 1 1 0 1 0 0 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 0 0 0 1 
+Rasboraelegans 0 0 1 0 0 1 1 0 0 1 1 0 1 0 0 1 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 0 0 0 1 
+Rasborahubbsi 1 1 1 0 0 0 0 0 0 1 1 0 1 0 0 1 1 3 1 0 0 1 1 0 0 0 0 2 1 1 0 1 0 1 0 1 0 0 1 1 1 
+Rasborakobonensis 2 0 0 0 0 0 0 1 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasboralabiosa 1 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 3 1 1 1 1 1 0 0 0 0 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasboralateristriata 1 1 1 0 0 1 1 0 0 1 1 0 1 0 0 1 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 0 0 0 1 
+Rasboraornata 2 0 0 0 0 0 0 1 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasborapaviana 1 1 1 3 0 1 1 0 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 0 0 0 1 
+Rasborapaucisqualis 1 0 1 0 0 1 0 0 0 1 1 0 1 0 2 1 2 3 1 0 1 0 1 0 0 0 0 2 1 1 1 1 0 1 0 1 0 0 0 0 1 
+Rasborarasbora 1 1 1 3 0 1 1 0 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 2 0 0 1 
+Rasboracf.rasbora 1 1 0 3 0 1 1 0 0 1 1 0 1 0 0 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 2 0 0 1 
+Rasborarubrodorsalis 1 0 1 0 1 1 1 1 0 1 1 0 1 0 0 0 2 3 1 0 1 1 1 0 0 0 1 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasborasemilineata 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 2 3 1 0 1 0 1 0 0 0 0 2 1 1 1 1 0 1 1 1 1 0 0 0 1 
+Rasborarilineata 1 1 1 1 0 1 1 0 0 1 1 0 1 0 2 0 2 1 1 0 1 1 1 0 0 0 0 2 1 1 1 1 0 1 0 1 1 2 1 0 1 
+Rasboravolzii 1 1 1 2 0 1 1 0 0 1 1 0 1 0 0 1 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 1 1 0 1 1 0 0 0 1 
+Rasborawilpita 2 0 0 0 0 0 0 0 0 1 1 0 1 0 2 0 2 3 1 0 1 1 1 0 0 0 0 2 1 1 1 1 0 1 1 1 1 0 0 0 1
+
+;
+
+end;
+

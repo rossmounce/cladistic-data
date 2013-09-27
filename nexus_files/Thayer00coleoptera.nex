@@ -1,0 +1,299 @@
+#NEXUS
+[File created by TreeBASE: 3/6/01 08:07:46]
+[Matrix accession#: M871]
+BEGIN DATA;
+DIMENSIONS NTAX=29 NCHAR=132;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-2001.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=871 on June 20, 2010, 11:18 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Thayer, M. K. 2000. Glypholoma larvae at last: phylogenetic implications for basal Staphylinidae? (Coleoptera: Staphylinidae: Glypholomatinae). Invertebrate Taxonomy, 14:741-754.
+
+Study accession number = S577
+Matrix accession number = M871
+]
+FORMAT SYMBOLS = " 0 1 2 3 4 5 6 7 8 9 " MISSING = ? GAP = - INTERLEAVE ;
+CHARLABELS
+[1]	'HFd1'	[2]	'HFd2'	[3]	'HFl1'	[4]	'HFm1'
+[5]	'HFc1'	[6]	'HFc1pos_cf_Fl1'	[7]	'HFc2'	[8]	'HFc3'	[9]	'HEl2'
+[10]	'HEl3'	[11]	'HEm1'	[12]	'HEm2'	[13]	'HEm3'	[14]	'HEg'
+[15]	'HEc3'	[16]	'HT1'	[17]	'HT2'	[18]	'HL2'	[19]	'HL3'
+[20]	'HLc3'	[21]	'HLc1to2extra'	[22]	'HVl1'	[23]	'HVl2'	[24]	'HVl3'
+[25]	'HV1'	[26]	'HV2'	[27]	'HVc1'	[28]	'HVc2'	[29]	'HLd2'
+[30]	'HLl0'	[31]	'HLm1'	[32]	'HLm2_loc'	[33]	'HLl1_loc'	[34]	'Stemmata#'
+[35]	'SA_pos'	[36]	'SA_form'	[37]	'IIS2'	[38]	'IIS3'	[39]	'IIIS1'
+[40]	'IIIS2pos'	[41]	'IIIS2'	[42]	'IIIS3pos'	[43]	'IIIS4pos'	[44]	'DTArms'
+[45]	'TentBridge'	[46]	'Cardo_s'	[47]	'Stip_Ms'	[48]	'Mala_Ls#'	[49]	'Mxp_s'
+[50]	'Lig_s'	[51]	'Mdb_symm'	[52]	'Mdb_SAT_LR'	[53]	'Mdb_serr'	[54]	'Mdb_pros'
+[55]	'Lig_segm'	[56]	'Labr_tri'	[57]	'Labr_emr'	[58]	'PPreT_Ls'	[59]	'PpreT_Ms'
+[60]	'PPreT_Mc'	[61]	'Pc2_5'	[62]	'Pc4'	[63]	'Pc5'	[64]	'PA1'
+[65]	'PA3'	[66]	'PL2'	[67]	'PL3'	[68]	'PL5'	[69]	'PDa1'
+[70]	'PDa2'	[71]	'PDa3'	[72]	'PDb1'	[73]	'PDb2'	[74]	'PDb3'
+[75]	'PDc1'	[76]	'PDc3'	[77]	'PsPr1'	[78]	'PsPr3'	[79]	'PsEu2'
+[80]	'PsSt2'	[81]	'PsLs3'	[82]	'Msc1'	[83]	'Msc3'	[84]	'Msc4'
+[85]	'Msc5'	[86]	'MsPg'	[87]	'MsL5'	[88]	'MsDb1'	[89]	'MsDb2'
+[90]	'MsDb3'	[91]	'MsP3'	[92]	'MsP5'	[93]	'Meta'	[94]	'T1c1'
+[95]	'T1Pg'	[96]	'T1L14pos'	[97]	'T1Da2'	[98]	'T1Db2'	[99]	'T1Db3'
+[100]	'T1Dc2'	[101]	'T1Dd2'	[102]	'T1P3'	[103]	'S1D1'	[104]	'S1D2'
+[105]	'S1D3'	[106]	'S1P3'	[107]	'S1P4'	[108]	'S1P6pos'	[109]	'T2to8c1'
+[110]	'T2L14pos'	[111]	'T3L14pos'	[112]	'T4L14pos'	[113]	'T5L14pos'	[114]	'T6L14pos'
+[115]	'T7L14pos'	[116]	'T8L14pos'	[117]	'T9c1'	[118]	'UrogSegm'	[119]	'UrogNarr'
+[120]	'UD1'	[121]	'S2P5pos'	[122]	'S2P6pos'	[123]	'S3P5pos'	[124]	'S3P6pos'
+[125]	'S4P5pos'	[126]	'S4P6pos'	[127]	'S5P5pos'	[128]	'S5P6pos'	[129]	'S6P5pos'
+[130]	'S6P6pos'	[131]	'S7P5pos'	[132]	'S7P6pos'
+;
+STATELABELS
+1 'present' 'absent',
+2 'present' 'absent',
+3 'present' 'absent',
+4 'present' 'absent',
+5 'present' 'absent',
+6 'Lateral' 'PosteroLateral' 'PosteroMedial' 'AnteroLateral' 'Medial' 'Posterior' 'AnteroMedial',
+7 'present' 'absent',
+8 'present' 'absent',
+9 'present' 'absent',
+10 'present' 'absent',
+11 'present' 'absent',
+12 'present' 'absent',
+13 'present' 'absent',
+14 'present' 'absent',
+15 'present' 'absent',
+16 'present' 'absent',
+17 'present' 'absent',
+18 'present' 'absent',
+19 'present' 'absent',
+20 'present' 'absent',
+21 'present' 'absent',
+22 'present' 'absent',
+23 'present' 'absent',
+24 'present' 'absent',
+25 'present' 'absent',
+26 'present' 'absent',
+27 'present' 'absent',
+28 'present' 'absent',
+29 'present' 'absent',
+30 'present' 'absent',
+31 'present' 'absent',
+32 'labrum' 'boundary' 'frontoclypeus' '_' '_' '_' '_' '_' '_' 'not_applicable',
+33 'labrum' 'boundary' 'frontoclypeus' '_' '_' '_' '_' '_' '_' 'not_applicab',
+34 '0.' '1.' '2.' '3.' '4.' '5.' '6.',
+35 'anterior' 'ventral',
+36 'elong_+_slender' 'short_+_fat',
+37 'present' 'absent',
+38 'present' 'absent',
+39 'articulated' 'unarticulated',
+40 'Dorsal' 'Medial' 'VentroMedial' 'Ventral' 'VentroLateral' 'Apical',
+41 'articulated' 'unarticulated',
+42 'Apical' 'Lateral' 'DorsoMedial' 'Ventral',
+43 'Lateral' 'DorsoLateral' 'Dorsal' 'DorsoMedial' 'Medial' 'Ventromedial' 'absent',
+44 'short_or_absent' 'half' 'long',
+45 'above_head_capsule' 'at_head_capsule' 'absent',
+46 'present' 'absent',
+47 'present' 'absent',
+48 '',
+49 'Medial' 'Ventral' 'MedioVentral',
+50 '0.' '2.',
+51 'symmetrical_or_v_nr' 'asymmetrical',
+52 '00.' '11.' '22.' '33.' '10.',
+53 'present' 'absent',
+54 'Absent' 'Broad' 'Narrow',
+55 'Absent' '1.' '2.',
+56 'present' 'absent',
+57 'present' 'absent',
+58 'present' 'absent',
+59 'present' 'absent',
+60 'present' 'absent',
+61 'present' 'absent',
+62 'present' 'absent',
+63 'present' 'absent',
+64 'present' 'absent',
+65 'present' 'absent',
+66 'present' 'absent',
+67 'present' 'absent',
+68 'present' 'absent',
+69 'present' 'absent',
+70 'present' 'absent',
+71 'present' 'absent',
+72 'present' 'absent',
+73 'present' 'absent',
+74 'present' 'absent',
+75 'present' 'absent',
+76 'present' 'absent',
+77 'present' 'absent',
+78 'present' 'absent',
+79 'present' 'absent',
+80 'present' 'absent',
+81 'present' 'absent',
+82 'present' 'absent',
+83 'present' 'absent',
+84 'present' 'absent',
+85 'present' 'absent',
+86 'present' 'absent',
+87 'present' 'absent',
+88 'present' 'absent',
+89 'present' 'absent',
+90 'present' 'absent',
+91 'present' 'absent',
+92 'present' 'absent',
+93 'Meso-A3or4' 'Meso',
+94 'present' 'absent',
+95 'present' 'absent',
+96 'tergite' 'paratergite',
+97 'present' 'absent',
+98 'present' 'absent',
+99 'present' 'absent',
+100 'present' 'absent',
+101 'present' 'absent',
+102 'present' 'absent',
+103 'present' 'absent',
+104 'present' 'absent',
+105 'present' 'absent',
+106 'present' 'absent',
+107 'present' 'absent',
+108 'sternite' 'parasternite',
+109 'present' 'absent',
+110 'tergite' 'paratergite',
+111 'tergite' 'paratergite',
+112 'tergite' 'paratergite',
+113 'tergite' 'paratergite',
+114 'tergite' 'paratergite',
+115 'tergite' 'paratergite' '_' '_' '_' '_' '_' '_' '_' 'not_applicable',
+116 'tergite' 'paratergite',
+117 'present' 'absent',
+118 '_' '1.' '2.',
+119 'present' 'absent',
+120 'present' 'absent',
+121 'sternite' 'parasternite',
+122 'sternite' 'parasternite',
+123 'sternite' 'parasternite',
+124 'sternite' 'parasternite',
+125 'sternite' 'parasternite',
+126 'sternite' 'parasternite',
+127 'sternite' 'parasternite',
+128 'sternite' 'parasternite',
+129 'sternite' 'parasternite',
+130 'sternite' 'parasternite',
+131 'sternite' 'parasternite',
+132 'sternite' 'parasternite',
+
+;
+
+MATRIX
+
+'Siagonium' 000001010101100000010011000001011400101312211002{12}114101111110000100110110100000010000010011010000000
+'Holoboreaphilus' 0001010110010001110110100000100005010013002210020100001100111100101010110111000001000010011000010000
+'Eudectus' 01110?0110010001110110000100100005010012003210020100001100111100101010110111000001001010011001010000
+'Ischnoderus' 0000050100001001100000000100100225000015105210010114021011100000001000110001000010001010001000010000
+'Phyllodrepa' 0000050100011001100001110100100220000013004110010114122010010000001000110011000000000010001000010000
+'Anepius' 101011010001101000111000001000000601??11002211101003101111110101100000010010111111010001000111010010
+'Atheta' 0000000100000000000010000100010001010015103?0001010100111??11000000000000000000010001010000000000000
+'Nitidotachinus' 0000050100111001010010011110110006001111032100120101002110110001100000100011010110011010100000001011
+'Neophonus_-?' 0000010101110001101010000101010006001012023110000111001100110001101000110111010100100010011000001101
+'Faronitae_K9' 000005011001101110011000110011199210100401212001210110011?0?0100000000010011??0010100000000010000010
+'Genus_nr_Type_W' 0000040100011001100001100100000225000014002210110001101111110110101110100011011100011010000000010000
+'Metacorneolabium' 0000060010111100110011110100101110111115104210000002101111010111101111111111111011011011111011011101
+'Coryphium' 0001000110010001010100010000110005010013002210020100001100011100101010110111000001000010011001010000
+'Subhaida' 0001000110010001010010000100100005010013002{12}10020100001100011100101010110111000001000010011001010000
+'Phlaeopterus' 0100030100111001000000000101100005000011112210010102102110011000101010110111000000010010011000010000
+'Microedus' 0000020111010001000010000100100225010015102210020101002110011000111010110111000001000010011000010000
+'Brathinus' 0001040110011001000010000100100005000011002010110101002110010100101110110110000100010010011010010110
+'Acidota' 0000000100111001001010000100101005011012002010100102021110010000100110110111001100000010011000010110
+'Phloeonomus' 0000050000111001010010000100100225000015103210010110111111101000001000110101010000001010011000010000
+'Austrolophrum' 0000000110110100010011000100100225000002020110030101101110000000001010110111000000001010011000010000
+'Stenomalium' 0000050100101001100000000100100225000013003110010114021011100000110000110001000000001110001000110000
+'Omaliopsis' 0000050111000001000010000100100225000015104210120114021011110000001000110001000000001010001000010000
+'Acrolocha' 0000050110010001100001000000100225000012003210010101001111100001001000110101000100001010011000010001
+'Eusphalerum' 0000010110110001100010000100100225000012002210010101001111111000001010110111000000001010011000010000
+'Microsilpha' 000002010(01)11110110(01)0(01)(01)(01)(01)0100010012111010102210110100101111111011101101011011010010001111001000110011
+'Proteinus' 1000111100110011001111001111010013000011102111111101121110111101101000110100101111010000010111010001
+'Megarthrus' 0000111100111011000110011100010006000011002110111101121110010100001010010110101111010000000111010001
+'Silphotelus' 0000111101110011000110?11101010006000015102210111100121110011100011010110111101111010001010111010000
+'Glypholoma' 0000020110010001100010000100110116000015115110010111121110100000101010010011000100000010001010011101
+
+
+'Siagonium' 10000010000000000210000000000000
+'Holoboreaphilus' 00011011011111110100111111111111
+'Eudectus' 00011011111111111110111111111111
+'Ischnoderus' 01011011011111000110111111111100
+'Phyllodrepa' 00010011011111000110111111111111
+'Anepius' 10101010000000000110000000000000
+'Atheta' 0000010000000000021?000000000000
+'Nitidotachinus' 10111101000000000211000000000000
+'Neophonus_-?' 00011101000000000100111111111100
+'Faronitae_K9' 1001110100000000011?111111111111
+'Genus_nr_Type_W' 00011011011110000111111111111100
+'Metacorneolabium' 00111011111111110110111111111111
+'Coryphium' 00011011111111111100111111111111
+'Subhaida' 00011011111111110100111111111111
+'Phlaeopterus' 00011011011110000110111111110000
+'Microedus' 01011011011110000110111100000000
+'Brathinus' 01011011011111100110110000000000
+'Acidota' 01011011011111100111111111111111
+'Phloeonomus' 01011011011111000110111111111100
+'Austrolophrum' 01011011011111000110111111111111
+'Stenomalium' 01011011011111000110111111111100
+'Omaliopsis' 01011011011110000110111111110000
+'Acrolocha' 01011011011110000110111111111111
+'Eusphalerum' 01011011011110000110111111111100
+'Microsilpha' 01011011011111110110111111111111
+'Proteinus' 11100110100000001210000000000000
+'Megarthrus' 10100111111111900210000000000000
+'Silphotelus' 11101011100000001210000000000000
+'Glypholoma' 00011111011100000110010101000000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+
+ANCSTATES urog_stemm_tent = 0: 45 , 2: 118 , 6: 34 ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 1 trees. TreeBASE accession#: Tree1730 ]
+TRANSLATE
+1	'Omaliinae_Glypholomatinae_Microsilphinae',
+2	'Metacorneolabium',
+3	'Genus_nr_Type_W',
+4	'Holoboreaphilus',
+5	'Nitidotachinus',
+6	'Austrolophrum',
+7	'Phlaeopterus',
+8	'Faronitae_K9',
+9	'Neophonus_-?',
+10	'Proteininae',
+11	'Silphotelus',
+12	'Microsilpha',
+13	'Eusphalerum',
+14	'Stenomalium',
+15	'Phloeonomus',
+16	'Phyllodrepa',
+17	'Ischnoderus',
+18	'Coryphiini',
+19	'Megarthrus',
+20	'Omaliopsis',
+21	'Glypholoma',
+22	'Proteinus',
+23	'Acrolocha',
+24	'Brathinus',
+25	'Microedus',
+26	'Coryphium',
+27	'Siagonium',
+28	'Subhaida',
+29	'Eudectus',
+30	'Acidota',
+31	'Anepius',
+32	'Atheta',
+;
+TREE 'Fig._22' = [&R] (5,((32,(27,(31,(19,(11,22))))),(8,(9,((3,(16,(14,(17,(20,15))))),13,23,6,(((21,24),25),7),(30,(12,2),(4,29,28,26)))))));
+
+
+END;

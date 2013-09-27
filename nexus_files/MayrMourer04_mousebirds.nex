@@ -1,0 +1,25 @@
+#NEXUS
+
+[Mayr, G. and Mourer-Chauviré, C. 2004. Unusual tarsometatarsus of a mousebird from the paleogene of france and the relationships of selmes peters, 1999. Journal of Vertebrate Paleontology 24:366-372.]
+
+begin data;
+dimensions ntax=12 nchar=19;
+format missing=? symbols="012" ;
+matrix
+Strigidae 0000 0000 {01}{01} 0000 000{01} 1
+Leptosomidae 0000 0000 00    0010 0000 0
+Coraciidae   0100 0000 00 0000 0000 0
+Sandcoleus_copiosus 00100101000011010??
+Eoglaucidium_pallas 0010010100001101021
+Anneavis_anneae     0010010100001101021
+MNHQO596            ?????????12100011??
+Selmes_absurdipes   	     1??00?0111???001121
+Masillacolius_brevidactylus  ?1?1??1?12???01?011
+Oligocolius_brevitarsus      ???1112101???01?0?1
+Primocolius_minor            ?????????11100100??
+Colius                       1101112111110010001
+;
+end;
+begin paup;
+ctype ord: 7 18;
+end;

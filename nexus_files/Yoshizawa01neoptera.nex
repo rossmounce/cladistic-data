@@ -1,0 +1,33 @@
+#NEXUS 
+[!Yoshizawa, K. & Saigusa, T. (2001). Phylogenetic analysis of paraneopteran orders (Insecta: Neoptera) based on forewing base structure, with comments on monophyly of Auchenorrhyncha (Hemiptara). Systematic Entomology 26: 1-13.]
+
+BEGIN DATA;
+DIMENSIONS  NTAX=10 NCHAR=20;
+FORMAT SYMBOLS= " 0 1 2" MISSING=?;
+CHARLABELS
+	[1]	Tg_absent	[2]	Tg_enlarged	[3]	tegula	[4]	HP_and_BSc	[5]	Apex_of_BSc_and_2Ax
+	[6]	BR_and_BSc	[7]	BR_and_2Ax	[8]	anterior_retion_of_2Ax	[9]	2Ax_divided	[10]	position_of_PMP
+	[11]	PMP_concaved	[12]	distal_margin_of_PMP	[13]	reduction_of_PMP	[14]	DMP_divided	[15]	2Ax_and_DMP
+	[16]	DMP_reduced	[17]	distal_arm_of_3Ax	[18]	absence_of_anterior_arm_of_3Ax	[19]	position_of_3Ax	[20]	BA_fused_with_PMP
+	;
+
+MATRIX
+[                                10        20]
+[                                .         .]
+
+Plecoptera              00000000000000000000
+Mecoptera               00000010000000000000
+Megaloptera             00000010000000000000
+Psocoptera              00011011011101001001
+Thysanoptera            0011210101110?111111
+Sternorrhyncha          00012011111101101001
+Cicadomorpha            00012011111?1110100?
+Fulgoromorpha           01012011111?1110100?
+'lower-Heteroptera'     10012011111101101001
+'higher-Heteroptera'    10012011111101101101
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  = unord: 1-4 6-20, ord: 5;
+END; 

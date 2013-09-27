@@ -1,0 +1,23 @@
+#NEXUS
+
+[!Fierstine, H. L., Bannikov, A. F., and Monsch, K. A. 2008. A new species of the extinct billfish genus palaeorhynchus (perciformes, xiphioidei, palaeorhynchidae) from the late early eocene of bolca in northern italy. Miscellanea Paleontologica n. 6. Studi e Ricerche sui Giacimenti Terziari di Bolca.]
+
+begin data;
+dimensions ntax=12 nchar=16;
+format missing=? gap=- symbols="0123";
+MATRIX
+Hemingwaya_sarissa          - 1 0 0 1 2 2 3 2 1 2 0 0 0 0 1
+Palaeorhynchus_zorzini      0 1 0 1 1 1 1 2 1 0 2 1 1 0 0 0
+Palaeorhynchus_altivelis    - 0 0 2 - 1 0 1 2 0 2 1 1 1 1 1
+Palaeorhynchus_glarisianus  - 1 - 2 1 0 0 0 3 0 2 1 1 1 1 1
+Palaeorhynchus_humorensis   1 0 1 1 1 1 0 0 3 1 2 1 1 1 1 0
+Palaeorhynchus_longirostris 0 1 - - 1 1 0 1 2 0 2 2 1 - - 1
+Palaeorhynchus_parini       0 1 0 1 1 1 0 0 2 0 1 1 1 1 1 0
+Palaeorhynchus_senectus     1 1 1 1 1 ? ? - ? - ? ? ? ? ? -
+Palaeorhychus_zitteli       0 1 0 1 1 0 0 0 3 0 1 1 1 1 1 ?
+Homorhynchus_colei          0 1 0 2 0 0 1 1 0 0 0 2 0 1 1 1
+Homorhynchus_deshayesi      0 1 0 2 0 ? - - ? ? 0 2 ? ? ? ?
+Pseudotetrapturus_luteus    1 1 1 2 1 ? ? 2 ? ? 1 ? ? ? ? ?
+;
+end;
+

@@ -1,0 +1,87 @@
+
+#Nexus
+
+[Preliminary phylogenetic analysis of the Protanisoptera
+(Insecta: Odonatoptera)
+Aurélien Huguet , André Nel , Xavier Martinez-Delclos , Gunter Bechly ,
+Rafael Martins-Neto 
+Geobios 35 (2002) 537–560]
+
+BEGIN DATA;
+DIMENSIONS NTAX=17 NCHAR=40;
+FORMAT INTERLEAVE MISSING=? GAP=- SYMBOLS="0123456789";
+MATRIX
+
+
+
+I1_P_zherhikini 0 0 0 0 1 0 0 1 1 2	1 2 1 1 1 1 1 1 0 1 2 2 1 0 0 1 0 2 1 1 0 0 0 0 0 1 1 1 0 1
+I2_P_dolloi ? 1 1 0 0 0 ? 1 0 1 0 0 2 2 0 1 0 1 1 1 1 2 2 1 0 1 0 2 2 2	0 1 1 1 1 0 0 1 0 1
+I3_P_camense 0 0 0 1 1 0 0 1 0 2 1 0 ? ? 0 1 1 1 1 1 2 2 ? ? ? ? ? ? ? ? ? ? ? ? ? 1 ? ? 0 ?
+I4_P_stanleyi 0 0 0 1 0 0 1 1 1 0 0 1 1 ? 2 1 1 1 1 1 2 2 1 0 1 0 ? ? ? ? ? ? ? 0 ? 1 0 ? 0 ?
+I5_C_martynovi 0 0 1 1 1 0 ? 1 1 1 0 1 1 1 1 1 1 2 0 1 1 2 1 0 0 1 0 2 1 2 1 0 1 0 0 1 0 1 ? 2
+I6_H_uralense 0 0 1 1 1 1 0 1 1 2 2 2 1 1 1 ? 1 1 0 1 1 1 1 0 0 1 0 2 1 1 1 1 0 0 0 1 0 1 0 1
+I7_G_brasiliense ? 1 1 0 0 0 ? 1 0 0 0 0 2 2 2 1 1 1 1 2 1 2 2 1 0 1 0 2 2 2 0 1 ? 1 1 0 0 1 0 1
+I8_P_proxima ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 2 1 ? ? ? 2 2 2	0 1 1 1 1 0 ? 1 ? 1
+I9_D_anomalostigma 0 0 0 1 1 1 0 0 0 2 1 2 0 0 1 0 0 2 0 2 1 2 1 0 1 1 0 2 1 1 1 0 0 0 0 1 1 1 0 1
+I10_D_cellulosa ? ? 0 ? 1 1 1 2 1 1 0 1 0 0 1 0 1 2 0 2 1 2 1 0 1 1 1 2 1 1 1 0 0 0 0 1 1 1 0 1
+I11_D_cellulosa_type ? ? 0 ? ? ? ? ? ? ? ? ? 0 0 ? ? ? ? ? 2 1 1 ? ? 1 1 1 2 1 1 1 1 0 ? ? 1 ? 1 ? 1
+O1_Geropterid 0 0 0 1 0 0 0 0 ? 0 0 {01} 0 0 2 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0
+O2_Tupus 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 ? 0
+O3_L_magnifica ? ? ? ? 0 0 ? 0 0 0 0 0 1 1 2 1 1 0 0 1 2 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 ? 0
+O4_P_uralica ? ? ? ? ? ? ? 0 0 {12} 0 0 1 0 0 1 1 0 0 2 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 ? ? 0
+O5_T_guillaumei 1 ? ? ? ? ? ? ? 0 0 0 0 0 0 ? 1 ? 0 0 2 2 2 0 1 0 0 0 0 ? 0 0 0 0 0 0 1 0 ? ? 0
+O6_M_schucherti 0 0 1 0 0 0 1 0 0 0 0 0 0 0 2 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0
+
+
+;
+END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+#NEXUS
+
+[!Gregorova, R., Schultz, O., Harzhauser, M., Kroh, A., and Ćorić, S. 2009. A giant early miocene sunfish from the north alpine foreland basin (austria) and its implication for molid phylogeny. Journal of Vertebrate Paleontology 29:359-371.]
+
+
+begin data;
+
+dimensions ntax=6 nchar=57;
+
+format missing=? gap=- symbols="0123";
+
+matrix               
+Triodon      0000000000 0000000000 0000000000 0320000001 0000-100-0 0000000
+Lagocephalus 1000000000 1011000000 0001001010 0300000001 0000-101-0 0000000
+Ranzania     2111101111 2010111101 1111112111 0200001112 0010010210 1111000
+Mola         2111111111 2101111111 1110112101 1102111111 1111101201 1111111
+Masturus     2111111111 2101111111 1110112101 1011111111 1110101201 1111111
+Austromola   ??????1?1? ??????1??? ?????1?101 1200?10110 1110101211 ??????1
+;
+end;
+
+

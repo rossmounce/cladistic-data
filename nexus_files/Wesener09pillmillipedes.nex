@@ -1,0 +1,219 @@
+#NEXUS
+[written Thu Nov 13 13:54:58 GMT+01:00 2008 by Mesquite  version 1.06 (build g97) at wszfmk052/131.220.75.62]
+
+BEGIN TAXA;
+	TITLE 'Sphaerotheriida_01';
+	DIMENSIONS NTAX=38;
+	TAXLABELS
+		Glomeridesmus_sp._ Glomeroides_sp. Sphaeromimus_musicus Sphaeromimus_inexpectatus Sphaeromimus_splendidus Zoosphaerium_neptunus Zoosphaerium_campanulatum Zoosphaerium_libidinosum Zoosphaerium_arborealis Zoosphaerium_priapus Zoosphaerium_anomalum Zoosphaerium_alluaudi Zoosphaerium_coquerelianum Zoosphaerium_villosum Zoosphaerium_voeltzkowianum Zoosphaerium_platylabum Zoosphaerium_nov01_broeli Zoosphaerium_nov01_Ambre Microsphaerotherium_ivohibiense Arthrosphaera_brandtii Arthrosphaera_Ceylon01 Arthrosphaera_Ceylon02 Arthrosphaera_inermis Sphaerotherium_similare Sphaerotherium_giganteum Sphaerotherium_dorsale Sphaerotherium_punctulatum Sphaerotherium_dorsaloide Sphaerotherium_cinctellum Sphaerotherium_compressum Sphaerotherium_rotundatum Sphaerotherium_sp. Procyliosoma_sp01 Procyliosoma_sp02 Seychelliosoma_seychelliarum Sphaeropoeus_tricollis Sphaeropoeus_Malaysia Castanotherium_cf_pyrrhomelanum 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix_real;
+	DIMENSIONS  NCHAR=89;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6";
+	CHARSTATELABELS 
+		1 'Female subanal plate small, without a stridulation organ (0); large, stridulation organ present, consisting of an enlarged subanal plate with ribs and a sclerotized knob on 21st female leg (1)', 2 'Female sexual opening located on the posterior side of second leg pair coxa, running directly through the coxa (0); on a special "pouch" attached to the inner margin (1)', 3 'Female vulva, n° of plates, no plates (0); consisting of three plates (1); consisting of two plates, the two basal plates are fused (2)', 4 'Female vulva, shape of upper margin of operculum, no sclerotized operculum (0); well-rounded (1); protruding into a single tip, tip broad and well-rounded (2); protruding into a single tip, tip pointed (3); medial part invaginated, both tips well-rounded (4); medial part invaginated, both tips pointed (5):', 5 'Female, operculum, non-sclerotized or absent (0); symmetric (1); asymmetric, dividable into an inner larger and smaller lateral part (2)', 6 'Female vulva, position of operculum, not located on coxa (0); located behind the basal plates (1); located on the same level as rest of vulva (2):', 7 'Female vulva, height of operculum, vulva separated from coxa (0); not surpassing coxa (1); slightly surpassing coxa (2); protruding higher than basal half of prefemur (3)', 8 'Female vulva, upper margin of operculum, vulva separated from coxa (0); protruding to apical-most point in the middle axis of plate (1); protruding to apical-most point laterally of the middle axis of plate (2):', 9 'Female vulva, basal part of operculum, non-sclerotized (0); surrounded by the apical parts of basal plates (1); surrounding the apical parts of basal plates (2):', 10 'Female vulva, interior plate  non-sclerotized (0) apical margin not explicitly protruding (1); apical margin excavated, sometimes surpassing operculum (2):', 11 'Shape of female anal shield: (0) regular; (1) hindmost end excavated; (2) weakly bell-shaped;', 12 'Setae on female anal shield: (0) anal shield glabrous or with very small (sensorial) hairs; (1) anal shield with some very long hairs; ', 13 'Female body length: (0) less than 60 mm; (1) more than 60 mm; ', 14 'Males with no additional modified legs, or if such legs are present, syncoxite without inner projections  (0), atleast one leg pair more than females, located posteriorly and modified to chelae and a syncoxite with inner horns (1)', 15 'Male sexual opening located on the posterior side of second leg pair coxa, running directly through the coxa (0); on a special "pouch" attached to the inner margin (1)', 16 'Male gonopore located in a "pouch" (0); covered with an undivided plate (1); covered apically with a second plate (2); covered by membrane (3):', 17 'Anterior telopods (At), absent (0); tarsus undivided (1); tarsus divided into two joints (2):', 18 'At, absent (0); last joints forming a chela (1); forming a clamp (2):', 19 'At, absent (0); first joint ''usual'' shape (1); first joint wide, laterally excavated on anterior side (2):', 20 'At: absent, if present then without stridulation ribs (0); present stridulation organ consisting out of sclerotized ribs on the anterior side of the first joint and a sclerotized knob on the 21st male leg pair (1)', 21 'At, absent (0); stridulation organ consisting out of sclerotized ribs absent (1); present, one rib (2); present, two ribs (3); present, more than two ribs (4):', 22 'At, absent (0); second joint with a lateral immovable digit (1); broad posterior process (2); slim posterior process (3):', 23 'At, absent (0); second joint process without special structures (1); with sclerotized nubs (2):', 24 'At, absent (0); tarsus not invaginated (1); invaginated (2):', 25 'At, absent (0); tarsus shape, long, tapering (1); laterally with an excavation (2):', 26 'At, absent (0); sclerotized nubs on tarsus absent (1); nubs present (2):', 27 'At absent (0); tarsus, sclerotized teeth juxtaposed to process of second joint absent (1); present (2):', 28 'At absent (0); tarsus, spines or lobes on anterior side absent (1); present (2):', 29 'At absent (0); tarsus, tip of anterior side, sclerotized spine absent (1); present (2):', 30 'At absent (0); tarsus, tip of anterior side, sclerotized tooth absent (1); present (2):', 31 'At absent (0); tarsus, tip of anterior side, three sclerotized spines in special positions absent (1); present (2):', 32 'Pt, inner horns, tips: (0) tips straight, parallel to each other; (1) tips curved laterally; ', 33 'Pt, inner horns, shape: (0) broad; (1) slim;', 34 'Pt, stridulation organ consisting of numerous sclerotized nubs on the lateral side of the male anal shield and stridulation ribs on the posterior side of the second joint absent (0); present (1)', 35 'Pt second joint and tarsus: (0) forming a chela, with a 2nd joint process as immovable digit and tarsus as movable digit; (1) forming a clamp; ', 36 'Pt, process of 2nd joint, shape: (0) broad; (1) elongated, slim; ', 37 'Pt, process of second joint, margin towards tarsus: (0) well-rounded; (1) deeply excavated; ', 38 'Pt, process of second joint, basally: (0) membranous lobe absent; (1) with a one-tipped membranous lobe; (2) with a two-tipped membranous lobe;', 39 'Pt, process of second joint, special structures juxtaposing tarsus: (0) absent; (1) sclerotized nubs on whole inner margin; (2) sclerotized nubs only on tip;', 40 'Pt, second joint and tarsus, numerous minute sensorial hairs: (0) absent; (1) present; ', 41 'Pt, tarsus: (0) undivided; (1) divided into two joints; ', 42 'Pt, tarsus, margin juxtaposing second joint: (0) not invaginated; (1) on whole length invaginated; (2) just on tip invaginated; ', 43 'Pt, tarsus, posterior side, sclerotized teeth: (0) on whole inner margin with more than 15 large; (1) only on tip, less than 15 large teeth; (2) small teeth around the tip; (3) only nubs; (4) neither nubs nor teeth; ', 44 'Pt, tarsus, margin juxtaposing second joint, membranous lobe: (0) absent; (1) one big lobe; (2) one minute lobe; (3) two lobes present; (4) more than two lobes present; ', 45 'Pt, tarsus, sclerotized spines: (0) various spines and locations; (1) three in regular distance from each other; (2) three spines close to the tip; (3) no spines present;', 46 'Pt, tarsus, margin juxtaposing second joint, membranous ledge: (0) absent; (1) present;', 47 'n° of ocelli absent or with less than 15 isolated ocelli (0); less than 70 (1); more than 70 (2); less than 30 (3): ', 48 'Tömösváry-organ present, located laterally of antennal base, rounded with an U-shaped opening equal or larger to the diameter of the antennal basis (0); circular, size similar to those of an isolated ocelli (1);', 49 'Antenna, six-jointed plus disc, inserting (0) medially of Tömösváry-organ; (1) in lateral invaginations; ', 50 'Antenna, shape of joints: (0) cylindrical; (1) well-rounded; ', 51 'Antenna, first joint: (0) without a groove; (1) groove present;', 52 'Antenna, first joint, sclerotized teeth: (0) present, isolated; (1) present, scale-like; (2) absent;', 53 'Antenna, first joint, sensilla basiconica: (0) absent; (1) present;', 54 'Antenna, sixth joint, shape: (0) cylindrical; (1) rounded, enlarged; (2) axe-shaped; ', 55 'Gnathochilarium, palpi, lateral and outer pairs present, most lateral one smaller than medial one, with only four sensorial cones on its tip (0); a single pair present, outer pair of palpi reduced to a bump with usually four sensorial cones(1);', 56 'Gnathochilarium, cardines large (0), greatly reduced in size (1)', 57 'Gnathochilarium, central located pads interiorly, only with large sensorial cones (0); with large sensorial cones and species cells between them (1)', 58 'Gnathochilarium, tip of lamellae linguales, median part, bristles: (0) present; (1) absent; ', 59 'Gnathochilarium, tip of palpus, sensorial cones: (0) located altogether in one field; (1) located in several clusters; ', 60 'Mandible, with a condylus (0), condylus absent (1)', 61 'Body with anal shield and 21 tergites (0); 12 (+1) tergites (1); 11 tergites (2)', 62 'Body with a collum (first tergite) of reduced size (0); usual size (1)', 63 'Defence glands on tergites: absent (0); present (1). ', 64 'First and second pair of legs, with a small, associated stigma-carrying plate and a stigma opening (0); without a stigma opening (1)', 65 'Stigma opening located on a stigma-carrying plate (0); only in first two leg pairs located on a separate stigma-carrying plate, on legs 3+ located on a plate completely fused with the coxa (1)', 66 'First stigma-carrying plate, inner margin: (0) straight; (1) curved towards the leg;', 67 'First stigma-carrying plate, shape:  (0) small, triangular; (1) lobe elongated;  (2) lobe elongated, slim; (3) strongly elongated, very broad; ', 68 'Stigma-carrying plates 3-21: (0) covered almost completely from paratergites; (1) mostly free;', 69 'Stigma-carrying plates 3-21, spine-like process protruding above stigma-opening of previous plate: (0) absent; (1) present;', 70 'Latero-tergite, medial part: (0) not invaginated; (1) invaginated;', 71 'Legs, tarsus apical spine: (0) one present, except of 1st and 2nd pair of legs; (1) one present, except of 1st, 2nd and 3rd pair of legs; ', 72 'Legs, tarsus: (0) long, length more than 3.5 times greater than width; (1) broad, length 3 times greater than width;', 73 'Legs, spines: (0) only present on tarsus; (1) also present on prefemur;', 74 'Legs 3-21, coxa: (0) without a coxal lobe; (1) with a well-rounded process; (2) with a pointed coxal lobe, positioned lower than coxa; ', 75 'Tergites: (0) tergites smooth, or with small pits and innervating short sensorial hairs; (1) tergites with huge pits and very long hairs, hairs longer than 3 tergites; ', 76 'Median keel: (0) absent; (1) present; ', 77 'Pre-anal segment in dorsal view clearly visible as separate tergite, atleast suture is well visible (0); completely fused (1): ', 78 'Ventral side of anal shield, area between pre-anal segment and anal shield deeply divided, with a gap (0); fused or only suture visible (1): ', 79 'n° of closing ledges of anal shield, no closing ledges (0); two (1); two fused into one (2); one (3); absent, reduced (4):', 80 'Position of closing ledges, absent (0), closely to the ventral margin (1); far away from ventral margin (2):', 81 'Closing ledges, absent (0); both ledges located closely to each other, of same length (1); both ledges separated, of same length (2); both ledges separated, 2nd larger than 1st (3); both ledges fused to one and forming a half circle (4); one ledge present (5); ledges reduced (6)', 82 'Endotergum, location of marginal bristles: (0) distributed irregularly; (1) distributed in rows; ', 83 'Endotergum, row of marginal bristles: (0) one row; (1) several rows; ', 84 'Endotergum, structure of marginal bristles: (0) scaly; (1) smooth; (2) pinnate; ', 85 'Endotergum, area between marginal bristles and posterior margin: (0) without special structures; (1) with small cuticular scales; ', 86 'Endotergum, callosities of marginal ridge: (0) absent; (1) present; ', 87 'Endotergum, cuticular patterns: (0) absent; (1) present ;', 88 'Endotergum, intersegmental membrane, large sclerotized cones: (0) absent; (1) present; ', 89 'Endotergum, intersegmental membrane, setae: (0) absent; (1) present; ' ; 
+	MATRIX
+	Glomeridesmus_sp._               0100000000000110000000000000000000?????0????0?000000000100010100100100000000000000?000000
+
+	Glomeroides_sp.                  0100000000000110000000000000000000?????0????0?000000000000012010000100000000000000?000000
+
+	Sphaeromimus_musicus             10111231120001012221422111122120000000000101101111020111100110000111100102001131511000111
+
+	Sphaeromimus_inexpectatus        10111231120001012221422111122120000000000101101111020111100110000111100102001131510000111
+
+	Sphaeromimus_splendidus          10111231120001012221422111122120000000000101101111020111100110000111100102001131510000111
+
+	Zoosphaerium_neptunus            10142212122011011221222111221110000100200040302110011011100110000111100000001111211000111
+
+	Zoosphaerium_campanulatum        101??2??12?0?1011221222111221110000100200040302110011011100110000111100000001111211000111
+
+	Zoosphaerium_libidinosum         10111221120001011221322222121210000001100103002110011011100110000021100000001141211000011
+
+	Zoosphaerium_arborealis          10141212121001011221322222121210000001100103002110111011100110000011100000001111311000111
+
+	Zoosphaerium_priapus             10141222120001011221322222121210000001100103002110011011100110000111101000001111311000111
+
+	Zoosphaerium_anomalum            101??2??12?001011221322222121110000001110103002110011011100110000101100000001111310000111
+
+	Zoosphaerium_alluaudi            10141212120001011221322222121210000100200222002110011011100110000111100000001111310000111
+
+	Zoosphaerium_coquerelianum       10141212120011011221222222121110000100200222002110?11011100110000111100000001111311000111
+
+	Zoosphaerium_villosum            10141212120011011221322222221110000100200222002110111011100110000111100000001111311000111
+
+	Zoosphaerium_voeltzkowianum      10141212120001011221322222121210000100200222002110111011100110000111100000001111310000111
+
+	Zoosphaerium_platylabum          10151212120001011221222222121210000100200211002110110011100110000131100000001112211000111
+
+	Zoosphaerium_nov01_broeli        10151222120011011221222222221110000100200210202110110011100110000111100000001112211000111
+
+	Zoosphaerium_nov01_Ambre         10151222120001011221222222221110000100200210202110110011100110000111100000001112211000111
+
+	Microsphaerotherium_ivohibiense  10111221120101011221222222121210000000100101003110010011100110000111100000111121410100111
+
+	Arthrosphaera_brandtii           10111221120001012221122222122110001000100200012111000211100110000001100102001141511000111
+
+	Arthrosphaera_Ceylon01           10111221120001012221322222122110000000100200002111000211100110000001100102001131?11000011
+
+	Arthrosphaera_Ceylon02           10111221120001012221222222122110000000100200001111000211100110000111100102001111211000111
+
+	Arthrosphaera_inermis            10111221120001012221222222122110001000100210001111000211100110000111100102001141?11000111
+
+	Sphaerotherium_similare          00122222110001022210122211221210110002100101011110000011101110000001100101011131510101011
+
+	Sphaerotherium_giganteum         00122222110001021210132211221210110001100100011110000011101110000111110101001131511101011
+
+	Sphaerotherium_dorsale           00112222110001021210132211221210110001200110001110000011101110000001100000011131511001101
+
+	Sphaerotherium_punctulatum       00122212110001022210122111221210110002101101011110000011101110000001100001001141511101011
+
+	Sphaerotherium_dorsaloide        00112222110001021210122211221210110002100100011110000011101110000001100100011131510001111
+
+	Sphaerotherium_cinctellum        00122222112001022210132211221110110002100101011110000011101110000001100101011131511001011
+
+	Sphaerotherium_compressum        00112222112001021210132211221110110000000100011110000011101110000001100001011131511001111
+
+	Sphaerotherium_rotundatum        00132222110001021210132211221110110000101101011110000011101110000001100010001131511200111
+
+	Sphaerotherium_sp.               00132222112001022210132111221110110002101101011110000011101110000011100001000131511000011
+
+	Procyliosoma_sp01                0011113111000101111011211121111100000110020100111000001110011000000100000000001110?010100
+
+	Procyliosoma_sp02                0011113111000101111011211121111100000110020100111000001110011000000100000000001110?010100
+
+	Seychelliosoma_seychelliarum     00221231210001021210121111111110000010000210003110000211100110000100000000001131510000100
+
+	Sphaeropoeus_tricollis           00211221210001021210121111111110000010000210001110000211110110000000000001001111211000000
+
+	Sphaeropoeus_Malaysia            00211221210001031210122211211110000012001040012110000211110110000000010101001141?11000100
+
+	Castanotherium_cf_pyrrhomelanum  00211221210001011210121211221110000010000210001110000211110110000000010001001132511000100
+
+
+;
+
+END;
+
+BEGIN CODONS;
+CODESET * UNTITLED = universal : 1 - 82;
+
+END;
+
+BEGIN NOTES;
+
+	TYPESET *                                                         UNTITLED =                                                          unord :                                                          1 -                                                          80;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  19 21 -  62 64 -  89;
+END;
+
+BEGIN ASSUMPTIONS;
+		USERTYPE Untitled_Stepmatrix (Stepmatrix) = 
+		 10
+	0	1	2	3	4	5	6	7	8	9
+	0	1	1	1	1	1	1	1	1	1
+	1	0	1	1	1	1	1	1	1	1
+	1	1	0	1	1	1	1	1	1	1
+	1	1	1	0	1	1	1	1	1	1
+	1	1	1	1	0	1	1	1	1	1
+	1	1	1	1	1	0	1	1	1	1
+	1	1	1	1	1	1	0	1	1	1
+	1	1	1	1	1	1	1	0	1	1
+	1	1	1	1	1	1	1	1	0	1
+	1	1	1	1	1	1	1	1	1	0
+;
+
+	TYPESET * UNTITLED   =  unord:  1 -  89;
+
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 5550613157916577848;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 1635489228842343480;
+			tell It;
+				setDefaultOrder  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 61 62 60 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88;
+				attachments ;
+			endTell;
+			checksum 0 1850439276;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #1635489228842343480 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 97;
+					endTell;
+					setSize 1280 881;
+					setLocation -4 0;
+					setFont SanSerif;
+					setFontSize 10;
+					onInfoBar;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					setBackground White;
+					toggleShowNames on;
+					toggleTight off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWithCharNames on;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					setColumnWidth 16;
+					toggleBirdsEye off;
+					toggleColorsPanel off;
+					birdsEyeWidth 2;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

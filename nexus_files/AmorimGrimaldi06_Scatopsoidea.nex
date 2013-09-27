@@ -1,0 +1,21 @@
+#NEXUS
+
+[De Souza Amorim, D. and Grimaldi, D. A. 2006. Valeseguyidae, a new family of diptera in the scatopsoidea, with a new genus in cretaceous amber from myanmar. Systematic Entomology 31:508-516.]
+
+begin data;
+dimensions ntax=11 nchar=24;
+format missing=? symbols="0123";
+matrix
+Pachyneuridae 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Tanyderidae 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Psychodidae 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+Anisopodidae 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
+Trichoceridae 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 ?
+Axymyiidae 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 1 0 0 0 0 0 0
+Canthyloscelidae 1 1 2 1 1 1 1 1 2 1 1 1 0 0 0 0 1 1 1 0 0 0 1 1
+Scatopsidae 1 2 3 1 1 1 1 1 2 1 0 1 1 0 0 0 1 1 1 0 0 1 1 1
+C.burmitica 1 2 1 1 1 0 ? 1 1 1 1 1 1 1 1 ? 1 1 0 0 0 0 1 0
+V.rieki 1 2 2 1 1 0 1 1 1 1 1 1 1 1 ? 1 0 1 1 1 1 0 1 0
+V.disjuncta 1 2 2 1 1 0 1 1 2 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0
+;
+end;

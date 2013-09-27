@@ -1,0 +1,105 @@
+#NEXUS
+
+[!Kimura, T. and Hasegawa, Y. 2010. A new baleen whale (mysticeti: Cetotheriidae) from the earliest late miocene of japan and a reconsideration of the phylogeny of cetotheres. Journal of Vertebrate Paleontology 30:577-591.]
+
+begin data;
+dimensions ntax=17 nchar=164;
+format missing=? gap=- symbols="01234" INTERLEAVE;
+MATRIX
+Zygorhiza       000100000? 0000000110 0000000000 00000?0000
+aetiocetus      0002110010 1110011110 0000010011 0001000010
+Eomysticetus    10?110110? ?11?????03 0?1?11?1?? 0??????010
+Cetotherium     ?1110?11?0 ??11112210 11111??1?? 00?011012?
+Piscobalaena    111{12}011110 1111112220 11111211?? 0110100121
+Pelocetus       1113111110 1111111110 01111111?? 0010110012
+Cophocetus      ?1131011?? 1111????10 00131??1?? 0010100011
+aglaocetus      1113101110 1111111013 00131111?? 0010100011
+Diorocetus      1112111110 1111111113 00131211?? 0010100?12
+Isanacetus      1112111110 1111111110 00131111?? 0010100011
+Megaptera       1112111110 1111111011 20221111?? 00101{01}0012
+b.acutorostrata 1112111100 1111111111 20221111?? 0010110012
+b.physalus      1112111100 1111111111 20221111?? 0010110022
+Eschrichtius    2111111101 1111111112 10121111?? 0000100011
+Caperea         2111111100 1111111313 00041101?? 11?0000002
+Eubalaena       3110111102 1111111313 00041201?? 1100011002
+Joumocetus      1112111110 11111111?0 ?11111?1?? 0?1????111
+                       
+Zygorhiza       0000000000 0000002001 ?000000000 0010000000
+aetiocetus      1001100000 1101102100 0100000000 0020010000
+Eomysticetus    0101100100 ???110??01 ??11100?00 0010110010
+Cetotherium     ?1?1-11110 0001111?20 0112010100 0110101010
+Piscobalaena    1221-01110 0002112020 0112011000 0100101020
+Pelocetus       1?01-10110 0001101?10 0112011010 0100111110
+Cophocetus      1?011?0110 ??0110??10 0?11011010 010011??10
+aglaocetus      1101110110 0001102?10 0112011010 0100111210
+Diorocetus      {01}101?10110 0001102?10 0112011010 0100111110
+Isanacetus      11011?0110 1101101?10 0112011010 0110101110
+Megaptera       3211110121 0002310020 1112111011 0001101231
+b.acutorostrata 3101110121 0002310020 1122111011 0011101231
+b.physalus      3221110121 0002310020 1122111011 0001101231
+Eschrichtius    2{12}21110120 0001211020 0122010012 0111101020
+Caperea         2221112210 0001202020 013301??12 1020011300
+Eubalaena       3201010210 0011202020 013301??10 1001121300
+Joumocetus      110?-1??1? ??0?10??10 0????????0 ????1??010
+                        
+Zygorhiza       0000100001 0000200000 0000000000 000000000?
+aetiocetus      0011{01}????? ?0???????? ?????????0 ?0?000000?
+Eomysticetus    1111{01}11000 000010000? 1000031000 0000?00000
+Cetotherium     1121?100?? 0?01??0?1? 11????0?11 101010010?
+Piscobalaena    1111010010 000111011? 11011?0?11 1010001101
+Pelocetus       102101???0 100??11211 1?????0011 ?101?1??01
+Cophocetus      102101?0?? 00?111??1? 11001???11 ?1?12???0?
+aglaocetus      0011011010 1011?1111? 1000030011 2101?01101
+Diorocetus      1111011010 100111111? 1100030011 2101201101
+Isanacetus      1011011020 1001111210 1100030011 210101??01
+Megaptera       1011011121 0112111201 1010030?11 210101??01
+b.acutorostrata 2011021121 0112111201 1010030011 210101??01
+b.physalus      {12}011021121 0112{01}11201 1010030011 210101??01
+Eschrichtius    2021011120 0112011201 1110030011 210001??01
+Caperea         1021111001 201111111? 1111030011 2100?1??11
+Eubalaena       001103??30 0011211111 1100020121 210011??1?
+Joumocetus      11???11010 10011???0? 1????10011 ?01??01101
+                  
+Zygorhiza       0000000000 0000000000 0?0000020? 0000000???
+aetiocetus      ??101?00?? ?0?????00? ?000?????? ??????????
+Eomysticetus    1010100011 000?00??0? ??00???0?0 ??????????
+Cetotherium     ??112??1?? ?0???????? ?????????? ??????????
+Piscobalaena    1111200112 1011012101 1010001011 ?11?110???
+Pelocetus       1111210112 1010121101 1110101111 011?110???
+Cophocetus      ??1120?112 1010121?0? 1???00??11 0?????????
+aglaocetus      ?????????? ??????1?01 ??10?????? ??????????                                                        
+Diorocetus      1111100111 101111110? 1?10001??? ??????????                                                            
+Isanacetus      1??1?????? ????????0? 1?10?????? ??????????
+Megaptera       1111310112 1110023101 ??1?111?11 1121110031                                                          
+b.acutorostrata 1111310112 1110023101 1110001011 1121120121
+b.physalus      1111310112 1110023101 ??10001011 1121120031
+Eschrichtius    1121110212 1111012101 1011001011 1101111010
+Caperea         1120201302 011003401? ?0??011??1 111?100010
+Eubalaena       1111200312 0110034011 ??01000010 0111011000
+Joumocetus      1111200??? ????????01 1?1??????? ??????????
+                                                           
+
+Zygorhiza             ????
+aetiocetus            ????
+Eomysticetus          ????
+Cetotherium           ????
+Piscobalaena          ????
+Pelocetus             ????
+Cophocetus            ????
+aglaocetus            ????
+Diorocetus            ????
+Isanacetus            ????
+Megaptera             1111
+b.acutorostrata       1111
+b.physalus            1111
+Eschrichtius          0111
+Caperea               0000
+Eubalaena             0000
+Joumocetus            ????
+;
+end;
+begin sets;
+taxset fossil = Zygorhiza aetiocetus Eomysticetus Cetotherium Piscobalaena Pelocetus Cophocetus aglaocetus Diorocetus Isanacetus Joumocetus;
+taxset extant = Megaptera b.acutorostrata b.physalus Eschrichtius Caperea Eubalaena;
+end;
+

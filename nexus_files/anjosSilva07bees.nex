@@ -1,0 +1,23 @@
+#NEXUS
+[!dos Anjos-Silva, E. J., Engel, M. S., and Andena, S. R. 2007 Phylogeny of the cleptoparasitic bee genus exaerete (hymenoptera: Apidae). Apidologie 38:419-425]
+BEGIN DATA;
+DIMENSIONS NTAX=14 NCHAR=23;
+Format datatype=standard symbols="012" gap=-;
+MATRIX
+Aglae			11002000010001111000000
+Eufriesea		00011001110001111010{0,1}0{0,1}
+Euglossa		00111110000001100010{0,1}0{0,1}
+Eulaema			11102001110001110010{0,1}0{0,1}
+Exaerete_azteca		0001111000011111?000010
+Exaerete_dentata	00011110000111111100010
+Exaerete_frontalis	10011100001111111110001
+Exaerete_smaragdina	10011100001111111110000
+Exaerete_trochanterica	00011100000111111111110
+Exaerete_lepeletieri	10011100001111111110001
+Exaerete_guaykuru	00011100101111101111120
+Apis			00000--0020000001000-00
+Bombus			00000--00200000010{0,1}0{0,1}-{0,1}
+Xylocopa		00000--00200000110{0,1}0{0,1}-{0,1}
+;
+end;
+

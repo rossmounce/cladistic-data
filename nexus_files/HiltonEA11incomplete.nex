@@ -1,0 +1,43 @@
+[!Skeletal Anatomy of the Shortnose Sturgeon, Acipenser brevirostrum Lesueur 1818 and the Systematics of Sturgeons (Acipenseriformes, Acipenseridae)]
+
+BoreosomusF 0 1 0 0 0 0 0 1 1 0 0 N 0 1 0 2 0 0 N N N 0 0 0 0 0 0 0 ? 0 N 
+BirgeriaF 0 1 0 0 1 N 0 1 1 0 0 N 0 1 1 2 0 0 N N N 0 0 0 0 0 0 0 ? 0 N 
+ChondrosteusF 0 1 0 0 0 1 0 1 0 1 ? N 0 1 1 2 1 0 N N N 1 0 0 0 0 0 0 ? 1 0 
+PeipiaosteusF 0 0 0 0 U U U U 0 0 0 ? 0 1 1 2 0 0 N N N 1 0 1 1 0 0 0 ? 1 0 
+Polyodon 1 1 1 1 U U U U 0 0 0 0 0 1 1 0 0 1 0 0 0 2 0 2 1 0 0 1 0 1 N 
+ProtopsephurusF 1 0 1 1 U U U U 0 1 0 0 0 1 1 0 1 1 ? 0 0 1 0 1 1 0 0 1 ? 1 0 
+PriscosturionF 0 0 0 0 ? ? ? ? 1 0 ? 1 0 1 1 2 1 1 1 1 0 2 ? ? ? 1 1 0 ? 1 0 
+H.huso 0 1 0 0 0 0 0 0 2 1 1 0 0 0 1 1 1 1 P 0 1 2 1 1 1 1 0 0 1 1 0 
+Scaphirhynchus 0 0 0 0 0 0 0 0 3 1 1 1 1 0 1 1 1 1 1 1 0 2 1 1 1 1 1 0 1 1 0 
+P.kauffmani 0 0 0 0 0 0 1 1 2 1 1 0 1 1 1 1 1 1 1 0 0 2 1 1 1 1 1 0 1 1 0 
+P.hermannni 0 0 0 0 0 0 1 1 2 1 1 0 1 1 1 1 1 1 1 0 0 2 1 1 1 1 1 0 1 1 0 
+A.brevirostrum 0 0 0 0 1 0 0 0 2 1 1 1 0 0 1 1 1 1 1 0 0 2 1 1 1 1 0 0 1 1 0 
+A.stellatus 0 0 0 0 0 0 1 1 2 1 1 0 1 1 1 1 1 1 1 0 0 2 1 1 1 1 0 0 1 1 0 
+A.ruthenus 0 P 0 0 0 0 0 0 2 1 1 0 0 0 1 1 1 1 1 0 1 2 1 1 1 1 0 0 1 1 0 
+A.fulvescens 0 0 0 0 1 0 0 0 2 1 1 1 0 0 1 1 1 1 1 0 0 2 1 1 1 1 0 0 1 1 0 
+A.oxyrinchus 0 1 0 0 0 0 0 0 2 1 1 1 0 0 1 1 1 1 1 0 0 2 1 1 1 1 0 0 1 1 0 
+A.transmontanus 0 0 0 0 0 0 0 0 2 1 1 1 0 0 1 1 1 1 1 0 0 2 1 1 1 1 0 0 1 1 0 
+A.baerii 0 0 0 0 0 0 0 0 2 1 1 0 0 0 1 1 1 1 1 0 1 2 1 1 1 1 0 0 1 1 0
+
+
+Boreosomus 0 0 0 ? 0 ? ? ? 0 ? 0 0 0 0 0 0 ? ? 0 1 1 0 0 1 ? 0 0 ? 0 ? ? 
+Birgeria 0 0 0 0 0 ? ? ? 0 ? ? 0 1 0 1 0 1 ? 0 1 0 0 0 1 0 0 0 ? 0 0 N 
+Chondrosteus 1 0 0 0 1 ? ? ? 0 0 0 0 1 0 1 0 1 ? 0 1 1 1 0 1 0 0 0 ? 0 0 N 
+Peipiaosteus 1 0 0 2 ? ? ? ? 1 1 ? 0 1 0 1 0 1 ? 0 0 0 0 0 1 0 0 0 ? 1 0 N 
+Polyodon 1 N 0 1 0 0 0 1 1 1 0 1 1 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 1 1 0 
+Protopsephurus 1 1 0 0 ? ? ? ? 1 1 ? 1 1 0 1 0 1 ? 0 1 1 1 0 1 0 0 0 ? 0 0 N 
+Priscosturion 1 0 1 1 ? ? ? ? 1 1 0 0 1 1 2 0 ? ? 2 1 1 1 1 1 1 0 1 ? 0 1 ? 
+H.huso 1 0 1 0 1 0 1 1 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 
+Scaphirhynchus 1 1 1 2 1 1 1 0 1 1 1 0 1 1 3 1 1 1 2 1 1 1 1 1 1 1 1 1 0 1 1 
+P.kauffmani 1 0 2 2 1 1 1 1 1 1 0 0 1 1 3 1 1 1 3 1 1 1 1 1 1 1 1 1 0 1 0 
+P.hermannni 1 0 2 2 1 1 1 1 1 1 0 0 1 1 3 1 1 0 3 1 1 1 1 1 1 1 1 1 0 1 0 
+A.brevirostrum 1 0 1 1 1 1 1 1 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 
+A.stellatus 1 0 2 1 1 1 1 1 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 
+A.ruthenus 1 0 1 1 1 1 1 0 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 
+A.fulvescens 1 0 1 1 1 1 1 1 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 
+A.oxyrinchus 1 0 2 1 1 1 1 1 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 
+A.transmontanus 1 0 2 1 1 1 1 1 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 
+A.baerii 1 0 2 1 1 1 1 1 1 1 0 0 1 1 3 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0
+;
+proc/;
+

@@ -1,0 +1,62 @@
+#Nexus
+
+BEGIN DATA;
+DIMENSIONS NTAX=25 NCHAR=47;
+FORMAT INTERLEAVE MISSING=? GAP=- SYMBOLS="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+MATRIX
+
+[- is inapplicable]
+
+Angusaurus	1 1 1 0 0 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 1 1 1 1
+Benthosuchus	1 1 0 0 1 0 1 2 0 1 0 1 0 1 1 1 0 0 1 1 0 1 1 0
+Chrninia	0 1 0 1 1 0 0 2 0 0 1 1 1 2 0 1 0 0 0 0 0 1 0 0
+Chomatobatrachus	0 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0
+Cyclotosaurus	0 1 0 2 0 0 0 2 0 0 1 1 1 1 0 0 1 2 0 0 1 1 0 1
+Deltacephalus	0 1 1 0 0 0 0 2 0 0 0 1 0 0 0 0 1 ? ? ? 0 ? 0 0
+Eryosuchus	0 1 0 1 1 0 0 2 0 0 1 1 1 2 0 1 0 1 0 0 0 1 0 0
+Eocyclotosaurus	1 1 0 2 1 0 1 2 0 1 0 1 1 2 1 1 1 0 0 1 1 1 1 1
+Lydekkerina	0 1 1 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0
+Mastodonsaurus	0 1 0 1 0 0 1 2 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 0
+Odenwaldia	1 1 0 1 1 0 ? 2 ? ? 0 1 ? ? 1 1 0 ? ? 1 ? ? ? ?
+P_madagascariensis	0 1 1 0 0 0 0 1 0 0 1 1 0 0 0 0 1 0 1 0 0 ? 0 0
+Paracyclotosaurus	0 1 0 1 1 0 0 2 0 0 1 1 1 2 0 1 0 1 0 ? 1 1 0 0
+Parotosuchus	0 1 0 0 1 0 0 2 0 0 1 1 1 2 0 1 0 1 0 0 0 1 0 0
+Stenotosaurus	0 1 0 2 1 0 0 2 0 0 1 1 1 2 0 1 1 1 0 0 0 1 0 0
+Tatrasuchus	0 1 0 1 0 0 0 2 0 0 1 1 1 1 0 0 0 2 0 0 0 1 0 0
+Thoosuchus	1 1 0 0 0 1 1 1 1 1 0 1 0 0 1 1 0 0 1 1 0 1 1 1
+Trematosaurus	1 1 1 0 0 1 1 1 1 1 0 1 0 0 1 1 1 0 - 1 1 1 1 1
+Watsonisuchus	0 1 0 0 1 0 0 2 0 0 1 1 1 2 0 1 0 0 1 0 0 1 0 0
+Wellesaurus	0 1 0 1 0 0 0 2 0 0 1 1 1 2 0 1 1 1 0 0 0 1 0 0
+Wetlugasaurus	0 1 0 0 1 0 0 2 0 0 0 1 1 1 0 1 0 0 1 0 0 1 1 0
+Konshukovia	0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 1 ? 0
+Rhineceps	0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+Rhinesuchus	0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0
+Uranocentmdon	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ? 0 0
+	
+Angusaurus	1 1 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 1 1 1 1
+Benthosuchus	0 1 0 0 0 1 1 0 0 0 1 1 1 1 1 1 1 0 0 0 1 1 0
+Chrninia	0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 ? ? ? ? ? ?
+Chomatobatrachus	0 1 0 0 0 0 0 0 0 1 1 ? 0 0 1 0 ? ? ? ? ? ? ?
+Cyclotosaurus	0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 ? ? ? ? ? ? ?
+Deltacephalus	0 1 0 0 0 0 1 ? 0 1 1 1 0 0 1 ? ? ? ? ? ? ? ?
+Eryosuchus	0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0
+Eocyclotosaurus	0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 ? ? ? ? ? ? ?
+Lydekkerina	0 1 0 0 0 0 1 0 0 1 1 0 0 0 1 0 1 0 0 0 1 1 0
+Mastodonsaurus	0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0
+Odenwaldia	? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+E?madagascariensis	0 1 0 0 0 0 ? ? ? ? 1 ? 0 0 1 ? ? ? ? ? ? ? ?
+Paracyclotosaurus	? 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 ? 1 0
+Pamtosuchus	0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0
+Stenotosaurus	? 1 1 1 ? 1 1 1 1 0 1 1 1 1 1 1 ? ? ? ? ? ? ?
+Tatrasuchus	0 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0
+Thoosuchus	1 1 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 1 1 1 1
+Trematosaurus	1 - - - 0 0 0 0 1 0 1 0 0 - 1 0 1 0 1 1 1 1 1
+Watsonisuchus	0 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 0
+Wellesaurus	0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0
+Wetlugasaurus	0 1 1 1 0 1 1 0 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0
+Konshukovia	0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 ? ? ? ? ? ? ?
+Rhineceps	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0
+Rhinesuchus	0 0 0 0 0 0 1 0 ? 0 0 0 0 0 0 1 ? ? ? ? ? ? ?
+Uranocentmdon	0 0 0 0 0 0 1 0 ? 0 0 0 0 0 0 1 0 0 0 0 0 0 0
+;
+END;

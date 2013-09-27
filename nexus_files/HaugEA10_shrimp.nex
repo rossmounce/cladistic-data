@@ -1,0 +1,31 @@
+#NEXUS
+
+[Haug, J., Haug, C., Maas, A., Kutschera, V. & Waloszek, D. Evolution of mantis shrimps (stomatopoda, malacostraca) in the light of new mesozoic fossils. BMC Evolutionary Biology 10, 290+ (2010). URL http://dx.doi.org/10.1186/1471-2148-10-290.]
+
+begin data;
+dimensions ntax=20 nchar=36;
+format missing=? gap=- symbols="01";
+MATRIX
+outgroup 1 1 1 1 1 0 0 - - - -   0 0 - - - - - - 0 1 0 0 0 0 - 0 0 1 0 - 1 0 - - -
+Kallidecthes_richardsoni 1 1 1 1 1 0 0 - - - -   0 0 - - - - - - 1 0 0 0 0 0 - 0 0 0 0 - 0 0 - - -
+Perimecturus_rapax 1 1 1 1 1 0 1 ? ? 0 -   ? ? ? ? ? ? ? ? 1 0 1 1 1 1 0 1 0 1 1 1 1 0 ? ? ?
+Perimecturus_parki 1 1 1 1 1 0 1 0 1 0 -   1 1 1 0 0 0 0 0 1 0 0 1 1 0 - 0 1 1 1 1 1 0 0 0 0
+Bairdops_elegans 1 1 1 1 1 0 1 0 1 0 -   1 1 0 0 0 0 0 0 1 0 0 1 0 0 - 1 0 1 1 1 1 0 0 0 0
+Bairdops_beargulchensis 0 1 1 1 1 0 1 0 1 0 -   1 1 0 0 0 0 ? ? 1 0 0 ? 0 0 - 1 1 1 1 1 1 0 0 0 0
+Archaeocaris_vermiformis 0 0 1 1 1 0 1 0 1 0 -   0 1 0 0 0 0 0 1 0 1 0 0 0 0 - 0 0 ? ? ? 1 0 0 0 0
+Archaeocaris_graffhami 0 0 1 1 1 0 1 0 1 0 -   0 1 0 0 0 0 ? ? ? ? ? ? 0 0 - 0 0 ? ? ? 1 0 0 0 0
+Gorgonophontes_fraiponti 0 0 1 1 0 0 1 0 1 0 -   1 1 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0
+Gorgonophontes_peleron 0 0 1 1 0 0 1 0 1 0 -   1 1 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0
+Daidal_acanthocercus 0 0 0 1 0 0 1 0 1 0 -   1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 1 1 1 0 1 0 0 0 0
+Daidal_pattoni 0 0 0 1 0 0 1 0 1 0 -   1 1 0 0 0 0 ? ? ? ? ? ? ? ? ? ? 1 1 1 0 ? ? 0 0 0
+Daidal_schoellmanni 0 0 0 1 0 0 1 0 1 0 -   1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 1 1 1 0 1 0 0 0 0
+Tyrannophontes_theridion 0 0 0 1 0 0 1 1 0 1 0   1 1 1 1 0 0 1 1 0 0 0 0 1 0 - 0 1 1 1 0 1 0 1 1 1
+Tyrannophontes_gigantion 0 0 0 1 0 0 1 1 0 1 0   1 1 1 1 1 0 0 1 ? ? ? ? ? ? ? ? ? ? ? ? ? ? 1 1 1
+Pseudosculda_laevis 0 0 0 0 0 1 1 1 0 1 1   1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 0 0 0 - 1 1 1 1 1
+Sculda_pennata 0 0 1 0 0 1 1 1 0 ? ?   1 1 0 1 0 0 0 0 1 0 1 0 0 1 1 0 0 0 0 - 1 1 1 1 0
+Sculda_pusilla 0 ? ? 0 0 ? 1 ? ? ? ?   ? ? ? 1 1 0 0 ? 1 0 1 0 0 1 1 0 0 0 0 - 1 1 1 1 1
+Squilla_mantis 0 0 0 0 0 1 1 1 0 1 1   1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 0 0 0 - 1 1 1 1 1
+Chabardella_spinosa 0 0 0 1 0 0 1 0 1 ? ?   1 1 0 1 0 0 0 0 ? 0 1 ? ? ? ? ? ? ? ? ? ? ? 1 0 0
+;
+end;
+

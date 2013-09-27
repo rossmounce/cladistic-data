@@ -1,0 +1,27 @@
+#NEXUS
+[Russell, A. P. and Ryan, M. J. 2005. A new centrosaurine ceratopsid from the Oldman Formation of Alberta and its implications for centrosaurine taxonomy and systematics. Canadian Journal of Earth Sciences pp. 1369-1387.]
+
+[raw outgroup codingss
+Protoceratops 0 1 0 0 N 0 N 0 0 0 0 0 0 N 0 0 0
+Zuniceratops ? 0 ? 0 0 1 0 ? ? ? ? ? ? ? ? ? ?]
+
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=9 NCHAR=17;
+	FORMAT SYMBOLS= " 0 1 2 3 4" MISSING=? GAP=N ;
+MATRIX
+Outgroup 		0 1 0 0 0 0 0 0 0 0 0 0 0 N 0 0 0
+Centrosaurus_apertus 0 1 1 1 1 1 1 1 1 1 3 3 1 N 1 0 1
+C._brinkmani 0 1 1 1 2 1 1 1 1 1 3 4 2 3 1 1 1
+Styracosaurus 0 1 1 1 1 1 2 1 1 1 2 2 3 1 1 0 1
+Achelosaurus 1 2 1 1 3 2 N 1 1 1 0 1 3 1 1 0 1
+Einiosaurus 0 1 N 1 3 1 2 1 1 1 0 1 3 0 1 0 1
+Pachyrhinosaurus_sp 2 2 N 1 3 2 N 1 1 1 0 3 3 2 1 2 1
+P._canadensis 2 2 N 1 N 2 N 1 1 1 0 3 3 2 1 1 1
+Chasmosaurine 0 1 0 0 0 1 0 0 0 0 1 2 1 N 0 0 0
+;
+end;
+
+
+
+

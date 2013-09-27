@@ -1,0 +1,76 @@
+#NEXUS
+[File created by TreeBASE: 11/16/99 10:48:11]
+[Matrix accession#: M617]
+BEGIN DATA;
+DIMENSIONS NTAX=17 NCHAR=36;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-1999.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=617 on June 20, 2010, 11:36 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Whitfield, J. B. 1992. The polyphyletic origin of endoparasitism in the cyclostome lineages of Braconidae (Hymenoptera). Systematic Entomology 17: 273-286.
+
+Study accession number = S423
+Matrix accession number = M617
+]
+FORMAT SYMBOLS = " 0 1 2 3 " MISSING = ? GAP = - ;
+MATRIX
+
+'Opiini_alysiini' 0?011?010?001?10001????0??0???21313?
+'Lysitermini' 00?00001000?0?100100?000????0??00001
+'Hydrangeocola' 0000000?000?0?0000010100?????????0??
+'Stiropius_gp' 0000000100011?101100101011111?211120
+'Gnaptodontinae' ?111110?111?111101101010000????11?10
+'Rogadini' ?0000002000110101100?010111111212120
+'Clinocentrus' 10000001000010101100?010111101211120
+'Pambolini' 1010000100000?10000000?000000?000001
+'Hormiini' 00000001000?01100100?000000?0??00001
+'Cantharoctonus' 1000001101011?10?100101000000???1010
+'Rhysipolis' 0000000100001010?1001010000001111010
+'Oncophanes' 1010000000000?0001000001000001100001
+'Colastes' 010010010000111001011010000000000000
+'Shawiana' 010011010000111001011010000000000000
+'Xenarcha' 010011010000111001001010000000000000
+'Rhyssalus' 1010000000000?000000000100000??00001
+'Exothecinae/Rogadin_ancestor' ?0?00?00??000?000?00?0000000????????
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+EXSET * Exclude = 31 32 33 34 35 ; 
+
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 1 trees. TreeBASE accession#: Tree1333 ]
+TRANSLATE
+1	'Exothecinae/Rogadin_ancestor',
+2	'Opiini_alysiini',
+3	'Cantharoctonus',
+4	'Gnaptodontinae',
+5	'Hydrangeocola',
+6	'Clinocentrus',
+7	'Stiropius_gp',
+8	'Lysitermini',
+9	'Oncophanes',
+10	'Rhysipolis',
+11	'Rhyssalus',
+12	'Pambolini',
+13	'Xenarcha',
+14	'Shawiana',
+15	'Colastes',
+16	'Hormiini',
+17	'Rogadini',
+;
+TREE 'Fig._1' = [&R] (1,(11,9),(((((13,14,15,(4,2)),10,3,(6,(17,7))),16,8),5),12));
+
+
+END;

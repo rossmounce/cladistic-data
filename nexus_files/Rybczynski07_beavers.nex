@@ -1,0 +1,544 @@
+#NEXUS
+
+[ File saved by NDE version 0.5.0, Tue Nov 15 18:23:06 2005 ]
+[ Rybczynski, N. 2007. Castorid phylogenetics: Implications for the evolution of swimming and Tree-Exploitation in beavers. Journal of Mammalian Evolution 14:1-35.]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=39;
+	TAXLABELS
+		'Agnotocastor coloradensis'
+		'Agnotocastor praetereadens'
+		'Agnotocastor sp.'
+		Anchitheriomys
+		'Brachycastor wangi'
+		'Capacikala sp. 1'
+		'Capacikala sp. 2'
+		'Castor fiber'
+		'Castoroides ohioensis'
+		'Dipoides c.f. intermedius'
+		'Dipoides smithi'
+		'Dipoides stirtoni'
+		'Dipoides tanneri'
+		'Eucastor tortus'
+		'Euhapsis breugerom'
+		'Euhapsis ellicotae'
+		'Euroxenomys minutum'
+		'Eutypomys thompsoni'
+		'Fossorcastor greeni'
+		'Hystricops venustus'
+		'Migmacastor procumbodens'
+		'Neatocastor hesperus'
+		'Palaeocastor fossor'
+		'Palaeocastor magnus'
+		'Palaeocastor c.f. nebrascensis'
+		'Palaeocastor peninsulatus'
+		'Palaeocastor c.F. simplicidens'
+		'Palaeocastor wahlerti'
+		'Palaeocastor sp. 2'
+		'Paramys copei'
+		'Paramys delicatus'
+		'Procastoroides idahoensis'
+		'Pseudopaleocastor barbouri'
+		'Pseudotomus robustus'
+		Priusaulax
+		'Sinocastor anderssoni'
+		'Steneofiber depereti'
+		'Steneofiber eseri'
+		'Trogontherium cuvieri'
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=88;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="0123456";
+	CHARLABELS
+		[1] ' M1 ratio'
+		[2] 'Rostrum shape'
+		[3] 'anterior limit of nasal'
+		[4] ' Nasals width'
+		[5] 'lateral margin of nasals'
+		[6] 'PMX-MX suture - post limit'
+		[7] 'Incisive foramen length'
+		[8] 'Incisive foramen - borders'
+		[9] 'deep masseter scar'
+		[10] 'IFO shape'
+		[11] 'sup . mass. scar'
+		[12] 'Antero-lateral border of orbit'
+		[13] 'shape of ? foramen in choanal roof'
+		[14] 'medial Bullar eminance'
+		[15] 'Jugal thickness/height'
+		[16] 'Maxilla palatal shape'
+		[17] 'Maxilla palate anterior to cheek teeth'
+		[18] 'MX-Alisphenoid contact'
+		[19] 'POM shape'
+		[20] 'POM border composition'
+		[21] 'Palatine ventral surface'
+		[22] 'Palatine posterior border location'
+		[23] 'posterior palatine foramina'
+		[24] 'Sphenopalatine foramen'
+		[25] 'Ethmoid foramen'
+		[26] 'Dorsal palatine foramen '
+		[27] 'Interorbital foramen '
+		[28] 'Sphenofrontal foramen'
+		[29] 'Sphenoidal fissure'
+		[30] 'Masticatory and Buccinator formaina'
+		[31] 'Foramen ovale accessorius'
+		[32] 'Middle lacerate foramen'
+		[33] 'posterior alar fissure'
+		[34] 'Parietal sculpting'
+		[35] Interparietal
+		[36] 'Sagittal crest'
+		[37] 'ventral projection of squamosal'
+		[38] glenoid
+		[39] 'temporal foramina'
+		[40] 'Auditory tube'
+		[41] 'Auditory bulla'
+		[42] 'stapedial artery'
+		[43] basioocciptial
+		[44] 'Angle of Occiput'
+		[45] 'Squamoso-mastoid foramen'
+		[46] 'Upper incisor blade shape'
+		[47] 'Upper incisor cross sectional shape'
+		[48] 'upper incisor enamel'
+		[49] P3
+		[50] 'Upper tooth rows'
+		[51] 'M2, M3 mesiodistal'
+		[52] 'molar shape'
+		[53] 'lower incisor blade shape'
+		[54] 'lower incisor cross sectional shape'
+		[55] 'lower incisor interstitial wear facet'
+		[56] 'lower diastema; lower I alveolus'
+		[57] 'Digastirc eminence size'
+		[58] 'digastirci eminence position'
+		[59] 'deep fossa at anterior limit of medial mandibular fossa'
+		[60] 'Ascending ramus obscures...'
+		[61] 'orientation of coronoid, condyle, angle...'
+		[62] 'proportions of condyle'
+		[63] 'capsular process presence, size'
+		[64] 'capsular process location'
+		[65] 'Shape of back of angle'
+		[66] 'mandibular angle positionbelw'
+		[67] 'scapula - acromiom process'
+		[68] 'deltoid tuberosity'
+		[69] 'entepicondular foramen'
+		[70] 'MC III - proximal end'
+		[71] 'MC V'
+		[72] 'iliac blade'
+		[73] 'femur/tibia langth'
+		[74] 'femur cross sectional shape'
+		[75] 'Tibia: proximal shaft'
+		[76] 'Fibula-tibia'
+		[77] 'calcaneal postero-lateral surface'
+		[78] 'calcaneus: calacaneoastragalus facet'
+		[79] 'calcaneus:SUS facet'
+		[80] 'clacaneal tuber angle with SUS'
+		[81] 'astragalus '
+		[82] 'astragalus: SUS and navicular articulation'
+		[83] 'MT III vs MT IV length'
+		[84] 'MT III vs MT IV width'
+		[85] 'MT IV and MT V articulation'
+		[86] 'MTV and cuboid articulation'
+		[87] 'caudal vert centra'
+		[88] 'caudal vert transverse processes.'
+		;
+	STATELABELS
+		1
+			' '
+			' '
+			'',
+		2
+			' '
+			' '
+			'2',
+		3
+			'width greater than length '
+			' '
+			'2',
+		4
+			' '
+			' ',
+		5
+			' '
+			' '
+			''
+			convex,
+		6
+			' '
+			' '
+			'2',
+		7
+			' '
+			' '
+			'2',
+		8
+			' '
+			' '
+			'2',
+		9
+			' '
+			' '
+			'2'
+			'3',
+		10
+			' '
+			' '
+			'2'
+			'3',
+		11
+			' '
+			' '
+			'2'
+			'3'
+			'4',
+		12
+			' '
+			' '
+			'2'
+			'3'
+			'4'
+			'5',
+		13
+			' '
+			' '
+			'2',
+		14
+			' '
+			' ',
+		15
+			' '
+			' ',
+		16
+			' '
+			' '
+			'2'
+			'3',
+		17
+			' '
+			' '
+			'2',
+		18
+			' '
+			' '
+			'2'
+			'3',
+		19
+			' '
+			' '
+			'2'
+			'3',
+		20
+			' '
+			' '
+			'2',
+		21
+			' '
+			' '
+			'2'
+			'3',
+		22
+			' '
+			' '
+			'2'
+			'3',
+		23
+			'less than 1 '
+			'between 1 and 1.15 '
+			'greater than or equal to 1.15',
+		24
+			' '
+			' ',
+		25
+			' '
+			' ',
+		26
+			' '
+			' '
+			'2'
+			'3'
+			'4'
+			'5'
+			'6',
+		27
+			' '
+			' ',
+		28
+			' '
+			' ',
+		29
+			' '
+			' '
+			'2'
+			'3',
+		30
+			' '
+			' ',
+		31
+			' '
+			' '
+			'2',
+		32
+			'absent or obscured by bulla'
+			'present and separate from foramen ovale'
+			'present and confluent with foramen ovale',
+		33
+			'absent '
+			'present, closed foramen '
+			'present; opens ventrally',
+		34
+			'absent '
+			'present ',
+		35
+			'absent '
+			'present ',
+		36
+			single
+			'double for length of brain case '
+			'double in parietals but single in interparietal region',
+		37
+			'absent '
+			'present ',
+		38
+			'absent '
+			'present, posteriorly lateral margin angled toward midline '
+			'present, lateral margin parallel to midline',
+		39
+			'single '
+			'multiple ',
+		40
+			'absent '
+			'pres„# ',
+		41
+			' '
+			' '
+			'2',
+		42
+			' '
+			' ',
+		43
+			' '
+			' '
+			'2',
+		44
+			' '
+			'0 to (and including) 20 degrees '
+			'over 20 degrees from vertical',
+		45
+			' '
+			' ',
+		46
+			'convex; convex '
+			'convex;straight '
+			'straight; straight',
+		47
+			' '
+			' '
+			'2',
+		48
+			' '
+			' '
+			'2',
+		49
+			' '
+			' ',
+		50
+			' '
+			' '
+			'2',
+		51
+			'similar - within 10% "error" or slightly smaller'
+			'M3>M2, greater than 10% difference',
+		52
+			'brachydont '
+			'low crowned, complex occlusal pattern '
+			'hypsodont, but striae do not reach base of crown'
+			'one or two closed roots'
+			'open rooted'
+			'3 roots, striae reach base of crown',
+		53
+			'convex; convex '
+			'semi-flat; convex '
+			'semi-flat;  straight'
+			'flat;straight',
+		54
+			' '
+			' '
+			'2',
+		55
+			' '
+			' ',
+		56
+			' '
+			' '
+			'2',
+		57
+			' '
+			' '
+			'2',
+		58
+			' '
+			' '
+			'2',
+		59
+			' '
+			' ',
+		60
+			' '
+			' '
+			'2'
+			'3',
+		61
+			' '
+			' ',
+		62
+			' '
+			' '
+			'2',
+		63
+			' '
+			' ',
+		64
+			' '
+			' '
+			'2',
+		65
+			'rounded '
+			'pointed ',
+		66
+			below
+			'roughly level'
+			above,
+		67
+			' '
+			' ',
+		68
+			' '
+			' '
+			'2',
+		69
+			' '
+			' ',
+		70
+			' '
+			' ',
+		71
+			angular
+			rounded,
+		72
+			' '
+			' '
+			'2',
+		73
+			' '
+			' '
+			'2',
+		74
+			' '
+			' '
+			'2',
+		75
+			' '
+			' '
+			'2',
+		76
+			' '
+			' ',
+		77
+			' '
+			' '
+			'2',
+		78
+			' '
+			' '
+			'2',
+		79
+			' '
+			' '
+			'2',
+		80
+			' '
+			' ',
+		81
+			' '
+			' '
+			'2',
+		82
+			' '
+			' '
+			'2',
+		83
+			' '
+			' ',
+		84
+			' '
+			' '
+			'2',
+		85
+			' '
+			' ',
+		86
+			' '
+			' ',
+		87
+			' '
+			' ',
+		88
+			' '
+			' ',
+	;
+	MATRIX
+		'Agnotocastor coloradensis'         02?10{12}0?2? 1?????111? 02???????? ?????0?0?? ?????1100? ?101(01)12001 ?00??0???? ?????01100 00110?00
+		'Agnotocastor praetereadens'        02?11?0122 3500?00?10 02?1030101 0?01001001 10001{01}1?00 0101012001 ?0???????? ?????????? ????????
+		'Agnotocastor sp.'                  02?1?2?121 32?0010111 13???????? 0??10010?1 ??000??001 ?1???????? ?????????? ?????????? ????????
+		Anchitheriomys                      0(12)?1202?10 (13)51??01200 000114?0?0 {01}??000??1? ???0?01(01)11 0201(01)12101 0(01)0000???? ?????00??1 0???????
+		'Brachycastor wangi'                0111100022 ???0?123{12}? 02???????? ???????{12}?1 0??1?21011 0231?12003 1100?2??1? ????00??0? ????????
+		'Capacikala sp. 1'                  0111211121 34{12}01?2?21 ?30??????? 0?11?110?1 0100??1011 ?211122102 ?100????0? ??0??????? ????????
+		'Capacikala sp. 2'                  0????2?121 35200?2121 0311031010 0101011001 0?001{12}?011 ?2???????? ?????????? ?????????? ????????
+		'Castor fiber'                      0221110133 3110121221 1011131(01)10 2221021001 2110111012 0421122102 0(01)11020110 1222101121 21121111
+		'Castoroides ohioensis'             112110{01}020 43?0?21210 0211150101 2221001011 1100101112 1501022202 1?0012010? ??2??1???? ??1111(01)1
+		'Dipoides c.f. intermedius'         (01)??11??2?2 ?3?1(01)21210 (01)(12)11?5111? ???????0?1 11???12012 050(12)(01)22(12)01 1?00????1? ?1??01???? ????????
+		'Dipoides smithi'                   1???????02 34?1?21210 {01}11?151110 ?221021001 1101????12 050??111?{12} 10001{01}???? ??????1121 ?1??????
+		'Dipoides stirtoni'                 12(01)1300222 3(23)(01)11(23)121(01) 02110511(01)0 0201021011 1100112012 050112(12)202 1(01)00?0?101 0?{12}10111(12)1 111(12)1101
+		'Dipoides tanneri'                  0(12)01100(12)(02)(02) 3301(01)(12)12(01)0 02(01)1131(01)(01)? ???1021011 (01)100111012 0{34}01(01)(12)(12)(01)01 1(02)00?1?11? ?21(01)1????? ??111111
+		'Eucastor tortus'                   (01)0?(01)010(12)20 (23)(23)?00(12)1210 (01)2(01)1051110 02(12)1021001 11011{01}(12)(02)12 0(34)11011(01)0(13) ?20(12)?0???? ?????????? 11??????
+		'Euhapsis breugerom'                0221?10022 ??{12}01122{01}0 220?????10 0??110?201 0101021010 ?231112203 12?????2?? ?????????? ????????
+		'Euhapsis ellicotae'                0121211022 2{02}{12}0?12320 22?10{23}0?10 0?11100201 010202?011 02???????? ?????????? ?????????? ????????
+		'Euroxenomys minutum'               0?????0??? ??????1100 020??????? ????0????? ?????1101? 120(12)121012 ?0???????? ???0??220? 21??????
+		'Eutypomys thompsoni'               0000000110 1?10?00121 02011(23)1000 00?1000000 0000000000 01000(02)100(01) ??00?0?10? ????2000{12}0 00?200??
+		'Fossorcastor greeni'               01?1????22 ??20?3?2{12}? 221??????? ??11?0?1?1 0101?22011 02311??{01}03 ??????1??? ?????????? ????????
+		'Hystricops venustus'               0221?00?33 35??1?1??? ?{01}1?1????? ?????010?1 21{12}0112012 042?122102 0?11?2???? ????10???? ????????
+		'Migmacastor procumbodens'          0220010122 3{02}????2310 0201131000 {01}??10010?1 ????001210 0211011001 020100???? ?????????? ????????
+		'Neatocastor hesperus'              00?00????? 1?????1??? ??01?????? 0??10????? ?????11000 02021???0{12} ?????????? ?????????? ????????
+		'Palaeocastor fossor'               0(01)(12)(01)(02)(01)(12)02(02) 24211(13)2(12)21 0(01)111(03)(01)110 0111001101 010002101(01) 023(12)112(012)(01)(23) 1(012)0(01)1212(01)0 ?201000??1 0202?100
+		'Palaeocastor magnus'               00(12)120(01)02(12) 2(45)20112221 001113(01)010 0111001(01)(01)1 010(01)02(12)01(01) 02311{12}2103 110?12???? ?2?1?0???? 01???0??
+		'Palaeocastor c.f. nebrascensis'    0(12)11?102(12)? 3410012121 0311?3??10 ??010(01)1001 0000(01)21011 02???{12}(12)101 ??000???0? ?????????? ??01??00
+		'Palaeocastor peninsulatus'         0???000022 3{02}?010??{12}? ?3???????? ???10010?1 0100?21?1? 02311?10?{23} ?????????? ??????0101 01??????
+		'Palaeocastor c.F. simplicidens'    0{01}?1?00122 30?0002??? 030??????? ???1021001 1?00?21011 0211?11212 1?0010121? ?2??00???? ??01????
+		'Palaeocastor wahlerti'             021?0?0?2? ?????2?12? 0??11?1?10 {01}?0101100? ?(01)00?{01}1011 0?11?12001 ?100?{01}???? ?????????? ????????
+		'Palaeocastor sp. 2'                ?2011?0021 3??0012121 020?????1? ???1001001 1??0?2101? 0211?11213 0?0000?21? ?202001??? ??01??00
+		'Paramys copei'                     0100000?00 00??101032 0200010000 0120100010 ?0000{01}0000 000??00??0 ??10?0???? ??????0000 00???0??
+		'Paramys delicatus'                 0000000?00 0{01}???0000{12} 0100010010 01????1010 ?000001000 0000?00??0 0010?0?00? ?000?00000 00???0{01}0
+		'Procastoroides idahoensis'         ?????????? ?????????? ?????????? ?????????? ?????0?1?? ?5{01}1?2?2?2 ??0????101 0?21011{12}21 {12}1111101
+		'Pseudopaleocastor barbouri'        (01)0????0?21 20?01222{12}0 011?????1? ???1021101 010{01}02(12)010 0331112103 1200?1?21? ??0?00?101 21??????
+		'Pseudotomus robustus'              0????????? ?????????? ?????????? ?????????0 ?????{01}00?? ?0{01}0?022?0 ??10000001 0??0?00000 000??0??
+		Priusaulax                          ?2???000{12}2 30?1101?1{01} 0?1??????? ?????210?1 1100?{01}1011 ?(23){01}1?????? ?????????? ?????????? ????????
+		'Sinocastor anderssoni'             022110013? 35??1?1?(01)? 0011?????? ???10(02)1?11 {12}1101{12}2012 041(12)?12(01)03 1200?1???? ?????????? ????????
+		'Steneofiber depereti'              022???0?2? 30??0?111? 0(01)???30??? ???10210(01)1 1120111012 020111{12}(01)01 0(01)1000?10? 1???001021 01??1???
+		'Steneofiber eseri'                 02?1(01)00(12)23 3(025)000?11(01)1 0(12)(01)1(01)3(01)0(01)0 0??1021011 1120111011 02(01)111(12)(01)0(12) 0100000100 1(02)(12)1(012)0(01)021 0(12)021101
+		'Trogontherium cuvieri'             0(01)2111(01)122 4{02}?0?(02)(01)(12)1(12) 0(02)110?1?0? ???1(01)(02)1001 1100?(01)(12)(12)12 120(01)0222(01)2 1(01)0(01)10?111 ?12{12}012201 (12)1111101
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+ENDBLOCK;
+BEGIN PAUP;
+Pset mstaxa=variable;
+outgroup 15 27 28 31;
+delete 14 16 19 29 32;
+ENDBLOCK;
+Begin PAUP;
+exclude uninf;
+charset cra= 1-66;
+charset non= 67-88;
+charpartition crantest= 1:cra, 2:non;
+end;

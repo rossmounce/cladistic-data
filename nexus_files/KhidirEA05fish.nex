@@ -1,0 +1,33 @@
+#NEXUS
+
+[!Khidir, K. T. et al 2005. Phylogenetic relationships of cyclopsetta
+ and syacium (pleuronectiformes: Paralichthyidae). Cybium]
+
+
+
+begin data;
+
+dimensions ntax=14 nchar=29;
+
+format missing=? gap=- interleave=yes symbols="012345";
+
+matrix
+
+Citharichthys 0 (0,2) 00010110 0(0,1)(0,1)0000000 00 (0,1) 000000 
+Etropuscrossotus 1 0 0 0 0 0 0 0 0 2  0 0 0 0 0 0 0 0 ? ?  ? 1 0 0 0 0 0 0 0 
+Cyclopsettachittendeni 1 0 1 0 0 ? 0 1 1 1  2 1 2 1 0 0 1 1 1 1  1 2 0 ? 1 1 1 1 1 
+C.fimbriata 1 0 1 0 1 1 0 1 1 1  2 1 2 1 0 0 1 0 1 1  1 2 0 0 1 1 1 1 1 
+C.panamensis 1 0 1 0 1 1 0 1 1 1  1 1 1 1 0 0 1 0 1 1  1 2 1 1 1 1 ? 1 1 
+C.querna 1 0 1 0 0 0 0 0 2 1  0 1 1 1 0 0 1 1 1 1  1 2 1 1 1 1 1 1 1 
+Syaciumguineensis 0 1 1 0 0 0 0 0 0 0  1 0 0 0 1 1 0 0 0 0  0 3 0 0 0 1 1 1 2 
+S.gunteri 0 1 1 0 0 0 1 0 0 0  2 0 0 0 0 1 0 0 0 0  0 3 0 0 0 1 1 1 2 
+S.latifrons 0 1 1 1 0 0 1 0 0 0  0 0 0 0 1 1 0 0 0 0  0 3 0 0 0 1 ? 1 2 
+S.longidorsale 0 1 1 0 0 1 0 0 1 0  0 0 0 0 0 ? 0 0 0 0  0 3 0 0 0 1 ? 1 2 
+S.maculiferum 0 1 1 0 0 0 0 0 0 0  2 0 0 0 1 1 0 0 0 0  0 3 0 0 0 1 ? 1 2 
+S.micrurum 0 1 1 0 0 0 0 0 0 0  1 0 0 0 1 1 0 0 0 0  0 3 0 0 0 1 1 1 2 
+S.ovale 0 1 1 0 0 0 0 0 1 0  0 0 0 0 0 1 0 0 0 0  0 3 0 0 0 1 1 1 2 
+S.papillosum 0 1 1 1 0 0 1 0 0 0  1 0 0 0 1 1 0 0 0 0  0 3 0 0 0 1 1 1 2 
+;
+end;
+
+

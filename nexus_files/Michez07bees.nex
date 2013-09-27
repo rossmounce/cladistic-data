@@ -1,0 +1,22 @@
+#NEXUS 
+
+[!Michez, D., Nel, A., Menier, J.-J., and Rasmont, P. 2007. The oldest fossil of a melittid bee (hymenoptera: Apiformes) from the early eocene of oise (france). Zoological Journal of the Linnean Society 150:701-709.]
+
+Begin data;
+	Dimensions ntax=10 nchar=17;
+	Format datatype=standard symbols="0123" missing=? gap=-;
+	Matrix
+Andrena_sp.			0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Dasypoda_hirtipes		0 0 0 0 0 0 0 2 1 1 0 0 0 1 0 0 0
+Eomacropis_glaesaria		1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0
+Macropis_europaea		0 1 0 0 1 1 0 1 0 0 1 1 0 0 1 1 0
+Macropis_ussuriana		0 1 1 0 1 1 0 1 0 0 1 1 0 0 0 0 1
+Macropis_orientalis		0 0 0 0 1 1 1 1 0 0 1 1 0 0 1 1 1
+Meganomia_binghami		0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0
+Melitta_nigricans		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Palaeomacropis_eocenicus	0 0 0 0 1 1 0 1 0 0 0 1 1 1 0 0 1
+Rediviva			0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0
+;
+end;
+	
+

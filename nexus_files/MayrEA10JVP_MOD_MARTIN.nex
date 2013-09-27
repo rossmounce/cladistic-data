@@ -1,0 +1,201 @@
+#NEXUS
+[ only 95 characters rather than 98 - changed the 2 values- Martin ]
+[!Mayr, G., Rana, R. S., Rose, K. D., Sahni, A., Kumar, K., Singh, L., and Smith, T. 2010. <i>quercypsitta<i>-like birds from the early eocene of india (aves, ?psittaciformes). Journal of Vertebrate Paleontology 30:467-478.]
+
+begin data;
+dimensions ntax=34 nchar=95;
+format INTERLEAVE missing=? gap=- symbols="0123456789";
+MATRIX
+
+Tinamidae			000000000000000000100000 
+Anseriformes		000000000001000000000000 
+Opisthocomidae		000000000001100000100000 
+Falconidae			120110000001100000000000 
+Accipitridae		120110000001100000000000 
+StrigidaeTytonidae	120110000001000000000000 
+Sagittariidae		12011000?001000000100000 
+Cathartidae			02010000?001000000000000 
+Psittacidae			12010000?001100010000000 
+Cuculidae			100000010001100000{01}00000 
+Musophagidae		1000000{01}0001100000{01}00000 
+Coliidae			10000001?001100000100000 
+Leptosomidae		10000001?011100100000000 
+Alcedinidae			1000{01}010?001100000110000 
+Meropidae			100000000001100000110000 
+TodidaeMomotidae	100000{01}00001100000110000 
+CoraciidaeBrachypt.	100000100011100000000000 
+Steatornithidae		120001000001000000010000 
+Podargidae			10000?00?001100100000000 
+Caprimulgidae		010000000101011011001011 
+Nyctibiidae			0100010001010110110?1011 
+Aegothelidae		010001001001100011101000 
+ApodidaeHemiproc.	011001011001100011101000 
+Trochilidae			00100?010001100011100000 
+UpupidaePhoenicul.	10000101?001100000100100 
+Bucerotidae			10000?010001100100000100 
+Passeriformes		0000000{01}1001100000100000 
+Pici				{01}0000?010001100000{01}00000 
+Galbulae			100000010011100000000000 
+Trogonidae			100000000001000000010000 
+Quercypsittidae		???????????????????????? 
+Halcyornithidae		?00?10???00110?0?0??0000 
+Sandcoleidae		000?00???00110?000??0000 
+Vastanavis			???????????????????????? 
+																							
+Tinamidae			000001100010100000100000 
+Anseriformes		010000000{01}00100000000000 
+Opisthocomidae		0000?0100?00101000001000 
+Falconidae			1000110001{01}0100001000000 
+Accipitridae		000010000100100001000000 
+StrigidaeTytonidae	1000{01}100000000000100000{01} 
+Sagittariidae		000000000000201000000000 
+Cathartidae			{01}00000000000001001000000 
+Psittacidae			{01}10001100100110001000001 
+Cuculidae			{01}101011001{01}0{01}00100001010 
+Musophagidae		100011000100000100001010 
+Coliidae			101001100100000100101110 
+Leptosomidae		01011?000000000001000010 
+Alcedinidae			110001111100000001000010 
+Meropidae			110001101110000001000010 
+TodidaeMomotidae	1100011{01}1100000001000010 
+CoraciidaeBrachypt.	1100011011000000010000{01}0 
+Steatornithidae		010000100000111001000011 
+Podargidae			01010110000000{01}001000000 
+Caprimulgidae		000201100000110001000001 
+Nyctibiidae			000210100000010001000001 
+Aegothelidae		110111000000010001000001 
+ApodidaeHemiproc.	110110000001210011000001 
+Trochilidae			110210000001200010000111 
+UpupidaePhoenicul.	01110110{01}110100001011210 
+Bucerotidae			0010011001{01}0101001100210 
+Passeriformes		1100011{01}{01}100{01}00001010110 
+Pici				{01}1100111{01}100000101010110 
+Galbulae			111011110100000001000110 
+Trogonidae			110101110100001001101011 
+Quercypsittidae		?????010???????????????? 
+Halcyornithidae		??01?100???000000100000? 
+Sandcoleidae		?00?0100010000000010100? 
+Vastanavis			?????0100??????????????? 
+																							
+Tinamidae			100000000000000{01}0000000 
+Anseriformes		01001000{01}00000000000000 
+Opisthocomidae		01001000100000100000000 
+Falconidae			01001001101000010100000
+Accipitridae		{01}10010011010000{01}0100000  
+StrigidaeTytonidae	1100100110000011010{01}000
+Sagittariidae		01001000101000000000000
+Cathartidae			01101000101000000000000
+Psittacidae			11101000100001000020101
+Cuculidae			1{01}001{01}10{01}00000000020100
+Musophagidae		00001000001000000000000
+Coliidae			10001010100111000001000
+Leptosomidae		11001000100000000020000
+Alcedinidae			10001100100000001000100
+Meropidae			10001000100000001000100 
+TodidaeMomotidae	10001000100000001000100
+CoraciidaeBrachypt.	10001000100000001000100 
+Steatornithidae		10101100100000100000000  
+Podargidae			11001{01}00100000000020100
+Caprimulgidae		11101100100000000000100
+Nyctibiidae			?1101000100000100020000
+Aegothelidae		11001100110000000000100
+ApodidaeHemiproc.	0110110011000{01}000{01}01100
+Trochilidae			10101100110000000001100 
+UpupidaePhoenicul.	10001010111000001021110
+Bucerotidae			100010{01}0111000101020110
+Passeriformes		100010001{01}0001000021100
+Pici				1001100011001100{01}00{01}100
+Galbulae			10011100100000001000100
+Trogonidae			100011001{01}0000000020100
+Quercypsittidae		??????????????0?0010101
+Halcyornithidae		110010001?0001000010101
+Sandcoleidae		00001000110111000020000
+Vastanavis			????????????????0010000
+
+Tinamidae			000000000000000{12}0001?000
+Anseriformes		000000000000000{24}0000?000
+Opisthocomidae		10000000000010010001?100
+Falconidae			00110001110010030000?110
+Accipitridae		0011000111{01}010030000?110
+StrigidaeTytonidae	00110101111010010010?110
+Sagittariidae		00100000000000030000?110
+Cathartidae			00000000010000050010?110
+Psittacidae			000{01}0{01}000111100911000110
+Cuculidae			000000100{01}00100100110110
+Musophagidae		0000000000?0000100010110
+Coliidae			001001000101100511010110
+Leptosomidae		00000110?100?0050010?110
+Alcedinidae			1100011011011015010{01}0110
+Meropidae			1100011?0111?01501110110
+TodidaeMomotidae	1100011?0101?01501{01}10110
+CoraciidaeBrachypt.	0000011001001005001{01}0110
+Steatornithidae		001001100110000?0010?110
+Podargidae			00000110010{01}100?0010?110
+Caprimulgidae		000001100100{01}00500100100
+Nyctibiidae			000001100101100?0010?100
+Aegothelidae		100011100111100?0010?100
+ApodidaeHemiproc.	{01}0{01}0111011111005001{01}0110
+Trochilidae			0110111?11111000011{01}1110
+UpupidaePhoenicul.	{01}10001100111100?01010110
+Bucerotidae			0{01}0001100111100500010110
+Passeriformes		000{01}01100101100701111110
+Pici				000001100101110601011110
+Galbulae			0000011001{01}{01}?1060?110110
+Trogonidae			010001101101100800110110
+Quercypsittidae		?0?????????????????????1
+Halcyornithidae		0000???????????????????0
+Sandcoleidae		0010???????????????????0
+Vastanavis			???????????????????????1
+;
+end;
+
+begin paup;
+ctype ord: 69 75;
+end;
+begin sets;
+taxset fossil = Quercypsittidae Halcyornithidae Sandcoleidae Vastanavis;
+taxset extant = Tinamidae 
+Anseriformes 
+Opisthocomidae 
+Falconidae 
+Accipitridae 
+StrigidaeTytonidae 
+Sagittariidae 
+Cathartidae 
+Psittacidae 
+Cuculidae 
+Musophagidae 
+Coliidae 
+Leptosomidae 
+Alcedinidae 
+Meropidae 
+TodidaeMomotidae 
+CoraciidaeBrachypt. 
+Steatornithidae 
+Podargidae 
+Caprimulgidae 
+Nyctibiidae 
+Aegothelidae 
+ApodidaeHemiproc. 
+Trochilidae 
+UpupidaePhoenicul. 
+Bucerotidae 
+Passeriformes 
+Pici 
+Galbulae 
+Trogonidae; 
+end;
+
+Begin Paup;
+exclude uninf;
+charset hard= 2 3 5 6 10-14 16 18 21-24 27 30-32 36-47 49-57 59-75;
+charset soft= 1 4 7-9 15 17 19 20 25 26 28 29 33-35 48 58 76-95;
+charpartition hardsoftest= 1:hard, 2:soft;
+set maxtrees=10000 increase =no autoclose=yes;
+default hsearch addseq=random nreps=10 hold=1000;
+hompart partition=hardsoftest nreps=1000 search=heuristic;
+end;
+
+
+
+

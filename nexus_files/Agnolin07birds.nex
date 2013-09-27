@@ -1,0 +1,22 @@
+#NEXUS
+
+[!Agnolin 2007 Brontornis burmeisteri Moreno & Mercerat, un Anseriformes (Aves) gigante del Mioceno Medio de Patagonia, Argentina. Revista del Museo Argentino de Ciencias Naturales, n. s. 9 (1)]
+
+begin data;
+dimensions ntax=12 nchar=51;
+format missing=? gap=- symbols="0123";
+MATRIX
+Tinamidae      00000 00000 00000 00000 00000 00000 00000 00000 00000 00000 0
+Rallidae       00000 00000 00000 00000 00000 00000 00000 00000 00000 00000 0
+Paraphysornis  0???? 0???? ??0?? 0?000 00010 ?0100 000?? 010?? ?0001 00001 0
+Tolmodus       00000 00000 00?00 00000 00010 00100 000?? 00000 00001 00001 0
+Phorusrhacos   0???? 0???? ????0 ??00? ????? ?0100 000?? ?0??? ?0001 00001 0
+Galliformes    00000 00000 00000 01100 00120 00010 00000 00000 00000 00001 0
+Diatryma       01000 10010 01101 01110 11130 00110 1010? 00011 11111 10100 1
+Brontornis     ????? ????? ????? ??110 ?1?11 ?1??? ???0? ????? ?1111 10-00 1
+Dromornithidae 01000 10?10 1111? 01111 11111 ?11?? 1?-00 ??011 11111 10100 1
+Anhimidae      01111 11111 11111 11111 11111 11111 11111 11111 11111 10101 0
+Anseranatidae  11111 11111 10111 11111 11111 11111 11111 11111 11111 10101 0
+Anatoidea      11101 10110 10111 11111 11111 11110 00100 00011 11111 11111 0
+;
+end;

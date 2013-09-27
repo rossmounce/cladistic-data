@@ -1,0 +1,29 @@
+#NEXUS
+
+[!Arantes, B., Soares, M. B., and Schultz, C. S. 2009. Clevosaurus brasiliensis (lepidosauria, sphenodontia) from the upper triassic of rio grande do sul: Post-cranial anatomy and phylogenetic relationships. Revista Brasiliera de Paleontologia 12:43-54.]
+
+begin data;
+dimensions ntax=14 nchar=66;
+format missing=? gap=- symbols="012";
+MATRIX
+Squamata           0  {01}  {01}  0  {01}  0  ?  0   0  {01} 0  ?  0  0 0  0   0  0  0  0  0  0   0 0  0   0 -  -  -   0  ?  0
+Diphydontosaurus   1  0  0  0  0  0  0  0   1  0 0  0  0  1 0  0   0  0  0  1  0  0   1 0  0   0 0  0  0   0  1  0
+Brachyrhinodon     2  1  1  1  1  1  0  1   1  1 0  0  ?  0 0  0   0  0  0  1  1  0   1 2  0   ? ?  ?  ?   ?  ?  0
+Homoeosaurus       0  {01}  0  0  0  0  0  1   1  0 0  0  ?  0 0  0   0  {01}  1  1  1  1   2 0  0   1 0  ?  ?   ?  1  0
+Kallimodon         0  1  1  1  0  ?  0  1   1  ? 0  0  ?  0 0  1   1  1  1  1  1  1   2 0  0   1 0  ?  ?   ?  1  0
+Sapheosaurus       1  1  ?  1  0  0  ?  1   ?  0 ?  ?  ?  0 0  1   1  1  1  1  0  1   1 0  0   1 ?  ?  ?   ?  ?  ?
+Palaeopleurosaurus 0  1  1  1  0  0  0  0   1  0 0  0  1  0 1  1   1  2  0  0  0  0   2 1  1   0 0  1  1   0  1  0
+Polysphenodon      2  0  0  0  ?  ?  ?  1   1  1 0  ?  ?  0 0  0   0  0  0  1  0  0   1 2  ?   1 ?  ?  ?   ?  ?  0
+C.hudsoni         2  1  1  1  1  1  1  1   1  1 0  1  0  0 0  1   0  0  0  1  1  0   2 1  0   1 1  0  0   0  0  0
+C.brasiliensis    2  0  1  0  1  1  1  1   1  1 0  1  ?  0 0  0   0  0  0  1  ?  0   1 1  0   1 1  ?  ?   ?  0  0
+Pamizinsaurus      ?  ?  ?  ?  ?  ?  1  ?   ?  ? 0  ?  ?  ? ?  ?   ?  ?  ?  ?  ?  ?   ? 2  1   1 ?  ?  ?   0  0  0
+Zapatadon          1  0  -  0  1  ?  ?  0   1  ? ?  1  ?  ? 1  ?   1  ?  1  ?  1  0   2 2  1   0 ?  1  0   1  0  1
+Sphenodon          1  1  1  1  1  0  0  1   1  1 0  0  1  0 0  1   1  1  1  1  1  1   2 2  1   1 0  1  0   1  1  1
+Cynosphenodon      ?  ?  ?  ?  ?  ?  ?  ?   ?  ? ?  ?  ?  ? ?  ?   ?  ?  ?  ?  ?  ?   ? ?  ?   1 ?  ?  ?   ?  ?  1
+Opisthias          ?  1  ?  ?  ?  1  1  1   1  1 ?  1  1  0 0  1   1  ?  1  1  ?  1   2 2  0   ? ?  ?  ?   ?  ?  1
+Toxolophosaurus    ?  ?  ?  ?  ?  ?  ?  ?   ?  ? ?  ?  ?  ? ?  ?   ?  ?  ?  ?  ?  ?   ? ?  ?   ? ?  ?  ?   ?  ?  1
+Eilenodon          ?  ?  ?  ?  ?  ?  ?  ?   ?  ? 1  ?  ?  ? ?  ?   ?  ?  ?  ?  ?  ?   ? ?  ?   ? ?  ?  ?   ?  ?  1
+Priosphenodon      0  1  1  0  0  1  1  1   1  1 1  1  1  0 0  1   1  1  1  1  0  1   2 2  0   1 0  0  0   0  0  1
+;
+end;
+

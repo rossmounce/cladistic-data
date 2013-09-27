@@ -1,0 +1,48 @@
+#NEXUS
+
+[!Juan Rofe, S. and Gloria cuenca Bescó, S. 2009. A new genus of red-toothed shrew (mammalia, soricidae) from the early pleistocene of gran dolina (atapuerca, burgos, spain), and a phylogenetic approach to the eurasiatic soricinae. Zoological Journal of the Linnean Society 155:904-925.]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=38 NCHAR=48;
+	FORMAT SYMBOLS= "0 1 2 3" MISSING=? GAP=9;
+MATRIX
+Outgroup 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Sorex_minutus 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 
+Sorex_bor 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 
+Sorex_praearaneus 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 9 0 0 0 0 0 0 0 0 0 0 9 
+Deinsdorfia 0 0 9 0 0 0 0 1 1 9 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 1 0 1 0 1 0 0 0 0 1 9 0 1 0 0 0 0 0 1 0 1 0 
+Zelceina_soriculoides 0 0 9 1 ? 0 0 1 0 1 1 0 0 0 0 0 0 0 ? ? 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 1 9 0 0 0 0 0 1 0 1 0 ? ? 
+Dimylosorex_tholodus 0 ? ? 0 ? 1 1 9 0 1 0 1 1 0 1 0 0 0 0 0 ? ? 0 0 0 0 1 1 9 0 0 0 0 0 1 1 9 1 1 0 0 1 0 0 0 0 1 0 
+Petenyia_hungarica 0 0 9 1 0 0 0 1 1 9 2 0 0 0 1 1 0 0 1 1 0 1 0 0 1 0 0 0 1 0 1 0 0 0 1 1 9 1 1 0 0 0 0 0 0 0 1 0 
+Petenyia_dubia 0 0 9 0 ? 0 0 ? 1 9 2 0 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 ? 0 1 0 0 0 1 1 9 0 1 0 0 1 0 0 0 0 1 0 
+Paenepeteyia_zhudingi 0 0 9 0 0 0 0 1 1 9 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 ? 0 0 1 9 1 1 0 0 0 1 0 1 0 ? ? 
+Hemisorex_robustus 0 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 0 ? ? ? ? 0 ? ? ? ? 0 1 0 1 0 0 0 1 1 9 0 1 0 0 0 0 0 ? ? ? ? 
+Blarinella_quadraticauda 0 ? ? 1 ? ? ? ? ? ? ? ? 0 0 1 0 0 0 ? 0 0 1 0 0 0 ? ? 0 1 0 1 0 0 1 0 1 9 1 1 0 0 0 0 0 0 0 1 0 
+Alloblarinella_europaea 0 0 9 0 0 0 0 1 1 9 2 0 0 0 0 0 0 0 0 ? 0 1 0 0 1 0 0 0 1 0 1 0 0 0 1 1 9 1 1 0 0 1 0 0 0 0 ? ? 
+Cokia 0 0 9 0 ? 0 0 1 0 0 2 0 0 0 0 0 0 0 1 ? 0 1 0 1 ? 0 0 0 1 0 1 0 1 0 1 ? ? ? ? ? 0 ? ? 0 1 0 ? ? 
+Mafia 0 0 9 0 1 0 0 1 1 9 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 1 9 0 1 0 1 0 0 0 1 1 9 1 1 1 0 0 0 0 0 0 1 0 
+Blarinoicles_mariae 0 0 9 0 1 1 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 9 0 0 0 1 9 0 1 0 1 0 0 0 1 1 9 1 1 0 0 0 1 1 0 ? 1 0 
+Sulimskia_kretzoii 0 0 9 0 1 0 0 0 0 1 1 1 0 0 0 0 0 0 ? ? 0 1 0 1 0 1 9 0 ? 1 1 0 0 0 1 1 9 1 1 ? 0 0 1 0 ? ? 1 0 
+Shikamainosorex_densicingulata 0 0 9 1 0 0 0 ? 0 1 2 1 0 0 0 1 0 0 1 1 0 0 0 1 1 1 9 0 1 1 1 0 0 0 1 1 9 0 1 0 ? 0 1 1 ? ? 1 ? 
+Asoriculus_gibberodon 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 1 9 0 1 0 0 0 0 0 0 0 1 0 
+Soriculus 0 1 0 1 ? 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 1 9 0 ? 0 0 0 0 0 0 0 1 0 
+Nesiotites_ponsi 0 1 1 1 1 0 0 ? 0 0 0 0 0 0 0 2 0 0 0 1 0 1 0 0 1 ? ? 0 ? 0 0 0 0 0 0 1 9 0 1 0 0 0 0 0 0 0 1 0 
+Nesiotites_hidalgo 0 1 1 2 1 0 0 ? 0 0 0 0 0 0 0 2 0 0 0 1 0 1 0 0 1 ? ? 0 ? 0 0 0 0 0 0 1 9 0 1 0 0 0 0 0 0 0 1 0 
+Neomysorex_alpinoicles 0 1 ? 0 ? 0 0 ? 0 0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0 1 9 ? ? 1 0 0 0 0 0 0 ? ? 
+Macroneomys_brachygnathus 0 1 ? 2 ? ? ? ? ? ? ? ? 0 0 1 1 0 0 ? 1 0 0 0 0 1 0 0 0 ? 0 1 0 0 0 1 1 9 1 1 1 1 1 0 0 1 0 1 0 
+Neomys_newtoni 0 1 0 ? ? 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 ? 0 0 1 9 0 1 0 0 1 0 0 0 0 ? ? 
+Neomys_fodiens 0 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 9 0 1 0 0 1 0 0 0 0 1 0 
+Chimarrogale 0 1 0 2 ? 1 ? ? 0 1 0 1 0 1 ? 1 0 0 ? 1 0 0 0 ? 1 0 1 0 ? ? ? 1 9 9 0 0 0 ? ? 0 0 1 0 0 0 0 1 0 
+Nectogale_elegans 0 1 0 2 ? ? ? ? ? ? 2 0 0 1 1 1 0 0 0 1 ? ? 0 0 1 ? ? 0 ? 9 9 0 ? 0 1 1 9 ? ? 0 0 0 1 0 0 0 0 9 
+Beremendia_fissiclens 0 1 1 1 0 0 0 1 0 0 0 0 0 1 0 2 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1 1 1 
+Beremendia_minor 0 1 1 1 0 0 0 1 0 0 1 0 0 1 0 2 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1 1 1 
+Beremendia_pohaiensis 0 1 1 2 0 0 0 1 0 0 0 1 0 1 1 2 1 0 ? ? 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1 1 1 
+Lunanosorex_lii 0 ? ? ? ? ? ? ? ? ? ? ? 0 1 0 ? 0 0 0 1 0 0 0 0 1 0 ? 0 ? 0 1 0 0 1 1 1 9 1 1 0 0 0 1 1 0 1 1 1 
+Dolinasorex_glyphodon 0 1 1 1 0 1 0 0 0 1 1 1 0 1 1 2 1 0 0 1 0 1 0 0 1 1 9 0 0 0 1 0 0 0 1 1 9 1 1 1 0 1 0 1 0 1 1 1 
+Kordosia_topali 1 0 9 3 1 0 1 9 0 1 1 1 1 1 1 1 0 1 9 9 0 1 1 9 9 0 1 1 9 1 1 1 9 9 1 1 9 1 1 0 1 1 0 0 0 0 1 1 
+Paranourosorex 0 0 9 2 1 1 1 9 0 1 2 1 0 1 1 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 1 0 0 1 1 1 9 1 1 1 0 0 1 0 1 ? 0 9 
+Anourosorex 1 0 9 3 1 1 1 9 0 0 1 1 0 0 0 1 0 0 ? 0 ? ? 0 ? 0 1 9 0 1 1 0 0 0 0 1 1 9 1 1 1 0 1 0 0 0 ? 1 0 
+Amblycoptus 1 0 9 3 1 1 1 9 0 1 1 1 1 1 1 1 0 1 9 9 ? ? 1 9 9 0 1 1 9 0 0 1 9 9 1 1 9 1 0 0 1 1 0 ? ? ? 1 ? 
+Crusafontina_enclemica 1 0 9 2 1 1 0 0 0 1 0 1 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 0 1 0 1 9 1 1 1 0 1 0 0 0 ? 1 1 
+;
+end;

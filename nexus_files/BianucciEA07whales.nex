@@ -1,0 +1,36 @@
+#NEXUS
+
+[!González-Rodríguez, K., Applegate, S. P., and Espinosa-Arrubarrena, L._2004._A new world macrosemiid (pisces: Neopterygii-halecostomi) from the albian of mÉxico._Journal of Vertebrate Paleontology 24:281-289.]
+
+begin data;
+dimensions ntax=21 nchar=18;
+format missing=? gap=- symbols="0123";
+MATRIX
+Squalodon              0 0 0 0 0 0 0 0 0 0   0  0  0  0  0 0  0   0
+Xhosacetus_n._gen._    2 0 0 0 2 1 0 1 0 1   0  0  0  1  0 0  2   ?
+Pterocetus_n._gen._    2 0 0 0 2 2 0 1 0 1   0  0  1  1  0 0  2   ?
+Khoikhoicetus_n._gen._ 2 0 0 0 2 ? 0 1 0 0   0  0  3  1  0 0  2   ?
+Indopacetus            ? 0 0 0 2 2 0 1 2 2   0  0  2  1  0 0  2   2
+Africanacetus_n._gen._ 2 0 0 0 3 2 0 1 2 1   0  0  3  2  0 0  2   ?
+Ihlengesi_n._gen._     2 0 0 0 3 2 0 1 2 0   0  0  3  2  0 0  ?   ?
+Mesoplodon_bidens_     2 0 0 0 3 2 0 1 2 1   1  0  3  1  0 0  2   3
+M._slangkopi_n._sp._   2 1 0 0 3 2 0 1 2 0   1  0  3  2  0 0  2   ?
+M._grayi               2 1 0 0 3 2 0 1 2 1   1  0  3  2  0 0  2   3
+M._layardi             2 1 1 0 3 2 0 1 2 2   1  0  3  2  0 0  2   3
+M._densirostris_       2 1 0 0 3 2 0 1 2 2   1  0  3  2  0 0  2   3
+M._mirus_              2 0 0 0 3 2 0 1 2 2   1  0  3  2  0 0  2   2
+Hyperoodon             2 0 2 0 3 2 0 2 2 2   1  0  3  3  0 0  2   2
+Ziphius_               1 0 2 1 3 0 0 2 1 0   0  1  0  0  1 0  2   2
+Izikoziphius_rossi     1 0 1 1 3 0 1 2 1 0   0  1  0  0  1 0  2   ?
+I._angustus_n._gen.   1 0 1 1 3 0 1 2 1 0   0  1  0  0  1 0  2   ?
+Nenga_n._gen._         0 0 0 0 2 0 0 1 0 0   0  0  0  1  0 0  2   ?
+Tasmacetus_            0 0 0 0 2 2 0 1 0 0   0  0  1  0  0 0  2   0
+Microberardius_n._gen. ? 0 0 0 1 0 0 1 0 0   0  0  ?  0  0 1  1   ?
+Berardius_             0 0 0 0 1 0 0 1 0 1   0  0  0  0  0 1  1   1
+;
+end;
+begin paup;
+ctype ord: 1-18;
+end;
+
+

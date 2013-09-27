@@ -1,0 +1,21 @@
+#NEXUS
+
+[Bell, P. R. 2010. Redescription of the skull of Saurolophus osborni Brown 1912 (Ornithischia: Hadrosauridae). Cretaceous Research.]
+
+begin data;
+dimensions ntax=11 nchar=44;
+format missing=? gap=- symbols="0123";
+MATRIX
+Iguanodon_bernissartensis	00000	00000	00000	00000	00000	00000	00000	00000	0000
+Bactrosaurus_johnsoni	00000	00000	00000	00000	00000	00000	00000	00000	0000
+Lambeosaurus_lambei	01011	11110	10110	20110	11101	00011	10111	21111	1211
+Hypacrosaurus_altispinus	01011	11110	10110	20120	11101	00011	10111	21111	1211
+Maiasaura_peeblesorum	00100	00011	01000	01002	10011	00012	21110	01111	2210
+Brachylophosaurus_canadensis	00100	00011	01001	01201	10011	00012	21110	11121	2210
+Gryposaurus_notabilis	00100	00012	01001	01000	10001	10013	11110	01111	1210
+Kerberosaurus_manakini	001?1	000??	?????	?2??0	10001	1?013	11110	?11??	?2?0
+Prosaurolophus_maximus	00101	00012	01001	12001	10001	10013	11110	01121	1210
+Edmontosaurus_annectens	00100	00013	01001	12000	10001	11013	11110	21131	1310
+Saurolophus_osborni	10111	02212	01001	12202	1210?	?0013	21110	01121	?210
+;
+end;

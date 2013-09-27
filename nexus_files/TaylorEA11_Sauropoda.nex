@@ -1,0 +1,1598 @@
+#NEXUS
+
+[Taylor, M. P., Wedel, M. J., and Cifelli, R. L. 2011. A new sauropod dinosaur from the lower CretaceousCedar mountain formation, utah, USA. Acta Palaeontologica Polonica 56:75-98.]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=32;
+	TAXLABELS
+		Prosauropoda
+		Theropoda
+		Vulcanodon
+		Barapasaurus
+		Omeisaurus
+		Shunosaurus
+		Patagosaurus
+		Mamenchisaurus
+		Apatosaurus
+		Barosaurus
+		Brachiosaurus
+		Camarasaurus
+		Dicraeosaurus
+		Diplodocus
+		Haplocanthosaurus
+		Amargasaurus
+		Euhelopus
+		Jobaria
+		Malawisaurus
+		Nigersaurus
+		Limaysaurus
+		Rebbachisaurus
+		Alamosaurus
+		Nemegtosaurus
+		Opisthocoelicaudia
+		Rapetosaurus
+		Saltasaurus
+		Isisaurus
+		Losillasaurus
+		Suuwassea
+		XENOPOSEIDON
+		'HOTEL MESA'
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=331;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="0123456789";
+	CHARLABELS
+		[1] 'Morphology of rostralmost ends of jaws in dorsal view (W65, U1)'
+		[2] 'Configuration of caudolateral processes of premaxilla and lateral processes of maxilla (W1, U15)'
+		[3] '**Angle between lateral and medial margins of premaxilla as seen in dorsal view (U12-14)'
+		[4] 'Morphology of rostral margin of premaxilla (= region rostral to nasal process) in lateral view (W2, U10)'
+		[5] 'Free portion of nasal process of premaxilla in lateral view (U11)'
+		[6] 'Thin, plate-like process (flange) directed rostromedially from edge of maxillary ascending process (U17-18, C14)'
+		[7] 'Direction in which subnarial foramen faces (U6)'
+		[8] 'Proportions and size of subnarial foramen (U7)'
+		[9] 'Position of subnarial foramen with respect to narial fossa (U8)'
+		[10] 'Relative positions of subnarial foramen and rostral maxillary foramen (W5)'
+		[11] 'External nares face (U4)'
+		[12] 'Shelf-like area or fossa (narial fossa) on premaxilla and maxilla lateral to external nares (W1, U19)'
+		[13] 'Length of border of external naris formed by maxilla (W3)'
+		[14] '**Position of mid-point of osteological external nares (W8, U2-3, C7, S7)'
+		[15] 'Ratio of maximum diameter of osteological external nares:maximum diameter of orbit (W9, U5)'
+		[16] 'Preantorbital fenestra (W4, U20, S24)'
+		[17] 'Antorbital fossa (W7, U21)'
+		[18] 'Ratio of maximum diameter of antorbital fenestra:maximum diameter of orbit (W6)'
+		[19] 'Angle subtended by rostral and ventral margins of orbit (W10)'
+		[20] 'Rostral extent of maxillary process of lacrimal (W11, U16)'
+		[21] 'Element contacting ectopterygoid laterally (W12, U65)'
+		[22] 'Contribution by jugal to antorbital fenestra (W13, U22)'
+		[23] 'Size of frontal (= caudal) process of prefrontal (W14)'
+		[24] 'Morphology of frontal process of prefrontal in dorsal view (W15, U33)'
+		[25] 'Morphology of jugal (= ventral) process of postorbital (W16, U28)'
+		[26] 'Jugal (= ventral) process of postorbital (U31)'
+		[27] 'Squamosal (= caudal) process of postorbital (W17)'
+		[28] '**Frontal-parietal suture in dorsal view (W18, U34)'
+		[29] 'Midline contact (symphysis) between frontals in adults (W19, U36, C13, S31)'
+		[30] 'Ratio of rostrocaudal length:minimum mediolateral width of frontal (W20, U35)'
+		[31] 'Dorsoventral height of occipital process of parietal (W21)'
+		[32] 'Contribution to posttemporal fenestra by parietal (W22, U42)'
+		[33] 'Postparietal foramen (W23, U43, S26)'
+		[34] 'Morphology of infratemporal fenestra (C9, S6)'
+		[35] '**Position of rostralmost or rostroventralmost end of infratemporal fenestra (W30, U29-30, C8, S32)'
+		[36] '**Ratio of intraparietal distance separating supratemporal fenestrae:length of long axis of supratemporal fenestrae (W24)'
+		[37] 'Supratemporal fossa surrounds supratemporal fenestra (U37)'
+		[38] '**Orientation of long axis of external supratemporal fenestra (W25-26, U40)'
+		[39] 'Contribution by squamosal to dorsal (dorsomedial) margin of supratemporal fenestra (U44)'
+		[40] 'Ratio of maximum diameter of supratemporal fenestra:diameter of foramen magnum (W27, U41, C10, S30)'
+		[41] 'Ratio of rostrocaudal:mediolateral dimension of temporal bar (supratemporal region) (W28)'
+		[42] 'Lateral visibility of supratemporal fenestra (W29, U38-39)'
+		[43] 'Maxilla-quadratojugal contact (U24, C11, S2)'
+		[44] 'Squamosal-quadratojugal contact (W31, U45)'
+		[45] 'Ratio of length of rostral (= jugal or maxillary) process of quadratojugal:length of squamosal (= dorsal) process (W32, U23)'
+		[46] 'Rostral process of quadratojugal (U25)'
+		[47] 'Orientation of rostral process of quadratojugal in lateral view (U26)'
+		[48] 'Angle between rostral and dorsal processes of the quadratojugal (U27)'
+		[49] 'Orientation of long axis of quadrate with respect to long axis of skull (U68, C5, S5)'
+		[50] '**Quadrate fossa (W33-34, U66-67, C1)'
+		[51] 'Orientation of quadrate fossa (W35)'
+		[52] 'Rostral articulation of vomer (W42)'
+		[53] 'Morphology of lateral ramus of palatine (W40)'
+		[54] 'Rostral end of maxillary process of palatine (U57)'
+		[55] 'Composition of palatine (= rostral) process of pterygoid (U61)'
+		[56] 'Ratio of width of main body of pterygoid:overall length of pterygoid (U62)'
+		[57] 'Morphology of contact surface on pterygoid for basipterygoid articulation (W36, U63-64)'
+		[58] 'Rostrocaudal position of ectopterygoid process of pterygoid (W37, U58-59)'
+		[59] 'Dorsoventral position of ectopterygoid process of pterygoid (U60)'
+		[60] 'Size of quadrate flange of pterygoid (W38)'
+		[61] 'Shape of palatine ramus of pterygoid (W39)'
+		[62] 'Epipterygoid (W41)'
+		[63] '**Ratio of dorsoventral height of supraoccipital:height of foramen magnum (W43)'
+		[64] 'Sagittal and transverse nuchal crests merge smoothly at dorsal end of supraoccipital forming low tetrahedral process (S29)'
+		[65] 'Distal ends of paroccipital processes (U46)'
+		[66] 'Ventral (nonarticular) process of paroccipital process (W44)'
+		[67] 'Morphology of occipital region of skull (W54)'
+		[68] 'Morphology of crista prootica (W45, U49)'
+		[69] '**Ratio of length:maximum basal diameter of basipterygoid processes (W46, U52-53, S27)'
+		[70] 'Angle of divergence between basipterygoid processes (W47, U54, S28)'
+		[71] '**Ratio of rostrocaudal depth:dorsoventral height of basal tubercula (W48, U48)'
+		[72] 'Ratio of mediolateral width of paired basal tubercula:mediolateral width of occipital condyle  (W49)'
+		[73] 'Basisphenoid fossa/foramen between foramen magnum and basal tubercula (W50)'
+		[74] 'Region between basipterygoid processes (W51, U55)'
+		[75] 'Basisphenoid-quadrate contact (W52)'
+		[76] 'Orientation of basipterygoid processes (W53, U50, C6, S3)'
+		[77] 'Cross-sectional morphology of basipterygoid processes (U51)'
+		[78] 'Morphology of parasphenoid rostrum (U56)'
+		[79] 'Depth of rostral end of dentary ramus (W55, U69)'
+		[80] 'Morphology of rostroventral margin of dentary (W56, U70)'
+		[81] 'Angle between dentary symphysis and long axis of jaw ramus (W57, U71)'
+		[82] '**Ratio of length of external  mandibular fenestra:length of mandible (W58, U76-77)'
+		[83] 'Ratio of surangular dorsoventral depth:maximum depth of angular (W59, U75)'
+		[84] 'Ridge on surangular separating adductor and articular fossae (W60)'
+		[85] 'Depth of medial wall of adductor fossa (W61)'
+		[86] 'Position of rostral end of splenial relative to mandibular symphysis (U72)'
+		[87] 'Position of caudal process of splenial (W62, U74)'
+		[88] 'Caudodorsal process of splenial (W63, U73)'
+		[89] 'Size of coronoid (W64)'
+		[90] 'Plate of bone lying lateral to teeth on premaxilla, maxilla, and dentary (U9)'
+		[91] 'Position in tooth row of largest teeth (U78)'
+		[92] '**Number of dentary teeth (W73, U91)'
+		[93] 'Length of tooth rows (W66, U94-95)'
+		[94] '**Occlusal pattern (W67-68)'
+		[95] 'Orientation of tooth crowns (W69, U80)'
+		[96] 'Contact between adjacent tooth crowns (U81)'
+		[97] 'Ratio of length of worn tooth crown:width of lingual face (= "slenderness index") (U87-89)'
+		[98] '**Cross-sectional shape of worn tooth crowns at mid-crown (W70, U84-85, U92, C2, S1)'
+		[99] 'Enamel surface texture (W71, U79)'
+		[100] 'Marginal tooth denticles (W72, U82-83, C3)'
+		[101] 'Number of replacement teeth per alveolus (W74, U90)'
+		[102] 'Orientation of teeth (W75, U93)'
+		[103] 'Longitudinal grooves on lingual face of tooth (W76)'
+		[104] 'Prominent grooves near mesial and distal margins of labial surface of tooth crowns (U86)'
+		[105] 'Number of cervical vertebrae (W80, U96-100, S25)'
+		[106] 'Shape of occipital facet of atlantal intercentrum (W79, U101)'
+		[107] 'Morphology of articular facets of cervical vertebral bodies (W82, U103)'
+		[108] '**Morphology of cervical pleurocoelous fossae (W78, W83, U110, C15, S33)'
+		[109] 'Morphology of ventral surface of cervical vertebral bodies (U106-107)'
+		[110] 'Fossae on dorsal surface of costolateral eminences of cervical vertebrae (U109)'
+		[111] 'Lamination (especially corporodiapophyseal) of cervical vertebral arches (W81, U115-116)'
+		[112] '**Ratio of caudal articular surface height:width of cranial cervical vertebral bodies (W84, U108)'
+		[113] 'Angulation of spinous process on cranial cervical vertebrae (C18)'
+		[114] 'Ratio of craniocaudal vertebral body length:dorsoventral height of caudal face of middle cervical vertebral bodies (W86, U102)'
+		[115] 'Ratio of dorsoventral height of middle cervical vertebral arches:dorsoventral height of caudal articular facet of vertebral body (W87, U111-112, C16)'
+		[116] 'Morphology of cranial corporozygapophyseal lamina on middle and caudal cervical vertebral arches (W88, U113)'
+		[117] 'Morphology of articular surfaces of cranial zygapophyses on middle and caudal cervical vertebrae (U114)'
+		[118] 'Cervical spinous process height (U117)'
+		[119] '**Bifurcation of cervical vertebral spines (W85, C17, S34)'
+		[120] '**Morphology of caudal cervical and cranial thoracic spinous processes (W89-90, U118, C17)'
+		[121] 'Orientation of caudal margin of spinous processes on caudal cervical vertebrae with respect to craniocaudal axis of vertebral body (U119)'
+		[122] 'Number of thoracic vertebrae (W91, U122-125)'
+		[123] 'Pleurocoelous fossae in majority of thoracic vertebral bodies (W78, U128-129, C22)'
+		[124] 'Lateral position of pleurocoelous foramina on thoracic vertebral bodies (U130)'
+		[125] 'Cranial face of thoracic vertebral arches (U136)'
+		[126] 'Hypantrum-hyposphene articulations on thoracic vertebrae (W106, U145, C23, S15)'
+		[127] 'Single midline lamina extending ventrally from hyposphene in thoracic vertebrae (U146)'
+		[128] '**Thoracic vertebrae with spinodiapophyseal lamina (W99, U156-157)'
+		[129] 'Accessory spinodiapophyseal lamina on thoracic vertebrae with non-bifid spinous processes (U151)'
+		[130] 'Postspinal lamina on thoracic vertebrae with non-bifid spinous processes (U149, C27)'
+		[131] 'Orientation of transverse processes on thoracic vertebrae (U138, S35)'
+		[132] 'Morphology of articular face of cranial thoracic vertebral bodies (W94, U104)'
+		[133] 'Morphology of caudal margins of pleurocoelous fossae on cranial thoracic vertebrae (U127, C29)'
+		[134] 'Morphology of ventral surfaces of cranial thoracic vertebral bodies (U126)'
+		[135] 'Cranial corporozygapophyseal lamina on cranial thoracic vertebrae (U134)'
+		[136] 'Orientation of spinous processes of cranial thoracic vertebrae (U158)'
+		[137] '**Ratio of dorsoventral height of vertebral arch:dorsoventral height of thoracic vertebral body (W93, U132, C20, C24, C28, S9)'
+		[138] 'Morphology of cranial corporozygapophyseal lamina on middle and caudal thoracic vertebral arches (U135)'
+		[139] 'Cranial corporoparapophyseal lamina on middle and caudal thoracic vertebral arches (W96, U133)'
+		[140] 'Cranial zygaparapophyseal lamina on middle and caudal thoracic vertebral arches (W97)'
+		[141] 'Caudal corporoparapophyseal lamina on middle and caudal thoracic vertebral arches (W98, U137)'
+		[142] 'Morphology of the distal ends of the transverse processes in thoracic vertebrae (U140)'
+		[143] 'Lamination on cranial face of (non-bifid) spinous process of middle and caudal thoracic vertebrae (U148, C26)'
+		[144] 'Caudal zygapophyses of middle and caudal thoracic vertebrae supported dorsally by (W100, W101, U147, U150)'
+		[145] 'Infradiapophyseal fossa on thoracic vertebral arches (W103, U144)'
+		[146] 'Spinodiapophyseal and caudal spinozygapophyseal laminae on middle and caudal thoracic vertebrae contact each other (W101)'
+		[147] '**Supraneural pneumatic cavity within some or all thoracic vertebral arches (U141)'
+		[148] '**Triangular, aliform processes projecting laterally from distal ends of middle and caudal (= non-bifurcate) thoracic spinous processes (W102, U153-154)'
+		[149] 'Orientation of middle and caudal thoracic spinous processes (W104)'
+		[150] 'Morphology of articular face of caudal thoracic vertebral bodies (W105, U105, C25)'
+		[151] 'Cross-sectional morphology of caudal thoracic vertebral bodies (U131)'
+		[152] 'Ventral end of caudal corporodiapophyseal lamina of caudal thoracic vertebrae (U142)'
+		[153] 'Position of transverse process on caudal thoracic vertebrae (U139)'
+		[154] 'Ratio of mediolateral width:craniocaudal length of caudal (non-bifid) thoracic spinous processes (W92, U152)'
+		[155] '**Morphology of caudal thoracic spinous processes in cranial view (W107, U155)'
+		[156] 'Number of sacral vertebrae (W108, U161-163)'
+		[157] 'Sacricostal yoke (W109)'
+		[158] 'Ratio of maximum mediolateral width across sacral vertebrae and ribs:average length of sacral vertebral body (U164)'
+		[159] 'Pleurocoelous fossae and/or foramina in sacral vertebral bodies (U165)'
+		[160] '**Ratio of proximodistal length of sacral spinous processes:craniocaudal length of vertebral body (W111)'
+		[161] 'Dorsoventral length of sacral ribs (W112, U168)'
+		[162] 'Caudal vertebral bone internal construction (W113)'
+		[163] '**Number of caudal vertebrae (W114, U170)'
+		[164] 'Ratio of height of spinous process:dorsoventral height of caudal articular facet of vertebral body in caudal thoracic, sacral and proximal caudal vertebrae (U166-167, C33, S19, S36)'
+		[165] 'Caudal vertebral transverse processes (ribs) (W115, U193)'
+		[166] 'Morphology of articular face of first caudal vertebral body (W116, U171)'
+		[167] 'Spinous process of first caudal vertebra (W117)'
+		[168] '**Morphology of articular face of proximal caudal vertebral bodies (excluding first) (W118, U173-174, C30, S16)'
+		[169] 'Morphology of articular surfaces in proximal caudal vertebral bodies (U172)'
+		[170] 'Pneumatopores (pleurocoelous fossae and/or foramina) on proximal caudal vertebral bodies (W119, U181, C31)'
+		[171] 'Length of caudal vertebral bodies (W120, U178)'
+		[172] 'Ratio of proximodistal length:dorsoventral height of proximal caudal vertebral body (U177)'
+		[173] 'Spinoprezygapophyseal lamina on proximal caudal vertebral arches (W121, U188)'
+		[174] 'Spinoprezygapophyseal-spinopostzygapophyseal lamina contact on proximal caudal vertebral arches (W122, U188)'
+		[175] 'Prespinal lamina on proximal caudal vertebral arches (W123, U188)'
+		[176] 'Postspinal lamina on proximal caudal vertebral arches (W124, U188)'
+		[177] 'Postspinal fossa on proximal caudal vertebral arches (W125, U188)'
+		[178] 'Hyposphenal ridge on proximal caudal vertebrae (U187)'
+		[179] '**Transverse process morphology on proximal caudal vertebrae (W128, U190-192, C32, S11)'
+		[180] 'Dorsoventral extent of proximal end of transverse processes on proximal caudal vertebrae (W127)'
+		[181] 'Diapophyseal laminae (= proximal and distal corporodiapophyseal laminae and cranial and caudal zygadiapophyseal laminae) on proximal caudal transverse processes (W129)'
+		[182] 'Morphology of proximal corporodiapophyseal lamina on proximal caudal transverse processes (W130)'
+		[183] '**Ratio of mediolateral width:proximodistal length of proximal caudal spinous processes (W126, U189)'
+		[184] 'Ratio of vertebral body length:height in middle caudal vertebrae (U179)'
+		[185] 'Sharp ridge on lateral surface of middle caudal vertebral bodies at arch-body junction (U186)'
+		[186] 'Morphology of articular surfaces in middle caudal vertebral bodies (W131, U184)'
+		[187] 'Ventral longitudinal sulcus on proximal and middle caudal vertebral bodies (W132, U182-183)'
+		[188] 'Morphology of proximal articular face of middle and distal caudal vertebral bodies (W134, U175)'
+		[189] 'Position of vertebral arches over vertebral bodies on middle caudal vertebrae (U185, C35)'
+		[190] 'Orientation of middle caudal spinous processes (W133)'
+		[191] 'Morphology of distal caudal vertebral bodies (W135)'
+		[192] '**Number of anarcuate, distal caudal vertebrae (W136, W138, U176)'
+		[193] 'Morphology of articular surfaces of anarcuate ("whiplash") distal caudal vertebrae (W136, W138, U176)'
+		[194] '**Ratio of distalmost caudal vertebral body length:width (W137, U180, C36, S8)'
+		[195] 'Angle between tuberculum and capitulum costae of cervical ribs (W139, U121)'
+		[196] 'Length of cervical rib bodies (W140, U120)'
+		[197] 'Proximal pneumatopores on thoracic ribs (W141, U160)'
+		[198] 'Morphology of proximal ends of cranial thoracic ribs (U159)'
+		[199] 'Cross-sectional shape of cranial thoracic ribs (W142)'
+		[200] 'Haemal arch persistence (W147)'
+		[201] '**Morphology of haemal arches on middle and distal caudal vertebrae (W143-144, U197-198, S17)'
+		[202] '**Ratio of haemal canal dorsoventral height:total haemal arch length (W146, U196)'
+		[203] '**"Crus" bridging proximal margin of haemal canal (W145, U194-195, C34, S18)'
+		[204] 'Distal ends of distal haemal arches (W148, U199, C37)'
+		[205] 'Ratio of forelimb:hindlimb length (W149, U214-215)'
+		[206] '**Ratio of humerus:femur proximodistal length (W172, U216, C48, S12)'
+		[207] 'Position of dorsalmost point of acromion process of scapula'
+		[208] 'Size of scapular acromion (W150, U200)'
+		[209] 'Deltoid crest (= crest of acromion process) (U201)'
+		[210] 'Morphology of portion of acromion caudal to deltoid crest (U202)'
+		[211] 'Orientation of scapular body with respect to coracoid articulation (W151)'
+		[212] 'Morphology of scapular body (W152, U206, C38, S19)'
+		[213] 'Orientation of scapular glenoid fossa (W153, U203)'
+		[214] 'Cross-sectional shape of proximal end of scapular body (W154)'
+		[215] 'Dorsal ridge on medial surface of scapular body (U204)'
+		[216] 'Ventral ridge on medial surface of scapular body (U205)'
+		[217] '**Ratio of craniocaudal length of coracoid:maximum length of scapula-coracoid articulation (W155)'
+		[218] 'Morphology of craniodorsal margin of coracoid (W156, U208)'
+		[219] 'Position of dorsal margin of coracoid with respect to dorsal margin of scapula (U207)'
+		[220] 'Infraglenoid lip of coracoid (W157)'
+		[221] '**Morphology of sternal plate (W158, U210, C39)'
+		[222] 'Ratio of maximum length of sternal plate:length of humerus (U209)'
+		[223] 'Ridge on ventral surface of sternal plate (U213)'
+		[224] 'Prominent caudolateral expansion of sternal plate producing reniform profile in dorsal view (U211)'
+		[225] 'Prominent proximolateral process on humerus (W159, U218)'
+		[226] 'Supracoracoideus tuberculum on proximolateral portion of humerus (U217)'
+		[227] 'Development of humeral deltopectoral crest (W160, U219)'
+		[228] 'Position of deltopectoral crest (U220)'
+		[229] 'Morphology of humeral deltopectoral crest (W161)'
+		[230] 'Cross-sectional shape of humerus at mid-shaft (W162)'
+		[231] 'Extent of distal articular surface of humerus (W163, U222)'
+		[232] 'Distocaudal surface of humerus (U221)'
+		[233] 'Morphology of distal humeral articular surface (W164)'
+		[234] 'Morphology of proximal ulna (W165, U223)'
+		[235] 'Morphology of articular surface of craniomedial process of ulna in cranial view (U224)'
+		[236] 'Relative length of proximal ulnar condylar processes (W166)'
+		[237] 'Development of ulnar olecranon process (W167)'
+		[238] 'Ratio of proximodistal length:proximal breadth of ulna (W168)'
+		[239] 'Ratio of maximum diameter of proximal end of radius:radius length (U225)'
+		[240] 'Morphology of distal condyle of radius (W169, U226)'
+		[241] '**Ratio of distal:midshaft breadth of radius (W170)'
+		[242] 'Orientation of distal radial condyle with respect to long axis of shaft (W171)'
+		[243] '**Number of ossified carpal bones (W173, U228-230)'
+		[244] 'Morphology of carpal bones (W174, U227)'
+		[245] 'Morphology of metacarpus (W175, U235)'
+		[246] 'Morphology of proximal surface of metacarpals in articulation (W176)'
+		[247] 'Triangular, striated areas for ligament attachment on proximal parts of metacarpal shafts (U236)'
+		[248] '**Ratio of length of longest metacarpal:length of radius (W177, U233, C49)'
+		[249] 'Ratio of length of metacarpal I:lengths of metacarpal II or III (whichever is longest) (U232)'
+		[250] 'Ratio of length of metacarpal I:length of metacarpal IV (W178, U231)'
+		[251] 'Morphology of distal condyle of metacarpal I (W179)'
+		[252] 'Ratio of length of metacarpal V:length of longest metacarpal (U234)'
+		[253] 'Orientation of mediolateral axis of metacarpal I distal condyle with respect to axis of shaft (W180)'
+		[254] 'Manual phalangeal formula (W181, U238-239, U241)'
+		[255] 'Morphology of manual phalanx I-1 (W182)'
+		[256] 'Ratio of proximodistal length:mediolateral width of manual nonungual phalanges (W183, U237)'
+		[257] 'Size of ungual on manual digit I (U240)'
+		[258] 'Cranial mediolateral dimension of pelvis (W184)'
+		[259] 'Morphology of dorsal margin of ilium body (in lateral view) (W186, U247)'
+		[260] 'Position of dorsalmost point on ilium (U245)'
+		[261] 'In lateral view, the cranioventralmost point on the iliac preacetabular process (W188, U244, C40)'
+		[262] '**Orientation of preacetabular ala of ilium with respect to axis of body (W187, U242-243)'
+		[263] 'Size of ischiadic peduncle of ilium (W185, U248)'
+		[264] 'Projected line (chord) connecting articular surfaces of ischiadic and pubic processes of ilium (U249)'
+		[265] 'Brevis fossa on postacetabular ala of ilium (U246)'
+		[266] 'Development of ambiens process of pubis (W189, U250, C42, S20)'
+		[267] 'Morphology of pubic "apron" (W190, U252)'
+		[268] '**Ratio of length of puboischiadic contact:proximodistal length of pubis (W191, U253, C41)'
+		[269] '**Ratio of proximodistal length of ischium body:length of pubis body (W192, U251, C45)'
+		[270] 'Tuberosity on lateral surface of iliac process of ischium (U255)'
+		[271] 'Projected line (chord) of long axis of ischium body in articulation with ilium (U259)'
+		[272] 'Morphology of ischium body distal to pubic process (W193, U254, C46)'
+		[273] 'Morphology of distal shaft of ischium (W194, U260)'
+		[274] 'Ratio of mediolateral width of distal end of ischium:proximodistal length of ischium (U256)'
+		[275] '**Ratio of mediolateral width:craniocaudal thickness of distal end of ischium body (U260)'
+		[276] 'Cross-sectional morphology of articulated distal ischial bodies (W195, U258, C43, S22)'
+		[277] 'Expansion of distal end of ischium body (U257, C44, S21)'
+		[278] 'Morphology of cranial face of femoral body in lateral view (U266)'
+		[279] 'Orientation of femoral caput in cranial view (U263)'
+		[280] 'Position of fourth trochanter on femoral body (U268)'
+		[281] 'Development of fourth trochanter of femur (W196, U269)'
+		[282] 'Position of distal tip of fourth trochanter (U267)'
+		[283] '**Morphology of lesser trochanter of femur (W197, U261-262)'
+		[284] '**Ratio of mediolateral:craniocaudal diameter of femur at midshaft (W198, U270)'
+		[285] 'Morphology of lateral margin of femoral shaft in cranial or caudal view (W199, U265, C47)'
+		[286] 'Morphology of middle and distal portion of femoral body in cranial view (U264)'
+		[287] 'Relative mediolateral breadth of distal femoral condyles (W200, U271)'
+		[288] 'Orientation of femoral distal condyles with respect to femoral shaft (W201)'
+		[289] 'Morphology of articular surface of femoral distal condyles (W202, U272)'
+		[290] 'Ratio of tibia:femur length (U273)'
+		[291] 'Morphology of tibial proximal condyle (W203, U274)'
+		[292] 'Tibial cnemial crest (U275)'
+		[293] 'Orientation of tibial cnemial crest (W204, U276)'
+		[294] 'Ratio of distal mediolateral dimension of tibia:midshaft mediolateral dimension (W205)'
+		[295] 'Size of distal caudoventral process of tibia (W206, U278)'
+		[296] 'Distal end of tibia (U277)'
+		[297] 'Development of proximal tibial scar on fibula (W207, U279)'
+		[298] '**Morphology of M. flexor digitorum longus sulcus and tuberculum of fibula (W208, U281)'
+		[299] 'Size of distal condyle of fibula (W209)'
+		[300] 'Morphology of astragalus (W210, U284)'
+		[301] 'Craniocaudal dimension of astragalus as seen in dorsal view (U285)'
+		[302] 'Morphology of ventral surface of astragalus (U282)'
+		[303] 'Vascular foramina at base of ascending process of astragalus (W211, U286)'
+		[304] 'Extent of ascending process of astragalus (W212, U283)'
+		[305] 'Morphology of caudal fossa of astragalus (W213, U287)'
+		[306] 'Ratio of mediolateral width:maximum craniocaudal length of astragalus (W214)'
+		[307] 'Ossified calcaneum (W215, U288)'
+		[308] 'Ossified distal tarsals 3 and 4 (W216, U289)'
+		[309] 'Posture of metatarsus (W217, U291)'
+		[310] 'Angle between long axis of body of metatarsal I and plane of proximal articular surface as seen in cranial view (W218)'
+		[311] 'Angle between long axis of body of metatarsal I and plane of distal articular surface as seen in cranial view (W219)'
+		[312] 'Caudolateral projection of distal condyle of metatarsal I (W220, U293, S23)'
+		[313] 'Size of metatarsal I (W221, U292)'
+		[314] 'Rugosities on distal parts of dorsolateral portions of bodies of metatarsals I-III (U294)'
+		[315] 'Size of proximal condyles of metatarsals I and V compared to metatarsals II, III, and IV (W222, U296)'
+		[316] '**Ratio of length of metatarsal III:length of tibia (W223, U290, U295)'
+		[317] 'Ratio of minimum mediolateral shaft diameters of metatarsals III and IV:minimum mediolateral shaft diameters of metatarsals I or II (W224, U297)'
+		[318] 'Ratio of length of metatarsal V:length of metatarsal IV (W225, U298)'
+		[319] 'Relationship of plantar to proximal surface of pedal phalanx I-1 (U301)'
+		[320] 'Collateral ligament foveae on non-ungual pedal phalanges (U302)'
+		[321] 'Ratio of maximum proximodistal:mediolateral dimensions of pedal nonungual phalanges (W226, U304)'
+		[322] 'Development of penultimate phalanges of pedal digits II-IV (W227, U305)'
+		[323] 'Morphology of pedal phalanx II-2 (U303)'
+		[324] 'Number of phalanges on pedal digit IV (U299-300)'
+		[325] 'Orientation of pedal unguals with respect to digit axis (W228, U306)'
+		[326] 'Length of pedal ungual I relative to pedal digit II ungual (W229)'
+		[327] 'Ratio of length of pedal digit I ungual:length of metatarsal I (W230, U307)'
+		[328] 'Ratio of mediolateral width:dorsoventral height of pedal digit I ungual (W231)'
+		[329] 'Morphology of pedal unguals II-III (W232, U308)'
+		[330] 'Development of pedal digit IV ungual (W233)'
+		[331] 'Osteoderms (W234)'
+		;
+	STATELABELS
+		1
+			'triangular, with acute tip'
+			'broadly rounded rostrally with linear, roughly parallel lateral margins (U-shaped or parabolic)'
+			'platalean (broadly rounded and convex rostrally but with lateral margins that are sinuous, convex rostrally but becoming concave, producing spoon-shape)'
+			'rectangular, especially lower jaw (rostral margin linear and at abrupt angle to lateral margins)',
+		2
+			'lacking midline contact'
+			'possessing midline contact and forming marked narial depression',
+		3
+			'>20º'
+			'<= 20º',
+		4
+			'without "step"'
+			'with marked "step;" rostral margin of skull thus sharply demarcated (= muzzle-like area present)',
+		5
+			'majority projects caudally and divides external nares into right and left halves'
+			'majority projects dorsally and divides external nares into right and left halves'
+			'is greatly reduced, reducing or eliminating internarial bar and creating single, confluent external narial opening',
+		6
+			absent
+			'present but lacking midline contact'
+			'present and contacting each other at midline',
+		7
+			lateral
+			dorsal,
+		8
+			'small and subcircular'
+			'elongate (at least 2x longer than wide in direction of premaxilla-maxilla suture)',
+		9
+			outside
+			within,
+		10
+			'well distanced from one another'
+			'separated only by narrow bony isthmus',
+		11
+			'laterally or rostrolaterally'
+			'dorsally or rostrodorsally',
+		12
+			absent
+			present,
+		13
+			'short (less than 1/4 narial perimeter)'
+			'long (more than 1/3 narial perimeter)',
+		14
+			'rostral to antorbital fenestra'
+			'dorsal to antorbital fenestra'
+			'caudal to antorbital fenestra',
+		15
+			'<1.0 (nares shorter)'
+			'>=1.0 (nares longer)',
+		16
+			absent
+			present,
+		17
+			present
+			absent,
+		18
+			'<0.85 (orbit significantly larger)'
+			'>=0.85 (diameters subequal)',
+		19
+			'obtuse or roughly 90 degrees'
+			'markedly acute',
+		20
+			'dorsal to midpoint of antorbital fenestra'
+			'caudodorsal to midpoint of antorbital fenestra but rostral to caudodorsal corner of antorbital fenestra'
+			'process absent; maxilla-lacrimal contact at caudodorsal corner of antorbital fenestra',
+		21
+			jugal
+			maxilla,
+		22
+			'reduced or absent'
+			'large (occupying most of caudoventral margin)',
+		23
+			'small (does not project far beyond frontal-nasal suture) '
+			'elongate (approaches parietal) ',
+		24
+			'flat, broadly rounded or square'
+			'hooked or acute and subtriangular',
+		25
+			'mediolaterally narrow '
+			'broader mediolaterally than rostrocaudally ',
+		26
+			'does not contact lacrimal (jugal intervenes)'
+			'contacts lacrimal (excludes jugal from margin of orbit)',
+		27
+			'present '
+			'absent ',
+		28
+			'between supratemporal fenestrae/fossae (frontals contribute to rostral margin of fenestrae/fossae)'
+			'rostral to supratemporal fenestrae/fossae (frontals excluded from rostral margin of fenestrae/fossae)',
+		29
+			'sutured '
+			'fused ',
+		30
+			'>=1.0 (equal or longer than wide)'
+			'<1.0 (wider than long)',
+		31
+			'short (less than diameter of foramen magnum) '
+			'deep (nearly twice the diameter of the foramen magnum)',
+		32
+			'present '
+			'absent ',
+		33
+			'absent '
+			'present ',
+		34
+			subrectangular
+			subtriangular
+			'linear (slit-like, crescentic)',
+		35
+			'caudal to orbit '
+			'rostral to caudal margin of but caudal to or equal with midpoint of orbit '
+			'rostral to midpoint of orbit',
+		36
+			'<2.0'
+			'>=2.0',
+		37
+			present
+			absent,
+		38
+			'rostrocaudal '
+			'mediolateral '
+			'dorsoventral (axis of fenestra is longer in lateral than dorsal view)',
+		39
+			present
+			'absent (excluded by parietal-postorbital contact)',
+		40
+			'>>1.0'
+			'~1.0 (subequal)',
+		41
+			'>=1.0 (longer rostrocaudally)'
+			'<1.0 (longer mediolaterally)',
+		42
+			'not visible (obscured by temporal bar) '
+			'visible (temporal bar shifted ventrally) ',
+		43
+			absent
+			present,
+		44
+			'present '
+			'absent ',
+		45
+			'<=1.0'
+			'>=1.0',
+		46
+			'tapers to acute tip'
+			'expands dorsoventrally at tip',
+		47
+			'straight or curves slightly dorsally at tip'
+			'angles ventrally at tip',
+		48
+			'roughly 90º'
+			'>>90º',
+		49
+			perpendicular
+			'angled caudodorsally-rostroventrally',
+		50
+			'absent '
+			shallow
+			'deeply invaginated',
+		51
+			'caudal '
+			'caudolateral ',
+		52
+			'with maxilla '
+			'with premaxilla ',
+		53
+			'plate-like (long maxillary contact) '
+			'rod-like (narrow maxillary contact) ',
+		54
+			'poorly developed and unexpanded'
+			'mediolaterally expanded',
+		55
+			'formed from two sheets of bone that project laterally and ventrally'
+			'formed from single, flat plate',
+		56
+			'<0.20'
+			'>=0.20',
+		57
+			'small facet '
+			'dorsomedially-oriented hook '
+			'rocker-like surface',
+		58
+			'caudal or ventral to orbit '
+			'between orbit and antorbital fenestra or ventral to antorbital fenestra'
+			'rostral to antorbital fenestra',
+		59
+			'projects below ventral margin of skull (usually robust)'
+			'does not project below ventral margin of skull (usually slender)',
+		60
+			'large (palatobasal and quadrate articulations well separated) '
+			'small (palatobasal and quadrate articulations approach) ',
+		61
+			'straight (at level of dorsal margin of quadrate ramus)'
+			'stepped (raised above level of quadrate ramus) ',
+		62
+			'present '
+			'absent ',
+		63
+			'>=2'
+			'1.01-1.99'
+			'<=1',
+		64
+			absent
+			present,
+		65
+			'flat or slightly convex laterally'
+			'markedly convex laterally and expanded suddenly dorsally and ventrally ("tongue-like" process present)',
+		66
+			'absent '
+			'present ',
+		67
+			'concave caudally, with paroccipital processes oriented caudolaterally '
+			'flat with paroccipital processes oriented mediolaterally ',
+		68
+			'simple, low crest, either lacking processes or with low, non prominent, craniocaudally compressed process'
+			'possessing prominent, craniocaudally compressed, "leaf-shaped" dorsolateral process',
+		69
+			'<=2'
+			'2.01-3.99'
+			'>=4.0',
+		70
+			'>=30°'
+			'<30° ',
+		71
+			'>=0.25'
+			'<0.25 (sheet-like)',
+		72
+			'<1.0'
+			'1.0-1.2'
+			'>1.2',
+		73
+			'absent '
+			'present ',
+		74
+			'shallowly concave'
+			'deep pit ',
+		75
+			'absent '
+			'present ',
+		76
+			'roughly perpendicular to skull roof '
+			'forming markedly acute angle to skull roof',
+		77
+			'elliptical or subtriangular'
+			subcircular,
+		78
+			'broadly triangular in lateral view and with groove on dorsal margin'
+			'slender, spike-like, and lacking dorsal groove',
+		79
+			'decreases or maintains dorsoventral height rostrally'
+			'increases in dorsoventral height and robustness rostrally',
+		80
+			'gently rounded '
+			'sharply projecting triangular process ("chin") ',
+		81
+			'<75°'
+			'>75° (close to perpendicular)',
+		82
+			'>=0.10'
+			'<0.10'
+			absent,
+		83
+			'<2.0'
+			'>=2.0',
+		84
+			'absent '
+			'present ',
+		85
+			'shallow '
+			'deep, with prearticular expanded dorsoventrally ',
+		86
+			'caudal to'
+			'participates in symphysis',
+		87
+			'overlaps angular '
+			'separating rostral portions of prearticular and angular ',
+		88
+			'present, approaching margin of adductor chamber '
+			'absent ',
+		89
+			'extends to dorsal margin of jaw '
+			'reduced, does not extend to splenial '
+			absent,
+		90
+			absent
+			present,
+		91
+			'mid-length along maxilla'
+			'rostral end of jaws',
+		92
+			'>=18'
+			'<=17',
+		93
+			'extends to orbit '
+			'rostral to orbit but caudal to subnarial foramen'
+			'restricted rostral to subnarial foramen',
+		94
+			absent
+			'interlocking (creating V-shaped facets) '
+			'planar facets at markedly acute angle to long axis of tooth (high-angled)'
+			'planar facets at roughly 90° angle to long axis of tooth (low-angled)',
+		95
+			'aligned along jaw axis (crowns do not overlap) '
+			'aligned slightly rostrolingually (tooth crowns overlap) ',
+		96
+			present
+			absent,
+		97
+			'<=3.0 (crowns expanded; teeth spatulate)'
+			'3.01-3.99'
+			'>=4.0',
+		98
+			'elliptical (convex both labially and lingually)'
+			'D-shaped (convex labially, flat or concave lingually)'
+			'circular (spatulate crown wears away leaving facet on root = "pencil-" or "peg-like" tooth morphology)',
+		99
+			'smooth '
+			'wrinkled ',
+		100
+			'present '
+			'absent on distal margin only '
+			'absent on both mesial and distal margins',
+		101
+			'<=2'
+			'>=3',
+		102
+			'perpendicular to jaw margin '
+			'oriented rostrally with respect to jaw margin (procumbent)',
+		103
+			'absent '
+			'present ',
+		104
+			absent
+			present,
+		105
+			'<=9'
+			'10'
+			'11'
+			'12'
+			'13'
+			'14'
+			'>=15',
+		106
+			'rectangular in lateral view (dorsal and ventral lengths subequal) '
+			' wedge-shaped (craniocaudal length of ventral margin greater than that of dorsal margin)',
+		107
+			'amphicoelous/amphiplatyan'
+			opisthocoelous,
+		108
+			absent
+			'simple, undivided '
+			'simple and undivided in cranial cervicals but becoming complex (divided by bony septa) in caudal cervicals, producing numerous, laterally visible foramina'
+			'complex (with numerous, laterally visible foramina) in all (post-axial) cervicals',
+		109
+			'with prominent sagittal keels'
+			'flat or mildly convex ventrally'
+			'concave ventrally (longitudinal sulcus present)',
+		110
+			absent
+			'present and confluent with pleurocoelous fossa'
+			'present but separated from pleurocoelous fossa by ridge',
+		111
+			'well developed with well defined lamina and fossae '
+			'rudimentary; diapophyseal laminae only feebly developed or absent',
+		112
+			'<1.25'
+			'>=1.25',
+		113
+			'dorsal (vertical) or craniodorsal'
+			caudodorsal,
+		114
+			'<4.0'
+			'>=4.0',
+		115
+			'<1.0'
+			'>=1.0',
+		116
+			'single '
+			'divided  (= cranial infrazygapophyseal fossae present)'
+			'consists of two parallel laminae',
+		117
+			flat
+			'transversely convex',
+		118
+			'low (height of vertebra subequal to or less than length of vertebral body)'
+			'high (height of vertebra greater than length of vertebral body)',
+		119
+			absent
+			'present only on caudal cervicals'
+			'present on middle cervicals (to C6)'
+			'present on cranial cervicals (cranial to C6)',
+		120
+			'single '
+			'bifid but lacking pseudospinal tuberculum'
+			'bifid with sagittal pseudospinal tuberculum',
+		121
+			'nearly vertical'
+			'slopes craniodorsally-caudoventrally',
+		122
+			'15'
+			'14'
+			'13'
+			'12'
+			'11'
+			'<=10',
+		123
+			absent
+			'present as deep but simple pits'
+			'present as deep excavations that ramify into vertebral body and into base of vertebral arch (leaving only thin septum in body midline)',
+		124
+			absent
+			'flush with lateral surface (no pleurocoelous fossa)'
+			'set within pleurocoelous fossa',
+		125
+			'flat or shallowly excavated'
+			'deeply excavated',
+		126
+			absent
+			'present on middle and/or caudal thoracics only'
+			'present on cranial-caudal thoracics',
+		127
+			absent
+			present,
+		128
+			none
+			'on caudal thoracics only'
+			'on middle and caudal thoracics',
+		129
+			absent
+			present,
+		130
+			absent
+			present,
+		131
+			'lateral or slightly dorsal'
+			'strongly dorsolateral (approximately 45º to horizontal)',
+		132
+			'amphicoelous '
+			'opisthocoelous ',
+		133
+			rounded
+			acute,
+		134
+			'ventrally convex'
+			flat
+			'with sagittal crest (creating two ventrolaterally-facing surfaces)'
+			'ventrally concave with sagittal crest in resultant sulcus',
+		135
+			'consists of single lamina'
+			'bifurcate toward upper end (= cranial infrazygapophyseal fossa present)',
+		136
+			'dorsal or caudodorsal'
+			craniodorsal,
+		137
+			'<=1.0'
+			'>1.0',
+		138
+			single
+			'bifurcate toward upper end (= cranial infrazygapophyseal fossa present)',
+		139
+			'absent '
+			present,
+		140
+			'absent '
+			present,
+		141
+			'absent '
+			present,
+		142
+			'transitions smoothly and uninterrupted onto dorsal surface of transverse process'
+			'possesses distinctive, elevated area with its own dorsally-facing surface that is connected to the dorsal surface of the remaining process only by a sloping region',
+		143
+			none
+			'prespinal lamina present, cranial spinozygapophyseal laminae absent'
+			'prespinal lamina absent, cranial spinozygapophyseal laminae present'
+			'both prespinal and cranial spinozygapophyseal laminae present and connected to each other either directly (merging) or via accessory laminae'
+			'both prespinal and cranial spinozygapophyseal laminae present but unconnected to each other',
+		144
+			'caudal margin of alaminar spinous process only or no dorsal support'
+			'separate spinopostzygapophyseal laminae unconnected to postspinal lamina via accessory laminae'
+			'separate spinopostzygapophyseal laminae connected to postspinal lamina at proximal end either directly or via accessory laminae',
+		145
+			absent
+			present,
+		146
+			absent
+			present,
+		147
+			'absent '
+			'present but not open externally'
+			'present and open externally via foramen',
+		148
+			absent
+			'present but do not project far laterally (not as far as caudal zygapophyses)'
+			'present and project far laterally (as far as caudal zygapophyses)',
+		149
+			'vertical '
+			'caudal (distal end approaches level of diapophyses)',
+		150
+			'amphicoelous/amphiplatyan'
+			opisthocoelous,
+		151
+			subcircular
+			'dorsoventrally compressed',
+		152
+			unexpanded
+			'expands and may bifurcate',
+		153
+			'caudal or caudodorsal to costolateral eminence'
+			'dorsal to costolateral eminence',
+		154
+			'<=1.0 (longer than wide)'
+			'>1.0 (wider than long)',
+		155
+			'rectangular for most of its length with little or no lateral expansion (except at distal end)'
+			'progressively expanding mediolaterally through most or all of its length ("petal" or "paddle" shaped)',
+		156
+			'<=3'
+			'4'
+			'5'
+			'>=6',
+		157
+			'absent '
+			present,
+		158
+			'<4.0'
+			'>=4.0',
+		159
+			absent
+			present,
+		160
+			'<2.0'
+			'2.0-3.49'
+			'>=3.50',
+		161
+			'low (not projecting beyond dorsal margin of ilium) '
+			'high (extending to or beyond dorsal margin of ilium) ',
+		162
+			'solid '
+			'spongy (with large internal cells)',
+		163
+			'<=35'
+			'36-60'
+			'>=61',
+		164
+			'<2.0'
+			'2.0-3.0'
+			'>3.0',
+		165
+			'persist through caudal vertebra 20 or farther distally '
+			'disappear by caudal 15 '
+			'disappear by caudal 10',
+		166
+			'flat '
+			'procoelous '
+			opisthocoelous
+			biconvex,
+		167
+			'simple and alaminar or single fossa on lateral aspect'
+			'complex system of laminae, resembling spines of thoracics ("dorsalized")',
+		168
+			'amphiplatyan or platycoelous '
+			'weakly procoelous '
+			'strongly procoelous'
+			opisthocoelous,
+		169
+			subcircular
+			'dorsoventrally compressed'
+			'mediolaterally compressed',
+		170
+			'absent '
+			present,
+		171
+			'~same over first 20 '
+			'doubling over first 20',
+		172
+			'>=0.6'
+			'<0.6',
+		173
+			'absent '
+			'present and extending onto lateral aspect of spinous process',
+		174
+			'absent '
+			present,
+		175
+			'absent '
+			present,
+		176
+			'absent '
+			present,
+		177
+			'absent '
+			present,
+		178
+			absent
+			present,
+		179
+			'simple, flattened processes'
+			'triangular or aliform process (connected via laminae to vertebral arch) on caudal 1 only'
+			'triangular or aliform processes through caudal 3'
+			'triangular or aliform processes on or beyond caudal 4',
+		180
+			'shallow (on vertebral body only) '
+			'deep (extending from vertebral body to vertebral arch)',
+		181
+			'absent '
+			present,
+		182
+			'single '
+			divided,
+		183
+			'<=1.0 (longer than wide)'
+			'>1.0 (wider than long)',
+		184
+			'<2.0'
+			'>=2.0',
+		185
+			absent
+			present,
+		186
+			subcircular
+			'flat dorsal and ventral surfaces (~ quadrangular)',
+		187
+			'absent '
+			present,
+		188
+			'amphicoelous/amphiplatyan'
+			'procoelous (conical) '
+			opisthocoelous,
+		189
+			'straddles midpoint (significant portions located on either side of midpoint)'
+			'located mostly or entirely over proximal half of body',
+		190
+			'distodorsal '
+			vertical,
+		191
+			'cylindrical '
+			'flattened dorsoventrally (at least 2x as wide mediolaterally as tall dorsoventrally)',
+		192
+			'<=10'
+			'>=30',
+		193
+			absent
+			amphiplatyan
+			'proximo- or distoplatyan'
+			biconvex,
+		194
+			'<=4.0'
+			'4.01-4.99'
+			'>=5.0',
+		195
+			'greater than 90°'
+			'less than 90° (rib ventrolateral to vertebral body)',
+		196
+			'much longer than vertebral body (overlapping as many as three subsequent vertebrae) '
+			'slightly longer, equal to, or shorter than vertebral body (little or no overlap)',
+		197
+			'absent '
+			present,
+		198
+			'shallowly concave on both cranial and caudal faces'
+			'strongly convex cranially and deeply concave caudally',
+		199
+			'subcircular '
+			'"plank"-like (craniocaudal dimension >3x mediolateral dimension)',
+		200
+			'throughout at least 80% of tail '
+			'disappearing by caudal 30',
+		201
+			'simple or curve caudoventrally (forming caudal process)'
+			'develop small cranial process'
+			'cranial and caudal processes elongate so arch is proximodistally much longer than tall dorsoventrally ("skid-like")',
+		202
+			'<0.30'
+			'>=0.30',
+		203
+			'present in proximal through distal haemal arches'
+			'present in proximal arches but absent in middle and distal arches'
+			'absent in proximal through distal arches',
+		204
+			'fused '
+			'unfused (open)',
+		205
+			'<=0.6'
+			'0.6-0.74'
+			'>=0.75',
+		206
+			'<0.60'
+			'0.60-0.89'
+			'>=0.90',
+		207
+			'closer to level of glenoid fossa than to level of midpoint of scapular body'
+			'equidistant between or closer to level of midpoint of scapular body than to level of glenoid fossa',
+		208
+			'small and narrow '
+			'broad (dorsoventral width more than 150% minimum width of scapular body)',
+		209
+			absent
+			present,
+		210
+			'flat or convex and decreases in mediolateral thickness toward caudal margin'
+			'forms distinct fossa',
+		211
+			'roughly perpendicular '
+			'roughly 45° angle',
+		212
+			'acromial (dorsal) edge not expanded (parallels long axis of body)'
+			'acromial edge with rounded dorsal expansion caudal to acromion but cranial to distal end'
+			'distal end racquet-shaped (dorsoventrally expanded)',
+		213
+			'flat or facing laterally '
+			'strongly bevelled medially',
+		214
+			'flat or rectangular'
+			'D-shaped',
+		215
+			absent
+			present,
+		216
+			absent
+			present,
+		217
+			'<1.5 (articular surface longer)'
+			'>=1.5 (craniocaudal length longer)',
+		218
+			'rounded (cranial and dorsal margins grade into one another)'
+			'rectangular (meet at abrupt angle)',
+		219
+			'equal or dorsal to acromion'
+			'ventral to acromion and separated from it by V-shaped notch',
+		220
+			'absent '
+			present,
+		221
+			'ovoid '
+			'triangular due to presence of acute craniolateral projection'
+			'elliptical with concave lateral margin',
+		222
+			'<0.75'
+			'>=0.75',
+		223
+			absent
+			present,
+		224
+			absent
+			present,
+		225
+			'present (proximal end of humerus markedly convex in cranial view)'
+			'absent (proximal end of humerus flat or gently sinusoidal in cranial view)',
+		226
+			absent
+			present,
+		227
+			'prominent '
+			'reduced to low crest or ridge',
+		228
+			'restricted to lateral edge of humerus'
+			'expanded medially across cranial face of humerus',
+		229
+			'relatively narrow throughout length '
+			'markedly expanded distally',
+		230
+			'circular '
+			'elliptical with long axis oriented transversely',
+		231
+			'restricted to distal end (articular surface flat)'
+			'exposed on cranial and caudal portions of humeral shaft (forming convex articular surface)',
+		232
+			'shallowly concave'
+			'deeply concave, bounded between prominent vertical ridges',
+		233
+			'divided '
+			'flat (separate condyles indistinct)',
+		234
+			'subtriangular '
+			'triradiate with deep radial fossa',
+		235
+			flat
+			'strongly concave on proximal surface',
+		236
+			'subequal '
+			'unequal (with cranial process longer)',
+		237
+			'prominent (projecting beyond proximal articular surface) '
+			'rudimentary (level with proximal articular surface)',
+		238
+			'gracile '
+			stout,
+		239
+			'<0.30'
+			'>=0.30',
+		240
+			'round '
+			'subrectangular (flattened caudally and articulating on cranial side of ulna)',
+		241
+			'<1.50'
+			'1.50-1.90'
+			'>1.90',
+		242
+			'perpendicular '
+			'bevelled approximately 20° proximolaterally',
+		243
+			'>=3'
+			'2'
+			'1'
+			none,
+		244
+			'round '
+			'blocky (with flattened proximal and distal articular surfaces)',
+		245
+			'spreading '
+			'bound (with subparallel shafts and articular surfaces extending half their length)',
+		246
+			'gently curving to form 90° arc '
+			'U-shaped (subtending arc of 270°)',
+		247
+			absent
+			present,
+		248
+			'<0.35'
+			'0.35-0.45'
+			'>0.45',
+		249
+			'<=1.0'
+			'>1.0 (mcI is longest metacarpal)',
+		250
+			'<1.0'
+			'>=1.0',
+		251
+			'divided '
+			undivided,
+		252
+			'<0.90'
+			'>=0.90',
+		253
+			'bevelled ~20° proximodistally '
+			perpendicular,
+		254
+			'2-3-4-3-2 or more '
+			'reduced to 2-2-2-2-2 or fewer '
+			'completely absent or unossified',
+		255
+			'rectangular '
+			'wedge-shaped',
+		256
+			'>1.0 (longer than wide)'
+			'<1.0 (wider than long)',
+		257
+			'large (at least 50% length of metacarpal I)'
+			'reduced (<25% length of metacarpal I) or absent',
+		258
+			'narrow (ilia longer craniocaudally than distance separating preacetabular processes) '
+			'wide (distance between preacetabular processes exceeds craniocaudal dimension of ilia)',
+		259
+			'flat, sigmoid, or gently convex'
+			'semicircular (markedly convex)',
+		260
+			'caudal or dorsal to base of pubic process'
+			'cranial to base of pubic process',
+		261
+			'is also the cranialmost point (preacetabular process is pointed)'
+			'is caudal to the cranialmost part of process (process is semicircular with caudoventral excursion of cartilage cap)',
+		262
+			'cranial in vertical plane'
+			'craniolateral in vertical plane'
+			'craniolateral and cranial edge curls laterally into horizontal plane',
+		263
+			'large and prominent (long axis of ilium roughly horizontal) '
+			'low and rounded (long axis of ilium oriented craniodorsally-caudoventrally)',
+		264
+			'passes ventral to ventral margin of postacetabular portion of ilium'
+			'passes through or dorsal to ventral edge of postacetabular portion of ilium',
+		265
+			present
+			absent,
+		266
+			'absent or small, striated area confluent with cranial margin of pubis '
+			'prominent and projecting cranial to cranial margin of pubis ("hook-like")',
+		267
+			'flat (with straight symphysis, proximal end in parasagittal plane but middle and distal ends in mediolateral plane) '
+			'canted craniomedially (middle and distal ends in same plane as proximal end; gently sigmoid symphysis and V-shaped in cross section at body midlength)',
+		268
+			'<0.40'
+			'>=0.40',
+		269
+			'<0.90'
+			'>=0.90',
+		270
+			absent
+			present,
+		271
+			'passes through lower part of acetabulum or upper part of pubic articular surface (long axis of ischium ~60º to horizontal)'
+			'passes through upper part of acetabular margin or approaches rim of iliac articulation (long axis of ischium ~80º to horizontal)',
+		272
+			'emarginate (sagittal notch) '
+			'not emarginate',
+		273
+			'craniocaudal depth increases medially but not laterally'
+			'blade-like (craniocaudal depths on both medial and lateral sides subequal)',
+		274
+			'<=0.15'
+			'>0.15',
+		275
+			'<2.0'
+			'>=2.0',
+		276
+			'V-shaped (forming marked angle to one another) '
+			'flat (nearly coplanar)',
+		277
+			slight
+			'strong dorsoventrally',
+		278
+			convex
+			straight,
+		279
+			'medial or ventromedial'
+			dorsomedial,
+		280
+			'on caudal surface, near midline '
+			'on caudomedial margin',
+		281
+			'prominent and blade-like'
+			'reduced to low crest or ridge',
+		282
+			'lies above midshaft height'
+			'lies at or below midshaft height',
+		283
+			'well-developed ridge or plate'
+			'weakly developed ridge or plate'
+			absent,
+		284
+			'<1.25 (~1.0)'
+			'1.25-1.50'
+			'>=1.85',
+		285
+			'straight '
+			'proximal 1/3 deflected medially',
+		286
+			sigmoid
+			straight,
+		287
+			'subequal '
+			'tibial condyle much broader than fibular condyle',
+		288
+			'perpendicular or slightly bevelled dorsolaterally '
+			'bevelled dorsomedially ~10°',
+		289
+			'restricted to distal portion of femur '
+			'expanded onto cranial and caudal portion of femoral shaft (surfaces visible in cranial and caudal views)',
+		290
+			'>=0.70 '
+			'<0.70',
+		291
+			'longer craniocaudally than mediolaterally by at least 15%'
+			'expanded mediolaterally (craniocaudal and mediolateral dimensions <15% each other)',
+		292
+			prominent
+			'reduced to low ridge',
+		293
+			'projects cranially (fibula entirely visible in cranial view)'
+			'projects craniolaterally or laterally (obscures part of fibula in cranial view)',
+		294
+			'<2.0'
+			'>=2.0',
+		295
+			'broad mediolaterally (covering caudal fossa of astragalus) '
+			'shortened mediolaterally (caudal fossa of astragalus visible caudally)',
+		296
+			'wider mediolaterally than craniocaudally'
+			'roughly equal mediolateral and craniocaudal dimensions',
+		297
+			'not well marked '
+			'well marked and widening craniocaudally toward proximal end',
+		298
+			'absent '
+			'present and ovoid (tuberculum angled)'
+			'present, fossa bounded by two vertically elongate, parallel ridges (tuberculum linear)',
+		299
+			'subequal to shaft '
+			'expanded mediolaterally (>2x midshaft mediolateral dimension)',
+		300
+			'rectangular '
+			'wedge-shaped (with reduced craniomedial corner)',
+		301
+			'widens medially '
+			'narrows medially',
+		302
+			'flat or slightly concave mediolaterally '
+			'convex mediolaterally',
+		303
+			'present '
+			absent,
+		304
+			'terminates cranial to caudal edge'
+			'extending to caudal margin',
+		305
+			'undivided '
+			'divided by vertical, caudomedially-oriented crest',
+		306
+			'<=1.25 (dimensions subequal)'
+			'>1.25',
+		307
+			'present '
+			'absent or unossified',
+		308
+			'present '
+			'absent ',
+		309
+			'bound '
+			spreading,
+		310
+			perpendicular
+			'angled ventromedially',
+		311
+			perpendicular
+			'angled dorsomedially',
+		312
+			'absent '
+			present,
+		313
+			'slender, reduced, or absent '
+			'robust (ratio of length:mediolateral width of proximal end <=1.5)',
+		314
+			'absent '
+			present,
+		315
+			'smaller than '
+			'subequal to',
+		316
+			'>=0.40'
+			'0.26-0.39'
+			'<=0.25',
+		317
+			'>=0.65'
+			'<0.65',
+		318
+			'<0.70 (usually <<0.70)'
+			'>=0.70',
+		319
+			'meet at ~90° angle'
+			'meet at acute angle (area drawn into thin plate that projects caudal to distal condyles of metatarsal I)',
+		320
+			'present '
+			absent,
+		321
+			'>1.0 (longer than wide)'
+			'<=1.0 (wider than long)',
+		322
+			'subequal in size to more proximal phalanges '
+			'rudimentary or absent',
+		323
+			'square or rectangular in dorsal view'
+			'reduced craniocaudally, irregular in shape, and semicircular in dorsal view',
+		324
+			'>=4 '
+			'3'
+			'<=2',
+		325
+			'aligned (point forward)'
+			'deflected ventrolaterally',
+		326
+			'subequal '
+			'25% larger than',
+		327
+			'<1.0'
+			'>=1.0',
+		328
+			'>1.0 (wider than tall)'
+			'<=1.0 (sickle-shaped, much taller than wide)',
+		329
+			'broader mediolaterally than dorsoventrally '
+			'sickle-shaped (much deeper dorsoventrally than broad mediolaterally)',
+		330
+			'subequal in size to unguals of pedal digits II and III '
+			'rudimentary or absent',
+		331
+			'absent '
+			present,
+	;
+	MATRIX
+		Prosauropoda            0000000000 0000000(01)0(01) 0000000(01)00 0000(01)00000 0000000000 -000000000 0010000000 0100000000 0000000000 0000100000 0000100000 1000000000 000?010000 00?0000000 0000000000 0000000000 0010000000 0000000000 0000000000 0000000000 00000000?? 0000000000 0000000001 00001-0000 0000000001 000000000? 0000000000 000000000(01) 0000000000 0000000000 0000000000 0000000000 0000000000 0
+		Theropoda               0000000000 00000(01)0000 0000000000 000(01)000000 0000000000 -000000000 0000000000 0100000000 0000000000 0000000000 0000000000 1000000000 0001000000 0000000000 0000000000 0000000000 0010000000 0000000000 0000000000 0000000000 00000001?? 0000000000 0000000001 (01)0001-0000 0000000100 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 --00000000 0000000000 0
+		Vulcanodon              ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ???????1?? ?????????? ?????????? ?????????? ?????????? ?????1??0? ?0???0?000 01?????101 00????1??? ?????????? ?00?2??0?? ?????????? ??????1001 00?1111001 00????10?? ?1???????0 ??1??00010 0010100101 011101???1 0100??0000 101000010? 1000110100 000?100100 0
+		Barapasaurus            ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ???????1?0 ??????1000 0?0010?000 ??011?0200 0100?01?11 0000102000 0001011001 ?0?0?0?0?0 ?????????1 00????00?0 000?????0? 2?00??01?? 0000??00?0 ????0?1?01 0?11?110?1 00???????? ???????01? 0110?01010 0010?0011? 112101100? 0?10111?1? ??1?1????0 10???????? ????1??11? 0
+		Omeisaurus              01010{12}0000 0110001012 ?000??0001 1001101110 1100110002 0111???10? ?10100101? 0?00000?10 000?1????1 0111110111 ?10160130? 01010?0000 1311120200 1100?01111 0021100000 00000210?0 1?10100(01)00 0100000111 000000?000 0??0100??0 200121010? 000?000010 0000001001 0011001001 (12)021001100 0101110010 0010101010 0010100110 1121010001 0110101??0 0010101111 1110121101 1101111111 0
+		Shunosaurus             0011000000 0010001002 0000000001 ??01101010 1100110002 0011?01100 0110001000 01?0000?10 000?1?00?1 0011111110 ?001401000 1100100000 120?01?00? 10?000100? 0000100000 0000010001 1011100000 0100000111 000000?000 00000?0001 2021110000 0000000010 0000001001 0011001001 1001001000 0111010010 0010101010 00?0100110 1121010001 ?1101???00 0010?00111 1?10120101 1101?11111 0
+		Patagosaurus            11???{12}0000 0110?01??? ?????????? ?????????? ?????????? ?1???????? ?????????? ????????10 0????????1 ???11?0112 ?001??1001 0?00100000 1?11110200 1100001011 0021102000 000102??01 ???0???000 ?1?????101 ??0000?000 0???1?0?0? ?00???011? 0?0???0010 ????001001 0?11011001 00???????? ????????10 0110101010 0010100110 1121010001 01001????? ?????????0 10??1????? ?????????? 0
+		Mamenchisaurus          1101?{12}???- ??11101002 0000??0101 000110?110 ?1?01????2 011?10?100 ?1011010?0 ?10?0???10 0101100111 ?111110111 010160100? 0101110011 130?1201?0 01?0??1?11 001110?101 0000021?(01)1 1?10110220 0100000111 000000?000 000?10000? 20012111?? 0?????00?? 0???0?1?01 0?11?110?1 101101?1?0 0?01????10 001010??10 0010100110 112101100? 11?01???10 00111??11? 1010?2?101 11?11??1?? 0
+		Apatosaurus             3010221101 1012011112 ?111100101 1101211210 1111110111 0011110210 ????101020 01000101?? ?????????1 1?230?2212 ???1611322 0010110022 1521120201 0100101111 10(34)2110000 0001021112 1021110100 0111110121 1111000000 0132110001 2011110111 0011000110 1?00001001 0011001001 1021111100 0101110110 0111111010 0000101111 1121011001 1110111101 1111101111 1111121111 (01)112111111 0
+		Barosaurus              ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ??????1?22 00?1121012 1?11111101 010??01?1? 1?31110000 0??102???? ?021110101 1?11110131 11110?1001 0??2110?0? 2?11??1?11 ????00?01? ?????0?0?? ?0???????? ?????????? ?????????0 ???1111010 0010101111 ?1???1???1 11???1???? 111??????? ??11????1? ?????????? 0
+		Brachiosaurus           1101121010 011111101? 1000110101 1001201110 1111110002 0111100100 1110001010 1110000010 1211111121 1111011112 0001401322 0001110000 1321120101 0112001111 1031100201 1000021111 1010100010 0100110111 0000000010 0???10111? ?020220111 0101100110 2000001001 0011011001 2011111201 1111011111 1111101110 1010110111 1121111001 1110111111 1111100111 101012?101 110?1?111? 0
+		Camarasaurus            1101121010 0110111012 1000110101 1001211110 1110110002 0111101100 1110001010 0100000010 0211111111 1111110112 0101301312 0000100031 1321120200 0110001111 0021101201 0000021111 1010100000 0100110111 0000000000 00001001?1 1020210111 0101000110 0000001001 0011011001 (12)011111101 0101110110 0111101110 0010110111 1121011001 1110111101 1111100111 1010121101 1102111111 0
+		Dicraeosaurus           3010?21101 ?????????2 ??101?0011 101??11210 11???????? ?0????1??0 ?101010121 0001010?11 0????0???1 ?123??2212 ?1003?110(12) 00(01)01(01)0132 1300120211 110(02)001010 001(12)1(01)0000 0001121102 10?2111(01)00 011(01)110131 0011000000 00(23)111010? 201111?11? ?0010000?0 ????001001 0011011001 10???????? ???????110 0011111010 0000101111 1121011001 1110111101 111111??11 111?1?11?1 ??????11?? 0
+		Diplodocus              3010221101 1012011112 1111100101 1101211210 1111110111 0011110210 1101101020 0100010111 02011001?1 1123002212 1100611322 00011(12)1032 1521121201 0100101111 10(34)(12)101000 0001021112 1021110101 1111110131 1111001001 0132110001 2011111111 0001000010 1000001001 0011011001 ?0???????? ???????110 0111111010 0000101111 1121011001 1110111101 11111?0111 1111121111 11121?1111 0
+		Haplocanthosaurus       ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????01(01)11 0000100000 1121110100 1110001111 013(12)110100 0010021111 10?0100000 0100110111 0000100000 ????1?010? ?02???0111 00010?00?0 2?00?????? ?????????? ?????????? ???????110 0111101010 0010110111 1121011001 ?????????? ?????????? ?????????? ?????????? 0
+		Amargasaurus            ?????????? ?????????? ??001?0-11 1012210211 11???????? ?????????? ??11011121 001101?0?? ?????????? ?????????? ????4111?? 0?10100131 150?1?0201 11???01?0? 101?10?000 01?112???2 ???2?0???0 ?????????? ???????0?? ????????0? ????11??1? ?0?1?????? ????001001 0?1100100? ?0???????? ????????11 1111?????? ???????111 11?101?001 ?1???????? ?????????? ?????????? ?????????? 0
+		Euhelopus               1101010000 0111?01?12 ?0??1?0?01 ???1??1?1? ????110002 011110???0 ?1???????? ????????10 021??????1 01?1110112 01016?101? 1101110012 111????1?1 ?1???11111 1???10?111 010003?1?? 1??0?????? ?????????? ?????????? ????101?1? ??????0110 0010??00?0 ????1?1001 011??????? ?????????? ???????110 121??01110 001?110??? 1??11?100? 111011?101 1111??0?11 1010121??1 1???11111? 0
+		Jobaria                 11010?1010 0110111012 1000100101 1001101110 11?01100?2 0?1????1?0 ?10??010?? 010?00??00 0????0???? 00111?0110 000?3?13?? 0000100000 120?????00 ?1????1?11 1???1??000 ?0?1021??? 10101000?0 0?00110??1 0000?00000 000?100?01 1??021011? 0101??0000 ????0?1?01 0?11?11001 ?00111?1?0 0101110110 0111?01??? 0010?1?11? 11?1011001 1?101?1101 ??111?0111 10??1111?? ?????????? 0
+		Malawisaurus            ?1?11????? 00?0?????? 1????????? ?10??????? ?????????2 0???100??1 ??10011?10 020??0??10 0??????1?1 ?1?????112 0101??1010 10?1110000 05???0?2?1 011?00111? 0?1??1?111 01??131??? ???01??200 0000111011 0000101010 0??01010?? 0120?????? ??????00?0 2??11?1?01 0?11100001 10??1???11 1?1??????? ?????????1 0111110??? ???11????? 1??11?1?0? ?????????? ?????????? 1????1?11? 1
+		Nigersaurus             30?0????00 ??12011?0? ??001?1-00 1????-?-?- --??1????2 0????????? ??0??0102? 01??01??10 -200?????1 ?022012212 101???1??? 00?01???00 ??2??????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ????110?0? ??????11?? 020??00??? ?????????? ?????????? ?????????? ?????????? ?????????? ???????00? ?????????? ?????????? ?????????? ?????????? ?????????? ?
+		Limaysaurus             ?????????? ???2????0? ??000?1-01 100??-1--- --?0????12 0????????0 ??21001020 -110011??? ?????????? ??????2212 ??1???13?? 0010100100 1312?00201 1100?01??? ?012?0?000 ???11????? ?012100000 0100110001 0011?00000 ??(12)2110??? ?02?111111 020???0110 2??1101?00 0?11011001 ?0?????00? ?1??????1? ?01??01010 0010110111 1?2101?001 ?11????1?1 11??????10 001?1211?? ?????????? 0
+		Rebbachisaurus          ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????0 ??2??002?1 1?????1?11 1?32?0?000 0?111????? ?????????? ?????????? ?????????? ?????????? ??????11?? 0201?????? ??????1??0 ?????????? ?????????? ?????????? ?????????? ?01??1???? ?????????? ?????????? ?????????? ?????????? ?????????? 0
+		Alamosaurus             ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ???2????12 ???0??1120 1?001???00 ??1??00201 01???1??11 0?11?0?111 ???113???? ?000231200 0000110011 0001111110 1?????0?01 0121??0110 1211?11100 21?1101111 1101010011 213-111211 1112--1?11 1211?????0 0111110?01 111?1?1?1? ??11??0?1? ?????????? ?????????? ?????????? 0
+		Nemegtosaurus           2001?21?0- ?0?2?11011 1000110101 010221?110 1010111002 1?111?2101 1110011011 1200100?10 111??000?1 1112012212 1001?????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?
+		Opisthocoelicaudia      ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????1 ?41210?111 0113001011 101211?111 111-03110? 1?00221300 0100110111 0010111010 0030????11 0120210110 0011111101 2111111111 1101010111 213-111211 1112--1111 ?211101001 0111110111 112211111? 1111101201 1111111111 1010121101 1102101111 0
+		Rapetosaurus            201020???? 1012011101 ?000?00001 0100211?10 10?0????02 1???1?2101 1?20011021 021?10??00 121??0?0?? 1112012212 000?6?12?? 10?11??000 151?1112?1 01???00?00 0021?10111 1?11131?10 01101??200 0000111??? 0001?10110 0???101?01 ?12021?111 1010??1000 20?11?1?01 1?01000001 20??11?200 110????111 0111?0100? 0111?10111 1?10111010 110????10? ????????10 0?1?1210?? ?????????? 1
+		Saltasaurus             ?????????? ?????????? ??00???001 ??0??11??? ?????????? ?????????? ??1?011011 1210??0??? ?????????? ??????2??? ??????111? 0000120000 1?1210?101 111100111? 111110?111 111103110? 11?0???210 ?000111111 0011?11110 1?001????? 0120??0111 1010??1101 2??1111111 1?01110111 11???????? ???????111 1211101100 0111110111 1122111111 ?11110?20? ?????????? ??1??????? ?????????? 1
+		Isisaurus               ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ??????11?? 1000100000 1?1?1?0201 011?001111 100110?011 0?11?3110? ???0???200 0000110001 0000101110 0???1???1? 0120??01?? 1010??10?? ????111101 111101011? ?????????? ???????111 1211101100 0111111??? ?????????? ?????????? ?????????? ?????????? ?????????? ?
+		Losillasaurus           ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????0 ???1?????? ?????????? ?????????? ??????1101 00???10?00 ??1???0??1 1100?01??? 0??110?200 0?1?1???0? ???0???1?0 ?000000031 0?0??????? ?????????? ?????????? ?????????? 00000??001 00???????? 2?????1??? ?????????0 00???010?? ?1???????? ?????????? ?????????? ?????????? ?????????? ?????????? ?
+		Suuwassea               3?10?????? ?????????? ??????000? 101???1210 ?1???????1 0????????? ??111010?0 0110?1???? ?????????? ????????12 1?00?1121(12) 0010?10121 ??221????? ?1???01??? ?0???????? ?????????? ?0?????100 ?0???????1 ???100000? 0?11?1000? ??{01}???0111 0001100010 ????011001 001??????? ?????????? ?????????? ?????????? ?????????? ?????????? 111???110? ??????0?11 11111?1?11 1???10111? 0
+		XENOPOSEIDON            ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ??221?0??? ???0??1?11 1???????01 1?1??????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?
+		'HOTEL MESA'            ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ???100001? 0?????110? ???????1?0 ?2???????? 2????????? ?????????? ?????????? ????????11 0110?????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+	TYPESET * default = ORD: 6 14 89 93 284 324;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+
+	[Character comments]
+	TEXT CHARACTER=1 TEXT='     The character states outlined by Upchurch et al. (in press) do not easily accommodate the distinctive skull morphologies of Nemegtosaurus or Rapetosaurus,  so the category "platalean" has been added here to describe their distinctive snouts. The otherwise superficially diplodocoid-like morphology of these taxa is almost certainly convergent given the peculiar morphology of the primitive titanosaur Malawisaurus and the Brachiosaurus-like titanosaur skulls from the Bajo Barreal Formation of South America (Lamanna et al., 2001).';
+	TEXT CHARACTER=2 TEXT='     Character 2 of Wilson (2002) is somewhat confusing because it obfuscates important anatomical details; the anatomical relationships Wilson intended to encompass in his character have been separated into several distinct characters by Upchurch et al. (in press). The "caudolateral process" of the premaxilla is most distinct in taxa (e.g., Euhelopus, Omeisaurus, Shunosaurus) in which the caudal part of the premaxilla bifurcates to house the rostral margin of the external nares. The caudolateral process is the prong or point at the rostroventral most edge of the external nares. By his use of this character, Wilson (2002) clearly accepts that all sauropods retain a "caudolateral" process, but Upchurch et al. (in press) cite as their character 15 the possibility that the process is absent -- indeed, they code it as absent for all sauropods for which this element could be coded except the aforementioned taxa plus Jobaria.  As a result, the caudal migration of the external nares produced one of two effects: the caudolateral process ceased to exist as a distinct process, or the process fused to the nasal process. Wilson (2002) favors the former interpretation because in the taxa he codes as showing the derived state, there is no distinct process. What occurs instead, however, is that the sutures between the portion of the premaxilla excepting the nasal process (which is the indistinct "caudolateral process") and the rostromedial portion of the maxilla of the left and right sides meet at the midline within the external narial fossa and/or fenestra.  Thus, as used here, this character subsumes character 2 of Wilson (2002) and character 15 of Upchurch et al. (in press). Retraction of the nares clearly created a complex set of mutually inclusive states (e.g., characters 3-8, 13, etc.); further discoveries will help determine if they should continue to be coded separately.';
+	TEXT CHARACTER=3 TEXT='     This character has been modified from Upchurch et al. (in press), which did not specify at point along the midline from which the angle should be measured. The character is clearly intended to describe the unique condition in diplodocoids, induced by the extreme caudal retraction of the external nares (see character 2) and the mediolateral narrowing of the premaxilla. The caudomedial portion of the premaxilla-maxilla suture in non-diplodocoids, however, also closely parallels the midline suture, while it is the rostrolateral part that is at the widely divergent angle, so it is that region that is specified here.  The angle is measured between the projection of the line defined by the rostrolateral end of the premaxilla-maxilla suture and the skull midline in dorsal view. The derived character states are probably inextricably linked to the rostrocaudal elongation and mediolateral narrowing of the premaxilla (character 12 of Upchurch et al. [in press]) since any lateral migration of the rostral end of the premaxilla (independent of the nasal process) that creates a wider angle also creates the distinction defined therein; any simultaneous lateral widening of the ascending process maintains the derived low angle.  ';
+	TEXT CHARACTER=4 TEXT='     Another way to phrase this character may be to state that the rostral and dorsal margins of the premaxilla, seen particularly in lateral view, lie in different planes: the dorsal margin approaches horizontal whereas the rostral margin is near vertical.  The derived state appears in sauropods with "diplodocoid"-type skulls in which the dorsal margin of the skull is more or less linear in lateral view.';
+	TEXT CHARACTER=5 TEXT='     Upchurch et al. (in press) clearly erected this character to distinguish the distinctive, sinuous conjoined nasal processes of the premaxilla that form the internarial bar in taxa such as Brachiosaurus. The character has been slightly modified here to specify the "free" portion of the conjoined processes (the parts that are bordered laterally only by space in the external narial opening), because without that caveat, some of the ascending process bordered laterally by the maxilla could be viewed as having an orientation other than that specified in the coded state.';
+	TEXT CHARACTER=6 TEXT='This process was illustrated by Upchurch (1998:fig. 3).';
+	TEXT CHARACTER=12 TEXT='Wilson (2002) included this character as part of what is here character 2, implying that the narial fossa is created solely by the midline contact of the premaxilla and maxilla.  However, it is conceivable that such a structure could exist but not be restricted to specific elements -- other cranial openings, such as the supratemporal fenestrae, show different osteological associations throughout sauropodomorph evolution, so there is no a priori reason to make such a restriction.  This character is thus retained here separately, following Upchurch (1998) and Upchurch et al. (in press).';
+	TEXT CHARACTER=14 TEXT='Wilson (2002) did not specify a specific portion of the external narial opening that acts as a reference for its relative position to the antorbital fenestra.  Upchurch et al. (in press) specified the caudal and rostral margins as two separate characters, but the caudal migration of the nares is more easily perceived as a single entity, so the two separate characters refer to the same evolutionary process.  The character is simplified here.';
+	TEXT CHARACTER=18 TEXT='Wilson (2002) did not specify a dividing point between "much shorter than" and "subequal" to, making any assessment in a particular specimen arbitrary.  Of course, defining a boundary at a particular numerical value, as has been done here, is equally arbitrary, but has the advantage in that it enhances the testability of the character.';
+	TEXT CHARACTER=31 TEXT='Although the occipital processes of the parietal course ventrolaterally-dorsomedially, the dorsoventral height is measured in the vertical plane by projecting horizontal lines from the dorsal- and ventralmost points of the processes, respectively, and measuring the vertical distance between them.';
+	TEXT CHARACTER=32 TEXT='The posttemporal fenestra (= posttemporal fossa of Holland [1915]), called fenestrae here because they represent actual windows bordered by bones rather than an indentation within a set of bones) is an opening, visible in caudal view, dorsal to the paroccipital processes.';
+	TEXT CHARACTER=42 TEXT='This character is maintained as separate from character 38 because a ventral shift of the temporal bar does not necessary elongate the supratemporal fenestra in the dorsoventral plane; the fenestra may maintain a longer dimension in another plane but still be visible laterally.';
+	TEXT CHARACTER=56 TEXT='For a discussion and illustration of this character, see Upchurch (1998: fig.4).';
+	TEXT CHARACTER=73 TEXT='Future analysis may benefit from the further division of this character to differentiate between the shallow but large fossae seen in some sauropods and the small but deep foramen in others.';
+	TEXT CHARACTER=95 TEXT='"Overlap" in this context means only that, in lateral view, one tooth obscures the view of the next, but does not imply any physical contact between teeth, which is retained as a separate character (97).';
+	TEXT CHARACTER=98 TEXT='Unlike its original inclusion in Wilson (2002), as used here the character specifies the worn tooth crowns rather than tooth crowns in general.  Some sauropod teeth (particularly those spatulate ones with V-shaped wear facets) do not undergo substantial cross-sectional morphological change as a result of wear, but diplodocoids in particular have teeth with somewhat spatulate tips (either elliptical or D-shaped in cross section) in newly erupted teeth that are worn completely away during use, producing the characteristic subcircular cross-sectional morphology.';
+	TEXT CHARACTER=118 TEXT='Upchurch et al. (in press) code Dicraeosaurus, Amargasaurus, and Rayososaurus as possessing the apomorphic state.  However, the character is somewhat misleading because the former two taxa possess bifid spines whereas the latter (as well as Suuwassea) does not.  Whether these taxa shared a common ancestor with tall spines that only later became bifid in dicraeosaurids remains to be seen.';
+	TEXT CHARACTER=133 TEXT='The states in this character may be too subject to (a) individual variation, (b) typical asymmetries created by pneumatic invasion of bone, and/or (c) diagenetic distortion to be phylogenetically useful.';
+	TEXT CHARACTER=142 TEXT='This character is visible in cranial or caudal view, but not lateral view.';
+	TEXT CHARACTER=143 TEXT='The following discussion pertains to both prespinal (character 143) and postspinal (character 144 laminae and associated spinozygapophyseal laminae; for the sake of discussion, the artificial term "median lamina" is used to denote both prespinal and postspinal laminae and "spinozygapophyseal laminae" is used to include both cranial and caudal variants. These characters are elaborated from the states listed by Wilson (2002) and Upchurch et al. (in press) by specifying the nature of any relationship between the median and spinozygapophyseal laminae.  In sauropods that lack the a median lamina but possess spinozygapophyseal laminae, the region between the latter generally forms a moderately deep interspinal ligament fossa, as in birds.  When the two laminae are connected, it usually manifests by the merging of proximally separate spinozygapophyseal laminae to form a single, median lamina, though the position of the bifurcation varies across taxa.  In some cases (e.g., Apatosaurus [Gilmore, 1936: pl. 25, fig. 8]), although the laminae merge distally, the median lamina maintains a separate offshoot proximally between the spinozygapophyseal laminae.  Apatosaurus is currently unique in possessing at least one vertebra (Gilmore, 1936: pl. 25, fig. 9) character state 4, although in that specimen the spinozygapophyseal laminae do not persist far distally. To allow the possible evolution of both states 1 and 2 from state 0, this character is unordered. (cont''d in char. 143)     ';
+	TEXT CHARACTER=144 TEXT='(cont''d from character 141) It should be acknowledged that there are serious problems with characters concerning the median laminae and the spinozygapophyseal laminae.  As is evident here, many sauropods possess a single midline structure that is superficially like a median lamina that bifurcates toward its proximal end into what would be considered spinozygapophyseal laminae.  However, it is impossible to tell in such a configuration whether or not the median lamina is a separate and distinct entity that simply merges with the spinozygapophyseal laminae or whether it is composed entirely of conjoined spinozygapophyseal laminae.  This is problematic because it is then impossible to ascertain whether or not a median lamina formed only by spinozygapophyseal laminae is homologous to the median lamina of some taxa that is unconnected to the zygapophyses, despite the fact that they receive identical names and codings.  Although they are retained here, future analyses will require further analysis and possible restructuring of these characters to address this issue.  Conceivably, the fact that different vertebrae within a given individual of some taxa display different states may render these characters phylogenetically useless.';
+	TEXT CHARACTER=147 TEXT='This character was first noticed and discussed by Bonaparte (1986) and elaborated on by Bonaparte (1999: fig. 41).';
+	TEXT CHARACTER=174 TEXT='In some taxa (e.g., Dicraeosaurus), "contact" is loosely defined.  In this taxon, the cranial spinozygapophyseal lamina is larger than its caudal counterpart and forms a prominent, laterally-projecting lateral spinal lamina.  The caudal spinozygapophyseal lamina, in contrast, weakens progressively to terminate near or at the distal margin of the aforementioned lateral lamina.  On some vertebrae, the caudal zygapophyseal lamina instead merges with the postspinal lamina.';
+	TEXT CHARACTER=220 TEXT='This unusual elaboration of the coracoid glenoid fossa is well illustrated in Saltasaurus by Powell (1992: fig. 29).';
+	TEXT CHARACTER=225 TEXT='Both Upchurch et al. (in press) and Wilson (2002) diagnose this character by noting the "abrupt" or "square" angle of the proximodistal corner of some sauropods.  However, in numerous sauropods coded as lacking this feature actually have a roughly 90° angle at the proximolateral corner of the humerus that technically falls under the heading of "square" and could easily be construed as "abrupt."  The real difference between the taxa coded by both authors as possessing it is that the apomorphic state lacks the prominent, pointed, laterally-projecting process at the proximolateral corner that overhangs the main body of the humerus by a substantial margin.  Thus, in derived sauropods, such as Saltasaurus and Opisthocoelicaudia (Upchurch, 1998: fig. 12), the proximolateral margin, in cranial view, parallels the long axis of the element rather than lying at an angle to it. This process seems to be universally accompanied by the marked convexity of the proximal end of the humerus, and the loss of the proximolateral process is connected to the flattening of the proximal end, but these may need to be separated out as discreet characters in the future.';
+	TEXT CHARACTER=258 TEXT='This is the maximum distance between the cranialmost points on the preacetabular alae of the ilia.';
+	TEXT CHARACTER=291 TEXT='Wilson and Sereno (1998) discuss correctly the fact that in sauropod outgroups, the tibia is mediolaterally compressed and that in derived sauropods it is "subcircular."  Upchurch et al. (in press) attempted to quantify the vague term "subcircular" by arbitrarily setting the boundary of "subcircular" as when both craniocaudal and mediolateral dimensions are within 15% of each other.  There are two problems with this character that indicate it requires retooling in future analyses.  First, there is little consistency, and too much vagary, in orienting the tibia such that the craniocaudal and mediolateral dimensions can be consistently measured; certainly, it seems that the longest dimension of the proximal tibia is usually (but not always) in the direction in which the cnemial crest points (see character 291), but this is not necessarily either purely craniocaudal or mediolateral.  Some sauropod tibiae display torsion between the proximal and distal ends, making it difficult to pick the true cranial and lateral directions.  Second, highlighting the dangers of using percentages or ratios in phylogenetic characters, the tibia Suuwassea is 19% wider than long, which is technically greater than the 15% specified by Upchurch et al. (in press).  However, it is substantially different than the outgroup, mediolaterally compressed tibia; in fact, it lies toward the OPPOSITE extreme of the potential ratio spectrum.  It has been coded here as possessing the derived state because it seems to be "in the spirit" of the original, intended reading, but future work may require further subdivision of this character into multiple states to accommodate interspecific variation more accurately.  Finally, further work is required on the individual variation of the tibial proximal condyle within a species to better clarify the phylogenetic utility of this character.';
+	TEXT CHARACTER=293 TEXT='As with character 289, potential exists for slight variations in interpretation of what is truly craniocaudal and mediolateral for an in vivo sauropod tibia.  Slight rotations about the tibial long axis can obscure (to varying degrees) the fibula in "cranial" view, the defining symptom of this character per Wilson and Sereno (1998), but still have the fibula exposed laterally (the "normal" condition).  This is not to say that a valid phylogenetic character cannot be ascertained in the orientation of the cnemial crest, but that future work may need to find a less subjective and less external referent for cnemial crest orientation than one utilizing the entire leg.';
+
+	[Character state comments]
+
+	[Attribute comments]
+
+	[Taxon pictures]
+
+	[Character pictures]
+
+	[Character state pictures]
+
+	[Attribute pictures]
+ENDBLOCK;
+
+
+BEGIN PAUP;
+	set autoclose=yes;
+	set warnreset=no;
+	log start file=hotel-mesa.log replace=yes;
+	delete XENOPOSEIDON/cleartrees=yes;
+	[ cstatus; ]
+	[ tstatus; ]
+	set criterion=parsimony;
+	set maxtrees=500000;
+	outgroup Theropoda Prosauropoda/only;
+	hsearch addseq=random nreps=50;
+	[ showtrees; ]
+	savetrees file=hotel-mesa.tre replace=yes brlens=yes;
+	describetrees 1/plot=none;
+	[ bootstrap nreps=50 brlens=yes treefile=hotel-mesa-bootstrap.tre replace=yes; ]
+	[ savetrees file=hotel-mesa-bootstrap2.tre replace=yes brlens=yes SaveBootP=NodeLabels MaxDecimals=0; ]
+	contree all/outroot=paraphyl strict=yes semistrict=no majrule=no adams=no treefile=hotel-mesa-strict.tre replace=yes;
+	contree all/outroot=paraphyl strict=no semistrict=yes majrule=no adams=no treefile=hotel-mesa-semistrict.tre replace=yes;
+	contree all/outroot=paraphyl strict=no semistrict=no majrule=yes adams=no treefile=hotel-mesa-majrule.tre replace=yes;
+	[ contree all/outroot=paraphyl strict=no semistrict=no majrule=no adams=yes treefile=hotel-mesa-adams.tre replace=yes; ]
+	gettrees file=hotel-mesa-strict.tre;
+	describetrees 1/plot=phylogram apolist=yes;
+	[ Now show results of forcing Hotel Mesa into various positions ]
+
+	constraints diplodocoid (backbone) = (2,((32,14),27));
+	hsearch addseq=random nreps=50 constraints=diplodocoid enforce=yes;
+	contree all/outroot=paraphyl strict=yes semistrict=no majrule=no adams=no treefile=diplodocoid.tre replace=yes;
+
+	constraints noncamarasauromorph (backbone) = (2,(32,(12,27)));
+	hsearch addseq=random nreps=50 constraints=noncamarasauromorph enforce=yes;
+	contree all/outroot=paraphyl strict=yes semistrict=no majrule=no adams=no treefile=noncamarasauromorph.tre replace=yes;
+
+	constraints saltasaurid = ((32,27,25));
+	hsearch addseq=random nreps=50 constraints=saltasaurid enforce=yes;
+	contree all/outroot=paraphyl strict=yes semistrict=no majrule=no adams=no treefile=saltasaurid.tre replace=yes;
+
+	constraints brachiosaurid = ((32,11));
+	hsearch addseq=random nreps=50 constraints=brachiosaurid enforce=yes;
+	contree all/outroot=paraphyl strict=yes semistrict=no majrule=no adams=no treefile=brachiosaurid.tre replace=yes;
+
+	constraints nonneo (backbone) = (2,(32,(14,27)));
+	hsearch addseq=random nreps=50 constraints=nonneo enforce=yes;
+	contree all/outroot=paraphyl strict=yes semistrict=no majrule=no adams=no treefile=nonneo.tre replace=yes;
+
+	[ Show that a-posteriori deletion leaves Harris 2006 topology ]
+	hsearch addseq=random nreps=50;
+	delete HOTEL_MESA/prune=yes;
+	contree all/outroot=paraphyl strict=yes semistrict=no majrule=no adams=no treefile=pruned.tre replace=yes;
+
+	log stop;
+ENDBLOCK;

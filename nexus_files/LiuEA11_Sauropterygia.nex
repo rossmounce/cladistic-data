@@ -1,0 +1,693 @@
+#NEXUS
+
+[ Liu, J., Rieppel, O., Jiang, D.-Y., Aitchison, J. C., Motani, R., Zhang, Q.-Y., Zhou, C.-Y., and Sun, Y.-Y. 2011. A new pachypleurosaur (reptilia: Sauropterygia) from the lower middle triassic of southwestern china and the phylogenetic relationships of chinese pachypleurosaurs. Journal of Vertebrate Paleontology 31:292-302. ]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=30;
+	TAXLABELS
+		Ancestor
+		Captorhinidae
+		Araeoscelidia
+		Claudiosaurus
+		Younginiformes
+		Rhynchosauria
+		Trilophosaurus
+		Prolacertiformes
+		Choristodera
+		Archosauriformes
+		Kuehneosauridae
+		Rhynchocephalia
+		Squamata
+		Testudines
+		Placodus
+		Cyamodus
+		Corosaurus
+		Cymatosaurus
+		Augustasaurus
+		Pistosaurus
+		Plesiosaurus
+		Simosaurus
+		Germanosaurus
+		Nothosaurus
+		Lariosaurus
+		Wumengosaurus
+		'Serpiano-Neustico'
+		'Anaro-Dactylo'
+		Keichousaurus
+		Dianopachysaurus
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=137;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Bones in the dermatocranium'
+		[2] 'Preorbital and postorbital region of skull'
+		[3] 'Snout '
+		[4] 'Distinct snout constriction in adult'
+		[5] Premaxillae
+		[6] 'Postnarial process of premaxilla'
+		[7] 'External nares'
+		[8] 'Nasal(s)'
+		[9] 'Nasal(s)'
+		[10] 'Nasal(s)'
+		[11] Lacrimal
+		[12] 'Dorsal exposure of prefrontal'
+		[13] 'Prefrontal '
+		[14] Frontal
+		[15] 'Frontal(s) in adult'
+		[16] 'Distinct posterolateral processes of frontal(s)'
+		[17] Frontal
+		[18] Postfrontal
+		[19] Jugal
+		[20] Jugal
+		[21] Jugal
+		[22] 'Parietal(s) in adult'
+		[23] 'Parietal skull table'
+		[24] 'Pineal foramen'
+		[25] 'Postparietals '
+		[26] Tabulars
+		[27] Supratemporals
+		[28] 'Temporal region of skull'
+		[29] 'Upper temporal fossa'
+		[30] 'The anteromedial corner of the upper temporal fossa'
+		[31] 'Lower temporal fossa'
+		[32] Squamosal
+		[33] 'A box-like suspensorium of the squamosal'
+		[34] 'Dstinct notch of squamosal to receive distal tip of paroccipital process '
+		[35] Quadratojugal
+		[36] 'Anterior process of quadratojugal'
+		[37] Quadrate
+		[38] 'Posterior margin of quadrate'
+		[39] 'Lateral conch on quadrate'
+		[40] 'Dorsal wing of epipterygoid'
+		[41] 'Braincase '
+		[42] 'Occipital crest'
+		[43] Occiput
+		[44] 'Mandibular articulations'
+		[45] Supraoccipital
+		[46] 'Contact between exoccipitals and the basioccipital condyle'
+		[47] 'Basioccipital tubera'
+		[48] Palate
+		[49] Premaxillae
+		[50] 'Posterior palatine vacuities'
+		[51] 'Pterygoids '
+		[52] 'Pterygoid flanges'
+		[53] Ectopterygoid
+		[54] 'Suborbital fenestra'
+		[55] 'Internal carotid passage '
+		[56] 'Splenial bone'
+		[57] 'Distinct coronoid process of lower jaw'
+		[58] 'Strongly projecting lateral ridge of surangular defining the insertion area for superficial adductor muscle fibers on the lateral surface of the lower jaw '
+		[59] 'Mandibular symphysis'
+		[60] 'Retroarticular process of lower jaw'
+		[61] 'Trough on dorsal surface of retroarticular process'
+		[62] Teeth
+		[63] 'Durophagous dentition, including much enlarged palatine tooth plates'
+		[64] 'Number of premaxillary teeth'
+		[65] 'Anterior (premaxillary and dentary) teeth'
+		[66] 'Premaxillary and anterior dentary fangs'
+		[67] 'One or two enlarged teeth on maxilla'
+		[68] 'The maxillary tooth row'
+		[69] 'Teeth on pterygoid flange'
+		[70] 'Vertebrae '
+		[71] 'Vertebrae '
+		[72] 'Vertebral centrum'
+		[73] 'Subcentral foramina'
+		[74] 'Zygosphene-zygantrum articulation'
+		[75] 'Zygapophyseal pachyostosis'
+		[76] 'Number of cervical vertebrae'
+		[77] 'Cervical centra'
+		[78] 'Parapophysis '
+		[79] 'Cervical intercentra'
+		[80] 'Distal articular surface on transverse processes of dorsal vertebrae'
+		[81] 'Transverse processes of neural arches of the dorsal region '
+		[82] 'Distal end of transverse processes of dorsal vertebrae'
+		[83] 'Sutural facets receiving the pedicels of the neural arch on the dorsal surface of the centrum in the dorsal region'
+		[84] 'Dorsal intercentra'
+		[85] 'Anteroposterior trend of increasing inclination of pre- and postzygapophyses within the dorsal and sacral region'
+		[86] 'A distinct free anterior process of cervical ribs'
+		[87] 'Pachyostosis of dorsal ribs'
+		[88] 'The number of sacral ribs'
+		[89] 'Distinct expansion of distal head of sacral ribs'
+		[90] 'Sacral (and caudal) ribs or transverse processes and their respective centrum'
+		[91] 'Mineralized sternum'
+		[92] 'Median gastral element'
+		[93] 'The medial gastral rib element'
+		[94] 'Cleithrum '
+		[95] Clavicles
+		[96] 'Clavicles '
+		[97] 'Anterolaterally expanded corners of clavicles '
+		[98] 'Clavicle '
+		[99] 'The relationship between clavicles and interclavicle'
+		[100] 'Interclavicle '
+		[101] 'Posterior process on (T-shaped) interclavicle'
+		[102] 'Scapula '
+		[103] 'The dorsal wing or process of the eosauropterygian scapula'
+		[104] 'Supraglenoid buttress'
+		[105] 'Number of coracoid ossifications'
+		[106] 'Coracoid '
+		[107] 'Coracoid foramen'
+		[108] 'Pectoral fenestration'
+		[109] 'Limbs '
+		[110] 'Foot '
+		[111] 'Humerus '
+		[112] 'Deltopectoral crest'
+		[113] 'Insertional crest for latissimus dorsi muscle'
+		[114] 'Epicondyles of humerus '
+		[115] 'Ectepicondylar groove'
+		[116] 'Entepicondylar foramen'
+		[117] 'Radius '
+		[118] 'Distal end of ulna'
+		[119] 'Total number of carpal ossifications'
+		[120] 'Iliac blade'
+		[121] 'Pubis '
+		[122] 'Obturator foramen in adult'
+		[123] 'Thyroid fenestra'
+		[124] 'Acetabulum '
+		[125] 'Femoral shaft'
+		[126] 'Internal trochanter'
+		[127] 'Intertrochanteric fossa'
+		[128] 'Distal femoral condyles'
+		[129] 'Anterior femoral condyle relative to posterior condyle'
+		[130] 'Total number of tarsal ossifications'
+		[131] 'Perforating artery'
+		[132] 'The proximal concavity of astragalus '
+		[133] 'Calcaneal tuber'
+		[134] 'Distal tarsal 1'
+		[135] 'Distal tarsal 5'
+		[136] 'Metatarsal 5'
+		[137] 'Metatarsal 5'
+		;
+	STATELABELS
+		1
+			'distinctly sculptured '
+			'relatively smooth ',
+		2
+			'of subequal length '
+			'preorbital region distinctly longer '
+			'postorbital region distinctly longer ',
+		3
+			'relatively short'
+			'elongated with broad anterior termination '
+			'elongated and tapering anteriorly ',
+		4
+			'absent '
+			'present ',
+		5
+			'small '
+			'large, forming most of snout in front of external nares ',
+		6
+			absent
+			'present, excluding maxilla from posterior margin of external naris',
+		7
+			'not retracted '
+			'retracted with a longitudinal diameter appraoching or exceeding half the longitudinal diameter of the orbit '
+			'retracted, narrow, and with a longitudinal diameter that is distinctly less than half the longitudinal diameter of the orbit ',
+		8
+			'shorter than frontal(s) '
+			'longer than frontal(s) ',
+		9
+			'not reduced '
+			'reduced '
+			'absent ',
+		10
+			'meet in dorsomedial suture '
+			fused
+			'are seperated from one another by nasal processes of the premaxillae extending back to the frontal bone(s)  ',
+		11
+			'is present and enters the external naris '
+			'remains excluded from the external naris '
+			'absent ',
+		12
+			'large '
+			'reduced ',
+		13
+			'without slender anteromedial process '
+			'with slender anteromedial process entering between maxilla and premaxilla ',
+		14
+			'forms the dorsal margin of the orbit '
+			'excludes from the dorsal margin of the orbit by a contact of prefrontal and postfrontal ',
+		15
+			'paired  '
+			'fused ',
+		16
+			'absent '
+			'present ',
+		17
+			'widely separated from the upper temporal fossa '
+			'narrowly approaches the upper temporal fossa '
+			'enters the anteromedial margin of the upper temporal fossa ',
+		18
+			'large and plate-like '
+			'with distinct lateral process overlapping the dorsal tip of the postorbital '
+			'with reduced lateral process and hence more of an elongate shape ',
+		19
+			'extends anteriorly along the ventral margin of the orbit '
+			'is restricted to a position behind the orbit but enters the latter''s posterior margin '
+			'is restricted to a position behind the orbit without reaching the latter''s posterior margin ',
+		20
+			'extends backwards no farther than to the middle of the cheek region '
+			'extends nearly to the posterior end of the skull ',
+		21
+			'remains excluded from the upper temporal arch '
+			'enters the upper temporal arch ',
+		22
+			'paired  '
+			'fused in their posterior part only '
+			'fully fused ',
+		23
+			'broad '
+			'weakly constricted '
+			'strongly constricted (at least posteriorly) '
+			'forming a sagittal crest ',
+		24
+			'close to the middle of the skull table '
+			'weakly displaced posteriorly '
+			'strongly displaced posteriorly '
+			'displaced anteriorly ',
+		25
+			'present  '
+			'absent  ',
+		26
+			'present  '
+			'absent  ',
+		27
+			'present  '
+			'absent  ',
+		28
+			'relatively high '
+			'strongly depressed ',
+		29
+			'absent  '
+			'present and subequal in size or slightly larger than the orbit'
+			'present and distinctly larger than orbit '
+			'present and distinctly smaller than orbit ',
+		30
+			'is not '
+			'is partially '
+			'is fully floored by a descensus from the postorbital, which together with neighboring elements (postfrontal, parietal) separates it from orbit',
+		31
+			'absent  '
+			'present and closed ventrally '
+			'present but open ventrally ',
+		32
+			'descends to ventral margin of skull '
+			'remains broadly separated from ventral margin of skull ',
+		33
+			'absent '
+			'present ',
+		34
+			'absent '
+			'present ',
+		35
+			'present  '
+			'absent  ',
+		36
+			'present '
+			'absent ',
+		37
+			'covered by squamosal and quadratojugal in lateral view '
+			'exposed in lateral view ',
+		38
+			straight
+			'concave ',
+		39
+			'absent  '
+			'present  ',
+		40
+			'approximately as broad as its base '
+			'narrower than its base ',
+		41
+			'located at posterior end '
+			'deeply recessed below parietal skull roof (or parietal sagittal crest) ',
+		42
+			'absent  '
+			'present but squamosals do not meet behind parietal '
+			'present and squamosals meet behind parietal ',
+		43
+			'with paroccipital process forming the lower margin of the posttemporal fossa and extending laterally '
+			'paroccipital processes trending posteriorly '
+			'plate-like with no distinct paroccipital process and with strongly reduced posttemporal fossae ',
+		44
+			'approximately at level with occipital condyle '
+			'displaced to a level distinctly behind occipital condyle '
+			'positioned anterior to the occipital condyle ',
+		45
+			'exposed more or less vertically on occiput '
+			'exposed more or less horizontally at posterior end of parietal skull table '
+			'U-shaped ',
+		46
+			'present '
+			'absent ',
+		47
+			'free  '
+			'in complex relation to the pterygoid, as they extend ventrally '
+			'in complex relation to the pterygoid, as they extend laterally',
+		48
+			'kinetic  '
+			'akinetic  ',
+		49
+			'enter internal naris '
+			'are excluded from internal naris ',
+		50
+			'absent  '
+			'present  ',
+		51
+			'longer than palatines'
+			'shorter than palatines ',
+		52
+			'well developed and transversely oriented '
+			'well developed and longitudinally oriented '
+			'strongly reduced ',
+		53
+			'present  '
+			'absent  ',
+		54
+			'absent  '
+			'present ',
+		55
+			'enters basicranium '
+			'enters quadrate ramus of pterygoid ',
+		56
+			'enters the mandibular symphysis '
+			'remains excluded therefrom  ',
+		57
+			'absent  '
+			'present  ',
+		58
+			'absent '
+			'present ',
+		59
+			'short  '
+			'somewhat enforced '
+			'elongated and "scoop"-like ',
+		60
+			'absent  '
+			'present  ',
+		61
+			'absent  '
+			'present  ',
+		62
+			'set in shallow or deep sockets '
+			'superficially attache to bone ',
+		63
+			'absent  '
+			'present  ',
+		64
+			'four or more '
+			'three or less ',
+		65
+			'upright or only sightly procumbent '
+			'strongly procumbent ',
+		66
+			'absent  '
+			'present  ',
+		67
+			'present  '
+			'absent  ',
+		68
+			'is restricted to a level in front of the posterior margin of the orbit '
+			'extends backwards to a level below the posterior corner of the orbit and/or the anterior corner of the upper temporal fossa '
+			'extends backwards to a level below the anterior one third to one half of the upper temporal fossa ',
+		69
+			'present '
+			'absent  ',
+		70
+			'notochordal  '
+			'non-notochordal ',
+		71
+			'amphicoelous '
+			'platycoelous  '
+			'or other ',
+		72
+			'distinctly constricted in ventral view '
+			'with parallel lateral edges ',
+		73
+			'absent  '
+			'present  ',
+		74
+			'absent  '
+			'present  ',
+		75
+			'absent  '
+			'present  ',
+		76
+			'less than 30 '
+			'more than 30 ',
+		77
+			'rounded ventrally '
+			'keeled ventrally ',
+		78
+			'does not shift backwards on centrum along the cervical vertebral column '
+			'does shift backwards on centrum along the cervical vertebral column ',
+		79
+			'present  '
+			'absent  ',
+		80
+			'oblong  '
+			'evenly rounded  ',
+		81
+			'relatively short'
+			'distinctly elongated ',
+		82
+			'not increasing in diameter '
+			'distinctly thickened ',
+		83
+			'narrow '
+			'expanded into a cruciform or "butterfly-shaped" platform ',
+		84
+			'present  '
+			'absent  ',
+		85
+			'absent '
+			'present ',
+		86
+			'absent '
+			'present ',
+		87
+			'absent  '
+			'present  ',
+		88
+			'two '
+			'three  '
+			'four or more ',
+		89
+			'present '
+			'absent ',
+		90
+			sutured
+			fused,
+		91
+			'absent  '
+			'present  ',
+		92
+			'angulated  '
+			'straight  ',
+		93
+			'always only has a single lateral process '
+			'may have a two-pronged lateral process ',
+		94
+			'present  '
+			'absent  ',
+		95
+			'broad medially '
+			'narrow medially ',
+		96
+			'do not meet in front of the interclavicle '
+			'meet in an interdigitating anteromedial suture ',
+		97
+			'absent '
+			'present ',
+		98
+			'applied to the anterior (lateral) surface of scapula '
+			'applied to the medial surface of scapula ',
+		99
+			'in simple overlapping contact '
+			'anteromedioventral end of clavicle embraces lateral tip of interclavicle in a complex contact ',
+		100
+			'rhomboidal  '
+			'T-shaped ',
+		101
+			'elongate  '
+			'short  '
+			'rudimentary or absent ',
+		102
+			'represented by a broad blade of bone '
+			'with a constriction separating a ventral glenoidal portion from a posteriorly directed dorsal wing ',
+		103
+			'tapers to a blunt tip '
+			'is ventrally expanded at its posterior end ',
+		104
+			'present  '
+			'absent  ',
+		105
+			'one '
+			'two  ',
+		106
+			'of rounded contours '
+			'slightly waisted '
+			'strongly waisted  '
+			'with expanded medial symphysis and ridge-like thickening of the bone extending from glenoid facet posteriorly along lateral edge of the bone, coracoid foramen not enlarged '
+			'with expanded medial symphysis and ridge-like thickening of the bone extending from glenoid facet transversely through the bone, coracoid foramen much enlarged ',
+		107
+			'enclosed by coracoid ossification '
+			'between coracoid and scapula ',
+		108
+			'absent  '
+			'present  ',
+		109
+			'short and stout '
+			'long and slender ',
+		110
+			'short and broad '
+			'long and slender  ',
+		111
+			'rather straight '
+			'"curved" ',
+		112
+			'well developed  '
+			'reduced '
+			'absent ',
+		113
+			'prominent  '
+			'reduced  ',
+		114
+			'prominent  '
+			'reduced  ',
+		115
+			'open and notched anteriorly '
+			'open without anterior notch '
+			'closed  '
+			'absent  ',
+		116
+			'present  '
+			'absent  ',
+		117
+			'shorter than ulna '
+			'longer than ulna '
+			'approximately of the same length ',
+		118
+			'not expanded '
+			'distinctly expanded',
+		119
+			'more than 3 '
+			'3 '
+			'2 ',
+		120
+			'well developed '
+			'reduced but projecting beyond level of posterior margin of acetabular portion of ilium '
+			'reduced and no longer projecting beyond posterior margin of acetabular portion of ilium '
+			'absent, i.e. reduced to simple dorsal stub ',
+		121
+			'with convex ventral (medial) margin '
+			'with concave ventral (medial) margin ',
+		122
+			'closed  '
+			'open  ',
+		123
+			'absent  '
+			'present  ',
+		124
+			'oval  '
+			'circular  ',
+		125
+			'stout and straight '
+			'slender and sigmoidally curved ',
+		126
+			'well developed  '
+			'reduced  ',
+		127
+			'deep  '
+			'distinct but reduced '
+			'rudimentary or absent ',
+		128
+			'prominent  '
+			'not projecting markedly beyond shaft ',
+		129
+			'larger and extending further distally '
+			'smaller/equisized and of subequal extent distally  ',
+		130
+			'four or more '
+			'three  '
+			'two  ',
+		131
+			'passes between astragalus and calcaneum '
+			'between the distal heads of tibia and fibula proximal to the astragalus ',
+		132
+			'absent '
+			'present ',
+		133
+			'absent  '
+			'present  ',
+		134
+			'present  '
+			'absent  ',
+		135
+			'present  '
+			'absent  ',
+		136
+			'long and slender '
+			'distinctly shorter than the other metatarsals and with a broad base ',
+		137
+			'straight  '
+			'"hooked" ',
+	;
+	MATRIX
+		Ancestor               0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000000 0000000
+		Captorhinidae          0000000000 000000?000 000(02)010000 0000000000 00000?0000 0010000000 00000?0000 0000000000 00?0000000 000?000000 ?0?0100000 0000000000 0000000000 0000000
+		Araeoscelidia          1100000000 0000010100 0000000030 (01)00000000? 0000010000 0001010000 0000000000 0000001000 00?0000000 1000000001 00?0100011 0000000000 0000000000 0000000
+		Claudiosaurus          0100000000 1000010100 0000111030 200001000? 00000?0000 0201010?00 000000100? 0000001000 00?0010001 ?001100001 00?1000001 0111100000 0001101110 0000000
+		Younginiformes         1100000000 1000010100 00000(01)0030 100000110? 0000010000 00010?1001 0000001000 0000001000 000000000(01) 100(01)10000(01) 00?1000011 0000(02)0(01)000 0001101010 0000010
+		Rhynchosauria          1000110000 1000000101 0133111010 1100001101 0010000010 0001001001 0000?01011 0000001000 00?0(01)00000 ?001100001 00?100(01)011 0000010000 0001101010 1010111
+		Trilophosaurus         11001?0000 ?00100110? 003311?010 0?000?1100 0?120?0000 00010?1001 0000?01011 (12)?00001000 00?001000? ?0?1100001 00?1000011 00?0010000 0001101010 0010111
+		Prolacertiformes       1100110100 10000(01)010(01) 0(01)0(23)11(01)030 2100(01)1110? 0010010000 000101(01)001 00000010(01)1 (02)0000010(01)0 00?(01)010001 1001100000 ?0?1000011 000001(12)000 00(01)1101010 00(01)(01)11(01)
+		Choristodera           1200110100 1000000100 0013111010 1100(01)0110? 0111010?10 0001010001 0000001001 1000001000 0011010100 ?0?1100011 00?1000011 0000(02)12000 0001101110 ?010111
+		Archosauriformes       (01)(01)00110100 1000(01)(01)(012)101 0(01)(02)(03)11(01)030 110000110? 0(01)(01)(012)010(01)(01)0 00(01)101(01)001 00000010(01)1 (012)0000010(01)0 100(01)(01)10(02)0(01) 1001100001 00?100(01)011 000(01)010000 000110(12)(01)10 001(01)111
+		Kuehneosauridae        1000000000 1000010100 0002111010 210011111? 01000100?0 00?10?0001 0000001011 0000001010 10?11?0001 ?0???????? ?1?100001? 0000212000 001110101? ?0?????
+		Rhynchocephalia        1000000000 (12)000(01)(01)01(01)1 0(01)(02)(02)11(01)010 (12)0000111(01)1 0(01)(01)0010000 0001011001 010000101(01) 0001001000 000(01)000001 1001100001 00?1000011 0000200000 0011101010 100(01)111
+		Squamata               1(012)00000000 (12)00(01)(01)001(01)0 0(01)(02)(023)11(01)010 21001?1111 0(01)0(012)(01)(01)00(01)0 0001011001 0100001011 (02)00(01)001000 0001(01)00001 10?1(01)00001 (01)0?1000011 0000(02)10(01)00 0011101010 1001111
+		Testudines             0(02)00000000 100(01)00??00 000311(01)000 0100001100 000(02)000(01)(01)0 001101000(01) 0?00????0(01) (02)0000010(01)0 0001000000 00?1000001 00??001000 000(01)(02)1000(12) 0010000110 100(01)111
+		Placodus               0211101100 2001(01)10100 1(02)00111020 0100001101 0010011110 1100001021 0011101010 0000001011 1001110100 0101100111 10?1001100 1110012021 0011101112 1001100
+		Cyamodus               021110100(01) 20000(01)0100 1203111020 0100000100 00110(01)0110 11100?1021 001100101? 0000?0101? 10010101?? ?1?1?0011? 20?????10? 1110??201? 0111?????? ???????
+		Corosaurus             0010101000 20000111?0 0010111010 2001??1001 011101?1?0 0000??1111 0000110111 0001001010 0111110101 0011101111 1111011100 1111002011 0111101111 10011??
+		Cymatosaurus           0211101022 200(01)01(12)110 0(12)(23)0111021 20011?100? 0(01)110??110 0000110?2? 0000110111 1001????10 0111??0??0 0001?????? ????0???0? 000000?0?? 011110111? ???????
+		Augustasaurus          0020102?22 2010012100 1033111022 201?1?1000 1211211111 0000??0121 0000010211 101?011111 0111?10??? 00?10?011? ?10?03?10? 121131211? ?????????? ???????
+		Pistosaurus            0020102022 20100121?0 1133111022 201?1?1001 1211???1?0 0000?????? ?000110111 101100?1?0 011??10??? 00?1?????? ?11103??0? 1?11312110 ????11???? ???????
+		Plesiosaurus           0000100?(12)2 2000000100 1033111022 20101?1001 1211211111 0200??0101 0000001111 1010011011 0111010100 00?101011? ?101041100 (01)110312-02 ?111012110 ?001000
+		Simosaurus             0200100012 2000100100 0211111020 2000011000 0021012100 0200110101 0000101211 1001001010 0011110100 0011011111 1101021100 1011112012 1011112111 1101100
+		Germanosaurus          0211101002 2100011120 ?111111120 200???100? 00?????1?0 0????????? ?0001111?? ??0??????? ?????????? 00?1?????? ????0????? ???????0?? ?????????? ???????
+		Nothosaurus            021110100(02) 2100110(12)(12)0 02(23)2111120 2000(01)11000 012(01)112110 0(02)00110121 0000110211 1101(01)01010 001101(01)11(01) 0011(01)1111(01) 2101021100 1(01)(01)1(01)02012 1011112111 1101100
+		Lariosaurus            021110100(02) 21001102(12)0 02211111(12)0 2000??1000 01201??1?0 0100??0121 0000110211 110?101010 00?101(01)210 000101111? ?101021100 11111020(01)3 (01)111112110 1101100
+		Wumengosaurus          0120102000 ?0000??1?? ?200111030 2?0???11?? 0??0?????? ??????0??1 ?0000010?1 0?0?00?0?0 00???11100 ?0?1??11?? ?1?10???00 11?1001020 0?1?1??112 1101100
+		'Serpiano-Neustico'    110010000(02) 2000(01)10(12)00 0000111030 2000011101 00201??100 0210??0001 1000001011 0101101010 0011011110 000101011(01) 2101021100 101(01)(01)0(12)0(12)3 (01)(01)11112112 1101100
+		'Anaro-Dactylo'        1100100000 2000010100 0000111030 2000??1101 00201??100 0210??0001 1000001011 0101101010 0011010110 000101111? ?10102110? 1010001013 0011?1???? ?0?????
+		Keichousaurus          1000100012 200011010(01) 0203110030 210001100? 002011?100 02?0?01001 1000000011 0101101?10 0011011(01)10 0001011111 2101021100 1(01)(01)1111?02 0011112111 1001100
+		Dianopachysaurus       1200100000 2000111100 0200111030 200?0?100? 00?0?????? ??????00?1 ?0000000?? ????10???? 0????11110 ???10??1?? ?101????00 1111102002 01??112112 1001100
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+	TYPESET * default = ORD: 31;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+
+	[Character comments]
+
+	[Character state comments]
+
+	[Attribute comments]
+
+	[Taxon pictures]
+
+	[Character pictures]
+
+	[Character state pictures]
+
+	[Attribute pictures]
+ENDBLOCK;
+

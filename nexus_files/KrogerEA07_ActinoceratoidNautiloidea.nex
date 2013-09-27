@@ -1,0 +1,35 @@
+ 
+ 
+ #NEXUS
+
+[J. Paleont., 81(4), 2007, pp. 714–724
+CARBONIFEROUS ACTINOCERATOID NAUTILOIDEA (CEPHALOPODA)—
+A NEW PERSPECTIVE
+BJORN KROGER AND ROYAL MAPES]
+
+begin data;
+dimensions ntax=14 nchar=7;
+format missing=? symbols="0123456789" gap=-;
+matrix
+
+ 
+ 
+ 
+ 
+ Michelinoceras_michelini		0 0 0 0 0 0 0
+ Kochoceras_kuranakhaense 		1 1 2 1 2 2 1
+ Troostoceras_leonovi 			1 1 2 1 2 2 1
+ Paractinoceras_adumbratum		1 1 2 1 2 2 1
+ Huroniella_accomodata			1 1 2 1 2 2 1
+ Selkirkoceras_jakutense		1 1 2 1 2 2 1
+ Selkirkoceras_burnamense		1 1 2 1 2 2 1
+ Pseudactinoceras_promiscuum 1 1 2 0 1 2 1
+ Carbactinoceras_torleyi  1 1 2 0 1 2 1
+ Carbactinoceras_procerum 1 1 0 0 1 2 1
+ Rayonnoceras_solidiforme 1 1 2 0 1 2 1
+ Campyloceras_striatulum  1 1 1 0 1 1 0
+ Pseudocyrtoceras_acus  1 1 0 0 1 1 0
+ Pseudorthoceras_knoxense 1 1 0 0 1 1 0
+ ;
+ end;
+ 

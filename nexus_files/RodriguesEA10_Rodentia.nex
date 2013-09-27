@@ -1,0 +1,406 @@
+#NEXUS
+
+[ Rodrigues, H. G., Marivaux, L. & Vianey-Liaud, M. Phylogeny and systematic revision of eocene cricetidae (rodentia, mammalia) from central and east asia: on the origin of cricetid rodents. Journal of Zoological Systematics and Evolutionary Research 48, 259-268 (2010). URL http://dx.doi.org/10.1111/j.1439-0469.2009.00542.x. ]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=27;
+	TAXLABELS
+		Archetypomys
+		Cocomys
+		Paramys
+		Knightomys
+		Prolapsus
+		Armintomys
+		Elymys
+		Aksyiromys
+		Primisminthus
+		Banyuesminthus
+		Simimys
+		Nonomys
+		'Pap antiquus'
+		'Pap kazakstanicus'
+		'Pap schaubi'
+		'Pap rencunensis'
+		Palasiomys
+		'R trapezius'
+		'R zhongtiaensis'
+		'R minor'
+		'W flava'
+		'Ox leptaleos'
+		'Ox erenensis'
+		'Eo meridionalis'
+		'Eo borealis'
+		'Atavo atavus'
+		'Atavo kurthi'
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Cr_ne: type muscu'
+		[2] 'Cr_ne: canal neurovasculaire'
+		[3] 'P3/'
+		[4] 'P4/'
+		[5] 'P4/: hypocone'
+		[6] 'Msup: m_soc_ne'
+		[7] 'Msup: m_solophe'
+		[8] 'Msup: M_sostyle'
+		[9] 'Msup: _peron m_sial Parac_ne'
+		[10] 'M1/: nombre ant_roc_ne'
+		[11] 'M1/: Lobe ant_rieur'
+		[12] 'M1/: protoconule'
+		[13] 'M1/: ant_rolophule'
+		[14] 'M1/: ant_rolophe'
+		[15] 'M1/: pseudo-endolophe'
+		[16] 'M1/: endolophe'
+		[17] 'M1/: Protolophule 1'
+		[18] 'M1/: Protolophule 2'
+		[19] 'M1/: "paralophule"'
+		[20] 'M1/: m_talophe'
+		[21] 'M1/: protocone vs hypocone'
+		[22] 'M1-2/: post_rolophe'
+		[23] 'M2/: ant_rolophule'
+		[24] 'M2/: Protolophule 1'
+		[25] 'M2/: Protolophule 2'
+		[26] 'M2/: pseudo-endolophe'
+		[27] 'M2/: endolophe'
+		[28] 'M2/: m_talophe'
+		[29] 'M2-3/: Cingulum ant_rieur'
+		[30] 'M2-3/: pseudo-ant_rolophule'
+		[31] 'M3/: Protolophule 1'
+		[32] 'M3/: Protolophule 2'
+		[33] 'M3/: m_talophe'
+		[34] 'M3/: N_o-entolophe'
+		[35] 'M3/: endolophe'
+		[36] 'M3/: hypoc_ne'
+		[37] 'M3/: m_tac_ne'
+		[38] 'P/4'
+		[39] 'Minf: M1/M2'
+		[40] 'Minf: M3/M2'
+		[41] 'Minf: _peron distal du m_taconide'
+		[42] 'Minf: ectolophide'
+		[43] 'Minf: mesolophide'
+		[44] 'Minf: mesostylide'
+		[45] 'Minf: hypolophide'
+		[46] 'Minf: hypoconulide'
+		[47] 'Minf: bras post hypoconide'
+		[48] 'Minf: posterolophide'
+		[49] 'M/1: ant_roconide'
+		[50] 'M/1: taille ant_roconide'
+		[51] 'M/1: contact ant_roconide-protoconide'
+		[52] 'M/1: contact protoconide-m_taconide'
+		[53] 'M/1: position protoconide vs m_taconide'
+		[54] 'M/1: M_soconide'
+		[55] 'M/1: ectom_solophide'
+		[56] 'M/1: insertion hypolophide'
+		[57] 'M/2: pseudo-m_talophulide 1'
+		[58] 'M/2: m_talophulide 2'
+		[59] 'M/2-3: Cingulide ant_rieur'
+		[60] 'M/2-3: m_soconide'
+		[61] 'M/2-3: ectom_solophide'
+		[62] 'M/3: pseudo-m_talophulide 1'
+		[63] 'M/3: m_talophulide 2'
+		[64] 'M/3: hypolophide'
+		[65] 'M/3 entoconide'
+		;
+	STATELABELS
+		1
+			Protrogomorphe
+			Hystricomorphe
+			Myomorphe,
+		2
+			Absent
+			Pr_sent,
+		3
+			Present
+			Absent,
+		4
+			Molariforme
+			R_duite
+			'Absente ',
+		5
+			Absent
+			Present,
+		6
+			Absent
+			Pr_sent,
+		7
+			'Absent _ court '
+			'D_velopp_ '
+			'Atteint le bord lingual',
+		8
+			Pr_sent
+			Absent,
+		9
+			'Absent _ r_duit'
+			D_velopp_,
+		10
+			'0'
+			'1',
+		11
+			'<15_% '
+			'15-20% '
+			'20-30%'
+			'>30%',
+		12
+			D_velopp_
+			'R_duit '
+			'Absent ',
+		13
+			'Absent '
+			'Incomplet '
+			Complet,
+		14
+			Absent
+			'Faiblement d_velopp_'
+			'D_velopp_ base protoc_ne',
+		15
+			'Absent '
+			'Present ',
+		16
+			Absent
+			Libre
+			'Insertion sur Paralophule _ Protolophule 1 '
+			'Insertion sur le bras post du protoc_ne',
+		17
+			'Complet '
+			'Incomplet '
+			Absent,
+		18
+			Absent
+			'Incomplet '
+			'Complet ',
+		19
+			'Ins_r_ distalement sur le parac_ne'
+			'Ins_r_ centralementsur le parac_ne'
+			'Ins_r_ m_sialement sur le parac_ne ',
+		20
+			'Ins_r_ sur le protoc_ne'
+			'Ins_r_ sur le m_soc_ne '
+			'Ins_r_ sur le bras ant de l''hypoc_ne ',
+		21
+			'Hypoc_ne absent'
+			'Hypoc_ne r_duit'
+			'Hypocone + petit _ _gal'
+			'Hypocone + d_velopp_',
+		22
+			D_velopp_
+			Long,
+		23
+			'Absent '
+			'Incomplet ',
+		24
+			Complet
+			Incomplet
+			Absent,
+		25
+			'Absent '
+			Incomplet,
+		26
+			'Absent '
+			'Pr_sent ',
+		27
+			'Absent '
+			'Libre '
+			'Ins_r_ sur le paralophule _ protolophule 1'
+			'Ins_r_ sur le bras post du protoc_ne',
+		28
+			'Ins_r_ sur le protoc_ne'
+			'Ins_r_ sur le m_soc_ne '
+			'Ins_r_ sur le bras ant de l''hypoc_ne',
+		29
+			'Faiblement d_velopp_ '
+			'Tr_s d_velopp_ ',
+		30
+			'Absent '
+			'Pr_sent ',
+		31
+			Complet
+			Incomplet,
+		32
+			'Absent '
+			Incomplet,
+		33
+			'Absent '
+			Incomplet
+			Complet,
+		34
+			Absent
+			'Pr_sent   ',
+		35
+			'Absent '
+			Libre
+			'Ins_r_ sur le Protolophule 1'
+			'Ins_r_ sur le protoc_ne',
+		36
+			'Absent '
+			'R_duit ',
+		37
+			D_velopp_
+			'R_duit '
+			'Absent ',
+		38
+			Pr_sent
+			Absent,
+		39
+			'M1<M2 '
+			'M1>M2 ',
+		40
+			'M3>M2'
+			'M3<M2',
+		41
+			D_velopp_
+			'Absent _ r_duit',
+		42
+			Incomplet
+			'Complet ',
+		43
+			'Absent '
+			'D_velopp_ '
+			'Tr_s d_velopp_',
+		44
+			'Absent '
+			'Pr_sent ',
+		45
+			Absent
+			Incomplet
+			Complet,
+		46
+			D_velopp_
+			'Pr_sent '
+			'Absent ',
+		47
+			'Absent '
+			'Pr_sent ',
+		48
+			Absent
+			'Court '
+			'Long ',
+		49
+			Absent
+			Pr_sent,
+		50
+			Petite
+			Moyenne
+			D_velopp_e,
+		51
+			Absent
+			Pr_sent,
+		52
+			Absent
+			Pr_sent,
+		53
+			'M_taconide plus m_sial'
+			'Align_s  ',
+		54
+			Pr_sent
+			Absent,
+		55
+			'Absent _ indistinct'
+			'Pr_sent ',
+		56
+			'Bras ant Hypoconide'
+			'Bras post hypoconide',
+		57
+			'Absent '
+			'Pr_sent ',
+		58
+			Absent
+			Pr_sent,
+		59
+			'Faiblement d_velopp_ '
+			'Tr_s d_velopp_ ',
+		60
+			'Pr_sent '
+			'Absent  ',
+		61
+			'Absent '
+			'Pr_sent ',
+		62
+			Absent
+			Pr_sent,
+		63
+			Absent
+			'Incomplet '
+			'Complet ',
+		64
+			Absent
+			Incomplet
+			Complet,
+		65
+			'D_velopp_ '
+			R_duit,
+	;
+	MATRIX
+		Archetypomys           ??00000000 0000000000 0000000000 0010000000 0(01)000(01)000- -0000-0000 00000
+		Cocomys                000{01}000000 0(01)01000010 1000000000 0020001000 00000(01)0(01)0- -0100-0{01}00 0010{01}
+		Paramys                0000100000 010100(01)010 100(01)000000 (01)0{01}0000000 0(01)00(01){12}010- -01000{01}000 0{01}110
+		Knightomys             0000110000 0{12}01(01)00021 200001010(01) 00{01}101{12}00(01) 10011{12}010- -(01)100-0(01)00 00(12)10
+		Prolapsus              0000110000 0101000021 20(01)00{01}010{01} 0011?110(01)0 00(01)(01)(12)1010- -1100(01)0100 00(12)(12)0
+		Armintomys             100{01}?000{01}0 0201000022 2000000201 ?????????? ?????????? ?????????? ?????
+		Elymys                 ??11010000 0(12)21{01}{13}0012 (23)0(01)00{01}{13}(12)01 00(01)10(01)(12)101 0100(12){12}02(01)0 011{01}{01}(01)0(01)00 10(12)11
+		Aksyiromys             ??11010000 0(12)01100021 3000010101 ???????10? 1000(12)1(01)110 0110000100 0????
+		Primisminthus          ??11010000 0201100021 300001010(01) 00(01)1011101 10012{12}0110 0110000100 00211
+		Banyuesminthus         ??110(01)0(01)00 0(12)01100022 30000{01}1{12}11 00010111(01)1 0(01)(01){01}(12){12}0210 0100000100 00(12)11
+		Simimys                111(12)0(01)000(01) (01)121030022 30?0003201 00{12}1011101 1011210110 11101111{01}0 11201
+		Nonomys                1112000001 22010320-1 200{12}00310(01) ???????111 {01}(01)00(01)1011(12) 1001001001 01001
+		'Pap antiquus'         1011001011 1(12)210(12)0012 31(01)000(12)211 0021311101 {01}1112{12}(01){12}10 0110001010 (01)1120
+		'Pap kazakstanicus'    ??11001011 1{12}21030012 31(01)00032{01}1 ???????1?? 1111210{12}10 011000???? ?????
+		'Pap schaubi'          1012-01011 22210(23)0(12)12 31(01)0(01)0(23)211 0021211101 {01}1112{12}0{12}10 0100(01)0101{01} 11120
+		'Pap rencunensis'      ??12-02001 2221(01)(23)0(12)12 31(01)0(01)0(23)211 0021311101 {01}1112(12)(01){12}10 0100001(01)1{01} 11(12)20
+		Palasiomys             ??11?0(01)00(01) (01)(12)21(01)20012 3100010111 0011111101 11012(12)0110 0110001100 (01)1120
+		'R trapezius'          ??11?0(01)00(01) (01)2010(01)00{12}2 3100010111 00010111?? ????????1? ?????????? ?????
+		'R zhongtiaensis'      ??12-01011 22(01)1030{01}12 31??????11 0021311101 {01}1(01)12(12)0{12}10 011000101{01} (01)1120
+		'R minor'              ??12-00001 1201030{01}22 3100010111 00213111?? ????????1? ?????????? ?????
+		'W flava'              ??12-020(01)1 22(12)203(01)(12)(12)2 3100103211 012031210(01) 01(12)12{12}0210 1110001010 (01)1120
+		'Ox leptaleos'         ??12-01(01)01 321(12)03(01)(12)12 3100(01)0(23)211 0021(01)121{01}1 11102{12}0211 010{01}{01}0101{01} 11121
+		'Ox erenensis'         ??12-0(01)(01)11 321{12}030012 3100103211 00213121?{01} 111{01}2{12}0{12}1? ??????101{01} 11121
+		'Eo meridionalis'      ??12-01001 322(12)032212 3100(01)03211 0021(03)12111 11102{12}0211 (01)10{01}{01}0101{01} 11121
+		'Eo borealis'          ??12-01(01)01 3{12}2{12}032212 3100103211 ???????11? 111{01}2{12}0{12}11 0110{01}01010 1????
+		'Atavo atavus'         2012-0(01)111 32(12)2032212 310010(23)211 0021112111 0110221212 110{01}(01)01(01)1{01} 01121
+		'Atavo kurthi'         ??12-0(12)(01)11 3212032212 3100103211 0021{01}12111 011022(01)211 (01)10{01}101111 11(12)11
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+
+	[Character comments]
+
+	[Character state comments]
+
+	[Attribute comments]
+
+	[Taxon pictures]
+
+	[Character pictures]
+
+	[Character state pictures]
+
+	[Attribute pictures]
+ENDBLOCK;
+
+
+BEGIN PAUP;
+
+
+
+
+
+
+Delete Simimys Nonomys/only;
+Outgroup Archetypomys Cocomys Paramys/only;
+Assume Ancstates=standard;
+
+
+
+
+
+
+ENDBLOCK;

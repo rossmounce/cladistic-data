@@ -1,0 +1,38 @@
+#NEXUS
+[! Hospitaleche et al. 2007 A new Miocene penguin from Patagonia and its phylogenetic relationships. Ac Pal Pol 52, 299-314]
+Begin data;
+	Dimensions ntax=22 nchar=44;
+	Format datatype=standard symbols="012" gap=-;
+	Matrix
+Gavia                           ?11?001000 {01}0011000?1 0102?2??11 ?01000001? 1100
+Diomedea                        011?000001 1101111111 0002?2??10 ?111110000 1000
+Fregata                         ?00?00?001 11011211?1 ??0??2??11 ?010010020 1020
+Pygoscelisadeliae              1010101110 0011000101 1001011101 2001101111 0121
+Pygoscelisantarctica           1000101010 0011000101 1001011101 2011001111 0121
+Pygoscelispapua                1010100111 0011010101 1001011101 1111001111 0121
+Megadytesantipodes             1001100011 {01}011001000 1000011100 100???11?0 01?1
+Eudypteschrysocome             1011100011 {01}011000110 2000010101 1101111110 1111
+Eudypteschrysolophus           1001100011 {01}011000110 200001??01 11????11?0 11?1
+Eudyptespachyrrhynchus         1011100011 1011010110 200{01}01??01 11????11?0 11?1
+Eudyptesminor                  1011101011 {01}011120010 1001110010 1000111120 11?1
+Spheniscusdemersus             1012101011 1100110000 200001??10 11???111?0 11?1
+Spheniscushumboldti            1012101011 1100120000 200011?11{01} 11???111?0 11?1
+Spheniscusmagellanicus         1012101011 1100120000 200011011{01} 1101011120 1121
+Spheniscusmendiculus           1012101011 1100120000 200011?110 11????11?0 11?1
+Aptenodytesforsteri            0110101110 0011000100 1111011001 0110001110 00?1
+Aptenodytespatagonicus         0110101110 0011000111 1111010001 0101001110 00?1
+Palaeospheniscusbiloculata ?????????? ?????????? ????0010?? ??????11?1 0111
+Madrynornismirandus        1012100011 101112000? 2000000101 1110111120 1111
+Paraptenodytesantarcticus  ?????1010? ??01?200?? 11??1201?1 ?1?1001110 1101
+Spheniscusurbinai          10???????? 11000201?0 2??01?111? ?????????0 0???
+Spheniscusmegarhamphus     10011010?? 1100?201?? ?????????? ?????????? ????
+;
+end;
+begin sets;
+taxset fossil = Palaeospheniscusbiloculata Madrynornismirandus Paraptenodytesantarcticus Spheniscusurbinai Spheniscusmegarhamphus;
+taxset extant = Gavia Diomedea Fregata Pygoscelisadeliae Pygoscelisantarctica Pygoscelispapua Megadytesantipodes Eudypteschrysocome Eudypteschrysolophus Eudyptespachyrrhynchus Eudyptesminor Spheniscusdemersus Spheniscushumboldti Spheniscusmagellanicus Spheniscusmendiculus Aptenodytesforsteri Aptenodytespatagonicus;
+end;
+begin PAUP;
+exclude uninf;
+charset cra=1-21; charset non=22-44;
+end;

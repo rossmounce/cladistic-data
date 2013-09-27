@@ -1,0 +1,22 @@
+#NEXUS
+
+[Salas, R., Sánchez, J., and Chacaltana, C. 2006. A new pre-deseadan pyrothere (mammalia) from northern peru and the wear facets of molariform teeth of pyrotheria. Journal of Vertebrate Paleontology 26:760-769.]
+
+begin data;
+dimensions ntax=9 nchar=17;
+format missing=? gap=- symbols="012";
+MATRIX
+Outgroup	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Proticia_venezuelensis	1 0 ? 1 1 0 0 ? 0 1 0 0 0 0 ? 0 0
+Colombitherium_tolimense	1 0 ? ? 1 0 0 ? 0 2 0 0 0 0 ? 0 0
+Carolozittelia_tapiroides	2 1 0 ? 0 0 1 2 0 ? 0 0 0 1 0 0 1
+Propyrotherium_saxeum	2 0 ? 1 1 1 1 ? 0 ? 0 1 0 2 0 0 1
+Gryphodon_peruvianus	2 0 ? ? 0 ? 1 ? 0 ? 1 1 0 2 ? 1 0
+Baguatherium_jaureguii	2 0 1 1 ? 2 1 1 0 ? 1 1 ? 2 1 1 ?
+Pyrotherium_macfaddeni	2 0 1 1 1 2 2 1 1 2 1 1 1 2 0 1 1
+Pyrotherium_romeroi	2 0 1 1 1 2 2 1 1 2 1 1 1 2 0 1 1
+;
+end;
+begin paup;
+ctype ord: 1 6 7 10;
+end;

@@ -1,0 +1,119 @@
+#NEXUS
+[File created by TreeBASE: 3/5/01 10:20:13]
+[Matrix accession#: M869]
+BEGIN DATA;
+DIMENSIONS NTAX=10 NCHAR=40;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-2001.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=869 on June 20, 2010, 11:20 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Thayer, M. K. 1997. Proglypholoma aenigma gen. et sp. nov., Glypholoma spp. nov. and new records, and a phylogenetic analysis of Glypholomatinae (Coleoptera: Staphylinidae). Annales Zoologici, 47: 157-174.
+
+Study accession number = S575
+Matrix accession number = M869
+]
+FORMAT SYMBOLS = " 0 1 2 3 4 5 6 7 " MISSING = ? GAP = - ;
+CHARLABELS
+[1]	'body_outline,_dorsal_view'	[2]	'dorsal_contour_(transverse_section)'	[3]	'epistomal_suture_stem'	[4]	'anteoc._pits_or_grooves'
+[5]	'antennal_form'	[6]	'antenna_#_club_segments'	[7]	'antenna_-_#_glabrous_basal_segments'	[8]	'pronotum_widest'	[9]	'pronotal_lateral_margin_explanate'
+[10]	'#_elytral_striae'	[11]	'elytral_striae'	[12]	'elytral_apex_color_compared_to_disk'	[13]	'elytral_pustules'	[14]	'elytral_pale_spots'
+[15]	'elytral_intervals_with_fine_punctures'	[16]	'elytral_epipl_keel_length_vs._elytral_length'	[17]	'elytra_cover_abdomen_through_tergite'	[18] 'prosternal_carina'	[19]	'prosternal_surface'
+[20]	'mesosternal_punctation'	[21]	'metasternal_antecoxal_suture'	[22]	'procoxal_mesal_groove'	[23]	'metacoxal_posterior_face'	[24] 'metafemoral_length_vs._metacoxal_length'
+[25]	'tibial_external_spines'	[26]	'metatarsal_length_vs._metatibial_length'	[27]	'metatarsus,_length_of_tarsomere_5_vs_1-4_together'	[28] 'length_of_empodial_setae_vs._length_of_claws'	[29]	'first_well-sclerotized_abdominal_tergite'
+[30]	'abdominal_spiracles_in_tergites_on_segments'	[31]	'sternite_8_projections_lateral_to_median_defensive_gland_projection'	[32] 'male_tergite_9_mediodorsal_connection'	[33]	'male_tergite_9_shortest_dorsal_length_vs._lateral_length'	[34]	'male_sternite_internal_anterior_"button"'
+[35]	'anterior_part_of_male_stenite_9'	[36]	'aedeagus_with_bellows_action'	[37]	'parameres_with_subapical_setae'	[38] 'aedeagus_with_apex_of_median_lobe'	[39]	'aedeagal_basal_piece'
+[40]	'teeth_on_aedeagal_internal_sac'
+;
+STATELABELS
+1 'elongate' 'oblong' 'oval',
+2 'mod._convex' 'sl._convex' 'very_convex',
+3 'present' 'absent',
+4 'broad-_shallow' 'narrow-elongate' 'absent',
+5 'filiform' 'clavate',
+6 '0' '3' '4' '5' '6',
+7 '2' '4' '5' '6' '7',
+8 'near_back' 'behind_middle' 'middle' 'before_middle',
+9 'basally' 'entire_length',
+10 '0' '11' '<11',
+11 'impressed_between_punctures' 'not_impressed_between_punctures' 'absent',
+12 'concolorous' 'abruptly_paler',
+13 'absent' 'present',
+14 'absent' 'present',
+15 'absent' 'present' 'striae_absent-no_interv',
+16 '_0.6' '_0.64-0.69' '_0.8' '_1.0',
+17 '3' '4' '5' '6',
+18 'absent' 'present',
+19 'punctate' 'rugose' 'smooth',
+20 'present' 'absent',
+21 'short' 'long' 'absent',
+22 'absent' 'present',
+23 'oblique' 'vertical' 'slightly_excavate' 'distinctly_excavate',
+24 'much_greater_than' 'greater_than' 'less_than',
+25 'present' 'absent',
+26 '0.56' 'sl_<_0.6' '0.6' '0.61' '0.67' '0.7' '0.71' '0.76',
+27 '>=_0.5' '=<_0.4',
+28 'greater_than' 'equal_to' 'less_than',
+29 '3' '4' '5' '6',
+30 '3-8' '4-8' '5-8',
+31 'absent' 'narrow' 'transversely_elongate',
+32 'absent' 'narrow' 'wide',
+33 '0_(tergite_9_divided)' '0.03-0.08' '0.1' '0.15' '0.27',
+34 'absent' 'present',
+35 'not_between_anterior_projections' 'forming_wide__connection_between_projections' 'forming_narrow_connection_between_projections',
+36 'dorsal-ventral' 'lateral-lateral' 'anterior-posterior',
+37 'present' 'absent',
+38 'not_digitiform' 'digitiform',
+39 'absent' 'narrow' 'wide',
+40 'even-sized' 'mixed-sized' 'absent',
+
+;
+
+MATRIX
+
+'Glypholoma_germaini' 1011132111001011?010?12206011??111200120
+'Proglypholoma_aenigma' 0100001302101002100000201002201240110101
+'Glypholoma_chepuense' 1002142111001000200001310202322?????????
+'Glypholoma_rotundulum' 2202114001010111310101310100121121200020
+'Glypholoma_tenuicorne' 011200100111000020010132151111?111200110
+'Glypholoma_temporale' 1012121111011011201111320500221131200110
+'Glypholoma_pecki' 1012114211010011310101320401221111201110
+'Glypholoma_pustuliferum' 1001133211011111201001320201112111201010
+'Microsilpha_spp' 2202124000200021200010110702211000011022
+'Nitidotachinus' 0001000000100013000020000310000000021011
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+TYPESET * UNTITLED = unord: 1 - 2 4 - 40 , ord: 3 ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 2 trees. TreeBASE accession#: Tree1726 Tree1727 ]
+TRANSLATE
+1	'Glypholoma_pustuliferum',
+2	'Glypholoma_tenuicorne',
+3	'Glypholoma_rotundulum',
+4	'Proglypholoma_aenigma',
+5	'Glypholoma_temporale',
+6	'Glypholoma_chepuense',
+7	'Glypholoma_germaini',
+8	'Glypholoma_pecki',
+9	'Glypholomatinae',
+10	'Microsilpha_spp',
+11	'Nitidotachinus',
+12	'Glypholoma',
+;
+TREE 'Fig._32_inset' = [&R] (11,(10,(((((1,(6,7)),5),(8,3)),2),4)));
+TREE 'Fig._32' = [&R] (11,(10,((((((1,7),6),5),(8,3)),2),4)));
+
+
+END;

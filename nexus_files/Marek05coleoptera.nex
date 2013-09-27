@@ -1,0 +1,55 @@
+#NEXUS
+[File created by TreeBASE: 5/22/05 11:21:59]
+[Matrix accession#: M2288]
+BEGIN DATA;
+DIMENSIONS NTAX=9 NCHAR=97;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-2005.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=2288 on June 20, 2010, 11:31 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Marek, P.E. and D.H. Kavanaugh. 2005. The evolutionary relationships of North American Diplous Motschulsky (Coleoptera: Carabidae: Patrobini) inferred from morphological and molecular evidence. Invertebrate Systematics, accepted.
+
+Study accession number = S1307
+Matrix accession number = M2288
+]
+FORMAT SYMBOLS = " 0 1 2 3 4 5 6 7 8 " MISSING = ? GAP = - ;
+MATRIX
+
+'Qiangopatrobus_sp' 4657681875511080021034264844671065828185843008012730027712211000000000000000000000000000000000000
+'Diplous_sciakyi_sciakyi' 1768367422020678172340355153400308664661184434608615134110212000000102012010000001111201001000001
+'Diplous_davidis' 28857757671331563801060715757??256476777660317135008606600222102001001020010000000002200001000001
+'Diplous_sibiricus_caligatus' 0524807033406207463221182066856147580806471223867264315000321000001103212000010100002200001022000
+'Diplous_depressus' 804625668874236421775270363?335533705558712145723721550210232110001101122100000100100111001032110
+'Diplous_rugicollis' 6313414300285423501843626310122801351440058651540376473510201010001111122100010102100011111101110
+'Diplous_filicornis' 7131522146867731744516438202244622142324526770476553361410112011010212231100021212100111211112010
+'Diplous_californicus' 3400133511678812855467510787567410037212237882384447742311000021110313302111122320100211211002110
+'Diplous_aterrimus' 5272040254354545636645847421013704213033305566251132283?10111011000202232110021213100211111102110
+;
+END;
+
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 1 trees. TreeBASE accession#: Tree3701 ]
+TRANSLATE
+1	'Diplous_sibiricus_caligatus',
+2	'Diplous_sciakyi_sciakyi',
+3	'Diplous_californicus',
+4	'Diplous_filicornis',
+5	'Diplous_rugicollis',
+6	'Diplous_aterrimus',
+7	'Diplous_depressus',
+8	'Qiangopatrobus_sp',
+9	'Diplous_davidis',
+;
+TREE 'morphology' = [&R] (2,(1,(9,8)),(((6,(3,4)),5),7));
+
+
+END;

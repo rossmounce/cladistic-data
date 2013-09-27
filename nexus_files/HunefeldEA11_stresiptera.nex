@@ -1,0 +1,25 @@
+#NEXUS
+
+[Hünefeld, F., Pohl, H., Wipfler, B., Beckmann, F. & Beutel, R. G. The male postabdomen and genital apparatus of †mengea tertiaria, a strepsipteran amber fossil (insecta) das männliche postabdomen und der genitalapparat von m. tertiaria (insecta: Strepsiptera) aus baltischem bernstein. Journal of Zoological Systematics and Evolutionary Research no (2011). URL http://dx.doi.org/10.1111/j.1439-0469.2011.00628.x.]
+
+begin data;
+dimensions ntax=15 nchar=37;
+format missing=? gap=- symbols="012";
+MATRIX
+ Chauliodes 000000 - 0011011 ? 000101111111100000 - 0 - 0
+ Tetraphalerus 000201010010 ?  ?  ? 10010 ?  ?  ? 0001100000 - 0 - 0
+Protoxenos_fossil 011111001 ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ? 
+Cretostylops_fossil 01111100 ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ? 
+Mengea_fossil 01111101 ?  ?  ?  ?  ?  ?  ?  ? 1 ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ? 111111 ?  ?  ? 
+ Bahiaxenos 011111011 ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ? 
+ Eoxenos 0111110110011111110100000000111111111
+ Congoxenos 0111110110011111110100000000111111111
+ Mengenilla 0111110110011111110100000000111111111
+ Dundoxenos 0111110120000001110000000000111110111
+ Stenocranophilus 11111111200000011 ? 000000000011 ?  ? 1 ? 1 ? 1
+ Elenchus 01111101200 ? 00011 ? 0 ? 000000001 ? 111 ? 1 ? 1
+ Caenocholax 01111111200 ? 00011 ? 0 ? 0000000011111 ? 1 ? 1
+ Xenos 0111111120010001110100000000111111111
+ Stylops 0111111120010001110100000000110110101
+;
+end;

@@ -1,0 +1,22 @@
+#NEXUS
+
+[Astrop, T. I. 2011. Phylogeny and evolution of mecochiridae (decapoda: Reptantia: Glypheoidea): An integrated morphometric and cladistic approach. Journal of Crustacean Biology 31:114-125.]
+
+Begin data;
+	Dimensions ntax=12 nchar=21;
+	Format missing=? symbols="012345";
+	matrix
+Glyphea_rostrata	1 0 1 1 0 1 2 3 1 1 0 1 4 0 0 0 0 0 0 0 0	
+Eryma_guisei	1 1 1 1 1 0 2 0 3 1 4 0 3 0 2 2 0 0 1 1 1	
+Pseudoglyphea_ancylochelis	1 1 1 0 1 1 2 1 3 0 0 0 5 0 1 0 1 0 0 0 0	
+Pseudoglyphea_grandis	1 1 1 0 1 1 2 1 3 1 0 0 4 0 1 3 2 0 0 0 0	
+Pseudoglyphea_etalloni	1 1 1 0 1 1 2 1 1 0 0 0 5 0 1 1 0 0 0 0 0	
+Meyeria_magna	0 0 0 1 2 0 2 3 0 1 2 2 1 0 1 0 1 1 0 0 0	
+Meyeria_ornata	0 0 0 0 2 0 1 3 2 1 2 0 3 0 1 2 1 0 0 0 0	
+Meyeria_rapax	0 0 0 0 2 0 1 3 3 1 2 1 2 0 1 0 1 1 0 0 0	
+Meyeria_pueblaensis	0 0 0 0 2 0 0 ? 0 ? 2 2 1 0 ? 0 1 1 0 0 0	
+Mecochirus_longimanatus	0 0 0 0 2 0 1 2 0 1 1 0 0 1 1 2 1 0 0 0 0	
+Mecochirus_socialis	0 0 0 0 2 0 0 0 0 0 ? 0 0 ? 1 ? ? 0 0 0 0	
+Mecochirus_germari	0 0 0 0 2 0 1 0 0 1 3 0 2 1 ? 2 1 0 0 0 0	
+;
+end;

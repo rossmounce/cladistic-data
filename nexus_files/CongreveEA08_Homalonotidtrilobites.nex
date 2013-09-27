@@ -1,0 +1,31 @@
+#NEXUS
+
+[Phylogenetic and Biogeographic Analysis of Ordovician Homalonotid
+Trilobites Curtis R. Congreve* and Bruce S. Lieberman
+The Open Paleontology Journal, 2008, 1, 24-32]
+
+begin data;
+dimensions ntax=16 nchar=26;
+format missing=? symbols="012" gap=-;
+matrix
+
+
+Neseuretus 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+delphinocephalus 0 0 2 1 0 1 1 1 0 1 1 1 1 1 2 1 0 1 0 0 0 0 0 1 1 0
+dyaulax 1 1 2 1 0 1 0 1 0 1 1 1 1 1 2 1 0 1 0 1 0 0 0 1 1 0
+exul 1 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 0 ? 1 ? ? ? 0
+dentata 0 1 2 0 0 1 0 0 0 1 1 1 1 1 2 1 0 0 0 1 0 0 0 1 0 0
+christyi 1 1 2 0 0 1 0 0 0 0 1 1 1 1 2 1 0 1 0 1 0 0 0 1 0 0
+vulcani 1 1 2 0 0 1 0 1 0 1 1 1 1 1 2 1 0 1 0 1 0 0 0 1 1 0
+bisulcata 0 1 0 1 0 1 1 1 0 1 0 1 1 0 2 1 0 ? 0 0 0 0 0 0 0 0
+trentonenesis 0 1 0 1 0 1 1 1 0 1 0 1 1 1 2 1 0 0 0 0 0 0 0 1 0 0
+arago 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1
+vacuvertis 1 1 1 1 1 1 1 0 0 1 1 0 1 0 1 1 1 1 1 0 1 1 1 0 0 0
+oehlerti 1 1 1 1 0 1 1 0 0 1 1 0 1 0 1 1 1 1 1 0 1 1 1 0 0 0
+rouaulti 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1
+boisselli 0 0 2 0 0 0 0 0 1 0 0 0 ? ? 0 1 1 ? 0 1 0 0 0 0 0 0
+alcantarae 1 0 2 0 1 0 0 0 1 0 0 0 0 ? 0 1 1 ? 0 1 0 0 0 0 0 0
+sdzuyi 0 0 0 0 1 ? ? 0 1 0 1 0 ? ? 0 1 0 ? 0 0 0 1 0 0 0 0
+;
+end;
+

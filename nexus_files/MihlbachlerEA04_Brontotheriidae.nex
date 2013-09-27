@@ -1,0 +1,28 @@
+#NEXUS
+
+[Mihlbachler, M. C., Lucas, S. G., Emry, R. J., and Bayshashov, B. 2004. A New Brontothere (Brontotheriidae, Perissodactyla, Mammalia) from the Eocene of the Ily Basin of Kazakstan and a Phylogeny of Asian Horned Brontotheres. American Museum Novitates pp. 1-43.]
+
+Begin data;
+	Dimensions ntax=18 nchar=40;
+	Format datatype=standard symbols="0123" gap=-;
+	Matrix
+Palaeosyops_robustus		0010000000 {01}000000000 0000000000 000000000-
+Telmatherium_validus		0001010100 1101000000 0000000000 0001100000
+Epimanteoceras_formosus		1001011100 0102100000 0000010?00 000??????-
+Dolichorhinoides_angustidens	1??101?100 0101000000 00?0110100 ?????????0
+Protitian_minor			?10?021011 0201??0010 0000000100 000??????0
+Protitian_grangeri		1102021010 0201111010 0000000100 0001100000
+Rhinotitan_kaiseni		1021012010 1201000000 101?111100 0001010010
+Rhinotitan_mongoliensis	  102101202{01} 12010{01}1000 10110{01}{01}100 0001010010
+Akautitian_hippopotamopus 	1?22?2{12}?21 1211000000 0?11001111 0001110011
+Metatitan_relictus		2122012021 0211000010 0111111110 1112210021
+Metatitan_primus		2?22012121 0211000010 01?1111110 1?12210121
+Metatitan_progressus		????????21 1121?0?0?? ?0?????11? ?????????2
+Embolotherium_grangeri		2022122002 1002000101 2021111111 000231112-
+Embolotherium_andrewsi		2022122031 12-----101 -021111111 02022?1122
+Parabrontops_gobiensis		1021022001 1201111001 002111111{01} 021??????0
+Gnathotitan_berkeyi		?????????? 0????????? ???0000101 000110001?
+Microtitan_mongoliensis		?????????? ?????????? ???0000001 0??1??000?	
+Brachydoastematherium_transylvanicum	?????????? ?????????? ?????????? 10???1?02?
+;
+end;

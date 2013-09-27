@@ -1,0 +1,21 @@
+#NEXUS
+
+[Carnevale, G. and Pietsch, T. W. 2010. Eocene handfishes from Monte Bolca, with 
+description of a new genus and species, and a phylogeny of the family 
+Brachionichthyidae (Teleostei: Lophiiformes). Zoological Journal of the 
+Linnean Society 160:621-647.]
+
+Begin data;
+	Dimensions ntax=8 nchar=36;
+	Format datatype=standard symbols="012" gap=-;
+	Matrix
+Sladenia 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Brachionichthys 0 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 1 0 0 1 0 0 1 1 0 2 0 1
+Sympterichthys 0 1 1 0 2 1 0 1 0 0 1 1 1 1 1 0 1 0 1 1 1 0 0 1 1 0 0 1 0 0 1 1 0 2 0 0
+Histionotophorus 0 1 0 0 0 0 0 1 0 0 1 ? 1 ? 1 ? 1 0 0 0 0 1 0 0 1 1 1 1 1 1 1 0 0 2 1 0
+Orrichthys 0 1 0 0 0 0 0 1 0 0 0 ? 1 ? 1 ? 1 0 1 1 0 1 1 0 1 0 1 1 1 0 1 0 1 2 1 0
+Lophichthys 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 1 0 1
+Tetrabrachium 1 0 0 1 1 1 0 1 0 0 0 1 0 0 0 1 1 1 1 0 1 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0
+Antennarius 1 0 0 1 1 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 2
+;
+end;

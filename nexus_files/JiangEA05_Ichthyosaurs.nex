@@ -1,0 +1,31 @@
+#NEXUS
+
+[Jiang, d.-Y., Hao, w.-C., Maisch, M. W., Matzke, A. T. & Sun, y.-L. A basal mixosaurid ichthyosaur from the middle triassic of china. Palaeontology 48, 869-882 (2005). URL http://dx.doi.org/10.1111/j.1475-4983.2005.00481.x.]
+
+Begin data;
+	Dimensions ntax=20 nchar=24;
+	Format datatype=standard symbols="012" gap=-;
+	Matrix
+Utatsusaurus_hataii	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0		
+Grippia_longirostris	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0		
+Cymbospondylus_petrinus	1 1 0 0 0 0 0 0 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 0		
+Mikadocephalus_gracilirostris	0 1 0 0 0 0 0 0 1 0 1 1 0 1 1 0 1 1 0 0 1 0 1 0		
+Barracudasaurus_maotaiensis	0 0 0 0 0 1 0 1 0 1 0 0 1 0 ? 1 1 1 1 0 1 0 0 0		
+Phalarodon_major	1 0 1 1 0 ? ? ? ? ? ? ? ? 1 ? ? ? ? ? ? ? ? ? ?		
+Phalarodon_nordenskioeldii	1 0 1 1 0 1 0 2 0 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1		
+Contectopalatus_atavus	1 0 1 0 0 1 0 2 0 1 0 0 1 1 0 1 1 1 1 1 1 ? 1 1		
+Mixosaurus_cornalianus	0 1 0 0 1 1 1 1 0 1 0 0 1 0 0 1 1 1 1 1 1 1 1 1		
+Mixosaurus_kuhnschnyderi	0 0 0 0 1 1 1 1 0 1 0 0 1 0 0 1 1 1 1 1 1 ? 1 1		
+Utatsusaurus_hataii	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0		
+Grippia_longirostris	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0		
+Cymbospondylus_petrinus	1 1 0 0 0 0 0 0 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 0		
+Mikadocephalus_gracilirostris	0 1 0 0 0 0 0 0 1 0 1 1 0 1 1 0 1 1 0 0 1 0 1 0		
+Barracudasaurus_maotaiensis	0 0 0 0 0 1 0 1 0 1 0 0 1 0 ? 1 1 1 1 0 1 0 0 0		
+Phalarodon_major	1 0 1 1 0 ? ? ? ? ? ? ? ? 1 ? ? ? ? ? ? ? ? ? ?		
+Phalarodon_nordenskioeldii	1 0 1 1 0 1 0 2 0 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1		
+Contectopalatus_atavus	1 0 1 0 0 1 0 2 0 1 0 0 1 1 0 1 1 1 1 1 1 ? 1 1		
+Mixosaurus_cornalianus	0 1 0 0 1 1 1 1 0 1 0 0 1 0 0 1 1 1 1 1 1 1 1 1		
+Mixosaurus_kuhnschnyderi	0 0 0 0 1 1 1 1 0 1 0 0 1 0 0 1 1 1 1 1 1 ? 1 1
+;
+end;		
+

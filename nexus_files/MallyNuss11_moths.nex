@@ -1,0 +1,52 @@
+#NEXUS
+
+[Mally, R. & Nuss, M. Molecular and morphological phylogeny of european udea moths (insecta: Lepidoptera: Pyraloidea). Arthropod Systematics & Phylogeny 69, 55-71 (2011).]
+
+begin data;
+dimensions ntax=41 nchar=24;
+format missing=? gap=- symbols="012";
+MATRIX
+Synaphe_punctalis 1?010100?0 ?001000??0 0000
+Agrotera_nemoralis 1?000100?0 ?0011?0200 0010
+Deana_hybreasalis 1?0?0??0?0 ?001111000 0010
+Haritalodes_derogata 10000100?0 ?00??10200 0000
+Mecyna_lutealis 10000110?0 ?001010?00 0011
+Mnesictena_marmarina 0?1?0110?0 ?001011010 0011
+Udeoides_muscosalis 101??110?0 ?001011??0 000?
+Udea_accolalis 01000100?0 ?101011010 0110
+Udea_alpinalis ??0110?110 ?000111101 0011
+Udea_austriacalis 0?0100?0?0 ?000111101 0011
+Udea_azorensis 010??100?0 ?101111000 0111
+Udea_bourgognealis 1?0?10?110 ?000011101 0001
+Udea_carniolica 010100?110 ?000111101 0001
+Udea_costalis_costalis ?1100110?0 ?000111100 1001
+Udea_costalis_maurinalis 01100110?0 ?000111100 1001
+Udea_decrepitalis 111000?0?0 ?010111101 0010
+Udea_delineatalis 110??????? ??????1010 0110
+Udea_ferrugalis 01000100?0 ?101?11010 0110
+Udea_fimbriatralis 01100110?1 1010111111 0001
+Udea_fulvalis 11100110?1 0010111111 0011
+Udea_hamalis 11?000?0?0 ?000111101 0010
+Udea_heterodoxa 110??100?0 ?101001000 0010
+Udea_inquinatalis 011000?0?0 ?000111101 0010
+Udea_institalis 00100110?1 0010111111 0001
+Udea_itysalis ?1100110?0 ?000111100 1001
+Udea_languidalis 01100110?1 1010111111 0001
+Udea_liopis 01100100?0 ?101001000 0010
+Udea_lugubralis 0110?100?0 ?101011010 0110
+Udea_lutealis 00100110?1 0010111111 0001
+Udea_maderensis 01100100?0 ?101011010 0110
+Udea_murinalis 010100?0?0 ?000111101 0011
+Udea_nebulalis 010110?100 ?000111101 0011
+Udea_nordmani 01100100?0 ?101011000 0110
+Udea_numeralis 01100100?0 ?010111101 0011
+Udea_cf. numeralis 01100100?0 ?010111101 0011
+Udea_olivalis 01100110?1 0010111111 0001
+Udea_prunalis 01100110?0 ?000111111 0011
+Udea_pyranthes 1100?100?0 ?101101000 0010
+Udea_rhododendronalis ??01111110 ?000111101 001?
+Udea_rubigalis 00100100?0 ?101111010 0111
+Udea_uliginosalis ??0110?100 ?000111101 0011
+;
+end;
+

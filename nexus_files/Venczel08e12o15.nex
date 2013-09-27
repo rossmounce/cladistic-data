@@ -1,0 +1,35 @@
+#NEXUS
+
+[!Venczel, M. 2008. A new salamandrid amphibian from the middle miocene of hungary and its phylogenetic relationships. Journal of Systematic Palaeontology 6:41-59.]
+
+begin data;
+dimensions ntax=15 nchar=35;
+format missing=? symbols="012";
+matrix
+Hypotheticalancestor 	00000000000000000000000000000000000
+Salamandra_salamandra 	00110000000000000010010010000000000
+Pleurodeles_waltl 	00001100000010010100100200010110101
+Tylototriton     	00002111001011000100100100011110111
+Echinotriton     	00002111001011100100100100011110111
+Salamandrina     	00001100110011000111100211000000000
+Calotriton_asper  	11111101010211010111111101111111121
+Ommatotriton     	11011101110211010110101201111111121
+Lissotriton_helvetics 	11111101110201010110101201111111121
+Mesotriton       	11111000110200010110101201111111121
+Triturus         	11111000110200010110101201111111121
+Carpathotriton   	101111010?00111111?????????1??????1
+Archaeotriton    	00001100110?100?11??????1??????????
+Cynops_pyrrhogaster 	10001101000111010100101201111111121
+Paramesotriton   	1111211100011101011010120111111?121
+;
+end;
+begin PAUP;
+set autoclose=yes warntree=no warnreset=no;
+exclude uninf;
+charset cra= 1-19; charset non= 20-35;
+charpartition crantest= 1:cra, 2:non;
+end;
+begin sets;
+taxset fossil = Hypotheticalancestor Carpathotriton Archaeotriton;
+taxset extant = Salamandrina Echinotriton Tylototriton Salamandra_salamandra Pleurodeles_waltl Cynops_pyrrhogaster Calotriton_asper Ommatotriton Lissotriton_helvetics Mesotriton Triturus Paramesotriton;
+end;

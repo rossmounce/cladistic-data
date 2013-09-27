@@ -1,0 +1,662 @@
+#NEXUS
+
+[!Sallam, H. M., Seiffert, E. R., Steiper, M. E., and Simons, E. L. 2009. Fossil and molecular evidence constrain scenarios for the early evolutionary and biogeographic history of hystricognathous rodents. Proceedings of the National Academy of Sciences  106:16722-16727.
+VIRTUALLY ALL DENTAL CHARACTERS]
+
+BEGIN TAXA;
+      TITLE Taxa;
+      DIMENSIONS NTAX=43;
+      TAXLABELS
+            Anadianomys_declivis Baluchimys_ganeshapher Baluchimys_krabienses
+Birbalomys_spp. Branisamys_luribayensis Bugtimys_zafarullahi Chapattimys_wilsoni
+Confiniummys_sidiki Diamantomys_luederitzi Eobranisamys_romeropittmanae
+Eosallamys_paulacoutoi Gaudeamus_aegyptius 'Gaudeamus sp. nov. (L-41)' GenspnovAL41 GenspnovBL41 GenspnovCAE
+Hodsahibia_spp. Hystrix_depereti Hystrix_primigenia Incamys_spp.
+Lindsaya_derabugtiensis Lophibaluchia_spp. Metaphiomys_beadnelli
+Ottomania_proavita '"Paraphiomys" simonsi' Paraphiomys_spp. Paraulacodus_indicus
+Petrokozlovia_notos Phiocricetomys_minutus Phiomys_andrewsi '"Phiomys" lavocati'
+'Phiomys sp. nov. (Quarry I)' Phiomys_aff._paraphiomyoides
+Phiomys_paraphiomyoides Platypittamys_brachyodon Protophiomys_aegyptensis
+Protophiomys_algeriensis Sacaresia_moyaeponsi Sallamys_pascuali
+Thryonomys_swinderianus Tsaganomys_altaicus Yuomys_cavioides Waslamys_attiai
+      ;
+END;
+BEGIN CHARACTERS;
+      TITLE 'Matrix in file "BQ2 rodent matrix.nex"';
+      DIMENSIONS NCHAR=156;
+      FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = " 0 1 2 3 4 5 6
+7 8 9 A B C D E F G H J K L M N Q R";
+      CHARSTATELABELS
+            1 infraorbital_foramen / protrogomorphous hystricomorphous, 2
+mandible / sciurognathous hystricognathous, 3 'Hunter-Schreger bands' / absent
+present, 4 'prisms per Hunter-Schreger band' / '1-3' '2-4' '3-5' '4-6', 5
+IPM_crystallites_arrangement_in_PI / sheath_surrounding_prisms '0/2' parallel
+'2/4' 'acute_angle,_anastomosing' '4/6' perpendicular, 6 IPM_thickness / thick
+thin, 7 percentage_of_PE_thickness / 'PE<=PI' 'PE_reduced_(<25%)' PE_lacking, 8
+band_inclination_relative_to_EDJ / 0_degrees '>10_degrees' '10-20_degrees' '20-
+30_degrees' '30-40_degrees' '40-50_degrees', 9 size_of_P4 / 'P4>=M1' 'P4<M1'
+minute absent, 10 P4_protoconule / weak indistinct, 11 P4_metaconule / strong
+'0/2' weak '2/4' indistinct, 12 P4_protoloph / absent
+'incomplete_(lingual_protoloph_absent)' complete, 13 P4_metaloph / absent
+'incomplete_(lingual_metaloph_absent)' complete '2/4' submerged_in_posteroloph,
+14 P4_metacone / minute_to_absent weak strong, 15 P4_hypocone /
+minute_to_absent '0/2' weak '2/4' strong, 16 P4_mesostyle / absent '0/2' weak
+'2/4' strong, 17 'metacone-paracone compression on P4' / present absent_, 18
+P4_anteroloph / absent '0/2' present, 19 anterocingulum_on_DP4 / weak
+low_and_mesiodistally_widened_ high_, 20 labial_pericingulum_on_DP4 / present_
+'0/2' absent_, 21 DP4_PROTOLOPH_PRESENCE / absent present, 22
+DP4_METACONULE_SIZE / well_developed '0/2'
+submerged_to_the_anterior_arm_of_the_hypocone '2/4' Indistinct, 23
+DP4_ANTERIOR_ARM_OF_HYPOCONE / absent present, 24 DP4_METALOPH_PRESENCE /
+connected_to_metaconule_ '0/2' connected_on_the_anterior_arm_of_the_hypocone
+'2/4' turned_posteriorly_to_join_posteroloph_ '4/6'
+'submerged_into_posteroloph_(or_absent)'
+connected_to_metaconule_and_posterioloph_ '0/7', 25 DP4_ENDOLOPH_PRESENCE /
+absent present, 26 DP4_MURE / absent '0/2' Incipient '2/4' complete, 27
+DP4_Mesolophule_PRESENCE / absent '0/2' present, 28 DP4_retention /
+P4_replaces_DP4 '0/2' DP4_retained_, 29 p4_talonid / narrow_ '<=_trigonid'
+slightly_wider_than_trigonid_ much_wider_than_trigonid_, 30 dominant_cusps_on_p4
+/ 'metaconid>protoconid' 'metaconid=protoconid' 'protoconid
+variably>metaconid', 31 p4_hypolophid / absent_ '0/2' present_, 32 'metaconid-
+protoconid compression on p4' / absent_ present_, 33 'metaconid/protoconid
+position on p4' / opposed_ protoconid_posterior_, 34 p4_hypoconulid /
+minute_to_absent_ weak_ strong_, 35 p4_mesoconid / absent_ weak_ strong, 36
+p4_ectolophid / absent_ '0/2' 'incomplete,_anteriorly_interrupted' '2/4'
+'complete,_reaches_protoconid_from_mesoconid_', 37 p4_metalophulid_I / absent_
+'0/2' 'incomplete,_unconnected_to_metaconid' '2/4' complete_, 38
+p4_metalophulid_II / absent_ 'incomplete,_unconnected_to_metaconid_' complete_,
+39 anterior_cingulid_on_p4 / absent_ '0/2' 'low,_lingually_limited_' '2/4'
+well_developed_, 40 'posterior arm of metaconid (metastylar fold) on p4' /
+absent_ weak_and_low_ 'well-developed_and_high_', 41 p4_size / 'p4_>=_m1_'
+'p4<m1_', 42 'P3 size/presence' / present_ reduced_ absent_, 43 'DP3
+size/presence' / present_ reduced_ absent, 44 dp4_anteroconid / absent_ weak_
+strong_, 45 dp4_anterior_cingulid / indistinct_ '0/2' low_and_weakly_developed_
+'2/4' 'linguolabially_well-developed_', 46 'dp4 metaconid/protoconid position' /
+opposed_ protoconid_posterior_, 47 dp4_mesolophid / absent_ '0/2'
+weakly_developed_ '2/4' reaches_the_lingual_side_, 48 'posterior arm of dp4
+metaconid (metastylar fold)' / absent_ '0/2' weak_and_low_ '2/4' 'well-
+developed_and_high__', 49 dp4_metalophulid_I / absent_ '0/2'
+'incomplete,_medially_interrupted_' '2/4' complete_, 50 dp4_metalophulid_II /
+absent_ 'incomplete,_medially_interrupted' complete_, 51 dp4_talonid_width /
+as_wide_as_trigonid_ slightly_wider_than_trigonid_ much_wider_than_trigonid_, 52
+dp4_mesostylid / absent_ weak_ strong_, 53 dp4_mesoconid / absent_ '0/2' weak
+'2/4' strong, 54 dp4_hypoconulid / absent_ weak_ strong_, 55 dp4_ectolophid /
+absent_ 'anteriorly_interrupted_(unconnected_to_protoconid)' complete_, 56
+upper_molar_hypocone / absent_to_minute_ '0/2' weak_ '2/4' strong_, 57
+molar_hypocone_in_relation_to_protocone / more_lingual_than_protocone_ '0/2'
+same_level_as_protocone_ '2/4' more_labial_, 58 molar_mesostyle / absent_ '0/2'
+weak '2/4' large_, 59 molar_parastyle / absent_ small 'well-developed', 60
+molar_anterostyle / absent_ '0/2' weak_ '2/4' 'well-developed_', 61
+molar_enterostyle / absent_ weak_ strong_, 62 molar_anteroloph / absent_ '0/2'
+low_and_isolated_from_the_protocone_ '2/4' high_and_connected_to_the_protocone_,
+63 molar_metaconule / 'strong,_inflated_' '0/2' reduced_ '2/4'
+minute_to_indistinct_, 64 molar_metaconule_position /
+running_onto_metacone_from_protocone_ central_ submerged_into_the_mure_, 65
+'molar metaconule-hypocone connection' / absent_ present_, 66
+anterior_arm_of_molar_hypocone / absent_ weakly_developed_
+'well_developed,_generally_strongly_connected_to_the_metaconule', 67
+molar_mesolophule / absent_ '0/2' incipient_from_metaconule '2/4'
+reaches_labial_side_, 68 molar_protoconule / 'strong,_inflated_' reduced_
+submerged_in_the_protoloph_to_absent, 69 'molar anteroloph-protoloph connection
+(with a lingual anteroloph)' / absent_ present_, 70
+molar_metaloph_connection_in_M1 / connected_to_metaconule_ '0/2'
+connected_on_the_anterior_arm_of_the_hypocone '2/4'
+turned_posteriorly_to_join_posteroloph_ '4/6'
+'submerged_into_posteroloph_(or_absent)'
+connected_to_metaconule_and_posterioloph_ '0/7', 71
+molar_metaloph_connection_in_M2 / connected_to_metaconule_ '0/2'
+connected_on_the_anterior_arm_of_the_hypocone '2/4'
+turned_posteriorly_to_join_posteroloph_ '4/6'
+'submerged_into_posteroloph_(or_absent)'
+connected_to_metaconule_and_posterioloph_ '0/7', 72
+molar_metaloph_connection_in_M3 / connected_to_metaconule_ '0/2'
+connected_on_the_anterior_arm_of_the_hypocone '2/4'
+turned_posteriorly_to_join_posteroloph_ '4/6'
+'submerged_into_posteroloph_(or_absent)'
+connected_to_metaconule_and_posterioloph_ '0/7', 73
+the_angle_between_the_protoloph_and_the_metacone_on_Upper_M3 / '0-30' '0/2'
+'30-60' '2/4' '60-90' metaloph_submerged_into_postroloph
+turned_posteriorly_to_join_posteroloph_, 74 molar_endoloph_M1 / present_ '0/2'
+absent_, 75 molar_endoloph_M2 / present_ '0/2' absent_, 76 molar_endoloph_M3 /
+present_ '0/2' absent_, 77 'molar metaconule-protocone connection (lingual
+metaloph)' / absent_ '0/2' present_, 78 molar_mure / absent_ '0/2' incipient_
+'2/4' complete_, 79 molar_pericingulum / present_ absent_, 80 'upper molar
+length/width proportions' / 'length_>_width_' '0/2' 'length_=_or_<_width_', 81
+posterior_arm_of_paracone / absent '0/2' weakly_developed '2/4'
+'high_(connected_to_the_mesostyle)_', 82 anterior_arm_of_the_metacone / absent_
+'0/2' weakly_pronounced_ '2/4' 'high_(connected_to_the_mesostyle)_', 83 'molar
+anterolophid (anterocingulid)' / absent_ '0/2' 'incipient,_low_', 84
+molar_anteroconid / absent_ incipient_in_anterolophid 'well-developed_', 85
+molar_mesostylid / absent_ '0/2' weak_ '2/4' strong_, 86 molar_ectostylid /
+absent_ '0/2' present_, 87 molar_mesoconid / small_to_absent_ '0/2'
+simple_cuspid_, 88 molar_ectolophid / absent_ '0/2' anteriorly_incomplete_
+'2/4' 'complete,_reaches_protoconid_', 89 molar_mesolophid / absent_
+variably_incipient, 90 'molar protoconid/metaconid position' / opposed '0/2'
+protoconid_posterior, 91 'molar metaconid/protoconid height' /
+'protoconid_<_metaconid' 'protoconid_=_metaconid' 'protoconid_>_metaconid_', 92
+direction_of_the_posterior_arm_of_the_molar_protoconid /
+directed_toward_metaconid 'oblique,_extending_backward_', 93 'molar paralophid-
+metaconid connection' / absent_ 'present_(metalophulid_I)_', 94
+molar_metalophulid_I / 'complete_(ancestral_paralophid)_' 'complex_(antero-
+labial_part_of_paralophid_plus_lingual_part_of_protolophid)' weak_to_absent_
+'remains_of_the_antero-
+labial_part_of_paralophid,_lingual_part_of_paralophid_or_neoformation', 95
+'molar metalophulid II (protolophid = posterior arm of protoconid)' / 'well-
+developed_' '0/2' weak_ '2/4' small_to_absent_, 96 molar_hypolophid / absent_
+'0/2' 'low,_interrupted_labially' '2/4' 'well-developed', 97
+anterior_arm_of_molar_hypoconid / absent_ '0/2' connects_weakly_to_mesoconid_
+'2/4' strong_, 98 'molar entoconid/hypoconid position' / opposed_ '0/2'
+entoconid_anterior_, 99 molar_hypoconulid / 'strong,_inflated' '0/2'
+'''normal''_(simple_cuspid)_' '2/4' 'reduced,_submerged_into_the_posterolophid_'
+'4/6' absent_, 100 hypoconulid_on_m3 / forms_a_transverse_third_lobe_
+third_lobe_narrow_ third_lobe_incorporated_into_the_posterolophid_, 101 'molar
+entoconid-hypoconid connection by posterolophid' / present_ '0/2' absent, 102
+'entoconid-hypoconid twinned on m3' / absent_ present_, 103
+molar_trigonid_height / higher_than_talonid_ '0/2' same_height_as_talonid_, 104
+molar_trigonid_width / narrower_than_talonid same_as_talonid_, 105
+size_of_m3_relative_to_m2 / 'm3_>_m2_' '0/2' 'm3_=_m2_' '2/4' 'm3_<_m2_', 106
+posterior_arm_of_metaconid / absent_ '0/2' 'small_(metastylid)_' '2/4'
+'high_metastylid_(connected_to_mesostylid)_', 107
+anterior_arm_of_molar_entoconid / absent_ '0/2' small_ '2/4'
+'high_(connected_to_mesostylid)_', 108 molar_paraconid / present_ reduced_
+absent_, 109 taeniodont_pattern_on_upper_and_lower_molars / absent_ present_,
+110 'molar cuspids/crests' / bunodont_ '0/2' crests_present_but_low_ '2/4'
+lophodont_, 111 molar_cuspids / sharpened inflated__, 112
+enamel_wrinkling_on_molars / absent_ present_, 113 P2 / present_ absent_, 114
+'I2/i2 enamel disposition' / surrounds_incisor_
+does_not_totally_surround_incisor_ limited_to_buccal_surface_, 115 m1_area /
+'0-2 mm2' '0/2' '2-4 mm2' '2/4' '4-6 mm2' '4/6' '6-8 mm2' '6/8' '> 8 mm2', 116
+CBG / Danian_of_Asia Selandian_of_Asia late_Thanetian_of_Asia
+early_Ypresian_of_Asia late_Ypresian_of_Asia early_Lutetian_of_Asia
+late_Lutetian_of_Asia early_Bartonian_of_Asia early_Priabonian_of_Africa
+early_Priabonian_of_Asia late_Priabonian_of_Africa late_Priabonian_of_Asia
+early_Rupelian_of_Africa early_Rupelian_of_Asia early_Rupelian_of_Mallorca
+early_Rupelian_of_South_America late_Rupelian_of_Africa late_Rupelian_of_Asia
+Chattian_of_Asia Chattian_of_South_America Burdigalian_of_Africa
+Burdigalian_of_Asia Langhian_of_Africa 'Pleistocene-Recent Asia' 'Pleistocene-
+Recent Africa', 117 constraint_1, 118 constraint_2, 119 constraint_3, 120
+constraint_4, 121 constraint_5, 122 constraint_6, 123 constraint_7, 124
+constraint_8, 125 constraint_9, 126 constraint_10, 127 constraint_10, 128
+constraint_10, 129 constraint_10, 130 constraint_10, 131 constraint_10, 132
+constraint_10, 133 constraint_10, 134 constraint_10, 135 constraint_10, 136
+constraint_10, 137 constraint_10, 138 constraint_10, 139 constraint_10, 140
+constraint_10, 141 constraint_10, 142 constraint_10, 143 constraint_10, 144
+constraint_10, 145 constraint_10, 146 constraint_10, 147 constraint_10, 148
+constraint_10, 149 constraint_10, 150 constraint_10, 151 constraint_10, 152
+constraint_10, 153 constraint_10, 154 constraint_10, 155 constraint_10, 156
+constraint_10 ;
+      MATRIX
+      Anadianomys_declivis
+????????110212201???????????2120010442011??????????????4221202200102000??00?2012
+000010000010102440220021?20202001227????????????????????????????????????????
+      Baluchimys_ganeshapher
+????4?????312220121210061000???????????????110030210022?2012040112020?7??00?0012
+33202004001010244222?02134220200122H????????????????????????????????????????
+      Baluchimys_krabienses
+????41131132223012?????????????????????????????????????2421204201242000000000012
+222020040010101442220021?422020012?B????????????????????????????????????????
+      Birbalomys_spp.
+10110000110222421?110006100021200114410211?1210402212124021202000001000030002012
+201020230010102440122021042202001204????????????????????????????????????????
+      Branisamys_luribayensis
+111341141142224212?????????02120?0??????1?1???4???112124422204421242047462220412
+00002004001010041062202144021400128K1111111111111111111111111111111111111111
+      Bugtimys_zafarullahi
+?112511411322220121211100020211000040222121????????????4441204211242022202220212
+40200004021010044222002104020401126H????????????????????????????????????????
+      Chapattimys_wilsoni
+101100011002123212?????????02120010402121??1402202102124021202000001000030002012
+200020121000102440022021?422020112240000000000000000000000000000000000000000
+      Confiniummys_sidiki
+????????2140000010??????????0100000000001??201002010022442120341124200?000000012
+102110040010102442220021222203001?2B????????????????????????????????????????
+      Diamantomys_luederitzi
+111321121?????????2212140422?????????????11221044110212444220442?24204???2??0412
+40200024021110444242202122020400128L1111111111111111111111111111111111111111
+      Eobranisamys_romeropittmanae
+??134114???????????????????????????????????1?0403?1122143322044?1242044462220412
+00002004001010042062202124021400122F1111111111111111111111111111111111111111
+      Eosallamys_paulacoutoi
+??1141151142322012?????????02120000402001??04?4002120024332204421242044462220412
+000020040?1010044?62?021?402?400??4F1111111111111111111111111111111111111111
+      Gaudeamus_aegyptius
+11??????1141023112??????????21000000300?1220004042120004222204421202066652220412
+14003004101?104401621021441204001??C????????????????????????????????????????
+      'Gaudeamus sp. nov. (L-41)'
+11??????1141123412?????????02100000131021220004442120024232204421202044652211412
+34003004101?103430621021444204001?2A????????????????????????????????????????
+      GenspnovAL41
+11??????112222201212111704202110000402101211304102110224311204421242077042210412
+10211004020110044222102103020301122A????????????????????????????????????????
+      GenspnovBL41
+11??????114222201012111704102110010422201210303102110224311204421242077742220412
+10211004020110144222102132020300122A????????????????????????????????????????
+      GenspnovCAE
+11??????1??????????????????01????????????21?203102110224311204421242077042110412
+10211004020110144222102132020300122C????????????????????????????????????????
+      Hodsahibia_spp.
+??124103110212221212111000202110001402111??2402422124214411204111242022202220112
+32200014121010144212002122020401122H????????????????????????????????????????
+      Hystrix_depereti
+?1??????0??2324412??????????3120002440000??000443012002433??044?12421?4700020412
+00003004001?1044106?102144020401028Q0000000000000000000011111111111111111111
+      Hystrix_primigenia
+?1??????0??2324412??????????3120002440000??????????????443??044?1242077700000312
+00003004001?1044406?202144020401028Q0000000000000000000011111111111111111111
+      Incamys_spp.
+111141151142?14411?????????02120000221001?114044?2112124422204421242055552220412
+20003004001010440262202144421400128K1111111111111111111111111111111111111111
+      Lindsaya_derabugtiensis
+????????11422220121210061000???????????????14103021102242202040011120000?0000012
+22202004001010244222202132020200120H????????????????????????????????????????
+      Lophibaluchia_spp.
+??????????????????121114001????????????????0410301102224421204301232044462220012
+22202004021010144222202134120400122H????????????????????????????????????????
+      Metaphiomys_beadnelli
+11126115??????????2212140422??????????????11201202100124221204421232044002220412
+20200004021110144222102122020400124G????????????????????????????????????????
+      Ottomania_proavita
+????????214000001002100310200000000000101?12110002100224421?03111242008100220012
+102120041011100442222011230204001?2B????????????????????????????????????????
+      '"Paraphiomys" simonsi'
+11????????????????2212140402??????????????1021030?1001242112040112{2
+4}2044??22?04122022010402111044424220210202030?1?8G11111111111111111111111111111
+11111111111
+      Paraphiomys_spp.
+111361141?????????2212140422?????????????222410400100124221204421222045652220412
+20220004021010444242002122020400122L1111111111111111111111111111111111111111
+      Paraulacodus_indicus
+????????114242421??????????2????????????1??1410400110124221204421202066652220412
+402200040210104422622?21?0020400128N1111111111111111111111111111111111111111
+      Petrokozlovia_notos
+101?????100212200?12???????021001224010201?????????????2222202000002000??00?0012
+000000020010104440022001022202001285????????????????????????????????????????
+      Phiocricetomys_minutus
+?1?????????????????????????????????????????121020010022????2????????????????????
+??00000401211044421-1021-2020200120G????????????????????????????????????????
+      Phiomys_andrewsi
+111141041122222010?????????02100010332201201200202100224321204421242077??22?0412
+20200004020110344222202122020300120C1111111111111111111111111111111111111111
+      '"Phiomys" lavocati'
+11????????????????12111000002120010400??121121020010022420?20311110206???2??0012
+20000004012110444212202133020200120A????????????????????????????????????????
+      'Phiomys sp. nov. (Quarry I)'
+?1??????????????????????????????????????????20020210022????20442124207??????0412
+??200004020110344222202122020300120G1111111111111111111111111111111111111111
+      Phiomys_aff._paraphiomyoides
+?1??????????????????????????????????????????20020210022????204421242077??22?0412
+??210004020110344222202132020300122G1111111111111111111111111111111111111111
+      Phiomys_paraphiomyoides
+?1?????????????????????????????????????????120020210021432?204421242077??22?0412
+20200004020110344222202122020300120G1111111111111111111111111111111111111111
+      Platypittamys_brachyodon
+11116115114242201??????????011000004410012?????????????4421204421242022202220412
+00000004001010044262202144020400120K1111111111111111111111111111111111111111
+      Protophiomys_aegyptensis
+????????11422220111211100000???????????????1112322112224421204411222000042110212
+221021040010102442221021231203011228????????????????????????????????????????
+      Protophiomys_algeriensis
+??124115112212201?12121011202100100431111??1211432112224421204411222000041220012
+220020040011102442222021?22202001228????????????????????????????????????????
+      Sacaresia_moyaeponsi
+??10???51??240441002121610202220010302101210210042020124240200???242066650000002
+112040030210100440422021400204001?4E????????????????????????????????????????
+      Sallamys_pascuali
+111141151141422010?????????02120000221001?1????????????2402204421222047202220410
+00000004001010444262202141020400124K1111111111111111111111111111111111111111
+      Thryonomys_swinderianus
+11????????????????2212160402?????????????22?0042001200243002034?020206446222?412
+002000040011104442622021310204001?8R1111111111111111111111111111111111111111
+      Tsaganomys_altaicus
+2114411211?2222011221200100031200104420?121220024220?1214020044?0002000000000012
+000000040010100440622?2024220400128D????????????????????????????????????????
+      Yuomys_cavioides
+10??????110212001???????????21201104410001?????????????4231020000002000000000012
+000000040010104440220001200204001286????????????????????????????????????????
+      Waslamys_attiai
+?1??????102222201212111703202110010441011?11102321111224421204111232070032000112
+230010040011101442220021230203011228????????????????????????????????????????
+;
+END;
+BEGIN TREES;
+      Title 'Shortest trees from CBG analysis (9 trees of length 438.108342)';
+      LINK Taxa = Taxa;
+      TRANSLATE
+            1 Anadianomys_declivis,
+            2 Baluchimys_ganeshapher,
+            3 Baluchimys_krabienses,
+            4 Birbalomys_spp.,
+            5 Branisamys_luribayensis,
+            6 Bugtimys_zafarullahi,
+            7 Chapattimys_wilsoni,
+            8 Confiniummys_sidiki,
+            9 Diamantomys_luederitzi,
+            10 Eobranisamys_romeropittmanae,
+            11 Eosallamys_paulacoutoi,
+            12 Gaudeamus_aegyptius,
+            13 'Gaudeamus sp. nov. (L-41)',
+            14 GenspnovAL41,
+            15 GenspnovBL41,
+            16 GenspnovCAE,
+            17 Hodsahibia_spp.,
+            18 Hystrix_depereti,
+            19 Hystrix_primigenia,
+            20 Incamys_spp.,
+            21 Lindsaya_derabugtiensis,
+            22 Lophibaluchia_spp.,
+            23 Metaphiomys_beadnelli,
+            24 Ottomania_proavita,
+            25 '"Paraphiomys" simonsi',
+            26 Paraphiomys_spp.,
+            27 Paraulacodus_indicus,
+            28 Petrokozlovia_notos,
+            29 Phiocricetomys_minutus,
+            30 Phiomys_andrewsi,
+            31 '"Phiomys" lavocati',
+            32 'Phiomys sp. nov. (Quarry I)',
+            33 Phiomys_aff._paraphiomyoides,
+            34 Phiomys_paraphiomyoides,
+            35 Platypittamys_brachyodon,
+            36 Protophiomys_aegyptensis,
+            37 Protophiomys_algeriensis,
+            38 Sacaresia_moyaeponsi,
+            39 Sallamys_pascuali,
+            40 Thryonomys_swinderianus,
+            41 Tsaganomys_altaicus,
+            42 Yuomys_cavioides,
+            43 Waslamys_attiai;
+      TREE 'Tree 1 from search (criterion: minimize Tree value using character
+matrix)' =
+((((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,39)),
+(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),(30,(34,32)))))))))),36
+),37))),(38,(24,8))),((21,2),3))),1)),7),4);
+      TREE 'Tree 2 from search (criterion: minimize Tree value using character
+matrix)' =
+((7,4),((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,
+39)),(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),(30,(34,32))))))))
+)),36),37))),(38,(24,8))),((21,2),3))),1)));
+      TREE 'Tree 3 from search (criterion: minimize Tree value using character
+matrix)' =
+(7,(((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,39)
+),(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),(30,(34,32)))))))))),
+36),37))),(38,(24,8))),((21,2),3))),1)),4));
+      TREE 'Tree 4 from search (criterion: minimize Tree value using character
+matrix)' =
+((((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,39)),
+(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),((34,30),32))))))))),36
+),37))),(38,(24,8))),((21,2),3))),1)),7),4);
+      TREE 'Tree 5 from search (criterion: minimize Tree value using character
+matrix)' =
+((((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,39)),
+(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),(34,(30,32)))))))))),36
+),37))),(38,(24,8))),((21,2),3))),1)),7),4);
+      TREE 'Tree 6 from search (criterion: minimize Tree value using character
+matrix)' =
+((7,4),((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,
+39)),(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),((34,30),32)))))))
+)),36),37))),(38,(24,8))),((21,2),3))),1)));
+      TREE 'Tree 7 from search (criterion: minimize Tree value using character
+matrix)' =
+((7,4),((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,
+39)),(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),(34,(30,32))))))))
+)),36),37))),(38,(24,8))),((21,2),3))),1)));
+      TREE 'Tree 8 from search (criterion: minimize Tree value using character
+matrix)' =
+(7,(((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,39)
+),(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),((34,30),32))))))))),
+36),37))),(38,(24,8))),((21,2),3))),1)),4));
+      TREE 'Tree 9 from search (criterion: minimize Tree value using character
+matrix)' =
+(7,(((28,42),((41,((((22,(17,6)),((31,29),(((43,(((13,12),(19,18)),(((11,(35,39)
+),(10,(20,5))),(14,(15,(16,(33,((23,(25,(9,(40,(27,26))))),(34,(30,32)))))))))),
+36),37))),(38,(24,8))),((21,2),3))),1)),4));
+END;
+BEGIN ASSUMPTIONS;
+            USERTYPE CBG (Stepmatrix) =
+             21
+      4     5    6     7     8    9    A     B   C     D    E     F    G
+      H     J    K     L     M    N    Q     R
+      0     0    1     2     4    3    5     4   6     5    6     6    7
+      6     7    8     8     8    9    10    10
+      i     0    0     1     3    2    4     3   5     4    5     6    6
+      5     6    8     7     7    8    9     9
+      i     i    0     0     2    1    3     2   4     3    4     5    5
+      4     5    7     6     6    7    8     8
+      i     i    i     0     1    0    2     1   3     2    3     4    4
+      3     4    6     5     5    6    7     8
+      i     i    i     i     0    1    0     1   1     2    2     2    2
+      3     4    4     4     4    5    7     6
+      i     i    i     i     1    0    1     0   2     2    2     3    3
+      2     3    5     4     4    5    6     6
+      i     i    i     i     i    i    0     1   1     2    2     2    2
+      3     4    4     4     4    5    6     5
+      i     i    i     i     i    i    1     0   1     0    1     2    2
+      1     2    4     3     3    4    5     5
+      i     i    i     i     i    i    i     i   0     1    1     1    0
+      1     2    2     2     2    3    4     4
+      i     i    i     i     i    i    i     i   1     0    1     2    1
+      0     1    3     2     2    3    4     4
+      i     i    i     i     i    i    i     i   1     1    0     2    1
+      1     2    3     3     3    4    5     4
+      i     i    i     i     i    i    i     i   1     2    2     0    1
+      2     3    1     3     4    4    5     4
+      i     i    i     i     i    i    i     i   i     i    i     i    0
+      1     1    1     1     1    2    3     3
+      i     i    i     i     i    i    i     i   i     i    i     i    1
+      0     0    2     1     1    2    3     3
+      i     i    i     i     i    i    i     i   i     i    i     i    i
+      i     0    2     0     0    1    2     2
+      i     i    i     i     i    i    i     i   i     i    i     i    i
+      i     2    0     1     2    2    3     2
+      i     i    i     i     i    i    i     i   i     i    i     i    i
+      i     i    i     0     0    0    1     1
+      i     i    i     i     i    i    i     i   i     i    i     i    i
+      i     i    i     0     0    0    1     1
+      i     i    i     i     i    i    i     i   i     i    i     i    i
+      i     i    i     i     i    0    0     0
+      i     i    i     i     i    i    i     i   i     i    i     i    i
+      i     i    i     i     i    i    0     0
+      i     i    i     i     i    i    i     i   i     i    i     i    i
+      i     i    i     i     i    i    0     0
+;
+      TYPESET * UNTITLED   = unord: 1 - 3 6 10 17 - 18 21 - 27 29 32 - 33
+41 46 65 69 73 79 89 92 - 94 102 104 109 111 - 113 117 - 156, ord: 4 - 5 7
+- 9 11 - 16 19 - 20 28 30 - 31 34 - 40 42 - 45 47 - 64 66 - 68 70 - 72
+74 - 78 80 - 88 90 - 91 95 - 101 103 105 - 108 110 114 - 115, CBG: 116;
+      WTSET * UNTITLED = 1.0: 1 - 3 6 10 17 - 18 21 - 27 29 32 - 33 41 46
+65 69 73 79 89 92 - 94 102 104 109 111 - 113 116 - 156 , 0.333333: 4 4 9,
+0.166667: 5 5 99, 0.5: 7 7 12 14 19 - 20 28 30 - 31 34 - 35 38 40 42 - 44 50
+- 52 55 59 61 64 66 68 74 - 77 80 83 - 84 86 - 87 90 - 91 98 100 - 101 103
+108 114, 0.2: 8 8, 0.25: 11 11 13 15 - 16 36 - 37 39 45 47 - 49 53 - 54 56 -
+58 60 62 - 63 67 78 81 - 82 85 88 95 - 97 105 - 107 110, 0.125: 70 - 72
+115;
+END;
+BEGIN MESQUITECHARMODELS;
+      ProbModelSet * UNTITLED    =  'Mk1 (est.)':  1 - 156;
+END;
+Begin MESQUITE;
+            MESQUITESCRIPTVERSION 2;
+            TITLE AUTO;
+            tell ProjectCoordinator;
+            getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+            tell It;
+                  setID 0 3077772892105924068;
+                  tell It;
+                        setDefaultOrder 32 14 7 8 33 4 12 13 35 16 22 29 21 5 18
+38 11 27 37 25 10 24 15 26 36 39 1 20 19 41 0 2 30 34 40 28 42 3 31 23 17 6 9;
+                        attachments ;
+                  endTell;
+            endTell;
+            getEmployee
+#mesquite.charMatrices.ManageCharacters.ManageCharacters;
+            tell It;
+                  setID 0 6990047887031383521;
+                  tell It;
+                        setDefaultOrder 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+19 17 18 20 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44
+45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71
+72 156 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96
+97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 115 161 115 116
+117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136
+137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154;
+                        attachments ;
+                  endTell;
+                  checksumv 0 2 1895987835 null;
+            endTell;
+            getWindow;
+            tell It;
+                  suppress;
+                  setResourcesState false true 100;
+                  setPopoutState 400;
+                  setExplanationSize 0;
+                  setAnnotationSize 0;
+                  setFontIncAnnot 0;
+                  setFontIncExp 0;
+                  setSize 1440 780;
+                  setLocation 0 22;
+                  setFont SanSerif;
+                  setFontSize 10;
+                  getToolPalette;
+                  tell It;
+                  endTell;
+                  desuppress;
+            endTell;
+            getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+            tell It;
+                  showTaxa #3077772892105924068
+#mesquite.lists.TaxonList.TaxonList;
+                  tell It;
+                        setTaxa #3077772892105924068;
+                        getWindow;
+                        tell It;
+                              newAssistant
+#mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+                             newAssistant
+#mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+                             setExplanationSize 30;
+                             setAnnotationSize 20;
+                             setFontIncAnnot 0;
+                             setFontIncExp 0;
+                             setSize 1440 713;
+                             setLocation 0 22;
+                             setFont SanSerif;
+                             setFontSize 10;
+                             getToolPalette;
+                             tell It;
+                             endTell;
+                       endTell;
+                       showWindow;
+                       getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+                       tell It;
+                             setColor Red;
+                             removeColor off;
+                       endTell;
+                       getEmployee
+#mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+                       tell It;
+                             togglePanel off;
+                       endTell;
+                 endTell;
+           endTell;
+           getEmployee
+#mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+           tell It;
+                 showDataWindow #6990047887031383521
+#mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+                 tell It;
+                       getWindow;
+                       tell It;
+                             getTable;
+                             tell It;
+                                   rowNamesWidth 109;
+                             endTell;
+                             setExplanationSize 70;
+                             setAnnotationSize 20;
+                             setFontIncAnnot 0;
+                             setFontIncExp 0;
+                             setSize 1440 673;
+                             setLocation 0 22;
+                             setFont SanSerif;
+                             setFontSize 10;
+                             getToolPalette;
+                             tell It;
+                                   setTool
+mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+                             endTell;
+                             setActive;
+                             setTool
+mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+                             colorCells #mesquite.charMatrices.NoColor.NoColor;
+                             colorRowNames
+#mesquite.charMatrices.NoColor.NoColor;
+                             colorColumnNames
+#mesquite.charMatrices.CharGroupColor.CharGroupColor;
+                             colorText #mesquite.charMatrices.NoColor.NoColor;
+                             setBackground White;
+                             toggleShowNames off;
+                             toggleShowTaxonNames on;
+                             toggleTight off;
+                             toggleThinRows off;
+                             toggleShowChanges on;
+                             toggleSeparateLines off;
+                             toggleShowStates on;
+                             toggleAutoWCharNames on;
+                             toggleShowDefaultCharNames on;
+                             toggleConstrainCW on;
+                             toggleBirdsEye off;
+                             toggleAllowAutosize on;
+                             toggleColorsPanel on;
+                             toggleDiagonal on;
+                             setDiagonalHeight 80;
+                             toggleLinkedScrolling on;
+                             toggleScrollLinkedTables off;
+                       endTell;
+                       showWindow;
+                       getWindow;
+                       tell It;
+                             forceAutosize;
+                       endTell;
+                       getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+                       tell It;
+                             setColor Wood;
+                             removeColor off;
+                       endTell;
+                       getEmployee
+#mesquite.categ.StateNamesStrip.StateNamesStrip;
+                       tell It;
+                             showStrip on;
+                       endTell;
+                       getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+                       tell It;
+                             togglePanel off;
+                       endTell;
+                       getEmployee
+#mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+                       tell It;
+                             showStrip off;
+                       endTell;
+                       getEmployee
+#mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+                       tell It;
+                             autotabOff;
+                       endTell;
+                       getEmployee
+#mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+                       tell It;
+                             panelOpen true;
+                       endTell;
+                 endTell;
+           endTell;
+           endTell;
+end;
+[Ross Mounce's additional settings below this comment. Different to the original analysis]
+begin sets;
+taxset fossil = Anadianomys_declivis Baluchimys_ganeshapher Baluchimys_krabienses Birbalomys_spp. Branisamys_luribayensis Bugtimys_zafarullahi Chapattimys_wilsoni Confiniummys_sidiki Diamantomys_luederitzi Eobranisamys_romeropittmanae Eosallamys_paulacoutoi Gaudeamus_aegyptius 'Gaudeamus sp. nov. (L-41)' GenspnovAL41 GenspnovBL41 GenspnovCAE Hodsahibia_spp. Incamys_spp. Lindsaya_derabugtiensis Lophibaluchia_spp. Metaphiomys_beadnelli Ottomania_proavita '"Paraphiomys" simonsi' Paraphiomys_spp. Paraulacodus_indicus Petrokozlovia_notos Phiocricetomys_minutus Phiomys_andrewsi '"Phiomys" lavocati'
+'Phiomys sp. nov. (Quarry I)' Phiomys_aff._paraphiomyoides
+Phiomys_paraphiomyoides Platypittamys_brachyodon Protophiomys_aegyptensis
+Protophiomys_algeriensis Sacaresia_moyaeponsi Sallamys_pascuali Tsaganomys_altaicus Yuomys_cavioides Waslamys_attiai;
+taxset extant = Thryonomys_swinderianus;
+end;
+begin paup;
+exclude 116-156;
+end;

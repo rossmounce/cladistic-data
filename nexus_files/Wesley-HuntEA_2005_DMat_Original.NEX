@@ -1,0 +1,195 @@
+#Nexus
+
+BEGIN dATA;
+DIMENSIONS NTAX=42 NCHAR=99;
+FORMAT iNTERLEAVE mISSING=? gAP=- sYMBOLS="0123456789";
+MATRIX
+
+[outgroups
+Hyaenodon
+Thinocyon
+Echinosorex
+Erinaceus
+Lepticitis]
+
+[character 40 ordered]
+
+
+Tapocyon_robustus 10100 1?000 00100 10112 10100
+Vulpavus_ovatus 11111 10000 00100 01101 10010
+Vulpavus_profectus 11101 ??100 00100 10110 01000
+Miacis_parvivorus ?011? ????? 0013? ?0101 10000
+Prohesperocyon_wilsoni 1 ? 10? ?0000 001 1 1 101 1 ? 1 ? 1 10
+Miacis_sylvestris ??001 ??00? 001 10 101 12 101 10
+Miacis_cognitus 10100 ??1?? 00131 11002 10102
+Oodectes_herpestoides 101 1 1 00000 00100 01 102 10010
+Hesperocyon_gregarious 1011 1 1?110 00121 11002 10112
+Otarocyon 1011 1 11000 00101 11002 1?212
+Canis_latrans 10011 1 1 100 00101 11012 1?202
+Daphoenus_Amphicyonid 10010 {01}0100 00131 10012 101{01}?
+Protictis_schaffi ? 1010 1 ? 1 10 10000 0?002 10000
+Viverravus_minutus ??010 1 ? 1 ?? 10?00 00002 10000
+Viverravus_cf_gracilis ????0 ?? 100 10000 100?? 1 ?000
+Didymictis_vancleveae ????0 ?? 1 10 00020 00?0? 10000
+Zodiolestes_diamonelixensis 10{01}10 10100 001 10 1 1022 10122
+Dinictis_felina 10101 21011 01010 1000{12} 1?00?
+Hoplophoneus_sp 1?1 1 1 21010 01010 10001 1?10?
+Palaeoprionodon_lamandini 20101 21 1 ? 1 01231 10001 1 1001
+Stenogale_julieni 2? 100 20101 ?? 131 10002 1 1001
+Proailurus_lemanensis ?0100 2??01 01 131 10002 1 1001
+Herpestid 10000 21012 01232 10002 1 ?002
+Herpestides_antiquus 20100 20002 01 131 10002 1001 1
+Civettictis 201{01}0 21 102 01232 10002 1 ?001
+Felis 20000 10002 01012 10122 1 ?001
+Hyaena 20000 21002 ? 1232 1 1002 1 ?001
+Nandinia_binotata 20100 21001 01 130 10002 10001
+Pteronarctos_goedertae 201?0 22110 01120 1 1?02 1??02
+Gulo_gulo 201 10 1 1 1 10 00000 1 1022 1 ?022
+Ailurus_fulgens 30120 1?100 00120 01012 1?012
+Ursus 30020 1 1 100 00121 00012 1 ? 102
+Mephitis 10121 21 110 10020 01?22 1?022
+Procyon_lotor 20120 1 1 1 10 00000 1 1022 1 ?022
+Otariidae 20120 221 13 ? 1 130 10?02 1 ?002
+Hyaenodon 00?00 000?? 00010 00??? 0??00
+Thinocyon 0?00? ?0000 00000 100? 1 00000
+Echinosorex 1 1 120 ?21 10 00020 00002 10000
+Erinaceus 01010 01 100 00100 01001 10000
+Lepticitis 1 1 ?? 1 001 10 00101 0000? 10000
+MIACIS_UINTENSIS 1??0???000 0011?11112 1?110
+Quercygale  1 0 0 1 1 2 0 0 0 0 0 0 1 0 0 1 ? 1 0 1 1 0 1 1 0
+  
+
+Tapocyon_robustus 10101 00000 1001 ? 201 1 1 001 10
+Vulpavus_ovatus 10101 00?00 00011 11100 01010
+Vulpavus_profectus 00101 00000 01010 10100 01 1 1 1
+Miacis_parvivorus 00101 00000 ?0010 101 10 01 100
+Prohesperocyon_wilsoni 00101 01010 00010 1011 1 011 10
+Miacis_sylvestris 00101 01010 00010 1011 1 001 10
+Miacis_cognitus 10101 00110 01010 20110 011 12
+Oodectes_herpestoides 00101 00000 00010 00100 00100
+Hesperocyon_gregarious 10301 01120 00111 20111 01112
+Otarocyon 20301 01 120 101 1 1 201 10 01 1 12
+Canis_latrans 10301 01120 10111 20111 01112
+Daphoenus_Amphicyonid 10101 21 110 1 1?10 10110 011 12
+Protictis_schaffi 00000 00010 00001 01 1 10 00?00
+Viverravus_minutus 00000 00210 01001 01 1 10 01020
+Viverravus_cf_gracilis 00000 00010 01001 01 1 10 01020
+Didymictis_vancleveae 00?00 1001 1 01000 01 1 10 001 10
+Zodiolestes_diamonelixensis 10301 1 1 120 001 1 1 201 1 1 01 120
+Dinictis_felina 10211 ?1021 0?010 01111 10120
+Hoplophoneus_sp 10211 11021 0?01? 00111 10120
+Palaeoprionodon_lamandini 21211 01210 00012 ????? ?????
+Stenogale_julieni 22211 01221 00013 01111 10120
+Proailurus_lemanensis 22211 01221 10013 01111 10120
+Herpestid 22201 01220 1 ?213 01 1 10 00020
+Herpestides_antiquus 21211 01221 10012 21111 00120
+Civettictis 22211 01220 10012 01111 00110
+Felis 20201 0121 1 10013 01111 10?20
+Hyaena 22201 01221 1 ?013 01111 00020
+Nandinia_binotata 11201 01120 00012 01111 00020
+Pteronarctos_goedertae ?0?0? 11110 1?101 ??111 0?120
+Gulo_gulo 10301 01120 10111 11111 11020
+Ailurus_fulgens 10301 01 120 001 1 1 21 102 01031
+Ursus 10301 21 120 0? 1 1 1 10102 01020
+Mephitis 10301 01110 1?111 21111 01020
+Procyon_lotor 10301 01 120 001 1 1 21 102 01031
+Otariidae ?0??1 11120 0??21 1???? ?????
+Hyaenodon ?0??? ??300 0?0?0 0???? 00020
+Thinocyon 00000 00000 00000 00000 00000
+Echinosorex 00100 01000 00001 1 1000 0101 1
+Erinaceus 00000 01 101 00002 10000 01021
+Lepticitis 00000 01000 00001 0?000 00?00
+MIACIS_UINTENSIS 00101 0001000?11 ?01100?1?? 
+Quercygale	1 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 2 - 1 0 0 1 0 0 
+
+
+
+Tapocyon_robustus 21010 1101? 0???? 0000? ?0???
+Vulpavus_ovatus 10012 002?0 ??000 0000? ?0???
+Vulpavus_profectus 10012 00210 ??000 0000? ?0???
+Miacis_parvivorus 10010 1121? ???00 ?000? ?0???
+Prohesperocyon_wilsoni 10010 111?? ???00 ?000? ?0???
+Miacis_sylvestris 10010 1121? ???00 ?000? ?0???
+Miacis_cognitus 10010 1 12?0 0?000 ?000? ?0???
+Oodectes_herpestoides 10010 00210 0?000 0000? ?0???
+Hesperocyon_gregarious 001 10 1 1 110 0?000 10100 10???
+Otarocyon 00112 1101? ????? ????? ?????
+Canis_latrans 001 10 11010 01000 10100 10000
+Daphoenus_Amphicyonid 10110 1101? 1 1000 1 1{01}10 00???
+Protictis_schaffi 101 1 1 01 ?00 ??000 ?000? ?0???
+Viverravus_minutus ?01 1? 01?0? 0??00 0000? ?0???
+Viverravus_cf_gracilis 201 1 1 01?0? 0??00 0000? ?0???
+Didymictis_vancleveae 10111 0100? ???00 0000? ?0???
+Zodiolestes_diamonelixensis 1 1 110 1 1210 1?000 12100 00???
+Dinictis_felina 221 1 1 1101? ?0000 10100 10???
+Hoplophoneus_sp 22111 11??? ?0000 10100 10???
+Palaeoprionodon_lamandini ? 1 1 12 ? 1 ? 1 ? 0?000 ?300? ?0???
+Stenogale_julieni 121 1 1 1 121 ? 0?000 ?300? ?0???
+Proailurus_lemanensis 121 1 1 1 1 1 1 ? 0?000 ?300? ?0???
+Herpestid 21 1 1 1 0101 1 00000 121 1 1 10000
+Herpestides_antiquus 11111 ?10?? 0?000 12101 10???
+Civettictis 1011 1 01010 00000 13101 10000
+Felis 121 1 1 1 1030 00000 13101 10001
+Hyaena 11111 01010 00000 13111 10001
+Nandinia_binotata 1 1 1 10 1 1010 00000 13000 00000
+Pteronarctos_goedertae 11110 11010 0?2?1 11110 0101?
+Gulo_gulo 121 10 1 121 1 01000 121 10 00000
+Ailurus_fulgens 00111 00021 01000 11110 00000
+Ursus 00110 00211 11000 11110 00100
+Mephitis 121 10 0121 1 01000 121 10 00000
+Procyon_lotor 001 1 1 00221 01000 121 10 00000
+Otariidae ?011? ??210 11211 11110 0111?
+Hyaenodon 00100 100?0 00000 00000 00000
+Thinocyon 00100 10000 00000 00000 00000
+Echinosorex 00000 00210 10000 00000 00???
+Erinaceus 00000 00210 1 ?000 00100 00???
+Lepticitis 0000? 00000 1 ?000 00000 00???
+MIACIS_UINTENSIS ?0?1011?1? ???0?00?0? ?0???
+Quercygale	1 1 1 1 2 1 1 0 1 0 0 ? 0 0 0 0 0 0 0 ? ? 0 ? ? ? 
+
+
+
+Tapocyon_robustus ??000 01000 100?? 0?0?? ???1
+Vulpavus_ovatus ??000 01000 100?? 0000? ??? 1
+Vulpavus_profectus ??000 01000 1 10?? 0000? ??? 1
+Miacis_parvivorus ??000 01000 100?? 0?0?? ???1
+Prohesperocyon_wilsoni ??000 01000 100?? 0?0?? ???1
+Miacis_sylvestris ??000 01000 100?? 0?0?? ???1
+Miacis_cognitus ??000 01000 10??? 0?0?? ???1
+Oodectes_herpestoides ??000 01000 100?? 0?00? ???1
+Hesperocyon_gregarious ??000 01000 100?? 0?00? ???1
+Otarocyon ????? ????? ????? ????? ????
+Canis_latrans 1 1000 01000 1 1010 01010 0001
+Daphoenus_Amphicyonid ??000 01000 1 10? 1 0101 ? ??? 1
+Protictis_schaffi ??000 01000 101?? 0?0?? ???1
+Viverravus_minutus ??0?0 01000 101?? 0?0?? ???1
+Viverravus_cf_gracilis ??0?0 01000 101?? 0?0?? ???1
+Didymictis_vancleveae ??0?0 010?0 101?? 0000? ???1
+Zodiolestes_diamonelixensis ??000 01000 1 1 1 ?? 01 ?0? ??? 1
+Dinictis_felina ??0?0 01011 101?0 0101? ???1
+Hoplophoneus_sp ??0?0 01011 101?0 0101? ???1
+Palaeoprionodon_lamandini ??000 01001 101?? 0???? ???1
+Stenogale_julieni ??000 01001 101?? 0???? ???1
+Proailurus_lemanensis ??000 01001 101?? 0???? ???1
+Herpestid 10001 01000 10100 01011 1011
+Herpestides_antiquus ??001 01000 101?? 0???? ???1
+Civettictis 10000 01000 10100 01011 1001
+Felis 20010 0101 1 10100 01 1 1 1 1001
+Hyaena 20000 01001 10100 0101 1 101 1
+Nandinia_binotata 10000 01000 10100 01011 1001
+Pteronarctos_goedertae ??100 0100? 101?? 1101? ???1
+Gulo_gulo 1 1000 11000 10110 01010 001 1
+Ailurus_fulgens 00011 01100 11111 01010 0001
+Ursus 00000 00100 1 101 1 1 1010 0101
+Mephitis 01010 11010 10110 01010 001 1
+Procyon_lotor 1 1000 01 100 101 1 1 01010 0001
+Otariidae ??100 ???0? 0?1 10 11010 0101
+Hyaenodon 0000{01} 00000 00000 00000 0000
+Thinocyon 0000{01} 00000 00000 00000 0000
+Echinosorex ??001 10100 010?? 0000? ????
+Erinaceus ??011 00110 1 10?? 1100? ????
+Lepticitis ??000 ?0000 000?? ?0?0? ????
+MIACIS_UINTENSIS ????? 010?01?0?? 0??0?????
+Quercygale	? ? 0 0 0 0 0 0 0 0 1 0 1 ? ? ? ? ? ? ? ? ? ? ?
+;
+END;

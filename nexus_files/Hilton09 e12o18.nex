@@ -1,0 +1,32 @@
+#NEXUS
+
+[! Hilton, E. J. and Forey, P. L. 2009. Redescription of ? chondrosteus acipenseroides egerton, 1858 (acipenseriformes, ?chondrosteidae) from the lower lias of lyme regis (dorset, england), with comments on the early evolution of sturgeons and paddlefishes. Journal of Systematic Palaeontology 7:427-453.] 
+
+Begin data;
+	Dimensions ntax=18 nchar=48;
+	Format datatype=standard symbols="0123";
+	Matrix
+Boreosomus     0100001100?01200??00000000000?0??00000?0100?000?
+Birgeria       0100101100?01200??0000000000000??00010?000000000
+Chondrosteus   010000?01??01210??1000000110001??00010?011000000
+Peipiaosteus   0000???000?01200??101100011002???10010?000000010
+Polyodon       1111???00000100100202100111?01001110100010000011
+Protopsephurus 1011???01000101100101100111100???11010?011000000
+Psammorhynchus 0000???10?101211102???11011011???10120?211110101
+Hhuso          010000021100011101211110011010101101310111111111
+Scaphirhynchus 000000031111011110211111011112110101311211111101
+Pkauffmani     000001121101111100211111011022111101311311111101
+Phermanni      000001121101111100211111011022111101310311111101
+Abrevirostrum  000010021110011100211110011011111101310111111111
+Astellatus     000001121101111100211110011021111101310111111111
+Aruthenus      0?0000021100011101211110011011110101310111111111
+Afulvescens    000010021110011100211110011011111101310111111111
+Aoxyrinchus    010000021110011100211110011021111101310111111111
+Atransmontanus 000000021110011100211110011021111101310111111111
+Abaeri         000000021100011101211110011021111101310111111111
+	;
+End;
+begin sets;
+taxset fossil = Boreosomus Birgeria Chondrosteus Peipiaosteus Protopsephurus Psammorhynchus ;
+taxset extant = Polyodon Hhuso Scaphirhynchus Pkauffmani Phermanni Abrevirostrum Astellatus Aruthenus Afulvescens Aoxyrinchus Atransmontanus Abaeri;
+end;

@@ -1,0 +1,27 @@
+#NEXUS 
+
+[!Vendrasco 2004 Nature chitons]
+
+Begin data;
+	Dimensions ntax=11 nchar=14;
+	Format datatype=standard symbols="0123" missing=? gap=-;
+	Matrix
+
+Acaenoplax	0011010000{2,3}?01
+Chaetoderma	00?100???????1
+Echinochiton	12111101013???
+Epimenia	001100???????1
+Glaphurochiton	11110101013110
+Halkieria	12?001?0201?0?
+Lepidochitonia	11110101013110
+Lingula		20000112221000
+Neoplinia 	1010010?1?0000
+Novocrania	20000100221100
+Polysacos	121?110001211?
+;
+end;
+begin paup;
+ctype ord: all;
+end;
+
+

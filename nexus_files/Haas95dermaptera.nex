@@ -1,0 +1,23 @@
+#NEXUS 
+
+[!Haas, F. 1995. The phylogeny of the forficulina, a suborder of the dermaptera. Systematic Entomology 20:85-98]
+
+Begin data;
+	Dimensions ntax=13 nchar=23;
+	Format datatype=standard symbols="0123" missing=? gap=-;
+	Matrix
+Leucophaeamadera 	00000000-1---0000101---
+Periplanetaamericana 	00000000-1---0000101---
+Polyphagaaegyptica 	00000000-1---0100101---
+Karschiellidae 		0000000------0010111300
+Haplodiplatysorientalis 01100000010000010111020
+Diplatysjacobsoni 	11110000010000010111020
+Pygidicranidae 		11110000010000010011010
+Apachyidae 		11110000101001011010111
+Labiduridae 		11110001101101110010111
+Anisolabididae 		11111111101101110010110
+Spongiphoridae 		11111111101111110010200
+Chelisochidae 		11111111101111110010201
+Forficulidae 		11111111101111110010201
+;
+end;

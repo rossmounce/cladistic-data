@@ -1,0 +1,54 @@
+#NEXUS
+
+[!Lucinda, P. and Vari, R. 2009. New steindachnerina species (teleostei: Characiformes: Curimatidae) from the rio tocantins drainage. Copeia 2009:142-147.]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=22 NCHAR=29;
+	FORMAT SYMBOLS= "0 1 2 3 4" MISSING=? GAP=- ;
+MATRIX
+Steindachnerina_amazonica	3 1 0 1 1 2 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0
+	
+Steindachnerina_argentea	0 0 1 0 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0
+	
+Steindachnerina_atratoensis	2 1 0 1 1 2 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0
+	
+Steindachnerina_bimaculata	0 0 1 0 1 1 0 1 1 1 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 0 0 0 0
+	
+Steindachnerina_binotata	0 0 1 0 1 1 0 1 1 1 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 1 1 1 0
+	
+Steindachnerina_biornata	1 1 0 1 1 2 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+	
+Steindachnerina_brevipinna	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0
+	
+Steindachnerina_conspersa	0 0 1 0 1 1 0 1 1 1 0 0 0 0 1 1 1 0 0 1 1 0 0 1 1 0 0 0 0
+	
+Steindachnerina_dobula	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	
+Steindachnerina_elegans	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0
+	
+Steindachnerina_fasciata	3 1 0 1 1 2 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0
+	
+Steindachnerina_gracilis	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 1 2 0 0 0 1 0 1 1 1 0 1
+	
+Steindachnerina_guentheri	3 1 0 1 1 2 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0
+	
+Steindachnerina_hypostoma	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 1 2 0 0 0 1 0 0 1 1 0 1
+	
+Steindachnerina_insculpta	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+	
+Steindachnerina_leucisca	0 0 1 0 1 1 0 1 1 1 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 1 1 1 0
+	
+Steindachnerina_notograptos	1 1 0 1 1 2 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1
+	
+Steindachnerina_notonota	3 1 0 1 1 2 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0
+	
+Steindachnerina_planiventris	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 1 2 0 0 0 1 0 1 1 1 0 1
+	
+Steindachnerina_pupula	3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0
+	
+Steindachnerina_quasimodoi	3 0 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 1 1 0 0 0 1 0 1 1 1 0 1
+	
+Steindachnerina_varii		3 1 0 1 1 2 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+;
+end;
+

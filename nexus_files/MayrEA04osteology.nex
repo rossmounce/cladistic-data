@@ -1,0 +1,28 @@
+#NEXUS
+
+[!Mayr, G., Mourer-Chauviré, C. & Weidig, I.: Osteology and systematic position of the Eocene Primobucconidae (Aves, Coraciiformes sensu stricto ), with first records from Europe. Journal of Systematic Palaeontology, 2 (1): 1-12.]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=16 NCHAR=36;
+	FORMAT SYMBOLS= " 0 1 2" MISSING=? GAP=-;
+MATRIX
+
+Musophagidae       1 0 1 0 0 0 0 0 0 0 0 0  0  0 0 0  1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0  0  0 0 0
+Caprimulgidae      0 0 0 0 0 0 0 0 0 0 0 0  1  0 1 0  0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0  0  0 0 0
+Primobucconidae    0 ? 1 ? 0 0 ? ? 0 ? 0 0  0  ? 0 ?  ? 1 0 1 ? 0 0 0 ? 1 1 0 1 1 0 1  0  ? 0 ?
+Eocoraciidae       ? ? 1 ? 1 0 ? ? 0 ? 0 0  0  ? 0 ?  1 1 0 1 ? 0 0 1 ? 1 1 ? ? ? 0 1  0  ? 0 ?
+Geranopteridae     ? ? ? ? 1 1 ? ? 0 ? ? ?  ?  1 0 ?  ? 1 1 1 0 0 ? ? ? 1 1 0 1 1 0 1  ?  ? 0 ?
+Brachypteraciidae  1 0 1 1 1 1 0 1 0 0 0 0  1  1 0 {01} 1 1 1 1 1 1 0 1 0 1 1 0 1 1 0 1  0  0 0 0
+Coraciidae         1 0 1 1 1 1 0 1 0 0 0 0 {01}  1 0 0  1 1 1 1 1 0 0 1 0 1 1 0 1 1 0 1  0  0 0 0
+Meropidae          0 0 0 0 0 0 1 1 0 0 0 1  0  1 0 0  1 1 1 1 0 1 0 1 0 1 1 0 0 0 0 1  1  1 0 1
+Alcedinidae        1 0 1 1 0 0 1 0 0 0 0 1  0  1 0 1  1 1 1 0 0 1 0 1 0 1 1 0 1 0 0 1  1  1 0 1
+Momotidae          1 1 0 0 0 0 1 1 0 1 0 1  0  1 1 0  1 1 1 0 0 1 0 1 0 1 1 0 0 0 0 1  1  1 0 1
+Todidae            1 1 0 1 0 0 1 1 0 1 0 1  0  1 1 1  1 1 1 0 0 1 0 1 0 1 1 0 0 0 0 1  1  1 0 1
+Leptosomidae       1 0 1 0 1 0 0 0 0 0 0 0  0  0 0 0  0 1 0 1 0 1 0 1 0 0 0 1 0 0 0 0  0  0 0 0
+Upupiformes        1 0 0 0 0 0 0 0 1 0 1 0  0  0 0 0  1 1 2 0 0 0 0 1 1 1 1 1 0 0 1 1 {01}  1 0 0
+Bucerotiformes     1 0 0 0 0 0 0 0 1 0 1 0  0 {01} 0 0  1 1 2 1 0 1 0 1 1 1 1 1 0 0 1 1  0 {01} 0 0
+Galbulae           1 0 1 0 1 0 0 1 0 0 1 0 {01}  0 0 1  1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0  0  0 1 0
+Pici              {01} 0 0 0 0 0 0 0 0 0 1 0  0 {01} 1 1  1 1 1 0 0 1 1 1 0 1 1 0 0 0 0 0  0  0 1 0
+;
+end;
+

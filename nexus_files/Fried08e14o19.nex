@@ -1,0 +1,36 @@
+#NEXUS
+begin data;
+dimensions ntax=19 nchar=58;
+format missing=? gap=- symbols="012345";
+matrix
+Polymixia 0 0 0 0 0 0 0 0 0 0 - 0 0 0 0	0 0 0 0 0 - 0 0 0 0 0 - ? 0 0	0 - 0 0 0 1 0 0 0 0 0 0 0 0 0	0 0 0 0 0 0 0 0 0 0 1 0 0
+Amphistium 0 ? 1 0 ? ? ? 1 ? 1 0 1 ? ? 0	0 ? 1 ? 1 ? 1 1 ? 1 0 0 0 1 0	? 0 0 1 1 2 0 1 ? 0 0 0 0 0 ?	0 1 0 0 0 0 0 0 0 0 0 0 1
+Caranx 0 0 1 0 0 0 1 0 1 0 - 1 0 0 0	0 0 1 1 1 1 1 0 1 1 0 0 ? 0 0	0 0 0 1 0 1 0 0 1 0 1 0 0 1 0	0 1 0 1 1 0 1 0 1 0 0 1 2
+Chaetodipterus 1 1 1 0 1 1 1 0 0 0 - 0 1 1 0	0 0 1 1 1 1 1 0 1 1 0 0 ? 0 0	0 1 0 2 0 2 0 0 ? 0 1 0 0 0 1	0 1 0 0 0 0 0 0 0 0 0 0 1
+Citharus 0 1 1 0 1 1 1 2 1 1 1 1 0 0 1	1 0 1 1 0 - 1 2 - 1 0 0 0 1 0	1 0 0 3 ? 1 1 2 - 1 - 1 0 0 0	1 1 0 1 0 1 1 1 0 0 1 1 1
+Cyttus 0 1 1 1 1 1 1 0 0 0 - 0 0 0 0	0 1 0 0 1 0 0 1 1 0 1 1 0 0 1	1 1 1 2 0 1 0 0 0 0 1 0 0 0 0	1 2 1 1 1 1 1 1 1 1 1 1 0
+Eobothus 0 1 1 0 1 ? ? 2 ? 1 1 ? 0 ? ?	? ? 1 ? 0 - 1 2 - 1 0 0 1 1 0	1 0 0 3 1 ? 1 2 - 1 - 0 ? 0 ?	2 1 1 0 1 1 1 0 1 1 1 2 ?
+Heteronectes 0 ? ? 0 0 ? ? ? ? 1 0 1 0 ? 0	0 0 1 1 1 1 1 ? ? 1 0 0 0 ? ?	0 0 0 ? ? ? 0 ? 1 0 1 0 0 0 1	0 1 0 0 0 0 0 0 0 0 0 0 1
+Joleaudichthys ? ? ? ? ? ? ? ? ? ? - ? ? ? ?	? ? 1 ? ? ? 1 2 - 1 0 0 0 0 0	1 0 0 3 1 2 1 1 ? 0 0 1 1 0 ?	? 1 ? ? ? 0 0 0 0 0 1 ? 1
+Monodactylus 1 0 0 0 1 0 1 0 1 0 - 1 0 ? 0	0 0 0 0 1 1 1 0 1 1 0 0 0 0 0	0 1 0 1 0 1 0 0 1 0 1 0 0 0 1	0 1 0 0 0 0 1 0 1 0 0 0 1
+Neocyttus 0 1 1 1 1 1 0 0 0 0 - 0 0 0 0	0 1 0 0 1 0 0 1 1 0 1 1 0{01} 1	0 0 1 2 0 1 0 0 0 0 1 0 0 0 0	1 2 1 1 1 1 1 1 1 1 1 1 0
+Numidiopleura 0 1 1 0 0 ? ? 1 ? 1 ? ? ? ? ?	? ? 1 ? 1 ? 1 2 - 1 0 0 1 1 1	? ? 0 3 1 1 1 2 ? 0 0 0 0 0 ?	? ? 0 0 ? 1 0 0 0 0 ? ? ?
+Platax 1 0 1 0 1 1 1 0 0 0 - 0 1 1 0	0 0 1 1 1 1 1 0 1 1 0 0 0 0 0	0 1 0 {12} 0 1 0 0 1 0 1 0 0 0 1	0 1 0 0 0 0 0 0 0 0 0 0 1
+Psettodes 0 0 1 0 0 0 1 0 1 1 1 1 0 0 0	1 0 1 1 1 1 1 2 - 1 0 0 0 0 0	1 0 0 3 1 2 1 1 0 0 0 1 1 0 0	0 1 0 0 0 0 0 0 0 0 1 2 1
+Scorpis 1 0 0 0 1 0 1 0 1 0 - 0 1 0 0	0 0 0 0 1 1 1 0 1 1 0 0 ? 0 0	0 0 0 1 0 2 0 0 1 0 1 0 0 0 1	0 1 0 0 0 0 0 0 0 0 0 0 1
+Tephrinectes 0 1 1 0 1 1 1 2 1 1 1 1 0 1 1	1 0 1 1 0 - 1 2 - 1 1 0 1 1 0	1 0 0 3 1 2 1 2 - 1 - 0 0 0 0	1 2 0 0 0 1 0 0 0 0 1 1 1
+Trachinotus 0 {01} 1 0 1 1 1 0 1 0 - 1 0 1 0	0 0 1 1 1 1 1 0 1 1 0 0 ? 0 0	0 0 0 1 0 0 0 0 1 0 1 0 0 1 0	0 1 0 0 0 0 1 0 1 0 0 1 2
+Xenolepidichthys 0 1 1 1 1 1 0 0 0 0 - 0 0 1 0	0 1 0 0 1 0 0 1 0 1 1 1 0{01} 1	0 1 1 2 0 1 0 0 0 0 1 0 0 1 0	1 2 1 1 1 1 1 1 1 1 1 1 0
+Zeus 0 1 1 1 1 1 1 0 0 0 - - 0 0 1	0 1 1 0 1 0 0 2 - 0 1 1 0{01} 1	1 1 1 2 0 1 0 0 0 0 1 0 0 1 0	2 2 1 1 1 1 1 1 1 1 1 2 2
+;
+end;
+begin sets;
+taxset fossil = Amphistium Eobothus Heteronectes Joleaudichthys Numidiopleura;
+taxset extant = Polymixia Caranx Chaetodipterus Citharus Cyttus Neocyttus Monodactylus Platax Psettodes Scorpis Tephrinectes Trachinotus Xenolepidichthys Zeus;
+end;
+begin PAUP;
+exclude uninf;
+charset cra= 1-16;
+charset non= 17-58;
+charpartition crantest= 1:cra, 2:non;
+end;

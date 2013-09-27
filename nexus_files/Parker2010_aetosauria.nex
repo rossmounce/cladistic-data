@@ -1,0 +1,40 @@
+
+#Nexus
+
+[To cite this Article Parker, William G. , Stocker, Michelle R. and Irmis, Randall B.(2008) 'A new desmatosuchine aetosaur
+(Archosauria: Suchia) from the Upper Triassic Tecovas Formation (Dockum Group) of Texas', Journal of Vertebrate
+Paleontology, 28: 3, 692 — 701
+To link to this Article: DOI: 10.1671/0272-4634(2008)28[692:ANDAAS]2.0.CO;2]
+
+BEGIN	DATA;
+DIMENSIONS	NTAX=19	NCHAR=37;
+FORMAT	SYMBOLS=	"	0	1	2	3	4	5	6	7	8	9 "	MISSING=?	GAP=X	;
+[X is unapplicable characters]
+
+MATRIX
+
+
+
+
+Postosuchus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	X	0	0	X	X	0	X	X	0	X	X	0	1	X	0	X	X	0	0	X	X	X	X
+Revueltosaurus	0	X	0	0	0	0	0	0	?	0	0	0	2	0	0	1	1	X	0	0	0	X	0	X	X	1	0	X	X	0	X	X	0	0	X	X	X
+Aetosaurus	0	1	1	0	1	1	1	1	0	0	0	?	2	0	0	0	0	0	0	?	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0	0
+Stagonolepis_robertsoni	1	2	1	0	1	1	1	1	0	0	0	0	2	0	0	0	0	0	0	?	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Stagonolepis_wellesi	?	?	?	?	?	?	?	?	?	0	0	0	2	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	?	0	0	0	0	0	0
+Aetosauroides	1	1	1	0	1	1	1	1	0	0	0	0	2	0	0	0	0	0	0	?	0	0	1	0	0	0	0	0	1	0	?	0	0	0	0	0	0
+Coahomasuchus	?	?	1	?	?	?	?	1	?	?	?	0	2	0	0	0	0	0	0	?	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0
+Desmatosuchus_haplocerus	1	2	1	?	1	1	1	1	?	0	1	1	0	0	1	1	0	1	1	0	1	2	0	1	1	1	1	2	0	2	?	0	0	0	1	0	1
+Desmatosuchus_smalli	1	2	1	1	1	1	1	1	1	0	1	1	0	0	1	1	0	1	1	0	1	2	0	1	1	1	1	2	0	2	?	0	0	0	1	0	1
+Heliocanthus	?	?	?	?	?	?	?	?	?	?	?	?	1	1	0	0	0	1	0	0	?	1	0	2	2	1	?	1	2	1	?	1	?	0	1	2	0
+Longosuchus	1	2	1	0	1	1	1	1	1	0	0	1	2	0	1	0	0	0	1	0	1	2	0	1	1	1	1	2	0	2	?	0	0	0	0	0	0
+Lucasuchus	?	?	?	?	?	?	?	?	?	?	?	?	2	0	1	0	0	1	?	0	1	2	0	1	1	1	1	2	0	2	?	1	?	0	0	0	0
+Neoaetosauroides	1	2	1	0	1	1	1	1	1	?	?	0	2	0	0	0	0	0	0	?	0	0	0	0	0	0	?	0	1	0	?	0	?	0	0	0	0
+Typothorax	1	2	1	1	1	1	1	1	0	1	1	1	2	1	0	1	1	0	0	1	0	0	1	2	2	1	0	1	1	0	?	0	1	0	0	1	0
+Paratypothorax	?	?	?	?	?	?	?	?	?	1	1	?	1	1	0	0	0	1	0	1	?	1	0	2	2	1	?	1	2	1	?	1	?	1	0	2	0
+Redondasuchus	?	?	?	?	?	?	?	?	?	?	?	?	2	1	?	1	1	0	0	1	?	?	1	?	?	?	?	?	?	?	?	0	?	0	?	?	?
+Tecovasuchus	?	?	?	?	?	?	?	?	?	?	?	?	2	1	0	0	0	1	0	1	?	1	0	2	2	1	?	1	2	1	?	0	0	1	0	2	0
+Acaenasuchus	?	?	?	?	?	?	?	?	?	?	?	?	2	0	?	1	0	1	?	0	1	2	0	1	1	?	?	2	0	2	?	0	?	0	0	0	?
+Sierritasuchus ?????????0 1120110010 12111??202 ?00000?
+;
+end;
+

@@ -1,0 +1,375 @@
+#NEXUS
+[File created by TreeBASE: 5/3/06 13:32:44]
+[Matrix accession#: M2721]
+BEGIN DATA;
+DIMENSIONS NTAX=41 NCHAR=166;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-2006.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=2721 on June 20, 2010, 11:42 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Liljeblad, J. and F. Ronquist. 1998. A phylogenetic analysis of higher-level gall wasps relationships (Hymenoptera: Cynipidae). Systematic Entomology, 28(3): 229-252.
+
+Study accession number = S1515
+Matrix accession number = M2721
+]
+FORMAT SYMBOLS = " a b c d e f g h i j " MISSING = - GAP = ? INTERLEAVE ;
+CHARLABELS
+[1]	'Shape_of_clypeus_ventrally'	[2]	'Shape_of_ventral_clypeal_margin'	[3]	'Clypeo-pleurostomal_lines'	[4]	'Direction_of_clypeo-pleurostoma'
+[5]	'Epistomal_sulcus'	[6]	'Distance_between_anterior_tento'	[7]	'Facial_strigae'	[8]	'Subocular_impression'	[9]	'Carina_from_ventral_margin_of_a'
+[10]	'Surface_of_upper_face'	[11]	'Antennal_rim'	[12]	'Antennal_socket'	[13]	'Orbits'	[14]	'Transition_between_eye_and_face'
+[15]	'Sculpture_on_vertex'	[16]	'Regular_sculpture_on_vertex'	[17]	'Median_hairy_strip_of_gula'	[18]	'Ventral_part_of_hypostoma'	[19] 'Position_of_gular_ridges'
+[20]	'Appearance_of_gular_sulci'	[21]	'Distinctness_of_gular_sulci'	[22]	'Distance_occipital_and_oral_for'	[23]	'Position_of_posterior_tentorial'	[24] 'Shape_of_posterior_tentorial_pi'
+[25]	'Depression_laterad_hypostomata'	[26]	'Ridge_from_hypostomata'	[27]	'Posterior_surface_of_cranium'	[28]	'Shape_of_occiput_medially'	[29] 'Sculpture_on_occiput'
+[30]	'Shape_of_odontoidea'	[31]	'Teeth_on_mandibles'	[32]	'Basal_swelling_of_anterior_side'	[33]	'Dorsal_margin_of_uppper_tooth_o'	[34] 'Posterior_ventral_surface_of_ma'
+[35]	'Oval_window'	[36]	'Prementum_and_stipes'	[37]	'Carina_on_stipes'	[38]	'Cardo'	[39]	'Apical_peg_of_palps'
+[40]	'4th_and_5th_segment_of_maxillar'	[41]	'Second_segment_of_maxillary_pal'	[42]	'First_segment_of_maxillary_palp'	[43] 'No._of_segments_of_labial_palp'	[44]	'First_segment_of_labial_palp'
+[45]	'Female_flagellomeres'	[46]	'Length_of_F1'	[47]	'Male_flagellomeres'	[48]	'Modified_part_of_F1'	[49]	'Longitudinal_ridge_on_F1'
+[50]	'Length_of_F1'	[51]	'Shape_of_pronotum'	[52]	'Anteroventral_margin_of_pronotu'	[53]	'Anterior_flange_of_pronotum'	[54] 'Admedian_depressions_of_pronotu'
+[55]	'Shape_of_admedian_depressions'	[56]	'Dorsal_pronotal_margin'	[57]	'Dorsal_pronotal_area'	[58]	'Sculpture_on_pronotal_plate'	[59] 'Lateral_margin_of_posterior_par'
+[60]	'Lateral_pronotal_carina'	[61]	'Ridges_on_laterally_on_pronotum'	[62]	'Sculpture_laterally_on_pronotum'	[63]	'Pronotal_surface_laterodorsally' [64]	'Ventral_corner_of_spiracular_in'
+[65]	'Lateroventral_margin_of_pronotu'	[66]	'Subventral_impression_of_pronot'	[67]	'Position_of_profurcal_pit'	[68]	'Shape_of_profurcal_pit'	[69] 'Lateral_profile_of_mesoscutum_a'
+[70]	'Anterior_mesoscutal_margin'	[71]	'Incision_anteriorly_at_end_of_a'	[72]	'Impression_mesad_parascutal_car'	[73] 'Anterolateral_mesoscutal_margin'	[74]	'Mesoscutum_midlaterally'
+[75]	'Sculpture_of_mesoscutum'	[76]	'Transverse_ridges_of_mesoscutum'	[77]	'Pubescence_on_mesoscutum'	[78]	'Lateral_bar'	[79] 'Posterodorsal_margin_of_axillul'
+[80]	'Posterior_part_of_axillular_sur'	[81]	'Axillar_carina'	[82]	'Subaxillular_bar'	[83]	'Shining_strip_posterodorsally'	[84]	'Notauli'
+[85]	'Median_mesoscutal_impression'	[86]	'Scutellar_foveae'	[87]	'Sculpture_in_foveae'	[88]	'Posteromedian_scutellar_impress'	[89] 'Ventral_surface_of_mesopectus'
+[90]	'Lateral_part_of_mesopectus'	[91]	'Specular_sculpture'	[92]	'Direction_of_regular_costulae_o'	[93]	'Below_mesopleural_triangle'	[94] 'Ventral_border_of_mesopleural_t'
+[95]	'Posterior_subalar_pit'	[96]	'Lower_half_of_mesopleural_trian'	[97]	'Mesopectus_ventrally'	[98]	'Acetabular_carina_medially'	[99] 'Carina_from_mesocoxal_foramen'
+[100]	'Rim_surrounding_mesocoxal_foram'	[101]	'Position_of_mesocoxal_foramen'	[102]	'Metascutellum'	[103]	'Bar_ventral_to_metanotal_trough' [104]	'Shape_of_metanotal_trough'
+[105]	'Anterior_end_of_metapleural_sul'	[106]	'Distance_metepimeron-metepister'	[107]	'Carina_from_calyptra'	[108]	'Lateral_propodeal_carina'	[109] 'Shape_of_lateral_propodeal_cari'
+[110]	'Length_of_nucha_dorsally'	[111]	'Posterodorsal_edge_of_nucha'	[112]	'Position_of_metacoxal_foramen'	[113] 'Blunt_projection_from_metasubpl'	[114]	'Position_of_metafurcal_pit'
+[115]	'Petiolar-metecoxal_triangle'	[116]	'Position_of_petiolar_foramen'	[117]	'Carina_on_procoxa'	[118]	'Anterior,_lateral_crest_of_proc'	[119] 'Annular_girdle_of_procoxa'
+[120]	'Mesocoxa_anteriorly'	[121]	'Annular_girdle_of_mesocoxa'	[122]	'Laterobasal_hump_on_mesocoxa'	[123]	'Mesofemur'	[124]	'Metatarsal_claw'
+[125]	'Subapical_seta_on_metatarsal_cl'	[126]	'Pubescence_on_metacoxa'	[127]	'Vertical_strigae_on_metacoxa'	[128]	'Carina_on_metatibia'	[129] 'Shape_of_2r'
+[130]	'Length_of_2r'	[131]	'Direction_of_R1_laterad_2r'	[132]	'Extent_of_R1_at_marginal_cell'	[133]	'Areolet'	[134]	'Length_of_basalis'
+[135]	'Position_of_Rs+M_on_basalis'	[136]	'Bulla_in_R1+Sc'	[137]	'Angle_R+Sc—R1+Sc'	[138]	'M_at_junction_with_2r-m'	[139]	'Hair-fringe_along_margin'
+[140]	'Size_of_3tg'	[141]	'Anterior_margin_of_3tg'	[142]	'Posterior_margin_of_3tg'	[143]	'Pubescence_on_3tg'	[144]	'3tg_and_4tg'
+[145]	'Posterior_margin_of_4tg'	[146]	'Sculpture_of_5tg'	[147]	'Anterior_margin_of_5tg'	[148]	'Flange_of_petiole'	[149] 'Pubescence_on_petiolar_flange'
+[150]	'Protuberance_on_petiole'	[151]	'Sternal_apodeme_of_3st'	[152]	'Apex_of_ventral_spine'	[153]	'Ventral_hairs_on_7st'	[154] 'Vental_margin_of_metasoma'
+[155]	'Dorsal_margin_of_9tg'	[156]	'Position_of_cercus'	[157]	'Insertion_of_cercus'	[158]	'Third_valvula'	[159]	'Length_of_terebra'
+[160]	'Length_of_third_valvula'	[161]	'Structure_of_9tg'	[162]	'Apical_part_of_aedeagus'	[163]	'Length_of_paramere'	[164] 'Basidorsal_margin_of_parameral'
+[165]	'Life_history'	[166]	'Host_plant_family'
+;
+STATELABELS
+1 'projecting_over_mandibles' 'not_projecting',
+2 'Straight_or_rounded' 'Median_incision',
+3 'Present' 'Absent',
+4 'Ventrally_diveriging' 'Ventrally_converging',
+5 'Present' 'Absent',
+6 'Long' 'Short',
+7 'Reaching_compound_eye' 'Reaching_past_0.7_of_distance_t' 'Not_reaching_past_0.6_of_distan' 'Absent',
+8 'Absent' 'Present',
+9 'Absent' 'Present',
+10 'Flat' 'Slightly_raised' 'Distinctly_raised',
+11 'Distinctly_widened_lateroventra' 'Not_widended',
+12 'Small' 'Large',
+13 'Flat' 'Impressed',
+14 'Smooth,_face_rising_to_eye' 'Smooth,_face_not_rising' 'Abrupt',
+15 'Regularly_polygonal' 'Erased' 'Punctate',
+16 'Concave' 'Flat' 'Convex',
+17 'Broad' 'Narrow' 'Absent',
+18 'Not_projecting_from_cranial_mar' 'Distinctly_projecting',
+19 'United_well_before_hypostomata' 'Free,_but_meeting' 'Free,_well_separated',
+20 'Distinctly_marked' 'Indistinct' 'Absent',
+21 'Raised' 'Reduced',
+22 'Short' 'Long',
+23 'High' 'Low',
+24 'Rounded' 'Slitlike',
+25 'Absent' 'Present',
+26 'Absent' 'Present',
+27 'Distinctly_impressed' 'Almost_flat',
+28 'Flat' 'Sharply_impressed' 'Broadly,_gradually_impressed',
+29 'Transversely_wrinkled' 'Not_wrinkled',
+30 'Narrow,_pointed' 'Broader,_more_rounded',
+31 'Three' 'Two',
+32 'Small' 'Large',
+33 'Evenly_rounded' 'Produced_into_an_extra_tooth',
+34 'Horizontal' 'Oblique',
+35 'Large' 'Small_or_absent',
+36 'Short' 'Elongate',
+37 'Present' 'Absent',
+38 'Large_part_visible_posteriorly' 'Small_part_visible_posteriorly' 'Not_visible_posteriorly',
+39 'Long_and_narrow' 'Short_and_broad',
+40 'Free_articulation' 'Rigid_insertion_of_5th_in_4th' 'Fused',
+41 'Short' 'Long',
+42 'Subrectangular' 'Triangular',
+43 'Three_normal' 'Three,_2nd_reduced' 'Two',
+44 'Long' 'Short',
+45 '10' '11' '12' '13',
+46 'Short' 'Long',
+47 '13' '12' '11',
+48 'Present' 'Absent',
+49 'Absent' 'Present',
+50 'Short' 'Long',
+51 'Long_medially' 'Intermediate' 'Short' 'Very_short',
+52 'Evenly_rounded' 'Medially_incised',
+53 'Long,_horizontal' 'Short,_oblique',
+54 'Separated' 'United',
+55 'Round' 'Oval' 'Linear',
+56 'Sharp' 'Blunt',
+57 'Present_and_exposed' 'Absent_or_hidden',
+58 'Glabrous-glabrate_and_shining' 'Coriarious_and_dull',
+59 'Marked_entirely' 'Marked_only_ventrally',
+60 'Present' 'Absent',
+61 'Lacking' 'Some_irregular_in_lower_half' 'Many_regular',
+62 'At_least_superficially_sculptur' 'Laregely_glabrous',
+63 'More_or_less_vertical' 'Broad_dorsal_strip_inflected' 'Gradually_curved_inwards_dorsal',
+64 'Pointed' 'Rounded',
+65 'Concave' 'Straight',
+66 'Narrow_and_distinct' 'Broad_and_shallow',
+67 'Anterior_to_middle_of_furcaster' 'At_or_behind_middle',
+68 'Rounded,_small' 'Transverse,_large',
+69 'Not_recurved' 'Recurved',
+70 'Angled_laterally,_narrow_medial' 'Angled_lat.,_truncate_med.' 'Evenly_rounded_throughout',
+71 'Absent' 'Present',
+72 'Ending_in_front_of_tegula' 'Continuing_to_notaulus',
+73 'Mesoscutal_margin_not_projectin' 'Mesoscutal_margin_projecting_ov',
+74 'Slightly_rounded' 'Distinctly_rounded' 'Conspicuously_rounded',
+75 'Glabrous' 'Shining_coriarious-racemose_to_' 'Dull',
+76 'Present' 'Absent',
+77 'As_dense_as_on_pronotum' 'Distinctly_less_dense' 'Almost_bare',
+78 'Present' 'Absent',
+79 'Not_marked' 'Distinctly_marked',
+80 'Shallowly_impressed' 'Deeply_impressed',
+81 'Distinct' 'Indistinct_or_absent',
+82 'Broad,_vertical' 'Narrow,_horizontal',
+83 'Dorsal_projection_absent' 'Dorsal_projection_present',
+84 'Percurrent_and_distinct' 'Percurrent,_anterior_half_indis' 'Absent_in_anterior_half_only' 'Absent',
+85 'Present,_extendingly' 'Present,_slightly' 'Absent',
+86 'Present' 'Absent',
+87 'Glabrous_to_glabrate' 'Finely_coriarious',
+88 'Absent' 'Present,_round_and_margined',
+89 'Protruding_ventrally' 'Not_protruding_ventrally',
+90 'Long_and_low' 'Intermediate' 'Short_and_high',
+91 'Glabrous' 'Reticulate_to_rugulose' 'Regularly_costulate-strigate',
+92 'Horizontal' 'Obliquely_downwards',
+93 'No_regular_sculpture' 'Regular,_closely_set_striae' 'Regular,_reticulate',
+94 'Clearly_set_off' 'Diffuse',
+95 'Large,_deep' 'Small,_shallow',
+96 'Smooth_or_irregular' 'Strigate',
+97 'Only_slightly_bulging' 'Prominently_bulging',
+98 'Absent' 'Distinct,_slightly_raised' 'Distinct,_strongly_raised',
+99 'Absent' 'Present',
+100 'Narrow_throughout' 'Expanded_posteriorly',
+101 'Removed_from_posterior_margin' 'Close_to_posterior_margin',
+102 'Subrectangular' 'Constricted_medially',
+103 'At_least_partly_smooth' 'Covered_with_irregular_sculptur',
+104 'Narrow,_apically_rounded' 'Broad,_apically_truncate',
+105 'Low' 'High',
+106 'Short' 'Intermediate' 'Long',
+107 'Present' 'Absent',
+108 'Present' 'Absent',
+109 'Narrow' 'Broad',
+110 'Long' 'Short',
+111 'Rounded' 'Angled',
+112 'Removed_from_anterior_margin' 'Closer_to_anterior_margin',
+113 'Absent' 'Present',
+114 'Anteriorly' 'Posteriorly',
+115 'Narrow' 'Broad',
+116 'Anteriorly' 'Posteriorly',
+117 'Absent' 'Present',
+118 'Present' 'Absent',
+119 'Posteriorly_just_touching_margi' 'Posteriorly_following_margin',
+120 'Strongly_protruding' 'Less_strongly_protruding',
+121 'Distinctly_set_off' 'Posteriorly_continuous_with_cox',
+122 'Absent' 'Present',
+123 'Same_width_throughout' 'Distinctly_widened_subbasally',
+124 'Slightly_bent' 'Strongly_bent',
+125 'Absent' 'Present',
+126 'Two_distinct_lateral_bands' 'Less_distinct_bands' 'More_evenly_pubescent',
+127 'Absent' 'Present',
+128 'Absent' 'Present',
+129 'Simple' 'Prominent_vein_stump_projecting',
+130 'Long' 'Intermediate' 'Short',
+131 'Perpendicular_to_wing_margin' 'More_oblique',
+132 'Tubular_along_entire_margin' 'Tubular_only_along_basal_part' 'Ending_close_to_anterior_margin' 'Ending_before_anterior_margin',
+133 'Present' 'Absent',
+134 'Short' 'Long',
+135 'Low' 'High',
+136 'Absent' 'Present',
+137 'No_change_in_direction' 'Distinctly_angled',
+138 'Distinctly_angled' 'Straight',
+139 'Present' 'Absent',
+140 'Small' 'Intermediate' 'Large',
+141 'Straight' 'Upcurved',
+142 'Vertical' 'Oblique',
+143 'Very_sparse' 'Dense_hair-patch',
+144 'Free_sclerites' 'Fused',
+145 'Straight' 'Rounded_incision_medially',
+146 'Glabrous' 'Closely_and_distinctly_punctate',
+147 'Deeply_notched_medially' 'Straight',
+148 'Absent' 'Present,_slightly_projecting' 'Present,_distinctly_projecting',
+149 'Nude' 'Marginal_hair_fringe',
+150 'Absent' 'Present',
+151 'Distinct' 'Indistinct',
+152 'Not_prominent' 'Prominent',
+153 'Same_as_on_8tg' 'Distinctly_longer',
+154 'Oblique,_rounded' 'Distinctly_angled',
+155 'Straight' 'Curved',
+156 'Close_to_apex_of_9tg' 'Removed_from_apex_of_9tg',
+157 'Directly_attached' 'In_a_wide_membrane',
+158 'Broadened_apically' 'Not_broadened_apically',
+159 'Long' 'Intermediate' 'Short',
+160 'Short' 'Long',
+161 'Brown,_sclerotized' 'Opaque,_membranous',
+162 'Slightly_expanded_subapically' 'Distinctly_expanded',
+163 'Long' 'Short',
+164 'Distinctly_incised' 'Weakly_incised',
+165 'Nonalternating_generations' 'Alternating_generations',
+166 'Asteraceae' 'Papaveraceae' 'Rosaceae' 'Lamiaceae' 'Valerianaceae' 'Fagaceae' 'Fabaceae' 'Aceraceae',
+
+;
+
+MATRIX
+
+'Ibalia' aaaaaaaaaaaaaac-aaaaaaaaaaaa??aaaaaaaaaaaaaabaa(ab)abaaaab-aabaaaaa-aaaaaaaaaaabaaaa-aaaaaaaaaabbabaaaa
+'Paramblynotus' abaaaaaaacaaaaaabaaaaaaaaaaabbabaaaaabaaaaaaba(ab)baaaaaabaaa-aaaaaaaaaaaaaaaaaaaaaa--aaaaaaaaaabaaacaa
+'Pseudomelanips' b-aaaaaaaaaaabaa???????????????b????????????bbbbaaabbbbaaababaaa?-??aaaaaacbaabaaaacbaaabbcaaaaaa?a?
+'Euceroptres' abaaaaaaaaaaaac-baaaaaaababaaaabaaaaaaaaaaaacaaabaabbabaaabaaaa?aaaaaaaaaacaaabaaaaaaaaabaaaaaaaabaa
+'Biorhiza' abaaaadbacbbbcaccacaaabaaabcabbabbbabcbbbacacbaabadbbb-bbabbbabbbabbababbaabcaaaabbabaaabbaaaaababaa
+'Neuroterus' aaaabadbacbbbcaccacaaabaaabcbbbabbbabcbcbacadba???dabb-abacbbabababbababbaabcbaaabadcaaabcaaabbaaaaa
+'Andricus' a(ab)aaaacaab(ab)abcaccaabaaaababcabb(ab)baaabbbaaa(ab)a(bc)baaaadbbb-bbabbbabababaaaabba(bc)b(ab)aaaabbacaaabbaaaaa(ab)abaa
+'Plagiotrochus' aaaaaaaaabbabcabcaabaaaaaabcabbabbaabcbaaabacaaaabdabb-abacbaabbbabaaaabbabbcaaabbbbbaaabc(ab)aabaabbaa
+'Pediaspis' aaaaaacababbacb-cabaaaaaaabbbbbbbbaabcbaaa(ac)acbababbbbaa?babbababbbbaababbaabbabbabbaab-bbbaaabaabbaa
+'Himalocynips' aaaaaadaacbbacb-cac????aaab????b???a?c???aaadb????abbaabbaabbbaabb??abbabaabbabbabbaab-bbbaaabaabba?
+'Diplolepis' aaaaaadaaababcaccaacaaaaaababbbbbbaabcaaaacacbbaabdabb-bbacbbaabbabbbcabaacbabaabaabcaaabbaaabaaaaaa
+'Eschatocerus' aaaabadba-babcaacaacaaabaabab-bba?bab-a---cabbcbabdbb--bbbcbaaabbabbbca-aacb-baab--dcb-abcbacbba-aaa
+'Asiocynips_pannucea' aaaaaaaaaabaacaa?aaaaba?b?b????b???aa?a?????bb????a?bacab?cbbaabaa??adaaaacaab?aaa?dcaaabbbacbaaa???
+'Asiocynips_lugubris' aaaaaabaaabaacac???????????aa??b???a????????cb????bbbacabacbbaab?a??adaaaacbabaa?abdbaaabcbaabaaa???
+'Phanacis_phlomidis' aaaaaacaaabaacaa???????????ab??b???a????????bb????a?bacabacbaaab?a??adaaabcbabaa?abdcaaabcbacbbaa???
+'Phanacis_centaureae' aaaaaacaaabaacaaaaacababbababaabbbaaaaaaaaaabbb???abbacabacbaaabbaaaadaaaacbabaaaabccaaabcbacbbaaaaa
+'Phanacis_hypochoeridis' aaabbaaaaabaababbabbaaabbababaababaaaaaaaabacab???abbacabacbaaaabaaaadaaabcbabbaaabcbaaabcbacbaaaaaa
+'Timaspis' aaaaaacaaabaacabaabbaaabaababaababaaaaaaaaaacbbaabcabacabacabaabbaaaadaaaacbabbaaabbbaaabcbaabbaaaaa
+'Iraella' abaaaadaaabaabaababbaaabaababaabbaabacaaaaaaca(ab)???cbbabababbaaabbaaaaaaaaacbaaaababbaababcbacaaaabaa
+'Aylax' abaaaacaaabaababbabaaaabaababaabbaabacaaaaaacaabaacbbabababbaaaaaaaaadaaaacbaabababaaaaabbaabaaaabaa
+'Barbotinia' b-ababaaaaa?abaaaacaaaaaaabbaaabaaabacaaaaaacaabaacbbabababbbaabaaaaaaaaaacbaabaaabaaaaabbbaaaaaabaa
+'Panteliella' aaaaaadaaabaacaa??b?aaa????a??aba?aa????????caa???b?babababbbaca?a??aaaaabcbaabababcaaaab(bc)cbbaaba???
+'Vetustia' aaaaaabaaaaaabab???????????aa??b????????????ba????abbababbbbbaaa?a??aaaaabcbbababa?bbaaabbcbbaaba???
+'Aulacidea_verticillica' aaaaaaaaaaaaabaa????????????a???????????????aa????a?babababbbaaa?a??aaaaaacbbabaaabcbaaabbcbbaaaa???
+'Aulacidea_phlomica' aaaaaaaaaaaaabaa???????????????b????????????aa????abbabababbbaaaaa??aaaaaa?baabab?a{ab}?aaabbcabaaaa???
+'Aulacidea_tragopogonis' aaaaaaaaaaaaabaabaacaaabbabaaaabaaaaaaaaaaaabab???abbabababbaaaaaaaaaaaaaacbaaaaaaaaaaaabbcabaaaabaa
+'Isocolus' abaaaabaaaaaabaabaabaaabbbbaaaabaaaaaaaaaaaababbaaabbabababbaaaaaaaaaaaaaacaaaaabaaacaaabbcabaaaabaa
+'Neaylax' b-ababaaaaaaaaaabaaaaaabbabaaaabaaabaaaaaaaaaa(ab)???abbaaabbbbaaaaaaaaaaaaaacbaabbaabacababb(bc)abaaaabaa
+'Hedickiana' b-ababaaaaaaaaaa?????a??babab??????b???a????aabaaaabbababbbbaaaaaa??aaaaabcbaabbaabcbababbbabaaaa???
+'Rhodus' b-abaaaaaaaaaaaa????????????a??????????a????babaaaa?bababbbbaaaaaa??aaaaabcbaabbbabcbababbcabaaaa???
+'Antistrophus' b-ababcaaaa?abaababaaaabbabbaaabaaaaabacaaaabab???aababbbbbbaacbaaaaaaaaaccbaabbbabcbababbbacaaaabaa
+'Cecconia' b-ababaaaaaaabaa????????????b???????????????bab??abbbababbbbaacaaa??aaaaaccbaabbaabccababbcabaaaa???
+'Aulacidea_kerneri' aaaabacaaaaaabab????????????????????????????bba???a?baaabaabaaaaaa??aaaaaabbbabbaababaaabbcabaaaa???
+'Liposthenes' abaaaadaaaababaccacaaaaababbabbbaaaaabaabaaababbaaaabaaabaabcaaaaaaaabaaaabbcabbaababaaabbcabaaaabaa
+'Gonaspis' b-b-baaabaaaabb-ba-cbaaababbababaaaaabaaaaaacbbabaaabaaabaabcaaaaaaaaaaaababcabaaabaaaaabbaaaaaaacaa
+'Diastrophus' abb-bababaaaacb-ba-cbaaababbababaaaaabaaaaaabbbabaaabaaabaabcaaaaaaaaaaabbabcabbaababaaabbaaaaaaabaa
+'Xestophanes' b-b-aaaabaaaabb-ba-bbaaababbababaaaaaaaaababbababaaabaaabaabababaaaaaabaaaabcabaaabcbaaabbaaaaaaabaa
+'Synophromorpha' b-b-aaaabaaaacb-baababaabbbbbbabaaaaaaaaababaababaaabaaabaabaaaaaaaaaabaaaabcaaaaabbbaaabbaaaaaaacaa
+'Ceroptres' b-b-baaabaaaacacbaacababbbbabaabaaaaaaaaabbbaaa???babababaabaaaaaaaaaabaaacbaabaaabbbaaabaaaaaaaacaa
+'Periclistus' b-b-baaaaaaaacacbbacababbbbabbabaaaaaaaaababaababaaabababaabbaaaaaaaabbaaacbaabaaabbbaaabbcabaaaacbb
+'Synergus' b-b-baaaaaaaacacbbacababbababbabaaaaaaaaababcbaabbcabababababaaaaaaaabbaaacaaaaaaabbbaaabacabaaaacbb
+
+
+'Ibalia' -aaaaaaaaaa-a---aaaaaaaaacaa---ababaaaabaaaaaaaa-aaaaaa??aaaaaaaa-
+'Paramblynotus' baa-b-aabaaaaaa-abaaaabaaaaaaaabbbbaa-abaaaaaaacaaaaaaaaabaaa???a-
+'Pseudomelanips' ?aabaaaaaaaa?????a?aaaba?aabaaaaababaaacbbaaab???-?aa??aab?b????ab
+'Euceroptres' baaaaaaaaaaaaaaabbaaaabbaaabaaaaababaaacbbaaabbbaaaaaaaaaacaaaaaaf
+'Biorhiza' babbaabaaabbabaaabbbbaabacaabcbcaabbbaacbaaaaaaa-abbbbbaaacaabaabf
+'Neuroterus' babbaabaab-babbaabbbbaabacaaacbcaabbaaacaaaaaaaa-abbbabbaaaa????bf
+'Andricus' ba(ab)aaabababbabaabbabbaababaa(ab)cbcabbbbbacba(ab)abbba-abbbbbbaabaabbabf
+'Plagiotrochus' babbaabaabbbabba?babbaaaabaaacbcaabbbaacbaaaaaaa-aba-abbabcaabbabf
+'Pediaspis' babbaaaaaabaaaaabbaabbaaabaaabbcaabbbaacbaaaaaba-abababaaacaaabbbh
+'Himalocynips' baabaaaaaaba??aa?baa?baaacaaabbcba-bb-abbaaaa-?a-a?aba?aa??a??????
+'Diplolepis' baabaaab-bbaaababbaabaaaaaabbbababbbbaacbaaaaaba-abaaaaaaaba????ac
+'Eschatocerus' ba--aabb-b-baabaab-a-aaaabaaabbdb--ab-bcaaaab-ba-aba-aa?abcaababag
+'Asiocynips_pannucea' ?baabaab-aa??????b?a?aaa?baaaaaaaa?babbbaaaaab?????aaa?abb?a????a?
+'Asiocynips_lugubris' ?baabaab-aa??????b?a?aaa?baaa(ab)aaab?babbcaaaaab?????aaa?abb?b????a?
+'Phanacis_phlomidis' ?baabaab-aa??????b?a?aa???a?aaaaab?bbbabbaaaaa?????aaa?a?b?b????ad
+'Phanacis_centaureae' bbaabaaaaabaaababbaaaabaabaaaaababbbbaabbaaaaaba-aaaaabaaaca????aa
+'Phanacis_hypochoeridis' bbabbaaaaaaaaababbaaaabaabaaaabbabbbbbacbaaaaabaaaaabaaaaaacaa??aa
+'Timaspis' bbbbaaaaabaaaababbaaaabaabaaaaabababbaacbaaaaaba-abaaaaaabcaaaabaa
+'Iraella' bbbaaaaaaaaaaababbaaaaaaacaaabbcabbbbbabaabaaaba-aaaaaaaaaca????ab
+'Aylax' bbaaaaaaaaaaaababbabaabaabaaabbcabbbbbacaabaaaba-baaaaaaabbaaabbab
+'Barbotinia' bbaaaababaaaaaaabbaaaabaaaaaabbbabbbbbabaaaababcabaaaabaaabbaabbab
+'Panteliella' bb?abbaa?????aa????a?aba?aaaacbcbabbb-acaaaa?b?????aaabaabca????ad
+'Vetustia' bbabbbaabaa??????b?a?aba?abaaabaab?bbbacabaaab?(bc)???aaa?aab?a????ad
+'Aulacidea_verticillica' a???acaa?aa?????bb?a?aba?aaaabbbaaabbbababaaaa?????aab?aa??a????ad
+'Aulacidea_phlomica' a???bbaabaa?????bb?a?abbaaaaabaaaabbbbbbabbaaa?(bc)???aab?abb?b????ad
+'Aulacidea_tragopogonis' abaaabaabaaaaaaabbaaaabaaaaaababaabbbbabaabaabbbaaaaabaabbaa????aa
+'Isocolus' abaaabaabaaaaaaabaaaaabaaabaabacaabbabbbaaaaabbbaaaaabaabbaaaaabaa
+'Neaylax' bbbaabaaaaaaaaaabbaaaabaaaaaabbcaabbbaababaaabba-aaaabaaabba????ad
+'Hedickiana' bbaaabaaaaa??????b?aaabaaaaaabbcaabbbabcabaaab??aa?aab?aa??a????ad
+'Rhodus' ?baaacaaaab??????b?aaabaaabaabbcbbabb-bcabaaaa?caa?aab?aab?a????ad
+'Antistrophus' bbaaacbaaaaaaaaabbaaaabaaaaaabbcbaabb-bcabaaabbcaaaaaaaaabca????aa
+'Cecconia' ?baaabbaaaa??????b?aaabaaaaaabbcbaabb-acabba?a?c?a?aab?aa??a????ae
+'Aulacidea_kerneri' ?baaaaaaaaa??????b?b?abaaaaaabbcbabbb-ababbaaa???a?aaa?aab?b????ad
+'Liposthenes' bbbaaaaaaaaaaaaabaaaaabaaabaabbcbabbb-acabbaaabcaaaaaaaaabcaaaaaad
+'Gonaspis' bbaaaaaaaaaaaaabbbaaaabbbaababbcaabbbaababaaaaba-aaaaabaabcaaabaac
+'Diastrophus' baaaaaaaaaaaaaaabbaaaabbbaaaabbcaabbbaabaaaaaabcaaaaaabaabcaaabaac
+'Xestophanes' bbbabaaabaaaaaabbbaaaabbbaaaaabbaabbbaaaaaabaabcbaaaaabaabcaaabaac
+'Synophromorpha' abaabaaabaabaaabbbaaaabbbaaaabbcaabbbbaaaabbbbbcbaaaabaabbabbaaaac
+'Ceroptres' abaabababaabababbbaaaabbbaaaaabaabbbbaaaaababbbcbabaabbaabbb????af
+'Periclistus' abaabaaaaaabbbabbbaaaabbbaaaaabaabbbabaaaabbbbbcbaaaabaabbbbbaaaac
+'Synergus' abaabaaabaabbbabbaaaaabbbaaaaabaabbbaaaaaaabbbbcbaaaabaabbabbaaaaf
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MAXSTEPS ; 
+TYPESET CURRENT = unord: 1 - 9 11 - 15 17 - 39 41 - 42 44 46 - 49 51 - 58 60 - 76 78 - 97 99 - 139 141 - 147 149 - 166 , ord: 10 16 40 43 45 50 59 77 98 140 148 ; 
+TYPESET SIDDALL = unord: 6 9 14 - 15 19 - 21 23 - 24 26 - 30 36 52 - 53 55 57 - 58 61 - 64 66 69 - 71 74 80 - 81 83 - 90 92 - 97 104 106 - 109 111 116 122 127 - 128 131 133 - 139 142 150 154 165 - 166 , ord: 1 - 5 7 - 8 10 - 13 16 - 18 22 25 31 - 35 37 - 51 54 56 59 - 60 65 67 - 68 72 - 73 75 - 79 82 91 98 - 103 105 110 112 - 115 117 - 121 123 - 126 129 - 130 132 140 - 141 143 - 149 151 - 153 155 - 164 ; 
+TYPESET * UNTITLED = unord: 1 - 6 8 - 9 11 - 15 17 - 18 21 - 37 39 41 - 42 44 46 48 - 50 52 - 54 56 - 58 60 - 73 76 78 - 83 86 - 89 91 - 97 99 - 105 107 - 125 127 - 129 131 133 - 139 141 - 147 149 - 158 160 - 166 , ord: 7 10 16 19 - 20 38 40 43 45 47 51 55 59 74 - 75 77 84 - 85 90 98 106 126 130 132 140 148 159 ; 
+WTSET * CURRENT = 1: 1 - 166 ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 1 trees. TreeBASE accession#: Tree4327 ]
+TRANSLATE
+1	'Aulacidea_tragopogonis',
+2	'Aulacidea_verticillica',
+3	'Phanacis_hypochoeridis',
+4	'Phanacis_centaureae',
+5	'Asiocynips_lugubris',
+6	'Asiocynips_pannucea',
+7	'Aulacidea_phlomica',
+8	'Phanacis_phlomidis',
+9	'Aulacidea_kerneri',
+10	'Pseudomelanips',
+11	'Synophromorpha',
+12	'Plagiotrochus',
+13	'Paramblynotus',
+14	'Himalocynips',
+15	'Eschatocerus',
+16	'Antistrophus',
+17	'Liposthenes',
+18	'Euceroptres',
+19	'Periclistus',
+20	'Xestophanes',
+21	'Diastrophus',
+22	'Panteliella',
+23	'Diplolepis',
+24	'Neuroterus',
+25	'Hedickiana',
+26	'Barbotinia',
+27	'Pediaspis',
+28	'Ceroptres',
+29	'Cecconia',
+30	'Vetustia',
+31	'Timaspis',
+32	'Biorhiza',
+33	'Synergus',
+34	'Gonaspis',
+35	'Isocolus',
+36	'Andricus',
+37	'Iraella',
+38	'Neaylax',
+39	'Ibalia',
+40	'Rhodus',
+41	'Aylax',
+;
+TREE 'Fig._3' = [&R] (((((((((((33,19),28),11),20),(21,34)),(17,9)),(((((29,16),40),25),38),(((35,1),7),(2,(30,22))))),(26,(41,(37,((31,(4,(3,(8,(5,6))))),((15,23),((14,27),(12,(36,(24,32)))))))))),(18,10)),13),39);
+
+
+END;

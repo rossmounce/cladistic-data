@@ -1,0 +1,40 @@
+#NEXUS
+
+[!Adnet, S. and Cappetta, H. 2001. A palaeontological and phylogenetical analysis of squaliform sharks (chondrichthyes: Squaliformes) based on dental characters. Lethaia: An International Journal of Palaeontology and Stratigraphy 34:234-248.
+DENTAL CHARACTERS ONLY]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=24 NCHAR=29;
+	FORMAT MISSING=? GAP=- symbols="0123";
+MATRIX
+Echinorhinus     0 2 0 0 0 2 3 0 1 1 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 1 0 0 0
+Etmopterus       1 2 0 1{01}2 2 2 2{12}2 0 0 2 2 1 0 2{01}0 1 0 0 1 1 1{23}1 2
+Centroscymnus    1{12}0 1 1 2 2 1 2 2 1 0 0 1{12}0 0 2 0 1 0 1 0 0 1 1 1 0 2
+Scymnodon        1 1 0 1 1 2 2 1 2 2 1 0 0 1 1 0 0 2 0 1 0 1 0 0 1 1 1 0 2
+Scymnodalatias   1 0 0 1 1 2 2 1 2 1 1 0 0 1 2 0 0 2 0 1 1 1 0 0 1 1 2 0 2
+Somniosus        1{12}0 1 1 2 2 1 2 2 1 1 0 1 1 0 0 2 2 1 0 1 1 0 1 1 1 1 2
+Oxynotus         1 0 1 1 1 2 3 1 2 2 1 0 0 1 2 0 0 2 2{01}0 1 1 0 1 1 1 0 2
+Dalatias         1 0 1 1 1 2 3 2 1 1 2 0 1 2 2 1 1 1 0 0 1 1 0 0 1 1 2 0 2
+Isistius         1 0 0 1 1 2 3 2 1 1 2 0 1 2 2 1 1 1 1 1 1 1 0 0 1 1 2 0 2
+Euprotomicrus    1 1 0 1 1 2 3 2 1 0 2 0 0 2 2 1 1 0 0 0 1 1 0 0 1 1 3 0 2
+Squaliolus       1 1 0 1 1 2 3 2 1 0 2 0 0 2 2 1 1 0 0 0 1 1 0 0 1 1 3 0 2
+Euprotomicroides 1 0 0 1 1 2 3 2 2 2 2 0 0 2 2 1{01}2 0 0 1 1 0 0 1 1 3 0 2
+Centrophorus     1 2{01}1 0 2 1 1 2 2 1 1 0 1 2 0 0 1 1 1 0 0 2 0 0 1 1 0 1
+Deania           1 2 0 1 0 2 1 1 2 2 1 0 0 1 2 0 0 1{01}1 0{01}2 0 0 1 1 0 1
+Squalus          0 2{01}1 0 1 0 1{01}{01} 1 1 0 1 2 0 0 1{01}0 0 1 2 0 0 0 0 0 0
+Cretascymnus     1 2 0 1 1 2 2 1 2 2 1 0 0 1 1 0 0 2 2 1 0 1 1 0 1 1 1 0 2
+Palaeomicroides  1 0 0 1 1 2 2 2 2 2 1 1 0 1 2 1 0 2 1 1 0 1 1 0 1 1 1 0 2
+Microetmopterus  1 2 0 1 0 2 2 ? 2 2 1{01}0 2 2 1 0 2 0 1 0 1 0 1 1 1 1 0 2
+Proetmopterus    1 2 0 1 1 2 2 2 2 2 1 0 0 2 1 1 0 2 1 1 0 1 0 1 1 1 1 0 2
+Eoetmopterus     ? 2 0 1 0 2 2 1 1 1{12}0 0 2 2 1 0 2 0{01}1 0 0 ? ? ? ? ? ?
+Protosqualus     0 2 0 1 0 1 0 1 1 1 1 0 0 1 2 0 0 ? ? 0 0 0 2 0 0 0 1 0 0
+Protospinax      0 0 0 1 0 0 0 0 ? ? 1 0 0 0 0 0 0 2 2 0 ? 1 2 0 0 1 1 0 0
+Squatina         0 0 0 0 0 0 0 0 1 1 1 0 0 1 2 0 0 1 1 0 0 0 2 0 0 1 1 0 2
+Pristiophorus    0 0 0 0 0 0 0 0 2 2 0 0 0 1 1 0 0 2 2 0 0 0 2 0 0 1 3 0 2
+;
+end;
+begin sets;
+taxset fossil = Proetmopterus Microetmopterus Cretascymnus Palaeomicroides Eoetmopterus Protosqualus Protospinax;
+taxset extant = Echinorhinus Etmopterus Centroscymnus Scymnodon Scymnodalatias Somniosus Oxynotus Dalatias Isistius Euprotomicrus Squaliolus Euprotomicroides Centrophorus Deania Squalus Pristiophorus;
+end;
+

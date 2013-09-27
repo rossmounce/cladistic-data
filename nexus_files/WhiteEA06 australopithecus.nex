@@ -1,0 +1,16 @@
+#NEXUS
+
+[!White, T. D., WoldeGabriel, G., Asfaw, B., Ambrose, S., Beyene, Y., Bernor, R. L., Boisserie, J.-R., Currie, B., Gilbert, H., Haile-Selassie, Y., Hart, W. K., Hlusko, L. J., Howell, F. C., Kono, R. T., Lehmann, T., Louchart, A., Lovejoy, C. O., Renne, P. R., Saegusa, H., Vrba, E. S., Wesselman, H., and Suwa, G. 2006. Asa issie, aramis and the origin of australopithecus. Nature 440:883-889.]
+
+begin data;
+dimensions ntax=6 nchar=13;
+format missing=? gap=- symbols="0123";
+MATRIX
+ape			00000 00000 {012}0{012}
+Miocene_hominids	{01}?-{01}1 10-00 000
+Ar.ramidus		11111 10000 000
+ASIARAHAN		2---- -1--1 111
+Au.anamensis		22121 -11{01}1 111
+Au.afarensis		32131 12211 2{12}1
+;
+end;

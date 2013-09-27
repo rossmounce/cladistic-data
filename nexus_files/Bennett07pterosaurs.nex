@@ -1,0 +1,17 @@
+#NEXUS
+
+[!Bennett, S. 2007. A second specimen of the pterosauranurognathus ammoni. Paläontologische Zeitschrift 81:376-398.]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=7 NCHAR=21;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+MATRIX
+Outgroup		0000000000 00000000000
+Anurognathidae		?101101100 00000000000
+Preondactylus		0000000?00 00?00011111
+Dimorphodontidae	1111100000 00000011111
+Campylognathoididae	1111111?11 11100011111
+Rhamphorhynchidae	1111111111 11111111111
+Pterodactyloidea	1111110111 ???11111111
+;
+end;

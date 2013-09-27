@@ -1,0 +1,34 @@
+#NEXUS
+
+[ONTOGENY AND RELATIONSHIPS OF THE
+TRILOBITE PSEUDOPETIGURUS PRANTL AND
+PRIBYL
+YUAN WENWEI*, RICHARD A. FORTEY  and SAMUEL T. TURVEY 
+Palaeontology, Vol. 49, Part 3, 2006, pp. 537–546]
+
+begin data;
+dimensions ntax=17 nchar=25;
+format missing=? symbols="0123456789" gap=-;
+matrix
+
+
+
+Dimeropyge_clintonensis 0 3 1 0 1 1 1 0 0 0 1 0 0 0 0 0 0 2 1 1 1 1 1 0 0
+Dimeropyge_virginiensis 1 3 0 0 1 0 1 0 0 1 1 1 0 0 0 0 0 1 1 1 1 1 1 0 0
+Dimeropyge_dorothyae 0 3 1 0 1 1 1 0 1 1 1 1 0 0 ? 0 ? 2 1 1 1 1 1 0 0
+Ischyrotoma_anataphra 3 3 1 3 1 1 0 0 1 2 1 1 1 0 1 1 0 1 0 1 1 1 1 2 1
+Ischyrotoma_stubblefieldi 2 0 2 1 1 1 0 0 1 2 1 1 1 0 1 1 0 1 0 1 1 1 1 2 1
+Ischyrotoma_wahwahensis 2 1 2 1 1 1 0 0 1 1 1 1 1 0 1 1 0 1 0 1 1 0 1 2 1
+Dimeropygiella_fillmorensis 1 2 1 1 1 1 0 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 2 1
+Dimeropygiella_blanda 1 3 1 2 1 1 0 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 2 1
+Pseudohystricurus_obesus 0 2 1 1 1 1 0 0 0 1 ? 1 ? 0 0 0 ? 0 0 1 1 1 1 1 0
+Pseudopetigurus_deprati 4 3 1 2 1 1 1 0 0 0 1 1 1 0 0 1 1 0 2 1 1 2 0 2 2
+Pseudopetigurus_ovatus 4 2 1 ? 1 1 1 0 0 0 ? ? 1 0 0 1 1 0 ? 1 1 2 0 ? 2
+Glaphurella_harknessi 0 1 1 1 0 0 0 ? 1 ? ? ? 0 0 0 0 0 ? ? ? 1 3 1 1 2
+Celmus_granulatus 0 1 2 0 0 0 1 0 0 2 1 1 1 1 0 1 1 0 0 1 1 3 1 1 2
+Celmus_michuelmus 0 1 2 0 0 0 1 0 0 2 1 1 1 1 0 1 ? ? ? 1 1 3 1 1 2
+Genalaticurus_genalatus 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 2 1 0 0
+Hystricurus_scrofulosus 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 1 0 0 0 1 0 0 1 0 0
+Hystricurus_sp_nov_A 0 0 0 0 0 0 0 1 0 0 ? ? 1 0 1 1 0 0 ? 1 0 ? 1 0 0
+;
+end;

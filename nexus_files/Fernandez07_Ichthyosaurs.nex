@@ -1,0 +1,19 @@
+#NEXUS
+
+[Fernandez, M. Redescription and phylogenetic position of caypullisaurus (ichthyosauria: Ophthalmosauridae). Journal of Paleontology 81, 368-375 (2007). URL http://dx.doi.org/10.1666/0022-3360(2007)81\%5B368:RAPPOC\%5D2.0.CO;2.]
+
+Begin data;
+	Dimensions ntax=9 nchar=25;
+	Format datatype=standard symbols="012345" gap=-;
+	Matrix
+Cymbospondylus_piscosus 00000 1001? ?1100 000?0 00?00 
+Stenopterygius	     {01}2011 1100? 01110 00110 00121
+Ichthyosaurus           12002 11{01}00 01010 00200 000{01}2
+Mollesaurus		220?0 ??001 1???? ????? ?????
+Brachypterygius         ?1??? ??0?1 20011 01210 10???
+Aegirosaurus            22101 111?? 10011 01210 1002?
+Ophthalmosaurus         12101 01101 10011 10210 10022
+Caypullisaurus          21{01}?0 ?100? 10011 10211 11002
+Platypterygius		21{01}12 110?? 20011 {01}0210 11???
+;
+END;

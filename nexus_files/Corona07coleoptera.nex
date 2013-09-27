@@ -1,0 +1,210 @@
+#NEXUS
+[File created by TreeBASE: 8/21/07 17:43:49]
+[Matrix accession#: M3406]
+BEGIN DATA;
+DIMENSIONS NTAX=42 NCHAR=65;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-2007.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=3406 on June 20, 2010, 11:28 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Corona, A. MA., and J. J. Morrone. 2007. Phylogenetic analysis of the subgenus Lampetis (Spinthoptera) (Coleoptera: Buprestidae) of North and Central America, and the West Indies. Journal of Natural History, 41: 1035-1046.
+
+Study accession number = S1850
+Matrix accession number = M3406
+]
+FORMAT SYMBOLS = " 0 1 2 " MISSING = ? GAP = - ;
+CHARLABELS
+[1]	'Front_sinuate'	[2]	'Front_with_confluent_punctures'	[3]	'Front_with_strong_callosities'	[4]	'Front'
+[5]	'Depression_behind_eyes'	[6]	'Punctures_on_the_base_of_mandibles'	[7]	'clypeus_margin'	[8]	'Third_antennal_segment_larger_than_the_second'	[9] 'Antennal_segment_6-11_wider_than_longer'
+[10]	'Pronotum_longer_than_wider'	[11]	'concavity_along_middle_and_lateral_margin'	[12]	'Lateral_margins_with_confluent_punctures'	[13] 'Lateral_margins_parallel'	[14]	'Lateral_margins_near_anterior_margin_projected_toward_outside'
+[15]	'Shape_of_lateral_margin_from_middle_to_anterior_margin'	[16]	'Shape_of_lateral_margin_from_middle_to_posterior_margin'	[17] 'Shape_of_lobule_of_posterior_margin'	[18]	'Punctures_at_middle'	[19]	'Surface_with_circular_callosities'
+[20]	'Surface_with_sulcus'	[21]	'Sulcus_and_pulverulence_along_lateral_margins'	[22]	'Sulcus,_sometimes_interrupted_at_middle,_alon_anterior_margin' [23]	'Sulcus_longitudinal_at_middle,_sometimes_interrupted_at_middle'	[24]	'Depression_like_a_bead_along_anterior_margin_from_lateral_to_midline'
+[25]	'Larger_at_base_than_pronotum'	[26]	'Humeral_angles'	[27]	'Basal_surface_with_transversal_depressions'	[28]	'lateral_margins_expanded_at_outside' [29]	'Callosities_at_lateral_margins_near_anterior_margin'
+[30]	'Strongly_impressed_longitudinal,_punctate_striae'	[31]	'Striae'	[32]	'Many_irregular_interstrial_depression_surrounding_callosities_laterally'	[33] 'Apices_oblique'	[34]	'Apices'
+[35]	'Sutural_angles_of_apices'	[36]	'Shape_of_anterior_margin_at_middle'	[37]	'Lateral_lobule_of_anterior_margin'	[38] 'With_confluent_punctures_laterally'	[39]	'With_confluent_punctures_anteriorly'
+[40]	'Obtusely_angulated_behind_procoxae'	[41]	'Shape'	[42]	'Punctures_at_middle'	[43]	'Surface_with_confluent_punctures'	[44]	'Concave_medially'
+[45]	'With_three_lobules'	[46]	'Second_lobe_of_posterior_margin'	[47]	'Pubescence_on_lateral_and_posterior_margin'	[48] 'Confluent_punctures_forming_callosities'	[49]	'Apices_shape'
+[50]	'Behind_with_teeth_around'	[51]	'First_ventrite_shape'	[52]	'Carina_on_first_ventrite'	[53]	'Second_ventrite'	[54]	'Third_ventrite'
+[55]	'Shape_of_last_male_ventrite'	[56]	'Surface_with_circular_callosities_laterally'	[57]	'Surfaec_with_punctures_on_lines'	[58]	'Aedeagus_shape'	[59] 'Median_lobe_shape'
+[60]	'Median_lobe'	[61]	'Paramers_of_aedeagus_from_base_to_middle'	[62]	'Apices_of_parameres_and_median_lobe'	[63] 'Apices_of_parameres_of_aedeagus'	[64]	'Parameres_expanded_from_middle_to_apices'
+[65]	'With_irregular_callosities_on_pronotum'
+;
+STATELABELS
+1 'absent' 'present',
+2 'scarce' 'abundant',
+3 'absent' 'present',
+4 'narrow' 'wide',
+5 'absent' 'present',
+6 'scarce' 'abundant',
+7 'emarginate_at_middle' 'concave' 'entire',
+8 'absent' 'present',
+9 'absent' 'present',
+10 'absent' 'present',
+11 'absent' 'present',
+12 'absent' 'present',
+13 'absent' 'present',
+14 'absent' 'present',
+15 'rounded' 'convergent',
+16 'subparallel' 'concave',
+17 'rounded' 'acute',
+18 'absent' 'present',
+19 'absent' 'present',
+20 'absent' 'present',
+21 'absent' 'present',
+22 'absent' 'present',
+23 'absent' 'one_at_midline' 'two',
+24 'absent' 'present',
+25 'absent' 'present',
+26 'rounded' 'slightly_acute',
+27 'sacrce' 'abundant',
+28 'absent' 'present',
+29 'absent' 'present',
+30 'absent' 'present',
+31 'separated' 'closed',
+32 'abset' 'present',
+33 'absent' 'present',
+34 'non_dentiform' 'dentiform',
+35 'separated' 'closed',
+36 'flattened' 'concave' 'convex_(like_lobule)',
+37 'absent' 'present',
+38 'scarce' 'abundant',
+39 'absent' 'present',
+40 'absent' 'present',
+41 'flat' 'convex',
+42 'absent' 'present',
+43 'absent' 'present',
+44 'absent' 'present',
+45 'absent' 'present',
+46 'absent' 'rounded' 'acute',
+47 'scarce' 'abundant',
+48 'absent' 'present',
+49 'rounded' 'flattened',
+50 'absent' 'present',
+51 'flat' 'concave',
+52 'absent' 'present',
+53 'concave_or_flattened' 'convex',
+54 'concave' 'convex',
+55 'rounded' 'truncate',
+56 'absent' 'present',
+57 'absent' 'present',
+58 'slender,_large' 'wide,_small',
+59 'entire_apex' 'subtriangular_apex' 'semicircular_apex',
+60 'slender' 'wide',
+61 'parallel' 'subparallel',
+62 'non_parallel' 'parallel',
+63 'rounded' 'oblique' 'truncate',
+64 'absent' 'present',
+65 'absent' 'present',
+
+;
+
+MATRIX
+
+'Lampetis_srdinkoana' 10111011000000100100000100000100111001010000010010111110010111010
+'Lampetis_simplex' 01010101000000100100000001000101110001010000010010110110001011100
+'Lampetis_monilis' 01010001000000100100000101000100110001110000010010110110001011000
+'Lampetis_mexicana' 01110111000100100100000101100101110001011010010110110110012011100
+'Lampetis_lesnei' 110100110001001001000000010001011100011100000101001111100???????0
+'Lampetis_hondurensis' 01010111000000100100000101000101110001110010010110110110011011000
+'Lampetis_hirtomaculata' 00011001000000100100000101000100110001010010010110110110001011000
+'Lampetis_guildini' 00110001000100100100000001100101110001010110010010111110010111010
+'Lampetis_granulifera' 00110101000000100100000001000101110001010010010110110110001011000
+'Lampetis_geniculata' 00010111000100100100000001000101110001010000010010110110011011100
+'Lampetis_drummondi' 00110001000100010100000101100101101001011000011000100110012111010
+'Lampetis_dilaticollis' 00110001000100010000000100100101101001011000011000100110012111010
+'Lampetis_cyanitarsis' 01010121000000100100000100000101111001010000010010110110002011000
+'Lampetis_cupreopunctata' 11010101000100110100000101100101110001111000010110110110001011000
+'Lampetis_cortesi' 11010101000100100100000001100101101001111000010110110110001011110
+'Lampetis_colima' 01010121000000100100000000100101111001010010010110111110002011000
+'Lampetis_christophi' 01010121000000100100000001000101110001010000010010110110010111010
+'Lampetis_chiapaneca' 01010001000000100100000100000100110001111010010100110110010111110
+'Lampetis_chamela' 01010121000000100100000000100101110001010010010100110110012011000
+'Lampetis_chalconota' 11010001000100100100000101000101110001110010010110110110010111110
+'Lampetis_bahamica' 10111011000000100001010000101101110111110010010110111110002011000
+'Lampetis_auropunctata' 11010101000100100100000101000110111001010010010110111110012111110
+'Lampetis_aurifera' 00111001000000110001111000101101110111011000010110110110012011000
+'Lampetis_aurata' 00111001000000100001111000101101101111111000010110111110002011000
+'Lampetis_tucumana' 00111011000000100100000100000100110111010010010010110110010111010
+'Lampetis_rugosa' 01010011000100100100000001000100000111000010020010111110010111010
+'Lampetis_fastuosa' 01010011000000100100000001000100100201110010021010101110010011210
+'Lampetis_viridimarginata' 01010011000000100110000001000100001111010000120010111111010010210
+'Lampetis_amaurotica' 01010120000000100110000001000100001111010000120010111111010010210
+'Psiloptera_bicarinata' 01010121000200100001010001000100011201000001010010110010010011210
+'Polybothris_sumptuosa' 10000020010010101101000010010000001110000100000010110000110001000
+'Oedisterna_bisulcata' 00100001000101000100100100000010001110001000020010001110010110210
+'Capnodis_tenebrionis' 00000021100001000100000000000000001110001100120011001110010111011
+'Ectinogonia_pulverea' 10100010001110000100000001000010000110000100000010110010000001200
+'Perotis_unicolor' 00010011000001000100000101000010001101000110120010001110010110010
+'Lampetis_webbi' 00110101000000110100000100000101101001011000010000100110012111010
+'Lampetis_viridimarginalis' 11010111000000110100000100000101110001111010010100011110001011000
+'Lampetis_viridicolor' 01010101000000100100000101000101110001110000010110111110011011000
+'Lampetis_torquata' 00111001000000110001010000101101110111111010010110111110002011000
+'Lampetis_tigrina' 01010011000000110100000100000101110001111000010110111110011011100
+'Lampetis_obscura' 11010001000100110100000101100101110001111000010110111110001011010
+'Lampetis_straba' 00110111000000100001112000101100111111111000010110001110002011000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 2 trees. TreeBASE accession#: Tree5257 Tree5258 ]
+TRANSLATE
+1	'Lampetis_viridimarginalis',
+2	'Lampetis_viridimarginata',
+3	'Lampetis_cupreopunctata',
+4	'Lampetis_hirtomaculata',
+5	'Polybothris_sumptuosa',
+6	'Psiloptera_bicarinata',
+7	'Lampetis_auropunctata',
+8	'Lampetis_dilaticollis',
+9	'Lampetis_viridicolor',
+10	'Ectinogonia_pulverea',
+11	'Capnodis_tenebrionis',
+12	'Oedisterna_bisulcata',
+13	'Lampetis_cyanitarsis',
+14	'Lampetis_granulifera',
+15	'Lampetis_hondurensis',
+16	'Lampetis_amaurotica',
+17	'Lampetis_chalconota',
+18	'Lampetis_chiapaneca',
+19	'Lampetis_christophi',
+20	'Lampetis_geniculata',
+21	'Lampetis_srdinkoana',
+22	'Lampetis_drummondi',
+23	'Lampetis_torquata',
+24	'Lampetis_fastuosa',
+25	'Lampetis_tucumana',
+26	'Lampetis_aurifera',
+27	'Lampetis_bahamica',
+28	'Lampetis_guildini',
+29	'Lampetis_mexicana',
+30	'Lampetis_obscura',
+31	'Lampetis_tigrina',
+32	'Perotis_unicolor',
+33	'Lampetis_chamela',
+34	'Lampetis_cortesi',
+35	'Lampetis_monilis',
+36	'Lampetis_simplex',
+37	'Lampetis_straba',
+38	'Lampetis_rugosa',
+39	'Lampetis_aurata',
+40	'Lampetis_colima',
+41	'Lampetis_lesnei',
+42	'Lampetis_webbi',
+;
+TREE 'Fig._10' = [&R] (32,(11,12,((10,5),(6,24,38,25,7,17,33,18,19,40,34,3,13,20,14,28,4,15,41,29,35,36,21,30,31,9,1,(16,2),(42,(8,22)),(39,26,27,37,23)))));
+TREE 'Fig._9' = [&R] (32,(12,(11,((38,((24,(6,((20,((36,(35,(((31,1),(3,(34,30))),(9,(15,((14,4),(29,(7,(17,(18,41)))))))))),(13,(33,(40,(27,(23,(26,(39,37))))))))),(19,(28,((42,(8,22)),(25,21))))))),(16,2))),(10,5)))));
+
+
+END;

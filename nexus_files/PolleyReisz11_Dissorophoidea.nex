@@ -1,0 +1,23 @@
+#NEXUS
+
+[Polley, B. P. and Reisz, R. R. 2011. A new lower permian trematopid (temnospondyli: Dissorophoidea) from richards spur, oklahoma. Zoological Journal of the Linnean Society 161:789-815.]
+
+begin data;
+dimensions ntax=12 nchar=53;
+format missing=? gap=- symbols="0123";
+matrix
+Acheloma_cumminsi 2 ? ? 0 0 1 ? ? 0 ? 0 0 1 ? ? ? 0 1 1 1 1 1 ? 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 2
+Acheloma_dunni 1 1 1 1 0 0 0 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 1 0 1 1 1 ? 1 1 ? 1 0 0 0 0 0 0 2
+Actiobates_peabodyi 2 1 1 0 0 0 1 0 0 0 0 0 1 1 0 1 0 0 1 1 1 1 0 0 0 0 0 0 1 1 0 ? ? ? ? ? ? 1 1 ? 1 ? ? ? 0 1 0 1 0 0 1 1 1
+Anconastes_vesperus 1 1 0 0 0 0 {01} {01} 1 1 1 1 1 1 1 0 1 1 0 {01} 1 0 1 1 0 0 0 0 1 1 0 ? ? ? ? ? ? 0 1 0 1 1 0 1 ? 1 0 1 0 0 1 1 1
+Cacops_morrisi 1 ? 1 0 0 0 {01} {01} 1 {01} 0 0 ? 1 0 0 1 0 0 0 1 1 1 0 0 0 0 0 1 1 0 0 1 1 0 ? ? 0 0 1 0 0 0 0 2 0 1 0 1 1 0 1 2
+Ecolsonia_cutlerensis 1 1 1 0 1 1 1 {01} 1 1 1 1 1 1 0 {01} 0 0 0 0 1 {01} 1 0 0 0 0 0 1 1 0 1 1 0 0 0 1 0 1 0 1 1 0 1 2 1 0 1 1 1 1 1 0
+Eoscopus_lockardi {01} 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 0 0 0 0 0 1 0 1 1 1 0 1 1 0 0 ? 0 0 1 0 0 0 0 0 0 0 0 1 0 1 1 0
+Micromelerpeton_credneri 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 1 1 ? ? 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Micropholis_stowi 2 1 ? 0 0 1 0 ? 0 ? 0 0 1 1 0 1 0 1 1 1 1 1 ? ? 0 0 0 ? 1 0 1 0 1 1 0 ? ? 0 0 0 0 0 0 0 0 0 0 0 1 0 2 1 0
+Phonerpeton_pricei {01} 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 1 0 1 1 1 1 0 1 0 0 0 0 1 0 0 1 1
+Sclerocephalus_haeuseri 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 ? ? 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Tambachia_trogallas 2 1 ? 0 0 1 0 ? 0 ? 0 0 1 1 0 1 0 1 1 1 1 1 ? ? 0 0 0 ? 1 0 0 ? 1 0 0 ? ? 1 1 0 1 1 0 1 0 1 0 1 0 0 1 1 1
+;
+end;
+

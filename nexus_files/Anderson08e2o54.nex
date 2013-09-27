@@ -1,0 +1,689 @@
+#NEXUS 
+[MacClade 4.08 registered to Jason Anderson, University of Calgary]
+
+
+BEGIN TAXA;
+	TITLE Untitled_Taxa_Block;
+	DIMENSIONS  NTAX=54;
+	TAXLABELS
+	Acanthostega
+	Proterogyrinus
+	Balanerpeton
+	Dendrerpeton
+	Tuditanus
+	Asaphestera
+	Hapsidoparion
+	Saxonerpeton
+	Pantylus
+	Cardiocephalus_sternbergi
+	Cardiocephalus_peabodyi
+	Euryodus_primus
+	Euryodus_dalyae
+	Pelodosotis
+	Micraroter
+	Rhynchonkos
+	Eocaecilia
+	Microbrachis
+	Batropetes
+	Utaherpeton
+	Stegotretus
+	Sauropleura_scalaris
+	Ptyonius
+	Urocordylus
+	Keraterpeton_galvani
+	Batrachiderpeton
+	Diceratosaurus
+	Diplocaulus_magnicornis
+	Diploceraspis
+	Scincosaurus
+	Brachydectes
+	Adelogyrinus
+	Oestocephalus
+	Phlegethontia
+	Greererpeton
+	Seymouria_baylorensis
+	Limnoscelis
+	Branchiosauridae
+	Micromelerpetontidae
+	Tersomius
+	Ecolsonia
+	Acheloma
+	Eryops
+	Doleserpeton
+	Salamanders
+	Frogs
+	Albanerpetontidae
+	Micropholis
+	Eoscopus
+	Tambachia
+	Triadobatrachus
+	Gerobatrachus
+	Platyrhinops
+	Amphibamus;
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE morphology;
+	DIMENSIONS  NCHAR=219;
+	FORMAT SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+	CHARSTATELABELS  
+		1  Basal_Skull_Length / '>70mm' '50-70mm' '30-50mm' '<30mm',
+  2  'Skull:trunk' / '>=0.45' '0.30-0.45' '0.20-0.29' '<0.20',
+  3  Skull_proportions / longer_than_wide wider_than_long,
+  4  Intertemporal / present absent,
+  5  Supratemporal / present absent,
+  6  ST_exposure_on_occiput / absent present,
+  7  'Tabular-postorbital' / absent Present,
+  8  'T-PF' / absent present,
+  9  Postfrontal_shape / broadly_quadrangular falciform,
+  10  'Squamosal-Tabular' / absent present fused,
+  11  'Squamosal-Temporal area' / weakly_overlapping sutural,
+  12  'Lacrimal-prefrontal suture' / simple_butt_joint interdigitating prefrontal_broadly_underplates_lacrimal,
+  13  Lacrimal / present absent,
+  14  L_to_naris / present absent,
+  15  L_to_orbit / absent present,
+  16  lacrimal_orbital_processes / only_ventral_present dorsal_and_ventral_present neither_present,
+  17  'lacrimal-jugal contact' / present absent,
+  18  Quadratojugal / present absent,
+  19  'Quadratojugal-Jugal contact' / present absent,
+  20  'Quadratojugal-Maxillary contact' / present absent,
+  21  Frontals / paired_along_midline fused,
+  22  Frontal_into_orbit / no yes,
+  23  Anterior_laterally_flaring_frontals / absent present,
+  24  Nasals / present absent,
+  25  Narial_flange / absent present,
+  26  alary_processes_of_premax / absent present,
+  27  Internarial_fontanelle / absent present,
+  28  Septomaxilla / ossified unossified,
+  29  Prefrontal_into_external_naris / distant_from near present,
+  30  external_naris_in_dorsal_view / exposed not_exposed,
+  31  External_naris_shape / circular 'posteriorly_extended,_along_L-PF_suture' 'posteriorly_extended,_excavation_of_L_only',
+  32  dorsal_exposure_of_premax / broad narrow none,
+  33  Dorsal_shape_of_skull / triangular diamond rounded,
+  34  Posterior_skull_margin / concave straight convex undulating.,
+  35  snout / blunt pointed,
+  36  snout / short long,
+  37  'Q -internal flange of Sq' / absent present,
+  38  otic_notch / present absent,
+  39  Large_otic_notch_approaching_orbit / absent intermediate close,
+  40  otic_notch / open_posteriorly closed_posteriorly,
+  41  semilunar_flange_of_supratempor / absent present,
+  42  supratympanic_flange / absent 'present_"trematopid"' 'present_"dissorophid"',
+  43  supratympanic_shelf / absent present,
+  44  raised_orbital_rim / absent present,
+  45  Postorbital / present absent,
+  46  'J-PO interfingered processes' / absent present,
+  47  PO_in_orbital_margin / present absent,
+  48  shape_of_postorbital / irregular_trapezoid 'triangular,_apex_caudal',
+  49  Palpebral_ossifications / absent mosaic_of_bone_plates_present_in_orbit,
+  50  'Parietal-postorbital contact' / absent present,
+  51  'parietal-squamosal contact' / absent present,
+  52  'parietal-tabular contact' / absent present,
+  53  Postparietals / paired fused absent,
+  54  parietal_foramen / present absent,
+  55  postparietals / moderate large,
+  56  'postparietal-squamosal contact' / absent present,
+  57  Postparietal_length / 'large,_quadrangular' 'abbreviated_anteroposteriorly,_elongate_lateral_rectangle',
+  58  'squamosal-jugal contact' / present absent,
+  59  Tabular / present absent,
+  60  Posterolateral_projection_from_lateral_margin_of_tabular_above_squamosal_embayment / absent present,
+  61  '"Tabular horns"' / absent present,
+  62  Tabular_horns / parallel_or_slightly_divergent widely_divergent,
+  63  Sq_forms_base_of_tabular_horn / absent present,
+  64  Lateral_line_canal_grooves / present absent,
+  65  Dermal_sculpturing / circular_pits shallow_ridges_and_grooves little_to_none,
+  66  premaxilla_anterior_margin / vertical overturned,
+  67  Maxilla_into_orbit / no yes,
+  68  Maxilla_into_external_naris / present absent,
+  69  Maxilla_entire_ventral_naris / absent present,
+  70  maxilla / longer_than_palatine shorter_than_palatine,
+  71  marginal_teeth / vertical turned_medially,
+  72  marginal_teeth_largest_anterior / absent present,
+  73  marginal_teeth / pointed_pegs blunt_pegs large_cones,
+  74  Number_of_premax_teeth / '>=10' '5-9' '<5',
+  75  Number_of_max_teeth / '>=30' '20-29' '<20',
+  76  teeth_laterally_compressed / no yes,
+  77  'Enlarged teeth mid-toothrow' / absent present,
+  78  teeth / simple_points multiple_cusps,
+  79  Multiple_Cusp_Orientation / 'Labio-lingual' 'antero-posterior',
+  80  Enamel_fluting / absent present,
+  81  'labyrinthine in-folding' / present absent,
+  82  occipital_profile / low_and_wide high_and_wide high_and_narrow,
+  83  supraoccipital / absent present,
+  84  Occipital_condyle / concave convex,
+  85  occipital_condyle / 'single,_with_basioccipital' double,
+  86  jugular_foramen / between_opistotic_and_exoccipit through_exoccipital,
+  87  jaw_articulation / posterior_to_occiput even_with_occiput anterior_to_occiput 'far_anterior_(>20%_BSL)',
+  88  Internal_nares / widely_separated narrowly_separated,
+  89  Palatal_teeth / present absent,
+  90  Palatine_teeth / 'single_pit-pairs' multiple_in_rows multiple_random,
+  91  LEP / absent present,
+  92  Anterior_palatine / short_anteromedial_process_articulating_with_vomer_at_choana 'long_anteromedial_process,_more_medial_than_lateral' palatine_absent,
+  93  vomerine_teeth / present absent,
+  94  Vomer_teeth / single_pit_pairs Multiple_in_rows Multiple_random,
+  95  Intervomerine_depression / absent present,
+  96  Intervomerine_rostral_fenestration / absent present,
+  97  denticles_on_pterygoid / present absent,
+  98  teeth_on_pterygoid / absent present,
+  99  tooth_pedicely / absent present,
+  100  denticles_on_vomers / present absent,
+  101  denticles_on_palatines / present absent,
+  102  denticles_on_parasphenoid / present absent,
+  103  Palatal_teeth / larger_than_marginals equal_to_marginals smaller_than_marginals,
+  104  parasphenoid / medial_of_stapes under_footplate_of_stapes,
+  105  Parasphenoid_basal_plate / 'roughly_quadrangular,_basipterygoid_articulations_narrowly_spaced' 'rectangular_laterally,_anteroposteriorly_narow,_basipterygoid_articulations_distant',
+  106  cultriform_process_contact_with_vomer / narrow broad,
+  107  basicranial_articulation / loose sutured_or_fused,
+  108  stapes / perforated_stem imperforate_stem no_stem,
+  109  Stapes_orientation / 'lateral,_towards_quadrate' 'dorsal,_towards_squamosal_embayment,_elongate_columella',
+  110  footplate_of_stapes / oval round palmate,
+  111  dorsal_process_of_stapes / absent present,
+  112  '"accessory ossicle"' / absent present,
+  113  pleurosphenoid / unossified ossified,
+  114  sphenethmoid / ossified unossified,
+  115  interpterygoid_vaccuities / 'narrow_("closed")' wide fused_at_midline,
+  116  pterygoids_contact_anteriorly / present absent,
+  117  'pterygoid-exoccipital contact' / absent present,
+  118  'Pterygoid-palatine suture' / present absent,
+  119  'Pterygoid-vomer contact' / present absent,
+  120  lat_process_of_pt_into_posttemp / absent present,
+  121  ectopterygoid / 'present_with_fang-pit_pair' 'present_lacking_fang-pit_pair' absent,
+  122  'Ectopterygoid-palatine width' / wider_than_maxilla narrower_than_maxilla,
+  123  '"pharangeobranchial pouches"' / absent present,
+  124  dentary / long short,
+  125  dentary_forms_coronoid_process / absent present,
+  126  surangular / normal reduced absent,
+  127  angular / narrow deep,
+  128  number_of_splenals / 2 1 0,
+  129  splenal_exposed_laterally / present absent,
+  130  meckelian_fossae / 2_or_more 1 0,
+  131  'Ventral border of Meckel''s foss' / splenal angular,
+  132  retroarticular_process / absent present,
+  133  retroarticular_process / straight hooked,
+  134  articulation_to_tooth_row / above equal below,
+  135  'angular extends to (lat view)' / posterior_tooth_row middle_of_tooth_row,
+  136  number_of_coronoids / 3 2 1 0,
+  137  coronoid_teeth / present absent,
+  138  coronoid_teeth / larger_than_marginals equal_to_marginals smaller_than_marginals,
+  139  symphysis / dentary_and_splenal dentary_alone,
+  140  jaw_sculpture / present absent,
+  141  ossified_hyoids / present absent,
+  142  Gill_Osteoderms / absent 'present,_noninterdigitating' 'toothed,_intergiditating_rakers',
+  143  parahyoid / absent present,
+  144  number_of_accessory_articulation / 0 1 2_or_more,
+  145  number_of_presacrals / '25-35' '20-24' '>35' '<20',
+  146  vertebral_development / 'arches,_then_centra' centra_and_arches_simultaneously,
+  147  caudal_processes_btw_depression / absent present,
+  148  trunk_intercentra / present absent,
+  149  trunk_neural_arch_to_centrum / loosely_articulated sutured fused,
+  150  base_of_neural_spine / equal_to_or_wider_than_haemal smaller_than_haemal_spine,
+  151  height_of_neural_spines / even alternating,
+  152  dorsal_neural_spine / narrow_and_smooth laterally_broad_and_sculpted,
+  153  'neural spine shape (lat)' / 'ant-post_sides_parallel_(rect)' 'non-parallel_(triangular)',
+  154  Neural_spine_lateral_suface / smooth crenulated,
+  155  Pleurocentra / paired_rhachitomous closely_approaching_ventrally 'fused,_dominant_weight_bearing_element',
+  156  haemal_arches / present absent,
+  157  haemal_arches / 'loosely_articulated_(intercentr' 'fused_to_mid-length_of_centrum',
+  158  haemal_arches / longer_than_or_equal_to_neurals shorter_than_neurals,
+  159  haemal_accessory_articulations / none one two,
+  160  haemal_arch_shape / 'non-parallel_(triangular)' 'parallel_(rectangular)',
+  161  tail / tapers deep_with_sudden_end,
+  162  Tail / 'elongate,_equal_to_or_exceeding_trunk_and_skull_length' 'forshortened,_markedly_shorter_than_trunk',
+  163  trunk_arches / paired fused,
+  164  spinal_nerve_foramina / absent present,
+  165  extended_transverse_processes / absent present,
+  166  transverse_process / on_arch_pedicle on_centrum,
+  167  'atlas-axis intercentra' / present absent,
+  168  Atlas_Anterior_centrum / same_size_as_posterior laterally_expanded,
+  169  atlas_centrum / multipartite single_notochordal single_odontoid,
+  170  atlas_neural_arch / loosely_articulated sutured_to_centrum fused_to_centrum,
+  171  atlas_parapophyses / on_centrum on_transverse_process absent,
+  172  atlas_neural_arch / paired sutured_at_midline fused_at_midline,
+  173  atlas_acessory_articulation / absent zygosphene zygantra,
+  174  Proatlantes / present absent,
+  175  second_cervical_arch / expanded_to_more_posterior equal_to_more_posterior shorter_than_more_posterior,
+  176  atlas_ribs / one_pair two_pairs absent,
+  177  cervical_rib_distal_shape / spatulate pointed,
+  178  ribs_anterior_to_sacrum / short long,
+  179  Ribs / elongated_and_sometimes_curved straight 'short,_simple_rod',
+  180  Costal_Process_at_rib_head / absent present,
+  181  number_of_sacrals / 1 2 3,
+  182  sacral_parapophysis / on_centrum on_transverse_process,
+  183  number_pairs_of_caudal_ribs / 5_or_more 4 3 2_or_fewer,
+  184  interclavicle_posterior_stem / no_or_short long,
+  185  interclavicle_posterior_stem / wide narrow,
+  186  interclavicle / diamond_shaped 't-shaped',
+  187  interclavicle_anterior_plate / broad narrow,
+  188  'interclavicle shape-diamond' / broad_diamond narrow_diamond,
+  189  interclavicle_anterior_fimbrati / present absent,
+  190  interclavicle_sculpture / present absent,
+  191  Cleithrum_head / aligned_along_anterior_rim_of_scapula posterodorsally_enlarged_head_wrapping_around_dorsal_scapula,
+  192  Cleithrum_head / 'dorsally_greatly_expanded,_much_wider_than_shaft' simple_rod_without_or_slight_dorsal_expansion,
+  193  Cleithrum / ossified unossified,
+  194  cleithrum / rounded_or_pointed_dorsally 't-_or_y-shaped',
+  195  proximal_clavicle_blades / widely_separate articulate_medially interdigitate,
+  196  supraglenoid_foramen / present absent,
+  197  number_coracoid_foramina / 0 1 2,
+  198  scapulocoracoid_occification / both scapula_only absent,
+  199  entepicondylar_foramen / present absent,
+  200  tortion_in_humerus / absent less_than_80_degrees more_than_80_degrees,
+  201  deltapectoral_crest / weak intermediate prominant,
+  202  Supinator_process / absent present,
+  203  humerus_length / 'long_(>4_trunk_centra)' short,
+  204  'radius:humerus' / '>=0.7' '0.5-0.7' '<0.5',
+  205  olecranon_process / unossified ossified,
+  206  carpals / fully_or_partially_ossified unossified,
+  207  basale_commune / absent present,
+  208  'number digits-manus' / 5_or_more 4 3,
+  209  pelvis / fused sutured poorly_ossified,
+  210  Anteriorly_inclined_ilium / absent present,
+  211  illiac_blade / 2_dorsal_processes narrowly_bifurcate single_blade,
+  212  'internal trochanter-articulatio' / disctinct continuous,
+  213  femoral_shaft / robust slender,
+  214  femur / long short,
+  215  tarsals / ossified unossified,
+  216  elongate_tibiale_and_fibulare / absent present,
+  217  number_of_distal_tarsals / 6 5_or_fewer,
+  218  '"astragalus"' / absent present,
+  219  'number of digits, pes' / 5_or_more 4_or_less
+		;
+
+MATRIX
+[                                     10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170       180       190       200       210       ]
+[                                     .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         .         ]
+
+Acanthostega                 000100000100000?000000000010000000000000000000000100000000010--000000000000000-0000--00000000000000000000000000000000000000000000000-010000000000?0000000000000000(01)00000000000000000000000000000000000000000000000001000000
+Proterogyrinus               01000000(01)00{01}001?00010000000?000000000000000000000001000000010--000000000010000-0020000000000????000?1000000?0??000000000000000000?00-00{012}001000000?00000000200001?0100000000000000?000000000010000000200100?1010010111000100
+Balanerpeton                 000000001011001000000000?101000000000000000000011000000000000--100000000000000-0000?000000000000000000000000100000110001000000100000-0001-1010001?000000000000000?00000000?000020010000000000000000??0022001100110211000100
+Dendrerpeton                 000000000011001000000000?110000000000000000000010000000000000--100000000000000-000000?000000000000000000000010000?110000000000001110-00???1010001?00000000000001??10000000?00?0?00100000000000000000100220011001002?00?0??0
+Tuditanus                    31011-110111001100010000?0000000000001--000100000001?000?00-0--110000?00011000-011??0?10??00?200000000?0000200000?000000??01001002-0-21???0010000?012-001021----??1000112202011010001021111-?100001--2022001000110001000010
+Asaphestera                  22011-110111001000010000?00100000300010-0001000010010000000-0--{01}10000001010000-01210002001000???01000?0??00????001010000?000?0100????20????110000??12?00102???????10001122??011??000???1110-?0????102002100?1???200?10?????
+Hapsidoparion                3?011-010101001001--0000?0001000010001--0000000010010000110-0--120001000011000-01011002001001-0000011010000101010?0100000000110112-0-20???110000????0??0?02????????00011212001?01??0????????????????????????00??202????????
+Saxonerpeton                 31011-110101001000010100?0011000010001--0001000000010000100-0--020001000011000-0110?0?201-001-00000000-?000??????10100000000110{01}1??1020????1100001011-001021----??10001121?2011001000?21111-1110001??0020002100110201000100
+Pantylus                     10011-11011100100001000000000101011001--0000000000010110000-0--101000000222010-010100011020002000000011100010011?00000001000100011(01)10202010000001?01101010200000011000012202011101000?01111-1010002010022002100110211000110
+Cardiocephalus_sternbergi    3?011-110111001110010000?0000101021001--0001000000010(01)10000-0--12110001022211??1100000300100010011011121000100010000000000001?0012-0-20202111000?????????0?????????????????????????????????????????????????????????????????
+Cardiocephalus_peabodyi      32011-110111001100010000?0001101121001--0001000010010(01)10000-0--121000?10222111011000003???0???????0??????0??0???????0????0?0111?1??0-20????110002??01?00102???????100001220?0110000010????????1000?0-1121012?0??202010?????
+Euryodus_primus              2?011-110111001100000000?0001102111001--0001000000010110000-0--??1000010222010-1100001200100010000000121000?0???0?0000000000111112-11203--1?1000???02?00102???????1000????????????00???1111-1?????1??0(01)2101?100?102010?0???
+Euryodus_dalyae              2?011-110111001100010000?0001102011001--0001000000010010000-0--121000010222010-010000020010?0???00000021000000010?0000000000111112-0-203--111000???02?00102???????10000122000100???0?0??????????????????????1????0?????????
+Pelodosotis                  13011-110111001100110000?0001000031001--0000000000010110010-0--12101-010012010-01210002?0100????000??0210001021100010000?000{01}0111111020?021100002??01?10102???????10001121?10110010010?0111-11100011-10220021???00201000???
+Micraroter                   13011-110111001010110000?0000000030001--00010000100101(01)0010-0--121100010112010-0101001200100020000000020000001010?000000000010101??1020???1100000?00101010200001001000012200011000002?????????1000?0-1???0??????102110?????
+Rhynchonkos                  33011-110111001000010000?0000102121001--0001000010010010000-0--121000010012000-0101101310100010010011011000000011001000{01}0000100001110101011110002??02?00102???????10000122-2011210001?3??????????0????12201210011020100010?
+Eocaecilia                   33011--0011-1----0000000?0012101121001--00011---0-110111000-0--1201000000000010010011-3001000100001110110000000??001001{01}1000---2-??10103--1110002?002?00-02?????0111010122-201121000013??????????????01220121002?0?011001?1
+Microbrachis                 32011-100111011000010000?0010000010001--0000000011110000100-0--010000000(01)11000-010?00?201-001-00000000-100000000010100000000101001110000021001002101100010200000011010112121011000000020110-00010000-102001100?21011110??00
+Batropetes                   32011-10111100100???010000012102130001--00000000011120---00-0--12101-?100120011011110-3???00????100110-110010000000?0??0??001??11??101????1110003?0120001020010000100011220?011000000001110-11???0102002201210?10020110?110
+Utaherpeton                  310????00??100111???0000?00?20000?0001--0000000?01???0???0?-0--12010??001?1000-01?????{12}???0?1???000?0????0?????????????????00??10??0-21????110?00?01200000200000??(01)0?01?????????00001?00-000(01)???????-102201011?11?1?101?--0
+Stegotretus                  3?011-1101110011000{01}0000?0001101010001--000100000001001000000--111001010222010-0101000210200020001000011000?????0000000010001?001110-00?0(01)0?10?0???11?00102???????10001121????????00???1111-??????011012200210??2?00100????
+Sauropleura_scalaris         210100000100001110001000?0012000001101--0000010101010000000-0--1101(01)0001012000-011??0?0001001???01011120000?????000?00001100000100010003--1000010?01200011201010?01010101222111210000010-0010000000??0100110000100211100?10
+Ptyonius                     110101000101001100010000?0012000011001--0000010101010000000-0--110000000012000-011??0?000100010010001120000?????011000000100001?1??1101???1000021?112100(01)1201021001010102222211211000020-0000000000???10001001?12021111?--1
+Urocordylus                  22010??0??000011000??????????0?00?1001--???00100?1???????0?-0--1100???010??000-01???0?00010?????000?1?2?0?0?????0000?0???1000?0?0??1100???100??21?1121001120111(01)10101010122221?210000030-000?000000??010201111??1021011?--0
+Keraterpeton_galvani         32011-000111001000010000?00120000000?1--00000000?1110010000-101010000?00022000-010?11?20010?1???0000111??0??????0020??????0100010111111???0000013?01200011201100001010101222111210000030-000?010012???10001011?12021111?--0
+Batrachiderpeton             ??011-000111001000010000?0011000000011--0000000001110010000-110010100100012000-011?11?20010001000000111?001?????0020000011{01}10001011111120(12)0000013?012000(01)12011000010101112221122?0?00?10-000?010012?????????????20?????????
+Diceratosaurus               ?1011-000111001010010000?0012000000011--00000000011100100000100010100?00????00-010?11?2???0???????0??????01?????00001?????000?11011102?2011000013?01200101201000001010101222111210000030-000?010012--210001011?12021111?--0
+Diplocaulus_magnicornis      01011-000111000-1001110100011100000011--00000010011100100000111010000100012000-010011{01}300100010010011110001?????001110101010020010(01)0-202010000013?01200101201000001011111222112200100130000010???12??200001101?120??111?--0
+Diploceraspis                0?111-00011-1---0001110100012000000001--00000010011100100000111010000100012000-01001103001001?0010011110001?????00111010001010110111020201000002??012001012010100?10111122221122???0?1?0-00010???12????????????????????????
+Scincosaurus                 33011-110111001000010000?00120000{13}0011--00000000000120---0000--010100000012000-01??11?301-001?00100101-0001?????00010000100?0???????????01?000011?01210001201111001000101222?11210000?20-000?000002??0022001000010201000?10
+Brachydectes                 33011----1110011-1--000000012000-20001--00001---0-1101110-000--120100000012000-012100031110001001001111100?10100100100001001100111110203--1100002?011000102000010100101021200112100000311000100000010011001(01)11?12021110??00
+Adelogyrinus                 2?011-10021-1----0000000?00110000300000-00000010?111000000{01}10--0101???000?0000-01000012?1-0?1???0?0001-0000??????00??0?0000000?00??100(01)???100000??010?00102????????0001020220112??00???0-00000???0???2????????-????????????
+Oestocephalus                230100-0010100101011000000012101020001--00001---0-00001001000--120100100010000-01200000001--????100?101?0-0????000000000100000001110-003--1110012?012-000021----00111010122200121-01--0---------00-------------------------
+Phlegethontia                23011---0-1-1-------110000012000021001---0001---1---21---01-0--120101-00022000-012000-2???--????100??1?0--020000000?0-?010000??2-2-0-0?3--11100121012-000021----00111010{12}22200121-01--0---------00-------------------------
+Greererpeton                 02010000010001100000000000012(01)000300010000000000010000(01)000000--000000000000000-000000?000(01)000000000110(01)00000000000000000000000000100-001010010002?00000000000000??10100000?0000211100000-0100000001110011011110100201010--0
+Seymouria_baylorensis        0100000000010010000000000000000001000010000000000001000000000--000000000012010-000000000000000000000001010011??0102000000000000000(01){01}-200020001001?000000(01)020000100100000000001100000100110001001001020022101000000111100?00
+Limnoscelis                  0101010001010010000100000000000000100100000000000101100010000--121000001022010-0001000111-00120001000010000?0??0000100000000000101(01)0-001020110000?000001002000000010000000000100000010011000??0100?0?0022101010010111000110
+Branchiosauridae             311100001010001210000000?100100001000020???0000(01)1000000010010--110100000010000-0000???(01)00(01)00001000{01}0001?100??????1110010010????????0-???????020010000?00?0000?0?0000000?????0?1200200?00-000??000????210000101?120211010--0
+Micromelerpetontidae         (23)11100001010001010000100?1{01}000000(01)000000???000011001000010010--010000000000000-00000???00(01)10001(01)0000000?0(01)0?0????1110011000?????????????????010000000?00?0000?0?00000?0?????0?1210000?00-000??000????210001101?120211010--0
+Tersomius                    2?010000{01}0110010{01}000011011100000010000(01)0001000011000001000000--110{01}0000000000(01)00(01)0001000001000100000000?0001?00?001100110100000000(01)0-010021010?0??????????1????????????????????????????????????????????????????????????0???
+Ecolsonia                    0?11000001110011100001001100201000000001121000000000001000000--10000000001{01}010-000000?000010001?0000000?000?0??00?11000100000000?0(01)0-0?00200?000??00010000000001011000????????????100?????????0000?0101?11??0?0?100110?0???
+Acheloma                     0?010000011100??000001001?1020100000000111100?000000001000000--100000?00011010-0000???000010001??00???0?0?0?0?????11?00?0000?0100??0-01???00?000??00000000000000?01000??????????001???????????000????01???????0??0?????0???
+Eryops                       01010000?1?1000-000000?001??0000000100?0000000000000000000000--100000000000010-000001?0000000?0??00???0?001?0????01100010000?00????0???????0?0?01?00000000000000001000??????????0000??00-000?000000??0???????0?10?1???0?000
+Doleserpeton                 3?0100001011001000000100111?000001000020000000011000000010000--110000000000001001000110001100(12)0?001000(01)?100?1???00110111110000000000-01002?010001?00(12)?0000200?0??110000?12220??2??200?????????010?????????????0??0?????0???
+Salamanders                  ?2(01)11-----000012-0110100-11000002{12}0001--00001---0-1-21----1-0--120100-000(01)00010010011?(23)00(12)020{12}011011-010110(01)-{01}00?1110-1(01)1-0002-2-2-0-10{23}{01}1010(12)003(01)0120000020100100111011222201120020013---------1--111112001001120211000{01}00
+Frogs                        ?1111-----0-1----1--{01}100-110-0002100002000101---0-0-20----1-0--120100-000(01)000100100111000(12)0101011011-0101(01)011{01}00?011011(01)1-0002-{12}12-0-113--01001030012-000021-----1101011122201120020013---------101100111001000101211001100
+Albanerpetontidae            ??011-----01001211--1100?00?20001100012-00001---1-0-21---01-0--110100-000??1011011011-2???0???????0????????????????????????002-2-1110213--01?000(01)?012?00002??????011001122220122002001????????--1????01???0???0??0??10?0?0?
+Micropholis                  20(01)100000(01)110012100000(01)011?0{01}000000000000000000(01)1000000001000--1-00000000{01}{01}000-000001?000010001100000000(01)10000?0001100110100000011110010??1000003?000?00001?????011010?0002?0?1200200??0-00000010001?1120001100000201000100
+Eoscopus                     2?0100001{01}11001010000110111?000000000020(01)21000011000000010010--110100000000000-0000???00001000000000000?0000100??111001101000000?{01}?0-?0?0200?0001000000000100001011000???0200?(01)200200100-00000010????01110?21001(01)0201000100
+Tambachia                    2?01000001110010000001001100201000000000111000000000001000000--110100000011010-0000???000010000?0001110??000?00???1100010000??1{01}1??0-01????01000??0???00?00??????01?0???????????00?0?????????????????011001??????0?????0???
+Triadobatrachus              31111---1--??????0--0100????????21???020-0101---0-0?20--?-000--12?1??????????????0011?0????1????10?????01?01?0001011-??{01}1?0????????0????????00103?012-00?021----011010?1???20{01}1?002001{03}-------?-10???0110001100?(12)12-1001?0?
+Gerobatrachus                3111000010110012100001101??000?02100002000000???0??0000010010--??0100000000000-010?11?20010101??1011??201?0??????01101111100???????0-?1????1?0??3??01?????2??????11?0??12??2?1?201200?????????0100?????1?00?1?1?1?2???0???0
+Platyrhinops                 11010000?011001?10000010?101002020000020000000001000000010010--11110000000000100?0?01?000010000???0?????010?1????01101110100000201?0-?0????010000??02-0000100??0?110000102?2?1?200200?00-0????0100???0?1??0111010?2?1000??0
+Amphibamus                   31110000?011001010000000?10000202000002000000001100000001001???1111000000000010010?0??000110010?0010000?110010??01110111010000?????0-0??????10001??00?0000200??00110000?00?2?1?200200?00-00000010000?0??1?0100?1102?1?00??0
+;
+END;
+
+
+BEGIN TREES; 
+	TITLE 'Trees from "2003matrix.nex"';
+	LINK Taxa=Untitled_Taxa_Block ;
+
+	TRANSLATE
+		1	Acanthostega,
+		2	Proterogyrinus,
+		3	Balanerpeton,
+		4	Dendrerpeton,
+		5	Tuditanus,
+		6	Asaphestera,
+		7	Hapsidoparion,
+		8	Saxonerpeton,
+		9	Pantylus,
+		10	Cardiocephalus_sternbergi,
+		11	Cardiocephalus_peabodyi,
+		12	Euryodus_primus,
+		13	Euryodus_dalyae,
+		14	Pelodosotis,
+		15	Micraroter,
+		16	Rhynchonkos,
+		17	Eocaecilia,
+		18	Microbrachis,
+		19	Batropetes,
+		20	Utaherpeton,
+		21	Stegotretus,
+		22	Sauropleura_scalaris,
+		23	Ptyonius,
+		24	Urocordylus,
+		25	Keraterpeton_galvani,
+		26	Batrachiderpeton,
+		27	Diceratosaurus,
+		28	Diplocaulus_magnicornis,
+		29	Diploceraspis,
+		30	Scincosaurus,
+		31	Brachydectes,
+		32	Adelogyrinus,
+		33	Oestocephalus,
+		34	Phlegethontia,
+		35	Greererpeton,
+		36	Seymouria_baylorensis,
+		37	Limnoscelis,
+		38	Branchiosauridae,
+		39	Micromelerpetontidae,
+		40	Tersomius,
+		41	Ecolsonia,
+		42	Acheloma,
+		43	Eryops,
+		44	Doleserpeton,
+		45	Salamanders,
+		46	Frogs,
+		47	Albanerpetontidae,
+		48	Micropholis,
+		49	Eoscopus,
+		50	Tambachia,
+		51	Triadobatrachus,
+		52	Gerobatrachus,
+		53	Platyrhinops,
+		54	Amphibamus
+	;
+	TREE strict =  [&R] (1,3,(5,6,((7,(((((9,16),10),11,12),13),14,15,((17,19),18))),8),20));
+	TREE MajRule =  [&R] (3,((5,(((7,9),(((((10,12),11),13),(16,(17,19))),(14,15))),(8,(18,20)))),6),2);
+	TREE PAUP_1 =  [&R] (2,((3,4),((((5,8),(((9,21),(((10,11),(12,13)),(16,(17,19)))),(14,15))),(7,(18,20))),6)));
+	TREE 'UNTITLED+' =  [&R] (1,(35,(((3,4),(((38,39),(40,44)),41)),(2,(36,(37,(20,(5,(((((9,21),((10,11),(12,13))),(16,(17,19))),(14,15)),((7,8),(18,(32,(((31,(33,34)),(47,(45,(46,51)))),(((22,(23,24)),((25,26),(27,(28,29)))),30))))))))))))));
+	TREE  * UNTITLED =  [&R] (1,(((2,((((((5,((7,8),((((9,21),((10,11),(12,13))),(16,19)),(14,15)))),6),(18,((((22,(23,24)),(((25,26),(27,(28,29))),(31,(33,34)))),30),32))),20),37),36)),((((3,4),((38,39),((40,48),((((44,((((45,17),47),(46,51)),52)),54),53),49)))),((41,42),50)),43)),35));
+
+END;
+
+
+BEGIN NOTES;
+
+	TEXT  TAXON=41 CHARACTER=16 TEXT= LEP_covers_ventral;
+	TEXT  TAXON=36 CHARACTER=113 TEXT= '=orbitosphenoid_of_White_1938_(Romer,_1956)';
+	TEXT  TAXON=17 CHARACTER=138 TEXT= 'is_second_row_of_equal_teeth,_but_pseudentary,_no_coronoid';
+	TEXT  CHARACTER=153 TEXT= 'triangular=non_parallel-sided__rect=parallel-sided';
+	TEXT  CHARACTER=165 TEXT= 'at_least_one_zygo''s_width_again_from_centrum';
+
+	SUPPLEMENTAL   CHARACTER = 12 NAME = comments STRING = recode_to_remove_lower_orbital_process;
+	SUPPLEMENTAL   CHARACTER = 43 NAME = comments STRING = not_as_margin_of_otic_notch;
+	SUPPLEMENTAL   CHARACTER = 91 NAME = comments STRING = 'if_ex_fused_in_os_basiale,_if_pt_contacts_the_ex_area';;
+	SUPPLEMENTAL   CHARACTER = 121 NAME = comments STRING = 'triangular=non_parallel-sided__rect=parallel-sided';;
+	SUPPLEMENTAL   CHARACTER = 131 NAME = comments STRING = 'at_least_one_zygo''s_width_again_from_centrum';;
+END;
+
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+begin sets;
+taxset fossil = Acanthostega Proterogyrinus Balanerpeton Dendrerpeton Tuditanus Asaphestera Hapsidoparion Saxonerpeton Pantylus Cardiocephalus_sternbergi Cardiocephalus_peabodyi Euryodus_primus Euryodus_dalyae Pelodosotis Micraroter Rhynchonkos Eocaecilia Microbrachis Batropetes Utaherpeton Stegotretus Sauropleura_scalaris Ptyonius Urocordylus Keraterpeton_galvani Batrachiderpeton Diceratosaurus Diplocaulus_magnicornis Diploceraspis Scincosaurus Brachydectes Adelogyrinus Oestocephalus Phlegethontia Greererpeton Seymouria_baylorensis Limnoscelis Branchiosauridae Micromelerpetontidae Tersomius Ecolsonia Acheloma Eryops Doleserpeton Albanerpetontidae Micropholis Eoscopus Tambachia Triadobatrachus Gerobatrachus Platyrhinops Amphibamus;
+taxset extant = Frogs Salamanders;
+end;
+Begin PAUP;
+exclude uninf;
+charset cra= 1-143; charset non= 144-219;
+charpartition crantest= 1:cra, 2:non;
+end;
+
+
+BEGIN MESQUITECHARMODELS;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  191 197;€
+END;
+
+
+BEGIN MacClade;
+	Version 4.0  87;
+	LastModified -1065712404;
+	FileSettings editor  '0' '0' '1' '1';
+	Singles 000;
+	Editor 00011001111111100100010010 '0' '24' Geneva '9' '100' '1' all;
+	EditorPosition  '46' '44' '691' '963';
+	TreeWindowPosition  '46' '6' '699' '974';
+	ListWindow Characters closed Geneva '9' '50' '10' '257' '435' 000;
+	ListWindow Taxa closed Geneva '9' '50' '10' '273' '295' 100000000;
+	ListWindow Trees closed Geneva '9' '50' '25' '129' '379' ;
+	ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow ExSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ;
+	ChartWindowPosition  '50' '30' '520' '740';
+	StateNamesSymbols closed Geneva '9' '10' '77' '456' '192' '220';
+	WindowOrder  Data;
+	OtherSymbols &/ 00 ?-;
+	Correlation  '0' '0' '1000' '0' '0' 10011010;
+	Salmo 00000001;
+	EditorFile  '2';
+	ExportHTML _ MOSS  '100' 110000;
+	PrettyPrint 10;
+	EditorToolsPosition  '425' '547' '115' '165';
+	TreeToolsPosition  '439' '5' '126' '138';
+	TreeWindowProgram 10;
+	TreeWindow 0000;
+	Continuous  '0' '3' 1;
+	Calculations 1100001;
+	SummaryMode  '0' '0' 0;
+	Charts  Geneva '9' (normal) 0010;
+	NexusOptions  '0' '0' '1762' 001010011;
+	TipLabel  '1';
+	TreeFont  Geneva '9' (normal);
+	TreeShape  1.0 1.0 0100;
+	TraceLabels 0101;
+	ChartColors  '0' '0' '65535' '9' '0' 1;
+	ChartBiggestSpot 1;
+	ChartPercent 10;
+	ChartBarWidth  '10' 1;
+	ChartVerticalAxis 10101;
+	ChartMinMax  '0';
+	TraceAllChangesDisplay  '0' 1;
+	BarsOnBranchesDisplay  '1' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0100100;
+	ContinuousBranchLabels 0;
+	AllStatesBranchLabels 1;
+	IndexNotation  '2' 1;
+	PrintTree  10.00 '4' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (italic ) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '83' '115' '13' '45' '116' '148' '13' '45' '149' '181' '13' '45' '182' '214' '13' '45' '249' '63' '0' '0' '580' '432' '620' '35' '686' '35' '686' '276' '24' '35' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '8' '8' '0' '2' 0100110110100000010000000110000;
+	MatchChar 00 .;
+	EntryInterpretation 00;
+	ColorOptions 00;
+	TreeTools  '0' '5' '4' '0' '10' '4' '0' 00100111111101110;
+	EditorTools  '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001;
+	PairAlign  '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010;
+	BothTools  '1';
+END;
+
+
+BEGIN MESQUITE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 7461105207053798176;
+		endTell;
+		getEmployee  #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 1076034833272125382;
+			checksum 0 2264101521;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #1076034833272125382 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setSize 1014 622;
+					setLocation 1 1;
+					setFont SanSerif;
+					setFontSize 10;
+					onInfoBar;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					setBackground White;
+					toggleShowNames on;
+					toggleTight off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWithCharNames on;
+					toggleConstrainCW on;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.ornamental.CellPictures.CellPictures;
+				tell It;
+					toggleSeparate off;
+					toggleAA off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+END;
+
+
+BEGIN MacClade;
+	Version 4.0  87;
+	LastModified -1017388859;
+	FileSettings editor  '0' '0' '92' '1';
+	Singles 010;
+	Editor 00011001111111100100010010 '0' '24' Geneva '9' '100' '1' all;
+	EditorPosition  '44' '5' '643' '987';
+	TreeWindowPosition  '46' '6' '719' '974';
+	ListWindow Characters closed Geneva '9' '50' '10' '273' '644' 000;
+	ListWindow Taxa open Geneva '9' '479' '360' '273' '295' 100000000;
+	ListWindow Trees closed Geneva '9' '564' '39' '129' '393' ;
+	ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow ExSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ;
+	ChartWindowPosition  '52' '30' '686' '964';
+	StateNamesSymbols open Geneva '9' '10' '540' '754' '192' '220';
+	WindowOrder  Data States List Taxa;
+	OtherSymbols &/ 00 ?-;
+	Correlation  '0' '0' '1000' '0' '0' 10011010;
+	Salmo 00000001;
+	EditorFile  '2';
+	ExportHTML _ MOSS  '100' 110000;
+	PrettyPrint 10;
+	EditorToolsPosition  '492' '136' '115' '165';
+	TreeToolsPosition  '583' '25' '126' '138';
+	TreeWindowProgram 10;
+	TreeWindow 0000;
+	Continuous  '0' '3' 1;
+	Calculations 0000001;
+	SummaryMode  '0' '0' 0;
+	Charts  Geneva '9' (normal) 0010;
+	NexusOptions  '0' '0' '50' 001011011;
+	TipLabel  '1';
+	TreeFont  Geneva '9' (normal);
+	TreeShape  1.0 1.0 1110;
+	TraceLabels 0101;
+	ChartColors  '0' '0' '65535' '9' '0' 1;
+	ChartBiggestSpot 1;
+	ChartPercent 10;
+	ChartBarWidth  '10' 1;
+	ChartVerticalAxis 10101;
+	ChartMinMax  '0';
+	TraceAllChangesDisplay  '1' 1;
+	BarsOnBranchesDisplay  '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101;
+	ContinuousBranchLabels 0;
+	AllStatesBranchLabels 1;
+	IndexNotation  '2' 1;
+	PrintTree  10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '83' '115' '13' '45' '116' '148' '13' '45' '149' '181' '13' '45' '182' '214' '13' '45' '226' '75' '0' '0' '-15492' '456' '636' '35' '678' '35' '678' '288' '24' '35' '1' '1' '1' '1' '29440' '-17792' '-39' '4' '-40' '0' '1' '2' '4' '8' '8' '8' '0' '2' 0100110000000000010100000111000;
+	MatchChar 00 .;
+	EntryInterpretation 00;
+	ColorOptions 00;
+	TreeTools  '0' '5' '4' '0' '10' '4' '0' 00100111111101110;
+	EditorTools  '0' '0' '0' '1000' '0' '0' '6' '3' '1' 100010101110011;
+	PairAlign  '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010;
+	BothTools  '1';
+END;

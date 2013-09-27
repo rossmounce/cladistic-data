@@ -1,0 +1,40 @@
+
+#NEXUS
+
+[[Westrop, Stephen R. , Poole, Raina A. Waskiewicz and Adrain, Jonathan M.(2010) 'Systematics of
+Dokimocephalus and related trilobites from the Late Cambrian (Steptoean; Millardan and Furongian Series) of
+Laurentian North America', Journal of Systematic Palaeontology, 8: 4, 545 — 606]]
+
+begin data;
+dimensions ntax=25 nchar=26;
+format missing=? symbols="0123456789" gap=-;
+matrix
+
+
+Dunderbergia_anyta 			0 0 0 0 0 0 0 0 0 0 0 0 0 0 - - - 0 0 0 0 0 0 0 0 0
+Calocephalites_vulgaris 	1 0 0 0 0 0 1 1 1 0 0 0 0 0 - - - ? 0 1 ? ? ? ? ? ?
+Pseudosaratogia_magna 		1 0 0 0 0 2 1 1 1 0 0 0 0 0 - - - ? 0 1 0 0 0 0 0 1
+Dokimocephalus_pernasutus 	1 0 1 0 0 1 2 1 1 0 1 2 3 1 1 1 2 1 1 {01} 1 1 0 ? ? ?
+Dokimocephalus_gregori 		1 0 1 0 0 1 2 1 1 0 1 2 3 1 1 1 2 ? 1 1 ? ? ? ? ? ?
+Dokimocephalus_intermedius 	1 1 1 0 0 1 2 1 1 0 1 1 1 0 - - - 1 1 0 1 1 0 ? ? ?
+Dokimocephalus_lingula 		1 1 1 0 0 1 2 1 1 0 2 2 1 0 - - - 1 1 0 ? ? ? ? ? ?
+Dokimocephalus_extensus 	1 1 1 0 0 1 2 1 1 0 2 2 1 1 2 1 1 1 1 0 ? ? ? ? ? ?
+Dokimocephalus_stewarti 	1 1 1 0 0 1 2 1 1 0 2 2 2 1 2 2 1 ? 1 0 ? ? ? 0 ? ?
+Dokimocephalus_blacki 		1 1 1 0 0 1 2 1 1 0 2 2 2 1 2 1 2 ? 1 {01} 1 1 0 0 0 0
+Dokimocephalus_oliveri 		1 1 1 0 0 1 2 1 1 0 2 2 2 1 2 2 2 ? 1 {01} 1 1 1 0 1 0
+Iddingsia_utahensis 		1 0 1 1 0 1 2 1 1 0 1 1 0 0 - - - 0 0 2 ? ? ? ? ? ?
+Iddingsia_similis 			1 0 1 1 0 1 2 1 1 0 1 1 0 0 - - - ? 0 0 1 1 0 0 0 ?
+Iddingsia_missouriensis 	1 0 1 1 0 1 2 1 1 0 0 1 0 0 - - - ? 0 ? ? ? ? 1 1 0
+Burnetiella_cf_B_urania 	1 0 1 0 0 1 2 1 1 0 2 2 1 0 - - - ? 0 1 1 1 1 1 1 1
+Burnetiellasp_nov 			1 0 1 0 0 1 2 1 1 0 2 2 1 0 - - - ? 0 1 1 1 0 1 1 1
+Burnetiella_leechi 			1 0 1 ? 0 1 2 1 1 0 2 2 ? 0 - - - 0 0 1 1 1 ? 1 1 1
+Stittella_beeae 			1 0 1 0 0 1 2 1 1 1 2 0 0 0 - - - ? 0 1 1 1 1 0 0 0
+Stittellasp_nov 			1 0 1 0 0 1 2 1 1 1 2 0 0 0 - - - ? 0 1 ? ? ? ? ? ?
+Plataspella_alpersensis 	2 1 1 0 1 1 2 1 1 0 0 1 0 0 - - - ? 0 2 1 1 0 0 0 0
+Plataspellasp_nov 			2 0 1 0 1 1 2 1 1 0 0 1 0 0 - - - ? 0 2 ? ? ? ? ? ?
+Plataspellasp_indet 		2 1 1 0 1 1 2 1 1 0 0 1 0 0 - - - ? 0 2 ? ? ? ? ? ?
+Edithiella_missouriensis 	2 0 0 0 0 1 2 1 1 0 1 2 4 0 - - - ? 0 2 ? ? ? ? ? ?
+Edithiella_sp_a 			2 0 0 0 0 1 2 1 1 0 1 1 4 0 - - - 0 0 2 0 0 0 ? ? ?
+Edithiella_sp_b 			2 0 0 0 0 1 2 1 1 0 1 ? 4 0 - - - ? 0 2 ? ? ? ? ? ?
+;
+end;

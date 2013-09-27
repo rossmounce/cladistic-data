@@ -1,0 +1,18 @@
+#NEXUS
+
+[!Prokofiev, A. 2006. Fossil myctophoid fishes (myctophiformes: Myctophoidei) from russia and adjacent regions. Journal of Ichthyology 46:S38-S83.]
+
+begin data;
+dimensions ntax=7 nchar=11;
+format missing=? gap=- symbols="012";
+MATRIX
+OUTAulopus 	   0 0 0 {01} 0 0 0  0  0  0  0
+Sardinioidinae     1 0 0  1  0 0 0  0  0  0  0
+Neocassandrinae    1 1 1  0  1 1 1  0  0  0  0
+Neoscopelinae      1 1 1  0  0 0 0 {01} 0  0  0
+Eomyctophinae      1 1 1  0  0 0 0  1  1  1  0
+Myctophinae        1 1 1  0  0 0 0  2  2 {01} 1
+Lampanyctinae      1 1 1  0  0 0 0  2  2 {01} 1
+;
+end;
+

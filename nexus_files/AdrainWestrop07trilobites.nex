@@ -1,0 +1,18 @@
+#NEXUS 
+[Adrain, J. M. and Westrop, S. R. 2007. Bearriverops, a new Lower Ordovician trilobite genus from the Great Basin, western USA, and classification of the family Dimeropygidae. Canadian Journal of Earth Sciences 44:337-366.]
+
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=6 NCHAR=13;
+	FORMAT SYMBOLS= " 0 1 2" MISSING=? GAP=- ;
+MATRIX
+OutgroupMME	 	0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+B.loganensis 		0 0 0 1 0 1 0 1 1 1 0 1 1 1
+B.deltaensis 		0 0 0 1 0 0 0 0 0 0 0 1 1 1
+B.alsacharovi 		1 1 1 2 1 1 1 1 1 1 1 2 2 2
+B.borderinnensis 	1 1 1 2 1 1 0 1 1 1 1 2 2 2
+B.ibexensis 		1 0 0 0 0 0 1 0 0 0 0 1 1 1
+;
+end;
+
+

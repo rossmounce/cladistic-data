@@ -1,0 +1,48 @@
+#Nexus
+
+[MALETZ, J., CARLUCCI, J. & MITCHELL, C.E. 2009. Graptoloid cladistics, taxonomy and phylogeny. Bulletin of
+Geosciences 84(1), 7–19 (6 figures, 2 tables). Czech Geological Survey, Prague. ISSN 1214-1119]
+
+BEGIN DATA;
+DIMENSIONS NTAX=33 NCHAR=47;
+FORMAT INTERLEAVE MISSING=? GAP=- SYMBOLS="0123456789";
+MATRIX
+
+Rhabdinopora_flabelliformis 0 0 0 1 0 0 1 0 0 0 2 0 1 0 0 1 0 0 1 1 3 0 3 0 0 0 0 0 0 0 0 1 1 1 3 1 1 0 0 0 0 2 0 0 0 0 0
+Anisograptus_matanensis 0 1 0 ? 0 ? 1 0 0 0 1 0 0 0 0 1 0 0 1 0 3 0 3 0 0 0 0 0 0 0 0 1 1 1 2 1 1 0 0 0 0 2 0 0 0 0 0
+Adelograptus_tenellus 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 1 0 3 0 3 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 2 0 0 0 0 0
+Hunnegraptus_copiosus 1 0 1 0 0 0 1 0 1 1 1 0 0 0 0 1 0 0 1 0 3 0 3 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 1 0 2 0 0 0 0 0
+Paradelograptus_mosseboensis 1 0 0 1 0 1 1 0 0 1 2 0 1 0 0 1 0 0 1 0 3 0 3 0 1 0 0 0 0 0 0 0 0 1 1 0 1 0 1 1 0 2 0 0 0 0 0
+Pendeograptus_fruticosus 1 0 0 0 0 1 1 0 0 0 2 0 4 0 0 0 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 2 0 0 0 0 0
+Tetragraptus_serra 0 0 0 0 0 1 1 0 0 0 2 0 2 0 0 0 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 2 0 0 0 0 0
+Isograptus_victoriae_lunatus 0 1 0 0 0 1 1 0 1 0 2 0 2 0 0 0 1 0 2 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 2 0 0 0 0 0
+Phyllograptus_typus 1 0 0 0 1 1 1 0 0 0 2 0 3 0 0 0 1 0 2 0 2 0 2 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 1
+Xiphograptus_lofuensis 0 0 0 1 1 0 1 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 0 0
+Pterograptus_elegans 0 0 0 1 1 0 1 0 0 0 1 0 1 1 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 0 0 1 0 0 0 2 0 0 0 0 0
+Goniograptus_thureaui 1 0 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 2 0 0 0 0 0
+Didymograptellus_bifidus 0 0 1 1 1 0 1 0 0 0 1 0 4 0 0 0 1 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 0 0
+Expansograptus_similis 0 0 0 0 0 0 1 0 1 0 2 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 0 0
+Sigmagraptus_praecursor 1 0 1 0 0 1 1 0 0 1 1 0 0 0 1 1 0 0 0 0 3 0 3 0 0 1 0 0 0 0 0 0 0 1 1 0 1 0 0 1 0 2 0 0 0 0 0
+Holmograptus_bovis 1 0 1 1 0 1 2 1 0 1 1 0 1 0 0 0 0 0 2 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 2 0 0 0 0 0
+Maeandrograptus_leptograptoides 1 0 1 1 0 1 1 0 0 1 0 0 1 0 0 0 1 0 2 0 0 0 1 1 1 1 0 0 0 0 0 0 0 1 1 0 1 0 0 1 0 2 0 0 0 0 0
+Acrograptus_sp. 0 0 1 1 0 0 1 0 0 1 1 0 1 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 ? 0 2 0 0 0 0 0
+Pseudodichograptus_sp. 1 0 1 1 0 1 2 1 0 1 1 0 0 0 0 1 0 0 1 0 3 0 3 0 1 2 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 0 0
+Nicholsonograptus_fasciculatus 1 0 1 1 0 1 1 1 0 1 0 0 1 0 0 0 1 0 2 0 0 0 0 0 1 1 1 0 0 2 0 0 0 1 0 0 2 0 0 0 0 2 0 0 0 0 0
+Azygograptus_lapworthi 1 0 1 ? 0 0 1 0 1 1 2 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 1 0 0 1 0 0 2 2 0 0 0 2 0 0 0 0 0
+Perissograptus_pygmaeus 1 0 0 0 0 1 0 1 0 1 0 0 2 0 0 0 0 0 0 0 2 0 2 0 1 1 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 2 0 0 0 0 0
+Aulograptus_climacograptoides 1 0 0 0 0 0 1 0 0 0 1 0 4 0 0 0 0 0 2 0 0 0 1 0 0 3 0 0 0 0 0 0 0 1 1 0 0 2 0 1 0 2 0 0 0 0 0
+Clonograptus_flexilis 0 0 0 0 0 0 1 0 0 0 2 0 0 0 0 1 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 2 0 0 0 0 0
+Jiangshanites_dubius 0 0 1 1 0 1 1 0 0 0 1 0 0 0 0 1 0 2 0 0 3 0 3 0 ? 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 0 0
+Parisograptus_caduceus_caduceus 0 0 0 0 0 1 1 0 1 0 3 0 2 0 0 0 0 0 2 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 2 0 0 0 0 1
+Bergstroemograptus_crawfordi 0 0 0 0 0 1 1 0 1 0 3 0 3 0 0 0 1 0 2 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 2 1 0 ? 0 0 0 1 0
+Cryptograptus_schaeferi 0 1 0 0 0 2 1 0 1 0 1 1 3 0 0 0 0 1 2 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 0 0 0 1 0
+Glossograptus_acanthus 0 1 0 0 0 2 1 0 1 0 ? 1 3 0 0 0 0 0 2 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 ? 0 0 0 0 1 1 0
+Paraglossograptus_tentaculatus 0 0 0 0 0 2 1 0 1 0 2 1 3 0 0 0 0 0 2 0 0 0 1 0 1 0 0 1 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 1 0
+Arienigraptus_gracilis 0 1 0 0 0 2 1 0 1 0 3 0 2 0 0 0 0 0 2 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 2 1 0 1 1 1 0 0 0
+Pseudisograptus_manubriatus_janus 0 0 0 0 0 2 1 0 1 0 3 0 2 0 0 0 1 0 2 0 0 0 1 1 1 0 2 0 0 0 0 0 0 0 1 0 0 0 3 2 0 1 1 1 0 2 0
+Exigraptus_uniformis 0 0 0 0 0 2 1 0 1 0 3 0 3 0 0 0 0 0 2 0 0 0 1 1 1 0 2 0 0 0 0 0 0 1 1 0 0 0 2 1 0 1 1 1 0 2 1
+;
+END;
+
+
+

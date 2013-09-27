@@ -1,0 +1,18 @@
+#NEXUS
+[!Data re-extracted by Ross Mounce from: Opitz, W. 2009. Classification and evolution of the genus Phymatophaea
+Pascoe from New Zealand and New Caledonia (Coleoptera:
+Cleridae: Enopliinae). Journal of the Royal Society of New Zealand: Volume 39, Number 4, 85–138.]
+BEGIN DATA;
+DIMENSIONS NTAX=7 NCHAR=17;
+FORMAT SYMBOLS= "01" MISSING=? GAP=- ;
+matrix     [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
+oconnori    1 1 1 1 1 1 0 1 0 0  0  0  0  0  0  0  0
+enodis      1 1 1 1 1 0 1 0 0 0  0  0  0  0  0  0  0
+guttigera   1 1 1 1 1 0 1 0 1 0  0  1  1  0  0  0  0
+pustulifera 1 1 1 1 1 0 1 0 1 1  1  0  1  0  0  0  0
+opilioides  1 1 1 1 0 1 0 1 0 0  0  0  1  1  1  0  1
+atrata      1 1 1 1 1 0 1 0 1 0  0  0  0  0  1  1  0
+opacula     1 1 1 1 1 0 1 0 1 0  0  0  0  0  0  1  1
+;
+end;
+

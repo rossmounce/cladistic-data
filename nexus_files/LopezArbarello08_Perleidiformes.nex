@@ -1,0 +1,35 @@
+
+
+#NEXUS
+
+[[Palaeontology, Vol. 51, Part 5, 2008, pp. 1025–1052]
+SYSTEMATIC REVISION OF PSEUDOBEACONIA
+BORDAS, 1944, AND MENDOCINICHTHYS WHITLEY,
+1953 (ACTINOPTERYGII: ‘PERLEIDIFORMES’) FROM
+THE TRIASSIC OF ARGENTINA
+by ADRIANA LOPEZ-ARBARELLO and ANA M. ZAVATTIERI ]
+
+begin data;
+dimensions ntax=16 nchar=27;
+format missing=? symbols="0123456789" gap=-;
+matrix
+
+
+Cheirolepis 				00000 12?00 00000 0?00? 00000 ?0
+Moythomasia 				00100 02?00 00010 0000? 00000 00
+Boreosomus 					10000 02?10 00011 0000? 00000 00
+Cleithrolepis 				12111 ?0011 1001? 21110 10110 10
+Cleithrolepidina 			11111 00?10 10011 2111? 10110 10
+Ctenognathichthys			02000 0011? 01001 10011 00000 00
+Dipteronotus 				11000 ?00?0 001?? 11011 12102 ?0
+Felberia 					11000 00100 01111 11111 10100 00
+Hydropessum 				12010 ?0011 10010 11010 10100 10
+Manlietta 					10000 00101 00001 1?01? 000?0 0{01}
+Meidiicthys 				11010 ??01? 00011 20010 00002 01
+Meridensia 					10000 01010 00101 0001? 00000 10
+Mendocinichthys 			????? ????? ????? ?0011 ?1001 1?
+Peltoperleidus 				10000 010{01}0 00{01}01 ?10?? 00002 {01}0
+Perleidus 					10000 00010 00101 20011 00002 00
+Pseudobeaconia 				01011 10001 00011 10011 01001 11
+;
+end;

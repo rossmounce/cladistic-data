@@ -1,0 +1,393 @@
+#NEXUS
+[File created by TreeBASE: 10/2/98 20:31:54]
+[Matrix accession#: M377]
+BEGIN DATA;
+DIMENSIONS NTAX=39 NCHAR=175;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-1998.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=377 on June 20, 2010, 5:18 pm 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Livezey, B. C. 1996. A phylogenetic analysis of geese and swans (Anseriformes: Anserinae), including selected fossil species. Syst. Biol. 45(4): 415-450.
+
+Study accession number = S316
+Matrix accession number = M377
+]
+FORMAT SYMBOLS = " a b c d e f g h i j " MISSING = ? GAP = - INTERLEAVE ;
+CHARLABELS
+[1]	'Facies_arcus_suborbitalis'	[2]	'Facies_pile_supranasalis_dorsal'	[3]	'Facies_aperture_nasalis'	[4]	'Mandibula_ventral_curvature'
+[5]	'Mandibula_regio_coronoidei'	[6]	'Os_prefrontale_synostosis_with'	[7]	'Os_prefrontale_processus_suprao'	[8]	'Ossa_nasale_et_frontale_immedia' [9]	'Os_frontale_facies_dorsalis_sul'
+[10]	'Os_premaxillare_anterior_termin'	[11]	'Os_premaxillare_crista_tomialis'	[12]	'Os_premaxillare_crista_tomialis'	[13] 'Maxilla_(ossa_premaxillare_et_m'	[14]	'Ossa_maxillare_et_palatinum_elo'
+[15]	'Ossa_maxillare_et_palatinum_pai'	[16]	'Vertebrae_cervicales_modal_numb'	[17]	'Vertebrae_thoracicae_(et_caudal'	[18] 'Vertebrae_caudales_modal_number'	[19]	'Corpus_sterni_trabecula_mediana'
+[20]	'Corpus_sterni_processus_caudola'	[21]	'Corpus_sterni_incisura_medialis'	[22]	'Corpus_sterni_facies_muscularis'	[23] 'Corpus_sterni_pars_cardiaca_por'	[24]	'Corpus_sterni_foremen_pneumatic'
+[25]	'Corpus_sterni_margo_costalis_pr'	[26]	'Corpus_sterni_margo_caudalis'	[27]	'Corpus_sterni_margo_cranialis_s'	[28] 'Rostrum_sterni_spine_interna'	[29]	'Rostrum_sterni_spine_externa'
+[30]	'Carina_sterni_margo_cranialis_f'	[31]	'Carina_sterni_ventral_prominenc'	[32]	'Claviculae'	[33]	'Extremitas_sternalis_claviculae'	[34] 'Extremitas_sternalis_claviculae'
+[35]	'Scapus_claviculae_facies_latera'	[36]	'Extremitas_omalis_claviculae_pr'	[37]	'Extremitas_cranialis_scapulae_c'	[38] 'Extremitas_cranialis_scapulae_a'	[39]	'Collum_scapulae_facies_laterali'
+[40]	'Scapus_scapulae_relative_width'	[41]	'Extremitas_omalis_coracoidei_pr'	[42]	'Extremitas_omalis_coracoidei_pr'	[43] 'Extremitas_omalis_coracoidei_pr'	[44]	'Corpus_coracoidei_facies_dorsal'
+[45]	'Corpus_coracoidei_facies_ventra'	[46]	'Extremitas_sternalis_coracoidei'	[47]	'Angulus_scapulo-coracoidei'	[48] 'Synostosis_with_scapula_and/or'	[49]	'Pneumaticity_especially_of_dist'
+[50]	'Humerus_extremitas_proximalis_h'	[51]	'Humerus_margo_caudalis_'	[52]	'Ulna_et_radius_extremitas_dista'	[53] 'Ulna_extremitas_proximalis_depr'	[54]	'Ulno-radial_and/or_carpometacar'
+[55]	'Carpometacarpus_extremitas_prox'	[56]	'Carpometacarpus_extremitas_prox'	[57]	'Carpometacarpus_corpus_carpomet'	[58] 'Carpometacarpus_corpus_carpomet'	[59]	'Carpometacarpus_corpus_carpomet'
+[60]	'Carpometacarpus_corpus_carpomet'	[61]	'Carpometacarpus_extremitas_dist'	[62]	'Os_coxae_foremen_ilioischiadicu'	[63] 'Os_coxae_fossa_renalis_recessus'	[64]	'Ilium_ala_postacetabularis_ilii'
+[65]	'Ischium_ala_ischii_margo_caudal'	[66]	'Pubis_corpus_pubis_margo_dorsal'	[67]	'Pubis_apex_pubis_shape'	[68] 'Femur_extremitas_proximalis_fem'	[69]	'Femur_extremitas_proximalis_fem'
+[70]	'Tibiotarsus_extremitas_proximal'	[71]	'Tarsometatarsus_hypotarsus'	[72]	'Tarsometatarsus_corpus_tarsomet'	[73] 'Tarsometatarsus_extremitas_dist'	[74]	'Tarsometatarsus_extremitas_dist'
+[75]	'Tarsometatarsus_extremitas_dist'	[76]	'Tarsometatarsus_extremitas_dist'	[77]	'Trachea_ansae_tracheales_intras'	[78] 'Trachea_fenestra_et_membrane_tr'	[79]	'Trachea_bulbus_tracheosyringeal'
+[80]	'Syrinx_tympanum_lateromedial_co'	[81]	'Syrinx_bulla_syringealis_(asymm'	[82]	'Syrinx_pessulus_osseus_(ordered'	[83] 'Syrinx_membrane_tympaniformis_l'	[84]	'Syrinx_bulbus_bronchiosyringeal'
+[85]	'Bill_color'	[86]	'Foot_color'	[87]	'Dorsum_(crown_back_rump_wings)'	[88]	'Dusky_periorbital_patch'	[89]	'Darkish_cap_(separate_from_chee'
+[90]	'Dark_corona_sharply_contrashng'	[91]	'Ground_color_of_down*'	[92]	'Dishnct_pale_scapular_and_rump'	[93] 'Pale_scapular_and_rump_spots_(i'	[94]	'Pale_suborbital_stripe_(ordered'
+[95]	'Rhamphotheca_ground_color'	[96]	'Maxilla_basal_'	[97]	'Maxilla_rhamphotheca_small_gray'	[98]	'Cere_bright_green_color'	[99] 'Maxilla_tomium_contrashng_black'
+[100]	'Maxilla_tomium_narrow_reddish_b'	[101]	'Maxilla_(ordered)'	[102]	'Maxilla_tomium_marked_ventral_d'	[103] 'Maxilla_rhamphotheca_dertrum_co'	[104]	'Mandibula_rhamphotheca_of_rami'
+[105]	'Maxilla_rhamphotheca_dorsal_sur'	[106]	'Maxilla_rhamphotheca_contrashng'	[107]	'Maxilla_rhamphotheca_caudal_mar'	[108] 'Maxilla_rhamphotheca_tomium_lat'	[109]	'Mandibula_interramal_region'
+[110]	'Foot_color'	[111]	'Interdigital_webbing_of_feet_(e'	[112]	'Tarsal_integument_facies_dorsal'	[113]	'Molt_of_remiges'	[114] 'Ground_color_of_primary_remiges'
+[115]	'Contrashngly_black_hps_of_dista'	[116]	'Primary_remiges_rachises_color'	[117]	'Secondaq_remiges_ground_color'	[118] 'Ground_color_of_dorsal_median_a'	[119]	'Lesser_(cranial-most)_dorsal_pr'
+[120]	'Tips_of_greater_secondary_cover'	[121]	'Terhals'	[122]	'Wing_linings'	[123]	'Axillaries'	[124]	'Rectrices_modal_number_of_pairs'
+[125]	'Rectrices_color'	[126]	'White_(caudal)_upper_tail_cover'	[127]	'Contrashngly_black_'	[128]	'Upper_tail_coverts_contrashngly'	[129] 'Plumage_of_head_neck_and_(in_so'
+[130]	'Dark_(blue)_and_pale_(white)_co'	[131]	'Mantle_ground_color*'	[132]	'Mantle_shape_of_feathers'	[133]	'Mantle_and_upper_wing_coverts_d' [134]	'Boldly_barred_dorsum_formed_by'
+[135]	'Large_black_central_spots_on_do'	[136]	'Rump_prominent_barring_of_black'	[137]	'Rump_contrashngly_white_color'	[138] 'Contrastingly_black_undertail_c'	[139]	'Sharply_demarcated_dark_breast'
+[140]	'Fine_white_breast_stripe_contra'	[141]	'Coarse_black_spothng_on_lower_b'	[142]	'Coarse_gray_and_black_barring_o'	[143] 'Dark_gray_or_black_condnuing_ve'	[144]	'Fine_caudally_jagged_white_side'
+[145]	'Flank'	[146]	'Head'	[147]	'Crown_sides_of_head_neck'	[148]	'Black_crown_anterior_region_of'	[149]	'Medial_black_gular_stripe_divid'
+[150]	'Contrashng_black_transverse_nuc'	[151]	'White_cheek_patches'	[152]	'Deep_chestnut_cheek_patches'	[153] 'Buffy_color_on_cheeks_throat_fo'	[154]	'Sharply_defined_contrashag_whit'
+[155]	'White_transverse_'	[156]	'White_tear-shaped_orbital_marks'	[157]	'Sharply_delimited_blackish_bord'	[158]	'Sides_of_neck'	[159] 'Narrow_blackish_caudally_trunca'
+[160]	'Complete_brown_dorsal_nuchal_st'	[161]	'Black_neck_'	[162]	'Black_neck_stocking_pars_caudal'	[163]	'Broad_gray_stripes_on_throat_an' [164]	'Black_chin_and_upper_throat_gra'
+[165]	'Semicircular_white_loral_patche'	[166]	'Mean_body_mass'	[167]	'Sexual_size_dimorphism'	[168]	'Mean_clutch_size'	[169]	'Mean_egg_mass'
+[170]	'Relative_clutch_mass'	[171]	'Preferred_nest_site_(ordered)'	[172]	'Age_at_sexual_maturity_(ordered'	[173]	'Semicoloniality'	[174] 'Feeding_habitat_diet'
+[175]	'Typical_aquadc_habitat_during_n'
+;
+STATELABELS
+1 'absent' 'typical',
+2 'absent' 'present_but_not_pronounced' 'present_pronounced',
+3 'large_distinctly_craniocaudally' 'reduced_weakly_dorsoventrally_e',
+4 'essentially_lacking' 'pronounced',
+5 'not_markedly_deep_(others)' 'markedly_deep',
+6 'lacking' 'present',
+7 'small_variably_laterally_orient' 'large_flat_medially_appressed_t',
+8 'absent_(includes_uniquely_ornam' 'present_variably_prominent_espe',
+9 'absent' 'present_typically_lateral_not_e' 'present_enclosed_dorsally_by_os',
+10 'present' 'absent',
+11 'absent' 'present',
+12 'comparatively_sharp' 'flattened_chelonian',
+13 'not_extraordinarily_deep_broad' 'extraordinarily_deep_broad',
+14 'indistinct_or_moderately_deep' 'extremely_deep_broad',
+15 'lacking' 'indistict' 'deep',
+16 '16_(Anatinae)' '17' '19_or_20' '21' '22-25',
+17 '15_or_16' '17-19' '20-22',
+18 '7' 'eight' '9_or_10_less_frequently_8',
+19 'absent' 'present',
+20 'extend_significantly_caudad_to_' 'caudal_extent_subequal_to_margo',
+21 'present' 'obsolete',
+22 'extends_caudally_to_margo_cauda' 'angling_medially_to_carina_well',
+23 'widely_scattered_throughout' 'essentially_absent' 'limited_to_caudal_margin_of_pil',
+24 'present_largely_occluded_by_med' 'present_open' 'absent',
+25 'four' 'six' 'seven' 'eight',
+26 'entire' 'unossified_medially',
+27 'absent' 'present',
+28 'essentially_a_rounded_notch_wit' 'rectanguloid_flange',
+29 'present_a_thick_wedgelike_promi' 'lacking' 'present_a_peglike_or_spatulate_',
+30 'absent' 'present_but_not_accomodating_an' 'present_accomodating_ansae_trac',
+31 'comparatively_great_lateral_pro' 'greatly_reduced_vestige_restric',
+32 'well_developed_not_widely_diver' 'relatively_weakly_developed_wid' 'lacking',
+33 'present' 'obsolete',
+34 'forming_a_continuous_curve_with' 'markedly_bowed_caudodorsally_ac',
+35 'lacking_foramina_pneumatica' 'perforated_by_several_small_for' 'perforated_by_large_foramina_pn',
+36 'indistinct' 'distinct',
+37 'present_but_variably_conformed' 'absent',
+38 'approximating_tuberculum_coraco' 'extending_sign)ficantly_craniad',
+39 'marked_by_one_prominent_tubercu' 'marked_by_two_prominent_tubercu',
+40 'essentially_uniform_throughout' 'margo_dorsalis_et_margo_ventral',
+41 'present' 'obsolete',
+42 'lacking' 'present_but_comparatively_few' 'present_interspersed_within_lar',
+43 'present' 'absent',
+44 'present' 'absent',
+45 'indistinct' 'deep_distinct_(Stictonetta_extr',
+46 'broad_rounded_flange_extending_' 'variably_shaped_approximating_f',
+47 'acute' 'obtuse',
+48 'absent' 'frequent_if_not_typical',
+49 'present' 'absent',
+50 'distal_to_caput_humeri' 'proximal_to_caput_humeri',
+51 'prominent_directed_toward_caput' 'prominent_directed_toward_tuber' 'obsolete',
+52 'absent' 'present_(VLG)',
+53 'dishnct_but_not_deeply_undercut' 'very_prominent_deeply_undercutt',
+54 'absent' 'infrequent',
+55 'essentially_continuous_endre' 'prominently_notched',
+56 'absent' 'present',
+57 'completely_proximal_to_synostos' 'opposite_at_least_partly_synost',
+58 'flattened_or_angular' 'rounded',
+59 'rounded' 'concave_with_elongate_sulcus',
+60 'present' 'occluded_through_synostosis_of_',
+61 'facies_arhcularis_digitalis_min' 'facies_arhculares_digitorum_of_',
+62 'endre' 'frequently_(if_not_modally)_ope',
+63 'present' 'absent',
+64 'dishnct_to_margo_caudalis' 'obsolete_cranial_to_margo_cauda',
+65 'well_caudal' 'subequal_margo_caudalis_pelvic)',
+66 'concave' 'convex',
+67 'of_uniform_width_with_corpus_or' 'widened_into_semicircular_flang',
+68 'approximately_equal' 'proximal',
+69 'sign)ficantly_caudal' 'essentially_perpendicular',
+70 'lacking' 'present',
+71 'laterally_situated_on_corpus_fo' 'centered_on_corpus_lacking_dist',
+72 'deep' 'obsolete',
+73 'absent' 'present',
+74 'perpendicular_to_corpus_coplana' 'distoplantad_to_corpus_distinct',
+75 'approximately_equal' 'significantly_proximal',
+76 'obsolete' 'distinct',
+77 'absent_(b)_rudimentary_a_single' 'present_well_developed_(C._bucc',
+78 'absent' 'present',
+79 'absent_trachea_cranial_to_syrin' 'present_variably_marked_by_cons',
+80 'present' 'absent_tympanum_essentially_cyl',
+81 'absent' 'present_(presumably_only_in_mal' 'present_large_and_small_chamber',
+82 'complete_firmly_synostodc_with_' 'incomplete_reduced_to_dorsal_an' 'absent',
+83 'absent_or_inconspicuous' 'bilaterally_enlarged_associated',
+84 'absent' 'present',
+85 'gray' 'flesh',
+86 'gray' 'orange_or_yellow;_(c)',
+87 'darker_than_venter_(slight_in_A' 'does_not_contrast_with_pale_ven',
+88 'present_but_variably_extensive_' 'absent',
+89 'present' 'absent',
+90 'absent' 'present_(B._sandvicensis_compar',
+91 'white' 'yellow',
+92 'present' 'absent',
+93 'separate' 'confluent_forming_bilateral_dor',
+94 'terminahng_at_nape' 'separated_dorsally_by_narrow_da' 'meeting_across_nape',
+95 'gray_to_black' 'flesh-colored_or_pink' 'orange' 'red',
+96 'absent' 'present_orange' 'present_black',
+97 'absent' 'present',
+98 'absent' 'present',
+99 'absent' 'present_(least_conspicuous_in_A',
+100 'absent' 'present',
+101 'of_typical_proporhon' 'intermediate_in_profile' 'short_high-_based_subconical',
+102 'absent' 'present_but_moderate' 'present_marked',
+103 'black' 'pale',
+104 'colored_like_rest_of_bill' 'contrastingly_blackish',
+105 'not_marked_with_black' 'variably_marked_with_black_cont',
+106 'absent' 'present_restricted_to_loral_str' 'present_comparatively_extensive',
+107 'terminates_well_anterior_to_orb' 'extends_posteriorly_to_orbit_as',
+108 'absent' 'present',
+109 'lacks_feathers_anteriorly' 'completely_feathered',
+110 'orange' 'pink' 'black',
+111 'truly_semipalmate' 'palmate_(includes_variably_inci',
+112 'redculate' 'scutellate',
+113 'sequenhal' 'simultaneous',
+114 'medium_brown' 'silvery_gray_(not_evident_in_wh' 'blackish_brown' 'white',
+115 'absent' 'present',
+116 'white' 'brownish',
+117 'essentially_uniform_in_color_wi' 'distinctly_darker_than_dorsal_c',
+118 'plain_grayish_brown' 'pale_brownish_gray' 'bluish_silvery_gray_(not_eviden' 'white',
+119 'not_pale_silvery_gray' 'contrastingly_pale_silvery_gray',
+120 'without_contrashngly_pale_margi' 'with_narrow_contrashngly_pale_m' 'with_comparadvely_broad_contras',
+121 'dark_with_pale_margins_margins_' 'elongate_three-toned_dark_(blac' 'immaculately_black_lacking_pale',
+122 'dark_like_remiges' 'white' 'pale_gray',
+123 'generally_dark_comparable_to_co' 'pale_silvery_gray' 'white_contrasting_with_sides',
+124 '6' 'seven' 'eight' 'nine' '1-12',
+125 'essentially_black' 'grayish_black_medially_with_pal' 'white',
+126 'present' 'absent',
+127 'absent_rump_similar_in_color_to' 'present',
+128 'absent' 'present',
+129 'absent' 'present_limited_to_head_and_nec' 'present_endre_body_exclusive_of',
+130 'absent' 'present_but_geographically_vari',
+131 'medium_brown' 'gray' 'blackish' 'white',
+132 'comparadvely_narrow_to_moderate' 'distinctly_broad_with_truncate_',
+133 'absent' 'present',
+134 'absent' 'present_(Branta_leucopsis_inter',
+135 'absent' 'present',
+136 'absent' 'present',
+137 'absent' 'present',
+138 'absent' 'present',
+139 'absent' 'present_black' 'present_chestnut',
+140 'absent' 'present',
+141 'absent' 'present',
+142 'absent' 'present',
+143 'absent' 'present',
+144 'absent' 'present',
+145 'not_marked_as_follows_(includin' 'barred_with_whitish_on_dusky-bl',
+146 'not_endrely_black' 'endrely_black',
+147 'not_as_follows' 'white_in_contrast_with_dark_of_',
+148 'absent' 'present',
+149 'absent' 'present',
+150 'absent' 'present',
+151 'absent' 'present',
+152 'absent' 'present',
+153 'absent' 'present',
+154 'absent' 'present',
+155 'absent' 'present',
+156 'absent' 'present',
+157 'absent_(includes_infrequent_nar' 'present_comparadvely_restricted' 'present_comparadvely_extensive_',
+158 'not_as_follows' 'with_long_narrow_basally_dark_d',
+159 'absent_(includes_complete_smoot' 'present_(not_evident_in_white_m',
+160 'absent' 'present',
+161 'absent' 'present_(cranially_obscured_by_',
+162 'absent' 'present',
+163 'absent' 'present',
+164 'absent' 'present',
+165 'absent' 'present',
+166 '<1000_g' '1000-3000_g' '3000-5000_g' '500' '~' '10000_g' '>10000_g',
+167 'c1.01' '1.01-1.20' '1.21-_1.30' '>1.30',
+168 '4_or_5' '5_or_6' '6_or_7' '7_or_8' '8_or_9' '>9',
+169 '<100_g' '100_or_140_g' '140_or_200_g' '>200_g',
+170 '<20%' '20%_or_30%_(c)_30%_or_40%' '>40%',
+171 'over_water' 'terrestrial_(includes_Dendrocyg',
+172 '1_yr' '2_yr' '23_yr',
+173 'not_characterishc' 'characterishc',
+174 'surface_aquadc' 'diving' 'terrestrial_grazing',
+175 'freshwater' 'salt_water',
+
+;
+
+MATRIX
+
+'Outgroup_to_Anseres' aaaaaaaaaaaaaaabaaaaaaaacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa?aaaa??aaaaaaaa
+'Dendrocygna' baaaabaaabaaaaabaaaaaabbcaaabaaaaaabbbaaaabbbbaaaaaaaaaaaaaababbaaaabbbbabbaababaaaaaaaaaa{ab}a{ab}c{ab}aaaaa
+'Thalassornis' aaaaabaaabaaaaabaaaaaabccaaabaaaaaabbbaaaabbbbaaaaaaaaaaaabababbbaaabbbbabbbaaabaaaaaaaaaabaabaaaaaa
+'Cnemiornis' abaaa?aacbaaaaabb?aab??ccaaababbbabaaaa?acabaabaabaaaaaa?a?ababbbaa?abab?aab????a???????????????????
+'Cereopsis_novaehollandiae' acaaabbbbbaaaaacbaaaaacbbaaabaaaaabbabbbacbbaaaaaaaaaabbaabababbbababbbbabbbaaaaaabaaaaaaaaabaaaabaa
+'Anser_cygnoides' aaaaabababaaaabcbaaaaacbdaaacaaaaabbababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaaabaabaaaaa
+'Anser_fabalis' aaababababaaaabcbaaaaacbcaaacaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaabbaacaaaaa
+'Anser_brachyrhynchus' aaababababaaaabcbaaaaacbcaaacaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaabbaabaaaaa
+'Anser_anser' aaababababaaaabcbaaaaacbcaaacaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaabbaacaaaaa
+'Anser_rubrirostris' aaababababaaaabcbaaaaacbcaaacaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaabbaabaaaaa
+'Anser_albifrons' aaababababaaaabcbaaaaacbcaaacaaaaabbababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaabbaa{bc}aaaaa
+'Anser_erythropus' aaababababaaaabcbaaaaacbcaaacaaaaabbababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaabbaabaaaaa
+'Anser_indicus' aaababababaaaabcbaaaaacbcaaacaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaabbaabaaaaa
+'Anser_caerulescens' aaababababaaaabcbaaaaacbcaaacaaaaabbababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaababbaabaaaba
+'Anser_rossii' aaababababaaaabcbaaaaacbcaaacaaaaabbababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaababbaabababa
+'Ptaiochen_pau' abaaabaabbbaabc?????????????????????????babbabbbba?aab?????b??bb???bbbbb???????bcaa?????????????????
+'Chelychelynechen_quassus' abbab????babbac??????????????????????a??babbabbbb????b?????b??bb????bb??????????????????????????????
+'Coscoroba_coscoroba' aaaaababbbaaaaadcabaabcbcabacbaaaabbabababbbabaaaaaaaabaaabababbbbbabbbbabbbaabaaabaacaaaaabaadaaaaa
+'Cygnus_melanocoryphus' aaaaababbbaaaaaeccbaabcbdaaacbaaaacbabababbbabaaaaaaaabaaabaaabbbbbabbbbabbbbabaaabaaabb??abaaabaaaa
+'Cygnus_atratus' aaaaababbbaaaaaeccbaabcbdaaacbaaaacbabababbbabaaaaaaaabaaabaaabbbbbabbbbabbbbabaaabaaabb??abaadaaaaa
+'Cygnus_olor' aaaaabababaaaaaeccbaabcbdaaacbaaaacbabababbbabaaaaaaaabaaabaaabbbbbabbbbabbbbabaabbaabbb??abaaccaaaa
+'Cygnus_columbianus' aaaaabababaaaaaeccbaabcbdaaaccaaabcbabababbbabaaaaaaaabaaabaaabbbbbabbbbabbbcabaacbbbbbb??abaaaaaaaa
+'Cygnus_bewickii' aaaaabababaaaaaeccbaabcbdaaaccaaabcbabababbbabaaaaaaaabaaabaaabbbbbabbbbabbbcabaacbbbbbb??abaaaaaaaa
+'Cygnus_cygnus' aaaaabababaaaaaeccbaabcbdaaaccaaabcbabababbbabaaaaaaaabaaabaaabbbbbabbbbabbbcabaacbbbbbb??abaaaaaaaa
+'Cygnus_buccinator' aaaaabababaaaaaeccbaabcbdaaaccaaabcbabababbbabaaaaaaaabaaabaaabbbbbabbbbabbbcabaacbbbbbb??abaaaaaaab
+'Stictonetta' aaaaabaaabaaaaabaaabaabbcaaa?aaaaaabbbaaaabbbbaaaabaaababbbababbbaaabbbbabbbaaabaaaaaaaaaaabaaaaaaaa
+'Tadorninae' aaaaaba{ab}abaaaaa{ab}aaabaabbcaaa?aaaaaabbbaaaabbabaaaabaaabbbbbababbbaaabbbbabbbaaabbaaaaaaaaa{ab}b{ab}a?aaaaa
+'Anatinae' aaaaabaaabaaaaaaaaabaabbcaaa?aaaaaabbbaaaabbabaaaacaaababbbababbbaaabbbbabbbaa{ab}b{ab}aaa{ab}{ab}aaaa{ab}baa?aaaaa
+'Anser_canagicus' aaababababaaaabcbaaaaacbcaaacaaaaabbababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaaaabaabaaaba
+'Geochen_rhuax' aaaaababbbaaaaacb?aaabcbc?aacaaaaaabababacbbabaaaaabbabbbabababbbababbbbbbbb???aaab?????????????????
+'Branta_bernicla' aaaaababbbaaaaacbbaaaacbcaabcaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaaaaaabaaaaaaaabaaaaaaaa
+'Branta_hrota' aaaaababbbaaaaacbbaaaacbcaabcaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaaaaaabaaaaaaaabaaaaaaaa
+'Branta_canadensis' aaaaababbbaaaaacbbaaaacbcaabcaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaaaaaabaaaaaabbbaaaaaaaa
+'Branta_sandvicensis' aaaaababbbaaaaacbbaaaacbcaabcaaaaaabababacbbabaaaaaaaabbbababbbbbababbbbabbbaaaaaabaaaaaababaaaaaaaa
+'Branta_hylobadistes' aaaaababbbaaaaa?b?aaaacbcaabcaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbb???aa?b?????????????????
+'Branta_leucopsis' aaaaabababaaaaacbbaaaacbcaabcaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaaaaaabaaaaaababaaaaaaaa
+'Branta_ruficollis' aaaaabababaaaaacbbaaaacbcaabcaaaaaabababacbbabaaaaaaaabbbabababbbababbbbabbbaabaaabaaaaaababaaaaaaaa
+'Thambetochen_chauliodous' abaaabaacbbaaaccbbababbcabaabab{bc}baaabbaababbabbbbaaaabba???bbabbbababbbb?bbb???bbaa?????????????????
+'Thambetochen_xanion' abaaabaacbbaaac?????????????????????????babbabbbba?aab?????b??bb???abbbb?bbb???bbaa?????????????????
+
+
+'Outgroup_to_Anseres' aaaaaaaaa?aaaaaaaaaaaaaaaaaaaa?aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa?????abaaa
+'Dendrocygna' aa{ab}aaaaaa{bc}babaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaa{ab}aaa{ab}abaaaaaaafadbaaaa
+'Thalassornis' aaaaaaaaacbabaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaabeadbaaba
+'Cnemiornis' ???????????????????????????????????????????????????????????????????????????
+'Cereopsis_novaehollandiae' aaaaaaaabababbaaaaaaaaababaaaabaaabaabaaaaaaaaaaaaaaaaaaaaaaaaaaacdababcacb
+'Anser_cygnoides' acaaaaaaaababbaabaabaaadbaaaaaabbaaaaaaaaaaabaaaaaaaaaaabbabaaaaacbbcbbcaca
+'Anser_fabalis' acabbaaaaababbaabaabaaadbaaaaaabbaaaaaaaaaaabaaaaaaaaaaaabaaaaaaabbacbbcbca
+'Anser_brachyrhynchus' acabbaaaabbabbaabaabaaadbaaaaaabbaaaaaaaaaaabaaaaaaaaaaaabaaaaaaabbabbbcbca
+'Anser_anser' acbaaaaaaababbaababbaabdbaabaaabbaaaaaaabaaabaaaaaaaaaaaabaaaaaaacbbcbbcaca
+'Anser_rubrirostris' acbaaaaaaababbaababbaabdbaabaaabbaaaaaaabaaabaaaaaaaaaaaabaaaaaaacbbcbbcaca
+'Anser_albifrons' abbaaaaaaababbaabaacaaacbaaaaaabbaaaaaaabaaabaaaaaaaaaaabbaaaaaaabbabbbcaca
+'Anser_erythropus' abbaaaaaaababbaabaacaaacbaaaaaabbaaaaaaabaaabaaaaaaaabaacbaaaaaaabbabbbcaca
+'Anser_indicus' abaaaaaaaababbaabbabacbcbaaaaabbbaaaaaaaaaaaba?aabaaaaaaaabaaabaabbacbbc{ab}ca
+'Anser_caerulescens' abbaaaaaabbabbaabcacbbccbaaaabaaaaaabaaaaaaababaaaaaaaaaaabaaaaaabbabbbcbca
+'Anser_rossii' abbaaaaaabbabbaabcacbbccbaaaabaaaaaabaaaaaaababaaaaaaaaaaabaaaaaabbaabbcbca
+'Ptaiochen_pau' ???????????????????????????????????????????????????????????????????????????
+'Chelychelynechen_quassus' ???????????????????????????????????????????????????????????????????????????
+'Coscoroba_coscoroba' aabaaaababbabdbaada????ccaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacccccadaaa
+'Cygnus_melanocoryphus' aaaaaabaabbabdaaada????eaaaabadaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaacdadbadaaa
+'Cygnus_atratus' aabaaabaacbabdaaada????eaaaacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadcbdbad{ab}aa
+'Cygnus_olor' aaaaaabaacbabdaaada????ecaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaecddaadaaa
+'Cygnus_columbianus' aaaaabbaacbabdaaada????ecaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadcadaadaaa
+'Cygnus_bewickii' aaaaacbaacbabdaaada????ecaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadcbdbadaaa
+'Cygnus_cygnus' aaaaacbaacbabdaaada????ecaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddbdbadaaa
+'Cygnus_buccinator' aaaaaabaacbabdaaada????ecaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaecbdaadaaa
+'Stictonetta' aaaaaaaaacbabaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabdadbcaaa
+'Tadorninae' ?{ab}aaaaaaa?bbbaaaaaaaaac?aaaaaa?aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa?{bc}?a?bca{abc}{ab}
+'Anatinae' aaaaaaaaa?bbbaaaaaaaaac?aaaaaa?aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa?{bc}?a?{ab}{bc}a{ab}{ab}
+'Anser_canagicus' abbaaaaaaababbaabcacbcbcbbaaaababbabaaaaabaababaaaaaaaaaaaaaaaababbabbbcaca
+'Geochen_rhuax' ???????????????????????????????????????????????????????????????????????????
+'Branta_bernicla' caaaaaaaacbabcabaaaacaacaabaaaabaaaaaabaaababba?aabaaaaaaaaabaaaabbaabbcbcb
+'Branta_hrota' caaaaaaaacbabcabaaaacaacaabaaaabaaaaaabaaaaabba?aabaaaaaaaaabaaaabbaabbcbcb
+'Branta_canadensis' {bc}aaaaaaaacbabaabaaabaaa{bc}aabaaaabbaaaaaaaaaaabaab{ab}abaaaaaaaaabbaaa{bc}ba{abc}{bc}bcaca
+'Branta_sandvicensis' baaaaaaaacbabaabaaabaaabaabaaaabbaaaaaaaaaaabaabbababaaaabaabbaaabbabcbcaca
+'Branta_hylobadistes' b??????????????????????????????????????????????????????????????????????????
+'Branta_leucopsis' caaaaaaabcbabbabaaabcaacaabaaacbbbaaaabaaaaabaa?aabaaabaaaaabaaaabbabbbcbca
+'Branta_ruficollis' caaaaaaabcbabcabaaaccaacaabaaacaabaaaacbaabbbaa?aabbaaaaaaaabaaabbcaacbcbca
+'Thambetochen_chauliodous' ???????????????????????????????????????????????????????????????????????????
+'Thambetochen_xanion' ???????????????????????????????????????????????????????????????????????????
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+TYPESET Standard = unord: 1 - 15 19 - 24 26 - 29 31 - 76 78 - 81 83 - 93 95 - 100 103 - 105 107 - 123 125 - 128 130 - 165 171 173 - 175 , ord: 16 - 18 25 30 77 82 94 101 - 102 106 124 129 166 - 170 172 ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 4 trees. TreeBASE accession#: Tree975 Tree978 Tree977 Tree976 ]
+TRANSLATE
+1	'Cereopsis_novaehollandiae',
+2	'Thambetochen_chauliodous',
+3	'Chelychelynechen_quassus',
+4	'Cygnus_melanocoryphus',
+5	'Anser_brachyrhynchus',
+6	'Thambetochen_xanion',
+7	'Branta_hylobadistes',
+8	'Branta_sandvicensis',
+9	'Coscoroba_coscoroba',
+10	'Outgroup_to_Anseres',
+11	'Cygnus_columbianus',
+12	'Anser_caerulescens',
+13	'Anser_rubrirostris',
+14	'Branta_Leucopareia',
+15	'Branta_ruficollis',
+16	'Branta_canadensis',
+17	'Cygnus_buccinator',
+18	'Branta_leucopsis',
+19	'Anser_erythropus',
+20	'Branta_bernicla',
+21	'Anser_canagicus',
+22	'Cygnus_bewickii',
+23	'Anser_albifrons',
+24	'Anser_cygnoides',
+25	'Thambetochenini',
+26	'Cygnus_atratus',
+27	'Dendrocygninae',
+28	'Geochen_rhuax',
+29	'Cygnus_cygnus',
+30	'Ptaiochen_pau',
+31	'Anser_indicus',
+32	'Anser_fabalis',
+33	'Branta_Branta',
+34	'Branta_hrota',
+35	'Anser_rossii',
+36	'Thalassornis',
+37	'Anseriformes',
+38	'Stictonetta',
+39	'Cygnus_olor',
+40	'Dendrocygna',
+41	'Anser_anser',
+42	'Tadorninae',
+43	'Cnemiornis',
+44	'Anser_Chen',
+45	'Anserinae',
+46	'Anatinae',
+47	'Anserini',
+48	'Anatidae',
+49	'Cygnini',
+50	'Anseres',
+51	'Branta',
+52	'Cygnus',
+;
+TREE 'Fig._4' = [&R] ((((40,36),(1,((24,(32,5),(41,13),(23,19),31,((12,35),21)),(((20,34),(18,15)),(16,8))),(9,((4,26),(39,((11,(22,29)),17))))),((2,6,30),3),(38,(42,46))),43),10);
+TREE 'Fig._1' = [&R] ((((40,36),(((1,(((((24,((32,5),(41,13))),(23,19)),(31,((12,35),21))),(28,(((20,34),(18,15)),16,8,7))),(9,((4,26),(39,((11,(22,29)),17)))))),(((2,6),30),3)),(38,(42,46)))),43),10);
+TREE 'Fig._2' = [&R] (10,(43,((40,36),(((1,(((((24,((32,5),(41,13))),(23,19)),(31,((12,35),21))),(28,(((20,34),(18,15)),((16,8),7)))),(9,((4,26),(39,((11,(22,29)),17)))))),(3,(30,(2,6)))),(38,(42,46))))));
+TREE 'Fig._3' = [&R] (10,(43,((40,36),(((1,(((((24,((32,5),(41,13))),(23,19)),(31,((12,35),21))),(((20,34),(18,15)),(16,8))),(9,((4,26),(39,((11,(22,29)),17)))))),(3,(30,(2,6)))),(38,(42,46))))));
+
+
+END;

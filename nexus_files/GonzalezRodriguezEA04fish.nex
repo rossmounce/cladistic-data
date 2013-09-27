@@ -1,0 +1,18 @@
+#NEXUS
+
+[!González-Rodríguez, K., Applegate, S. P., and Espinosa-Arrubarrena, L. 2004. A new world macrosemiid (pisces: Neopterygii-halecostomi) from the albian of mÉxico. Journal of Vertebrate Paleontology 24:281-289.]
+
+begin data;
+dimensions ntax=8 nchar=12;
+format missing=? gap=- symbols="012";
+MATRIX
+Semionotus		00000 00000 00
+Macrosemius		21110 11110 22
+Legnonotus		20110 10100 00
+Propterus		00111 10011 11
+Histionotus		00111 11001 10
+Notagogus  		10000 00011 20
+Neonotagogus		10000 10011 20
+Macrosemiocotzus	20110 11101 21
+;
+end;

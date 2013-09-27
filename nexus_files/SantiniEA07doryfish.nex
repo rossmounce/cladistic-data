@@ -1,0 +1,33 @@
+#NEXUS
+
+[!Santini, F., Tyler, J., Bannikov, F. B., and Baciu, D. S. 2007. A phylogeny of extant and fossil buckler dory fishes, family zeidae
+  (zeiformes, acanthomorpha). Cybium 30:99-107.]
+
+begin data;
+
+dimensions ntax=14 nchar=45;
+
+format missing=? gap=- symbols="012345";
+
+matrix
+Zenion 00000 00000 00000 00000 00000 00000 000-- 00000 00000 
+Xenolepidichthys 00011 00022 10100 00000 00000 00000 020-- 03021 01010 
+Zeusfaber 11110 11111 01101 11111 11120 11101 11101 112{01}1 22211 
+Zeuscapensis 11110 11111 00101 11110 11120 11101 11101 11201 22210 
+Zeusrobustus ????? ????? ???0? ?1?10 1112? ?1??? ????? ?{01}11? 112??
+Zeusjerzmanskae ?0??? ?1??1 1??01 ???10 11112 11?0? 11101 11301 122??
+Zeusprimaevus ?1?1? ??1?1 ???11 ?1?11 11111 11?0? 11101 11311 122??
+Zenopsisconchifer 1{01}122 11112 01111 11011 11110 11111 13310 122{01}1 {12}2122 
+Zenopsisnebulosus 1{01}122 11112 01111 11111 11111 11111 13310 12311 12122 
+Zenopsisoblongus 10?22 11111 11111 11111 10110 11?11 13310 12201 1{12}122 
+Zenopsissp. 11?2? ?1??1 ?1?1? ?1110 11110 ?1?1? 1?310 ?1211 0212?
+Zenopsisclarus ?1?2? ?11?1 10?11 ?1?11 11112 11?1? 13210 12301 {12}21?2
+Zenopsistyleri ?1??? ?11?1 1??11 ?1?11 11112 11?1? 13210 12301 221?2
+Zenopsishoernesi ????? ????? ????1 ?1??? 011?? ?1??? 132?0 122?? 11???
+;
+end;
+begin sets;
+taxset fossil = Zenion Xenolepidichthys Zeusrobustus Zeusjerzmanskae Zeusprimaevus Zenopsisclarus Zenopsistyleri Zenopsishoernesi;
+taxset extant = Zeuscapensis Zeusfaber Zenopsisoblongus Zenopsissp. Zenopsisconchifer Zenopsisnebulosus;
+end;
+

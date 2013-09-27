@@ -1,0 +1,53 @@
+#NEXUS 
+
+[!Siveter, D. J., Sutton, M. D., Briggs, D. E. G., and Siveter, D. J. 2004. A silurian sea spider. Nature 431:978-980.]
+
+Begin data;
+	Dimensions ntax=42 nchar=39;
+	Format datatype=standard symbols="0123456789ab" missing=? gap=-;
+	Matrix 
+ Offacolus_kingi	       0100060660610?????-0??1-3111110----021-
+ Eurycyde_raphiaster           01110909a0a10001120020112001--111120000
+ Achelia_assimilis_            02100808a0a01001002120002000--111100000
+ Achelia_australiensis_        02100808a0a01001002120002000--110100000
+ Ammothella_fistella_          01110909a0a01001000020001000--110100000
+ Ammothella_biunguiculata_     01100909a0a01001000020002000--110100000
+ Ammothea_hilgendorfi          02100909a0a01000001020014000--120210000
+ Tanystylum_haswelli           02100404a0a01001002120002010--030100000
+ Tanystylum_rehderi            02100606a0a01001002120001010--130100000
+ Nymphopsis_acinacispinata_    01110909a0901001001220002010--121100000
+ Ascorhynchus_glaberrimus_     02100909a0a10010030020112001--010120000
+ Ascorhynchus_ramipes_         02100909a0a10010030030112001--010220000
+ Ascorhynchus_tenuirostris_    02100a0aa0a10000210020112001--010120000
+ Cilunculus_armatus_           02100909a0a01001011020004000--021121000
+ Cilunculus_sekiguchi          02100909a0a01001010020002000--120121000
+ Nymphon_micronesicum_         02000505a0a1101023002012100000100100000
+ Nymphon_molleri               02000505a0a1101023002012100000100000000
+ Nymphon_surinamense_          02000505a0a1001023001012100000100000000
+ Colossendeis_megalonyx_       1---0a0aa0a101----0200100001--000200000
+ Rhopalorhynchus_kroyeri       1---0a0aa0a101----0000100001--200200000
+ Austrodecus_glaciale_         1---060660601001211030100010--030200000
+ Austrodecus_gordonae_         1---060640400001211000102010--030200000
+ Rhynchothorax_australis_      1---0604a0a11001002131103000--010100000
+ Callipallene_novaezealandiae  02001-1-a0a0100021012002100000100000000
+ Callipallene_brevirostri      02001-1-a0a0101021002002100000100000000
+ Parapallene_famelica_         02011-1-a0a100102100-002301010120000000
+ Propallene_saengeri           0200021-a0a0001123002002100001000000000
+ Pseudopallene_ambigua_        02001-1-a0a101----202000100011010020000
+ Pallenopsis_schmitti          02000101a0a0100121002000101011100000000
+ Anoplodactylus_evansi         02001-1-61-010010110200031--11101100000
+ Anoplodactylus_batangensis_   02001-1-61-000010110200031--11131100000
+ Anoplodactylus_tenuicorpus_   02001-1-61-000100100200031--01101000000
+ Anoplodactylus_glandulifer    02001-1-61-010110111200031--01101000000
+ Anoplodactylus_insignis_      02001-1-61-000000100200031--11101000000
+ Anoplodactylus_concavicollis  02001-1-61-000010121200031--11101100000
+ Anoplodactylus_longiceps_     02001-1-61-010100100200031--11100100000
+ Endeis_mollis_                1---1-1-71-010101300100141----100110000
+ Pycnogonum_litorale_          1---1-1-91-101----21311011----010000000
+ Palaeoisopus_problematicus    00000909b0b00?????10??10????10020220211
+ Palaeopantopus_maucheri       ????0{7-b}0{7-b}a0a00?????22??1051????1302?0101
+ Palaeothea_devonica           0???0{2-b}0{2-b}?0????????10???1???????0?{0,1}?0?00
+ Haliestes_dasos               0100070780811?????02??00501110120220{0,1}10
+;
+end;
+

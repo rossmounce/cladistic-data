@@ -1,0 +1,10 @@
+#NEXUS
+
+[!Zhu, M. and Gai, Z. 2007. Phylogenetic relationships of galeaspids(agnatha). Frontiers of Biology in China 2:151-169.]
+
+begin data;
+dimensions ntax=18 nchar=42;
+format missing=? gap=- symbols="0123";
+matrix
+;
+end;

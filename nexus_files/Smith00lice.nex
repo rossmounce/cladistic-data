@@ -1,0 +1,190 @@
+#NEXUS
+[File created by TreeBASE: 2/11/99 20:08:31]
+[Matrix accession#: M491]
+BEGIN DATA;
+DIMENSIONS NTAX=31 NCHAR=62;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-1999.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=491 on June 20, 2010, 11:09 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Smith, V. S. 2000. Basal ischnoceran louse phylogeny (Phthiraptera: Ischnocera: Goniodidae and Heptapsogasteridae). Systematic Entomology 
+
+Study accession number = S358
+Matrix accession number = M491
+]
+FORMAT SYMBOLS = " 1 2 3 4 " MISSING = ? GAP = - ;
+CHARLABELS
+[1]	'frons_shape'	[2]	'm.c._width'	[3]	'indentations_in_m.c._internal'	[4]	'nodi_emanating_from_m.c._betwe'
+[5]	'nodus_number_(if_applicable)_b'	[6]	'preantennal_nodus_size'	[7]	'preantennal_nodus_shape'	[8]	'medial_dorsal_suture_in_preant'	[9]	'ventral_carina'
+[10]	'male_antennae'	[11]	'scape'	[12]	'excrescence_on_the_lateral_mar'	[13]	'F.1_shape'	[14]	'subterminal_attachment_of_F._I'
+[15]	'apical_compression_of_F._II_an'	[16]	'temple_margins'	[17]	'temporal_carina'	[18]	'ocular_seta_(o.s)'	[19]	'preocular_seta_(p.o.s.)'
+[20]	'MTS_1_and_MTS_3'	[21]	'MTS_2'	[22]	'MTS_2_condition'	[23]	'MTS_4_condition'	[24]	'post_temporal_setae_(p.t.s.)_<'
+[25]	'pterothoracic_lateral_margins'	[26]	'ventral_pterothoracic_setae_in'	[27]	'two_distinct_setal_pairs_both'	[28]	'intermediate_to_median_setae_o'	[29] 'pterothorax_and_abdominal_segm'
+[30]	'mesofural_pit'	[31]	'abdominal_segment_II'	[32]	'abdominal_segment_II_margin'	[33]	'medial_division_of_abdominal_s'	[34] 'abdominal_segment_II_size'
+[35]	'abdominal_segment_II_and_III'	[36]	'abdominal_segments_II_and_III'	[37]	'setae_on_the_posterior_lateral'	[38]	'single_postero-lateral_setae,'	[39] 'two_postero-lateral_setae,_bot'
+[40]	'male_intermediate_turgal_setae'	[41]	'setal_number_on_the_posterior'	[42]	'tergoplurites'	[43]	'tergoplurites_broken_medially'	[44] 'Small_dorsal_pits_on_cuticular'
+[45]	'polygonal_marks_over_the_cutic'	[46]	'male_setal_type_down_the_colum'	[47]	'column_of_intermediate_sternal'	[48]	'Intermediate_to_submedian_terg' [49]	'additional_setae_on_the_ventra'
+[50]	'male_abdominal_segment_IX'	[51]	'weakly_bilobed_setal_bearing_p'	[52]	'single_pair_of_sclerites_later'	[53]	'discrete_setal_bearing_lobes_o'	[54] 'vulval_margin'
+[55]	'vulval_margin_setal_fringe_num'	[56]	'additional_setae_on_the_latera'	[57]	'lateral_edge_vulval_margin_set'	[58]	'male_external_genitalia_length'	[59] 'basal_apodeme_lateral_strut_sc'
+[60]	'male_external_genitalia'	[61]	'genital_sac_sclerotisation'	[62]	'genital_sac_sclerites'
+;
+STATELABELS
+1 'broadly_convex' 'narrowly_convex' 'more_or_less_flat',
+2 'very_thin' 'medium_to_thick' 'laterally_thickened_but_absent',
+3 'indentations_absent_or_poorly' 'present_and_deep_(well_develop',
+4 'absent' 'present',
+5 'single_nodus' 'single_pair' 'double_pair' 'triple_pair',
+6 'very_small' 'enlarged',
+7 'distinctly_bulbous_(constricte' 'not_bulbous',
+8 'absent' 'present',
+9 'indistinct,_developed_greatest' 'forms_a_complete_arc_which_is' 'forms_two_separate_unfused_str',
+10 'monomorphic' 'heteromorphic',
+11 'smaller_than_pedicel_or_of_a_s' 'significantly_larger_than_pedi',
+12 'absent' 'present',
+13 'unmodified_(neither_curved_or' 'gently_curved_(not_club_shaped' 'club_shaped_(expanded_at_the_d',
+14 'absent' 'present',
+15 'absent' 'present',
+16 'rounded' 'angular_(not_projecting_signif' 'pointed_(projecting_significan',
+17 'absent_or_not_apparent' 'temporal_carina_initiated_from' 'present_as_a_thickened_band_(n',
+18 'a_micro_thorny_seta_or_very_sh' 'short_to_medium_length_(normal' 'thick_and_long_(well_developed',
+19 'thorny_seta_(micro_or_macro)' 'not_thorny',
+20 'both_macro_setae' 'one_or_both_not_macro_setae',
+21 'absent' 'present',
+22 'micro_seta' 'well_developed_thorny,_normal',
+23 'absent' 'present_at_least_as_a_normal_s',
+24 'absent' 'present',
+25 'more_or_less_smooth_or_slightl' 'distinctly_serrated_edge',
+26 'absent' 'present',
+27 'absent' 'present_(must_be_clearly_paire',
+28 'greatly_reduced_or_absent' 'well_developed_(normal_to_macr',
+29 'completely_separate' 'medially_fused' 'completely_fused',
+30 'small_and_poorly_developed' 'large_and_well_developed_(usua',
+31 'not_deeply_embedded_within_abd' 'deeply_embedded_within_abdomin',
+32 'completely_enclosed_by_pteroth' 'partially_enclosed_by_pterotho',
+33 'absent_(complete)' 'present_(bi-lobed)',
+34 'little_changed_in_size_when_co' 'considerably_smaller_when_comp',
+35 'completely_separate' 'partially_or_completely_fused',
+36 'smooth' 'covered_in_small_pits',
+37 'one_pair' 'two_pairs' 'more_than_two_pairs' 'absent',
+38 'short_thin_spine_not_significa' 'well_developed',
+39 'outer_setal_pair_larger_than_i' 'inner_setal_pair_larger_than_o' 'both_setae_of_roughly_equal_si',
+40 'absent' 'present',
+41 'one_pair' 'two_pairs' 'more_than_two_pairs',
+42 'fused_medially' 'broken_medially',
+43 'separated_by_a_narrow_gap' 'separated_by_a_wide_gap',
+44 'absent' 'present',
+45 'absent' 'very_faint,_confined_to_the_la' 'distinct,_present_over_the_plu',
+46 'homogeneous_(same_setal_type_e' 'heterogeneous_(different_setal',
+47 'absent_or_incomplete' 'present_at_least_over_segments',
+48 'absent' 'present_at_least_on_abdominal',
+49 'absent' 'present',
+50 'not_extending_prominently_beyo' 'composed_of_a_prominent_lobe_(',
+51 'absent' 'present',
+52 'absent' 'present_(may_be_greatly_expand',
+53 'absent' 'weakly_developed' 'prominent' 'greatly_modified',
+54 'setal_fringe_absent' 'fringed_by_one_or_more_rows_of',
+55 'single' 'double',
+56 'absent' 'present',
+57 'patch_or_row_of_normal_to_micr' 'two_or_three',
+58 'does_not_protrude_into_abdomin' 'extends_into_the_abdomen_at_le',
+59 'thickly_sclerotized_leaving_a' 'thickly_sclerotized_leaving_a' 'thinly_sclerotized_leaving_a_w' 'thinly_sclerotized_leaving_a_n',
+60 'simple,_principly_composed_of' 'complex,_composed_of_a_basal_a',
+61 'not_visible' 'lightly_sclerotised' 'heavily_sclerotised',
+62 'small_roughly_circular_sclerit' 'medium_to_large_irregularly_sh',
+
+;
+
+MATRIX
+
+'Discocorpus_c.cephalosus' 1311-21211-----111212222121-2122121112-221-1312121111211-1121-
+'Heptapsogaster_mandibularis' 121242121221121311222222221-2122121112-21211322121111211-1121-
+'Lamprocorpus_hirsutus' 121242121221321311222222221-2122121112-211-1312121111211-1121-
+'Megapeostus_asymmetricus' 121222121221121331222222221-2122122112-211-1312121111????1121-
+'Pectenosoma_v.verrucosa' 1211-21111-----111222222221-212212112-2222213111111111-1-1121-
+'Pterocotes_aberrans' 121222121221221313222222221-2122122112-231-1312221111----1121-
+'Rhoplacoceras_carrikeri' 1111-22222211112112221221211221211213--131-1212222121----2121-
+'Trichodopeostus_spinosus' 1211-2112221121311222222221-2222121111-221-1212121222211-2411-
+'Cuclotocephalus_secundus' 2211-12121-----113212122121-3122121112-13211122121111211-1121-
+'Megaginus_e.emarginatus' 2211-21111-----111212122121-3122121112-221-1112121111??1-1121-
+'Nothocotus_parvithorax' 221231211221321212212222121-3122121111-121-1122121111211-1121-
+'Physconella_kelloggi' 3211-2212221121113112222121-1121122111-11211121111113211-1321-
+'Austrokelloggia_intermedia' 2212222121-----2122222221111112122122-122222111111113221-2121-
+'Kelloggia_brevipes' 2211-22121-----2122222221111112122122-122222111111113221-1121-
+'Ornicholax_alienus' 2211-22121-----2122222221111122122122-122222111111113221-1121-
+'Strongylocotes_complanatus' 2212122121-----2311222221111122122112-12322212111111421212121-
+'Chelopistes_meleagridis' 1211-22222221213122221221221121211113--23221112222211211-1?21-
+'Auricotes_meinertzhageni' 1221-21121-----221111-1111211212111111-1122111111222121??2411-
+'Goniocotes_gallinae' 1211-21121-----22111212211211212111111-21221121112221211-2411-
+'Goniodes_pavonis' 1211-222222222122221212212221212111111-212211122212111-212221-
+'Passonomedea_hopkinsi' 1111-12222212212121121221222121211114--23221112222211212122221
+'Pachyskelotes_orthopleurus' 1111-122222222121111212212221212111111-112211?1112211221-22221
+'Patellinirmus_novaeseelandiae' 1211-22221-----21211212111211212111111-21221111211111212223132
+'Stephanius_affinis' 1221-22121-----22211212211211212111111-21221112212221221-2?11-
+'Kodocephalon_suborbiculatus' 1221-222222111122221212111211212111111-11221111112211221-24232
+'Physconelloides_ceratoceps' 1221-22121-----231111-1111211212111111-222211111122211?222411-
+'Campanulotes_bidentatus' 1211-22121-----21311211111211212111111-2222111111222121222411-
+'Nitzschiella_castroi' 1211-2212211312211111-111121121211112-3?22211?21122211?2224122
+'Nitzschielloides_campanulatus' 1211-22121-----211111-111121121211112-322221112112221212224122
+'Coloceras_damicorne' 1211-222221131221211211111211212111111-222211121222111?2222132
+'Labicotes_kourii' 1111-21?2??????21122222112211212111112-112111?111????211-?????
+;
+END;
+
+BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 5 trees. TreeBASE accession#: Tree1150 Tree1151 Tree1152 Tree1153 Tree1154 ]
+TRANSLATE
+1	'Nitzschielloides_campanulatus',
+2	'Patellinirmus_novaeseelandiae',
+3	'Kodocephalon_suborbiculatus',
+4	'Heptapsogaster_mandibularis',
+5	'Physconelloides_ceratoceps',
+6	'Pachyskelotes_orthopleurus',
+7	'Strongylocotes_complanatus',
+8	'Austrokelloggia_intermedia',
+9	'Auricotes_meinertzhageni',
+10	'Cuclotocephalus_secundus',
+11	'Trichodopeostus_spinosus',
+12	'Megapeostus_asymmetricus',
+13	'Discocorpus_c.cephalosus',
+14	'Campanulotes_bidentatus',
+15	'Chelopistes_meleagridis',
+16	'Megaginus_e.emarginatus',
+17	'Rhoplacoceras_carrikeri',
+18	'Pectenosoma_v.verrucosa',
+19	'Nothocotus_parvithorax',
+20	'Passonomedea_hopkinsi',
+21	'Lamprocorpus_hirsutus',
+22	'Nitzschiella_castroi',
+23	'Physconella_kelloggi',
+24	'Coloceras_damicorne',
+25	'Goniocotes_gallinae',
+26	'Pterocotes_aberrans',
+27	'Heptapsogasteridae',
+28	'Stephanius_affinis',
+29	'Ornicholax_alienus',
+30	'Kelloggia_brevipes',
+31	'Strongylocotinae',
+32	'Labicotes_kourii',
+33	'Goniodes_pavonis',
+34	'Goniodidae',
+;
+TREE 'Fig._13_Strict' = [&R] ((((((13,(((10,(23,((8,30,29),7))),19),16)),18),((4,21),(12,26))),11),17),(15,((9,(25,28),5,14,(22,1)),2,24),33,20,6,3,32));
+TREE 'Fig._13_Adams' = [&R] ((((((13,(((10,(23,((8,30,29),7))),19),16)),18),((4,21),(12,26))),11),17),(15,(((((9,5),(22,1)),(25,28),14),2,24),3,32),(33,20,6)));
+TREE 'Fig._14_Island_1_Strict' = [&R] ((((((13,(((10,(23,((8,30,29),7))),19),16)),18),((4,21),(12,26))),11),17),(15,((((((9,5),(22,1)),14),(25,28)),2),24),33,20,6,3,32));
+TREE 'Fig._14_Island_2_Strict' = [&R] ((((((13,(((10,(23,((8,30,29),7))),19),16)),18),((4,21),(12,26))),11),17),(15,((((((9,(25,28)),5),(22,1)),14),24),2),33,20,6,3,32));
+TREE 'Fig._15_Clados_Style' = [&R] (17,(11,((18,(13,(16,(19,(10,(23,(7,(8,(30,29))))))))),((4,21),(12,26)))),((15,(33,(20,6))),(32,(3,(24,(2,((14,((9,5),(22,1))),(25,28))))))));
+
+
+END;

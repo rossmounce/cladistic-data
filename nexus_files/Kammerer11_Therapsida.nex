@@ -1,0 +1,32 @@
+#NEXUS
+
+[Kammerer, C. F. Systematics of the anteosauria (therapsida: Dinocephalia). Journal of Systematic Palaeontology (2011). URL http://dx.doi.org/10.1080/14772019.2010.492645.]
+
+begin data;
+dimensions ntax=12 nchar=35;
+format missing=? symbols="012" gap=-;
+MATRIX
+Biarmosuchus 	0000000000 0000000000 1000000000 00000
+Estemmenosuchus 
+2000000000 1000100000 0010000012 00001
+
+Tapinocaninus   2000110000 1111100000 0010000012 00101
+Microsyodon    	0001?????? ???????10? ?????????? ?????
+Archaeosyodon   
+1?01101001 1000001100 0100000100 00100
+
+Notosyodon ?????????? ?????????? ????111101 ????0
+
+Syodon 1101111011 1111001110 1111121101 01000
+
+Australosyodon 1100111011 1101001110 1111121101 01000
+
+Sinophoneus 1?0011101? 1111011110 0111000111 111?0
+
+T.potens 1110111111 1111011111 0111000112 11111
+
+T.adamanteus 1110111111 1111011111 011?000112 11111
+
+Anteosaurus 1110111111 1111011111 011?000112 11111
+;
+end;

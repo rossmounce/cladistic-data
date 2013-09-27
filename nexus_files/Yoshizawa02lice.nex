@@ -1,0 +1,139 @@
+#NEXUS 
+[!Yoshizawa, K. (2002) Phylogeny and higher classification of suborder Psocomorpha (Insecta: Psocodea: "Psocoptera"). Zoological Journal of the Linnean Society 136: 371-400.]
+
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=50 NCHAR=68;
+	FORMAT SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+	CHARSTATELABELS  
+		1  vertex / sharply_angled rounded,
+  2  concavity_of_vertex,
+  3  ridge_epistomal_suture / large small_or_absent,
+  4  epistomal_suture / complete dorsally_absent,
+  5  position_of_anterior_tentrial_p / on_ventral_margin_of_head_cupsl apart_from_ventral_margin_of_he,
+  6  labrum / without_slender_sclerite with_slender_sclerite,
+  7  mandible / out_margin_smoothly_rounded out_margin_angled,
+  8  galea / flattened_lobe 'ball-shaped',
+  9  'stipito-galeal muscle' / present absent,
+  10  lacinia / without_swelling with_swelling,
+  11  labial_palpus / rounded triangular,
+  12  shape_of_preepisternum_of_proth / short very_long,
+  13  mesothorax / normal greatly_swelling,
+  14  thoraxic_musclature / one two,
+  15  precoxal_bridge / narrow broad,
+  16  membranous_region_of_metapleuro / narrow broad,
+  17  campaniform_sensilla_on_radius / equally_distributed divided_into_two_groups,
+  18  apex_of_1ax / without_minute_proximal_process with_minute_proximal_process broadened,
+  19  pmp / apart_from_2Ax fused_with_2Ax,
+  20  'p-p margin fw' / angled rounded,
+  21  wing_margin_and_veins / setose unsetose,
+  22  fw_setae,
+  23  marginal_seta_FW / not_crossing crossing,
+  24  setae_of_forewing_veins / one_row two_or_more_in_distal_half two_or_more_for_all_veins,
+  25  pterostigma / not_thickened thickened,
+  27  'pterostigma-r2+3 closs vein' / absent present,
+  28  'fw rs-m' / fused_for_a_length connected_by_long_cross_vein,
+  29  areola_postica / present absent,
+  30  areola_postica_and_M / free_from_each_other 'connected_with_m-vein_by_cross' 'fused_with_m-vein',
+  31  A2_vein / present absent,
+  32  ventral_setae_of_forewing / absent present,
+  33  nodus / absent present,
+  34  nodulus / group_of_setae hook,
+  35  hindwing_marginal_setae / setose_whole_around 'setose_between_R2+3_and_R4+5_on' unsetose,
+  36  hw_setae_on_veins,
+  37  'hw rs-m connection' / fused_for_a_length connected_with_closs_veins,
+  38  'hw rs&m+cu' / fused_at_its_base not_fused_at_its_base,
+  39  ctenidia_hind_tibia / nomal_setae broad_setae,
+  40  number_of_tarsomere,
+  41  puluvillus / fine broad absent,
+  42  preapical_tooth_on_pretarsal_cl / present absent,
+  43  eversible_vesicle_of_abdomen / absent present,
+  44  male_paraproct / without_distal_process with_distal_process,
+  45  articulation_between_clunium_an / without_articulation pseudocaecilid_type '*check_philotarsus',
+  46  hypandrial_lateral_bristle / absent present,
+  47  hypandrial_a_pair_of_lateral_pr / absent present,
+  48  apex_of_aedeagus / pointed rounded,
+  49  internal_paramere / present absent,
+  50  external_paramere / normal_process 'strap-like' reduced,
+  51  radula / 'without_rod-like_sclerite' 'with_rod-like_sclerite',
+  52  female_epiproct / rounded squaired,
+  53  female_paraproct / witout_distal_lobe with_distal_lobe,
+  54  apex_of_dorsal_valve_of_gonapop / not_extending 'extending,_reach_to_posterior_m',
+  55  dorsal_extention_of_subgenital / 'rounded,_without_extention' with_a_pair_of_small_projection 'well_developed,_bilobed_egg_gui' 'well_developed,_1-lobed_egg_gui',
+  56  ventral_surface_of_posterior_ma / without_extention with_extention,
+  57  spermathecal_lateral_pouch / absent present,
+  58  'gonapophyses (ovipositor)' / loose forming_ovipositor,
+  59  ventral_valve_of_gonapophyses / present absent,
+  60  apex_of_ventral_valve_of_gonapo / narrow with_dorsal_lobe swelling,
+  61  dorsal_valve_of_gonapophyses / complete reduced_to_membranous_lobe absent,
+  62  dorsal_region_of_dorsal_valve / without_swelling with_swelling,
+  63  ventral_region_of_dorsal_valve / without_swelling with_swelling,
+  64  dv,
+  65  swelling_of_dorsal_valve_of_gon / no_swelling_or_lobe ronded_plate squared_plate,
+  66  ev_gonapo / nomal elongate reduced,
+  67  dorsal_and_external_valves_of_g / apart partly_fused completely_fused,
+  68  post._lobe._ev / absent present
+		;
+
+MATRIX
+[                                  10        20        30        40        50        60       ]
+[                                  .         .         .         .         .         .        ]
+
+Echmepteryx               00000000000000000000020?00000000000000000000000?10000000011000000000
+Tapinella                 0000000000000?000000000?00000000002000000000000100000000000000000000
+Troctopsocidae_Gen.       00000000000000000000100?00000000002000000000000100000000000000000000
+Tineomorpha               00000000000000000000020?00000000000000000000000?10000000000000000000
+Paramphientomum           00000000000000000000020?00000010000000000000000?10000000000000000000
+Archipsocus               10000000100002100100021?11000011110000011100000102000000001?20000000
+Pararchipsocus            10000000100002100100021?11000011110000011100000102000000001?00000000
+Hemipsocus                10110000100010000200000010000110110000011001000?10001000000000000000
+Psilopsocus               10100000100010010111100010000010112000101001000102001001?10000100000
+Psocus                    10101000100010010111100010000210112000110001100002001001010000100001
+Sigmatoneura              10101000100010010111100010000210112000110001100002001001010000100001
+Myopsocus                 10100000100010010111100010000210112000101001000?10001101000000000000
+Lichenomima               10100000100010010111100010000210112010101001000000001101000000000000
+Elipsocus                 10000000100011110111000010000010111000000000000000000010000001000000
+Hemineura                 10000000100011110111000010000010111000000000000000000010000001000000
+Ectopsocus                10100000100111110111000010001010112010011100000000100020000001000100
+Eolachesilla              10100000100111110111000010000010112000001000000000100000000001000100
+Nanolachesilla            10111000100111110111000010000010112000011000000000100030001?1??00100
+'Lachesilla [Vietnum]'    10101000100111110111000010000010112000010000000?12000000001?1??00100
+Lachesilla                10101000100111110111000010000010112000011000000?12000000001?2??00100
+Trichopsocus              10101000100011110211000110000010110001011110000000100000010001011000
+Pseudocaecilius           10101000100011110211001110000010110100011110111000000020010101011000
+Ophiodopelma              10101000100011110211001110000010110100011100110000100020010101011000
+Heterocaecilius           10101000100011110211001110000010110100011110111000100020010101011000
+Calopsocus                00101011100011110211011110000010110100011010111000100020010101011000
+Bryopsocus                ???????????????????101001000001?1?0????0?0?0000000100030?100010?2000
+Kaestneriella             10110000100011110111000010001010112000010000000001110030010001012000
+Peripsocus                10100000100011111111100010001010110000010000000001110030010001012000
+Philotarsus               10101000100011110111001110000011110101000000100100010030010001012000
+Aaroniella                10101000100011110111001110000011110101000000000100110030010001012000
+Idatenopsocus             10000000100011110111100010000010111001000000000000010030010201012000
+Mesopsocus                10000000100011110111100010000010111000000000000100010030010201012000
+Epipsocus                 10111111101011010111000110010011110200010000000000000000001?00000120
+Epipsocopsis              10111111101011010111000110010011110200010000000000000000001?00000120
+Dolabellopsocus           10101111101011010111000110010000110200011000000000000000001?00000120
+Isthmopsocus              10101111101011010111000110010000110200011000000000000000001?00000120
+Cladiopsocus              10101111101011010111000110010000110200010000000??0000000000000000120
+Spurostigma               10101111101011010111000110000000110200010000000000000000000000000110
+Triplocania               10111111101011010111000110010001110200000000001?10000000000000000110
+Loneura                   1011111110101101011100011001000111020000000????????00000000000000110
+Notiopsocus               10100011110111111211000010001010110000012100000000000000000010000200
+Asiopsocus                1?10?111?1????1????11000100000101?2000?101?0??0000000000000?100002?0
+Stenopsoucs               100000111011111111110000101001101110000111100000000000001000000002?0
+Graphocaecilius           10000011101111111111000010100110112000011110000000000000100000000200
+Amphipsocus               110000111011111111110001100000111102000111100000000000000000000002?0
+Kolbea                    110000111011111111110001100000111102000111100000000000000000000002?0
+Matsumuraiella            11000011101111111111010110000011111000011110000000000000000000000200
+Caecilius                 100000111011111111110000100000111100000111100000000000000000000002?0
+Kodamaius                 110000111011111111110001100001111100000111100000000000000000000002?0
+Dasypsocus                000000111011111111110000100000111100000111100000000000000000000002?0
+;
+END;
+
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

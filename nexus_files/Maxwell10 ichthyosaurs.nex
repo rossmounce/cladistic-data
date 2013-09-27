@@ -1,0 +1,22 @@
+#NEXUS
+
+[!Maxwell, E. E. 2010. Generic reassignment of an ichthyosaur from the queen elizabeth islands, northwest territories, canada - journal of vertebrate paleontology. Journal of Vertebrate Paleontology 30.]
+
+begin data;
+dimensions ntax=11 nchar=34;
+format missing=? gap=- symbols="012";
+MATRIX
+Cymbospondylus 	0 	0 	0 	0 	0 	1 	0 	0 	1 	{01} 	? 	? 	? 	1 	1 	0 	1 	0 	0 	0 	? 	0 	0 	0 	? 	0 	? 	0 	0 	? 	0 	0 	0 	0
+Stenopterygius 	{01} 	2 	0 	1 	1 	1 	1 	0 	0 	0 	0 	? 	0 	1 	0 	? 	1 	1 	0 	0 	1 	0 	0 	1 	1 	0 	1 	0 	0 	1 	2 	0 	0 	1
+Ichthyosaurus 	1 	2 	0 	0 	2 	1 	1 	{01} 	0 	0 	0 	0 	0 	1 	1 	? 	0 	1 	0 	0 	? 	0 	0 	2 	0 	0 	0 	0 	0 	0 	{01} 	0 	0 	2
+Mollesaurus 	2 	2 	0 	? 	0 	? 	? 	0 	0 	0 	0 	1 	1 	? 	1 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	? 	?
+Brachypterygius 	? 	1 	? 	? 	? 	? 	? 	0 	? 	0 	0 	1 	2 	0 	? 	? 	0 	1 	1 	0 	1 	0 	1 	2 	1 	0 	0 	1 	0 	? 	? 	? 	? 	?
+Aegirosaurus 	2 	2 	1 	0 	1 	1 	1 	1 	? 	? 	? 	? 	1 	0 	? 	? 	0 	1 	1 	? 	? 	0 	1 	2 	1 	0 	0 	1 	0 	0 	2 	0 	0 	?
+Ophthalmosaurus 	1 	2 	1 	0 	1 	0 	1 	1 	0 	0 	0 	1 	1 	0 	{01} 	0 	0 	1 	1 	0 	1 	1 	0 	2 	1 	0 	0 	1 	0 	0 	2 	0 	0 	2
+Caypullisaurus 	2 	1 	{01} 	? 	0 	? 	1 	0 	0 	? 	? 	? 	1 	0 	1 	? 	0 	1 	1 	0 	? 	1 	0 	2 	1 	1 	1 	1 	1 	0 	0 	0 	0 	2
+Platypterygius 	{012} 	1 	{01} 	1 	2 	1 	1 	0 	0 	0 	1 	1 	2 	0 	{01} 	1 	0 	1 	1 	0 	1 	{01} 	0 	2 	1 	0 	1 	1 	1 	0 	? 	1 	0 	?
+Maiaspondylus 	2 	? 	? 	? 	? 	? 	? 	? 	? 	0 	0 	? 	? 	? 	1 	? 	0 	1 	1 	0 	1 	0 	1 	? 	1 	0 	1 	? 	? 	? 	? 	1 	1 	?
+Arthropterygius 	? 	? 	? 	? 	? 	? 	? 	? 	? 	1 	0 	1 	2 	? 	0 	1 	0 	1 	1 	1 	0 	1 	0 	2 	? 	0 	1 	? 	? 	? 	? 	0 	0 	?
+;
+end;
+

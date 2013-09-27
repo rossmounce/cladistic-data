@@ -1,0 +1,154 @@
+#NEXUS
+
+[Dias-da Silva, S. and Marsicano, C. 2010. Phylogenetic reappraisal of rhytidosteidae (stereospondyli: Trematosauria), temnospondyl amphibians from the permian and triassic. Journal of Systematic Palaeontology 99999:1-21.]
+
+begin data;
+dimensions ntax=28 nchar=87;
+format missing=? symbols="0123" gap=- INTERLEAVE;
+matrix
+Benthosuchus 2 0 0 0 0 1 0 1 0 2 1 0 1 0 1 1 1 0 0 1
+Watsonisuchus 2 0 0 0 0 ? 1 - 1 ? ? 0 ? 0 1 1 0 1 0 1
+Rhineceps 2 0 0 0 0 1 1 - 2 0 0 0 1 0 1 1 1 0 0 1
+Australerpeton 2 0 0 0 1 1 0 1 1 0 ? 0 0 0 1 1 1 0 0 1
+Peltobatrachus 0 0 1 2 ? ? ? ? 3 - - ? ? ? ? ? 1 0 0 1
+Xenobrachyops 1 1 1 0 1 0 1 - 0 1 1 1 ? 1 0 0 2 0 1 0
+Bothriceps 1 0 1 0 0 0 1 - ? ? ? 1 0 1 1 1 0 0 0 1
+Keratobrachyops 1 0 1 0 1 0 1 - 0 0 0 1 1 1 1 1 2 0 1 1
+Lapillopsis 0 0 1 1 0 1 1 - 3 - - 0 1 0 1 1 0 1 0 1
+Trematosaurus 2 1 0 0 1 1 0 1 0 0 1 0 1 0 1 1 2 0 1 0
+Lydekkerina 0 0 1 0 0 0 1 - 1 1 ? 0 1 0 1 1 0 0 0 1
+Luzocephalus 2 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1
+Chomatobatrachus 0 0 0 0 0 0 0 0 1 1 1 0 2 0 1 1 0 0 1 1
+Laidleria 2 0 0 1 1 0 0 0 0 0 1 1 1 1 1 1 0 1 0 1
+Uruyiella 1 ? 0 1 ? ? ? ? 1 ? ? ? ? ? ? ? 2 ? ? 0
+Rhytidosteus 2 1 0 1 0 1 0 1 ? 0 1 1 0 1 0 0 ? 0 ? ?
+Boreopelta ? 1 ? 1 ? ? ? ? ? ? ? ? ? ? ? ? ? ? 0 0
+Deltasaurus ? 1 0 1 0 0 1 - 0 0 1 1 1 1 1 1 1 0 0 1
+Arcadia 1 1 1 1 0 ? 1 - 0 0 0 1 1 1 1 1 2 0 0 1
+Peltostega 0 1 ? 1 0 ? ? ? ? ? ? ? ? ? ? ? 1 ? 0 0
+Pneumatostega ? 1 0 1 ? ? 1 - 1 0 0 1 ? 0 1 1 2 0 ? 0
+Derwentia 1 1 1 ? 0 0 1 - 1 0 0 1 1 ? ? 0 2 0 0 1
+Nanolania 0 1 0 ? 0 1 1 - 1 ? ? 1 1 1 1 1 0 0 0 1
+Sangaia 0 1 1 1 0 ? 1 - 2 0 1 0 ? 0 1 1 2 0 0 0
+Mahavisaurus 0 1 1 1 0 ? 1 - 0 0 ? 1 ? ? ? ? 0 0 0 1
+Indobrachyops 0 1 1 1 0 ? 1 - 0 0 0 0 ? ? 1 0 1 0 ? 1
+Trucheosaurus 1 1 0 1 0 0 1 - ? ? ? 1 1 1 1 1 1 0 1 0
+Rewana 1 1 1 1 ? ? 1 - ? ? ? ? ? ? ? ? ? ? ? ?
+
+Benthosuchus 1 1 1 0 1 1 0 0 0 1 0 0 0 0 1 0 0 0 0 -
+Watsonisuchus 1 1 ? 0 ? ? 0 0 0 1 0 0 0 0 1 0 0 0 0 -
+Rhineceps 1 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -
+Australerpeton 1 1 ? 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -
+Peltobatrachus 0 ? ? 0 ? 0 0 0 1 0 1 0 0 0 0 0 1 0 0 -
+Xenobrachyops 0 1 ? 1 - 0 - - 2 1 0 0 1 1 1 1 1 0 0 1
+Bothriceps 0 1 ? 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 1 ?
+Keratobrachyops 0 1 0 0 0 1 0 0 1 1 0 0 1 2 1 1 1 0 0 1
+Lapillopsis 0 1 0 0 0 1 0 0 0 1 0 1 0 1 1 1 1 0 1 0
+Trematosaurus 0 1 1 0 0 1 0 0 0 1 0 0 1 1 1 1 1 0 0 0
+Lydekkerina 0 - 0 0 0 1 0 0 0 1 0 1 0 1 1 0 1 0 0 -
+Luzocephalus 0 1 1 0 ? 0 0 0 0 1 0 0 0 0 1 0 1 0 1 -
+Chomatobatrachus 0 0 1 0 ? 0 0 0 0 1 0 0 1 1 1 0 1 0 1 -
+Laidleria 0 1 1 1 - 0 - - 2 1 1 0 1 1 1 1 1 1 1 1
+Uruyiella 0 ? 1 1 - - - - 2 1 0 ? 0 0 ? ? 0 1 ? 0
+Rhytidosteus ? 1 ? ? ? ? ? ? ? ? ? ? ? ? ? 0 ? ? ? ?
+Boreopelta 0 ? ? ? 0 ? ? ? 1 1 ? 0 ? 1 1 ? 1 ? 1 1
+Deltasaurus 0 1 1 0 0 0 0 0 1 1 ? 0 0 1 1 ? 1 0 1 0
+Arcadia 0 1 1 0 0 0 0 0 1 1 0 1 0 0 1 0 1 0 1 0
+Peltostega 0 ? ? 0 0 0 0 0 1 1 0 0 1 1 1 1 1 ? 1 0
+Pneumatostega ? 1 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Derwentia 0 1 1 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0
+Nanolania 0 1 ? 0 0 1 0 0 1 1 0 1 1 2 1 1 1 0 1 0
+Sangaia 0 1 1 0 0 0 1 0 1 1 1 1 0 1 1 1 1 0 0 1
+Mahavisaurus 0 ? ? 0 0 0 1 0 1 1 ? 0 ? ? ? ? ? ? ? ?
+Indobrachyops 0 0 ? 0 ? ? ? ? 1 1 0 0 0 1 1 ? 1 ? ? ?
+Trucheosaurus 0 1 ? 1 - - - - 2 1 1 0 ? ? ? ? ? ? ? ?
+Rewana ? ? ? ? ? ? ? ? ? ? 0 ? ? ? ? 0 ? 0 ? 0
+
+Benthosuchus 0 0 2 0 0 0 0 1 0 1 0 1 1 0 0 1 0 1 0 0
+Watsonisuchus 0 0 2 1 0 0 0 1 0 1 ? 1 0 0 0 1 0 1 0 0
+Rhineceps 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+Australerpeton 0 ? 2 0 1 0 0 0 0 1 1 0 0 1 0 1 0 0 0 0
+Peltobatrachus 0 ? 1 0 0 0 0 1 ? ? ? 0 0 ? ? 0 0 ? 1 0
+Xenobrachyops 3 ? 0 1 0 1 0 2 0 1 0 0 2 1 2 1 ? 1 1 1
+Bothriceps ? ? 0 ? 2 1 0 2 0 1 0 1 2 ? 1 1 1 ? 1 1
+Keratobrachyops 2 ? 0 1 0 0 0 2 0 1 0 1 2 1 1 1 1 ? 1 1
+Lapillopsis ? 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 0 1 1 0
+Trematosaurus 1 1 1 0 0 0 0 0 0 1 1 1 1 0 1 1 0 1 0 0
+Lydekkerina 0 0 1 1 ? 0 0 0 0 1 1 0 1 0 0 1 0 1 1 0
+Luzocephalus 0 ? 1 1 0 0 0 0 0 1 0 0 0 1 ? 1 0 ? 0 0
+Chomatobatrachus 1 ? 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 0 0
+Laidleria 0 1 0 1 0 2 1 0 0 ? ? 0 2 1 ? 0 0 ? 1 1
+Uruyiella 0 ? 1 ? ? ? ? 0 ? ? ? 0 ? ? 0 0 0 1 ? ?
+Rhytidosteus ? ? ? ? ? ? ? ? 1 ? ? ? ? ? ? ? ? ? ? ?
+Boreopelta 0 ? 0 ? ? 0 1 1 ? ? ? 0 ? ? 1 1 0 1 ? ?
+Deltasaurus 1 ? 0 ? ? 1 1 1 0 1 0 1 ? 2 0 1 0 0 1 1
+Arcadia 1 ? 0 ? 0 0 1 1 ? ? ? ? 1 1 ? ? 0 0 1 ?
+Peltostega 1 ? 0 ? 1 0 1 1 ? ? ? 0 1 ? ? 1 0 ? ? ?
+Pneumatostega ? ? 0 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Derwentia 0 ? 0 0 2 0 0 0 0 1 0 1 0 1 ? 1 0 0 1 1
+Nanolania 1 ? 0 0 2 2 1 0 ? ? ? 0 ? ? 1 1 0 1 1 1
+Sangaia 3 ? 0 ? 0 0 1 0 ? ? ? 0 1 ? ? ? 0 1 ? ?
+Mahavisaurus ? ? 0 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Indobrachyops ? ? 0 ? ? ? 1 1 ? ? ? 1 1 ? ? 1 0 ? 1 ?
+Trucheosaurus ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Rewana 1 ? 0 ? ? ? 1 ? ? 1 0 ? 1 1 1 1 0 ? 1 1
+
+Benthosuchus 0 0 1 1 1 2 1 2 1 2 0 1 0 1 1 1 1 1 0 0
+Watsonisuchus 0 0 1 1 1 2 1 2 1 2 0 2 0 0 1 1 ? 1 0 0
+Rhineceps 2 0 0 0 1 2 1 1 0 1 0 1 0 0 1 0 - 0 0 0
+Australerpeton 1 0 1 1 1 2 1 0 1 1 0 2 0 0 1 0 - ? ? 0
+Peltobatrachus 0 ? ? ? ? ? ? ? ? 1 0 3 0 1 1 1 1 ? ? ?
+Xenobrachyops 2 1 0 0 0 0 0 0 1 0 0 2 0 0 0 1 0 1 ? 0
+Bothriceps 2 0 ? ? ? ? ? ? ? 0 0 2 0 1 0 1 0 ? ? ?
+Keratobrachyops 2 1 0 0 1 0 0 0 1 0 0 2 0 1 0 1 0 1 1 0
+Lapillopsis 0 0 0 1 0 0 0 0 1 1 0 2 0 1 1 1 1 ? 1 1
+Trematosaurus 1 0 1 1 1 1 1 0 1 0 0 1 0 0 1 1 0 1 0 ?
+Lydekkerina 0 0 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 0
+Luzocephalus 0 0 ? ? ? 1 1 1 1 0 0 0 0 1 1 ? ? ? ? ?
+Chomatobatrachus 0 0 0 0 1 2 1 2 1 2 0 2 0 1 0 ? ? ? ? ?
+Laidleria 3 0 ? ? 1 2 0 0 0 0 0 ? 0 1 0 1 ? ? ? ?
+Uruyiella ? ? 0 1 1 2 ? ? ? ? ? ? ? 1 1 ? ? ? ? ?
+Rhytidosteus ? ? ? ? ? ? ? ? ? ? 1 ? ? ? ? 1 1 ? ? ?
+Boreopelta ? ? ? 0 1 ? ? ? ? 0 0 ? 1 1 0 ? ? ? ? ?
+Deltasaurus 2 ? 0 1 0 0 0 0 0 0 0 3 1 0 1 1 ? 0 0 ?
+Arcadia 2 ? 0 1 1 2 1 ? ? ? ? ? 1 0 1 1 1 1 0 0
+Peltostega ? ? ? ? 1 ? ? ? ? 0 0 2 1 0 0 ? ? ? ? ?
+Pneumatostega ? ? ? ? ? ? ? ? ? ? ? ? ? ? 1 ? ? 1 0 ?
+Derwentia 2 0 ? ? ? ? 1 1 ? 0 0 3 1 0 1 ? ? ? ? ?
+Nanolania ? ? ? ? ? ? ? ? ? 2 0 2 0 1 0 ? ? ? ? ?
+Sangaia ? ? ? ? ? ? ? ? ? 0 0 2 1 0 1 ? ? ? ? ?
+Mahavisaurus ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 1 1 ? 1 0
+Indobrachyops ? ? ? ? ? ? ? ? ? ? ? 3 1 ? 1 ? ? ? ? ?
+Trucheosaurus ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Rewana 2 2 0 1 1 2 1 1 0 ? ? ? ? ? 1 ? ? ? ? ?
+
+Benthosuchus 2 0 1 - 0 0 1             
+Watsonisuchus 2 0 1 - 0 1 1             
+Rhineceps 0 0 1 - 0 0 0             
+Australerpeton 2 0 1 - 0 1 2             
+Peltobatrachus ? 0 0 0 0 0 ?             
+Xenobrachyops 2 1 0 - 2 0 1             
+Bothriceps ? 1 0 - 1 0 ?             
+Keratobrachyops 1 0 0 - ? 0 0             
+Lapillopsis 2 0 0 1 1 0 2             
+Trematosaurus ? 0 ? - ? 0 2             
+Lydekkerina 0 0 1 0 0 1 2             
+Luzocephalus ? ? ? ? ? ? ?             
+Chomatobatrachus ? ? ? ? ? ? ?             
+Laidleria ? 0 0 - ? ? ?             
+Uruyiella ? ? ? ? ? ? ?             
+Rhytidosteus ? 0 1 ? ? ? ?             
+Boreopelta ? ? ? ? ? ? ?             
+Deltasaurus 0 0 0 ? 0 1 0             
+Arcadia 0 0 1 0 0 1 0             
+Peltostega ? ? ? ? ? ? ?             
+Pneumatostega 0 ? ? ? ? ? 0             
+Derwentia ? ? ? ? ? ? ?             
+Nanolania ? ? ? ? ? ? ?             
+Sangaia ? ? ? ? ? ? ?             
+Mahavisaurus 0 0 1 0 ? 1 0             
+Indobrachyops ? ? ? ? ? ? ?             
+Trucheosaurus ? ? ? ? ? ? ?             
+Rewana ? ? ? ? ? ? ?
+;
+end;

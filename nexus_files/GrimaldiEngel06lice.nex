@@ -1,0 +1,24 @@
+#NEXUS
+
+[!Grimaldi, D. and Engel, M. S. 2006. Fossil liposcelididae and the lice ages (insecta: Psocodea). Proceedings of the Royal Society B: Biological Sciences 273:625-633.]
+
+Begin data;
+	Dimensions ntax=10 nchar=17;
+	Format datatype=standard symbols="0123" missing=? gap=-;
+	Matrix
+outgroup 	00000 00000 00000 00000 00000
+Cretoscelis	11010 0001? ??111 01101 00001
+Embidopsocus	11010 00020 01111 11111 00001
+Embidopsocopsis 11010 00020 01111 11111 00001
+Chaetotroctes	11010 00020 01111 11111 00001
+Troglotroctes	11010 00021 13--- 11110 01000
+Liposcelis	11010 00021 03--- 11110 01000
+BelaphotroctesA 11011 00021 02111 11111 01001
+BelaphotroctesB 11011 00021 12111 11111 01011
+Belapha		11112 11121 12112 11111 01011
+Belaphopsocus	11112 11121 12111 11111 01111
+Troctulus	11011 11121 12111 11111 01101
+B.dominicus	11111 0112? ??111 01111 01111
+;
+end;
+

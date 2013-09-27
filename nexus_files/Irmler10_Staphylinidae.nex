@@ -1,0 +1,36 @@
+#NEXUS
+
+[Irmler, U. A new genus of osoriinae in the neotropical region with a cladistic analysis of the tribe thoracophorini (insecta: Coleoptera: Staphylinidae). Arthropod Systematics & Phylogeny 68, 229-237 (2010).]
+
+begin data;
+dimensions ntax=25 nchar=32;
+format missing=? gap=- symbols="0123";
+MATRIX
+Osoriini 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0
+Allotrochus 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 - 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1
+Arborilispinus 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 - 0 1 0 1 0 0 1 0 0 0 0 1 1 1 1
+Clavilispinus 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 - 0 1 0 1 0 0 1 0 0 - - - 0 1 1
+Geomitopsis 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 - 0 1 0 1 0 0 0 0 0 0 0 0 1 1 1
+Espeson 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 - 0 1 0 1 0 0 0 0 0 0 1 0 2 1 1
+Pseudespeson 0 1 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1
+Lispinodes 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 2 1 1
+Rhopalopherus 2 0 0 1 0 1 0 0 1 0 1 0 0 0 0 0 - 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1
+Mesotrochus 2 0 0 0 0 1 0 0 1 0 1 1 0 0 0 0 - 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1
+Thoracophorus 0 0 0 1 0 0 0 0 1 0 1 1 0 0 0 0 - 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1
+Aneucamptus 0 0 0 0 0 0 0 0 1 0 0 3 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1
+Glyptoma 1 0 1 0 0 0 0 0 1 0 0 3 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 1 1 1
+Verhaaghiella 1 0 1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 1
+Quadricephalus 0 0 0 1 0 0 0 0 2 0 0 0 0 1 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 1
+Euctenopsia 1 0 0 1 0 0 0 0 1 0 1 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 1
+Pselaphomimus 1 0 1 1 0 0 1 0 2 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 1
+Pardirocephalus 1 0 1 1 0 0 1 0 2 0 1 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 2 1 1
+Dirocephalus 1 0 1 1 0 0 1 0 2 1 1 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 2 1 1
+Liberiana 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 0 0 0 1 1
+Tannea 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 0 0 1 1 1 1 0 0 0 1 1
+Nacaeus 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 0 0 1 0 2 1 0 0 0 1 1
+Lispinuncus 0 0 0 0 2 0 0 0 0 0 0 2 2 0 0 1 1 0 1 0 1 0 0 0 0 2 1 0 0 0 1 1
+Lispinus 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 0 1 0 0 2 1 0 0 0 1 1
+Neolosus 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 0 1 1 0 1 0 1 0 0 2 1 0 0 0 1 1
+;
+end;
+

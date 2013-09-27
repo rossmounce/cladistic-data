@@ -1,0 +1,24 @@
+#NEXUS
+
+[Ferretti, M. P. Anatomy of haplomastodon chimborazi (mammalia, proboscidea) from the late pleistocene of ecuador and its bearing on the phylogeny and systematics of south american gomphotheres. Geodiversitas 32, 663-721 (2010).]
+
+begin data;
+dimensions ntax=11 nchar=24;
+format missing=? gap=- symbols="012";
+MATRIX
+Gomphotherium_angustidens 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Gomphotherium_productum 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0
+Megabelodon_lulli 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ? 1 ? 0 0 0 0 0 0 0
+Eubelodon_morilli 0 0 0 0 0 0 0 0 2 0 0 0 0 2 ? 1 ? ? ? 0 1 1 0 0
+Gnathabelodon_thorpei 0 0 0 0 0 0 0 0 1 0 0 0 1 2 ? 1 ? 0 0 0 0 0 0 0
+Sinomastodon_hanjiangensis 1 1 0 0 0 0 1 1 2 1 1 0 1 2 ? 1 ? 1 ? 1 0 0 0 0
+Stegomastodon_texanus 1 1 1 1 0 0 1 1 2 0 0 0 2 2 ? 1 ? 1 1 2 2 2 0 0
+Rynchotherium_cf_falconeri 0 1 1 2 1 1 0 1 2 1 0 0 1 0 1 0 1 1 1 0 1 0 0 0
+Stegomastodon_platensis 1 1 1 1 1 1 1 1 2 1 1 1 1 1 0 1 ? 1 2 1 2 1 1 1
+Cuvieronius_hyodon 1 1 1 2 1 1 1 1 2 1 1 1 1 0 1 1 1 1 2 1 1 1 1 1
+Haplomastodon_chimboraz 1 1 1 1 1 1 1 1 2 1 1 1 2 2 0 1 ? 1 2 1 1 1 1 1
+;
+end;
+begin paup;
+ctype ord: 9;
+end;

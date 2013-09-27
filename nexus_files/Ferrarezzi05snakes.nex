@@ -1,0 +1,19 @@
+#NEXUS
+
+[!Ferrarezzi, H., Barbo, F. E., and Albuquerque, C. E. 2005.
+ Phylogenetic relationships of a new species of apostolepis from brazilian
+ cerrado with notes on the assimilis group (serpentes: Colubridae:
+ Xenodontinae: Elapomorphini). Papéis Avulsos de Zoologia (São Paulo)
+ 45. characters 1-10 = coloration; 11-15 scalation; 16-29 = osteology; 30-31 = ecology]
+
+begin data;
+dimensions ntax=5 nchar=31;
+format missing=? gap=- symbols="0123";
+matrix
+A.gr.flavotorquata 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 - 1 0 0 0 0 ? 0 0 ? 
+A.gr.dorbignyi 0 1 0 1 1 1 0 0 0 0 0 1 1 ? 0 - - - - - - - - - - - - - - 0 0 
+A.assimilis 0 1 0 1 1 1 0 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 
+A.ammoditessp.n. 1 1 1 2 2 3 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 2 1 1 1 1 1 2 1 1 
+A.cearensis 1 1 1 2 2 2 1 0 0 1 2 0 0 0 2 1 0 0 1 0 2 2 0 1 1 0 1 0 1 1 2 
+;
+end;

@@ -1,0 +1,40 @@
+#Nexus
+
+BEGIN DATA;
+DIMENSIONS NTAX=31 NCHAR=27;
+FORMAT INTERLEAVE MISSING=? GAP=- SYMBOLS="0123456789";
+MATRIX
+
+Glyptoria 0 0 0 1 0 0 0 0 0 0 0 0 1 0 3 0 0 0 2 ? 0 0 0 0 0 0 0
+Billingsella 1 0 2 0 1 1 0 0 1 2 0 0 1 0 0 0 0 2 1 2 2 0 1 1 1 2 0
+Saccogonum 1 0 1 1 1 1 0 0 0 2 0 0 1 0 0 0 1 2 1 ? 2 0 1 1 1 1 0
+Kozhuchinella 3 0 1 0 1 1 0 0 2 2 0 0 1 0 0 0 0 1 1 2 2 0 1 1 1 1 1
+Clitambonites 4 0 2 2 1 0 1 0 2 1 1 1 1 0 1 0 3 2 2 1 2 0 1 1 1 1 1
+Apomatella 4 0 2 2 1 0 0 1 1 1 0 1 1 0 1 0 3 1 1 ? 2 0 1 1 1 0 0
+Atelelasma 0 0 1 1 1 0 0 1 1 2 0 1 1 0 1 0 3 1 1 1 2 0 1 1 1 1 0
+Clinambon 4 0 2 2 1 0 1 0 2 2 1 1 1 0 1 0 3 2 ? 1 2 0 1 1 2 1 1
+Estlandia 1 0 1 1 1 0 1 0 2 2 1 1 1 0 2 0 3 1 1 1 2 0 1 1 2 1 1
+Protambonites 1 0 2 0 1 1 0 0 2 4 0 0 1 1 0 0 1 2 2 1 2 0 1 2 1 1 0
+Korinevskia 1 0 2 0 1 1 0 0 2 4 0 0 1 1 0 0 1 2 1 1 2 0 1 2 2 1 0
+Martellia 4 0 2 0 1 1 0 0 2 2 0 0 1 2 0 1 1 1 1 1 2 0 1 2 4 2 1
+Tritoechia 4 0 2 1 1 1 0 0 1 2 0 0 1 2 0 1 1 1 1 1 2 0 1 2 4 2 0
+Chaniella 1 0 1 1 1 0 0 1 1 3 0 0 1 1 0 1 1 2 {12} 1 2 0 1 2 1 1 1
+Bohemiella {03} 0 1 1 0 0 0 0 0 2 0 0 1 0 0 0 0 1 1 1 1 0 1 1 0 1 0
+Eoorthis 0 0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 1 1 ? 1 0 1 1 1 0 0
+Jivinella 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0 1 1 2 1 ? 2 0 1 1 0 1 0
+Protorthisina 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 ? ? 4 1 0 1 3 0 0
+Kvania 0 0 0 1 0 0 0 0 0 1 0 0 1 2 0 0 0 1 ? ? 3 0 0 1 1 1 0
+Polytoechia 4 0 2 1 1 1 0 0 1 2 0 0 1 2 0 1 3 1 ? ? 2 0 1 2 4 2 0
+Nisusia 4 0 2 2 1 1 0 0 0 1 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0
+Pompeckium 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0 0 0 1 3 ? 0 0 1 0 0 0 0
+Astraborthis 0 1 0 1 0 0 0 0 0 1 0 0 1 2 0 1 1 1 ? ? 2 0 1 1 1 1 0
+Pomatotrema 4 0 2 1 1 1 0 0 2 2 0 1 1 2 0 1 2 1 1 1 2 0 1 2 4 2 1
+Arctohedra 4 0 2 2 0 0 0 0 0 1 0 0 1 0 3 0 0 0 1 ? 2 0 1 1 1 1 0
+Eremotoechia 2 0 1 1 1 1 0 0 2 2 0 0 1 2 0 1 0 1 ? ? 2 0 2 2 0 2 0
+Antigonambonites 4 0 2 1 1 1 0 0 1 2 0 0 1 2 0 1 0 1 2 1 2 0 1 2 4 2 1
+Medessia 0 1 0 1 0 0 0 0 0 2 0 0 1 2 0 1 0 1 3 ? 2 0 1 1 1 1 0
+Radkeina 0 1 0 1 0 0 0 0 0 1 0 0 1 2 0 1 1 1 ? ? 2 0 1 1 1 2 0
+Finkelnburgia 0 0 0 1 0 0 0 0 0 2 0 0 1 2 0 1 1 1 3 3 3 0 {01} 1 0 2 0
+Plectotrophia 0 1 0 1 0 0 0 0 0 2 0 0 1 1 0 1 1 1 ? ? 2 0 1 1 1 2 0
+;
+END;

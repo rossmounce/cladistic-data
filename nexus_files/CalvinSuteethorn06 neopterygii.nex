@@ -1,0 +1,36 @@
+#NEXUS
+
+[!Cavin, L. and Suteethorn, V. 2006. A new semionotiform (actinopterygii, neopterygii) from upper jurassic &#x2013; lower cretaceous deposits of north-east thailand, with comments on the relationships of semionotiforms. Palaeontology 49:339-353.]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=13 NCHAR=48;
+	FORMAT SYMBOLS= "0 1 2 3" MISSING=? GAP=-;
+MATRIX
+Outgroup                      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Amia_calva                    0 0 0 3 0 0 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 2 1 1 0 0 0 0 0 0 0 0
+
+Araripelepidotes_temnurus     1 1 0 0 1 1 0 1 ? 1 0 ? 1 1 0 0 0 ? 0 ? 0 ? 0 ? ? 0 0 0 0 ? ? 0 0 ? 0 ? 1 1 1 1 ? 0 0 ? ? 0 ? 1
+
+Isanichthys_palustris 0 1 ? 2 0 1 0 0 ? ? ? ? 1 ? 0 0 0 ? 0 0 0 ? 0 0 ? ? ? ? 0 ? ? 0 1 ? 0 1 1 0 ? ? ? 0 ? ? ? 1 ? 0
+Lepidotes_elvensis              1 ? 0 0 1 1 0 ? 0 ? 1 ? 1 1 0 0 0 0 0 0 0 ? 0 0 0 0 ? ? 0 ? ? 0 0 0 0 1 1 1 ? ? 0 0 0 ? 0 1 0 0
+
+L.minor                      	1 1 1 0 1 1 0 1 0 1 1 ? 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 ? 0 0 0 0 0 0 0 1 1 1 ? ? 0 0 0 0 ? 1 0 0
+
+Lepisosteus_spp.                0 0 0 2 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0
+
+Leptolepis_coryphaenoides                      0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 ? 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 1 1 1 1 1 1 1 0 0 0
+
+Pliodetes_nigeriensis                      1 ? 0 2 0 1 ? ? 1 ? 1 ? 1 ? 0 0 0 0 0 0 0 ? 0 ? ? ? ? ? 0 ? ? 0 0 0 0 0 1 1 ? ? 0 0 0 ? ? 0 1 1
+
+Masillosteus_kelleri                      0 ? ? 2 ? 1 ? ? 1 ? 1 ? ? ? 0 0 0 ? 0 ? ? ? 1 ? ? ? ? ? ? ? ? 1 1 ? ? 0 0 1 ? ? ? 0 0 ? ? ? ? 0
+
+Obaichthys_spp.                      0 0 0 0 ? 1 1 1 1 1 1 ? 1 1 1 1 0 ? 0 ? 1 ? 1 1 ? ? 1 1 ? ? ? 1 1 ? 0 0 0 0 0 0 ? 0 0 ? 0 ? ? 0
+
+Oniichthys_falipoui                      0 0 0 0 0 1 1 ? 1 ? 1 ? 1 1 1 1 1 1 1 ? 1 1 1 1 1 ? ? ? 1 ? ? 1 1 0 0 0 0 ? ? 0 0 0 0 ? ? 0 ? 0
+
+Semionotus_elegans 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 ? ? 0 0 0 0 0 0 0 1 1 1 1 ? 0 0 0 0 0 0 0 0
+;
+end;
+
+

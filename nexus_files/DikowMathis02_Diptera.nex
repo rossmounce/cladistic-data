@@ -1,0 +1,141 @@
+#NEXUS 
+[MacClade 4.08 registered to torsten dikow, cornell & amnh]
+[Dikow, T. & Mathis, W. N. A revision and phylogenetic study of actocetor becker (diptera: Ephydridae). Proceedings of the Entomological Society of Washington 104, 249-290 (2002). URL http://biostor.org/reference/57166.]
+
+BEGIN TAXA;
+	DIMENSIONS  NTAX=11;
+	TAXLABELS
+	'Guttipsilopa (Nesopsilopa)'
+	Mimapsilopa
+	Eremomusca
+	Trypetomima
+	'Actocetor (A.) hovus'
+	'Actocetor (A.) indicus'
+	'Actocetor (A.) nigrifinis'
+	'Actocetor (A.) afrus'
+	'Actocetor (P.) yaromi'
+	'Actocetor (P.) lindneri'
+	'Actocetor (P.) decemguttatus';
+END;
+
+
+BEGIN CHARACTERS;
+	DIMENSIONS  NCHAR=29;
+	FORMAT SYMBOLS= " 0 1 2 3 4 5" MISSING=? GAP=- ;
+	CHARSTATELABELS  
+		1  Length_of_1st_flagellomere / 'relatively_long_(longer_than_width_of_pedicel)' 'short_(length_subequal_to_width_of_pedicel)',
+  2  Position_of_antenna_on_head / 'positioned_near_midheight_level_of_head_(frons_conspicuously_longer_than_wide)' 'positioned_high,_above_dorsal_1/3_in_lateral_view',
+  3  Development_of_pseudopostocellar_setae / setae_reduced 'setae_well_developed,_as_large_as_proclinate_setae_(often/mostly_slightly_reclinate)',
+  4  Development_of_facial_setae / 'face_bearing_2_well-developed_setae' 'face_bearing_4_well-developed_setae_in_a_vertical_row,_dorsalmost_1-2_setae_cruciate',
+  5  'Gena-to-eye ratio' / 'variable_but_gena_generally_short_with_ratios_of_0.08-0.15' '0.21-0.36' '0.14-0.20',
+  6  Color_of_mesonotal_microtomentum / blackish grayish yellowish,
+  7  Coloration_of_scutellum / scutellum_entirely_concolorous_with_scutum 'apicad_1/4-1/2_dark_brown' 'apicad_1/2-3/4_dark_brown',
+  8  'Color surrounding base of prescutellar acrostichal, posterior dorsocentral, basal scutellar setae' / not_distinctly_dark_brown distinctly_dark_brown,
+  9  Development_of_wing_pattern / wing_generally_hyaline 'wing_mostly_whitish,_conspicuously_maculate' wing_mostly_blackish_brown_with_white_spots,
+  10  'Development of apex of vein R2+3' / apex_normally_developed_at_merger_with_costa 'vein_R2+3_with_a_subapical_stump_vein',
+  11  Development_of_alula / 'alula_a_well-developed_lobe' 'reduced_to_a_thin_bandlike_lobe_bearing_numerous_short/long_setulae_along_posterior_margin' 'completely_reduced_and_bearing_few/no_setulae_along_posterior_margin',
+  12  Development_of_cell_cua1 / 'cell_cua1_broad,_broader_than_discal_cell,_anal_angle_moderately_well_developed' 'cell_cua1_generally_narrower_than_discal_cell,_anal_margin_nearly_straight',
+  13  'Development of setulae on vein R4+5' / no_setulae_present 'setulae_only_basad_of_crossvein_r-m' 'setulae_basad_and_apicad_of_crossvein_r-m',
+  14  'Shape of anterior margin of vein CuA1 basad of crossvein dm-cu' / straight slightly_concave,
+  15  Number_of_white_spots_in_discal_cell / no_spot 1_spot 2_spots,
+  16  Number_of_white_spots_in_cell_r1 / 1_spot 2_spots,
+  17  'Number of setulae on vein R4+5 basad of crossvein r-m' / no_setulae_present '2-3_setulae' '4/more_setulae',
+  18  Costal_vein_ratio / '0.53-0.73' '0.73-0.87',
+  19  M_vein_ratio / '0.84-1.00' '1.01-1.21',
+  20  Color_of_knob_of_halter / white_to_yellow dark_brown_to_black,
+  21  Shape_of_knob_of_halter / distinctly_clubbed knob_of_halter_not_distinctly_clubbed,
+  22  'Development of microtomentum on abdomen (in addition to microtomentose anterior margin of 1st tergite)' / entirely_bare anterior_margin_of_4th_tergite_with_distinct_band anterior_margins_of_3rd_plus_4th_tergites_with_narrow_bands 'anterior_margins_of_3rd,_4th,_plus_5th_tergites_with_distinct_bands' 'tergites_3-7_entirely_gray/brown_microtomentose' entirely_microtomentose,
+  23  Development_of_setae_on_dorsum_of_epandrium / bearing_small_setae_only 'bearing_well-developed,_dorsally_erect_setae',
+  24  Shape_of_male_3rd_plus_4th_sternites / 'rectangular,_broad,_1-2X_longer_than_wide' 'rectangular,_moderately_narrow,_2-3X_longer_than_wide',
+  25  Shape_of_male_5th_sternite / trapezoidal_with_slightly_concave_posterior_margin 'trapezoidal_with_medial_weakness,_slight_indentation_on_concave_posterior_margin' 'trapezoidal,_divided_medially_into_two_sclerites' 'trapezoidal_with_concave_posterior_margin_with_medial_weakness,_4-5_setulae_on_either_side_of_weakness',
+  26  Postsurstylar_process / absent 'present,_cylindrical' 'present,_clubbed_with_rounded_knob' 'present,_expanded_ventrally,_projected_to_a_point_posteriorly' 'present,_clubbed_but_not_stalked' 'present,_distinctly_expanded_apically,_with_anterior_portion_extended_to_narrow_process,_posterior_margin_narrowly_rounded',
+  27  Postsurstylus / 'bilobed_subapically_with_a_small,_digitiform,_medial,_pointed_process' 'bilobed_apically,_both_lobes_well_developed,_subequal' 'apex_not_bilobed,_bluntly_formed_or_angulate,_tapered_to_a_point_toward_one_side',
+  28  Presurstylus / 'variable_in_form,_but_usually_rather_simple_structures,_longer_than_wide' bearing_1_round_to_oval_lobe_medially 'bearing_2_lobes_along_ventral_margin,_medial_lobe_much_larger,_1_smaller,_thumblike_process_between_medial_lobe_as_well_as_expanded_base' bearing_4_lobes,
+  29  Shape_of_hypandrium / 'pouchlike,_often_moderately_deep' 'very_deeply_formed,_with_an_extended_keel-like_process_that_extends_into_the_abdomen'
+		;
+
+MATRIX
+[                                          10        20        ]
+[                                          .         .         ]
+
+'Guttipsilopa (Nesopsilopa)'      001101003000000?0??0000000000
+Mimapsilopa                       000000000010100?0??0000001000
+Eremomusca                        001000001110100?0??0050000000
+Trypetomima                       00100000211021000??0000000000
+'Actocetor (A.) hovus'            11111121201010201100001023220
+'Actocetor (A.) indicus'          11111111201010212000011012020
+'Actocetor (A.) nigrifinis'       11111120201010202110021035210
+'Actocetor (A.) afrus'            11111111201010312011031023210
+'Actocetor (P.) yaromi'           1111220020212100201112???????
+'Actocetor (P.) lindneri'         11112220202121012011140104131
+'Actocetor (P.) decemguttatus'    11112220202121102011120104131
+;
+END;
+
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+	TYPESET * UNTITLED  = unord: 1-10 12-29, ord: 11;
+END;
+
+
+BEGIN MacClade;
+	Version 4.0  87;
+	LastModified -1046804464;
+	FileSettings editor  '0' '0' '1' '1';
+	Singles 000;
+	Editor 00011001111111100100010010 '1' '24' Geneva '9' '152' '1' all;
+	EditorPosition  '44' '4' '723' '967';
+	TreeWindowPosition  '46' '6' '789' '1230';
+	ListWindow Characters open Geneva '9' '50' '10' '529' '730' 000;
+	ListWindow Taxa closed Geneva '9' '50' '10' '241' '490' 100000000;
+	ListWindow Trees closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow ExSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ;
+	ChartWindowPosition  '50' '30' '688' '964';
+	StateNamesSymbols closed Geneva '9' '10' '340' '256' '192' '876';
+	WindowOrder  List Characters Data;
+	OtherSymbols &/ 00 ?-;
+	Correlation  '0' '0' '1000' '0' '0' 10011010;
+	Salmo 00000001;
+	EditorFile  '2';
+	ExportHTML _ MOSS  '100' 110000;
+	PrettyPrint 10;
+	EditorToolsPosition  '605' '44' '115' '165';
+	TreeWindowProgram 10;
+	TreeWindow 0000;
+	Continuous  '0' '3' 1;
+	Calculations 0000001;
+	SummaryMode  '0' '0' 0;
+	Charts  Geneva '9' (normal) 0010;
+	NexusOptions  '0' '0' '50' 001011011;
+	TipLabel  '1';
+	TreeFont  Geneva '9' (normal);
+	TreeShape  1.0 1.0 0100;
+	TraceLabels 0101;
+	ChartColors  '0' '0' '65535' '9' '0' 1;
+	ChartBiggestSpot 1;
+	ChartPercent 10;
+	ChartBarWidth  '10' 1;
+	ChartVerticalAxis 10101;
+	ChartMinMax  '0';
+	TraceAllChangesDisplay  '1' 1;
+	BarsOnBranchesDisplay  '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101;
+	ContinuousBranchLabels 0;
+	AllStatesBranchLabels 1;
+	IndexNotation  '2' 1;
+	PrintTree  10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '3' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000;
+	MatchChar 00 .;
+	EntryInterpretation 01;
+	ColorOptions 10;
+	TreeTools  '0' '5' '4' '0' '10' '4' '0' 00100111111101110;
+	EditorTools  '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001;
+	PairAlign  '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010;
+	BothTools  '1';
+END;

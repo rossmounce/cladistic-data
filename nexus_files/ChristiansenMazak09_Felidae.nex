@@ -1,0 +1,26 @@
+#NEXUS
+
+[Christiansen, P. and Mazák, J. H. 2009. A primitive late pliocene cheetah, and evolution of the cheetah lineage. Proceedings of the National Academy of Sciences 106:512-515.]
+
+begin data;
+dimensions ntax=8 nchar=27;
+format symbols="012" missing=? gap=-;
+Matrix
+
+Leopardus_pardalis 000000000000000000000000000
+Puma_concolor 000010010111000010000000000
+Puma_pardoides 0000100000000?0000000000000
+Miracinonyx_trumani 100021010101100110101001000
+Miracinonyx_inexpectatus 000020000201100010100000000
+Acinonyx_jubatus 111021011211100111111111101
+Acinonyx_pardinensis 111021011211100111111101111
+Acinonyx_kurteni 10012?0102?11?011100?11???1
+;
+end;
+
+
+
+
+
+
+

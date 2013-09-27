@@ -1,0 +1,27 @@
+#NEXUS
+
+[Sumrall, C. D. and Gahn, F. J. 2006. Morphological and systematic reinterpretation of two enigmatic edrioasteroids (Echinodermata) from Canada. Canadian Journal of Earth Sciences pp. 497-507.]
+
+Begin data;
+	Dimensions ntax=15 nchar=24;
+	Format datatype=standard symbols="0123" gap=-;
+	Matrix
+Carneyella		00100 00000 00000 00??0 0000
+Foerstediscus		00100 00000 00000 00??0 0003
+Isorophus		01101 00000 00000 00??0 0010
+Isorophusella		01001 00000 00000 00??0 001?
+Agelacrinites		1?111 00001 00100 00??0 0011
+Thresherodiscus		1?012 10000 00??? 00??0 000?
+Neoisorophusella	1?011 10001 00100 00??0 001?
+Postibulla		1?111 11001 00100 00??0 0011
+Ulrichidiscus		1?111 11101 00110 01000 0012
+Lepidodiscus		1?111 11101 00110 01000 0010
+Clavidiscus		1?111 11111 00111 01011 1110
+Hypsiclavus		1?111 11111 11111 11111 1110
+Giganticlavus		1?111 ?1111 11??? 11111 ??12
+Cooperidiscus		1?1?? ????1 001?? 01001 ?013
+Lispidecodus		1??11 01111 11111 1???? 101?
+;
+end;
+
+

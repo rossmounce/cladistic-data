@@ -1,0 +1,1123 @@
+#NEXUS
+
+[ File saved by NDE version 0.5.0, Tue Jan 22 14:09:57 2008 ]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=30;
+	TAXLABELS
+		Siagonium
+		Oxyporus
+		Megalopinus
+		Pseudopsis
+		Nanobius
+		Stenus
+		Dianous
+		SteNovAUS1W
+		SteNovAUS2F
+		AlzadaesthetusCHI
+		AlzadaesthetusFUR
+		Austroesthetus
+		Chilioesthetus
+		Mesoaesthetus
+		Nothoesthetus
+		Tasmanosthetus
+		EuaNZ
+		Edaphus
+		Euaesthetus
+		OctaviusRSA
+		OctaviusPAN
+		ProtopristusNZ
+		ProtopristusTAS
+		Fenderia
+		Stictocranius
+		Agnosthaetus
+		Gerhardia
+		Stenaesthetus
+		EuaAUS
+		EuaLTAS
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=167;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Epistomal (frontoclypeal) suture'
+		[2] 'Location of antennal insertion'
+		[3] 'Dorsolateral carina of head'
+		[4] 'Postoccipital nuchal region'
+		[5] 'Gular sutures'
+		[6] 'Apodemes arising from interantennal pits'
+		[7] 'Dorsal tentorial arms'
+		[8] 'Tentorial bridge'
+		[9] 'Tentorial loop'
+		[10] Corporotentorium
+		[11] 'Dorsomedian nuchal phragma'
+		[12] 'Ommatidia structure'
+		[13] 'Long interfacetal ocular setae'
+		[14] 'Antennal club'
+		[15] 'Number of antennomeres in antennal club'
+		[16] 'Condyle of first antennomere in dorsal view'
+		[17] 'Apex of antennomere 10'
+		[18] 'Specialized setae on antennomere 10'
+		[19] 'Length of antennomeres 9-11'
+		[20] 'Antennomeres 10 and 11'
+		[21] 'Anterior margin of labrum'
+		[22] 'Surface of epipharynx'
+		[23] 'Epipharyngeal marginal setae'
+		[24] 'Frontoclypeal-labral junction'
+		[25] 'Mandibular structure'
+		[26] 'Mandibles when closed'
+		[27] 'Inner edge of mandibles posterior to preapical tooth'
+		[28] 'Preapical mandibular teeth'
+		[29] 'Maximum number of preapical teeth on inner margin of manidbles'
+		[30] 'Mandibular prostheca'
+		[31] 'Mandibular molar lobe'
+		[32] 'Spine on lateral edge of galea'
+		[33] 'Apical unarticulated spine of lacinia'
+		[34] 'Cluster of digitiform sensilla on outer side of maxillary palpomere 3'
+		[35] 'Pair of papillate sensilla at apex of maxillary palpomere 3'
+		[36] 'Setation of maxillary palpomere 3'
+		[37] 'Maxillary palpomere 4'
+		[38] Glossae
+		[39] 'Two pairs of setae on anterior margin of labium'
+		[40] 'Sticky cushions of labium'
+		[41] 'Digitiform processes of labium'
+		[42] 'Mesal notch in apex of labium'
+		[43] 'Mesal mound at apex of labium'
+		[44] 'Median teeth of ligula (anteromedial labial margin)'
+		[45] 'Lateral rows or combs of setae on hypopharanx'
+		[46] 'Insertion location and proximity of labial palps'
+		[47] 'Labial palpomere 1'
+		[48] 'Labial palpomere 2'
+		[49] 'Labial palpomere 3'
+		[50] Prementum
+		[51] Mentum
+		[52] 'Lateral palpomere rests on mentum divided by medial longitudinal carina'
+		[53] 'Submentum and gula'
+		[54] 'Submental transverse carina'
+		[55] 'Cervical sclerites'
+		[56] 'Anterior margin of prosternum'
+		[57] 'Pronotal marginal carina'
+		[58] 'Ventral hypomeral marginal carina'
+		[59] 'Pronotosternal suture'
+		[60] Protrochantin
+		[61] 'Prosternal depigmented callosity'
+		[62] 'Anteprocoxal carina'
+		[63] 'Anteprocoxal lobes'
+		[64] 'Procoxal mesial surface'
+		[65] 'Longitudinal carinae or costae on pronotum and elytra'
+		[66] 'Mesothoracic spiracles in ventral view'
+		[67] 'Antemesosternal sclerite or sclerites'
+		[68] Scutellum
+		[69] 'Elytral striae'
+		[70] 'Elytral epipleural keel'
+		[71] 'Elytral epipleural fold'
+		[72] 'Basal spine of elytral marginal ridge'
+		[73] 'Underside of elytra'
+		[74] 'Mesosternal procoxal rests'
+		[75] 'Mesosternal midlongitudinal carina'
+		[76] 'Mesosternal oblique carina'
+		[77] 'Mesothoracic pleural suture'
+		[78] 'Mesothoracic anapleural suture'
+		[79] 'Transverse carina on side of mesothorax'
+		[80] Mesotrochantin
+		[81] 'Mesosternal intercoxal process'
+		[82] Mesendosternites
+		[83] 'Shape of mesendosternites'
+		[84] 'Fusion of mesendosternites with mesoventrite'
+		[85] 'Apical muscle disk of mesendosternites'
+		[86] 'Meso-metaventral suture'
+		[87] 'Mesal posterior lobes of metaventrite'
+		[88] 'Stem of metendosternite'
+		[89] 'Tibial apical spurs'
+		[90] Protibia
+		[91] 'Protibial external spines'
+		[92] 'Modified setae on protarsomeres 1 and 2 of males'
+		[93] 'Protarsomeres 1 and 2'
+		[94] 'Mesotarsomeres 1 and 2'
+		[95] 'Metatarsomeres 1 and 2'
+		[96] 'Ventral process projecting over empodium'
+		[97] 'Tarsal claws'
+		[98] 'Empodial setae'
+		[99] 'Mesocoxal mesial surface'
+		[100] Metacoxae
+		[101] 'Posterior face of metacoxae'
+		[102] 'Mesal articulations of metacoxae'
+		[103] 'Proximity of mesal edges of metacoxae'
+		[104] 'Line of macrosetae on posterolateral edges of metacoxae'
+		[105] 'Wing folding microtrichia patches on tergite IV'
+		[106] 'Attachment of abdominal intersegmental membrane to preceeding segment'
+		[107] 'Shape of intersegmental membrane sclerites'
+		[108] 'Anterior transverse basal carina of abdominal tergites IV-VII'
+		[109] 'Basolateral ridges of abdominal tergites'
+		[110] 'Deep arcuate carinae at base of abdominal tergites'
+		[111] 'Apicolateral spines of abdominal tergites III-VI'
+		[112] 'Spiracles of abdominal segment I'
+		[113] 'Spiracles of abdominal segment II'
+		[114] 'Intercoxal carina on sternites II/III'
+		[115] 'Longitudinal carina at sides of sternite III'
+		[116] 'Paramedial carinae of sternite III'
+		[117] 'Parasclerites on each side of segment II'
+		[118] 'Parasclerites on each side of segment III'
+		[119] 'Tergum and sternum of segment III'
+		[120] 'Parasclerites on each side of segments IV-VI'
+		[121] 'Tergum and sternum of segments IV-VI'
+		[122] 'Parasclerites on each side of segment VII'
+		[123] 'Paired pygidial defense glands opening into rectum'
+		[124] 'Stridulatory file of tergite IX'
+		[125] 'Tergite IX in male'
+		[126] 'Tergite IX in male'
+		[127] 'Apex of sternite IX in male'
+		[128] 'Aedeagus when retracted in abdomen'
+		[129] Parameres
+		[130] 'Tergite IX in female'
+		[131] 'Longitudinal suture dividing tergite IX in female'
+		[132] 'Female intergonopodal sclerite'
+		[133] 'First and second gonocoxites'
+		[134] 'Mesal edge of second gonocoxite'
+		[135] Gonostyle
+		[136] 'Variation in length and width of setae on cranium and tergites'
+		[137] Labrum
+		[138] 'Anterior edge of labrum or nasale'
+		[139] 'Nuchal carina'
+		[140] 'Coronal suture'
+		[141] 'Location of posterior tentorial pits'
+		[142] Submentum
+		[143] 'Maxillary foramen'
+		[144] 'Ventral ecdysial lines'
+		[145] 'Attachment of antennae'
+		[146] 'Antennomere 1'
+		[147] 'Antennomeres 1 and 2'
+		[148] 'Position of antennal sensorium on antennae'
+		[149] 'Shape of antennal sensorium'
+		[150] Mandible
+		[151] 'Inner edge of mandibles'
+		[152] Mala
+		[153] Cardo
+		[154] 'Ventral surface of cardo'
+		[155] 'Shape of stipes (not including mala)'
+		[156] 'Maxillary palpomere 2'
+		[157] 'Labial palpomere 2'
+		[158] Mentum
+		[159] 'Location of longest seta on legs'
+		[160] 'Tibial form'
+		[161] Tibia
+		[162] 'Sub-basal carinae'
+		[163] 'Spiracular openings'
+		[164] 'Maximal number of abdominal parasclerites on each side'
+		[165] 'Abdominal segment IX'
+		[166] 'Urogomphal segments'
+		[167] Urogomphi
+		;
+	STATELABELS
+		1
+			present
+			absent,
+		2
+			'near frontal margin of head, anterior to eye'
+			'on frons between eyes',
+		3
+			absent
+			'present at least anteriorly',
+		4
+			absent
+			present,
+		5
+			seperate
+			fused
+			'fused anteriorly',
+		6
+			absent
+			present,
+		7
+			'not fused with cranium'
+			'fused with cranium',
+		8
+			present
+			absent,
+		9
+			absent
+			present,
+		10
+			split
+			absent
+			fused,
+		11
+			absent
+			present,
+		12
+			'facets hexagonal and flat, eye surface smooth'
+			'facets round and strongly convex, eye surface botryoidal',
+		13
+			absent
+			present,
+		14
+			absent
+			present,
+		15
+			'zero, club absent'
+			three
+			two,
+		16
+			concealed
+			exposed,
+		17
+			'not concave to receive antennomere 11'
+			'concave to receive antennomere 11',
+		18
+			absent
+			present,
+		19
+			'each less than 3x maximum width'
+			'each greater than 3x maximum width',
+		20
+			'separated by antennal stem'
+			'partly fused, antennal stem absent',
+		21
+			smooth
+			'denticulate or serrate',
+		22
+			'flat, without furrows'
+			'distinctly longitudinally furrowed',
+		23
+			absent
+			present,
+		24
+			'not visible in dorsal view, labral attachment concealed beneath frontoclypeal margin'
+			'visible in dorsal view, labrum attached to frontoclypeal margin',
+		25
+			robust
+			'slender, falciform',
+		26
+			'tips fully exposed'
+			'tips concealed beneath labrum',
+		27
+			smooth
+			serrated,
+		28
+			'asymmetrical in number'
+			'symmetrical in number',
+		29
+			two
+			one,
+		30
+			present
+			absent,
+		31
+			present
+			absent,
+		32
+			absent
+			present,
+		33
+			absent
+			present,
+		34
+			absent
+			present,
+		35
+			absent
+			present,
+		36
+			'glabrous except for few scattered macrosetae'
+			'very densely setose and without macrosetae',
+		37
+			'well-developed, fully sclerotized'
+			'minute, hyaline',
+		38
+			present
+			absent,
+		39
+			absent
+			present,
+		40
+			absent
+			present,
+		41
+			absent
+			present,
+		42
+			absent
+			present,
+		43
+			absent
+			present,
+		44
+			absent
+			present,
+		45
+			present
+			absent,
+		46
+			'more or less contiguous and nearer to base than to apex of labium'
+			'widely separated at sides of labium'
+			'almost contiguous and nearer to medial apex than to sides of labium',
+		47
+			'elongate, half as long as, to slightly longer than, palpomere 2'
+			'much shorter than half length of palpomere 2 (the latter sessile to subsessile)',
+		48
+			'unmodified, similar in shape to palpomere 1'
+			'strongly expanded, subglobular or subfusiform',
+		49
+			'well-developed, fully sclerotized'
+			'acicular, hyaline'
+			'moderately to strongly expanded apically, subtriangular',
+		50
+			normal
+			'modified, elongated into eversible rod-like structure',
+		51
+			'entire surface in same plane'
+			'anterior half deflected vertically',
+		52
+			absent
+			present,
+		53
+			'separated by suture located significantly anterior to posterior tentorial pits'
+			fused,
+		54
+			absent
+			present,
+		55
+			large
+			'small and very slender',
+		56
+			smooth
+			'deeply notched',
+		57
+			'not meeting pronotosternal suture, reaching anterolateral prothoracic margin'
+			'meeting pronotosternal suture anterolaterally, not reaching anterior prothoracic margin',
+		58
+			present
+			absent,
+		59
+			'present and complete'
+			'absent or very incomplete and evident only posteriorly near coxal cavity',
+		60
+			exposed
+			concealed,
+		61
+			absent
+			present,
+		62
+			absent
+			'present, transversely arcuate'
+			'present and divided, with each side directed antero-obliquely',
+		63
+			absent
+			present,
+		64
+			'without carina-delimited groove'
+			'with carina-delimited groove',
+		65
+			absent
+			present,
+		66
+			exposed
+			'concealed by pronotum',
+		67
+			absent
+			present,
+		68
+			'mostly visible in dorsal view'
+			'mostly to entirely concealed by pronotum',
+		69
+			present
+			absent,
+		70
+			present
+			absent,
+		71
+			absent
+			present,
+		72
+			absent
+			present,
+		73
+			smooth
+			'densely tuberculate',
+		74
+			absent
+			present,
+		75
+			absent
+			present,
+		76
+			absent
+			present,
+		77
+			present
+			absent,
+		78
+			'present at both anterior and posterior ends'
+			'present only posteriorly'
+			absent,
+		79
+			present
+			absent,
+		80
+			exposed
+			concealed,
+		81
+			'overlapping metasternal process ventrally'
+			'with apex abutting apex of metasternal process'
+			'cariniform, reduced'
+			'absent (coxae widely separated by anterior part of metaventrite)',
+		82
+			'projecting anteriorly, free from pleural phragma'
+			'projecting anterodorsally, partly fused to pleural phragma',
+		83
+			elbowed
+			straight,
+		84
+			'completely free from mesoventrite'
+			'partly fused anteriorly to mesoventrite'
+			'fused to mesoventrite along entire length',
+		85
+			absent
+			present,
+		86
+			'present dorsal to mesocoxae'
+			'absent dorsal to mesocoxae',
+		87
+			absent
+			present,
+		88
+			present
+			absent,
+		89
+			'well developed'
+			reduced,
+		90
+			normal
+			'distinctly expanded and excavated mesally',
+		91
+			present
+			absent,
+		92
+			absent
+			present,
+		93
+			articulated
+			fused,
+		94
+			articulated
+			fused,
+		95
+			articulated
+			fused,
+		96
+			absent
+			present,
+		97
+			smooth
+			'serrate basoventrally',
+		98
+			present
+			absent,
+		99
+			'without carina-delimited groove'
+			'with carina-delimited groove',
+		100
+			state0
+			state1
+			state2
+			state3
+			state4,
+		101
+			oblique
+			vertical,
+		102
+			'approximate, close to mesal edges of metacoxae'
+			'widely separated and on ventral side of metacoxae',
+		103
+			'contiguous or only very narrowly separated anteriorly'
+			'widely separated anteriorly, usually by a distance more than half length of metacoxa',
+		104
+			absent
+			present,
+		105
+			present
+			absent,
+		106
+			apical
+			preapical,
+		107
+			quadrangular
+			irregular
+			hexagonal,
+		108
+			present
+			absent,
+		109
+			present
+			absent,
+		110
+			absent
+			present,
+		111
+			absent
+			present,
+		112
+			'placed in membrane beside tergite I'
+			'placed in tergite I',
+		113
+			'placed in membrane beside tergite II'
+			'placed in tergite II',
+		114
+			absent
+			present,
+		115
+			absent
+			present,
+		116
+			absent
+			present,
+		117
+			'one present'
+			absent,
+		118
+			'two present'
+			'one present'
+			absent,
+		119
+			'separated by parasclerites'
+			'separated by suture'
+			'fused into solid ring',
+		120
+			'two present'
+			'one present'
+			absent,
+		121
+			'separated by parasclerites'
+			'separated by suture'
+			'fused into solid ring',
+		122
+			'two present, longitudinally separated'
+			'two present, one more anterior to other'
+			'one present'
+			absent,
+		123
+			absent
+			present,
+		124
+			absent
+			present,
+		125
+			divided
+			entire,
+		126
+			'separated from tergite X at least laterally'
+			'fused to tergite X, or absent',
+		127
+			'truncate or emarginate, not acutely produced'
+			'acutely produced into medial spine',
+		128
+			'with median foramen left lateral'
+			'with median foramen dorsal',
+		129
+			'normal, uni-lobed'
+			bilobed,
+		130
+			'completely divided by tergite X, or connected at most by threadlike cuticular or membranous strip'
+			'not divided by, and forming elongate bridge in front of, tergite X',
+		131
+			absent
+			present,
+		132
+			present
+			absent,
+		133
+			'distinctly separated by suture'
+			'fused ipsilaterally',
+		134
+			'not produced into spine'
+			'produced into spine',
+		135
+			present
+			absent,
+		136
+			'not differentiated on long and thick versus short and thin'
+			'differentiated in length on long and thick versus short and thin',
+		137
+			'separated from frons by distinct suture'
+			'fused to frons mesally, separated at least laterally'
+			'indistinguishably fused to frons to form nasale',
+		138
+			'without spines or teeth'
+			'with an even number of spines or teeth, without central tooth'
+			'with an odd number of spines or teeth, with distinct central tooth',
+		139
+			absent
+			present,
+		140
+			'shorter than half length of head capsule'
+			'as long as or longer than half length of head capsule',
+		141
+			'at or near middle of ventral surface of head capsule'
+			'at posterior edge of ventral surface of head capsule adjacent to foramen occipitale',
+		142
+			free
+			'fused to head capsule',
+		143
+			'open mesally and anteriorly'
+			'closed completely or closed at least anteriorly',
+		144
+			absent
+			present,
+		145
+			'directly to antennifer-like projection of cranium'
+			'to markedly developed membranous ring',
+		146
+			'not constricted or separated by membrane, antennae clearly 3-segmented'
+			'constricted transversely in basal part, antennae appear 4-segmented',
+		147
+			'of regular length'
+			'markedly elongate',
+		148
+			anterior
+			'not anterior, markedly moved dorsad',
+		149
+			'more or less bulbous, with convex sides and constricted base'
+			'elongate and narrow, parallel-sided along much of its length',
+		150
+			'with one or more preapical teeth'
+			'falcate, without preapical teeth',
+		151
+			smooth
+			serrate,
+		152
+			'of normal size or slightly enlarged'
+			'markedly reduced in size or apparently absent',
+		153
+			'about as wide as base of stipes'
+			'reduced in size, much narrower than base of stipes',
+		154
+			'subdivided by sclerotized ridge'
+			'not subdivided by ridge',
+		155
+			'parallel-sided along its whole length'
+			'markedly narrowed distally',
+		156
+			'straight and not more than 4X as long as wide'
+			'markedly bent and at least 5X as long as wide',
+		157
+			'rigid and rather wide, maximum 5X as long as its basal width'
+			'very narrow and elongate, more than 5X as long as its basal width',
+		158
+			'with triangular or subquadrate sclerite bearing two pairs of setae'
+			'mainly membranous with narrow transverse two-setose sclerite'
+			'absent or indistinguishable',
+		159
+			trochanter
+			femur,
+		160
+			'normal (fairly stout)'
+			'entirely styliform'
+			'abruptly styliform in apical half',
+		161
+			'without 4-6 apical setae exceeding the length of claw'
+			'with 4-6 apical setae exceeding the length of claw',
+		162
+			'present on meso- and metaterga and abdominal terga I-VIII or IX'
+			absent,
+		163
+			'flat or only slightly elevated'
+			'located on apices of tube-like projections',
+		164
+			zero
+			one
+			two,
+		165
+			'without latero-ventral projection on each side'
+			'with latero-ventral projection on each side',
+		166
+			two
+			one,
+		167
+			'about twice as long as tergum IX'
+			'about as long as tergum IX',
+	;
+	MATRIX
+		Siagonium              1000001002 0000000000 0000000000 0010000100 0100010000 0000000000 0001000000 0000000000 0000000000 0000000000 0000001000 0001001000 0000000000 0100000000 1000000000 0000000000 0000000
+		Oxyporus               0000000001 0000000000 0000000000 0000000100 0000000020 0000000000 0000010001 0000000000 3100000000 0000000001 0000000000 0000000000 0000000000 0000000000 1000000000 1000000000 0002001
+		Megalopinus            0000000011 0001100000 0000000001 1010000100 0000010000 0000100011 0001010100 0000{01}00001 0110000010 1000001001 0000100000 0011000000 0000100000 0010101010 1000100000 1000000000 0000001
+		Pseudopsis             0000001002 0110000000 0001000100 0010000000 0000000000 0010000000 000{01}101110 0000000000 2000000000 1000000000 0001100000 0000000101 010110{01}101 0100{01}02111 0111000011 0001000200 0102011
+		Nanobius               0000001002 0110000000 0001000110 0010000000 0000000000 0010000101 0011101110 0000100000 0000000000 1000000001 0000100010 0011000000 0201101101 0100002111 0111000011 0001000200 0102000
+		Stenus                 1100011111 0001110000 0001111111 1001011111 0000120111 0110101111 0011010111 0000000211 1000011110 1000010102 1110112{01}10 0011101{12}{02}{12} {02}310100101 01{01}0112201 1110011111 1001011201 1111110
+		Dianous                1100011111 0001110000 0001111111 1001011110 0000020110 0010101111 0011010111 0000000211 1000011110 1000010102 1110112110 0011101101 0310100101 0100112201 0111011111 1001011201 1111110
+		SteNovAUS1W            1100011111 0111100000 0001111111 1001011111 0010120111 1110101111 0011010111 0001000211 1000011111 1000010102 1110112111 0011101101 0310100101 01001????? ?????????? ?????????? ???????
+		SteNovAUS2F            1000011111 0111100000 0001111111 1001011111 0010120111 1110101111 0011010111 0001000211 1000011111 1000010102 1110112111 0011101101 0310100101 01001????? ?????????? ?????????? ???????
+		AlzadaesthetusCHI      1001101000 1111200100 1001110111 1101011110 1000010110 0011100001 0111010111 0000001111 0011111110 1000010103 0101112111 0111101101 0300101100 01011????? ?????????? ?????????? ???????
+		AlzadaesthetusFUR      1001101000 1111200100 1001110111 1101011110 1000010110 0010100001 0011010111 0010001111 0011111110 1011110103 0101112111 0111101222 2300101100 0101102111 0111100111 0111101112 0111011
+		Austroesthetus         1001101000 0111201100 1001110111 1001011110 1100010110 0011100001 0111010111 0000001111 0011111110 1011110103 0101112110 0111101102 2300111110 0101102211 0111100111 0111101112 0111011
+		Chilioesthetus         1001101000 0111201100 1001110111 1001011110 ?100010110 0011100001 0111010111 0000000111 0011111110 1011110103 0101112110 0111101102 2300111110 0101102211 0111100111 0111101112 0111011
+		Mesoaesthetus          1001101000 1111200100 1001110111 1001011110 1100010110 0011100001 0111010111 0000001111 0011111110 1011110103 0101112110 0111101212 1300101000 01011????? ?????????? ?????????? ???????
+		Nothoesthetus          1001101000 0111200100 1001110111 1001011110 0100011110 0011100001 0111010111 1000001111 0011111110 1011110103 0101112110 0111101101 0300101100 0101102111 0111100111 0111101112 0111011
+		Tasmanosthetus         1001101000 1111200100 1001110111 1001011110 0100011110 0011100001 0111010111 1000001211 0011111110 1011110103 0101112110 0111101222 2300101100 01011????? ?????????? ?????????? ???????
+		EuaNZ                  1001101000 1111200100 1001110111 1001011110 0100010110 0011100001 0111010111 0000001111 0011111110 1011110103 0101112110 0111101212 1300101100 01011????? ?????????? ?????????? ???????
+		Edaphus                1000001000 0111200100 1001111111 1001011110 0000011110 0010110001 0011010111 0100111101 0010111110 1011110103 0111112010 0111101101 0200101101 0111102101 1110100101 1111101111 0111011
+		Euaesthetus            1001001000 1111200100 1001111111 1001011110 0000011110 0010100001 0011010111 0100111101 0010111110 1011110103 0101112010 0111101101 0300101101 0111102211 0111100101 1111101112 0111011
+		OctaviusRSA            1001101100 0111200101 1111110111 1001011110 0100011110 0010100001 0011010111 0000111101 0012111010 1111110103 0101102110 1111111000 0100111101 0001102211 0111100101 0111101112 0111011
+		OctaviusPAN            1001101102 0111200101 1111110111 1001011110 0100011110 0010100001 0011010111 0000111101 0012111010 1011110103 0101102110 1111111000 0100111101 0001102211 0111100101 0111101112 0111011
+		ProtopristusNZ         1001201100 0111200100 1011110111 10001111?0 0101011110 0010100101 0111010111 0000001211 0012111010 1111110103 0101102110 1111101000 0100101101 1001102111 0111100101 0111101112 0111011
+		ProtopristusTAS        1001201100 0111200100 1011110111 10001111?0 0101011110 0010100101 0111010111 0000001211 0012111010 1111110103 0101102110 1111101000 0100101100 00011????? ?????????? ?????????? ???????
+		Fenderia               1011101110 1111210100 1001110111 1000011110 0100011110 0011100001 0001010111 0000111101 0012111010 1100010104 1101100010 0111011222 2300101100 0101102111 0111100111 0111101112 0111011
+		Stictocranius          1001101000 1111200100 1001110111 1001011110 0000010110 0011100001 0111010111 0000001111 0010111110 1000010103 0111112110 0111101102 2300101100 01111????? ?????????? ?????????? ???????
+		Agnosthaetus           1011101001 1111200100 1001110111 1101011110 1100010110 0011100001 0111010111 0000001111 0011111110 1000110113 0101112110 0111101222 2300101100 0101102111 0111100111 0111101112 0111011
+		Gerhardia              1011101002 1111200110 0001110111 1001011110 1000010110 0011100001 1211010110 0000001111 0011111110 1000110113 0101112110 0111111212 2300111100 01011????? ?????????? ?????????? ???????
+		Stenaesthetus          1011101002 1111200110 0001110111 1001011110 1000010110 0011100001 1211010110 0000001111 0011111110 1000110113 0101112110 0111111212 2300111100 01011????? ?????????? ?????????? ???????
+		EuaAUS                 1011101002 1111200100 1001110111 1001011110 1100010110 0011100001 0111010110 0000001111 0011111010 1000110113 0101112110 0111101222 2300111100 01011????? ?????????? ?????????? ???????
+		EuaLTAS                ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????????? ?????02211 0111100111 0111101112 0111011
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+
+	[Character comments]
+
+	[Character state comments]
+
+	[Attribute comments]
+
+	[Taxon pictures]
+
+	[Character pictures]
+
+	[Character state pictures]
+
+	[Attribute pictures]
+ENDBLOCK;
+
+
+BEGIN PAUP;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ENDBLOCK;

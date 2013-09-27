@@ -1,0 +1,19 @@
+#NEXUS
+
+[Holmes, R. B., Forster, C., Ryan, M., and Shepherd, K. M. 2001. A new species of Chasmosaurus (Dinosauria: Ceratopsia) from the Dinosaur Park Formation of southern Alberta. Canadian Journal of Earth Sciences pp. 1423-1438.]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=8 NCHAR=30;
+	FORMAT SYMBOLS= " 0 1 2" MISSING=? GAP=N ;
+MATRIX
+Outgroup			00?00 00000 	000?0 ?0000 	00000 0????
+centrosaurines			00?01 001{01}1 	01101 01010 	00000 1010{01}
+Chasmosaurus_irvinensis		11010 1{01}001 	?1101 10100 	01111 11110
+Chasmosaurus_belli		11010 1000{01} 	01101 1010{01} 	11111 11010
+Chasmosaurus_russelli		11010 1000{01} 	01101 10001 	11111 11000
+Chasmosaurus_mariscalensis	11010 10000 	00001 1??01 	?110? 11???
+Pentaceratops_sternbergi	11110 11000 	100{01}1 11001 	11101 11000
+Other_chasmosaurines		10?11 0{01}010 	10011 21000 	00000 11001
+;
+end;
+

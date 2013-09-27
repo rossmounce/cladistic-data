@@ -1,0 +1,21 @@
+#NEXUS
+
+[Turner, S. and Burrow, C. J. 2011. A lower carboniferous xenacanthiform shark from australia. Journal of Vertebrate Paleontology 31:241-257.]
+
+begin data;
+dimensions ntax=11 nchar=19;
+format missing=? gap=- symbols="0123";
+matrix
+Leonodus 0 0 0 0 1 0 0 2 0 0 0 0 0 ? 0 0 0 ? 0
+Antarctilamna 1 1 0 {02} 0 0 1 0 2 {12} 0 0 ? 0 0 0 0 0 0
+Phoebodus 1 3 1 {01} {01} 0 1 0 0 {12} 2 0 0 ? ? ? ? ? 0
+Diplodoselache 2 1 1 {02} 1 0 0 2 2 2 0 0 1 0 1 1 0 1 0
+Hagenoselache 2 2 0 0 1 ? 0 2 1 2 1 1 0 ? ? ? ? ? 1
+Lebachacacanthus 2 1 2 2 1 ? 0 2 ? 2 1 0 ? 0 1 1 0 1 1
+Orthacanthus 2 1 2 2 1 0 0 3 1 2 1 0 0 1 1 2 1 1 ?
+Plicatodus 2 2 0 1 1 0 0 2 1 2 1 1 2 1 2 2 1 1 ?
+Reginaselache 2 1 0 1 1 0 0 1 0 2 0 0 1 ? 1 1 ? 1 ?
+Triodus 2 2 0 0 1 1 0 2 0 2 1 1 2 1 2 2 1 1 1
+Xenacanthus 2 2 1 {02} 1 1 0 2 1 2 {02} 0 0 1 2 2 1 1 ?
+;
+end;

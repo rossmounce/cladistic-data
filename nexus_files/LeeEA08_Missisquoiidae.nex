@@ -1,0 +1,44 @@
+
+#NEXUS
+
+[Palaeogeography, Palaeoclimatology, Palaeoecology 260 (2008) 315-341
+Cambrian-Ordovician trilobite family Missisquoiidae Hupé, 1955:
+Systematic revision and palaeogeographical considerations based
+on cladistic analysis
+Seung-bae Lee, Dong-Chan Lee, Duck K. Choi]
+
+begin data;
+dimensions ntax=26 nchar=42;
+format missing=? symbols="0123456789" gap=-;
+matrix
+
+
+Corynexochus_plumula 0 0 ? 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- -0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 - 0 - 0 0
+Oryctocephalus_nyensis 0 1 1 1 1 0 1 0 1 0 1 0 0 1 0 0 1 1 1 0 2 1 2 0 1 1 0 0 0 1 0 1 1 0 0 0 1 0 1 0 0 0
+Kaolishania_pustulosa 0 2 0 0 2 1 0 1 0 0 0 0 2 0 0 1 1 0 1- -0 0 1 2 0 1 0 2 0 0 0 0 0 0 0 0 0 0 - 0 1
+Phoreotropis_puteatus 0 1 0 0 2 1 1 0 0 0 0 0 1 0 0 0 0 1 0- -1 0 1 0 0 2 1 2 0 ? ? ? ? ? ? ? ? ? ? ? 0
+Hardyia_metion 0 1 0 0 1 1 1 - 0 1 2 0 2 0 0 0 - - - - - 0 0 1 2 0 2 0 2 0 ? ? ? ? ? ? ? ? ? ? ? 0
+Lunacrania_spicata 0 0 0 0 2 0 1 0 0 1 1 0 1 0 0 1 0 1 0 0 0 0 0 1 2 0 2 1 1 2 ? ? ? ? ? ? ? ? ? ? ? 0
+Lucancrania_trisecta 1 1 1 0 2 0 1 - 0 1 2 0 1 0 0 0 - - - - - 1 1 ? 2 0 1 1 2 2 ? ? ? ? ? ? ? ? ? ? ? 0
+Missisquoia_depressa 0 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 0 1 0 0 0 1 1 0 2 0 0 2 1 0 1 0 2 1 1 0 1 2
+Tangshanaspis_zhaogezhuangensis 0 2 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 1 0 1 0 1 0 0 2 1 2 0 2 0 0 0 1 0 1 1 2 0 1 0 0 2
+Missisquoia_mackenziensis 0 2 1 1 1 0 1 1 0 0 0 0 2 0 0 1 1 2 1- -0 0 0 0 1 2 0 2 0 0 0 1 0 1 0 0 - 1 0 0 0
+Missisquoia_sp 0 1 1 2 2 1 1 - 0 1 2 0 1 0 0 1 - - - - - 0 0 1 1 1 2 1 2 1 ? ? ? ? ? ? ? ? ? ? ? 0
+Missisquoia_cyclochila 1 2 1 2 2 0 1 - 0 1 2 0 1 0 0 1 - - - - - 0 0 1 1 0 2 1 2 0 0 0 0 0 0 0 1 1 1 1 0 1
+Missisquoia_inflate 0 0 0 2 1 2 0 0 1 0 0 1 1 1 1 0 1 0 1- -0 2 1 0 0 2 1 2 1 ? ? ? ? ? ? ? ? ? ? ? 0
+Missisquoia_nasuta 1 2 0 0 2 1 1 0 1 1 0 1 0 0 1 0 0 0 0- -0 0 1 1 0 1 1 1 0 ? ? ? ? ? ? ? ? ? ? ? 0
+Missisquoia_typicalis 0 1 0 2 2 1 0 0 1 1 1 0 2 0 0 1 1 1 1 ? 1 0 0 0 1 0 1 1 2 0 2 2 0 1 1 1 2 1 1 1 1 1
+Parakoldinioidia_bigranulosa 1 1 1 0 2 0 1 1 0 1 1 0 2 0 0 1 1 1 2 1 2 0 0 0 1 0 2 0 2 1 2 2 0 0 1 1 0 - 1 0 0 1
+Parakoldinioidia_bigranulosa 1 2 1 0 1 0 1 - 1 1 2 0 2 0 0 1 - - - - - 0 0 ? 1 0 3 ? ? ? 2 2 0 1 1 1 0 - 0 - ? 1
+Parakoldinioidia_perconvexa 1 1 0 1 2 0 1 0 1 1 1 0 2 0 0 1 1 1 1 0 1 0 0 0 0 1 1 0 2 0 0 0 0 1 1 0 1 1 2 0 0 1
+Parakoldinioidia_typicalis 1 2 1 0 1 0 1 0 1 0 1 0 1 0 0 1 1 1 1 0 1 0 0 0 1 1 1 0 ? ? 0 0 0 0 1 1 0 - 0 - 0 2
+Pseudokoldinioidia_funingensis 0 0 ? 0 0 0 1 - 0 0 2 0 0 0 0 0 - - - - - 0 0 1 0 0 2 0 2 0 2 0 0 1 0 0 1 ? 1 0 0 0
+Pseudokoldinioidia_expansa 0 0 1 2 0 0 1 1 0 0 1 0 1 0 0 1 1 1 1 1 1 0 2 0 1 0 1 0 1 0 1 1 0 1 0 0 1 1 1 1 0 0
+Pseudokoldinioidia_perpetis 0 1 1 2 0 0 1 1 0 0 1 0 1 0 0 1 0 1 1 0 1 0 0 0 1 1 1 0 1 0 0 0 0 0 0 1 1 1 1 1 0 1
+Pseudokoldinioidia_hemicycla 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 1 ? 1- -0 0 0 1 1 1 0 2 ? ? ? ? ? ? ? ? ? ? ? ? 1
+Pseudokoldinioidia_taiziheensis 0 0 1 2 0 0 1 1 0 0 1 0 2 0 0 0 1 1 1 ? 1 0 0 0 1 0 1 1 2 ? ? ? ? ? ? ? ? ? ? ? ? 1
+Pseudokoldinioidia_encrinuroides 0 0 1 0 0 0 1 ? 0 0 ? 0 0 ? ? ? ? ? ? ? ? 0 0 0 1 1 2 0 2 0 1 1 0 0 0 1 1 1 1 1 0 2
+Tasmanocephalus_stephensi 0 1 1 1 0 1 0 1 1 0 0 1 1 1 0 1 1 1 2- -1 1 1 1 1 1 0 2 1 0 2 0 0 1 1 0 - 1 0 0 0
+
+;
+end;

@@ -1,0 +1,249 @@
+#NEXUS
+[written Fri Dec 10 13:58:25 CET 2010 by Mesquite  version 2.74 (build 550) at Delon/192.168.1.2]
+
+[De Pietri, V. L., Costeur, L., Güntert, M. & Mayr, G. A revision of the lari (aves, charadriiformes) from the early miocene of Saint-Gérand-Le-Puy (allier, france). Journal of Vertebrate Paleontology 31, 812-828 (2011). URL http://dx.doi.org/10.1080/02724634.2011.586663.]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=12;
+	TAXLABELS
+		Limosa Glareola Stercorarius Laricola Anous_ Larosterna Sterna Rynchops Xema Rhodostetia Larus Rissa 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=41;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2";
+	CHARSTATELABELS 
+		1 'Beak, rostrum maxillar very long, occupying at least one third of the length of the beak:' /  no yes, 2 'Skull, os frontale, paired fossae glandulares nasales meeting at midline of skull' /  no yes, 3 'Skull, os lacrimale very wide' /  not_as_follows very_wide, 4 'Skull, orbita, distinct second opening caudal of foramen nervi maxillomandibularis' /  absent present, 5 'Skull, processus maxillopalatinus forming a deep concave trough' /  yes no, 6 'Skull, maxillopalatine strut A ' /  present absent, 7 'Skull, maxillopalatine process' /  not_as_follows fenestrated, 8 'Skull, processus suprameaticus' /  present absent, 9 'Skull, functional processus basipterygoidei ' /  present absent, 10 'Skull, fossa temporalis well- marked' /  no yes, 11 'Skull, processus laterales parasphenoidales well-developed and ventrally protruding ' /  no yes, 12 'Skull, fonticuli occipitales ' /  absent present, 13 'Mandible, strongly developed processus retroarticulares' /  absent present, 14 'Mandible, well-developed fenestra caudalis ' /  present absent, 15 'Mandible, pars caudalis, fossa caudalis' /  absent present_but_only_moderately_deep 'present and well-marked', 16 Caudal_thoracic_vertebrae_ /  heterocoelous opisthocoelous_, 17 Thoracic_vertebrae_pleurocoelous /  no yes, 18 'Coracoid, foramen nervi supracoracoidei ' /  present absent, 19 'Coracoid, extremitas sternalis strongly curved in distal (sternal) view, with medial portion of facies articularis sternalis greatly dorsoventrally widened' /  no yes, 20 'Furcula, extremitas omalis with subovate facies articularis acrocoracoidea that extends over nearly entire width of scapus claviculae ' /  no yes, 21 'Furcula, facies articularis acrocoracoidea' /  shallow deep, 22 'Sternum, margo caudalis ' /  'with four incisions/fenestrae ' with_two_incisions_, 23 'Sternum, carina sterni ending distinctly before tip of trabecula intermedia' /  no yes, 24 'Humerus, fossa pneumotricipitalis with pneumatic openings' /  yes no, 25 'Humerus, transverse ridge at beginning of incisura capitis ' /  no yes, 26 'Humerus, well-developed second (dorsal) fossa pneumotricipitalis that undercuts caput humeri' /  present absent, 27 'Humerus, impressio coracobrachialis very marked, dorsal margin of intumescentia humeri forming a sharp edge ' /  no yes, 28 'Humerus, crista deltopectoralis, caudal surface ' /  concave convex, 29 'Humerus, fossa musculi brachialis' /  shallow deep, 30 'Humerus, well marked tuberculum ventral to the tuberculum supracondylare dorsale, right next to the fossa m. brachialis' /  yes no, 31 'Os carpi ulnare, osseous bridge across caudal end of tendinal furrow of crus longum ' /  absent present, 32 'Os carpi ulnare, marked tubercle at area of insertion of ligamentum humerocarpale ' /  no yes, 33 Phalanx_proximalis_digiti_majoris_bifenestrated_ /  no yes, 34 'Pelvis, recessus caudalis fossae ' /  absent present, 35 'Femur, distal end, tuberculum musculi gastrocnemialis lateralis very marked' /  no yes, 36 'Femur, distal end, crista supracondylaris medialis with distinct caudally projecting tubercle just proximal of condylus medialis ' /  no yes, 37 Femur_considerably_longer_than_tarsometatarsus /  no yes, 38 'Tarsometatarsus, hypotarsus, tendon of musculus flexor digitorum longus enclosed in bony canal ' /  no yes, 39 Three_anterior_feet_fully_webbed /  no yes, 40 Claw_of_second_toe_strongly_curved /  no yes, 41 Young /  'precocial or semi-precocial ' altricial ; 
+	MATRIX
+	Limosa        0001110000011000110000011001010100000(0 1)000
+	Glareola      00000010111001001010000101000100100000000
+	Stercorarius  01000001100001010010011001100011111000111
+	Laricola      100001001110?11110110??1011010??111000???
+	Anous_        100(0 1)010011100111101110000110001?111001100
+	Larosterna    10101110111001211011100100101111101010101
+	Sterna        1010111011100021101110010010111110111(0 1)101
+	Rynchops      10101110111000111011100000101110101100101
+	Xema          01001000111000111011100100101111111000101
+	Rhodostetia   01001000111000111011100100101111111000101
+	Larus         01001(0 1)00111000111011100100101111111000101
+	Rissa         01001000111000111011100100101111111000101
+
+;
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  41;
+
+END;
+
+BEGIN NOTES;
+
+	CODESET * UNTITLED =  universal :  1 -  55;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  41;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1291985906156;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 4901568787323955464;
+			tell It;
+				setDefaultOrder  0 3 6 7 8 13 9 10 4 2 11 12;
+				attachments ;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 4754690903142161083;
+			tell It;
+				setDefaultOrder  55 47 56 4 64 7 60 5 8 10 11 12 14 15 40 17 18 20 22 23 66 24 25 26 28 29 30 31 68 58 33 34 35 38 36 37 42 39 53 54 62;
+				attachments ;
+			endTell;
+			mqVersion 274;
+			checksumv 0 2 2400472099 null  getNumChars 41 numChars 41 getNumTaxa 12 numTaxa 12   short true   bits 7   states 7   sumSquaresStatesOnly 1265.0 sumSquares 1265.0   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1280 652;
+			setLocation -4 0;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #4901568787323955464 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #4901568787323955464;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1180 585;
+					setLocation -4 0;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #4754690903142161083 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1180 585;
+					setLocation -4 0;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Orange;
+					removeColor off;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						getTable;
+						tell It;
+							rowNamesWidth 234;
+						endTell;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 1180 585;
+						setLocation -4 0;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

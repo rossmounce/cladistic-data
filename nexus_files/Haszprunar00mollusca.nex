@@ -1,0 +1,118 @@
+#NEXUS 
+[!Haszprunar, G. 2000. Is the Aplacophora monophyletic? A cladistic point of view]
+
+BEGIN DATA;
+   DIMENSIONS NTAX=11 NCHAR=58;
+   FORMAT MISSING=? SYMBOLS="0~4";
+   CHARLABELS [1] cuticle [0 = absent, 1 = present] 
+[2] Cuticle_type [0 = chitinous, 1 = collagenous, x = cuticle absent]
+[3] Aculiferan [0 = absent, 1 = present] 
+[4] Shell [0 = absent, 1 = shell plates, 2 = shell by shell gland] 
+[5] Periostracum [0 = absent, 1 = present] 
+[6] Periostracal_groove [0 = absent, 1 = present, x = no periostracum]
+[7] Mantle_papillae [0 = absent, 1 = present] 
+[8] Mantle_cavity [0 = absent, 1 = present] 
+[9] Mantle_cavity_pos [0 = circumpedal, 1 = posterior, x = no mantle cavity]
+[10] Ctenidia [0 = absent, 1 = present] 
+[11] Ctenid_number [0 = 1 pair,1 = 2, 2 = 3 to 6, 3 = > 6, x = no ctenidia]
+[12] Musculature [0 = ring/diagonal/longitudinal, 1 = otherwise]
+[13] Longit_muscles [0 = smooth, 1 = striated, x = no longitudinal muscles]
+[14] IDVM [0 = absent, 1 = present] 
+[15] IDVM_number [0 = many, 1 = eight, 2 = less than eight, 3 = less than three, x = no IDVM]
+[16] Muscle_hydrostat [0 = absent, 1 = present] 
+[17] Head_retractor [0 = absent, 1 = present]
+[18] Pedal_digging [0 = absent, 1 = present]
+[19] Pedal_gland [0 = absent, 1 = present] 
+[20] Pedal_cirri [0 = absent, 1 = present, x = no gliding sole]
+[21] Coelomatic_broad [0 = absent, 1 = present] 
+[22] Eucoelomatic [0 = absent, 1 = present, x = no coelomatic cavity] 
+[23] Heart_pericardium [0 = absent, 1 = present] 
+[24] Circulatory [0 = pseudovessels, 1 = endothelial, 2 = sinusial]
+[25] Pericardioduct [0 = absent, 1 = present, x = pericardium]
+[26] Coelomoduct_genesis [0 = ingrowth, 1 = outgrowth, x = no coelomoduct]
+[27] Coelomoduct_number [0 = one, 1 = two, 2 = more than two, x = no coelomoduct]
+[28] Podocytes [0 = absent, 1 = present] 
+[29] Cyrto_solenocysts [0 = absent, 1 = present]
+[30] Rhogocytes [0 = absent, 1 = present] 
+[31] Gonad_number [0 = single, 1 = 1 pair, 2 = 2 pairs, 3 = > 2 pairs] 
+[32] Gonad_position [0 = dorsal of gut; 1 = ventral of gut; ? = not clear]
+[33] Urinogenital [0 = absent, 1 = present]
+[34] Gametes_pericardium [0 = absent, 1 = present]
+[35] molluscan_cross [0 = absent, 1 = present]
+[36] Jaws [0 = absent, 1 = present]
+[37] Radula [0 = absent, 1 = present]
+[38] Radular_membrane [0 = absent, 1 = present, x = radula lacking]
+[39] Rasping_tongue [0 = absent, 1 = present, x = radula lacking]
+[40] Buccal_cartilage [0 = absent, 1 = present, x = no radula]
+[41] Oesoph_pouches [0 = absent, 1 = present]
+[42] Midgut_glandular [0 = no, 1 = yes]
+[43] Midgut_subdivided [0 = no, 1 = yes]
+[44] Midgut_gland [0 = absent, 1 = present]
+[45] Crystalline_style [0 = absent, 1 = present]
+[46] Intestinal_loops [0 = absent, 1 = longitudinal, 2 = unidirectional, 3 = bidirectional]
+[47] Anal_pos [0 = strait gut, 1 = dorsal anus, 2 = ventral anopedal flexure]
+[48] Tetraneury [0 = absent, 1 = present]
+[49] Precerebral_ggl [0 = absent, 1 = present]
+[50] Pedal_ganglia [0 = absent, 1 = present, x = no pedal nervous system]
+[51] Viscloop_IDVM [0 = between, 1 = outside, 2 = inside, x = no DVM]
+[52] Visc_commissure [0 = suprarectal, 1 = subrectal, x = hoology unclear]
+[53] Innerv_shell_margin. [0 = also visceral, 1 = only cerebropleural, x = no shell-plate]
+[54] Cerebral_eyes [0 = absent, 1 = present]
+[55] Statocysts [0 = absent, 1 = present]
+[56] Osphradia [0 = absent, 1 = present]
+[57] Osphradia_position [0 = pallial, 1 = extrapallial, x = no osphradium]
+[58] Subradular_SO [0 = absent, 1 = present]
+
+
+;
+    
+[   OPTION
+   ZAP = "40";]
+[  ZAP = "1 3 4 9 10 12 15 17 18 19 21 26 29 30 31 38 39 40";]
+[  ZAP = "5 7 20 24 25 27 33 34 35 36";]
+
+
+
+
+
+
+
+
+   MATRIX
+[                         1                         2                   3                    4                  5
+character number12345 67890  1  23  4  5  6  7  8  90 12345 6  7  8  9  0  1  2  3  4  5 67890 1234  5  678  9  0 12345 678
+]                                                                     
+                                                                      
+Annelida        11000 ?00?0  ?  01  0  ?  0  0  0  00 1100? 0  2  1{0,1}0  4  ?  0  ?  0 10??? 000?  0  000  0  0 ???10 0?0
+Sipuncula       11000 ?00?0  ?  01  0  ?  0  ?  0  00 1100? 0  0  1  0  0  2  ?  0  ?  1 00??? 000?  0  110  0  0 ???10 0?0
+Kamptozoa       10000 ?00?0  ?  1?  0  ?  0  ?  0  01 0001? ?  ?  0  1  0  2  0  1  ?  0 00??? 010?  0  01?  0  ? ???10 0?0
+Solenogastres   10100 ?1110  ?  00  1  0  0  0  0  11 10111 ?  0  1  ?  1  2  0  0{0,1}1 01000 010?  0  001{0,1}0 00?00 110
+Caudofoveata    10100 ?1111  0  00{0,1}0  0  0  0  00 10111 ?  0  1  ?  1  2  0  0  1  ? 01100 0110{0,1}001  1  0 00?00 110
+Polyplacophora  10111 01101  3  1?  1  1  0  0  0  10 10111 1  0  1  1  1  2  0  1  0  1 01111 1111  0  301  0  0 10000 101
+Tryblidiida     0?021 10101  2  1?  1  1  0  0  0  00 10110 ?  2  1  ?  1{2,3}1  0  0  ? 11111 1111  1  201  0  0 11001 0?1
+Bivalvia        0?021 10101  0  1?  1  2  0  0  1  00 10111 1  0  1  1  1  2  0  0  0  1 00??? 1111  1  301  0  1 11001 100
+Scaphopoda      0?021 10100  ?  1?  1  3{0,1}0{0,1}00 10011 ?  0  1  1  1  1  0  0  0  1 11111 1111  0  321  0  1 11001 0?1
+Gastropoda      0?021 10111  0  1?  1  3  1  1  0  10 10111 1  0  1  1  1  0{0,1}0  0  1 11111 1111{0,1}321  0  0 21111 101
+Cephalopoda     0?021 10111{0,1}1?  ?  3  1  1  0  00 10121 1{0,1}1  0  1{1,2,3}0  1  0  0 11111 0111  0  321  0  1 21111 101
+      ;
+END;
+
+
+BEGIN PAUP;
+[character number   12345 67890 12345 67  8  90 12345 67890 12345 67890
+type                      U     UU U   U  U  U   UU         U         
+Weight "l/m/h"      lhllm hmhll hlhhl hl  l  lm lhhmm lmhll lhmmm mhlll 
+]
+[  CHARTYPE UNORD: 6 11 12 14 17 18 19 22 23 31;]
+[  CHARTYPE ORD: 15;]
+[  CHARTYPE IRREV: 3 12 13 14 18 19 21 23 33 34 37 52 59;]
+[  CHARTYPE DOLLO: 9 17 40 41 51 53;]
+[  WEIGHTS 2: 5 7 20 24 25 27 33 34 35 36;]
+[  WEIGHTS 3: 2 6 8 11 13 14 16 22 23 28 32 37;]
+   OUTGROUP Annelida Sipuncula Kamptozoa;
+   SET ROOT=OUTGROUP;
+   SET COMPRESS;
+   SET MAXTREE=100;
+END;
+
+

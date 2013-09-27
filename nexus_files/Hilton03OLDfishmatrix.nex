@@ -1,0 +1,85 @@
+#NEXUS
+
+[!Hilton, E. J. 2003. Comparative osteology and phylogenetic systematics of fossil and living bony-tongue fishes (actinopterygii, teleostei, osteoglossomorpha). Zoological Journal of the Linnean Society pp. 1-100.]
+
+
+
+begin data;
+
+dimensions ntax=20 nchar=72;
+
+format missing=? gap=- interleave=yes symbols="012345";
+
+matrix
+
+Elops 00000 00110 00000 00000 00000 
+Lycoptera ??001 1021? 00??? ????? 0??00 
+Eohiodon 20001 11210 10??0 0???1 01000 
+Hiodon 20001 11210 ?0000 00001 01000 
+Joffrichthys ??00? 23211 ?0??? ????1 0??01 
+Heterotis 52201 23001 10101 00001 01101 
+Arapaima 32001 23201 10101 01011 01101 
+Phareodus ?2210 23?00 10010 ????1 01001 
+Pantodon 22101 13200 10111 01001 10001 
+Singida ???0? ???0? ?0??? ????1 11?01 
+Scleropages 32100 23301 11100 00101 01001 
+Osteoglossum 32100 23301 11100 00101 01001 
+Ostariostoma 2?000 --??0 1???? ????1 0--10 
+Petrocephalus 10000 02200 10001 12111 11010 
+Gnathonemus 10001 02200 10101 13111 11010 
+Campylomormyrus 10000 02200 10101 12111 11010 
+Chitala 11200 22111 10010 01011 11010 
+Xenomystus 41100 22211 10010 01011 11010 
+Papyrocranus 41100 22211 10110 01011 11010 
+Palaeonotopterus 1000? ??2?0 100?0 0110? 1???? 
+
+Elops 00100 00000 00000 00000 00000 
+Lycoptera ????? ?000? 000?? 0??1? ?---? 
+Eohiodon 1?200 ?0010 11001 0001? ?010? 
+Hiodon 11200 10010 11001 00010 00100 
+Joffrichthys 0???? ?2000 ?00?1 0???? ?---? 
+Heterotis 00111 00001 11011 02002 11--1 
+Arapaima 00111 10001 10011 02002 01--2 
+Phareodus 00?1? ?2101 10001 0210? ????? 
+Pantodon 00001 10102 10101 01002 00011 
+Singida 0???? ?2101 ?--?1 0???? ????? 
+Scleropages 00011 ?2101 11001 01102 10011 
+Osteoglossum 00011 12101 11001 01102 10011 
+Ostariostoma 0???? ?30?0 ?1??1 01??? ????? 
+Petrocephalus 22002 10000 11111 13-02 10002 
+Gnathonemus 22002 10000 11111 13-12 11--2 
+Campylomormyrus 22002 10000 11111 13-12 11--2 
+Chitala 03001 12002 10001 11101 10101 
+Xenomystus 23001 12002 10001 11101 10101 
+Papyrocranus 23001 12002 10001 11101 10101 
+Palaeonotopterus ?0??? ????? ????? ????? ?????
+
+Elops 00000 20000 00000 00010 00 
+Lycoptera ????0 010?? 0?001 0?100 00 
+Eohiodon 0???0 01000 0?001 001?0 00 
+Hiodon 00000 01000 01001 001?? 00 
+Joffrichthys ????0 0???? 0??02 -1-01 10 
+Heterotis 11000 10101 00002 11200 12 
+Arapaima 11000 00110 00002 11200 12 
+Phareodus ????0 00??1 1?002 -2-0? 12 
+Pantodon 101-0 01001 10102 11200 11 
+Singida ????0 000?1 1?102 11?00 1? 
+Scleropages 10000 00101 10102 11200 12 
+Osteoglossum 10000 00101 10102 11200 12 
+Ostariostoma ????0 011?? 0?001 101-0 1? 
+Petrocephalus 10010 0-011 00001 10200 11 
+Gnathonemus 20010 0-011 00001 10200 11 
+Campylomormyrus 20010 0-011 00001 10200 11 
+Chitala 101-1 00101 00012 21200 10 
+Xenomystus 101-1 00101 00012 21200 10 
+Papyrocranus 10001 00101 00-12 2120? 10 
+Palaeonotopterus ????? ???1? ????? ????? ??
+;
+
+end;
+begin sets;
+taxset fossil = Lycoptera Eohiodon Joffrichthys Phareodus Singida Ostariostoma Palaeonotopterus;
+taxset extant = Elops Hiodon Heterotis Arapaima Pantodon Scleropages Osteoglossum Petrocephalus Gnathonemus Campylomormyrus Chitala Xenomystus Papyrocranus;
+end;
+
+

@@ -1,0 +1,27 @@
+#NEXUS
+
+[Grebennikov, V. V. First alaocybites weevil (insecta: Coleoptera: Curculionoidea) from the eastern palaearctic: a new microphthalmic species and generic relationships. Arthropod Systematics & Phylogeny 68, 331-365 (2010).]
+
+begin data;
+dimensions ntax=16 nchar=23;
+format missing=? gap=- symbols="012345678";
+MATRIX
+Arrhenodes_minutus 00-300-??0 1210000011 010
+Alaocybites_egorovi 1111117300 0110011000 101
+Alaocybites_californicus 1110117300 0110011000 101
+Raymondionymus_orientalis 01000262?0 0111110001 010
+Gilbertiola_helferi 1000115??1 1112220001 010
+Neoubychia_mexicana 11011173?1 1202221000 110
+Schizomicrus_caecus 01000273?1 0112221001 000
+Myrtonymus_zelandicus 1100007??0 0000000001 010
+Himasthlophallus_flagellifer 1102017??1 0110001011 010
+Barretonus_minor 1000007??0 1110000110 100
+Torneuma_deplanatum 11010273?1 2210000110 100
+Otibazo_sp. 0102117??0 1210020110 110
+Caecossonus_dentipes 1010208??0 1210000110 100
+Lymantes_scrobicollis 1110206??0 1110001110 100
+Reyesiella_caecus 11010153?1 0110001000 100
+Sosgenes_carinatus 1111017??1 1210001000 100
+;
+end;
+

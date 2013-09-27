@@ -1,0 +1,44 @@
+#NEXUS 	
+
+
+[Turvey, S. 2002. Phylogeny of the Reedocalymeninae (Trilobita): implications for the Early Ordovician biogeography of Gondwana. In: Crame, J. A. and Owens, A. W. (eds). 2002. Palaeobiogeography and Biodiversity Change: the Ordovician and Mesozoic-Cenozoic Radiations. Geological Society, London, Special Publications, 194, 53-68.]
+
+
+BEGIN DATA;								
+DIMENSIONS  NTAX=32 NCHAR=25;								
+FORMAT MISSING=? GAP=-  SYMBOLS= " 0 1 2 3 A B";								
+MATRIX		
+Bavarilla_hofensis 		1010210000010011000010000 
+Calymenella_preboisseli 	21100000010001001B0010010
+Calymenesun_granulosa 		2100111100110201110022100
+Neseuretinus_turcicus 		1110111110100211220001010
+Neseuretus_arenosus 		1010??0000000100110000010
+N_attenuatus 			1010000000001100?????????
+N_avus  			A0100010100112001B0000010 
+N_chaschuilensis 		1010???00001??001001001?0
+N_caerhunensis 			211000000001010012?1?1010
+N_concavus 			01100000000012101B0000110 
+N_elegans 			1010001000000100110000010
+N_henkei 			0110001000010200110000010
+N_intermedius 			0A11??1110100200210000110 
+N_leonensis 			10110?0000010200?0??00??0
+N_lipanensis 			0111001000010200110000110
+N_monensis 			2110000000010100110?00000
+N_murchisoni 			1A10000000010B00100?00010 
+N_parvifrons 			111000A0000102001A1100010 
+N_planus 			0011??1110100200200000010 
+N_ramseyensis 		101000000A010100121001001 
+N_sanlucasensis 			001???1010010200210?00010 
+N_sexangulus 			1011?000000002001????????
+N_shensiensis 			0010000000000200110010100
+N_tristani 			1010001000011200110000010 
+N_turveyi 			1010001000000200110000010 
+N_vaningeni 			1011000000010200101000110
+Pharostomina_oepiki 		1010210010000010200?10000
+Pradoella_pradoi 		10110000010102001B0010010
+Protocalymene_mcallisteri 	2000110100000010200000010
+Reedocalymene_expansa 		2010111000000201110000110
+Sarrabesia_teichmuelleri 	0010112110000200120021001
+Vietnamia_douvillei 		0110??2110010200120021001
+;
+end;

@@ -1,0 +1,19 @@
+#NEXUS
+
+[!Sinclair, B. J. and kirk Spriggs, A. H. 2010. <i>alavesia</i> waters and arillo&#x2013;a cretaceous-era genus discovered extant on the brandberg massif, namibia (diptera: Atelestidae). Systematic Entomology 35:268-276.]
+
+begin data;
+  dimensions ntax=9 nchar=31;
+  format datatype=standard symbols="012" gap=-;
+  matrix
+Acarteroptera_recta	0111111111000102111001111121100
+Alavesia_spp.		1110100111001100001000110011110
+Atelestus_pulicarius	010111011101-102110100110021110
+Meghyperus_occidens	0110111111000012111001111121101
+Meghyperus_sudeticus	0101111111000012111001111121101
+Nemedina_zaitsevi	010010011111-10200001-110001000
+Acarterus_unicolor	0100000111000102002000000000000
+Iteaphila_macquarti	0000100000000001000000000000000
+Empidadelpha_propria	0000000210000001000000000000000
+;
+end;

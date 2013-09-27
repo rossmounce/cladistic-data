@@ -1,0 +1,27 @@
+#NEXUS
+
+[A possible egg of the dromaeosaur Deinonychus antirrhopus: phylogenetic and biological implications 
+Grellet-Tinner, Gerald and Makovicky, Peter
+Canadian Journal of Earth Sciences/Revue Canadienne des Sciences de la Terre. Vol. 43, no. 6, pp. 705-719. June 2006]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=14 NCHAR=19;
+	FORMAT SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+MATRIX 
+Alligator			0 ? 00 0 00 00 0 ----- ---0
+Gallus_gallus			22020 32021 02010 00 00
+Titanosauridae			0200 0 0010 - -0--- - 0 0 {01}
+Deinonychus_antirrhopus		{12} ? ? ? ? ? ?110 - 00 - 1 1100
+Citipati_osmolskae		1011 1 211 10 - 00 - 0 100 0
+Troodon_formosus		21120 12011 - 20 - 1 0010
+Macroelongatoolithus_xixiaensis	11 11 1 2 ? 1 1 {01} - 10 - 1 11 11
+Ornithothoracine		21 ? ? ? ? ? 021 1210 ? ????
+Phu_Phok_eggs			21 ? ? ? ? ? 121 1210 ? ????
+Lithornis_vulturinus		2???0 ? ? 020 02010 00 ? ?
+Byronosaurus_jaffei		21 ? 20 12011 - 20 - 1 0010
+Lithornis_celetius		2???0 ? ? 020 02010 00 ? ?
+Rhea_americana			22020 32020 02010 00 00
+Hadrosaurid			0200 0 0010 - -0--- - 00 0
+;
+end;
+

@@ -1,0 +1,19 @@
+#NEXUS
+[!Alvarado-Ortega, J. and Espinosa-Arrubarrena, L. 2008. A new genus of ionoscopiform fish (halecomorphi) from the lower cretaceous (albian) lithographic limestones of the tlayÚa quarry, puebla, mexico. Journal of Paleontology 82:163–175.]
+BEGIN DATA;
+DIMENSIONS NTAX=7 NCHAR=23;
+FORMAT SYMBOLS= "0123" MISSING=? GAP=- ;
+MATRIX
+Watsonulus	10 00 00 00 01 00 00 00 00 00 000 
+Ionoscopus	01 00 12 20 01 10 02 10 01 00 111
+Quetzalichtys	01 00 12 30 01 ?0 02 11 11 00 ?1?
+Oshunia		01 ?? 12 30 ?1 1? 02 11 21 00 020
+Ophiopsis	?1 11 11 11 11 11 11 0- ?0 00 00?
+Macrepistius	?1 11 11 1? 10 11 11 0- 20 11 03?
+Teoichtys	0? 11 11 1? 11 ?1 11 0- 30 10 ?3?
+;
+END;
+BEGIN ASSUMPTIONS;
+       OPTIONS DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

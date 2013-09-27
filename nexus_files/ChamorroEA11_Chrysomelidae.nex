@@ -1,0 +1,24 @@
+#NEXUS
+
+[Chamorro, M. & Konstantinov, A. Cachiporrini, a remarkable new tribe of lamprosomatinae (coleoptera, chrysomelidae) from south america. ZooKeys 78 (2011). URL http://dx.doi.org/10.3897/zookeys.78.980.]
+
+Begin data;
+	Dimensions ntax=13 nchar=26;
+	Format datatype=standard symbols="01234" missing=? gap=-;
+	Matrix
+Cachiporra_extremaglobosa	1001101111 0101010110 121011
+Pseudolychnophaes_africanus	11?0010121 110111??11 12????
+Neochlamys_strigicollis	11?0010121 1101111011 120100
+Sphaerocharis_marginicollis	0100010121 2100101011 11????
+Xenoomorphus_gingindhlovuanus	2110011000 2100111011 000120
+Oomorphus_concolor	2110011000 210111??11 000201
+Asisia_vietnamica	2110011010 2101111011 00????
+Oomorphoides_yoasanicum	2110001010 2101121011 000200
+Lychnophaes_globosus	2110002010 2100111011 000200
+Dorisina_pusilla	2111002000 2100111011 000300
+Lamprosoma_chorisiae	2111002010 2100121011 000100
+Melittochlamys_semen	3121013221 3001130002 120420
+Exema_conspersa	3122010221 3011130002 120420
+;
+end;
+

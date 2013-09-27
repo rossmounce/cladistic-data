@@ -1,0 +1,34 @@
+#NEXUS
+
+[Milner, A.C., Milner, A.R and Walsh, S.A. 2009. A new specimen of
+Baphetes
+from N
+¥®
+any, Czech Republic and the intrinsic relationships of the Baphetidae.
+—
+Acta Zoologica
+(Stockholm)
+90
+(Suppl. 1): 318–334]
+
+begin data;
+dimensions ntax=13 nchar=24;
+format missing=? symbols="0123456789" gap=-;
+matrix
+
+Acanthostega 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 1 0 0
+Crassigyrinus 2 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1 1 0 0 0 0 2 0 1
+Baphetes_kirkbyi 1 1 2 1 0 0 2 1 0 1 0 0 0 2 1 1 0 1 0 2 0 1 1 ?
+Baphetes_orientalis 1 1 2 1 0 0 2 1 1 ? 0 0 1 2 1 1 1 2 ? ? ? ? 1 ?
+Baphetes_orientalis_juv ? 1 2 1 1 0 2 1 1 0 0 0 1 2 0 0 1 2 1 ? ? 1 1 0
+Eucritta_melanolimnetes ? 0 1 0 0 0 0 0 0 ? 0 0 0 2 0 0 1 2 0 ? ? ? 0 0
+Kyrinion_martilli 1 2 2 2 1 1 0 0 0 1 1 ? 0 ? ? ? ? 2 0 ? ? ? 1 1
+Loxomma_acutirhinus 1 1 2 1 0 0 1 0 0 ? 1 0 0 2 2 1 2 0 0 2 0 0 1 ?
+Loxomma_allmanni ? ? 2 1 ? ? 2 1 0 ? 1 0 ? 2 2 0 1 ? 0 ? ? ? ? ?
+Loxomma_lintonensis ? 1 2 1? 0 2 1 0 0 1 ? 0 2 0 0 0 0 0? 1? 1 0
+Megalocephalus_lineolatus 1 2 2 2 ? ? ? ? ? 0 1 1 ? 1 2 ? ? ? 1 ? ? ? ? 0
+Megalocephalus_pachycephalus 2 2 2 2 1 1 2 0 0 0 0 1 1 2 2 1 1 0 0 1 1 0 1 1
+Spathicephalus_mirus ? 2 2 1 0 0 0 0 0 0 0 1 1 1 1 1 2 1 0 2 ? 2 1 0
+
+;
+end;

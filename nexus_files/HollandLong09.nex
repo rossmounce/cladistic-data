@@ -1,0 +1,506 @@
+#NEXUS
+
+[!Holland, T. and Long, J. A. 2009. On the phylogenetic position of gogonasus andrewsae , within the tetrapodomorpha. Acta Zoologica]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=12;
+	TAXLABELS
+		Onychodus
+		Glyptolepis
+		Barameda
+		Marsdenichthys
+		Eusthenopteron
+		Medoevia
+		Megalichthys
+		Gogonasus
+		Panderichthys
+		Tiktaalik
+		Acanthostega
+		Ichthyostega
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=103;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Cosmine:'
+		[2] 'Lacrimal bone and posterior naris'
+		[3] 'Dermal intracranial joint:'
+		[4] 'Hyomandibular orientation'
+		[5] 'Parasymphysial plate: '
+		[6] 'Mesial parasymphysial foramen:'
+		[7] 'Anterior end of prearticular:'
+		[8] 'Prearticular and angular:'
+		[9] 'Mesial lamina of splenial:'
+		[10] 'Prearticular:'
+		[11] 'Number of coronoids:'
+		[12] 'Meckelian exposure in precoronoid fossa:'
+		[13] 'Coronoid proportions:'
+		[14] 'Accessory tooth row on dentary:'
+		[15] 'Dentary fang pair:'
+		[16] 'Number of fang pairs on posterior coronoid:'
+		[17] 'Suture between anterior coronoid and splenial:'
+		[18] 'Coronoid fangs mesial to marginal tooth row:'
+		[19] 'Palatal fangs mesial to marginal tooth row:'
+		[20] 'Coronoid fangs larger than marginal teeth:'
+		[21] 'Tooth infolding:'
+		[22] 'Number of fang pairs on ectopterygoid:'
+		[23] 'Proportions of entopterygoid:'
+		[24] 'Entopterygoids meeting in midline:'
+		[25] 'Posterior process of vomer:'
+		[26] 'Vomers:'
+		[27] 'Relationship of vomer to parasphenoid:'
+		[28] 'Internasal pits:'
+		[29] 'Posterior end of parasphenoid:'
+		[30] 'Choana:'
+		[31] 'Width of ethmoid relative to length from snout tip to posterior margin of parietals:'
+		[32] 'Endoskeletal intracranial joint:'
+		[33] 'Basipterygoid process'
+		[34] 'Basicranial fenestra:'
+		[35] 'Extent of crista parotica:'
+		[36] 'Pineal foramen:'
+		[37] 'Proportions of postparietal shield:'
+		[38] 'Postparietals narrow to a point posteriorly:'
+		[39] 'Posterior margin of tabulars:'
+		[40] 'Median postrostral:'
+		[41] 'Number of nasals:'
+		[42] 'Frontals:'
+		[43] 'Shape of spiracular chamber'
+		[44] 'Extratemporal:'
+		[45] 'Contact between the extratemporal and supratemporal:'
+		[46] 'Posterodorsal process of maxilla:'
+		[47] 'Jugal - quadratojugal contact:'
+		[48] 'radius and ulna facets'
+		[49] 'Position of orbits:'
+		[50] 'Extrascapular overlap:'
+		[51] 'Anterior margin of median extrascapular:'
+		[52] 'Dermal ornament'
+		[53] 'Intertemporal bones:'
+		[54] 'Spiracular notch:'
+		[55] 'Proportion of skull roof (measured as length from tip of snout to posterior margin of postparietals) lying anterior to middle of orbits:'
+		[56] 'Relative size of prefrontal and postfrontal:'
+		[57] 'Postfrontals extend anterior of orbits:'
+		[58] 'Extrascapular bones:'
+		[59] 'Jugal extends anterior to middle of orbit:'
+		[60] 'Lacrimal excluded from orbit:'
+		[61] 'Short ventral process on entepicondyle'
+		[62] 'Opercular:'
+		[63] 'Submandibulars and Gulars:'
+		[64] 'Preopercular:'
+		[65] 'Large median gular:'
+		[66] 'Sublingual rod'
+		[67] 'Clavicle ascending process'
+		[68] 'Interclavicle:'
+		[69] 'Supraclaithrum and postemporal'
+		[70] 'Anocleithrum:'
+		[71] 'Orientation of cleithrum:'
+		[72] 'Cleithral ornamentation'
+		[73] 'Contact margin for clavicle on cleithrum:'
+		[74] 'Attachment of scapulocorocoid to cleithrum:'
+		[75] 'Glenoid position:'
+		[76] 'Glenoid orientation:'
+		[77] 'Coracoid plate:'
+		[78] 'Subscapular fossa: '
+		[79] 'Body of humerus:'
+		[80] 'Caput humeri:'
+		[81] 'Radial facet:'
+		[82] 'Entepicondyle size'
+		[83] 'Anterior termination of ventral ridge:'
+		[84] 'Ectepicondylar process:'
+		[85] 'Area proximal to radial facet:'
+		[86] 'Articulations for more than two radials on the ulnare:'
+		[87] 'Postaxial process on ulnare:'
+		[88] 'Ventral ridge orientation:'
+		[89] 'Radials:'
+		[90] 'Radius shape'
+		[91] 'Radial length:'
+		[92] 'Termination of radius'
+		[93] 'Transverse joint at the level of the ulnare, intermedium and radius:'
+		[94] 'Intermedium shape'
+		[95] 'Dorsal and anal fins:'
+		[96] 'Caudal fin:'
+		[97] 'Scale morphology:'
+		[98] 'Basal scutes:'
+		[99] 'Lepidotrichia on paired fins'
+		[100] 'Imbricate ribs:'
+		[101] 'Expanded ribs:'
+		[102] 'Shape of mesomere A4'
+		[103] 'Shape of mesomere A5'
+		;
+	STATELABELS
+		1
+			present
+			absent,
+		2
+			'lacrimal  always participates in  posterior border to posterior naris'
+			'lacrimal does not usually participate in narial opening',
+		3
+			present
+			absent,
+		4
+			'posteroventral, distally terminating near jaw joint'
+			'almost horizontal orientation, opercular process high up dorsally'
+			'very short, laterally directed',
+		5
+			'long, not sutured to coronoid, denticulate or with tooth row'
+			'short, sutured to coronoid, denticulated'
+			'compressed, unsutured, carrying tooth whorl',
+		6
+			'absent '
+			'present ',
+		7
+			'not forked'
+			forked,
+		8
+			'separated by ventral exposure of Meckelian bone'
+			'in contact',
+		9
+			' absent'
+			'present ',
+		10
+			'rear part with conspicuous horizontal ledge'
+			'rear part flat',
+		11
+			'more than three'
+			three,
+		12
+			'present '
+			absent,
+		13
+			'posterior coronoid same length as middle coronoid, or shorter'
+			'posterior coronoid significantly longer than middle coronoid',
+		14
+			present
+			'absent ',
+		15
+			absent
+			present,
+		16
+			one
+			two
+			none,
+		17
+			'absent '
+			'present ',
+		18
+			'yes '
+			'no ',
+		19
+			yes
+			no,
+		20
+			'yes '
+			'no ',
+		21
+			none
+			'generalized polyplocodont'
+			labyrinthodont
+			dendrodont,
+		22
+			one
+			two
+			none,
+		23
+			'anterior end level with processus ascendens '
+			'anterior end considerably anterior to processus ascendens ',
+		24
+			'no '
+			'yes ',
+		25
+			'absent '
+			'short '
+			long,
+		26
+			'vomers separated '
+			'vomers in close contact',
+		27
+			'no contact, or simple abutment '
+			'overlap or sutured with vomer',
+		28
+			'undifferentiated '
+			'deep pear - shaped pits',
+		29
+			'denticulate field extends into spiracular groove '
+			'denticulate field does not extend into spiracular groove  ',
+		30
+			'absent '
+			'present ',
+		31
+			'more than 80% '
+			'70% - 80% '
+			'50% - 70%'
+			'less than 40%',
+		32
+			'absent '
+			'present ',
+		33
+			'small knob-like process'
+			'developed as broad platform',
+		34
+			absent
+			present,
+		35
+			'does not reach posterior margin of tabular '
+			'reaches posterior margin of tabular ',
+		36
+			present
+			absent,
+		37
+			'wide posteriorly '
+			'narrow posteriorly '
+			'fused as part of skull table',
+		38
+			'no '
+			'yes ',
+		39
+			'anterior to posterior margin of postparietals '
+			'level with posterior margin of postparietals ',
+		40
+			'absent (postrostral mosaic) '
+			'present '
+			'absent (nasals meet in midline)',
+		41
+			'many '
+			'one or two ',
+		42
+			'absent '
+			'present ',
+		43
+			'Very large, steeply inclined anteriorly'
+			'Acutely inclined anteriorly'
+			Horizontal,
+		44
+			'present '
+			'absent ',
+		45
+			absent
+			present,
+		46
+			'present,  deep throughout its length'
+			'wedge shaped, deep posteriorly'
+			'weak or absent',
+		47
+			absent
+			'present ',
+		48
+			'In same transverse plane'
+			'stepped, in different planes',
+		49
+			'lateral and widely spaced '
+			'dorsal and close together ',
+		50
+			'no strong overlap'
+			'lateral overlap median'
+			'median overlaps lateral',
+		51
+			'broad, extensive contact'
+			'point or very short  contact',
+		52
+			even
+			'seperate "starbust" on each bone ',
+		53
+			'present '
+			'absent ',
+		54
+			'absent-very small'
+			'narrow groove'
+			'wide notch',
+		55
+			'0 - <50% '
+			'1 - 50% '
+			'>50%',
+		56
+			'similar '
+			'prefrontal much bigger',
+		57
+			yes
+			no,
+		58
+			'present '
+			'absent ',
+		59
+			'no '
+			'yes ',
+		60
+			'no '
+			'yes ',
+		61
+			absent
+			present,
+		62
+			present
+			absent,
+		63
+			'present '
+			'absent ',
+		64
+			'large, broad'
+			'large, bar-like'
+			small,
+		65
+			absent
+			present,
+		66
+			absent
+			present,
+		67
+			'Clavicle has a rod-like ascending process'
+			'Clavicle lcks a rod-like ascending process',
+		68
+			'small, unornamented '
+			'large, ornamented ',
+		69
+			'enlarged, bigger than scales'
+			'small, scale-like bones'
+			'lost from shoulder girdle',
+		70
+			exposed
+			subdermal,
+		71
+			'vertically oriented: tilted less than 10 degrees caudally'
+			'angled: tilted over 10 degrees caudally ',
+		72
+			'present '
+			'absent ',
+		73
+			'straight or faintly convex'
+			'strongle concave',
+		74
+			'tripodal, via three processes '
+			'via a single dorsal process of scapulocorocoid that lies flush against internal surface of cleithrum '
+			'complete fusion between surfaces of the scapula and cleithrum',
+		75
+			'elevated from plane formed by clavicles '
+			'offset ventrally to lie at same level as clavicular plane ',
+		76
+			'posterior and/or ventral orientation'
+			'lateral component to glenoid orientation',
+		77
+			'absent '
+			'present and extends ventromedially ',
+		78
+			absent
+			present,
+		79
+			'cylindrical '
+			'flattened rectangular ',
+		80
+			'rounded to hemispherical shaped'
+			'subrectangular, much wider than high'
+			'elongate (bifid or strap - shaped)',
+		81
+			'faces distally '
+			'has some venterally directed component ',
+		82
+			'entepicondyle narrow relative to humerus shaft length'
+			'entepicondyle as broad  or broader than humerus is long',
+		83
+			'adjacent to the caput humeri '
+			'offset distally toward the proximodistal mid - region of anterior margin of humerus ',
+		84
+			'terminate proximal to epipodial facets  '
+			'extend distal to epipodial facets ',
+		85
+			'short, cylindrical leading edge, with no muscle scars '
+			'enlarged, sharp leading edge, with areas for muscle attachment ',
+		86
+			'several radials articulate with ulnare'
+			'articulates mainly with one large A4 element and/or other much smaller radials',
+		87
+			'present '
+			'absent ',
+		88
+			'diagonal to long axis of the humerus '
+			'perpendicular to long axis of humerus ',
+		89
+			'jointed '
+			'unjointed ',
+		90
+			'narrow, tapered or even breadth throughout'
+			'broad  (almost as wideas ong almost) or flared distally',
+		91
+			'longer than humerus '
+			'shorter than humerus ',
+		92
+			'radius and intermedium terminate at different levels'
+			'radius and intermedium terminate at same level',
+		93
+			'absent '
+			'present ',
+		94
+			'narrow, tapered'
+			'broad or flared',
+		95
+			'present '
+			'absent ',
+		96
+			'heterocercal '
+			'diphycercal ',
+		97
+			'rhomboid with internal ridge '
+			'round  without median boss'
+			'rounded, with median boss'
+			'elonagted, oval- round',
+		98
+			'absent '
+			present,
+		99
+			'present and jointed in region that overlaps endochondral elements '
+			'present and unjointed in region that overlaps endochondral elemenets '
+			absent,
+		100
+			absent
+			present,
+		101
+			absent
+			present,
+		102
+			'narrow or tapered'
+			'short, relatively broad',
+		103
+			'narrow and or tapered'
+			' broadens posteriorly',
+	;
+	MATRIX
+		Onychodus           1000200000 0000020000 01000001?0 010??11001 1000100000 00000--000 00000?0?01 0010000011 00?0???-0? ????011000 0??
+		Glyptolepis         1000000000 1000000000 3000000100 0111?10000 0000020-02 00?00?0000 0000000000 0000000000 ?-???-??0- ?-0-001000 0??
+		Barameda            110?10???? 10?0110000 110000?0?1 011??01101 10?012?000 0000000000 00000?00?1 0000000000 010000101? 0001??1010 000
+		Marsdenichthys      110?1????? ???00???00 ???0?100?1 11???01011 10?0010?01 0001000000 ?0010?1?00 000??????? ????????0? ????0?210? ???
+		Eusthenopteron      1100?00000 1010010000 1110211011 3111101011 0001-10101 0001000000 0001010000 0010000000 0100000001 0001012100 000
+		Medoevia            0101100000 1000000000 1010011011 111110101? ?010010?01 {01}001000000 000101?000 0000000001 01000??00? ????0?010? ???
+		Megalichthys        010?100000 1000000000 10?0011011 1111111011 10?0010101 0001000000 00010?1?00 0000000000 0100000000 0??0000100 ?0?
+		Gogonasus           0101100000 1000000000 1010011011 1111101101 1010010001 1002000000 1001011010 0000000011 100{01}010000 0100000100 011
+		Panderichthys       1112100101 1010120000 20?0211011 3111001012 0121-2?011 0002000000 ?001111010 1011111112 00001??000 1100110010 1??
+		Tiktaalik           1112100?0? 10101200?0 20102110?1 311??01012 ?121-2101- -01221111{01} 11021?1?10 1011111112 1010111010 11101?001? 111
+		Acanthostega        1012111111 0111121111 2211110011 2010?02012 1121-21?1- -112211111 111200012? 11?2111112 00111----0 1--1113020 1--
+		Ichthyostega        1012111111 0111121111 2211110011 2010?02012 11?1-21?1- -112111111 ?112-?012? 01?2011112 10111----1 11--11?021 1-?
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+	TYPESET * default = ORD: 97;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+
+	[Character comments]
+	TEXT CHARACTER=48 TEXT='The stepped articulatory facets on Eusthenopteron are assumed present in Megalichthys as Andrews & Westoll (1970a) claim ithe humerus is essentially similar to that of Eusthenopteron.';
+	TEXT CHARACTER=51 TEXT='We regard the primitive state as seen in basal osteichthyans as having a broad median extrascapular contact with postparietal shield.,';
+	TEXT CHARACTER=67 TEXT='Ascending process here defined as an extended narrow process, not just a process or corner of the posterolateral corner of the clavicle';
+
+	[Character state comments]
+
+	[Attribute comments]
+
+	[Taxon pictures]
+
+	[Character pictures]
+
+	[Character state pictures]
+
+	[Attribute pictures]
+ENDBLOCK;
+

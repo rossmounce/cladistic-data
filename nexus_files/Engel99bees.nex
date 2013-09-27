@@ -1,0 +1,21 @@
+#NEXUS
+[!Ward Brady 2003 ants MORPH2]
+BEGIN DATA;
+DIMENSIONS NTAX=11 NCHAR=15;
+Format datatype=standard symbols="012" gap=-;
+MATRIX
+Aglae 		11002 00001 00011
+Eufriesea 	00011 00111 00011
+Euglossa	00111 11000 00011
+Eulaema		11102 00111 00011
+Exaerete_azteca	00011 11000 01111
+Exaerete_frontalis    10011 10000 11111
+Exaerete_smaragdina   10011 10000 11111
+Exaerete_trochanterica 00011 10000 01111
+Apis		00000 ??002 00000
+Bombus		00000 ??002 00000
+Xylocopa 	00000 ??002 00000
+;
+end;
+
+

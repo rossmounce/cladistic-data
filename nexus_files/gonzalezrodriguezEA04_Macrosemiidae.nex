@@ -1,0 +1,22 @@
+#NEXUS
+[Gonzalez-Rodriguez, K. y Reynoso-Rosales, V. H. A new Notagogus (Macrosemiidae-Halecostomi) species from the Albian Tlayua Quarry, Central Mexico. In: Arratia, G. y Tintori, A. (Eds.). Mesozoic Fishes 3. Systematics, Paleoenvironments and Biodiversity. 2004. p. 265-278.]
+begin data;
+dimensions ntax=14 nchar=20;
+format missing=? symbols="012";
+matrix 
+Semionotus 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Macrosemius 		2 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 0 0 0 1 
+Legnonotus 		2 0 1 1 0 0 0 ? 1 0 1 0 0 0 1 1 0 0 0 1 
+Macrosemiocotzus 	2 0 1 1 0 0 0 1 1 1 1 0 1 0 1 1 0 1 0 1 
+Propterus 		0 0 1 1 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 1 
+Histionotus 		0 0 1 1 0 1 1 1 1 1 0 0 1 1 0 0 0 0 0 1 
+Notagogus_denticulatus 	1 ? 0 0 1 0 0 ? 1 0 0 1 1 0 1 1 0 0 ? ? 
+Notagogus_novomundi 	1 0 0 0 1 0 0 1 0 0 0 1 1 0 {01} 1 0 1 1 0 
+Notagogus_pentIandi 	1 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 0 1 2 0 
+Notagogus_inimontis 	1 ? 0 0 1 0 0 ? ? 0 0 1 1 0 1 0 0 0 ? ? 
+Notagogus_decoratus 	1 ? 0 0 1 0 ? ? ? ? 0 1 1 0 1 0 0 ? 2 0 
+Notagogus_ferreri 	1 ? 0 0 1 0 ? ? ? ? 0 1 1 0 1 1 1 0 ? ? 
+Notagogus_heienae 	1 1 0 0 1 0 ? ? ? 0 0 1 1 0 0 1 1 1 2 0 
+Notagogus_parvus 	1 ? 0 ? 1 0 ? ? ? ? 0 1 1 0 ? 0 0 ? ? ?
+;
+end; 

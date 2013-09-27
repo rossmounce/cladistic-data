@@ -1,0 +1,197 @@
+Shoshonius_cooperi        0 0 6 0 4 1 4 4 5 3 2 2 0 2 0 0 1  J 0 3
+Loveina_zephyri           0 1 6 ? 8 1 ? 4 5 ? 2 2 ? 3 0 0 1 M  0 0
+Omomys_carterii            2 4 4 4 3 1 ? 0 2 ? 3 2 ? 4 0 0 0 A  0 5
+Microchoerus_edwardsi     ? ? 7 ? 5 1 ? 2 5 ? 1 1 ? 2 0 1 2 A  0 5
+Arapahovius_gazini        3 4 7 1 3 1 4 3 4 1 1 1 1 2 1 0 1 A  1 7
+Uintanius_ameghini        1 1 7 ? 7 1 ? 6 5 ? 5 8 ? 1 0 0 1 H  2 3
+Anemorhysis_savagei       2 2 8 1 6 1 ? 2 5 ? 0 2 ? 2 0 0 1 0  1 A
+Utahia_carina             ? ? ? ? ? ? ? ? 3 ? ? 1 ? ? ? 0 1 A  0  ?
+Tetonoides_pearcei        3 2 5 ? 3 1 ? 2 4 ? 1 1 ? 2 0 0 1 A  1 5
+Aycrossia_lovei           ? ? ? ? ? 1 ? 3 5 ? 1 4 ? 0 0 0 2 0  2 M
+Macrotarsius_jepseni      1 4 ? ? ? 1 4 2 5 2 1 0 0 3 0 0 0 A  0 0
+Necrolemur_antiquus       3 ? ? 4 ? 1 ? 2 4 ? 2 2 1 4 0 1 1 3  0  ?
+Ourayia_uintensis         ? ? ? ? ? ? ? 0 3 ? 1 0 ? 4 0 0 0 A  0 A
+Absarokius_abbotti        1 0 6 2 8 1 6 5 6 2 3 6 1 0 0 0 2 0  2 4
+Utahia_kayi               ? ? ? ? ? ? ? ? 4 ? ? 2 ? ? ? ? 0 A  0  ?
+Anaptomorphus_westiyi       0 2 ? ? ? 1 ? 4 6 ? ? ? ? 2 0 0 2 A  1 A
+Teilhardina_belgica       1 2 4 ? 0 0 ? 1 4 ? 1 2 ? 1 0 0 0 A  0 0
+Omomys_lloydi             ? ? 2 ? 1 1 ? 2 5 ? 4 2 ? 4 0 0 0 A  0 A
+Trogolemur_myodes         3 5 ? ? ? 1 ? 3 5 ? 0 1 1 0 0 1 1 8  1 M
+Washakius_insignis        0 2 5 2 7 1 4 4 5 4 3 2 0 3 1 0 1 F  0 A
+Steinius_vespertinus      2 3 ? ? 2 0 ? 1 4 ? 2 2 ? 3 0 0 0 A  0 2
+Hemiacodon_gracilis       2 3 7 3 2 1 1 2 4 0 2 0 0 3 0 0 0 A  0 4
+Jemezius_szalayi          ? ? ? ? ? ? ? ? 4 ? ? 3 ? ? ? ? 1 A  2  ?
+Teilhardina_americana     1 2 0 3 4 0 2 2 4 2 2 1 1 2 0 0 1 0  1 0
+Macrotarsius_montanus     2 ? ? 0 4 1 ? ? 5 ? ? 1 ? ? ? 0 0 A  1 A
+Tetonius_matthewi         3 4 6 0 ? 1 6 5 6 0 2 3 1 1 0 0 2 0  1 3
+Tetonius_mckennai         3 ? ? 0 ? ? ? 4 5 ? 2 2 ? 1 0 0 2 0  1 A
+Teilhardina_crassidens    3 3 6 ? 2 1 ? 4 6 ? 2 3 ? 2 0 0 1 2  1 0
+OUTGROUP                  ? ? ? ? 0 0 ? 0 2 ? 0 1 0 ? 0 0 0 A  0 0
+Cantius_mckennai          ? ? ? ? ? 0 0 0 2 0 0 1 0 ? 0 0 0 A  0 0
+Cantius_ralstoni          ? ? ? ? ? 0 ? 1 3 ? 2 2 ? 2 0 0 0 A  0 0
+Cantius_torresi           0 2 4 ? 2 0 2 1 2 2 1 3 0 2 0 0 0 8  0 0
+Donrussellia_provincialis ? ? ? ? 0 0 ? ? ? ? ? ? ? ? ? 0 ?  ? ?  ?
+Donrussellia_gallica      ? ? ? ? ? ? ? ? 0 ? ? ? ? ? ? ? 0 A  0  ?
+Purgatorius_unio          2 5 0 ? 0 0 1 0 2 ? 0 1 0 1 0 0 0 A  0 0
+Cantius_postcrania        ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ?  ?
+Ptilocercus_lowii         ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ?  ?
+Plesiadapis_tricuspidens  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ?  ?
+                                                                    
+                              
+    Shoshonius_cooperi         0 A E A        8  3  3  2  2   3  0  0 1 1  1 D    0 H  0 2
+    Loveina_zephyri            0 A A A A         3  2  1  2   2  0  0 0 0  0 F    0 A  0 2
+    Omomys_carterii             0 A A       8  0  2  2  1  2   3  1  1 0 0  0 A    0 G  0 4
+    Microchoerus_edwardsi      0   0 M     5  5  0  3  2  2   3  2  2 0 0  3 A    1 M  0 1
+    Arapahovius_gazini         0 A H A F         2  3  2  2   2  1  2 0 0  3 L    1 M  1 1
+    Uintanius_ameghini         A A A       0  0  1  2  1  3   2  0  0 0 0  0    J 0  2 0 3
+    Anemorhysis_savagei        A A K A        2  2  3  2  1   2  1  2 0 0  0 M    0 M  1 2
+    Utahia_carina              A A M       0  5  1  3  2  2   3  1  0 0 0  2 A    0 M  0 2
+    Tetonoides_pearcei         A A M       6  8  3  3  2  2   2  1  2 0 0  0 M    0 M  1 1
+    Aycrossia_lovei            A   0   0 A    0  2  1  0   ?  2  1  1 0 0  1 M    0 M  2 0
+    Macrotarsius_jepseni       0 M M A A         2  3  2  3   3  1  2 0 0  2 A    0 A  0 1
+    Necrolemur_antiquus        0 A M       0  0  2  3  2  3   2  1  2 0 0  2 A    1 M  0 2
+    Ourayia_uintensis          0 M M A F         1  2  1   ?  3  1  0 0 0  2 A    1 M  1 4
+    Absarokius_abbotti         0   5   5   5  0  2  4  3  3   1  1  2 0 0  1 M    0 M  2 2
+    Utahia_kayi                A A M       0  5  1  2  1  2   3  1  0 0 0  2 A    0 M  0 1
+    Anaptomorphus_westiyi        0 A     0 A    0  0  3  2  3   2  1  1 0 0  0 A    0 M  2 1
+    Teilhardina_belgica        0 A M       0  1  0  2  1  0   2  1  1 0 0  0 M    0 A  0 2
+    Omomys_lloydi              0 A A A        0  2  2  2  2   2  1  1 0 0  0 A    0 A  0 3
+    Trogolemur_myodes          0 E M       7  5  0  3  3  2   2  1  2 0 0  0 M    0 M  1 1
+    Washakius_insignis         0 F H A        7  3  2  0  1   3  0  0 1 1  3 B    0  0 0 1
+    Steinius_vespertinus       0 A M A        0  2  2  2  1   2  1  1 0 0  0 G    0 M  0 3
+    Hemiacodon_gracilis        0 K D A        2  1  2  1  2   2  1  1 0 0  1    9 0 A  0 4
+    Jemezius_szalayi           0 A M A        0  1  0  1  0   1  0  1 0 0  0 A    0 A  0 3
+    Teilhardina_americana      0 A M       6  0  0  2  1  2   2  1  1 0 0  1 M    0  5 1 1
+    Macrotarsius_montanus      0 M M A F         3  3  2  2   3  1  1 0 0  2    0 1 A  0 ?
+    Tetonius_matthewi          A A A       6  0  2  4  2  1   1  1  2 0 0  1 M    0 M  2 1
+    Tetonius_mckennai          A A     8   0  0  2  2  1  1   1  1  2 0 0  0 K    0 M  2 ?
+    Teilhardina_crassidens     4   6 M A      8  2  4  3  1   1  1  2 0 0  1 M    0 M  1 1
+    OUTGROUP                   0 A A       0  ?  0  ?   ? 0   2  1  1 0 0  0    ? 0  ? 0 0
+    Cantius_mckennai           0 A M A        ?  0  2  2  3   1  1  2 0 0  0 A    0 E  1 0
+    Cantius_ralstoni           0 A A A        0  0  2  3  0   2  1  2 0 0  1 M    0  2 1 1
+    Cantius_torresi            0 A     8   2  1  0  0  1  2   3  1  2 0 0  0 M    0 D  0 1
+    Donrussellia_provincialis  ?   ?   ?   ?  ?  ?  1  2  1   0  1  1 0 0  0 M    0 A  0 0
+    Donrussellia_gallica       0 A     0   0  0  0  0  0  0   2  1  1 0 0  0 M    0  0 0 0
+    Purgatorius_unio           0 A A       0  3  0  1  0  0   0  1  1 0 0  0 A    0  5 0 0
+    Cantius_postcrania         ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Ptilocercus_lowii          ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Plesiadapis_tricuspidens   ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+                                                                                           
+    Shoshonius_cooperi           2  2  0 A   3  3  2  2  0 A   0   0  1  1    2  4   3  4 1 5
+    Loveina_zephyri              2  2  0 A   2  3  1  2  0 A   0   0  ?  0    ?  ?   ?  ? ? 0
+    Omomys_carterii               3  3  0 A   2  3  2  3  0  0  0   0  1  0    4  2   ?  ? 0 0
+    Microchoerus_edwardsi        1  1  0  0  3  1  3  4 G A    1   0  1  1    3  2   ?  3 ? A
+    Arapahovius_gazini           1  2  0  2  4  2  2  3  0 A   1   6  1  1    2  4   4  4 0 0
+    Uintanius_ameghini           2  3  0 A   1  3  3  3 A   0  0   0  ?  0    3  2   0  0 0 0
+    Anemorhysis_savagei          2  3  0  5  3  3  1  4  0  3  1   0  ?   ?   ?  ?   ?  ? ? ?
+    Utahia_carina                2  3  0 A   3  4  2  4  0  0  2   0  ?   ?   ?  ?   ?  ? ? ?
+    Tetonoides_pearcei           2  2  2  3  3  2  1  2  1  4  0   2  ?   ?   ?  5   ?  4 ? 0
+    Aycrossia_lovei              1   ? 2 A   2  ?  0  ? A   0  0   ?  ?   ?   ?  ?   ?  ? ? ?
+    Macrotarsius_jepseni         1  4  2 A   3  4  1  2  0 A   0   0  1  0    2  1   5  5 A A
+    Necrolemur_antiquus          2  1  2  0  2  2  4  5 A A    1   4  ?  1    4  2   5  4 3 5
+    Ourayia_uintensis            3   ? 0 A   4  ?  2  ?  0  0  2   ?  ?   ?   ?  ?   ?  ? ? ?
+    Absarokius_abbotti           2  3  2 A   2  2  3  6  7  2  0   0  2  1    2  4   2  1 0 0
+    Utahia_kayi                  2  2  1 A   2  5  2  1 A   0  2   0  ?   ?   ?  ?   ?  ? ? ?
+    Anaptomorphus_westiyi          2  4  2 A   3  2  ?  ?  2 A   0   0  ?   ?   ?  2   ?  3 ? ?
+    Teilhardina_belgica          2  2  1 A   2  0  2  4  0  0  0   0  ?  0    1  5   5  ? 0 0
+    Omomys_lloydi                3  4  1 A   2  4  3  ?  0  0  0   0  1  0    3  3   ?  ? 0 0
+    Trogolemur_myodes            2  3  0  3  3  3  2  4  2 A   1   0  ?   ?   ?  5   ?  ? ? 0
+    Washakius_insignis           1  1  0  9  2  4  1  0  2  4  0 A    0  0    3  2   4  4 A A
+    Steinius_vespertinus         2  2  0  9  3  2  0  5  4  0  0   0  ?  1    3  4   2  2 0 0
+    Hemiacodon_gracilis          2  2  0  9  3  3  2  4  5  3  0   0  ?  0    2  3   ?  5 0 0
+    Jemezius_szalayi             2  4  0 A   2  2  1  ? A   0  0   0  ?   ?   ?  ?   ?  ? ? ?
+    Teilhardina_americana        2  2  2  3  3  1  1  5  0  0  0   0  ?  0    1  6   ?  4 0 0
+    Macrotarsius_montanus        ?   ? 1 A   3  3  1  2 A A    0   0  ?   ?   ?  ?   ?  ? ? ?
+    Tetonius_matthewi            1  2  2  8  3  0  3  5  3  3  0   0  ?  0    1  4   6  7 0 1
+    Tetonius_mckennai            ?   ? 2  5  2  0  3  5  5 A   0   0  ?   ?   ?  ?   ?  ? ? ?
+    Teilhardina_crassidens       2  1  2  2  3  2  0  ?  0  3  0   0  ?  1    0  5   ?  3 0 0
+    OUTGROUP                     0  2  0   ? 2  1  ?  ?  ?  0  0   0  ?  0    2  0   4  ? 0 0
+    Cantius_mckennai             0  2  0  3  2  2  1  2  7  0  0   0  ?   ?   ?  4   ?  3 ? 0
+    Cantius_ralstoni             2  2  0 A   2  1  1  ?  3  0  0   0  ?  0    2  3   4  3 0 0
+    Cantius_torresi              2  3  0  5  2  2  0  3  4  0  0   8  ?   ?   ?  2   ?  3 ? 0
+    Donrussellia_provincialis    1  2  0  0  2  1  1  3  0  0  0   0  ?   ?   ?  ?   ?  ? ? ?
+    Donrussellia_gallica         1  2  0  9  3  2  ?  ?  3  0  0   0  ?   ?   ?  0   ?  ? ? 0
+    Purgatorius_unio             0  0  0 A   0  1  0  1 A   0  0   0  ?   ?   ?  0   ?  2 ? 0
+    Cantius_postcrania           ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?  ?   ?  ? ? ?
+    Ptilocercus_lowii            ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?  ?   ?  ? ? ?
+    Plesiadapis_tricuspidens     ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?  ?   ?  ? ? ?
+         
+                          
+    Shoshonius_cooperi         2 D     3   2 A   2  0  0 A    4  7 A  0 2  0    0 2  3 0 0
+    Loveina_zephyri            ?   ?   2   1 A A    3  1  7   0  0 A  0 2  1    0 3  0 ? ?
+    Omomys_carterii             3   7   3   2  0  3  0  0  0   1  6  4 0 2  1    0 0  2 0 0
+    Microchoerus_edwardsi      0 M     0   4 A   0  0  1 A    0  0 A  0 4  3 A     ? 6 ? 1
+    Arapahovius_gazini         0   4   4   0 A   6  7  1  0   0  0 A  0 2  2    7 2  4 2 1
+    Uintanius_ameghini         A A     1   1 A A A     1  0   0  0 A  0 2  1    0 2  1 ? ?
+    Anemorhysis_savagei        ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ? 1  3 ? ?
+    Utahia_carina              ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Tetonoides_pearcei         ? A     4   0 A   7  5  0  0   0  0  0 1 2  2    0 0  4 2 1
+    Aycrossia_lovei            ?   ?   ?   2 A A A     0  0   0  0 A  1 2  3 A     ? ? ? ?
+    Macrotarsius_jepseni       0 M     2   4 A   0  0  1 A A A      0 0 2  0    0  ? ? ? ?
+    Necrolemur_antiquus        0 A     0   4 A   0  0  1  0   0  0 A  0 3  3    0  ? ? 6 0
+    Ourayia_uintensis          ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Absarokius_abbotti         0   8   4   0 A   6  7  1  0   0  0  9 1 2  4 A    2  2 3 1
+    Utahia_kayi                ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Anaptomorphus_westiyi        ?   0   2   0 A A    5  0  0   0  0 A  1 0  3 A    5  4 3 ?
+    Teilhardina_belgica        0 M     5   0  1 A A    0  0   0  0 A  0 2  ?    0  ? ? ? 1
+    Omomys_lloydi              0   ?   2   ?  0  0  0  0  0 A A A     0 ?  ?    ? 4  3 ? ?
+    Trogolemur_myodes          ?   0   3   0 A A A     0  0   0  0 A  1 ?  ? A     ? ? ? ?
+    Washakius_insignis         0 A     3   2 A   0  0  1 A    6  9 A  0 2  0    3 4  4 3 0
+    Steinius_vespertinus       0 A     3   1 A A A     1  0   0  0 A  0 2  4 A    2  2 ? ?
+    Hemiacodon_gracilis        0   0   2   2 A   0  0  1  2   6  9  4 0 3  2    0  ? ? 2 0
+    Jemezius_szalayi           ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Teilhardina_americana      0 A     2   1 A A A     1  0   0  0  0 0 2  4    4 4  4 ? ?
+    Macrotarsius_montanus      ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Tetonius_matthewi          0   4   5   0 A   8 A   0  0   0  0  9 1 2  4 A    5  2 1 1
+    Tetonius_mckennai          ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Teilhardina_crassidens     0 M     4   0 A A A     1  0   0  0 A  1 1  3    0 2  ? 3 ?
+    OUTGROUP                   0 M     2   ? A   ?  0  0  0   0  0 A  0 0  ?    ?  ? 2 ? 0
+    Cantius_mckennai           ?   ?   1   3 A A A     1  0   5  0  0 0 1  1    0  ? 3 ? ?
+    Cantius_ralstoni           0 M     2   2 A A A     1 A    0  0  6 0 0  2 A    2  2 2 ?
+    Cantius_torresi            ?   ?   2   0 A A A     1  0   0  0 A  0 1  3    5 3  3 4 ?
+    Donrussellia_provincialis  ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? ?
+    Donrussellia_gallica       ? M     2   ?  7  5  0  0  0   0  0  5 0 ?  ?    ?  ? ? ? ?
+    Purgatorius_unio           ? M     2   ? A   0  0  0  0   0  0 A  0 0  ?    ? 0  2 0 ?
+    Cantius_postcrania         ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? 0
+    Ptilocercus_lowii          ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? 1
+    Plesiadapis_tricuspidens   ?   ?   ?   ?  ?  ?  ?   ?  ?  ?  ?  ? ? ?  ?    ?  ? ? ? 0
+
+    Shoshonius_cooperi           2  2  2  1  1  2  5  2  2  2  2   0  1  2    1   2  2  0 1 4
+    Loveina_zephyri              ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Omomys_carterii               2  2  5  2  1  2 M   2  2  1  2   1  1  1    1   1  5  2 1 3
+    Microchoerus_edwardsi        3   ? 4  0  ?  1 M   3  2   ? 2   ?  0   ?   ?   ?  ?  ? ? ?
+    Arapahovius_gazini           2  1  3  0  0  1  0  3  1  2  2   1  1  2    2   2  3 A  2 2
+    Uintanius_ameghini           ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Anemorhysis_savagei          ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Utahia_carina                ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Tetonoides_pearcei           2  1  4  0  0  1  0  ?  1  1   ?  ?  ?  2    2   2  3  5 2 2
+    Aycrossia_lovei              ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Macrotarsius_jepseni         ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Necrolemur_antiquus          3  0  4   ? 0  1 M   3  2   ? 2   ?  0  3    1   1  0 A  2 2
+    Ourayia_uintensis            ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Absarokius_abbotti           2  1  4  0  0  2 A   3  2  2  1   0  2  2    2   2  4  0 2 2
+    Utahia_kayi                  ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Anaptomorphus_westiyi          ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Teilhardina_belgica          2  0  4  0  ?  1 A   1  1  0  1   1  2  2    1 1,2  4  0 2 0
+    Omomys_lloydi                ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Trogolemur_myodes            ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Washakius_insignis           2  2  6  1  1  2 G   3  2  2  2   0  1  1    1   2  2  0 1 2
+    Steinius_vespertinus         ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Hemiacodon_gracilis          2  2  5  2  1  2 F   2  2  1  2   0  1  1    1   1  5  0 1 3
+    Jemezius_szalayi             ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Teilhardina_americana        ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Macrotarsius_montanus        ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Tetonius_matthewi            2  1  4  0  0  1  5  ?  2  1   ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Tetonius_mckennai            ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Teilhardina_crassidens       ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    OUTGROUP                     0   ? ?  0  ?  1  0  2  2   ? 1   1  0  3    1   1  ?  0 2 ?
+    Cantius_mckennai             ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Cantius_ralstoni             ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Cantius_torresi              ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Donrussellia_provincialis    ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Donrussellia_gallica         ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Purgatorius_unio             ?   ? ?   ? ?  ?  ?  ?  ?   ?  ?  ?  ?   ?   ?   ?  ?  ? ? ?
+    Cantius_postcrania           ?  1  3  0  1  1  0  1  2  0  1   1  ?  3    1 1,3  3  0 2 4
+    Ptilocercus_lowii            0  0  2  2  0  0 A   2  0  1  0   0  0  0    0   0  2  0 2 0
+    Plesiadapis_tricuspidens     0  0  0  0  0  0  0  0  0  1  0   1  0  0    0   0  0  0 2 0
+

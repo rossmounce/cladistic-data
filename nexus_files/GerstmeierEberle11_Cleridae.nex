@@ -1,0 +1,23 @@
+#NEXUS 
+
+[Gerstmeier, R. & Eberle, J. Definition and revision of the orthrius-group of genera (coleoptera, cleridae, clerinae). ZooKeys 92 (2011). URL http://dx.doi.org/10.3897/zookeys.92.1157.]
+
+Begin data;
+ Dimensions ntax=12 nchar=22;
+ Format datatype=standard symbols="0123" missing=? gap=-;
+ Matrix
+Clerus 1 2 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0
+Aphelochroa 0 1 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 2 0 0 0
+Caridopus 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 1 {01} ? ? 0 1 0 1
+Dozocolletus 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 ? ? 0 0 0 1
+Gyponyx 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1
+Languropilus 0 1 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1 0 ?
+Neorthrius 0 1 1 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0
+Nonalatus 0 2 1 0 0 0 1 1 0 1 0 0 0 1 1 1 1 ? ? 1 1 1 0
+Orthrius 0 1 2 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 2 0 0 0
+Pieleus 0 0 1 1 0 0 0 1 1 1 0 0 0 ? ? ? 0 1 1 2 1 1 ?
+Pseudoastigmus 0 1 1 0 0 0 1 1 1 1 0 0 0 ? 1 ? 1 ? ? 0 1 1 0
+Xenorthrius 0 0 1 0 0 0 0 1 1 1 {01} 0 0 0 0 {01} 0 0 1 0 {01} 1 0
+;
+end;
+

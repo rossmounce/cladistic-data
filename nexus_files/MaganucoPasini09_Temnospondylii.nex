@@ -1,0 +1,659 @@
+#NEXUS
+
+[obtained from author by email:
+Maganuco, S. and Pasini, G. 2009. A new specimen of trematosaurian temnospondyl from the lower triassic of NW madagascar, with remarks on palatal anatomy and taxonomic affinities. Atti Soc. it. Sci. nat. Museo civ. Stor. nat. Milano 150:91-112.]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=54;
+	TAXLABELS
+		'Konzhukovia vetusta'
+		'Rhineceps nyasaensis'
+		'Uranocentrodon senekalensis'
+		'Almasaurus habbazi'
+		Angusaurus
+		'Aphaneramma rostratum'
+		'Arcadia myriadens'
+		'Benthosuchus sushkini'
+		'Koskinonodon perfectus'
+		'Cherninia denwai'
+		'Chomatobatrachus halei'
+		'Compsocerops cosgriffi'
+		'Cosgriffius campi'
+		'Cyclotosaurus robustus'
+		'Deltacephalus whitei'
+		'Deltasaurus kimberleyensis '
+		'Edingerella madagascariensis'
+		Eocyclotosaurus
+		'Eryosuchus garjainovi'
+		'Gerrothorax pustuloglomeratus'
+		'Keratobrachyops australis'
+		'Laidleria gracilis'
+		'Lapillopsis nana'
+		'Lydekkerina huxleyi'
+		'Lyrocephaliscus euri'
+		'Mastodonsaurus giganteus'
+		'Metoposaurus diagnosticus krasiejowensis'
+		'Odenwaldia heidelbergensis'
+		'Paracyclotosaurus davidi'
+		'Parotosuchus orenburgensis'
+		'Platystega depressa'
+		'Quasicyclotosaurus campi'
+		'Sclerothorax hypselonotus'
+		'Stanocephalosaurus pronus'
+		'Stenotosaurus stantonensis'
+		'Tatrasuchus wildi'
+		'Tertrema acuta'
+		'Thoosuchus yakovlevi'
+		'Trematolestes hagdorni'
+		'Trematosaurus brauni'
+		'Wantzosaurus elongatus'
+		'Warrenisuchus aliciae'
+		'Watsonisuchus gunganj'
+		'Watsonisuchus magnus'
+		'Watsonisuchus rewanensis'
+		'Wellesaurus peabodyi'
+		'Wetlugasaurus angustifrons'
+		'Xenobrachyops allos'
+		'Xenotosuchus africanus'
+		'Yuanansuchus laticeps'
+		'MSNM V2993'
+		'Lehman specimen'
+		'Trematosaurus madagascariensis'
+		'Tertremoides ambilobensis'
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=86;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="0123";
+	CHARLABELS
+		[1] 'ornamentation of the dorsal skull roof'
+		[2] 'skull greatest width / midline length, in adults'
+		[3] 'skull outline in dorsal view'
+		[4] 'prenarial snout length'
+		[5] 'length of snout (i.e. preorbital portion of the skull) in adults'
+		[6] 'anterior margin of the tip of the snout'
+		[7] 'Interpremaxillary - intermaxillary foramen'
+		[8] 'external nares shape'
+		[9] 'longer axis of the external nares'
+		[10] 'anterior projection of the jugal'
+		[11] orbits
+		[12] 'orbital margins'
+		[13] 'interorbital distance compared to the width of the skull at mid orbital level'
+		[14] 'Snout morphology'
+		[15] lacrimal
+		[16] 'Prefrontal size'
+		[17] 'frontal reaching the orbit'
+		[18] 'Frontal width at the level of the centre of the orbit'
+		[19] 'Parietal length in adults'
+		[20] 'postorbital in adults'
+		[21] 'postorbital-prepineal growth zone'
+		[22] 'temporal fossa (sensu Damiani, 2001)'
+		[23] 'lateral sensory-line grooves on the skull roof'
+		[24] 'infraorbital sensory canal, with a flexure at the level of the lacrimal when the lacrimal is present'
+		[25] 'occipital sensory canal'
+		[26] 'supraorbital sensory canal'
+		[27] 'tabular horns'
+		[28] 'tabular horns'
+		[29] 'tabular horn, direction'
+		[30] 'supratemporal in adults'
+		[31] 'otic notch shape'
+		[32] 'Postparietal lappets on the mid of the posterior margin of the postparietal'
+		[33] 'postero-lateral skull corners in dorsal/palatal view'
+		[34] 'length of the posterior skull table respect to its width (length measured as the sagittal distance from the level of the posterior edge of the orbits to the posterior margin of the skull roof, width measured as the width from the lateral edge of one tabula'
+		[35] 'posttemporal fenestrae'
+		[36] 'occipital condyle'
+		[37] 'occipital condyles, position in respect to the quadrate condyles'
+		[38] 'occipital condyles, distance from each other (ratio between the intracondylar width, measured between their centres, and the maximum width of the skull)'
+		[39] 'crista falciformis on the squamosal'
+		[40] 'contact between squamosal and ascending ramus of the pterygoid, in adults'
+		[41] 'stapedial foramen'
+		[42] quadratojugal
+		[43] 'participation of the quadratojugal to the upper jaw condyle'
+		[44] 'Maxillary teeth'
+		[45] maxilla
+		[46] 'lamina palatina visible on the premaxilla'
+		[47] 'shape of the choana'
+		[48] 'field of denticles on vomer'
+		[49] 'transvomerine tooth row'
+		[50] 'transvomerine single tooth row (medial to the vomerine tusks, when present), shape'
+		[51] 'Vomerine parachoanal tooth row'
+		[52] 'anterior palatal vacuity'
+		[53] 'Vomerine process separating the posteriormost portion of the anterior palatal vacuities'
+		[54] 'anterior palatal vacuity(ies): position respect to the premaxilla/vomer suture'
+		[55] 'prefenestral division of the palate (vomerine plate  anterior to the interpterygoid vacuities, width / length) '
+		[56] 'Palatine, vomerine tusks'
+		[57] 'palatine - ectopterygoid, suture'
+		[58] 'contribution of palatine and ectopterygoid to margin of interpterygoid vacuity:'
+		[59] 'ectopterygoid tusks in adults'
+		[60] 'Palatal tooth row'
+		[61] 'strut of bone separating the interpterygoid vacuity from the subtemporal fossa'
+		[62] 'anterior extension of the pterygoid'
+		[63] 'quadrate ramus of the pterygoid'
+		[64] 'oblique ridge on the quadrate ramus of the pterygoid'
+		[65] 'suture between pterygoid and parasphenoid'
+		[66] 'cultriform process of the parasphenoid'
+		[67] 'cultriform process of the parasphenoid'
+		[68] 'cultriform process of the parasphenoid'
+		[69] 'cultriform process, width (measured at the level of the anterior third of the interpterygoid vacuities)'
+		[70] 'parasphenoid plate'
+		[71] 'crista muscularis of parasphenoid in adults'
+		[72] 'parasphenoid groove'
+		[73] 'exoccipital in ventral view'
+		[74] 'denticle field on pterygoid and parasphenoid'
+		[75] 'marginal teeth'
+		[76] 'parasymphyseal teeth (or tusks)'
+		[77] 'coronoid teeth'
+		[78] 'coronoid denticles'
+		[79] 'crista articularis on the postglenoid area'
+		[80] 'crista medialis on the postglenoid area'
+		[81] 'anterior extension of the prearticular'
+		[82] 'hamate process of the prearticular'
+		[83] 'posterior meckelian foramen'
+		[84] 'labial wall of adductor fossa'
+		[85] 'glenoid fossa'
+		[86] 'chorda tympanic foramen'
+		;
+	STATELABELS
+		1
+			'consisting of ridges enclosing depressions, which  become elongated in areas of skull elongation'
+			'consisting of uniformly small pits enclosed by a network of ridges'
+			'consisting of regularly spaced pustules',
+		2
+			'0.8 - 1.2'
+			'< 0.8'
+			'> 1.2',
+		3
+			broad
+			'narrow, wedge-shaped',
+		4
+			'less than internarial distance'
+			'equals or exceeds internarial distance (but less than three times)'
+			'exceeds by three times internarial distance',
+		5
+			'comprised between 50% and 60% of total skull length'
+			'equal or less than 50% of total skull length'
+			'equal or greater than 60% of total skull length',
+		6
+			rounded
+			'nearly straight',
+		7
+			absent
+			present,
+		8
+			'rounded or ovoid (width  > 55% length) '
+			'elongate (width < 55% length)',
+		9
+			'parallel to the outline of the skull roof'
+			'parallel to the midline of the skull roof',
+		10
+			'surpasses the anterior margin of the orbit, but it is shorter than 3/10 of the preorbital length of the skull (measured from the tip of the pm to the anterior margin of the orbit)'
+			'surpasses the anterior margin of the orbit, and it is longer than 3/10 of the preorbital length of the skull (measured from the tip of the pm to the anterior margin of the orbit)'
+			'not surpasses the anterior margin of the orbit',
+		11
+			'facing dorsally'
+			'facing dorsolaterally or laterally',
+		12
+			'flush with plane of skull roof'
+			'elevated above plane of skull roof',
+		13
+			'<45%'
+			'>45%',
+		14
+			'flat, consisting of plate-like nasals and lacrimals (where present);'
+			'snout forming rostrum, with nasals and lacrimals (where present) splint-like.',
+		15
+			present
+			absent,
+		16
+			'as large as or smaller than nasal'
+			'larger than nasal',
+		17
+			no
+			yes,
+		18
+			'as wide as or wider than postfrontal'
+			'much narrower',
+		19
+			'shorter than frontal'
+			'similar to frontal (90-110%)'
+			'longer than frontal',
+		20
+			'moderately ''hooked'' , anterolaterally expanded with anteriormost tip not surpassing the centre of the orbit'
+			unexpanded
+			'strongly ''hooked'' , anterolaterally expanded with anteriormost tip surpassing the centre of the orbit',
+		21
+			'absent, zones of intensive growth -if present- restricted to antorbital region of the skull'
+			present,
+		22
+			absent
+			present,
+		23
+			'weakly impressed, mostly discontinous'
+			'well impressed, continuous (at least sub-continuous)',
+		24
+			absent
+			'present, nearly straigth or with sinusoidal flexure'
+			'present, with "Z"-shaped flexure',
+		25
+			absent
+			present,
+		26
+			'developed, passes medial to lacrimal (does not cross the lateral margin of the prefrontal where lacrimal is absent)'
+			'developed, enter lacrimal (crosses the lateral margin of the prefrontal where lacrimal is absent)'
+			'reduced or absent',
+		27
+			present
+			'reduced to a broad based triangle or absent',
+		28
+			'supported from below by paroccipital process'
+			'partially supported from below by muscular ridges',
+		29
+			'posteriorly directed or posterolaterally directed at the base but not curving outward'
+			'posterolaterally directed at the base and curving outward distally'
+			'posterolaterally directed at the base and curving outward distally, with a anterodistal lappet partially narrowing the otic notch'
+			'posterolaterally / laterally directed and suturing with the squamosal posteriorly',
+		30
+			'enters margin of the otic notch'
+			'excluded from margin of the otic notch',
+		31
+			'deeply incised into posterior border of the skull (length exceeds width); in taxa in which otic notches are closed they can be considered deeply incised'
+			'reduced to an embayment (width nearly equal length or exceeds length)'
+			'otic notch absent',
+		32
+			absent
+			present,
+		33
+			'posterior to distal end of tabulars'
+			'at level or anterior to distal ends of tabulars',
+		34
+			'between 90% and 70% '
+			'between 66% and 50%'
+			'< 46%'
+			'> 90%',
+		35
+			'relatively large'
+			'posttemporal fenestrae reduced to small foramina or entirely closed',
+		36
+			'bilobed, with reduced basioccipital contribution'
+			'double, with no basioccipital contribution',
+		37
+			'well anteriorly (the posteriormost margin of the exoccipitals is anterior to the anteriormost margine of the quadrates)'
+			'at level or just anteriorly (the posteriormost margin of the exoccipitals reaches the anteriormost margin of the quadrate)'
+			posteriorly,
+		38
+			'average (comprised between 9,5% and 16%)'
+			'very close from each other (<9,5%)'
+			'very distant from each other (>16%)',
+		39
+			absent
+			present,
+		40
+			present
+			'absent, creating a palatoquadrate fissure',
+		41
+			present
+			absent,
+		42
+			'forms a simple corner with the quadrate in occipital view'
+			'a sulcus present on the quadratojugal, lateral to the quadrate condyles, so that the quadratojugal forms an overhang in occipital view',
+		43
+			'absent '
+			'present ',
+		44
+			'same size as dentary teeth'
+			'minute and much smaller than dentary teeth',
+		45
+			'forming a suture with the quadratojugal'
+			'making point contact, at most, with the quadratojugal',
+		46
+			no
+			yes,
+		47
+			'oval (width > 42% length)'
+			'elongate (width < 42% length) and relatively small (length < 24% of the length of the interpterygoid vacuity)'
+			'elongate (width < 42% length) and relatively large (length > 24% of the length of the interpterygoid vacuity)',
+		48
+			present
+			absent,
+		49
+			present
+			absent,
+		50
+			'straight or slightly curved posteriorly'
+			'curved  (concave anteriorly)'
+			'angular (V-shaped)',
+		51
+			'present for most of the length of the choana'
+			'present only for a short trait'
+			absent,
+		52
+			'absent, anterior palatal fossa not perforated'
+			single
+			double,
+		53
+			'nearly as wide as the posteriormost portion of one anterior palatal vacuity'
+			'nearly as wide as both posteriormost portions of the anterior palatal vacuities, or even more'
+			'nearly as wide as half of the posteriormost portion of one anterior palatal vacuity',
+		54
+			'mostly posterior'
+			between
+			'mostly anterior',
+		55
+			'> 1.5 (very broad) '
+			'> 0.9 and < 1.5 (broad)'
+			'< 0.9 (elongate)',
+		56
+			'two to four tiimes larger than other teeth in row (ectopterygoid tusks excluded, where present; respect to the maxillary teeth, where the palatal row is absent))'
+			'only slightly larger or equal (respect to the maxillary teeth, where the palatal row is absent)',
+		57
+			'roughly transverse'
+			'palatine forming posteromedial process medial to ectopterygoid shorter than 40% of the ect length'
+			'palatine forming posteromedial process medial to ectopterygoid longer than 40% of the ect length',
+		58
+			'both excluded by pterygoid-vomer contact'
+			'palatine only included'
+			'both palatine and ectopterygoid included',
+		59
+			present
+			absent,
+		60
+			present
+			absent,
+		61
+			'consisting entirely of the palatine ramus of the pterygoid'
+			'invasion of this strut by the ectopterygoid',
+		62
+			'extended anteriorly for most of the palatine length'
+			not,
+		63
+			'twisted from the plane of the corpus and the palatine ramus, to form a subvertical plate'
+			'not twisted, forming a near horizontal plane, continuous with the plane of the corpus and the palatine ramus'
+			'not twisted and strongly downturned, creating a vaulted palate',
+		64
+			'low, rounded'
+			'tall, crest-like'
+			absent,
+		65
+			'shorter than the width of the corpus of the parasphenoid '
+			'longer than the width of the corpus of the parasphenoid ',
+		66
+			'not expanded at the base'
+			'expanded at the base and constricted at mid length',
+		67
+			'simple bar, flattened or semi-circular'
+			'deep and knife-edged ventrally ',
+		68
+			'not underplated by posterior extension of vomer (i.e., nearly reaching the level of -or extends beyond- anterior border of interpterygoid vacuities)'
+			'underplated by posterior extension of vomer  (this state does not refer to the posteriorly directed processes which do not cover the cp but clasp it laterally) ',
+		69
+			'larger (but less than two times) than the dentigerous surface of the maxilla'
+			'narrower or as wide as the dentigerous surface of the maxilla'
+			'larger than two times the dentigerous surface of the maxilla',
+		70
+			'length comprised between 50% and 65% of the posterior skull table'
+			'shorter than 50% of the posterior skull table'
+			'longer than 65% of the posterior skull table',
+		71
+			'not confluent in midline '
+			'confluent in midline '
+			absent,
+		72
+			absent
+			present,
+		73
+			'does not suture with pterygoid'
+			'sutures with pterygoid',
+		74
+			'present '
+			'absent ',
+		75
+			'sub-circular or circular at base '
+			'strongly labiolingually expanded ',
+		76
+			absent
+			present,
+		77
+			absent
+			'present ',
+		78
+			present
+			absent,
+		79
+			absent
+			present,
+		80
+			'absent or poorly developed'
+			'well developed',
+		81
+			'extending at least as far as the level of the mid point of the middle coronoid'
+			'not extending anterior to the level of the suture of the middle and posterior coronoids',
+		82
+			'reduced or absent '
+			'developed ',
+		83
+			'long less than half the length of the adductor fossa '
+			'as long as half or long more than half the length of the adductor fossa ',
+		84
+			'nearly horizontal '
+			'strongly convex dorsally ',
+		85
+			'above level of dorsal surface of dentary '
+			'below level of dorsal surface of dentary ',
+		86
+			'present, located on the suture between the articular and the prearticular'
+			'present, located in the prearticular alone'
+			absent,
+	;
+	MATRIX
+		'Konzhukovia vetusta'                         01100100{01}0 0000000001 0000000000 0000000000 000?0?0100 1202100010 0000000012 00000????? ??????
+		'Rhineceps nyasaensis'                        0000001001 0000000000 0000000000 0001000010 0000000000 00-2000000 0000000000 00000000?? 010000
+		'Uranocentrodon senekalensis'                 0000000000 0000000000 0000000000 0001000010 00?00???00 00-?000000 ??00000000 00000?00?? 00000?
+		'Almasaurus habbazi'                          1010110002 1010000111 1011010?01 1003012010 00011?0102 0201100210 1102000111 2011011101 101001
+		Angusaurus                                    011101?110 1000000001 1011110001 1013011000 ?00?1?1102 02??20?200 0100101110 00000?11?? 10111?
+		'Aphaneramma rostratum'                       011221?1{01}0 1011000101 1010110001 0013012001 ?0001?111- 02?2201100 0100101111 20000?01?? 10101?
+		'Arcadia myriadens'                           100?1?0000 101010001? 0011100001 1111010101 ?000??201- 01-?00?2?0 1102000?21 20001100?? 1?0?00
+		'Benthosuchus sushkini'                       0111211110 0100000000 1011110101 0011011010 0000111102 01-0202110 0100000100 0000001101 100000
+		'Koskinonodon perfectus'                      000010000{02} 0010000111 0011110101 1013?12010 10011?1100 0211100210 1112100021 00110101?? 101111
+		'Cherninia denwai'                            0100200011 0100001002 0002000111 0012011010 ?01?111100 022210{12}110 0101000001 10011????? ??????
+		'Chomatobatrachus halei'                      1000100000 0000000011 0001010??1 10?{01}01000? ?00?000001 01-0001110 1100000000 00000000?? 00000?
+		'Compsocerops cosgriffi'                      0200100000 0010100010 1001000101 101101200? ?0011?0100 21-1010210 1122000021 20110001?? 000011
+		'Cosgriffius campi'                           01122001{01}0 1001100101 1?11?1???? ???3?????? ?????0111- 00--200110 ??????111? ????0????? ??????
+		'Cyclotosaurus robustus'                      0000200001 0000001002 00020{01}0131 0011012210 ?011010101 01-0002110 0101111012 1011010?11 111000
+		'Deltacephalus whitei'                        0000100000 0000000000 0001000101 11110?110? ?00?0????? ??????{12}110 0100000?00 000?{01}????? ??????
+		'Deltasaurus kimberleyensis '                 1200100002 1010100021 0011101--1 2011011001 ???0??201- 21-0000101 1102000002 2010010000 01010?
+		'Edingerella madagascariensis'                0000{01}00100 0100001000 01{01}2000101 0{01}11011110 0000010101 01-0000100 0100000000 {01}101101110 110000
+		Eocyclotosaurus                               01102{01}{01}{01}01 0100000002 00{01}2010131 001101101? ?00?111100 0202202110 0101111102 10111011?? 111001
+		'Eryosuchus garjainovi'                       0000000100 0100001000 0?12010121 001101101? ?00?011100 ?1?20?211? 01011000?2 ?01?0????? ??????
+		'Gerrothorax pustuloglomeratus'               22001000{01}2 0000001010 0011101--1 20-2112100 01001-0?00 00--000210 1112000120 20101110?? 100?01
+		'Keratobrachyops australis'                   000011?000 0000100011 ?001000001 1?11012000 ?00???0100 21-000?101 1122000020 20000100?? 10?0?1
+		'Laidleria gracilis'                          1011110002 10001010{01}1 ?011001--1 20-1112001 11011?01?? 2????002?0 1112000020 20011????? ?0????
+		'Lapillopsis nana'                            1100100100 1000001010 00?0020001 01110?1001 000000011- 21-20102?1 0100000020 00010?0?00 000001
+		'Lydekkerina huxleyi'                         1000100000 0000000010 ?001000001 1111011100 0000000001 01-0001100 0100000020 0000000000 000000
+		'Lyrocephaliscus euri'                        0010100100 1010000011 1010110001 1010011001 ?00?1?011- 0202101200 0101101110 20000????? ??????
+		'Mastodonsaurus giganteus'                    0100100000 0000001000 0012010111 0010012010 0010101100 0212102110 0101100000 1011101101 111101
+		'Metoposaurus diagnosticus krasiejowensis'    0000100010 0010000011 0001010101 1013012010 11011?0100 0212100210 1121000021 {02}011110100 111010
+		'Odenwaldia heidelbergensis'                  011021?00{01} 01000?010? 00?2?10121 0011?????? ?????????? ?????????? ??0??0???? ?????????? ??????
+		'Paracyclotosaurus davidi'                    0100210001 0100001002 0002000121 0010011010 ?0110?1100 02-?102110 0101100022 10111??1?? 11000?
+		'Parotosuchus orenburgensis'                  0100200101 0100001000 0012000101 0011011110 0011011100 01-1101110 0101000010 1101111111 110000
+		'Platystega depressa'                         01110100{01}0 1010000121 10????0??1 ??10????0? ??????011- 0212201200 010?101011 20000????? ??????
+		'Quasicyclotosaurus campi'                    0101200100 0100000000 0012010?31 0011?1201? ??0?0?0100 0221001110 0101011001 10111????? ??????
+		'Sclerothorax hypselonotus'                   0000100101 1000001000 0000020101 1012011010 ?0000??1?? ?????111?? 0?01000022 ?10100??00 11100?
+		'Stanocephalosaurus pronus'                   0100201101 0100001002 00{01}{12}000121 0011011010 1010111100 01-010{12}110 0101010012 1011111111 110000
+		'Stenotosaurus stantonensis'                  0100201101 0100001{01}02 0002000131 0011011110 ?01?0?1100 ?1-2100110 0101010000 10011????? ??????
+		'Tatrasuchus wildi'                           0000000101 0000001000 0002000121 0011011010 ?011010100 01-{01}000110 0101010021 10010?11?? 111100
+		'Tertrema acuta'                              011111?100 1010000101 1011?1000? 0?0301020? ?00?1?211- 221220?200 01?2101011 200?0????? ??????
+		'Thoosuchus yakovlevi'                        0111010110 1000000001 1011110011 0010011200 ?00?100102 0202201200 0100001110 01000?11?? 101111
+		'Trematolestes hagdorni'                      0110110002 1000010101 1011100001 100301100? ?0001?111- 2212200200 0102101111 2010000??? 00111?
+		'Trematosaurus brauni'                        0111110110 1010000001 1011110001 1013011201 ?0001?011- 0211201210 0100101111 20000?11?? 101111
+		'Wantzosaurus elongatus'                      01122101{01}0 1001100101 ?011100001 100101120? ?0001?111- 2210200110 0100101010 200000???0 ??1?1?
+		'Warrenisuchus aliciae'                       010000110{01} 0100001000 0102000101 0011010010 ?000000101 01-0000210 0101000?00 1101101110 110000
+		'Watsonisuchus gunganj'                       010?????0{01} 01000?1002 010?020101 0011011110 00000????? 01-??0{12}?10 0101000?10 11011???10 ????0?
+		'Watsonisuchus magnus'                        0????????? 010???10?? 010?020101 0?11011110 1000?????? ??????{12}1?0 ?10100???2 1001????10 ?100?0
+		'Watsonisuchus rewanensis'                    010000??0{01} 0100001002 010?0201?1 0011011110 ?00?012102 01-0101110 0100000012 10011???10 ??????
+		'Wellesaurus peabodyi'                        0100211001 0000001002 0002000121 0011012010 101?1111?? ?1-21?21?? 0101100001 10111111?? 11000?
+		'Wetlugasaurus angustifrons'                  010000?101 0100000000 00020{01}0101 0011011010 001?012101 ?1-010111? 0101000000 1100101111 1100??
+		'Xenobrachyops allos'                         0200100012 0010100011 0001001--1 20-1112000 ?00???011- 21-1?00200 1122000000 200101???? ?0???2
+		'Xenotosuchus africanus'                      0100200001 0000001000 0002000121 0011011010 1000111101 01-2102110 010{01}010020 1001110111 110000
+		'Yuanansuchus laticeps'                       0?0????10{01} 0100000000 0012{01}10111 011001?210 10??0?0?00 0?-??02110 ?100010020 10011????? ??????
+		'MSNM V2993'                                  ?????????2 1000?????? ?????????? ?????????? ??????{01}11- 120{12}200200 01????012? ???0{01}????? ??????
+		'Lehman specimen'                             0??1?1?00? ???0?????? ???1?{01}???? ?????????? ???????11- ?20120???? ?????????? ????{01}????? ??????
+		'Trematosaurus madagascariensis'              0111110002 1000010111 101{12}100001 1003011000 ?001?????? ?????????0 ?????????? ?????????? ????1?
+		'Tertremoides ambilobensis'                   0111110002 10000?0??1 1011100001 100?????00 ?????????? ?????????? ?????????? ?????????? ??????
+	;
+ENDBLOCK;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE=UNORD POLYTCOUNT=MINSTEPS;
+	TYPESET * default = ORD: 4 19 29 31 37 50 - 51 55 57 - 58 63 71;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+	TEXT TAXON=1 TEXT='Schoch & Milner, 2000; Yates & Warren, 2000.';
+	TEXT TAXON=2 TEXT='Schoch & Milner, 2000; Watson, 1962.';
+	TEXT TAXON=3 TEXT='Watson, 1962; Damiani, 2001; Schoch & Milner, 2000.';
+	TEXT TAXON=4 TEXT='MNHN ALM42, 46, 57, 60, 64MNHN ALM66, 69-70, 73. Dutuit, 1972.';
+	TEXT TAXON=5 TEXT='Novikov, 1990; Damani, 2001; Damiani & Yates, 2003.';
+	TEXT TAXON=6 TEXT='Save-Soderbergh 1935; S&M, 2000; Warren, 2000;';
+	TEXT TAXON=7 TEXT='Warren & Black 1985; Warren 2000;(Rewana myriadens in S&M 2000)';
+	TEXT TAXON=8 TEXT='UMZC T1223, T68-74; Bystrow & Efremov, 1940; Schoch & Milner, 2000; Damiani, 2001; Damiani & Yates, 2003.';
+	TEXT TAXON=9 TEXT='Sawin, 1945; Sulej, 2007.';
+	TEXT TAXON=10 TEXT='Damiani, 2001a, b.';
+	TEXT TAXON=11 TEXT='Warren et al. 2006; Damiani, 2001; Schoch & Milner, 2000.';
+	TEXT TAXON=12 TEXT='Sengupta, 1995.';
+	TEXT TAXON=13 TEXT='Welles, 1993';
+	TEXT TAXON=14 TEXT='Schoch & Milner, 2000; Sulej & Majer,2005.';
+	TEXT TAXON=15 TEXT='Hewison, 1996; MSNM V6421.';
+	TEXT TAXON=16 TEXT='Cosgriff & Zawiskie, 1979; S&M 2000';
+	TEXT TAXON=17 TEXT='MNHN MAE3000-3009,RHMA02, MSNM V2992, MSNM V6237 (c); Lehman, 1961; Warren and Hutchinson, 1988a; Steyer, 2003. Notes: analysis of .... trichotomy.';
+	TEXT TAXON=18 TEXT='E. woschmidti, Damiani, 2001.E. wellesi, Schoch, 2000.';
+	TEXT TAXON=19 TEXT='Schoch & Milner, 2000';
+	TEXT TAXON=20 TEXT='Hellrung, 2003.';
+	TEXT TAXON=21 TEXT='Warren, 1981;';
+	TEXT TAXON=22 TEXT='Warren, 1998.';
+	TEXT TAXON=23 TEXT='Yates, 1999. Notes: Lapillopsis nana being a subadult, character states for characters ch14, 24, 43, have been coded checking if they were consistent with the states in the type of the lapillopsid Rotaurisaurus contundo, which is considered an ?adult individual.';
+	TEXT TAXON=24 TEXT='Jeannot et al., 2006';
+	TEXT TAXON=25 TEXT='SaveSoderberg 1936; Lehman, 1974.';
+	TEXT TAXON=26 TEXT='MNHN AC9791(c); Schoch, 1999. Moser & Schoch, 2007.';
+	TEXT TAXON=27 TEXT='Sulej, 2007.';
+	TEXT TAXON=28 TEXT='Damiani, 2001.';
+	TEXT TAXON=29 TEXT='Watson, 1958; Damiani, 2001.';
+	TEXT TAXON=30 TEXT='Welles & Cosgriff, 1965; Damiani, 2001 (mandible); Schoch & Milner, 2000 (skull).';
+	TEXT TAXON=31 TEXT='Save-Soderberg 1936;';
+	TEXT TAXON=32 TEXT='Schoch, 2000.';
+	TEXT TAXON=33 TEXT='Schoch et al., 2007.';
+	TEXT TAXON=34 TEXT='UMZC T288-292;  Howie, 1970; Schoch & Milner, 2000; Damiani, 2001.';
+	TEXT TAXON=35 TEXT='Damiani, 2001.';
+	TEXT TAXON=36 TEXT='Damiani, 2001.';
+	TEXT TAXON=37 TEXT='Wiman, 1917;';
+	TEXT TAXON=38 TEXT='Schoch & Milner, 2000; Damiani & Yates, 2003.';
+	TEXT TAXON=39 TEXT='Schoch, 2006.';
+	TEXT TAXON=40 TEXT='Schoch & Milner, 2000.BMNH 30270, 36354-75, 40042; GZG 7; MNB Am943 1/3.';
+	TEXT TAXON=41 TEXT='Steyer, 2002; MNHN MAE3030, 3034; RHMA01.';
+	TEXT TAXON=42 TEXT='Warren & Schroeder, 1995; Damiani, 2001.';
+	TEXT TAXON=43 TEXT='Warren, 1980; Damiani, 2001.';
+	TEXT TAXON=44 TEXT='UMZC T173; Watson, 1962; Damiani, 2001.';
+	TEXT TAXON=45 TEXT='Warren, 1980; Damiani, 2001.';
+	TEXT TAXON=46 TEXT='Damiani, 2001.';
+	TEXT TAXON=47 TEXT='Welles & Cosgriff, 1965; Shishkin et al2000; Damiani, 2001.';
+	TEXT TAXON=48 TEXT='Warren & Marsicano, 2000.';
+	TEXT TAXON=49 TEXT='Damiani, 2008; Morales & Shishkin 2002.';
+	TEXT TAXON=50 TEXT='Liu & Wang, 2005.';
+	TEXT TAXON=51 TEXT='Lehman 1966, 1979; Janvier, 1992; Schoch, 2006; Maganuco & Pasini, 2009.';
+
+	[Character comments]
+	TEXT CHARACTER=1 TEXT='ch20 - Yates & Warren, 2000.';
+	TEXT CHARACTER=2 TEXT='ch1 - Cosgriff & Zawiskie, 1979; modified.';
+	TEXT CHARACTER=3 TEXT='ch1 - Damiani & Yates, 2003. modified((because some rhytidosteid skulls are broad but not rounded))';
+	TEXT CHARACTER=4 TEXT='ch5 - Damiani & Yates, 2003; modified.';
+	TEXT CHARACTER=5 TEXT='ch4 - Damiani & Yates, 2003; modified';
+	TEXT CHARACTER=6 TEXT='ch29 - Steyer, 2003; polarity changed.';
+	TEXT CHARACTER=8 TEXT='ch23 - Steyer, 2003; ch15 - Damiani, 2001; modified.';
+	TEXT CHARACTER=9 TEXT='ch24 - Steyer, 2003.';
+	TEXT CHARACTER=10 TEXT='ch13 - Damiani, 2001a; modified. Notes: Although incompletely preserved in that area, condition (2) for Eryosuchus pronus, Warrenisuchus aliciae, Watsonisuchus gunganj, and  Watsonisuchus rewanensis can be excluded.';
+	TEXT CHARACTER=11 TEXT='ch5 - Steyer, 2002 (modified)';
+	TEXT CHARACTER=12 TEXT='ch5 - Damiani, 2001.';
+	TEXT CHARACTER=13 TEXT='ch33 - Yates & Warren, 2000; modified.';
+	TEXT CHARACTER=14 TEXT='ch7 Schoch 2006';
+	TEXT CHARACTER=15 TEXT='ch3 - Schoch et al., 2007.';
+	TEXT CHARACTER=16 TEXT='ch12 - Schoch 2006, modified';
+	TEXT CHARACTER=17 TEXT='ch11 - Damiani, 2001; ch26 - Steyer, 2003.';
+	TEXT CHARACTER=18 TEXT='ch11 Schoch 2006, reformulated';
+	TEXT CHARACTER=19 TEXT='ch3 - Schoch 2006, modified';
+	TEXT CHARACTER=20 TEXT='ch14 - Damiani, 2001; polarity changed and definition slightly modified, specificating that only adult individuals have been taken into account, the postorbital changing during ontogeny in some species.';
+	TEXT CHARACTER=21 TEXT='ch6 - Damiani, 2001.';
+	TEXT CHARACTER=22 TEXT='ch3 - Steyer, 2003.';
+	TEXT CHARACTER=23 TEXT='ch7 - Damiani, 2001; modified. Late adults of Edingerella madagascariensis are polimorfic (0,1).';
+	TEXT CHARACTER=24 TEXT='ch8 - Damiani, 2001.';
+	TEXT CHARACTER=25 TEXT='ch9 - Damiani, 2001.';
+	TEXT CHARACTER=26 TEXT='ch10 - Damiani, 2001; modified. Notes: according to Damiani (2001: 452) some taxa such as Cyclotosaurus robustus, Eryosuchus pronus, and  Wetlugasaurus angustifrons present both states 0 and 1.';
+	TEXT CHARACTER=28 TEXT='ch36 - Damiani, 2001; modified. Notes: in taxa with closed otic notch the well developed tabular projecting laterally is considered homologous to a horn.';
+	TEXT CHARACTER=29 TEXT='ch18 - Steyer, 2003; splitted and combined with ch4 - Damiani, 2001.';
+	TEXT CHARACTER=30 TEXT='ch12 - Damiani, 2001. Notes: in taxa in which a temporal fossa is present, the whole fossa has been considered (see text for more details); in taxa in which the otic notch is absent, it has been evaluated if the supratemporal reaches or not the posterior margin of the skull.';
+	TEXT CHARACTER=31 TEXT='ch3 - Damiani, 2001; modified.';
+	TEXT CHARACTER=33 TEXT='ch2 - Damiani, , modified';
+	TEXT CHARACTER=34 TEXT='ch15 - Yates & Warren, 2000';
+	TEXT CHARACTER=35 TEXT='ch46 - Yates & Warren, 2000.';
+	TEXT CHARACTER=36 TEXT='ch1 - Yates, 1999.';
+	TEXT CHARACTER=37 TEXT='ch17 - Steyer, 2003; ch17 - Damiani, 2001.';
+	TEXT CHARACTER=38 TEXT='ch11 - Steyer, 2003; modified. Notes: in species in which the basioccipital contributes to the occipital condyles, only the exoccipital portion has been taken into consideration.';
+	TEXT CHARACTER=39 TEXT='ch5 - Steyer, 2003; ch40 - Damiani, 2001; ch20 - Schoch 2007. Notes: Wellesaurus peabodyi is coded (?) in Steyer, 2003 and (1) in Damiani, 2001. ';
+	TEXT CHARACTER=40 TEXT='ch36, Y&W 2000; Lapillopsis nana was coded on the basis of a subadult individual';
+	TEXT CHARACTER=41 TEXT='ch33 - Steyer, 2003; ask Seb for where he found info about W. aliciae and W rewanensis';
+	TEXT CHARACTER=42 TEXT='ch35 - Yates & Warren, 2000.';
+	TEXT CHARACTER=43 TEXT='ch33 - Damiani, 2001.';
+	TEXT CHARACTER=44 TEXT='ch36 - Schoch 2006';
+	TEXT CHARACTER=45 TEXT='ch15 - Yates, 1999.';
+	TEXT CHARACTER=46 TEXT='ch7 - Steyer, 2003. Notes: Warrenisuchus aliciae is coded according to Damiani (2001), and contra Warren & Hutchinson (1988b).';
+	TEXT CHARACTER=47 TEXT='ch32 - Steyer, 2003;  ch18 - Damiani, 2001; modified.';
+	TEXT CHARACTER=48 TEXT='ch77 - Yates & Warren, 2000';
+	TEXT CHARACTER=50 TEXT='Notes: in Cyclotosaurus robustus the transvomerine tooth row has been considered slightly concave anteriorly, two or three lateral denticles curving anteriorly respect to the main transverse row. The denticles curving posteriorly have been considered homologous to the vomerine denticles aligned medial to the choanae, therefore not part of the transvomerine tooth row.';
+	TEXT CHARACTER=51 TEXT='ch35 - Schoch 2006';
+	TEXT CHARACTER=52 TEXT='ch19 - Steyer, 2003.';
+	TEXT CHARACTER=54 TEXT='ch32 - Steyer, 2002';
+	TEXT CHARACTER=55 TEXT='ch16 - Damiani, 2001; modified.';
+	TEXT CHARACTER=56 TEXT='ch34 - Schoch 2006';
+	TEXT CHARACTER=57 TEXT='ch47 - Schoch et al., 2007. In Chomatobatrachus the posterior third of the posteromedial process of the palatine runs medial to the anterior tip of the anterior ramus of the pterygoid: only the portion running medial to the ectopterygoid has been taken into account.';
+	TEXT CHARACTER=58 TEXT='ch18 - Damiani & Yates, 2003.';
+	TEXT CHARACTER=59 TEXT='ch8 - Steyer, 2003; modified.';
+	TEXT CHARACTER=61 TEXT='ch82 - Yates & Warren, 2000.';
+	TEXT CHARACTER=62 TEXT='ch51 - Yates & Warren, 2000; modified';
+	TEXT CHARACTER=63 TEXT='ch48 - Yates & Warren, 2000';
+	TEXT CHARACTER=64 TEXT='ch37 - Damiani, 2001; ch39 -  Steyer, 2003; see also discussion in Jeannot et al. (2006) about homology of the ridges in mastodonsauroids, lydekkerinids, and rhinesuchids.';
+	TEXT CHARACTER=65 TEXT='ch21 - Damiani, 2001.';
+	TEXT CHARACTER=66 TEXT='ch12 - Steyer, 2003; modified.';
+	TEXT CHARACTER=67 TEXT='ch24 - Damiani, 2001; modified.';
+	TEXT CHARACTER=68 TEXT='ch23 - Damiani, 2001; modified.';
+	TEXT CHARACTER=70 TEXT='ch39 - Schoch et al., 2007.';
+	TEXT CHARACTER=71 TEXT='ch42 - Schoch et al., 2007. Notes: Sclerothorax hypselonotus is indicated to possess large muscular pockets but it is not clear if they are confluent or not.';
+	TEXT CHARACTER=72 TEXT='misinterpreted in Steyer, 2003. See also Jeannot et al. (2006) for interpretations of the parasphenoid groove in lydekkerinids.';
+	TEXT CHARACTER=73 TEXT=' ch29 - Damiani, 2001; ch16 - Steyer, 2003.';
+	TEXT CHARACTER=74 TEXT='ch32 - Damiani, 2001. Notes: granular surfaces were not considered denticles. In Siderops kehli some denticles have been found associated with the skull but not attached to the bones: a denticle field seems to be absent at least on the parasphenoid.';
+	TEXT CHARACTER=75 TEXT='ch30 - Damiani, 2001; modified.';
+	TEXT CHARACTER=76 TEXT='ch38 - Steyer, 2003; polarity changed.';
+	TEXT CHARACTER=77 TEXT='ch37 - Damiani & Yates, 2003; modified.';
+	TEXT CHARACTER=78 TEXT='ch95 Y&W (2000), modified;According to Jeannot et al. (2006: 831)';
+	TEXT CHARACTER=79 TEXT='ch37 - Steyer, 2003.';
+	TEXT CHARACTER=80 TEXT='ch36  - Steyer, 2003.';
+	TEXT CHARACTER=81 TEXT='ch30 - Yates, 1999.';
+	TEXT CHARACTER=82 TEXT='ch42 - Damiani, 2001; Schoch et al., 2007; modified.';
+	TEXT CHARACTER=83 TEXT='ch43 - Damiani, 2001.';
+	TEXT CHARACTER=84 TEXT='ch44 - Damiani, 2001.';
+	TEXT CHARACTER=85 TEXT='ch47 - Damiani, 2001.';
+	TEXT CHARACTER=86 TEXT='ch100 - Yates & Warren, 2000';
+
+	[Character state comments]
+
+	[Attribute comments]
+
+	[Taxon pictures]
+
+	[Character pictures]
+
+	[Character state pictures]
+
+	[Attribute pictures]
+	PICTURE TAXON=15 CHARACTER=49 SOURCE=FILE PICTURE='­,';
+ENDBLOCK;
+

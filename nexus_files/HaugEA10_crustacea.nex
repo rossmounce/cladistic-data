@@ -1,0 +1,22 @@
+#NEXUS
+
+[Haug, J. T., Waloszek, D., Haug, C. & Maas, A. High-level phylogenetic analysis using developmental sequences: The cambrian †martinssonia elongata, †musacaris gerdgeyeri gen. et sp. nov. and their position in early crustacean evolution. Arthropod Structure & Development 39, 154-173 (2010). URL http://dx.doi.org/10.1016/j.asd.2010.01.005.]
+
+begin data;
+dimensions ntax=11 nchar=31;
+format missing=? gap=- symbols="0123";
+MATRIX
+Sh._zhenghei 0 0 0 0 0 0 0 - 0 - 1 0 0 0 0 - 1 0 0 0 - 0 1 ? 0 0 0 0 1 0 0
+Ol._serratus 0 0 0 1 1 0 0 - 0 - 0 1 0 0 0 - 0 1 0 0 - ? 0 0 0 0 0 0 0 0 0
+A._pisiformis 0 0 0 1 1 0 0 - 1 0 0 1 0 0 1 0 0 1 0 0 - 0 1 0 0 0 0 0 1 0 0
+H._scutula 0 0 1 1 1 0 1 0 1 1 0 1 0 1 1 1 0 1 0 1 0 0 1 1 1 0 1 0 1 1 0
+O._oelandica 0 0 1 1 1 0 0 0 1 1 0 1 0 1 1 1 0 1 0 0 0 0 1 1 1 0 0 0 1 1 0
+S._vestrogothiensis 0 0 1 1 1 0 ? 0 1 1 0 1 0 ? 1 1 0 1 0 ? 0 0 1 ? 1 0 ? 0 1 ? 0
+Cambropachycopidae 0 0 0 1 1 1 1 0 1 0 0 1 1 1 1 0 0 1 0 ? 0 1 0 0 0 - - 0 - - 0
+M._elongata 0 0 0 1 1 1 1 0 1 0 0 1 1 1 1 0 0 1 0 1 0 1 0 0 1 0 1 1 0 0 1
+Phosphatocopina 1 1 0 1 1 1 1 1 1 0 0 1 1 1 1 0 0 1 1 1 1 1 0 0 1 1 1 1 0 0 1
+Eucrustacea 1 1 0 1 1 1 1 1 1 0 0 1 1 1 1 0 0 1 1 1 1 0 1 0 1 1 1 0 1 0 1
+Mus._gerdgeyeri 0 0 0 1 1 1 1 0 1 0 0 1 1 1 1 0 0 1 0 ? 0 1 0 0 - - - - - - 1
+;
+end;
+

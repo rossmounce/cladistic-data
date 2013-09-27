@@ -1,0 +1,21 @@
+#NEXUS
+
+[!Clement, G., Snitting, D., and Ahlberg, P. E. 2009. A new tristichopterid (sarcopterygii, tetrapodomorpha) from the upper famennian evieux formation (upper devonian) of belgium. Palaeontology 52:823-836.]
+
+begin data;
+dimensions ntax=11 nchar=22;
+format missing=? gap=- symbols="0123";
+matrix
+Gogonasus          ? 0 0 0 0 0 ? 0 0 0 0 0 0 0 ? 0 0 1 0 0 0 0
+Medoevia           ? 0 0 0 0 0 0 0 0 0 0 0 0 0 ? 0 0 ? 0 0 0 0
+Cabonnichthys      1 1 0 1 0 0 1 1 1 1 1 1 1 1 2 1 1 0 0 1 1 1
+Eusthenodon        ? 1 1 1 1 1 1 1 1 1 1 1 1 1 ? ? 1 1 ? 1 1 1
+Eusthenopteron     0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 1
+Jarvikina          ? 1 0 0 0 0 0 1 0 ? 1 ? 0 0 ? 0 0 0 ? 0 0 1
+Langlieria         ? ? ? ? ? ? 1 1 1 1 ? ? 1 0 ? ? 1 1 1 ? 1 1
+Mandageria         1 1 1 1 1 1 1 1 1 1 1 1 0 1 2 1 1 1 1 1 1 1
+Notorhizodon       ? ? ? ? ? ? ? ? ? 1 1 1 0 0 ? ? 0 ? ? 0 1 1
+Platycephalichthys ? 1 1 1 ? ? 1 1 0 ? 1 1 0 0 ? 0 0 0 ? 0 1 1
+Tristichopterus    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+;
+end;

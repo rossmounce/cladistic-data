@@ -1,0 +1,38 @@
+#NEXUS
+
+[!Antoñanzas, R. L., Sen, S., and Mein, P. 2004. Systematics and phylogeny of the cane rats (rodentia: Thryonomyidae). Zoological Journal of the Linnean Society 142:423-444.
+ALL DENTAL]
+
+BEGIN DATA;
+DIMENSIONS NTAX=23 NCHAR=22;
+FORMAT SYMBOLS= "0123" MISSING=? GAP=-;
+        MATRIX
+Phiomys_andrewsi         0 0 0 0 0 0 - 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Metaphiomys_schaubi      0 0 0 1 2 0 - 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0
+Gaudeamus_aegyptius      0 1 0 0 0 0 - 1 1 1 1 0 0 0 1 1 ? 1 0 1 1 1
+Sacaresia_moyaeponsi     0 0 0 1 0 0 - 0 0 0 0 0 0 0 1 0 1 1 0 1 1 0
+Paraphiomys_simonsi      ? 1 1 - 2 1 0 1 1 0 1 0 0 0 0 0 0 0 0 1 0 2
+Paraphiomys_pigotti      1 1 1 - 2 1 0 0 0 1 1 2 0 0 0 1 0 0 1 0 0 1
+Neosciuromys_africanus   1 1 1 - 2 1 1 1 0 0 1 2 0 0 0 1 ? 0 0 0 1 2
+Paraphiomys_sp.nov.KSA     ? ? ? ? ? 1 0 0 0 0 1 2 ? ? ? 1 ? 0 ? 0 0 0
+Apodecter_stromeri       1 1 1 - 2 1 1 1 0 0 0 1 2 2 1 1 0 0 0 0 0 1
+Paraphiomys_orangeus     1 0 1 - 1 1 1 1 1 0 1 1 0 0 1 1 0 0 0 0 0 1
+Paraphiomys_hopwoodi     1 1 1 - 2 1 0 0 0 0 1 2 1 0 1 1 0 0 ? 1 1 1
+Paraphiomys_renelavocati_sp.nov.   1 1 1 - 2 1 1 1 0 0 0 1 0 1 1 1 0 0 1 1 1 1
+Epiphiomys_coryndoni     ? 0 0 1 2 1 0 0 0 0 0 1 2 0 1 1 ? 0 2 0 0 1
+Paraphiomys_occidentalis 1 1 1 - 2 1 0 1 0 0 1 1 0 0 0 1 ? 0 2 1 1 1
+Paraphiomys_shipmani     1 1 1 - 0 1 1 1 1 0 1 0 2 0 1 ? ? ? ? ? ? 0
+Kochalia_geespei         0 1 1 - 1 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1
+Paraulacodus_indicus     1 1 1 - 1 1 1 1 0 0 1 1 2 0 1 1 2 1 0 0 1 1
+Paraulacodus_johanesi    1 1 1 - 1 1 1 1 0 0 1 1 0 0 1 1 2 1 0 0 1 1
+Paraphiomys_afarensis    1 1 1 - 2 1 1 1 0 0 1 0 0 0 0 1 0 0 ? 0 1 1
+Paraphiomys_roessneri    1 0 1 - 1 0 - 1 0 0 0 0 0 2 1 1 0 1 2 0 0 1
+Paraphiomys_australis    1 0 1 - 2 0 - 1 0 0 0 0 2 2 1 0 ? 1 0 0 1 1
+Thryonomys_swinderianus  1 1 0 1 1 0 - 1 0 0 1 1 0 0 1 1 3 1 0 1 1 1
+Thryonomys_gregorianus   1 1 0 1 1 0 - 1 0 0 1 0 0 0 1 1 3 1 0 1 1 1
+;
+END;
+BEGIN ASSUMPTIONS;
+        OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ;
+END;
+

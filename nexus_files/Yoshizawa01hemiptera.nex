@@ -1,0 +1,21 @@
+#NEXUS 
+
+[!Sigwart, J. D. and Sutton, M. D. 2007. Deep molluscan phylogeny: synthesis of palaeontological and neontological data. Proceedings of the Royal Society B: Biological Sciences 274:2413-2419.]
+
+Begin data;
+	Dimensions ntax=10 nchar=20;
+	Format datatype=standard symbols="012" missing=? gap=-;
+	Matrix
+Plecoptera		00000	00000	00000	00000
+Mecoptera		00000	01000	00000	00000
+Megaloptera		00000	01000	00000	00000
+Psocoptera		00011	01101	11010	01001
+Thysanoptera		00112	10101	110?1	11111
+Sternorrhyncha		00012	01111	11011	01001
+Cicadomorpha		00012	01111	1?111	0100?
+Fulgoromorpha		01012	01111	1?111	0100?
+Lower_Heteroptera	10012	01111	11011	01001
+Higher_Heteroptera	10012	01111	11011	01101
+;
+end;
+

@@ -1,0 +1,364 @@
+#NEXUS
+[File created by TreeBASE: 2/1/04 19:16:01]
+[Matrix accession#: M1745]
+BEGIN DATA;
+DIMENSIONS NTAX=46 NCHAR=147;
+
+[!This data set was downloaded from TreeBASE, a prototype relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, and UC Davis. Please do not remove this acknowledgment from the Nexus file. 
+TreeBASE © 1994-2004.
+
+This file accessed from Brian O'Meara's mirror of TreeBASE at http://www.brianomeara.info/treebasematrix.php?id=1745 on June 20, 2010, 11:15 am 
+Brian is supported by the National Evolutionary Synthesis Center (NESCent), NSF #EF-0423641, though this TreeBASE mirror is not approved or necessarily supported by NESCent.
+If you use this file, you should probably cite TreeBASE and the original study. Citing this mirror site might be good, but isn't necessarily as important.
+
+Study reference: 
+Wappler, T., V.S. Smith, and R.C. Dalgleish. 2004. Scratching an ancient itch: an Eocene bird louse fossil. Proceedings of the Royal Society of London B (Supp), Biology Letters. In press.
+
+Study accession number = S1027
+Matrix accession number = M1745
+]
+FORMAT SYMBOLS = " 0 1 2 3 4 5 6 " MISSING = ? GAP = - INTERLEAVE ;
+CHARLABELS
+[1]	'Dorsal_head_seta_(D.H.S.)_8'	[2]	'D.H.S._9'	[3]	'Position_of_D.H.S._9_(if_present)'	[4]	'D.H.S._10'
+[5]	'D.H.S._11'	[6]	'D.H.S._14'	[7]	'D.H.S._15'	[8]	'D.H.S._16'	[9]	'D.H.S._17'
+[10]	'D.H.S._18'	[11]	'D.H.S._19'	[12]	'D.H.S._20'	[13]	'D.H.S._21'	[14]	'D.H.S._22'
+[15]	'D.H.S._23'	[16]	'Position_of_D.H.S._23_(if_present)'	[17]	'D.H.S._24'	[18]	'Development_of_D.H.S._24_(if_present)'	[19]	'D.H.S._25'
+[20]	'Development_of_D.H.S._25_(if_present)'	[21]	'D.H.S._26'	[22]	'Development_of_D.H.S._26_(if_present)'	[23]	'D.H.S._27'	[24] 'Alveoli_of_D.H.S._26_&_27_(if_present)'
+[25]	'D.H.S._28'	[26]	'D.H.S._29'	[27]	'D.H.S._30'	[28]	'D.H.S._31'	[29]	'Six_setae_(three_pairs)_down_the_midline_of_the_dorsal_head'
+[30]	'Sensillum_a'	[31]	'Sensillum_b'	[32]	'Sensillum_c'	[33]	'Sensillum_d'	[34]	'Sensillum_e'
+[35]	'Dorsolateral_head_margin_Preocular_feature'	[36]	'Dorsolateral_head_junction_with_temple_margin.'	[37]	'Thickness_of_the_Tentorial_bridge'	[38] 'Mouthparts'	[39]	'Maxillary_palpus'
+[40]	'Maxillary_palp_segmentation'	[41]	'Isolated_subterminal_setae_on_the_distal_segment_of_the_maxilliary_palp'	[42] 'Alevoli_of_maxilliary_palp_subterminal_setae_(if_present)'	[43]	'Ventral_post-palpal_processes'	[44]	'Number_of_post-palpal_processes_(if_present)'
+[45]	'Labial_palps'	[46]	'Number_of_terminal_setae_on_labial_palpus_(if_present)'	[47]	'Antennal_length'	[48] 'No_of_flagellar_segments_(in_the_short_antennae)'	[49]	'Secondary_annulation_of_flagellar_segments'
+[50]	'Flagellum_shape'	[51]	'Shape_of_the_first_flagellar_segment'	[52]	'Scleratisation_of_the_first_flagellar_segment'	[53]	'Antennal_fossae'	[54] 'Form_of_the_antennal_fossae_(if_present)'
+[55]	'Setae_at_the_anterior_termination_of_the_ventrolateral_head_margin'	[56] 'Presence_of_a_well_developed_and_compact_setal_comb_row_lining_the_ventrolateral'	[57] 'Isolated_subocular_setae_anterior_to_the_comb_row_(if_present)'	[58]	'Subocular_seta_(if_present)'	[59]	'Anterior_setae_of_comb_row_(if_present)'
+[60]	'Continuity_between_the_setae_of_the_subocular_comb_row_and_the_anterior_marginal'	[61]	'Submarginal_ventral_temporal_setae'	[62]	'Sub-marginal_temporal_setae_(if_present)'	[63]	'Area_of_sculpturing_on_ventral_submargin_of_the_temple'	[64] 'Form_of_sculpturing_on_ventral_submargin_of_the_temple_(if_present)'
+[65]	'Transverse_pronotal_carina'	[66]	'Posterior_pronotal_setal_row'	[67]	'Setae_medial_to_the_lateral_seta_of_the_dorsal_prothorax'	[68] 'Postnotum_at_the_posterior_pronotum'	[69]	'Anterior_mesonotal_setae'
+[70]	'Number_of_anterior_mesonotal_setae_(if_present)'	[71]	'Position_of_anterior_mesonotal_setae'	[72] 'Setae_borne_on_a_protruberance_each_side_of_the_mesonotum'	[73]	'Fusion_of_mesonotum_and_metanotum'	[74]	'Fusion_of_metanotum_and_tergum_1'
+[75]	'Terminal_metanotal_row'	[76]	'Second_seta_of_the_metanotal_row_(if_present)'	[77]	'Development_of_the_prothoracic_prosternal_plate'	[78] 'Marginal_position_of_prosternal_plate_anterior_setae'	[79]	'Prosternal_plate_anterior_setae'
+[80]	'Prosternal_plate_anterior_setae_(if_detached)'	[81]	'Prosternal_plate_antero-lateral_setae'	[82] 'Additional_setae_on_prosternal_plate_aside_from_the_anterior_and_the_anterolater'	[83]	'Prosternal_plate_posterior_margin'	[84] 'Well_defined_marginal_border_of_Prosternal_plate'
+[85]	'Prosternal_plate_marginal_border_(if_present)'	[86]	'Mesosternum_type'	[87]	'Metasternal_plate'	[88]	'Shape_of_anterior_coxa_(Coxa_1)'	[89] 'Posterior_setae_of_first_coxa'
+[90]	'Shape_of_the_third_femur'	[91]	'Pattern_of_setae_on_the_venter_of_the_third_femur.'	[92]	'Number_of_combs_on_venter_of_F3'	[93] 'Dorsal_tibial_setae.Additional_submarginal_row_of_short_setae_on_legs_two_and_th'	[94]	'Number_of_tarsal_segments'
+[95]	'Euplantula_1'	[96]	'Form_of_Euplantula_1'	[97]	'Claw_shape'	[98]	'Lateral_tergal_thickening'	[99]	'Female_tergites'
+[100]	'Tergal_setal_rows'	[101]	'Additional_anterior_tergal_setae_on_T2,_at_least_in_females'	[102] 'Additional_anterior_tergal_setae_on_T3,_at_least_in_females'	[103]	'Additional_anterior_tergal_setae_on_T4,_at_least_in_females'	[104] 'Additional_anterior_tergal_setae_on_T5,_at_least_in_females'
+[105]	'Additional_anterior_tergal_setae_on_T6,_at_least_in_females'	[106]	'Additional_anterior_tergal_setae_on_T7,_at_least_in_females'	[107] 'Additional_anterior_tergal_setae_on_T8,_at_least_in_females'	[108]	'Tergite_1,_seta_a'	[109]	'Tergite_2,_seta_a'
+[110]	'Spiracle_position'	[111]	'Distribution_of_post-spiracular_seta_c_(if_present)'	[112]	'Position_of_postspiracular_seta_(if_present)'	[113] 'Position_of_Post-spiracular_setae_c_to_the_posterior_tergal_setae_T2-8'	[114]	'Abdominal_tergal_seta_b'
+[115]	'Position_of_lateral_seta_b_to_post-spiracular_setae_c_(T2)'	[116]	'Position_of_lateral_seta_b_to_post-spiracular_setae_c_(T3)'	[117] 'Position_of_lateral_seta_b_to_post-spiracular_setae_c_(T4)'	[118]	'Position_of_lateral_seta_b_to_post-spiracular_setae_c_(T5)'	[119] 'Position_of_lateral_seta_b_to_post-spiracular_setae_c_(T6)'
+[120]	'Position_of_lateral_seta_b_to_post-spiracular_setae_c_(T7)'	[121]	'Lateral_plate_shape'	[122] 'Additional_anterior_lateral_plate_setae_on_LP2,_at_least_in_females'	[123]	'Additional_anterior_lateral_plate_setae_on_LP3,_at_least_in_females'	[124] 'Additional_anterior_lateral_plate_setae_on_LP4,_at_least_in_females'
+[125]	'Additional_anterior_lateral_plate_setae_on_LP5,_at_least_in_females'	[126]	'Additional_anterior_lateral_plate_setae_on_LP6,_at_least_in_females' [127]	'Additional_anterior_lateral_plate_setae_on_LP7,_at_least_in_females'	[128]	'Pattern_of_steae_on_St_3'	[129]	'Development_of_St_3_patch'
+[130]	'Number_of_combs_on_St_3'	[131]	'Pattern_of_setae_on_St_4'	[132]	'Development_of_St4_patch'	[133]	'Number_of_combs_on_St_4'	[134] 'Pattern_of_steae_on_St_5'
+[135]	'Development_of_St5_patch'	[136]	'Pattern_of_steae_on_St_6'	[137]	'Development_of_St6_patch'	[138]	'Pattern_of_steae_on_St_7'	[139] 'Development_of_St_7_patch'
+[140]	'Presence_of_a_setal_fringe_around_the_female_anal_margin'	[141]	'Form_of_the_female_anal_corona_(where_present)'	[142] 'Presence_of_gonapophyses_in_the_female'	[143]	'Paramere_shape'	[144]	'Paramere_position'
+[145]	'Mesosomal_arch'	[146]	'Basal_apodeme'	[147]	'basal_apodeme_apex_shape'
+;
+STATELABELS
+1 'absent' 'present',
+2 'absent' 'present',
+3 'marginal' 'submarginal_and_separate_from_the_other_preocular_setae',
+4 'absent' 'present',
+5 'absent' 'present',
+6 'absent' 'present',
+7 'absent' 'present',
+8 'absent' 'present',
+9 'absent' 'present',
+10 'absent' 'present',
+11 'absent' 'present',
+12 'absent' 'present',
+13 'absent' 'present',
+14 'absent' 'present',
+15 'absent' 'present',
+16 'nearer_to_DHS_21_and_22' 'sited_far_across_the_temple_into_the_parietal_area',
+17 'absent' 'present',
+18 'Macro_setae_TYPE_A$_well_developed,_very_robust_with_distinct_large_alveoli._Becomes_finer_distally_until_a_very_fine_point_and_reaches_at_least_to_the_transverse_pronotal_carina._Normal_setae_TYPE_B$_Normal_setae_TYPE_C' 'microseta,_micro_dot_seta-_mini_micro_seta._Not_a_true_micro_setae_but_noticeably_less_developed.',
+19 'absent' 'present',
+20 'Macro_setae_TYPE_A$_well_developed,_very_robust_with_distinct_large_alveoli._Becomes_finer_distally_until_a_very_fine_point_and_reaches_at_least_to_the_transverse_pronotal_carina._Normal_setae_TYPE_B$Normal_setae_TYPE_C$' 'microseta._micro_dot_seta-_mini_micro_setae._Not_a_true_micro_setae_but_noticeably_less_developed.',
+21 'absent' 'present',
+22 'Macro_setae_TYPE_A$_well_developed,_very_robust_with_distinct_large_alveoli._Becomes_finer_distally_until_a_very_fine_point_and_reaches_at_least_to_the_transverse_pronotal_carina._or_Normal_setae_TYPE_B$_thinner,_moderately_developed,_less_robust_wit' 'microseta,_micro_dot_seta_or_not_a_true_micro_setae_but_noticeably_less_developed.',
+23 'absent' 'present',
+24 'alveoli_separate' 'alveoli_contiguous',
+25 'absent' 'present',
+26 'absent' 'present',
+27 'absent' 'present',
+28 'absent' 'present',
+29 'absent_' 'present_',
+30 'absent' 'present',
+31 'absent' 'present',
+32 'absent' 'present',
+33 'absent' 'present',
+34 'absent' 'present',
+35 'no_feature,_unbroken_margin' 'notch' 'slit',
+36 'smooth_line_junction_from_dorsolateral_margin_through_ocular_margin_to_anterior_temple_margin' 'ocular_margin_pronounced,_but_does_not_overlap_the_anterior_temple_margin' 'occular_margin_overlaps_the_anterior_temple_margin' 'occular_margin_and_temple_margin_overlap_the_dorsolateral_margin',
+37 'thick_or_with_little_reduction_' 'reduced_and_narrow' 'reduced_and_wide' 'reduced_to_a_fine_ligament',
+38 'chewing_' 'modified_into_hollow_stylets_for_piercing',
+39 '4_segmented' 'less_than_4_segments',
+40 'alternately_short_and_long' 'First_few_segments_similar_in_length',
+41 'absent' 'present',
+42 'margins_distict_and_separate' 'margins_continuous',
+43 'absent' 'present',
+44 'one' 'two',
+45 'absent' 'present',
+46 'five' 'more_than_10',
+47 'long' 'much_reduced',
+48 'two_segmented' 'three_segmented',
+49 'absent' 'present',
+50 'filliform' 'globular',
+51 'cylindrical' 'pedunculate',
+52 'regular_and_complete_scleratisation_' 'irregularly_scleratised',
+53 'absent_or_poorly_developed' 'present',
+54 'long_and_shallow' 'short,_very_deep_and_pouch-like' 'short_and_shallow' 'short_and_deep',
+55 'one_long,_one_short' 'two_short_and_stout' 'three_all_short' 'one_short_and_stout' 'two_long',
+56 'absent' 'present_at_least_posteriorly',
+57 'subocular_seta_not_isolated_from_comb_row_or_anterior_setae_(where_present)' 'present',
+58 'normal_seta' 'flattened',
+59 'absent' 'present',
+60 'Both_setal_groups_appear_continuous_as_the_comb_row_extends_down_to_the_termination_of_the_anterior_temporal_setae.' 'The_two_setal_arrangements_appear_distinctly_separated/separated_by_the_inclusion_of_a_section_of_differing_setae._These_are_unlike_either_the_comb_row_or_the_marginal_temporal_setae._Often_with_the_sub_temporal_patch.',
+61 'absent' 'present',
+62 'Patch__or_irregular_row_of_setae._Much_finer_than_comb_row._Usually__extends_half_around_temple.' 'weakly_developed,_a_short_single_row_of_setae_finer_than_the_comb_row._Usually_widely_spaced_and_small_in_number._Does_not_extend_far_round_into_the_anterior_marginal_temporal_setae.' 'Compact,_single_row_of_quite_robust_setae._Extends_to_half_way_around_temple.',
+63 'absent_' 'present',
+64 'single_spikes' 'multi-tipped_spikes' 'fringe-like' 'simple_scales' 'spike_tipped_scales',
+65 'absent' 'present',
+66 'absent' 'incomplete' 'complete,_across_the_posterior_prothorax',
+67 'short' 'well_developed',
+68 'absent' 'present',
+69 'absent' 'present',
+70 'two' 'four',
+71 'clustered_around_the_postnotum_' 'widely_spaced',
+72 'absent' 'present',
+73 'independant' 'fused_to_metanotum',
+74 'independant' 'metanotum_fused_to_tergum_1',
+75 'absent' 'present',
+76 'much_shorter_than_outer_metanotal_seta,_often_peg-like' 'as_developed_as_outer_metanotal_seta' 'absent',
+77 'absent_or_too_undeveloped_to_figure' 'present_at_least_posteriorly',
+78 'absent' 'at_or_near_the_most_anterior_point_of_the_lateral_margin_' 'at_or_near_the_mid_point_of_the_anterior_margin',
+79 'on_main_body_of_plate' 'detached_and_anterior_to_main_body_of_plate',
+80 'situated_on_small_islands_of_scleratisation' 'on_undeveloped_areas_of_sternal_prothorax',
+81 'absent' 'present',
+82 'absent' 'present',
+83 'rounded' 'angular_' 'long_pointed_spine' 'pedestal_' 'flat_and_square' 'concave' 'posterior_margin_absent',
+84 'absent' 'present',
+85 'only_lateral_or_lateral_and_anterior' 'lateral_and_posterior_but_not_anterior' 'complete,_encircling_the_plate',
+86 'articulation_of_leg_separated_from_the_other_side_by_an_area_without_a_plate' 'articulation_of_leg_separated_from_the_other_side_by_a_plate' 'mesonotum,_pleura_and_sternum_fused_in_a_scleritised_ring_around_the_body',
+87 'absent_' 'present',
+88 'roughly_spherical' 'antero-posteriorly_extended',
+89 'four_or_five_setae_' 'more' 'two_or_three',
+90 'hugely_inflated_compared_to_femora_1_and_2' 'femora_3_not_inflated',
+91 'many_small_setae_dotted_all_over' 'many_setae_above_and_below,_but_absent_from_the_venter_of_the_third_femur' 'many_setae_arranged_into_a_central_discrete_patch' 'many_setae_arranged_into_central_discrete_combs.' 'large_patch_of_micro_combs' 'fewer_setae_but_with_no_evident_pattern' 'femur_almost_devoid_of_setae',
+92 'two' 'three' 'four',
+93 'absent' 'present',
+94 'three' 'two',
+95 'absent' 'present',
+96 'horizontal_and_vertical_banding' 'vertical_banding_only_' 'serrated_and_globular',
+97 'claws_have_a_protrubance_proximally_and_are_not_serrated_' 'claws_have_one_sharp_tooth_distally_and_are_serated_proximally_',
+98 'absent' 'present',
+99 'composed_of_one_plate' 'tripartite_with_narrow_central_plate',
+100 'absent_or_very_sparse' 'regular_row_of_setae_reaches_across_the_tergite' 'very_well_developed_and_compact_row',
+101 'absent' 'present',
+102 'absent' 'present',
+103 'absent_' 'present',
+104 'absent_' 'present',
+105 'absent_' 'present',
+106 'absent_' 'present',
+107 'absent' 'present',
+108 'absent' 'present',
+109 'absent' 'present',
+110 'open_onto_central_tergites' 'open_onto_lateral_plates' 'on_the_middle_part_of_a_partially_divided_lateral_plate',
+111 'absent_' 'present_on_T2_-_8' 'modified_as_trichobothria_on_T2_-_4_and_present_as_normal_setae_on_T5_-_8',
+112 'generally_posterior_to_spiracle._poss_slightly_lateral_or_medial' 'extremely_latero-posterior_to_spiracle',
+113 'marginal' 'submarginal',
+114 'absent' 'present',
+115 'directly_anterior' 'submarginal' 'marginal' 'posterior',
+116 'directly_anterior' 'submarginal' 'marginal' 'posterior',
+117 'directly_anterior' 'submarginal' 'marginal' 'posterior',
+118 'directly_anterior' 'submarginal' 'marginal' 'posterior',
+119 'directly_anterior' 'submarginal' 'marginal' 'posterior',
+120 'directly_anterior' 'submarginal' 'marginal' 'posterior',
+121 'normal_and_squared_off_' 'ventral_posterior_margin_developed_into_a_medially_posterior_running_protruberance___',
+122 'absent' 'present',
+123 'absent' 'present',
+124 'absent' 'present',
+125 'absent_' 'present_',
+126 'absent_' 'present',
+127 'absent_' 'present_',
+128 'regular,_non_aggregated' 'setal_patch' 'setal_combs',
+129 'well_developed_' 'weakly_developed',
+130 'one' 'two',
+131 'regular,_non_aggregated' 'setal_patch' 'setal_combs',
+132 'well_developed' 'weakly_developed',
+133 'one' 'two' 'three_or_more',
+134 'regular,_non_aggregated' 'setal_patch' 'patch_of_microcombs',
+135 'well_developed' 'weakly_developed',
+136 'regular,_non_aggregated' 'setal_patch' 'patch_of_microcombs',
+137 'well_developed' 'weakly_developed',
+138 'regular,_non_aggregated' 'patch',
+139 'well_developed' 'weakly_developed',
+140 'absent' 'present',
+141 'wide_anal_margin_with,_usually_obvious,_thick_fringe_of_setae' 'as_above,_but_fringe_very_short_and_fine' 'small_rounded_protruding_anal_margin_with_short_fine_fringe' 'anal_fringe_composed_of_short_stout_spine-like_setae',
+142 'absent' 'present',
+143 'outwardly_curved' 'straight_or_inwardly_curved',
+144 'parameres_arise_form_around_half_way_down_the_body_of_the_adaegus' 'parameres_arise_near_the_posterior_of_the_adaegus',
+145 'indistinct' 'bulbous_well_defined_arch',
+146 'unscleratised,_largely_absent' 'very_thin,_stick-like_rod' 'medium_to_wide_tapering_rod' 'bulbous,_paddle-like_rod',
+147 'unscleratised' 'rounded_tip' 'hooked_tip' 'pointed_tip' 'wide_squared_apex',
+
+;
+
+MATRIX
+
+'Piagetiella_bursaepelecani' 1101111111111111101010111111001100200001110-1010011013010011100-121111000011110-0101111101(23)211110002
+'Psittacomenopon_poicephalus' 1101111111111111111111111111001100220001110-1010011012011011100-120111000010111100011111013111110012
+'Osborniella_crotophagae' 1101111111111111111111111111011100020001110-1010011013011011100-12011100001011100001111101(23)111110001
+'Odoriphila_clayae-phoeniculi' 1101111111111111111111111111001100222001111110100110130110011114120111000012110-0100-111013011110002
+'Cuculiphilus_fasciatus' 1101111111111110111110101111001110220001?10-1011011013010011100-12011100001011110010-21101(23)211110001
+'Ciconiphilus_quadripustulatus' 1101111111111111111111111111001100220001110-1010011013010011100-120111000010011100---11101(23)111110001
+'Ardeiphilus_trochioxus' 11011111111111110-1111111111011100120001110-10100110130110111014120111000010011100---11101(23)211110001
+'Comatomenopon_elbeli-elongatum' 1101111111111111111111110111011100110001110-10100010120110011014120111000011011100---111013111110001
+'Copocephalum_zebra' 1101111111111111111111111110011100110001110-10100111120110011014120111000011011100---11101(23)111110011
+'Trinoton_anserinum' 11011111101111101111101011110000001200010-0-10100110110100110-0-121111100010121101111111012-01110001
+'Pseudomenopon_pilosum' 1101111111111110101111111111000100222001110-10100110130110100-0-12111100001012110010-111012-01100001
+'Hoazineus_armiferus' 1101111111111110101011111110011000220001110-1010001010011001120-121111000011011000---111012-11110001
+'Eomenopon_denticulatum' 110111111111111111111111111101010020200111101010011013010011110-12111100001012110010-111112-01100002
+'Meromenopon_meropis' 1101111111111111111111111111001000021001110-1010011012011111100-121111000010111000010111012-11100001
+'Gruimenopon_longum' 1101111111111110111011101111000110020001110-1010001013011001120-121111000011011100---111012-11100002
+'Chapinia_robusta' 1101111111111110111110101111010000221001110-10100110134100100-0-121111000010111000010111012-11100002
+'Actornithophilus_uniseriatus' 1101111111111110111011101111001110120001110-10100110120110000-0-120111100011120-0130-111012-01100001
+'Plegadiphilus_threskiornis' 1101111111111110101111111111001000120001110-1010011013011110110-12011100001011100000-111012-01100002
+'MEGAMENOPON' ????????????11101?1?1?10?111???????0????????????????1???????????????????00???????????????1???1???002
+'Austromenopon_crocatum' 1101111111111110111011101111011100000001110-10110110130111100-0-121111000010111000211011112-01100002
+'Holomenopon_brevithoracicum' 1101111111111110111011101111000101000001110-10100110110111100-0-121111000010111000211111012-01100002
+'Eidmanniella_pellucida' 1101111111111110111011101111001110200001110-10100110110111110-0-120111000010111000211111112-01100001
+'Machaerilaemus_laticorpus-latifrons' 11011110111111100-10111111110000000220010-0-101001101100----0-14121110000010110-01211111111-01110001
+'Ancistrona_vagelli' 11011111111111101{01}1{01}101011110001000200010-0-101001101300----0-0-121111000010111000012111115-01110001
+'Myrsidea_victrix' 110111111011110-111110101111000000020001110-10100110120110000-0-12111000001110--10312211012-01100001
+'Dennyus_hirundinis' 1101111110111110111110101111011000021001110-10100110120110000-0-121110000011110-11312111012-01100001
+'Neomenopon_pteroclurus' 1101111111111110111111111111000000022001110-10100110130110100-14120111000010111100011111012-01110001
+'Colimenopon_urocolius' 1101111111111110101111111111011100032001110-10100110110100100-13121111000010120-01211111112-01110002
+'Menacanthus_stramineus' 1101111111111110101111111111011110220001111010100110130100110-10121111000010110-00211111112-01100002
+'Hohorstiella_lata' 1101111111111110111111111111000000220001111010100110130110111110120111000010111000211111012-01100001
+'Numidicola_antennatus' 1101111111111111101011111111011100010001110-10100011100110110-1112100--00011110-0010-111012-01100002
+'Menopon_gallinae' 1101111111111110111111111111011100200001110-10100011100110110-11121111000010011100---001012-01100001
+'Bonomiella_columbae' 110111111111111011111{01}111111000000120001110-10100110120100110-0-120110000010011100---111015-01110001
+'Somaphantus_lusius' 1101111111111110101111111110011100010001100-101000110-0110100-0-121111000011110-0040-111012-01100002
+'Rediella_mirabilis' 110111101011110-101111101111000000000001110-101100110-0110000-0-020011100011120-0060-111015-01110001
+'Amyrsidea_ventralis' 1101111111111110101111111111011100200001110-10100011100110110-13121111000011110-0010-111012-01100002
+'Paraboopia_flava' 1111111111111110111111101110000000223011110-101101101000----0-0-12111101010-12111110-211015-010-0001
+'Latumcephalum_lesouefi-macropus' 11111011111111101011101011100000002230111111101101101200----0-0-12111101010-11111110-211215-010-0001
+'Boopia_tarsata' 11111011101111101111111111010000002130011110101100101000----0-0-12111101010-120-1000-111215-01120001
+'Paraheterodoxus_insignis' 11011011111111100-1111111111001110213001110-101100101000----0-0-12111101010-120-1100-111215-01120002
+'Therodoxus_oweni' 11011011111111100-11111111110011102130011010101100101000----0-0-12111101010-11111010-211215-01120001
+'Trochiliphagus_abdominalis' 110110000010000-0-0-0-0-00001000000031010-0-0-1101101330----0-0-01-00--0110-120-00010111216-01110100
+'Trochiloecetes_rupununi' 00-000000000000-0-0-0-0-000010000000?1010-100-1101101310----0-0-01-00--0110-120-00510111216-01110100
+'Ricinus_fringillae' 110110100010000-0-0-0-0-00001001000030010-0-0-1101101310----0-0-01-00--0110-120-00010111216-01110100
+'Laemobothrion_maximum' 00-0000111111111111111111111000000013001100-101001101220----0-1211-00--01011120-0130-111014-01110101
+'Liposcelis_bostrychophilus' 00-000000000000-0-0-0-0-00000000000000000-0-110-10000-00----0-0-00-00--0100-110-1140-110000-000-1001
+
+
+'Piagetiella_bursaepelecani' 0000000110100122222200011112-12-00-0-0-10010013
+'Psittacomenopon_poicephalus' 1111111110101133333301111112-10--0-0-0-10010021
+'Osborniella_crotophagae' 0000000110100122222201111112-10--0-0-0-10010013
+'Odoriphila_clayae-phoeniculi' 1111110110101133333301111112-02-00-0-0-10010013
+'Cuculiphilus_fasciatus' 0000000110101133322201111112-12-20-0-0-10000021
+'Ciconiphilus_quadripustulatus' 0000000110101133322201111112-10--0-0-0-10010013
+'Ardeiphilus_trochioxus' 0000000110101133333301111112-12-10-0-0-10010013
+'Comatomenopon_elbeli-elongatum' 1111111110101122222201111112-10--0-0-0-10010013
+'Copocephalum_zebra' 1111111110101133333301111112-10--0-0-0-10010013
+'Trinoton_anserinum' 1111110110100122222200111110--10-10110-10010013
+'Pseudomenopon_pilosum' 0000000110100122222210000000--11-110-0-10010021
+'Hoazineus_armiferus' 0000000110101111111101111110--10-100-0-10010021
+'Eomenopon_denticulatum' 0000000110100122222201111112-02-00-0-0-10010021
+'Meromenopon_meropis' 1111110110101122222211111110--10-10110-10010021
+'Gruimenopon_longum' 0000000110101122222201111110--10-0-0-0-11010022
+'Chapinia_robusta' 0000000110100122222201111110--10-10100-10000024
+'Actornithophilus_uniseriatus' 0000000110100122222201111110--10-0-0-0-11010012
+'Plegadiphilus_threskiornis' 0000000110100122222210111110--11-10100-10010012
+'MEGAMENOPON' ?????????0??????????0??????????????????1???????
+'Austromenopon_crocatum' 00000001101001222222011111111-10-100-0-10010021
+'Holomenopon_brevithoracicum' 00000001101011222222001111111-10-100-0-11010021
+'Eidmanniella_pellucida' 0000000110100122222201111110--10-10100-10000020
+'Machaerilaemus_laticorpus-latifrons' 00000001001001222222011111111-11-11111110000020
+'Ancistrona_vagelli' 0000000110100122222200000000--11-11110-11010024
+'Myrsidea_victrix' 00000001001001222222000000011-10-10101010000021
+'Dennyus_hirundinis' 0000000110100122222200000000--0--10100-10010021
+'Neomenopon_pteroclurus' 0000000100100122222201111110--11-101010??0-----
+'Colimenopon_urocolius' 1111111110100122222201111110--11-11110-10010021
+'Menacanthus_stramineus' 11111111101011222222011111110-10-10110-10011021
+'Hohorstiella_lata' 00000001101001222222011111111-10-10110-10000021
+'Numidicola_antennatus' 0000001110101122222201111110--11-11110-12000021
+'Menopon_gallinae' 0000000110101122222201111110--10-0-0-0-1200000-
+'Bonomiella_columbae' 0000000110100122222200000000--0--0-0-0-100-----
+'Somaphantus_lusius' 1111111110101111111101111110--11-0-0-0-0-01000-
+'Rediella_mirabilis' 0000000110100111112201111110--0--0-0-0-0-000012
+'Amyrsidea_ventralis' 11111111101011222222011111110-10-110-0-1300000-
+'Paraboopia_flava' 0111111-11101111122200111110--0--0-0-0-0-111130
+'Latumcephalum_lesouefi-macropus' 0111111-11101111122200111110--0--0-0-0-0-111130
+'Boopia_tarsata' 0000000-11200133322200111110--0--0-0-0-0-111130
+'Paraheterodoxus_insignis' 0111111-12201133322200111110--0--0-0-0-0-111130
+'Therodoxus_oweni' 0000000-10201111122200011110--0--0-0-0-0-111030
+'Trochiliphagus_abdominalis' 0000000-00110100000000000000--0--0-0-0-0-011021
+'Trochiloecetes_rupununi' 0000000-00111100000000000000--0--0-0-0-0-010021
+'Ricinus_fringillae' 0000000-00111100000000000000--0--0-0-0-0-011021
+'Laemobothrion_maximum' 00000001101110------01111110--0--20200-0-011020
+'Liposcelis_bostrychophilus' 11111110000--0------01111110--0--0-0-0-0-0-----
+;
+END;
+
+BEGIN ASSUMPTIONS;
+CHARSET Megamen_Characters = 13 - 17 19 21 23 - 24 26 - 28 36 53 73 - 74 90 94 98 - 100 110 121 140 ; 
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; 
+END;
+BEGIN TREEBASE;
+END;
+
+BEGIN TREES;
+
+[! 1 trees. TreeBASE accession#: Tree2979 ]
+TRANSLATE
+1	'Machaerilaemus_laticorpus-latifrons',
+2	'Latumcephalum_lesouefi-macropus',
+3	'Comatomenopon_elbeli-elongatum',
+4	'Ciconiphilus_quadripustulatus',
+5	'Odoriphila_clayae-phoeniculi',
+6	'Actornithophilus_uniseriatus',
+7	'Holomenopon_brevithoracicum',
+8	'Psittacomenopon_poicephalus',
+9	'Liposcelis_bostrychophilus',
+10	'Trochiliphagus_abdominalis',
+11	'Plegadiphilus_threskiornis',
+12	'Piagetiella_bursaepelecani',
+13	'Paraheterodoxus_insignis',
+14	'Trochiloecetes_rupununi',
+15	'Osborniella_crotophagae',
+16	'Menacanthus_stramineus',
+17	'Neomenopon_pteroclurus',
+18	'Austromenopon_crocatum',
+19	'Eidmanniella_pellucida',
+20	'Eomenopon_denticulatum',
+21	'Ardeiphilus_trochioxus',
+22	'Cuculiphilus_fasciatus',
+23	'Laemobothrion_maximum',
+24	'Numidicola_antennatus',
+25	'Colimenopon_urocolius',
+26	'Pseudomenopon_pilosum',
+27	'Amyrsidea_ventralis',
+28	'Bonomiella_columbae',
+29	'Meromenopon_meropis',
+30	'Hoazineus_armiferus',
+31	'Ricinus_fringillae',
+32	'Rediella_mirabilis',
+33	'Somaphantus_lusius',
+34	'Gruimenopon_longum',
+35	'Trinoton_anserinum',
+36	'Copocephalum_zebra',
+37	'Ancistrona_vagelli',
+38	'Dennyus_hirundinis',
+39	'Hohorstiella_lata',
+40	'Therodoxus_oweni',
+41	'Paraboopia_flava',
+42	'Menopon_gallinae',
+43	'Myrsidea_victrix',
+44	'Chapinia_robusta',
+45	'Boopia_tarsata',
+46	'MEGAMENOPON',
+;
+TREE 'Fig._2' = [&R] (9,(23,((40,((13,(2,41)),45)),(((((((((((((27,(42,24)),33),(16,25)),35),29),(34,30)),(((20,12),(((((36,3),8),5),21),4,22)),15)),(39,(17,1))),(19,(7,18,46))),(((28,26),(38,43),37),44)),11),6),32))),((31,10),14));
+
+
+END;

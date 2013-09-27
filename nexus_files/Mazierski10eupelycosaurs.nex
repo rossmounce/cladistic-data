@@ -1,0 +1,22 @@
+#NEXUS
+
+[Mazierski, D. M. and Reisz, R. R. 2010. Description of a new specimen of Ianthasaurus hardestiorum (Eupelycosauria: Edaphosauridae) and a re-evaluation of edaphosaurid phylogeny. Canadian Journal of Earth Sciences 47:901-912.]
+
+Begin data;
+	Dimensions ntax=11 nchar=39;
+	Format datatype=standard symbols="012" gap=-;
+	Matrix
+Mycterosaurus 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 ?	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Ophiacodon 0 0 0 0 1 0 0 0 ? 1 0 0 0 0 ? 0 0 0 0 0	0 0 0 0 0 0 0 0 0 0 1 0 0 ? 0 1 1 1 0
+Haptodus 0 0 0 0 1 1 0 2 0 0 0 0 0 1 0 0 0 0 0 0	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Ianthasaurus 0 0 ? 0 1 1 0 0 0 0 0 0 0 1 1 0 0 0 0 1	0 0 0 ? 0 1 1 1 1 0 0 0 0 0 0 0 0 0 1
+Glaucosaurus 0 0 1 1 0 0 0 2 1 ? 0 ? ? ? ? ? ? ? 1 ?	0 ? ? 0 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Lupeosaurus ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?	? ? ? ? 1 1 1 1 0 0 1 1 1 1 1 0 ? 0 1
+E._colohistion ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?	? ? ? ? ? 1 2 1 1 0 ? 0 ? ? ? ? 1 1 ?
+E._novomexicanus 1 ? ? 1 1 1 1 2 1 0 1 1 ? 1 1 1 1 1 1 1	1 ? ? ? 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ?
+E._boanerges 1 1 1 1 0 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1	1 1 0 1 1 1 2 1 1 0 1 1 1 1 1 1 1 1 1
+E._cruciger 1 1 ? 1 0 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1	1 1 1 1 1 1 2 1 2 1 1 1 1 1 1 1 1 1 1
+E._pogonias 1 1 1 1 0 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1	1 1 1 1 1 1 2 1 2 1 1 1 1 1 1 1 1 1 1
+;
+end;
+

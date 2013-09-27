@@ -1,0 +1,28 @@
+#NEXUS
+
+[Schram, FR 2007 PALEOZOIC PROTO-MANTIS SHRIMP REVISITED. Journal of Paleontology]
+
+Begin data;
+	Dimensions ntax=18 nchar=21;
+	Format datatype=standard symbols="01234" gap=-;
+	Matrix
+euphausiacean   00000 00000 00020 00000 1
+Kallidecthes_richardsoni  00000 00000 00010 00003 0
+Perimecturus_rapax   0001? ????? ??211 12102 1
+Perimecturus_parki   00011 01120 01210 11012 1
+Bairdops_elegans   00011 01110 01010 10102 1
+Bairdops_beargulchensis  10011 01110 ?1010 ?0112 1
+Archaeocaris_vermiformis  20011 01010 31020 0000? 1
+Archaeocaris_grafhami   20011 01010 ?10?? ?000? 1
+Gorgonophontes_fraiponti  31012 01111 11020 02011 1
+Gorgonophontes_peleron  31012 01111 11020 02011 1
+Daidal_acanthocercus  31012 01110 11101 02111 3
+Daidal_pattoni   31012 01110 ??1?? ???11 ?
+Daidal_schoellmanni   31012 01110 1?001 02111 3
+Tyrannophontes_theridion  31012 12122 21000 01011 2
+Tyrannophontes_gigantion 31012 12122 31??? ????? ?
+Pseudosculda_laevis   32112 13123 11011 03103 3
+Sculda_pennata   2211? ????? ??011 03003 4
+extant_unipeltatans  32112 13123 22021 03003 3
+;
+end;

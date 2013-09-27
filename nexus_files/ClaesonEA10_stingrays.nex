@@ -1,0 +1,501 @@
+#NEXUS
+
+[ File output by Morphobank v2.7 (http://www.morphobank.org); 2011-06-1 07.22.32 ]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=40;
+	TAXLABELS
+		Rhinobatos
+		Raja
+		Heliobatis
+		Asterotrygon
+		Hexatrygon
+		Plesiobatis
+		Urolophus
+		Trygonoptera
+		Urobatis
+		Urotrygon
+		Paratrygon
+		Plesiotrygon
+		Potamotrygon
+		_Himantura_
+		Taeniura
+		Himantura
+		Hypolophites
+		Dasyatis
+		Pteroplatytrygon
+		Gymnura
+		Apocopodon
+		Igdabatis_sigmodon
+		Brachyrhizodus
+		Myliobatis_freminvillii
+		Myliobatis_goodei
+		Myliobatis_aguila
+		Myliobatis_californicus
+		Myliobatis_striatus
+		Myliobatis_toliapicus
+		Myliobatis_dixoni
+		Myliobatis_wurnoensis
+		Weissobatis_micklichi
+		Aetobatus_narinari
+		Aetobatus_arcuatus
+		Aetobatus_irregularis
+		Rhinoptera_quadriloba
+		Rhinoptera_bonasus
+		Rhinoptera_davisei
+		Mobula
+		Manta_hamiltoni
+	;
+ENDBLOCK;
+
+
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="01234";
+
+	CHARLABELS
+		 [1] _01_CMG_Tubules_of_subpleural_components_of_hyomandibular_lateral_line_canals
+		 [2] _02_CMG_Subpleural_components_of_the_hyomandibular_lateral_line_canals
+		 [3] _03_CMG_Suborbital_components_of_infraorbital_lateral_line_canals
+		 [4] _04_CMG_Scapular_loops_formed_by_scapular_components_of_trunk_lateral_line_canals
+		 [5] _05_CMG_Anterior_process_of_neurocranium
+		 [6] _06_CMG_Preorbital_process
+		 [7] _07_CMG_Preorbital_canal_for_passage_of_superficial_opthalmic_nerve
+		 [8] _08_CMG_Foramen_for_the_optic_II_nerve
+		 [9] _09_CMG_Postorbital_process_of_neurocranium
+		 [10] _10_CMG_Extent_of_orbital_region
+		 [11] _11_CMG_Postorbital_process
+		 [12] _12_CMG_Ventrolateral_expansion_of_nasal_capsules
+		 [13] _13_CMG_Articulation_between_hyomandibula_and_Meckel_s_cartilage
+		 [14] _14_CMG_Angular_cartilages
+		 [15] _15_CMG_Secondary_hyomandibular_cartilages
+		 [16] _16_CMG_Symphysial_fusion_of_upper_and_lower_jaws
+		 [17] _17_CMG_Mandibular_width_at_symphisis
+		 [18] _18_CMG_Lateral_projections_of_lower_jaws
+		 [19] _20_CMG_Basihyal_cartilage
+		 [20] _21_CMG_Fusion_of_ventral_pseudohyoid_and_first_ceratobranchial
+		 [21] _22_CMG_Arrangement_of_posterior_ceratobranchials
+		 [22] _23_CMG_Median_projection_of_the_basibranchial_medial_plate
+		 [23] _24_CMG_Articulation_between_fifth_epi_and_ceratobranchial_elements_to_scapulocoracoid
+		 [24] _25_CMG_Lateral_stay_of_synarcual
+		 [25] _26_CMG_Fossa_on_dorsal_scapular_region
+		 [26] _27_CMG_Contact_between_pro_and_mesopterygium_in_the_pectoral_fin
+		 [27] _28_CMG_Distinct_components_of_the_mesopterygium
+		 [28] _29_CMG_Lateral_expansion_of_radials_in_pectoral_region
+		 [29] _30_CMG_External_margin_of_mesopterygium
+		 [30] _31_CMG_Median_prepelvic_process
+		 [31] _32_CMG_Pelvic_girdle_shape
+		 [32] _33_CMG_Dorsal_fin
+		 [33] _34_CMG_Cartilaginous_rod_in_tail
+		 [34] _35_CMG_Caudal_fin
+		 [35] _36_CMG_Adductor_mandibulae_complex
+		 [36] _37_CMG_Spiracularis_muscle
+		 [37] _38_CMG_Depressor_mandibularis_muscle
+		 [38] _39_CMG_Coracohyoideus_muscle
+		 [39] _40_CMG_Urea_retention
+		 [40] _41_CMG_Rectal_gland
+		 [41] _42_CMG_Spiracular_tentacle
+		 [42] _43_CMG_Cephalic_lobes
+		 [43] _44_CMG_Nasal_curtain
+		 [44] _modified_from_19_CMG_Tooth_type_in_both_upper_and_lower_jaws
+		 [45] _modified_from_19_CMG_Arrangement_of_teeth_in_both_upper_and_lower_jaws
+		 [46] _modified_from_19_CMG_Tooth_shape
+		 [47] Lateral_teeth
+		 [48] Differentiation_of_median_teeth_from_lateral_teeth
+		 [49] Differentiation_among_lateral_teeth
+		 [50] Relative_amount_of_curvature_in_expanded_lower_teeth
+		 [51] Upper_tooth_curvature
+		 [52] Direction_of_tooth_curvature
+		 [53] Tooth_association
+		 [54] Tooth_Interlocking_mechanism
+		 [55] Shape_of_interlocking_tongue
+		 [56] Crown_height
+		 [57] Occlusal_surface
+		 [58] Crown_shape_in_anterior_or_posterior_view
+		 [59] Lateral_margins
+		 [60] Root_type
+		 [61] Number_of_roots
+		 [62] Roots_in_basal_view
+		 [63] Distance_between_roots
+		 [64] Inclination_of_roots
+		 [65] Root_groove_position
+	;
+	
+	STATELABELS
+		1
+		not_branched_at_extremities
+		extremities_dichotomously_branched
+		,
+		2
+		posterior_branch_extends_caudally_more_or_less_parallel_to_longitudinal_body_axis
+		posterior_branch_inflects_towards_midline_to_form_a_lateral_hook
+		posterior_branch_inflects_to_continue_anteriorly_almost_paralllel_to_anterior_branch_forming_a_large_indentation
+		,
+		3
+		projecting_posteriorly_lateral_to_mouth
+		projecting_posteriorly_lateral_to_mouth_and_anteriorly_lateral_to_nasal_openings
+		forming_a_complex_weblike_pattern_on_lateral_aspects_of_the_anteroventral_disc_region
+		,
+		4
+		absence_of_loops
+		presence_of_scapular_loops
+		,
+		5
+		absent
+		present
+		,
+		6
+		present
+		absent
+		,
+		7
+		dorsally_located
+		anteriorly_located
+		,
+		8
+		moderately_sized
+		very_enlarged
+		,
+		9
+		infraorbital_lateral_line_canal_separates_postorbital_process_from_small_anterior_triangular_outgrowth_supraorbital_process_of_the_supraorbital_crest
+		postorbital_process_with_small_foramen_for_passage_of_infraorbital_lateral_line_canal
+		,
+		10
+		orbital_region_of_neurocranium_long
+		shortened_orbital_region_with_more_anteriorly_placed_supraorbital_and_postorbital_process
+		,
+		11
+		without_ventrolateral_projection
+		continuing_ventrolaterally_to_form_a_cylindrical_projection
+		,
+		12
+		nasal_capsules_laterally_expanded
+		nasal_capsules_ventrolaterally_expanded
+		,
+		13
+		hyomandibulae_directly_attached_to_lower_jaws
+		hyomandibulae_articulating_with_lower_jaws_through_strong_stout_ligament_hyomandibular_Meckeclian_ligament_at_distal_tip
+		,
+		14
+		absence_of_angular_cartilages_within_hyomandibular_Meckelian_ligament
+		presence_of_angular_cartilages_within_ligament
+		,
+		15
+		absent
+		present
+		,
+		16
+		antimeres_separate_at_symphysis
+		both_antimeres_of_jaws_symphysially_fushed
+		,
+		17
+		lower_jaws_slender_at_symphysis
+		lower_jaws_symphysially_thickened
+		,
+		18
+		absent
+		present
+		,
+		19
+		basihyal_laterally_elongated_fused_to_first_hypobranchialis
+		basihyal_a_single_element_but_separate_from_first_hypobranchials
+		basihyal_separate_from_first_hypobranchials_but_fragmented_into_more_than_one_component
+		basihyal_absent
+		,
+		20
+		absent
+		present
+		,
+		21
+		separate_from_each_other
+		ankylosis_between_forth_and_fifth_ceratobranchials
+		fourth_and_fifth_ceratobranchials_fused_to_each_other
+		,
+		22
+		absent
+		present
+		,
+		23
+		close_together
+		widely_separated
+		,
+		24
+		originates_ventral_to_spinal_nerve_foramina
+		originates_dorsal_to_spinal_nerve_foramina
+		contacting_synarchual_both_dorsally_and_ventrally_to_foramina
+		,
+		25
+		absent
+		present
+		,
+		26
+		absent
+		present
+		,
+		27
+		mesopterygium_single_element
+		fragmented
+		missing_altogether
+		,
+		28
+		absent
+		present
+		,
+		29
+		more_or_less_straight_not_fused_to_radials
+		undulated_not_fused_to_radials
+		highly_sinuous_appearing_to_be_fused_with_articulating_radial_elements
+		,
+		30
+		absent_or_weakly_developed
+		very_elongated
+		,
+		31
+		not_arched_or_only_moderately_so
+		greatly_arched
+		,
+		32
+		present
+		absent
+		,
+		33
+		absent
+		present
+		,
+		34
+		present
+		reduced_to_tail_folds
+		absent
+		,
+		35
+		without_posteromedial_extension
+		posteromedial_extension_present
+		,
+		36
+		projecting_ventrally_to_insert_on_either_palatoquadrate_Meckel_s_cartilage_and_or_hyomandibula
+		projecting_ventrally_and_posteirorly_beyond_hyomandibulae_and_both_sets_of_jaws_to_insert_dorsal_to_coracomandibularis
+		projecting_ventrally_and_posteirorly_beyond_hyomandibulae_and_both_sets_of_jaws_to_insert_ventral_to_coracomandibularis
+		,
+		37
+		present
+		absent
+		,
+		38
+		not_connected_at_midline
+		connected_at_midline
+		,
+		39
+		urea_retaind_in_blood
+		urea_excreted_in_urine
+		,
+		40
+		present
+		reduced
+		,
+		41
+		absent
+		present
+		,
+		42
+		absent
+		single_and_continuous
+		single_with_an_indentation
+		paired
+		,
+		43
+		not_reaching_mouth_region
+		extending_posteriorly_as_far_as_mouth_opening
+		,
+		44
+		minute
+		broad_teeth_that_are_flattened_with_six_recognizable_sides
+		,
+		45
+		arranged_in_separate_diagonal_rows_or_ribbons
+		horizontal_conveyor_or_pavement_like_arrangement
+		,
+		46
+		square_to_rounded
+		hexagonal_six_distinct_sides
+		rectangular_with_posteriorly_deflected_lateral_margins
+		,
+		47
+		present
+		absent
+		,
+		48
+		median_and_lateral_teeth_are_similar
+		median_teeth_relatively_expanded
+		,
+		49
+		lateral_teeth_unexpanded
+		some_lateral_teeth_expanded
+		,
+		50
+		straight_and_uncurved
+		moderately_curved
+		strongly_curved
+		,
+		51
+		uncurved
+		curved
+		,
+		52
+		concave
+		flat
+		convex
+		,
+		53
+		loosely_interlocking
+		sometimes_loosely_interlocking_or_tightly_interlocking
+		tightly_interlocking
+		,
+		54
+		overlapping
+		tongue_and_groove
+		no_direct_contact
+		,
+		55
+		bulbous
+		short_shelf
+		long_shelf
+		,
+		56
+		high_crown_height_exceeds_root_depth_on_unworn_teeth
+		low_crown
+		,
+		57
+		cusped
+		smooth
+		depressed
+		,
+		58
+		straight
+		domed
+		deep
+		,
+		59
+		not_pinched
+		pinched
+		,
+		60
+		holaulacorhizous
+		polyaulacorhizous
+		,
+		61
+		2_roots
+		3_to_4_roots
+		5_roots_or_greater
+		,
+		62
+		triangles
+		wide_blocks
+		narrow_blocks
+		fine_edges
+		,
+		63
+		narrower_than_root_laminae
+		broad_groove_wider_than_root_laminae
+		,
+		64
+		no_inclination
+		offset_and_step_like
+		long_and_strongly_inclined
+		,
+		65
+		regularly_spaced_between_laminae
+		irregularly_spaced_between_laminae
+		,
+	;
+	
+	MATRIX
+	Rhinobatos		                       0000000000000000000000000000000000000000000000000---00?000000000?
+	Raja		                             0000000000000000000000000000000000000000000000000---00?000000000?
+	Heliobatis		                       ????00??000?1?0000??????0000000101???????0?000000---00?000000000?
+	Asterotrygon		                     ????00??000?1100001??1??0000000001???????0?000000---00?000000000?
+	Hexatrygon		                       00??000000000000001?010000000001000?0?00000000000---00?000000000?
+	Plesiobatis		                      0001000010011000001110020000000100000000001000000---00?000000000?
+	Urolophus		                        0001000110011010001111000000200{0,1}00000000001000000---00?000000000?
+	Trygonoptera		                     00010001000110000011110010002000000?0000001000000---00?000000000?
+	Urobatis		                         10010000000110000021110{0,1}1000000100000000101000000---00?000000000?
+	Urotrygon		                        1001000000011000003111001000000100000000101000000---00?000000000?
+	Paratrygon		                       0021000000011000002111000000010112000011001000000---00?000000000?
+	Plesiotrygon		                     0011000000011100002111010100010111020011001000000---00?000000000?
+	Potamotrygon		                     0011000000011100002111010100010111020011001000000---00?000000000?
+	_Himantura_		                      0001000000011100002111001000000112020000001000000---00?000000000?
+	Taeniura		                         0001000000011000002111001000000111010000001000000---00?000000000?
+	Himantura		                        01{0,1}1000000011000002111001000000112000000001000000---00?000000000?
+	Hypolophites		                     ???????????????????????????????????????????111000---20?010000000?
+	Dasyatis		                         01{0,1}10000000110000021110010{0,1}0000111000000001000000---00?0{1,2}0000010?
+	Pteroplatytrygon		                 0101000010011000002111001000000111000000001000000---00?000000000?
+	Gymnura		                          0101000001010000001111000011101102000000001000000---00?000000000?
+	Apocopodon		                       ???????????????????????????????????????????11101100101-0100101000
+	Igdabatis_sigmodon		               ???????????????????????????????????????????1110111120100110101001
+	Brachyrhizodus		                   ???????????????????????????????????????????1110111?102-0100111001
+	Myliobatis_freminvillii		          020100100111101?1131201010110000121011000111110100010110100122000
+	Myliobatis_goodei		                020100100111101?1131201010110000121011000111110100010110100122000
+	Myliobatis_aguila		                020100100111101?1131201010110000121011000111110100012110110122000
+	Myliobatis_californicus		          020100100111101?1131201010110000121011000111110100012110120122100
+	Myliobatis_striatus		              ???????????????????????????????????????????1110100012110120122010
+	Myliobatis_toliapicus		            ???????????????????????????????????????????1110101022110120122010
+	Myliobatis_dixoni		                ???????????????????????????????????????????1110101122110110122000
+	Myliobatis_wurnoensis		            ???????????????????????????????????????????1110101122110111121001
+	Weissobatis_micklichi		            ????0????1?1???????????????1000012???????1?11101011221101?0122000
+	Aetobatus_narinari		               0201001011111011113120111?21?010121011000211121--2102121100123020
+	Aetobatus_arcuatus		               ???????????????????????????????????????????1121--2102121120123020
+	Aetobatus_irregularis		            ???????????????????????????????????????????1121--2001121100123020
+	Rhinoptera_quadriloba		            02011110111110111131201?1?20?010121011000311110111120100100123110
+	Rhinoptera_bonasus		               02011110111110111131201?1?20?010121011000311110111120100100123100
+	Rhinoptera_davisei		               ???????????????????????????????????????????1110110020100200123110
+	Mobula		                           0201111011110011013120111?20?010121011000310110110?101?1{0,1}0012?00?
+	Manta_hamiltoni		                  ???????????????????????????????????????????0110000?102?120012?00?
+	;
+ENDBLOCK;
+
+BEGIN NOTES;
+	[Taxon comments]
+	TEXT TAXON=1 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=2 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=4 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=5 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=6 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=7 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=8 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=9 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=10 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=11 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=12 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=13 TEXT='^n^n^n^n^n^n';
+	TEXT TAXON=14 TEXT='^n^n^n^n^n';
+	TEXT TAXON=15 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=16 TEXT='^n^n^n^n^n^n';
+	TEXT TAXON=17 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=18 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=19 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=20 TEXT='^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=21 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=22 TEXT='^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=23 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=24 TEXT='^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=25 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=26 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=27 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=28 TEXT='^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=29 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=30 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=31 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=32 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=33 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=34 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=35 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=36 TEXT='^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=37 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=38 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=39 TEXT='^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n^n';
+	TEXT TAXON=40 TEXT='^n^n^n';
+	
+	[Character comments]
+
+	[Attribute comments]
+ENDBLOCK;

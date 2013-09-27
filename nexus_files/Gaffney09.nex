@@ -1,0 +1,724 @@
+#NEXUS
+[MacClade 4.0 registered to Gene Gaffney, AMNH]
+
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=47 NCHAR=175;
+
+[!45a is 45 with the poor data taxa removed.
+Both 45 is Both 2004-43 with 6 character states changed as corrected 
+by Haiyan after looking at some new specimens. The two main changed 
+are Araripemys from a closed ("nearly or partially" because it is 
+slightly open) to open as in Euraxemys. this is arguable. the other 
+is a new state for the cheek fissure seen in Phosphatocheyls and Ummu 
+barely preventing a QU-MX contact. this was coded originally as MX-QU 
+contact present, also arguable.
+Note that Both 2004- 43 and 44 are skipped in the sequence.
+
+2005-1 is 2004-53 with:
+1)char 31: PM midline depression changed from 3 states to 2. the 
+"narrow" and "wide" are combined to "present". this looses rsolution 
+within Bothremydini but seems to be too subjective when 
+differentiating narrow vs wide.
+2) A new char is added for MX "pits". may be a duplication of JU- "exposure".
+3) BS-"sella turcica/dorsum sellae" dropped. too much missing in 
+other taxa but looses resolution of Taphrosphys.
+
+2005-1a is 2005-1 with:
+1) char PM added with 3 states as in 2004-53.
+2) BS sella turcica returned for Taphrosphys as in 2004-53
+
+2005-2 is 1a with "Pltycheloides cf nyasae" as cat number GDF 801.
+
+2005-4 has Meylan changes of neural series completeness character 
+which resolves some shell taxa better.]
+	FORMAT SYMBOLS= " 0 1 2 3 4 5 6" MISSING=? GAP=- ;
+	CHARSTATELABELS
+		1  'NA,nasals' / 'present_(Emydura)' 'absent_(Pelusios)',
+   2  'LA, lacrimal' / 'present_(Proganochelys)' 'absent_(Emydura)',
+   3  'LA, lacrimal foramen' / 'present_(Proganochelys)' 'absent_(Emydura)',
+   4  'PF, meet on midline in dorsal view' / 'no_(Proganochelys)' 
+'yes_(Pelusios)',
+   5  'PF, preorbital skull broad' / 'narrow_(Galianemys)' 
+'very_broad_(Bothremys)',
+   6  'PF, anterior margin' / 
+'_straight,_broadly_convex_margin_(Pelomedusa)' 
+'narrow_midline_process,_at_least_partially_dividing_nares_(Bothremys)',
+   7  'PF, pf-pal contact' / 'widely_separated_(Galianemys)' 
+'closely_spaced_or_in_contact_(Bothremys)',
+   8  'PF, pf-vo contact' / 'absent_(Proganochelys)' 'present_(Chelydra)',
+   9  'PF, fissura ethmoidalis' / 'very_wide_(Proganochelys)' 
+'narrower_(Pelusios)',
+   10  'PF, pf-par contact' / 'absent_(Galianemys)' 'present_(Phosphatochelys)',
+   11  'FR, orbits facing upwards' / 
+'facing_more_laterally_(Galianemys)' 'facing_dorsally_(Bothremys)',
+   12  'FR, foramen interorbitale' / 'high_(Galianemys)' 'low_(Bothremys)',
+   13  'PAR,qj-par contact' / 'absent_(Proganochelys)' 
+'present,_qj_large_and_anterior_to_qu_(Euraxemys)' 
+'present,_qj_small__and_dorsal_to_qu_(Phosphatochelys)',
+   14  'PAR, temporal emargination' / 
+'absent,_slight,_moderate_(Proganochelys)' 'extreme_(Kurmademys)' 
+'intermediate_(Galianemys)',
+   15  'PAR, par-sq contact' / 'present_(Proganochelys)' 'absent_(Pelusios)',
+   16  'PAR, contacts pterygoid at base of proc pter troch' / 
+'absent_(Pelusios)' 
+'ventral_parietal_process_on_lateral_side_of_sulcus_palatinopterygoideus_(Bothremys)',
+   17  'PAR, sulcus palatinopterygoideus' / 'absent_(Proganochelys)' 
+'high_(Galianemys)' 'low_due_to_thicker_par,_po_(Bothremys)',
+   18  'PAR, enters orbital margin' / 'no_(Galianemys)' 'yes_(Phosphatochelys)',
+   19  'ST, supratemporal' / 'present_(Proganochelys)' 'absent_(Pelusios)',
+   20  'JU,jugal retracted from orbital margin' / 
+'enters_orbit_(Pelusios)' 'partially_retracted_(Cearachelys)' 
+'widely_retracted_(Galianemys)',
+   21  'JU, narrow dorsoventrally' / 'broader_(Bothremys)' 
+'narrow_(Taphrosphys,_Labrostochelys)',
+   22  'JU,ju-qu contact' / 'absent_(Bothremys)' 'present_(Azabbaremys)',
+   23  'JU, exposure in triturating surface' / 
+'no_exposure_(Pelusios)' 'large_exposure_in_ventral_view_(Bothremys)',
+   24  'SQ, posterior projection' / 'lacks_projection_(Galianemys)' 
+'projects_posteriorly,_forming_distinct_process_(Bothremys)',
+   25  'SQ, posteroventral vertical flange' / 'absent_(Galianemys)' 
+'present_(Labrostochelys)',
+   26  'SQ, lateral tubercle' / 'absent_(Galianemys)' 
+'present_(Labrostochelys)',
+   27  'PO, fossa orbitalis posterior enlargement' / 
+'absent_(Galianemys)' '_present_(Bothremys)',
+   28  'PO, septum orbitotemporale' / 'absent_(Proganochelys)' 
+'postorbital_wall_present_(Galianemys)' 
+'postorbital_wall_at_least_partially_open_(Phosphatochelys)',
+   29  'PO, size' / 'short_(Euraxemys)' 'long_(Galianemys)',
+   30  'PM, protrudes anteriorly beyond labial ridge' / 
+'no,_slightly_(Galianemys)' 
+'yes,_in_ventral_view_projects_anteriorly_(Bothremys)',
+   31  'PM, midline depression' / 
+'absent,_shallow,_indistinct_(Euraxemys)' 
+'distinct_and_wide_(Bothremys_kellyi)' 
+'distinct_and_narrow_(Rosasia)',
+   32  'PM, midline dorsal process' / 
+'present,_meeting_nasals_(Proganochelys)' 'absent,_low_(Galianemys)' 
+'present,_partially,_completely_separates_aper_nar_ext_(Araiochelys)',
+   33  'PM, dorsal sulcus' / 'smooth_surface_(Bothremys)' 
+'sulcus_on_dorsal_surface,_parallel_to_anterior_margin_(Phosphatochelys)',
+   34  'MX, triturating surfaces' / 
+'narrow,_parallel_sided_(Taphrosphys)' 
+'triangular,_wide_posteriorly_(Galianemys)' 
+'triangular,_very_wide_posteriorly_(Bothremys)',
+   35  'MX, triturating surface pits' / 'absent_(Kurmademys)' 
+'present_(Bothremys)',
+   36  'MX, accessory ridge' / 'absent_(Galianemys)' 'present_(Euraxemys)',
+   37  'MX, labial ridge below orbit' / 
+'shallow,_ridge_height_=_or_<_orbital_diameter_(Galianemys)' 
+'very_deep,_ridge_height_>_orbital_diameter_(Bothremys)',
+   38  'MX, max-qj contact' / 'absent,_qj_present_(Euraxemys)' 
+'present_(Galianemys)' 'absent_due_to_qj_absence_(Emydura)',
+   39  'MX, mx-qu contact, cheek emargination' / 
+'absent,_little_or_no_emargination_(Galianemys)' 
+'present,_no_emargination_(Azabbaremys)' 
+'absent,_barely_separated_by_narrow_fissure_(Phosphatochelys)' 
+'absent,_deep_emargination,_qj_present_(Euraxemys)' 
+'absent,_deep_emargination,_qj_absent_(Emydura)',
+   40  'MX, orbital-narial bar width' / 
+'width_intermediate,_equal_to_or_slightly_less_than_orbital_diameter_(Galianemys)' 
+'broad,_wider_than_orbit_but_less_than_2x__(Bothremys)' 
+'extremely_broad,_more_than_2x_orbit_(Labrostochelys)' 
+'extremely_narrow,_much_less_than_orbital_diameter_(Phosphatochelys)',
+   41  'MX, dorsal process onto skull roof' / 
+'mx_not_constricting_pf_(Galianemys)' 
+'extends_dorsomedially_constricting_pf_(Bothremys_cooki)',
+   42  'MX, ventral rim of orbit' / 
+'rim_with_distinct_margin_(Galianemys)' 
+'rim_absent,_continuous_slope_(Bothremys)',
+   43  'MX, exposure in orbital floor' / 
+'mx_broadly_exposed_in_floor_of_orbit_(Galianemys)' 
+'narrowly_or_not_exposed_(Azabbaremys)',
+   44  'VO, mx-vo contact' / 'present_(Proganochelys)' 'absent_(Azabbaremys)',
+   45  'VO, absent' / 'present,_paired_(Proganochelys)' 
+'present,_single_(Galianemys)' 'absent_(Pelusios)',
+   46  'VO, vomerine teeth' / 'present_(Proganochelys)' 'absent_(Pelusios)',
+   47  'VO, central bar' / '_sutured_at_both_ends_(Galianemys)' 
+'sutured_only_anteriorly_(Azabbaremys)' absent,
+   48  'PAL, foramen palatinum posterius' / 
+'in_floor_of_orbit_(Chelydra)' 
+'behind_orbit,_in_floor_of_sulc_palpter_(Pelusios)',
+   49  'PAL, dorsally arched palate' / 'absent_(Galianemys)' 
+'present_(Azabbaremys)',
+   50  'PAL, contribution to triturating surface' / 
+'little_or_none_(Euraxemys)' 'moderate_to_extensive_(Bothremys)',
+   51  'QU,antrum postoticum' / 
+'absent,_open_incisura_columellae_auris_(Proganochelys)' 
+'small_(Bothremys)' 'absent,_closed_incisura_(Azabbaremys)' 
+'moderate-large_(Galianemys)',
+   52  'QU, incisura columellae auris' / 
+'no_posterior_bony_restrictions_(Euraxemys)' 
+'eustachian_tube_separated_from_stapes_by_bone_or_narrow_fissure_(Foxemys)' 
+'eustachian_tube_and_stapes_enclosed_by_bone_(Podocnemis)',
+   53  'QU, stapes contained in bony canal' / 
+'stapes_not_contained_in_bony_canal_(Euraxemys)' 
+'stapes_completely_enclosed_by_bony_canal_(Bothremys)',
+   54  'QU, sulcus eustachii' / 'without_ventral_process_(Bothremys)' 
+'with_ventral_process_(Labrostochelys)',
+   55  'QU, trough on closed inc col aur ridge' / 'absent_(Bothremys)' 
+'present_(Galianemys)',
+   56  'QU, fossa precolumellaris' / 
+'very_small_to_absent_(Galianemys)' 'present_but_shallow_(Euraxemys)' 
+'deep_and_well_defined_(Pelusios)',
+   57  'QU, shelf below cavum tympani' / 'absent_(Galianemys)' 
+'lower_portion_of_cavum_tympani_unusually_deep_(Bothremys)',
+   58  'QU, medial process reaches braincase' / 'absent_(Chelydra)' 
+'present_(Pelusios)',
+   59  'QU,qu-bo contact' / 'absent_(Euraxemys)' 'present_(Galianemys)',
+   60  'QU, condylus mandibularis position' / 
+'posterior_to_or_on__bo-bs_suture_(Galianemys)' 
+'anterior_to_bo-bs_suture_(Pelusios)' 
+'posterior_to_condylus_occipitalis_(Nigeremys)',
+   61  'QU, fully formed cavum tympani' / 'absent_(Proganochelys)' 
+'present_(Pelusios)',
+   62  'QU, cavum tympani with acute posterior edge' / 
+'no_(Proganochelys)' 'acute_edge,_also_enclosed_stapes_(Pelusios)',
+   63  'QU, middle ear with complete lateral wall' / 
+'not_complete_(Proganochelys)' 'complete_(Pelusios)',
+   64  'QU, cavum tympani curved dorsally' / 'no_(Proganochelys)' 
+'yes_(Palaeochersis)',
+   65  'QU, covers OP laterally' / 'no_(Proganochelys)' 'yes_(Australochelys)',
+   66  'QU, pocket for stapes articulation' / 
+'present_(Proganochelys)' 'absent_(Australochelys)',
+   67  'QU, cranioquadrate space' / 'relatively_open_(Proganochelys)' 
+'a_well_defined_canal_(Australochelys)',
+   68  'PT, fossa pterygoidea' / 'absent_or_small_(Pelusios)' 
+'moderate_(Galianemys_whitei)' 'deep_and_narrow_(Foxemys)',
+   69  'PT, cavum pterygoidei' / 'absent_(Pelusios)' 'present_(Podocnemis)',
+   70  'PT, processus trochlearis pterygoidei' / 
+'absent_(Proganochelys)' 'present_(Pelusios)',
+   71  'PT, posteroventral flange along lateral edge' / 
+'absent_(Chelydra)' 
+'present,_medial_and_ventral_to_proc_troch_pter_(Pelusios)',
+   72  'PT, processus pterygoideus externus' / 
+'without_vertical_plate_(Pelusios)' 'with_vertical_plate_(Chelydra)',
+   73  'PT, trigeminal ridge (pt+qu)' / 'absent_(Galianemys)' 
+'ridge_extending_posteroventrally_from_for_nerv_trigemini_to_cond_mandibularis_(Phosphatochelys)',
+   74  'PT, foramen posterius canalis carotici interni position' / 
+'BS_(Proganochelys)' 'PT+QU_(Araiochelys)' 
+'BS_in_medial_wall_(Kurmademys)' 'PRO_(pelomedusids)' 
+'PT+BS_(+PRO)_(Euraxemys)' 'PT+QU+BS_(Taphrosphys)' 
+'QU_(Labrostochelys)',
+   75  'PT, pt in foramen posterius canalis carotici interni' / 
+'pterygoid_does_not_enter_fpcci_(Pelusios)' 
+'pterygoid_enters_anterior_fpcci_margin_(Galianemys)',
+   76  'PT, foramen caroticum laterale' / 'present_(Emydura)' 
+'absent_(Pelusios)',
+   77  'PT, midline contact' / 'longer_(Galianemys)' 'very_short_(Dirqadim)',
+   78  'EPT, absent' / 'epipterygoid_present_(Chelydra)' 
+'epipterygoid_absent_(Pelusios)',
+   79  'SO,so-qu contact' / 'absent_(Pelusios)' 
+'present_on_dorsal_surface_of_otic_chamber_(Bothremys)',
+   80  'SO, crista supraoccipitalis' / 'low_to_absent_(Proganochelys)' 
+'distinct_sagittal_plate_(Pelusios)',
+   81  'SO, wide occipital plate' / 
+'wide_occipital_plate_with_depressions_(Proganochelys)' 
+'absent_(Pelusios)',
+   82  'EX, foramen jugulare posterius' / 
+'not_formed_in_bone_(Proganochelys)' 'closed_partially_(Galianemys)' 
+'closed_completely_(Azabbaremys)',
+   83  'EX, recessus scalae tympani' / 
+'not_formed_in_bone_(Proganochelys)' 
+'formed_in_bone,_also_fenestra_perilymphatica_(Pelusios)',
+   84  'EX, condylus occipitalis' / 
+'basiccipital_plus_both_exoccipitals_(Euraxemys)' 
+'exoccipitals_only_(Pelusios)',
+   85  'EX, ex-qu contact' / 'absent_(Pelusios)' 
+'extensive,_pro_absent_(Galianemys)' 
+'narrow,_pro_contact_(Euraxemys)' 'narrow,_pro_absent_(Brasilemys)',
+   86  'EX, ventral process' / 'absent_(Pelusios)' 'present_(Euraxemys)',
+   87  'BO, short' / 
+'long,_length_divided_by_width_=<_0.60_(Pelusios)' 
+'short,_length_divided_by_width_=_>0.59_(Bothremys)',
+   88  'BO, thick' / 'bo_+_bs_thick_(Proganochelys)' 'thinner_(Pelusios)',
+   89  'BO, bo-op contact' / 'absent_(Galianemys)' 'present_(Pelomedusa)',
+   90  'PR, hyomandibular nerve' / 'in_canalis_cavernosus_(Chelydra)' 
+'in_its_own_canal_(Podocnemis)',
+   91  'PR, foramen stapediotemporale' / 'not_a_canal_(Proganochelys)' 
+'formed_in_bone_as_a_canal_(Pelusios)',
+   92  'PR, foramen stapediotemporale opens anteriorly' / 
+'no_(Pelusios)' 'yes_(Galianemys)',
+   93  'PR, foramen stapediotemporale/foramen nervi trigemini' / 
+'separated_by_most_of_prootic_(Pelusios)' 
+'separated_by_narrow_bar_of_prootic_(Bothremys)',
+   94  'PR, ventral exposure' / 
+'most_of_prootic_exposed_ventrally_(Emydura)' 
+'about_half_covered_by_qu+bs_(Euraxemys)' 
+'nearly_all_covered_by_qu,_bs,_pt_(Taphrosphys)',
+   95  'PR, qu-pt-bs exposure' / 
+'extensive_exposure_or_no_exposure_(Pelusios)' 
+'small_exposure_within_qu-pt-bs_suture_(Kurmademys)',
+   96  'PR, processus trochlearis oticum' / 'absent_(Proganochelys)' 
+'present_(Chelydra)',
+   97  'PR, plane of fenestra ovalis' / 'inclined_(Proganochelys)' 
+'vertical_(Chelydra)',
+   98  'OP, processus interfenestralis expanded ventrally' / 
+'narrow_ventrally_(Proganochelys)' 'expanded_ventrally_(Pelusios)',
+   99  'OP, processus interfenestralis covered ventrally' / 
+'visible_ventrally_(Emydura)' 'covered_ventrally_(Bothremys)',
+   100  'OP,fenestra postotica closed medially' / 'open_(Euraxemys)' 
+'closed_by_op,_qu_contact_(Taphrosphys)',
+   101  'OP, fenestra postotica a short slit' / 
+'more_open_(Euraxemys)' 'small,_horizontal_slit_(Galianemys)',
+   102  'OP, processus paroccipitalis' / 
+'projects_posteriorly_beyond_sq_(Euraxemys)' 
+'smaller,_does_not_project_beyond_sq_(Galianemys)',
+   103  'OP, thin horizontal flange' / 'absent_(Galianemys)' 
+'present_on_posterior_edge_(Chedighaii_hutchisoni)',
+   104  'BS, bs-qu contact' / 'absent_(Euraxemys)' 
+present_and_wide_as_in_Galianemys 
+present_and_narrow_as_in_Azabbaremys,
+   105  'BS, interpterygoid vacuity' / 
+'large_and_open_(Proganochelys)' 'small,_absent_(Pelusios)',
+   106  'BS, ventral outline' / 
+'elongate,_lacking_sutured__pterygoids_(Proganochelys)' 
+'triangular_(baenids)' 'pentagonal_(Taphrosphys)' 
+'very_elongate_(Araripemys)' 'V-shaped_(Arenila)',
+   107  'BS, processus clinoideus' / 'present,_with_canal_(Pelusios)' 
+'absent,_for._n._abducentis_is_a_groove_(Bothremys)',
+   108  'BS, skull akinetic' / 
+'no,_open_basipterygoid_articulation_(Proganochelys)' 
+'yes,_basipterygoid_articulation_fused_(Australochelys)',
+   109  'BS, cultriform process' / 'rod-like,_thin_(Proganochelys)' 
+'broad,_flat,_absent_(Australochelys)',
+   110  'BS, sella turcica/ dorsum sellae' / 
+'deep,_well-defined_(Bothremys)' 
+'shallow,_low_margins_(Taphrosphys_sulcatus)',
+   111  'BS, ventral bs/bo tubercle' / 'single_(Proganochelys)' 
+'paired_(Australochelys)' 'absent_(Pelusios',
+   112  'CA, columella auris' / 'without_footplate_(Proganochelys)' 
+'with_wide_footplate_(Pelusios)',
+   113  'SP, splenial' / 'present_(Proganochelys)' 'absent_(Pelusios)',
+   114  'DEN, high lingual ridge' / 'no_(Pelusios)' 'yes_(Bothremys)',
+   115  'DEN, pits' / 'no_(Euraxemys)' 'yes_(Bothremys)',
+   116  'DEN, U-shaped lingual ridges' / 'absent__(Euraxemys)' 
+'form_U-shape,_also_wedge_(Bothremys)',
+   117  'DEN, sutured symphysis' / 'symphysis_fused_(Bothremys)' 
+'symphysis_sutured_(Euraxemys)',
+   118  'DEN, triturating surfaces' / 'narrow_(Euraxemys)' 
+'wide_posteriorly_(Cearachelys)',
+   119  'DEN, widely exposed on lateral surface' / 
+'yes,_in_posterior_part_of_jaw_(Euraxemys)' 
+'no,_covered_by_surangular_(Bothremys)',
+   120  'SUR, foramen nervi auriculotemporalis' / 
+'absent_(Proganochelys)' 'present_(Podocnemis)',
+   121  'COR, wide lateral exposure' / 'no_(Euraxemys)' 'yes_(Bothremys)',
+   122  'PRA, fossa meckelii open anteriorly' / 
+'closed_by_long_ang-pra_contact_(Euraxemys)' 
+'more_open,_short_pra-ang_contact_(Bothremys)',
+   123  'ART, proc retroarticularis' / 'long,_posterior_(Bothremys)' 
+'short,_absent_(Pelusios)' 'long,_posteroventral_(Podocnemis)',
+   124  'VT, cervical ribs' / 'present_(Proganochelys)' 'absent_(Pelusios)',
+   125  'VT, cervical postzygapophyses fused' / 
+'separate_(Proganochelys)' 'some_or_all_fused_(Podocnemis)',
+   126  'VT, cervical postzygapophyses elevated' / 
+'separated_from_each_other_(Proganochelys)' 
+'postzygapophyses_elevated_on_neural_spine_(Podocnemis)',
+   127  'VT, cervical centra' / 'not_formed_(Proganochelys)' 
+'formed,_wider_than_high_(Platychelys)' 
+'formed,_usually_higher_than_wide_(Podocnemis)',
+   128  'VT, cervical articulation patterns' / 
+'amphicoelous,_platycoelous_(Proganochelys)' 
+'(2)_)3)_)4)_)5)_)6)_)7)_)8)__(Pelusios)' '(2(_(3(_(4(_(5)_)6)_)7(_(8)__(Emydura)',
+   129  'VT, caudal articulation patterns' / 
+'platycoelous_(Proganochelys)' 
+'formed_centra_but_variable_(Notoemys)' 'only_procoelous_(Pelusios)',
+   130  'SH, coracoid foramen' / 'present_(Proganochelys)' 
+'absent_(Podocnemis)',
+   131  'SH, coracoid shape' / 'flat_plate_(Proganochelys)' 
+'columnar_(Podocnemis)',
+   132  'PEL, tenth thoracic centrum' / 
+'not_incorporated_into_sacrum_(Proganochelys)' 
+'incorporated_into_sacrum_(Pelusios)',
+   133  'PEL, pelvis sutured to shell' / 'no_(Proganochelys)' 'yes_(Pelusios)',
+   134  'PEL, dorsal part of ilium columnar' / 
+'no,_inclined,_with_anterior,_posterior_processes_(Proganochelys)' 
+'columnar,_expanded_mediolaterally_(Podocnemis)',
+   135  'PEL, narrow' / 'pelvis_widely_placed_(Proganochelys)' 
+'ilia_close_to_midline_(Podocnemis)',
+   136  'PEL, thyroid fenestra' / 'separate_(Proganochelys)' 
+'_confluent_(Podocnemis)',
+   137  'HUM, shoulder on lateral side of head' / 
+'present_(Proganochelys)' 'absent_(Podocnemis)',
+   138  'CAR, cervical scale' / 'present_(Emydura)' 'absent_(Podocnemis)',
+   139  'CAR, nuchal bone width' / 
+'width_2_times_wider_than_length,_or_more_(Platychelys)' 
+'width_greater_than_length,_but_less_than_2_times_(Euraxemys)' 
+'width_equals_length_(Foxemys)' 'width_less_than_length_(Teneremys)' 
+Araripemys,
+   140  'CAR, pygal notch' / 'present,_wide_(Proganochelys)' 
+'present,_narrow,_spherical_(Proterochersis)' 
+'absent,_margin_smooth_(Podocnemis)',
+   141  'CAR, neural series completeness' / 
+'to_suprapygal_(Euraxemys)' 'to_costals_8_(Podocnemis)' 
+'to_costals_7_(Foxemys)' 'to_costals_6_(Chedighaii)' 
+'_neurals_discontinuous_or_absent_(Emydura)',
+   142  'CAR, iliac scar position' / 'absent_(Chelydra)' 
+'costals_7_and_8_(Pelusios)' 
+'costals_7_and_8_and_suprapygal_(Taphrosphys)',
+   143  'CAR, costal one width' / 
+'costal_1_shorter_or_equal_to_2_times_length_of_costal_2_(Euraxemys)' 
+'costal_1_two_times_longer_than_2nd_costal_(Foxemys)',
+   144  'CAR, position of four sided neural' / 
+'neural_one_(Euraxemys)' 'neural_two_(Cearachelys)' 
+'neural_three_(Araripemys)' 'four-sided_neural_absent_(Platemys)',
+   145  'CAR, neural series pattern' / 
+'irregular,_2_and_4_quadrangular,_alternating_in_width_(Platychelys)' 
+'irregular,_width_even_(Kayentachelys)' 
+'regular,_most_hexagonal,_coffin-shaped_(Podocnemis)' 
+'neurals_absent_(Platemys)' 'discontinuous_(Araiochelys)',
+   146  'CAR, neural number' / 'more_than_8_(Kayentachelys)' 
+'8_neurals_(Cearachelys)' '7_neurals_(Foxemys)' 
+'6_or_less_(Kurmademys)',
+   147  'CAR, peripheral 1/ costal 1 contact length' / 
+'no_contact_due_to_large_nuchal(Dortoka)' 
+'wide_contact,_anterior_margin_less_than_2x_contact_(Rosasia)' 
+'narrow_contact,_anterior_margin_2x_contact_(Foxemys)' 
+'no_contact_due_to_small_nuchal_(Araripemys)',
+   148  'CAR, axillary process contacts costal 1' / 
+'no_contact_(Proganochelys)' 
+'contact_present_but_separated_from_costal_2_suture_(Chedighaii)' 
+'contact_present_and_close_to_costal_2_(Dortoka)',
+   149  'CAR, axillary process extent' / 
+'reaches_peripheral_2_(Platychelys)' 
+'reaches_anterior_edge_of_peripheral_3_(Emydura)' 
+'main_body_of_peripheral_3_(Chedighaii)',
+   150  'CAR, inguinal buttress' / 'short_or_absent_(Proganochelys)' 
+'extends_medially_to__center_of_costal_5_(Chedighaii)',
+   151  'CAR, supramarginal scales' / '12_(Proganochelys)' 
+'3_(Proterochersis)' 'none_(Podocnemis)',
+   152  'CAR, vertebral scale width' / 
+'equal_to_or_wider_than_pleural_scales_(Proterochersis)' 
+'narrower_than_pleural_scales_(Foxemys)',
+   153  'CAR, vertebral scale 1 reaches anterior margin of shell' / 
+'no,_first_marginal_scales_meet_on_midline_(Podocnemis)' 
+'yes_(Araripemys)',
+   154  'CAR, nuchal embayment' / 'no_(Emydura)' 'yes_(Chedighaii)',
+   155  'CAR, first thoracic rib' / 
+'larger_and_separate_(Platychelys)' 
+'smaller_and_closer_to_2nd_rib_(Podocnemis)',
+   156  'CAR, costovertebral tunnel' / 
+'wide_anteriorly_and_posteriorly_only__(Proganochelys)' 
+'wide_entire_length_(Platychelys)' 
+'narrow_entire_length_(Chedighaii)',
+   157  'CAR, thoracic rib one facet' / 
+'anterior_edge_smooth_(Proganochelys)' 'swollen_articulation_facet,_tubercle_(Platychelys)',
+   158  'PLA, mesoplastra' / 
+'present,_meet_on_midline_(Proganochelys)' 
+'present,_wider_than_long_(Platychelys)' 
+'present,_rounder_(Chedighaii)' 'absent_(Emydura)',
+   159  'PLA, entoplastron trapezoidal' / 
+'arrow-shaped_with_posterolateral_processes_(Proganochelys)' 
+'more_trapezoidal_(Podocnemis)',
+   160  'PLA, epiplastra meet in midline' / 
+'separated_by_entoplastron_(Proganochelys)' 
+'meet_in_midline_(Foxemys)',
+   161  'PLA, dorsal epiplastral process' / 
+'very_large_(Proganochelys)' 'small_or_absent_(Podocnemis)',
+   162  'PLA, intergular scales' / '_one_pair_(Proterochersis)' 
+'one_intergular_scale_(Foxemys)',
+   163  'PLA, gular projections' / 'present_(Proganochelys)' 
+'absent_(Podocnemis)',
+   164  'PLA, anterior lobe short' / 
+'width_over_length_<_=_2.0_(Podocnemis)' 
+'width_over_length_>_2.1_(Chedighaii)',
+   165  'PLA, pectorals on entoplastron' / 'no_(Euraxemys)' 'yes_(Foxemys)',
+   166  'PLA, pectorals on epiplastron' / 
+'no,_far_behind_epiplastron_(Cearachelys)' 
+'on_epiplastron,_on_epi-hyoplastron_suture_(Foxemys)',
+   167  'PLA, pectoral on mesoplastron' / 'yes_(Cearachelys)' 
+'anterior_to_mesoplastron_(Kurmademys)',
+   168  'PLA, ischial attachment shape' / 'absent_(Proganochelys)' 
+'large_and_linear_(Podocnemis)' 
+'small_and_equidimensional_(Taphrosphys)',
+   169  'PLA, posterior lobe wider than pelvis' / 'no_(Proganochelys)' 
+'yes_(Podocnemis)',
+   170  'PLA, intergular scale' / 'small_(Cearachelys)' 
+'large,_separating_gulars_and_humerals_(Taphrosphys)' 
+'large,_very_small_gulars,_humeral_and_partial_pectoral_separation_(Dortoka)',
+   171  'PLA, axillary/inguinal scales' / 'present_(_Kayentachelys)' 
+'absent_(Emydura)',
+   172  'PLA, abdominal scale narrow' / 
+'midline_length_abdominal_=_>_midline_length_anal_(Podocnemis)' 
+'midline_length_abdominal_<_midline_length_anal_(Taphrosphys)' 
+'abdominals_do_not_meet__(Araripemys)',
+   173  'PLA, anterior lobe reaches carapace edge' / 
+'yes_(Cearachelys)' 'no_(Foxemys)',
+   174  'PLA, anal notch' / 'absent_(Kayentachelys)' 'present_(Taphrosphys)',
+   175  Shell_texture / 
+'rough_surface_without_clear_pattern_(Proganochelys)' 
+'weak_granulated_polygons_(chelids)' 
+'strong_granulated_polygons_(Taphrosphys)' 
+'fine,_striated_ridges_(Polysternon)' 'smooth_(Cearachelys)' 
+'_pits_(Araripemys)' 'microreticulation_(Dortoka_fide_deBroin)'
+		;
+
+MATRIX
+[                                   10        20        30        40 
+50        60        70        80        90        100       110 
+120       130       140       150       160       170   ]
+[                                   .         .         .         . 
+.         .         .         .         .         .         . 
+.         .         .         .         .         .     ]
+
+'Synapsida/Diapsida' 
+000000(01)0000000000(01)00000000000000000000000000000000000000000000000000000000000000(01)00000000000000000000000000000000000000000000000000000000??????????????????????????????????????
+Proganochelys 
+0000001000000000000000000000000000000000000000000000000000000000000000000000000000000000?000000000000000000000000000000000000000000000000000000????00000010000000000000000?0000
+Australochelys 
+??0?00???00??0?????????000???0?0?0000??0?1???1????0000?000?01010111???00???????1000????0???????010??????00?11?1????????????????????????????????????????????????????????????????
+Palaeochersis 
+??0?00?0??00?0??0???0??????????0??0??????????1????00000??0?0111111100000???????1000????0???????010?0????1??11?10?????0?????0??00000?00000??0??????????0???????000?00???00???000
+Kayentachelys 
+0110000110000000001000000000100100000000000111000030000000001111111000010000000111100001?01000011100010011011021000000010?1000000110000?00020001101000200102001010100000?000004
+Selmacryptodira 
+(01)110(01)(01)01(01)0(01)00(01)(01)00(01)10000000001(01)(01)10(012)0(01)(01)0(03)000011100(01)0(23)(01)(01)00000001111111000010410(01)0(01)11(12)1000(01)10010000111(01)001001101102100000(01)0100(01)000000110000100(012)2(0123)00(01)(12)(01)(12)(01)0(01)2(01)0(01)02001(01)101?0000(01)00(01)0(01)(014)
+Chelidae 
+0110000010(01)000001010000000010001000(01)024000001101003200020101111111100110030(01)010112100001(01)110000011000100120110210000(01)0010011(01)1222111111110(123)2(01234)(12)(01)(013)(234)(123)2(12)(12)0210(01)120(13)11111?(01)(01)01101(01)111
+Pelomedusidae 
+111100(01)0100001101010000000010001000(01)00300(01)0121210032000201011111111001100301010112110001111000001100000(01)12011021100(01)(01)001001101212111111111(12)2(123)1002(12)(12)(01)2(01)2100120(12)11111000011010(01)11
+Araripemys 
+11110?0010100110101000000001000100000030000??1?1013000020101111111100110030011011(12)100001011000001100000013?11021100010011011112101111111114202022(01)30202111120301111000?21?12015
+Euraxemys 
+111100001000101010100000000100010001003000001101003000010101111111100110041?010111102101011001001110000011?11?2110001001001111212111111111120?00212?2?210012021111100?011011011
+Dirqadim 
+1111000010001000101000000001010100010030000??1?1003000010101111111100110041?110111102101011001001110000011?11?2????????????????????????????????????????????????????????????????
+Podocnemididae 
+1111000010001010(12)0100(01)00000100(01)10(012)0(01)00300001(12)1(02)10032000(012)011111111110111004100101121000111110020011100001120110211(01)000(01)11012111212111111111(12)2(123)1002(23)1(12)(012)(01)2100120211111(01)11(01)11010011
+Hamadachelys 
+1111000010001010?010000000010001?000003000011101003200020111111111101110041?0101121000111?1002001110000112?11?2?10000001002????????????????????????????????????????????????????
+Brasilemys 
+??1??????0000???1010000000010????000003??00??1??0030000101111111111011?0041?01?111103011??100200??10000112?11?2?1000?0010?2???1?????1?1??12?11002222?121001????????????????????
+Cearachelys 
+111100001000021010110000000110?101000100000?1101013(02)000001101111111(01)011004110111111110110?1102(01)0111011011101102?110101010001?12?2???111111(13)20?0121(12)?2?2100120211111000011010014
+Galianemys_emringeri 
+1111(01)00010000210101200000011101101000100000??1?1013110100110111111110110041101111110101101110210111011011101102????????????????????????????????????????????????????????????????
+Galianemys_whitei 
+11110000100002101012000000111011?100010000001101013110100110111111100110041?01111110101101110200111011011101102????????????????????????????????????????????????????????????????
+Kurmademys 
+11110000100001111010000000110011010001300001?1?101311012011111111111011002010111121010110?1002101111010112011?2??10101010001??2??11?111?11123110231121210012?2?????011111??0?11
+Kinkonychelys 
+1111000??000?1??1010??0???11?????1000?30000??????131101201101111111101100201?1??121110110?100200111101011201102????????????????????????????????????????????????????????????????
+Sankuchemys 
+11110???10??011??010??0?????001??1010??00?011101?????????1111111111001?0?41?0??11?1?10110?1??210??1????112?11?2????????????????????????????????????????????????????????????????
+Foxemys 
+111110001001001010100001001110110200010001001101013100001110111111120110041?0111111110110?111210??11010112?11?2?110101101101112??11?111111222(12)10222121210012?211111111(01)11010111
+Polysternon 
+111110?0100?001??010000?00??1011?100010000???1??0131000011111111111201?0041?0?11111110110?1??200??1101?112?11?2?????0???????????????1?1??1222(12)10222121210112?211111011111010113
+Araiochelys 
+111101101001001??01000110011112201100?100000110?011110001110111111100110011?1?11121110110?1112001111010111?11?2?11110010110?????????1??????????043212121???2?2?1????10111??0?11
+Zolhafah 
+11111?00100???????10??1???1??01102100??0000011010131100?1110111111100??0051?0101121?1?110?11?200??1101?11101102????????????????????????????????????????????????????????????????
+Rosasia 
+11111000100100?01010001???11?021021001100000110101?11?001110111111110???041?01111?1??0?1??111200??110??11101102?????????????????????1????1122?10221?2?2101???2?11111000?10?0011
+Bothremys_cooki            111111101011???120100?1???11?12202101??11100110101????????????????1001?0???101?????????1????????????????1?11102??11101???1?????????????????????????????????????????????????????
+Bothremys_maghrebiana 
+1111111010110011201000110(01)1111220(12)10(01)1111(01)001101011110001110111111100110011111111211101101111200111101(01)21111102?11110(01)10110????????????????????????????????????????????????????
+Bothremys_kellyi 
+11111110101?001??0100?110011111202101?1100???1??011110001110111111100??0?51?0?1112111011??11?2001?11011211?11?2????????????????????????????????????????????????????????????????
+Bothremys_arabicus 
+??1?1??0?01????12??0??1????1??1??210?????0?0110?01?11?00?1101111111001??011???1?12?110110?11?20???110??211?11?2????????????????????????????????????????????????????????????????
+Chedighaii_hutchisoni 
+11111110101100112010000100111?1??20011000001110101?110001110111111100110011?0111121110110?1112001111011211?11?2????????????????????????????????????????????????????????????????
+Chedighaii_barberi 
+11111??0101?????201?0?010?1???2??100???0000??1???1111?0011?0111?11100???011?0?1?121?10110?111200??1101121111102??11101101?01112????111111112321022112121011202111111100110?0011
+Taphrosphys_sulcatus 
+1?1100???00?20???01????0111?00?11???????0????1????311100?111111111100???15110?0112111001011112001111010112?1112????????????1112??111111111122210222(12)212100120211111110?211?1012
+Taphrosphys_congolensis 
+111100?0100?201??0101?00111200?11000001000???1?1?0?11?0011111111111001?0?51?0?01121110110?111200?11101011201102??000?0?????????????????????222??22???1?10????2??1?1?1012?1???12
+Taphrosphys_ippolitoi 
+111100?0100??01??01011001112?01110000010001??1?1?031110011111111111?0110151?0101121110110?1??2001111010112?1112????????????????????????????????????????????????????????????????
+Azabbaremys 
+111100001000001010100100001211010000001000111111102110001110111111100??0011?0101121110110?111200111101021101102????????????????????????????????????????????????????????????????
+Acleistochelys 
+11110?001000???0101001110012?01200110?10001111111031100011101111111201?0051?111?121110110?1112001111010211?11?2????????????????????????????????????????????????????????????????
+Labrostochelys 
+11110110100?201?10101?0111??012200000012001011010011110011101111111001100(16)0?1101121110110?111200?111010211?11?2????????????????????????????????????????????????????????????????
+Phosphatochelys 
+1111000011002011111001001112001210001023000??1?1103111001110111111100110111?0101121110110?1112001111010(12)12?11?2????????????????????????????????????????????????????????????????
+Ummulisani 
+1111010?110020?0?11001001112001210001023000??????021110011111111111001?01(16)(01)?(01)100121110110?11120011110?0112?1??2??????????????????????????????????????????????2111111100211?1?12
+Rhothonemys 
+111100?0?00??01??1100???1?12?1?2?0001??300???1????311100????1111111????0????0?01121???????11???0?????1??1??11????0000010?10????????????????????????????????????????????????????
+Nigeremys 
+1?1100???000001??010??0????1?01100000??000?0110?1?21100011121111111201?00???1??1121??0?1??1??200??110?0214?11?2???0????????????????????????????????????????????????????????????
+Arenila 
+??110????00?????10100?0???11?0???0000??000001101?0211?0??1121111111201???41?11??12111?110?111200??1?010214?11??????????????????????????????????????????????????????????????????
+Proterochersis 
+???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????11110?0?1??0????00?10000?0010000000011001010
+Platychelys 
+??????????????????1????????????????????????????????????????????????????????????????????????????????????????????????????????1001211?11111?00202010(01)(02)1011000011111111000011011010
+Notoemys 
+?????????????????????????????????????????????????????????1??1?11111????????????11?1????1?11????01??????????1??2????????????1?012???1111?10020?010111?02000011111????00011??001?
+Dortoka                    ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????1?1221???1111?(01)12(01)1100(13)0221210012?311111000?112?0016
+Teneremys 
+????0????00??1?????????0????0????00??????0??11??0??00????1011?11111001?0?41?0??11??????1??1????0????????13?11?2?????10???????1212???1111?132(12)?0?22122?21011??211111?000?1?????1
+;
+END;
+
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MAXSTEPS ;
+END;
+Begin Paup;
+exclude uninf;
+charset cra= 1-123;
+charset non= 124-175;
+charpartition crantest= 1:cra, 2:non;
+end;
+
+
+
+BEGIN TREES;
+
+	TRANSLATE
+		1	'Synapsida/Diapsida',
+		2	Proganochelys,
+		3	Australochelys,
+		4	Palaeochersis,
+		5	Kayentachelys,
+		6	Selmacryptodira,
+		7	Chelidae,
+		8	Pelomedusidae,
+		9	Araripemys,
+		10	Euraxemys,
+		11	Dirqadim,
+		12	Podocnemididae,
+		13	Hamadachelys,
+		14	Brasilemys,
+		15	Cearachelys,
+		16	Galianemys_emringeri,
+		17	Galianemys_whitei,
+		18	Kurmademys,
+		19	Kinkonychelys,
+		20	Sankuchemys,
+		21	Foxemys,
+		22	Polysternon,
+		23	Araiochelys,
+		24	Zolhafah,
+		25	Rosasia,
+		26	Bothremys_cooki,
+		27	Bothremys_maghrebiana,
+		28	Bothremys_kellyi,
+		29	Bothremys_arabicus,
+		30	Chedighaii_hutchisoni,
+		31	Chedighaii_barberi,
+		32	Taphrosphys_sulcatus,
+		33	Taphrosphys_congolensis,
+		34	Taphrosphys_ippolitoi,
+		35	Azabbaremys,
+		36	Acleistochelys,
+		37	Labrostochelys,
+		38	Phosphatochelys,
+		39	Ummulisani,
+		40	Rhothonemys,
+		41	Nigeremys,
+		42	Arenila,
+		43	Proterochersis,
+		44	Platychelys,
+		45	Notoemys,
+		46	Dortoka,
+		47	Teneremys
+	;
+	TREE PAUP_1 =  [&R] 
+(7,((8,9),(10,((12,13),(((15,(16,17)),(18,(21,(((30,(26,27)),24),25)))),((((32,33),38),35),(41,42)))))));
+	TREE PAUP_1 =  [&R] 
+(7,((8,9),(10,((12,13),(((15,(16,17)),(18,((21,22),(((30,(26,27)),24),25)))),((((32,33),38),35),(41,42)))))));
+	TREE PAUP_1 =  [&R] 
+(7,((8,9),(10,((12,13),(((15,(16,17)),(18,((21,22),(((30,(26,27)),24),25)))),((((32,33),38),35),(41,42)))))));
+	TREE PAUP_1 =  [&R] 
+(7,((8,9),(10,((12,13),(((15,(16,17)),(18,((21,22),(((30,(26,27)),24),25)))),((((32,33),38),35),(41,42)))))));
+	TREE Strict =  [&R] 
+(1,(2,(3,(4,((5,6),(43,(44,45,(7,(8,9,(10,11),(12,13,(((15,16,17),((21,22),(23,(26,27,28,29,30,31)),24,25,((32,33,34,37,38,39,40),35,(41,42)))),18,20)))))))))));
+	TREE  * UNTITLED =  [&R] 
+(1,(2,(3,(4,((5,6),(43,((44,45),(46,(7,((8,9),((10,11),(47,(((12,13),14),(((18,19),20),((15,(16,17)),(((((((32,34),33),((38,39),40)),37),(35,36)),(41,42)),((21,22),(24,(25,(23,(((26,27),(28,29)),(30,31))))))))))))))))))))));
+
+END;
+
+
+BEGIN NOTES;
+
+	TEXT  TAXON=34 CHARACTER=28 TEXT= probably_wall_is_absent;
+	TEXT  TAXON=35 CHARACTER=38 TEXT= check;
+	TEXT  TAXON=21 CHARACTER=119 TEXT= ambiguous;
+	TEXT  TAXON=44 CHARACTER=128 TEXT= 'possibly,_only_(8)_known';
+	TEXT  TAXON=45 CHARACTER=128 TEXT= 
+'probably,_)1(_(2(_(3(_(4(--)7(_(8)_known,_fide_Fuente_It-V';
+	TEXT  TAXON=19 CHARACTER=60 TEXT= difference_from_Indians;
+	TEXT  TAXON=19 CHARACTER=95 TEXT= difference_with_indians;
+	TEXT  TAXON=19 CHARACTER=84 TEXT= difference_from_indians;
+	TEXT  TAXON=19 CHARACTER=39 TEXT= 
+deep_emargination_present_but_qj_unknown;
+END;
+
+
+BEGIN MacClade;
+	Version 4.0  75;
+	LastModified -985012651;
+	FileSettings treewindow  '0' '0' '79' '0';
+	Singles 010;
+	Editor 000100011111111000100 '0' '200' Geneva '10' '174' '1' all;
+	EditorPosition  '58' '244' '867' '821';
+	TreeWindowPosition  '40' '2' '826' '1274';
+	ListWindow Characters closed Geneva '9' '50' '10' '265' '630' 10;
+	ListWindow Taxa closed Geneva '9' '50' '10' '265' '313' 100;
+	ListWindow Trees closed Geneva '9' '50' '10' '121' '379' ;
+	ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow ExSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow CharSets closed Geneva '9' '50' '10' '121' '181' ;
+	ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490' ;
+	ListWindow NexusBlocks closed Geneva '9' '50' '10' '276' '490' ;
+	ChartWindowPosition  '50' '30' '688' '964';
+	StateNamesSymbols closed Geneva '9' '9' '125' '469' '176' '576';
+	WindowOrder  Tree;
+	OtherSymbols &/ 00 ?-;
+	Correlation  '0' '0' '1000' '0' '0' 10011010;
+	Salmo 00000001;
+	EditorFile  '2';
+	ExportHTML _ MOSS  '100' 110000;
+	PrettyPrint 10;
+	TreeLegendPosition  '689' '901' '64' '93';
+	EditorToolsPosition  '739' '70' '142' '138';
+	TreeToolsPosition  '607' '5' '126' '138';
+	TreeWindowProgram 00;
+	TreeWindow 0000;
+	Continuous  '0' '3' 1;
+	Calculations 0000001;
+	SummaryMode  '0' '0' 0;
+	Charts  Geneva '9' (normal) 0010;
+	NexusOptions  '0' '0' '50' 001011001;
+	TipLabel  '1';
+	TreeFont  Geneva '9' (normal);
+	TreeShape  1.0 1.0 0101;
+	TraceLabels 0101;
+	ChartColors  '0' '0' '-1' '9' 11;
+	ChartBiggestSpot 1;
+	ChartPercent 10;
+	ChartBarWidth  '10' 1;
+	ChartVerticalAxis 10101;
+	ChartMinMax  '0';
+	TraceAllChangesDisplay  '0' 1;
+	BarsOnBranchesDisplay  '1' '0' '-5536' '10000' '10000' 
+'10000' '10000' '-5536' '-536' '-536' '-536' '20' '3' 0100111;
+	ContinuousBranchLabels 0;
+	AllStatesBranchLabels 1;
+	IndexNotation  '2' 1;
+	PrintTree  10.00 '2' '4' '2' '2' '2' '2' '2' '2' '2' '2' '2' 
+Geneva '7' (normal) Geneva '6' (normal) Geneva '8' (normal) Geneva 
+'9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' 
+(normal) '83' '115' '13' '45' '116' '148' '13' '45' '149' '181' '13' 
+'45' '182' '214' '13' '45' '343' '43' '0' '0' '983' '703' '993' '35' 
+'1035' '35' '1035' '411' '24' '35' '1' '1' '1' '1' '21027' '0' '-39' 
+'4' '-27' '28' '1' '2' '1' '5' '16' '16' '0' '2' 
+0100110001000001010100100111000;
+	MatchChar 00 .;
+	EntryInterpretation 00;
+	ColorOptions 0;
+	TreeTools  '0' '5' '4' '0' '10' '4' '0' 00100111111101110;
+	EditorTools  '0' '0' '0' '1000' '0' '0' '5' '4' 000001011100001;
+	PairAlign  '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010;
+	BothTools  '1';
+END;

@@ -1,0 +1,19 @@
+#NEXUS
+[!Maisch, M., Matzke, A., and Sun, G. 2004. A new dsungaripteroid pterosaur from the lower cretaceous of the southern junggar basin, north-west china. Cretaceous Research 25:625-634.]
+
+begin data;
+dimensions ntax=9 nchar=10;
+format missing=? gap=- symbols="012345";
+MATRIX
+Eudimorphodon_ranzii		0 0 0 0 0 0 0 0 0 0
+Pterodactylus_kochi		0 0 0 0 0 0 0 0 0 0
+Daitingopterus_rhamphastinus	0 0 1 1 0 0 0 1 1 0
+Germanodactylus_cristatus	1 1 1 1 0 0 0 1 1 0
+Normannognathus_wellnhoferi	0 0 2 2 1 0 0 0 1 1
+Domeykodactylus_ceciliae	1 ? 2 ? 0 ? 0 ? 2 1
+Lonchognathosaurus_acutirostris	? 1 2 2 0 1 ? 1 1 1
+Phobetor_parvus			1 1 2 1 0 0 1 1 2 1
+Dsungaripterus_weii		1 1 2 2 1 1 1 1 2 1
+;
+end;
+

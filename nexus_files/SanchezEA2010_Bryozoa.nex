@@ -1,0 +1,44 @@
+#Nexus
+
+[DESCRIPTION AND PHYLOGENETIC ANALYSIS OF IBEROSTOMATA
+FOMBUENENSIS NEW GENUS AND SPECIES
+(BRYOZOA, PTILODICTYINA)
+J. Paleont., 84(4), 2010, pp. 695–708
+ANDREA JIME´ NEZ-SA´ NCHEZ, ROBERT L. ANSTEY, AND BEATRIZ AZANZA]
+
+
+BEGIN DATA;
+DIMENSIONS NTAX=28 NCHAR=28;
+FORMAT INTERLEAVE MISSING=? GAP=- SYMBOLS="0123456789";
+MATRIX
+
+Phyllodicya 0 1 1 1 1 0 2 0 0 0 0 ? 1 1 0 0 0 0 1 1 1 1 1 0 1 0 0 0
+Prophyllodictya 0 1 1 0 1 1 2 0 0 0 0 1 1 1 0 1 0 0 0 0 1 1 0 0 {01} 0 0 {01}
+Stictoporellina 0 1 1 0 1 0 2 0 0 0 0 2 1 1 0 1 0 0 0 {01} 1 1 0 1 0 0 0 0
+Cricodictyum 0 1 1 1 1 0 2 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 0 0 {01} 1 0 0
+Cystostictoporus 0 1 1 1 1 0 3 0 0 0 0 1 1 0 0 0 0 0 1 1 1 1 {01} 0 1 1 0 0
+Eopachydictya 0 1 1 1 1 0 ? 0 1 0 0 2 1 1 0 0 0 0 1 1 1 1 1 0 1 0 0 0
+Pachydictya 0 1 1 1 1 0 2 0 1 0 0 2 1 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0
+Sibiredictya 0 1 1 {01} 1 0 3 0 0 1 0 2 1 1 0 0 0 0 1 0 1 1 1 0 0 0 0 0
+Stictopora 0 1 1 1 1 0 3 0 0 0 0 1 1 0 0 0 0 0 1 1 1 1 0 0 {01} 0 {01} 1
+Stictoporella 0 1 1 0 1 0 2 0 0 0 0 2 1 1 0 1 0 0 0 {01} 1 1 0 1 0 0 0 0
+Trigonodictya {01} 1 1 1 1 0 3 0 0 0 0 2 1 1 0 0 0 0 1 1 1 1 1 0 1 0 0 0
+Amalgamoporus 0 1 1 1 1 0 2 0 0 0 0 1 1 0 0 0 0 0 {01} 0 0 0 0 1 1 0 0 0
+Carinodictya 0 1 1 1 1 0 3 0 0 0 0 2 1 1 0 0 0 0 1 {01} 1 1 1 0 {01} 0 0 {01}
+Euridictya 0 1 1 1 1 0 2 0 1 0 0 1 1 1 0 0 0 0 0 1 1 1 1 0 {01} 0 0 1
+Astrovidictya 0 1 1 0 1 0 2 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0
+Arthrophragma 0 1 1 1 1 0 2 0 0 0 0 1 0 0 0 0 1 0 1 1 1 1 1 0 1 0 0 0
+Metadictya 1 1 1 1 1 0 2 0 1 0 0 1 0 1 0 0 0 0 0 1 0 0 1 0 1 0 0 0
+Orectodictya 0 1 1 1 1 0 2 0 0 0 0 2 0 1 0 1 0 0 1 1 1 1 1 0 {01} 0 0 0
+Pseudostictoporella 0 1 1 0 1 0 2 0 0 0 0 2 1 1 0 1 0 0 0 1 1 1 0 1 0 0 0 1
+Goniotrypa 0 1 1 0 1 0 3 0 0 1 0 1 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 1
+Amurodictya 0 ? ? 0 0 0 0 0 0 0 0 1 ? 1 0 1 0 0 0 0 1 1 0 0 0 0 0 0
+Coscinella 0 1 1 0 1 0 2 0 1 0 0 3 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 1
+Intrapora 0 1 1 0 1 0 2 0 0 0 0 3 1 1 1 0 0 0 0 1 0 0 1 0 0 0 0 1
+Junggarotrypa {01} 1 1 0 1 0 4 1 0 1 0 1 1 1 0 1 0 0 0 0 1 1 0 0 0 0 0 1
+Phragmophera 0 1 1 0 1 0 2 0 1 0 0 2 1 1 1 0 0 0 0 0 1 1 1 0 1 1 0 0
+Stellatodictya 0 1 1 1 1 0 2 1 0 0 0 1 1 1 0 0 0 1 1 0 1 1 1 0 0 0 0 0
+Iberostomata 0 1 1 1 1 0 2 0 1 0 0 1 1 1 1 0 0 1 1 1 1 1 1 0 0 0 0 0
+Hypothetical_ancestor 0 1 1 0 1 0 2 0 0 0 0 3 1 1 0 0 0 0 0 ? 1 1 1 0 1 0 ? 1
+;
+end;
